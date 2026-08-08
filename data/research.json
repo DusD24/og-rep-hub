@@ -1,5 +1,153 @@
 {
   "access_date": "2026-08-08",
+  "campaigns": [
+    {
+      "id": "campaign-neverfull-original",
+      "name": "Original Neverfull evidence campaign",
+      "status": "historical",
+      "scope": "Brown Monogram GM and Eden/floral MM candidate research; retained as the source campaign for the consolidated Neverfull family.",
+      "completed_at": "2026-08-08"
+    },
+    {
+      "id": "campaign-community-first-expansion",
+      "name": "Community-first OG Rep Hub expansion",
+      "status": "active",
+      "scope": "Twelve bag families with independent Reddit-source and Reddit-only image provenance requirements.",
+      "started_at": "2026-08-08"
+    }
+  ],
+  "research_lanes": [
+    {
+      "id": "lane-realladies",
+      "subreddit_focus": "RealRepLadies",
+      "status": "completed_audit",
+      "families_checked": 12,
+      "status_note": "Two-author and image candidates found for all 12 families; local media archive and hash remain a publication gate for the 11 expansion families.",
+      "scope": "Check every launch family for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
+    },
+    {
+      "id": "lane-reptherapy",
+      "subreddit_focus": "RepTherapy",
+      "status": "completed_audit",
+      "families_checked": 12,
+      "status_note": "Two-author and image candidates found for all 12 families; local media archive and hash remain a publication gate for the 11 expansion families.",
+      "scope": "Check every launch family for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
+    },
+    {
+      "id": "lane-repladiesworld",
+      "subreddit_focus": "RepLadiesWorld",
+      "status": "initial_scan_complete",
+      "families_checked": 3,
+      "status_note": "The initial public-feed scan found Chanel Classic Flap, Louis Vuitton Speedy, and Neverfull leads. Promising links remain scan candidates until their source details are normalized; no accessory-only material was imported.",
+      "scope": "Scan public bag posts for PSP/QC, in-hand reviews, auth comparisons, seller/factory mentions, and user-posted image candidates."
+    }
+  ],
+  "publication_requirements": [
+    "A published family needs one representative user-posted Reddit image with post URL, author, subreddit, capture date, hash, and alt text.",
+    "A new family needs at least two independent Reddit authors, including one source from r/RealRepLadies or r/RepTherapy.",
+    "Seller and factory names are displayed only as reported by public sources; no site-level trust, safety, 1:1, best-factory, or authenticity conclusions are allowed."
+  ],
+  "seller_contact_sources": [
+    {
+      "url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/",
+      "label": "r/RepTherapy public seller wiki",
+      "checked_at": "2026-08-08",
+      "scope": "Only contacts for sellers already tracked in the bag-focused directory were imported. Jewelry, glasses, accessory-only names, and untracked sellers were omitted.",
+      "interpretation": "Community-listed contact provenance only; it does not establish current availability, seller ownership, or a site-level endorsement."
+    }
+  ],
+  "glossary_source_url": "https://www.reddit.com/r/RepTherapy/wiki/glossary/",
+  "glossary_last_verified": "2026-08-08",
+  "glossary": [
+    {"term": "AE", "definition": "AliExpress."},
+    {"term": "AB", "definition": "Alibaba."},
+    {"term": "auth", "definition": "Authentic; an auth comparison is a reference point, not an authentication performed by this guide."},
+    {"term": "BST", "definition": "Buy, Sell, Trade."},
+    {"term": "CS", "definition": "Customer Service."},
+    {"term": "Dave", "definition": "Community nickname for customs agents in general."},
+    {"term": "DHG", "definition": "DHGate."},
+    {"term": "DM", "definition": "Direct Message."},
+    {"term": "FS", "definition": "For Sale."},
+    {"term": "GB", "definition": "Group Buy."},
+    {"term": "GHW", "definition": "Gold Hardware."},
+    {"term": "GL", "definition": "Green Light: approve an item based on a review of PSP."},
+    {"term": "HW", "definition": "Hardware."},
+    {"term": "ISO", "definition": "In Search Of: a request for a specific bag, size, material, or colorway."},
+    {"term": "Mod", "definition": "Moderator."},
+    {"term": "OP", "definition": "Original Poster."},
+    {"term": "PHW", "definition": "Palladium Hardware."},
+    {"term": "PM", "definition": "Private Message; private messages are not accepted as site evidence."},
+    {"term": "PoP", "definition": "Proof of Purchase."},
+    {"term": "PP", "definition": "PayPal, often written as PPFF."},
+    {"term": "PSP", "definition": "Pre-Shipment Photos."},
+    {"term": "QC", "definition": "Quality Check."},
+    {"term": "QC Pics", "definition": "Another term for pre-shipment photos."},
+    {"term": "Rep", "definition": "Replica."},
+    {"term": "RG", "definition": "Rose Gold."},
+    {"term": "RH", "definition": "Rehome: a peer-to-peer resale or reassignment post, not seller or inventory verification."},
+    {"term": "RHW", "definition": "Ruthenium Hardware."},
+    {"term": "RL", "definition": "Red Light: reject an item based on a review of PSP."},
+    {"term": "SHW", "definition": "Silver Hardware."},
+    {"term": "SLG", "definition": "Small leather goods such as wallets, cosmetic cases, or card cases."},
+    {"term": "TS", "definition": "A seller shorthand used in community posts; this guide preserves the author and source instead of turning it into a site verdict."},
+    {"term": "TTS", "definition": "True To Size."},
+    {"term": "VG", "definition": "Vgold, a vanadium finish used for gold-color finishes."},
+    {"term": "W2B", "definition": "Where to buy, also written as where to cop."},
+    {"term": "WA", "definition": "WhatsApp."},
+    {"term": "WG", "definition": "White Gold."},
+    {"term": "WOC", "definition": "Wallet On Chain."},
+    {"term": "YG", "definition": "Yellow Gold."}
+  ],
+  "scan_log": [
+    {
+      "id": "scan-repladiesworld-initial-2026-08-08",
+      "subreddit_focus": "RepLadiesWorld",
+      "source_url": "https://www.reddit.com/r/RepLadiesWorld/",
+      "checked_at": "2026-08-08",
+      "status": "candidate_leads",
+      "candidate_sources": [
+        {
+          "family_ids": ["bag-family-chanel-classic-flap"],
+          "title": "QC Help | Chanel C25 Small Ruthenium | OF Factory",
+          "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1ux2bv6/qc_help_chanel_c25_small_ruthenium_of_factory/",
+          "author": "itsblessiebee",
+          "evidence_type": "psp_qc",
+          "status": "needs_normalization",
+          "note": "Public C25 PSP/QC post asks about quilting before GL and identifies an OF Factory reference. No seller is named in the post; contact requests in comments are not imported."
+        },
+        {
+          "family_ids": ["bag-family-chanel-classic-flap"],
+          "title": "Maxi Flap experts needed: Which factory has the most accurate CC turn lock",
+          "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1uf1sa2/maxi_flap_experts_needed_which_has_the_most/",
+          "author": "greekrep",
+          "evidence_type": "auth_comparison",
+          "status": "needs_normalization",
+          "note": "Public comparison includes authentic, 187, Xiao C, and God references. Comments conflict on hardware, leather, and turnlock observations, so the AI-generated page summary is not treated as evidence."
+        },
+        {
+          "family_ids": ["bag-family-louis-vuitton-speedy"],
+          "title": "QC Help – LV Speedy Bandouliere 25 Monogram from Hyper Peter",
+          "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1ukcarv/qc_help_lv_speedy_bandouli%C3%A8re_25_monogram_from/",
+          "author": "bermuda_locket",
+          "evidence_type": "psp_qc",
+          "status": "needs_normalization",
+          "note": "Public post explicitly names Hyper Peter and Speedy Bandouliere 25 Monogram. The author asks for canvas, alignment, leather, stitching, and hardware feedback; one commenter flags red glazing."
+        },
+        {
+          "family_ids": ["bag-family-chanel-classic-flap", "bag-family-louis-vuitton-speedy"],
+          "title": "Reviews and lessons learned from a newbie (C25 Small Beige and LV Speedy Dark 30)",
+          "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1ud5nt0/reviews_and_lessons_learned_from_a_newbie_cc25/",
+          "author": "Zen_Friend",
+          "evidence_type": "in_hand_review",
+          "status": "needs_normalization",
+          "note": "Public rehome review records size-specific observations for a C25 attributed to Xiao C and a Speedy Dark 30 allegedly from Royal. Both are rehomes, so seller/contact attribution is not added."
+        }
+      ],
+      "exclusions": [
+        "An LV Neverfull from Anisa appeared in the scan, but Anisa is not an existing tracked seller in this bag directory. The post also contains an access credential; that credential is not copied or imported."
+      ]
+    }
+  ],
   "rounds": [
     {
       "id": "round-1",
@@ -36,10 +184,12 @@
   "saturation_reached": true,
   "saturation_reached_at": "2026-08-08",
   "limitations": [
-    "No verified seller-owned public contact or catalog URL appeared in the accessible sources.",
+    "Public community-wiki contact rows exist for five already-tracked sellers, but seller ownership and current availability remain unverified.",
     "No source directly tied brown Eden MM to a named seller and factory.",
     "Only one brief author directly supported the brown Monogram GM target, with factory undisclosed.",
-    "Some Reddit publication dates are stored as disclosed estimates because the visible UI showed relative age only."
+    "Some Reddit publication dates are stored as disclosed estimates because the visible UI showed relative age only.",
+    "The 11 expansion families remain research-queue records until their two-author and Reddit-image requirements are met.",
+    "The r/RepLadiesWorld work is an initial three-family scan, not a completed 12-family audit; its leads remain separate until normalized."
   ],
   "saturation_rule": "Stop after two consecutive targeted search rounds add no new seller-factory-bag combination."
 }

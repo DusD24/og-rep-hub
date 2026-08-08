@@ -1,2 +1,62 @@
-[]
-
+[
+  {
+    "id": "contact-hyper-peter-whatsapp",
+    "seller_id": "seller-hyper-peter",
+    "channel": "whatsapp",
+    "value": "+44 7743 038638",
+    "link_url": "https://wa.me/447743038638",
+    "public_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/",
+    "source_label": "r/RepTherapy public seller wiki",
+    "provenance": "reddit_public_wiki",
+    "last_verified": "2026-08-08",
+    "verification_note": "Community-listed contact copied from the public wiki; publication does not establish current availability or seller ownership."
+  },
+  {
+    "id": "contact-doris-whatsapp",
+    "seller_id": "seller-doris",
+    "channel": "whatsapp",
+    "value": "+86 136 1794 4481",
+    "link_url": "https://wa.me/8613617944481",
+    "public_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/",
+    "source_label": "r/RepTherapy public seller wiki",
+    "provenance": "reddit_public_wiki",
+    "last_verified": "2026-08-08",
+    "verification_note": "Community-listed contact copied from the public wiki; publication does not establish current availability or seller ownership."
+  },
+  {
+    "id": "contact-mandy-whatsapp",
+    "seller_id": "seller-mandy",
+    "channel": "whatsapp",
+    "value": "+86 137 1177 7686",
+    "link_url": "https://wa.me/8613711777686",
+    "public_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/",
+    "source_label": "r/RepTherapy public seller wiki",
+    "provenance": "reddit_public_wiki",
+    "last_verified": "2026-08-08",
+    "verification_note": "Community-listed contact copied from the public wiki; publication does not establish current availability or seller ownership."
+  },
+  {
+    "id": "contact-baobao-whatsapp",
+    "seller_id": "seller-baobao",
+    "channel": "whatsapp",
+    "value": "+86 180 2276 4052",
+    "link_url": "https://wa.me/8618022764052",
+    "public_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/",
+    "source_label": "r/RepTherapy public seller wiki",
+    "provenance": "reddit_public_wiki",
+    "last_verified": "2026-08-08",
+    "verification_note": "Community-listed contact copied from the public wiki; publication does not establish current availability or seller ownership."
+  },
+  {
+    "id": "contact-mike-whatsapp",
+    "seller_id": "seller-mike",
+    "channel": "whatsapp",
+    "value": "+86 155 7018 1385",
+    "link_url": "https://wa.me/8615570181385",
+    "public_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/",
+    "source_label": "r/RepTherapy public seller wiki",
+    "provenance": "reddit_public_wiki",
+    "last_verified": "2026-08-08",
+    "verification_note": "Community-listed contact copied from the public wiki; publication does not establish current availability or seller ownership."
+  }
+]

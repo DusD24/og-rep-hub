@@ -12,7 +12,9 @@
       "payment_risk_signals": 55
     },
     "reliability_evidence_ids": ["ev-hp-mm-durability", "ev-hp-mm-recent", "ev-hp-gm-azur", "ev-hp-gm-ebene", "ev-hp-factory-policy"],
-    "confidence_note": "Several historical delivery and communication reports, but mixed product QC and factory non-disclosure. No verified seller-owned public contact source."
+    "confidence_note": "Several historical delivery and communication reports, but mixed product QC and factory non-disclosure. A public community wiki lists a WhatsApp contact; seller ownership and current availability remain unverified.",
+    "community_contact_status": "community_listed",
+    "contact_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/"
   },
   {
     "id": "seller-old-cobbler",
@@ -42,7 +44,9 @@
       "payment_risk_signals": 60
     },
     "reliability_evidence_ids": ["ev-doris-birdcage-review", "ev-doris-birdcage-qc", "ev-doris-other-order"],
-    "confidence_note": "Two authors support historical fulfillment/service, but only one author supplies Doris-specific Eden Neverfull product evidence. No verified public contact source."
+    "confidence_note": "Two authors support historical fulfillment/service, but only one author supplies Doris-specific Eden Neverfull product evidence. A public community wiki lists a WhatsApp contact; seller ownership and current availability remain unverified.",
+    "community_contact_status": "community_listed",
+    "contact_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/"
   },
   {
     "id": "seller-mandy",
@@ -51,7 +55,9 @@
     "last_verified": "2026-08-08",
     "reliability_metrics": null,
     "reliability_evidence_ids": ["ev-mandy-huahui-pending"],
-    "confidence_note": "Only a pending order was found; insufficient evidence for seller reliability scoring."
+    "confidence_note": "Only a pending order was found; insufficient evidence for seller reliability scoring. A public community wiki lists a WhatsApp contact; seller ownership and current availability remain unverified.",
+    "community_contact_status": "community_listed",
+    "contact_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/"
   },
   {
     "id": "seller-baobao",
@@ -60,6 +66,203 @@
     "last_verified": "2026-08-08",
     "reliability_metrics": null,
     "reliability_evidence_ids": ["ev-baobao-birdcage-comment"],
-    "confidence_note": "One public owner comment ties Baobao to a Birdcage Eden Neverfull; no fulfillment timeline or service assessment."
+    "confidence_note": "One public owner comment ties Baobao to a Birdcage Eden Neverfull; no fulfillment timeline or service assessment. A public community wiki lists a WhatsApp contact; seller ownership and current availability remain unverified.",
+    "community_contact_status": "community_listed",
+    "contact_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/"
+  },
+  {
+    "id": "seller-maryya",
+    "display_name": "Maryya",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in public Neverfull discussion; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-heidi",
+    "display_name": "Heidi",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name is reported in public Classic Flap and Book Tote posts; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-mike",
+    "display_name": "Mike",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Speedy post. A public community wiki lists a WhatsApp contact; seller ownership and current availability remain unverified.",
+    "community_contact_status": "community_listed",
+    "contact_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/"
+  },
+  {
+    "id": "seller-miss-yu",
+    "display_name": "Miss Yu",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Speedy post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-titi-4325",
+    "display_name": "Titi (number ending 4325)",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Public post uses a partial identifier; no unverified contact information is stored."
+  },
+  {
+    "id": "seller-mia",
+    "display_name": "Mia",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Puzzle post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-alisa",
+    "display_name": "Alisa",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Saint Louis post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-hms-zm-mode",
+    "display_name": "HMS / ZM Mode",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Names appear in a public Birkin 25 post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-heidy",
+    "display_name": "Heidy",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Birkin 25 post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-alina",
+    "display_name": "Alina",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Arcadie post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-reykay",
+    "display_name": "Reykay",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Arcadie discussion; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-garmen",
+    "display_name": "Garmen",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Lady Dior post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-emily-lunghon",
+    "display_name": "Emily Lunghon",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Lady Dior post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-emily",
+    "display_name": "Emily",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Book Tote post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-andy",
+    "display_name": "Andy",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Classic Flap post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-axin",
+    "display_name": "Axin",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Margaux post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-griffin",
+    "display_name": "Griffin",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in public Saint Louis posts; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-elaine",
+    "display_name": "Elaine",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Birkin 25 post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-jim",
+    "display_name": "Jim",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Birkin 25 post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-ariel",
+    "display_name": "Ariel",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Arcadie post. The public community wiki notes this seller was removed; no contact is imported here.",
+    "community_contact_status": "removed_from_community_wiki",
+    "contact_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/"
+  },
+  {
+    "id": "seller-mr-canvas",
+    "display_name": "Mr Canvas",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": [],
+    "confidence_note": "Name appears in a public Book Tote post. The public community wiki notes this seller was removed; no contact is imported here.",
+    "community_contact_status": "removed_from_community_wiki",
+    "contact_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/"
   }
 ]

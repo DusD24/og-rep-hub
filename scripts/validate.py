@@ -13,9 +13,12 @@ from urllib.parse import urlparse
 
 from model import DATA, ROOT, load
 
-COLLECTIONS = ("bags", "sellers", "factories", "offerings", "evidence", "contacts", "media")
+COLLECTIONS = ("bag_families", "bags", "sellers", "factories", "offerings", "evidence", "contacts", "media")
 STATUSES = {"seller_confirmed", "catalog_seen", "historically_ordered", "inferred", "unavailable", "unknown"}
 SOURCE_TYPES = {"reddit_review", "reddit_qc", "reddit_discussion", "catalog", "official_reference"}
+EVIDENCE_TYPES = {"auth_comparison", "factory_comparison", "in_hand_review", "long_term_wear", "psp_qc", "seller_context"}
+FAMILY_STATUSES = {"published", "research_queue"}
+PRIMARY_SUBREDDITS = {"RealRepLadies", "RepTherapy"}
 CONTACT_TYPES = {"whatsapp", "wechat", "email", "website", "instagram", "telegram", "phone", "other"}
 FORBIDDEN_KEYS = {"payment", "address", "private_message", "buyer_conversation", "password", "secret", "token"}
 SENSITIVE_PATTERNS = [
@@ -51,6 +54,10 @@ def valid_url(value: str) -> bool:
     return parsed.scheme == "https" and bool(parsed.netloc)
 
 
+def reddit_url(value: str) -> bool:
+    return valid_url(value) and urlparse(value).hostname in {"reddit.com", "www.reddit.com"}
+
+
 def flatten(value, path="$"):
     if isinstance(value, dict):
         for key, child in value.items():
@@ -84,8 +91,59 @@ def validate() -> list[str]:
                 seen.add(item_id)
         ids[name] = seen
 
+    family_rows = records["bag_families"]
+    if len(family_rows) != 12:
+        v.error(f"bag_families.json: expected exactly 12 launch families, found {len(family_rows)}")
+    family_slugs: set[str] = set()
+    for index, row in enumerate(family_rows):
+        where = f"bag_families[{index}]"
+        v.required(row, ("slug", "brand", "model", "aliases", "category", "summary", "publication_status", "documented_variant_ids", "evidence_ids", "evidence_coverage", "last_updated", "research_gaps"), where)
+        slug = row.get("slug")
+        if slug in family_slugs:
+            v.error(f"{where}: duplicate slug {slug}")
+        if slug:
+            family_slugs.add(slug)
+        if row.get("publication_status") not in FAMILY_STATUSES:
+            v.error(f"{where}: invalid publication_status {row.get('publication_status')}")
+        if row.get("last_updated") and not valid_date(row["last_updated"]):
+            v.error(f"{where}: invalid last_updated")
+        for variant_id in row.get("documented_variant_ids", []):
+            if variant_id not in ids["bags"]:
+                v.error(f"{where}: unknown documented_variant_id {variant_id}")
+        for evidence_id in row.get("evidence_ids", []):
+            if evidence_id not in ids["evidence"]:
+                v.error(f"{where}: unknown evidence_id {evidence_id}")
+        coverage = row.get("evidence_coverage", {})
+        v.required(coverage, ("source_count", "independent_author_count", "primary_subreddit_coverage", "image_ready", "evidence_types"), f"{where}.evidence_coverage")
+        linked_evidence = [item for item in records["evidence"] if item.get("id") in set(row.get("evidence_ids", []))]
+        authors = {item.get("author", "").casefold() for item in linked_evidence if item.get("author")}
+        subreddits = {item.get("subreddit") for item in linked_evidence if item.get("subreddit")}
+        if coverage.get("source_count") != len(linked_evidence):
+            v.error(f"{where}: evidence_coverage.source_count does not match evidence_ids")
+        if coverage.get("independent_author_count") != len(authors):
+            v.error(f"{where}: evidence_coverage.independent_author_count does not match linked authors")
+        if len(authors) < 2:
+            v.error(f"{where}: two independent Reddit authors are required")
+        if not subreddits & PRIMARY_SUBREDDITS:
+            v.error(f"{where}: a RealRepLadies or RepTherapy source is required")
+        candidate = row.get("candidate_tile")
+        if row.get("publication_status") == "published" and not row.get("tile_media_id"):
+            v.error(f"{where}: published family needs a Reddit tile_media_id")
+        if row.get("publication_status") == "research_queue" and not candidate:
+            v.error(f"{where}: research_queue family needs a candidate_tile provenance record")
+        if candidate:
+            v.required(candidate, ("status", "post_url", "author", "subreddit", "capture_date", "alt_text"), f"{where}.candidate_tile")
+            if not reddit_url(candidate.get("post_url")):
+                v.error(f"{where}.candidate_tile: post_url must be a public Reddit URL")
+            if not valid_date(candidate.get("capture_date")):
+                v.error(f"{where}.candidate_tile: invalid capture_date")
+            if candidate.get("status") != "candidate_not_archived":
+                v.error(f"{where}.candidate_tile: status must disclose that local archival is pending")
+
     for index, row in enumerate(records["bags"]):
-        v.required(row, ("name", "size", "pattern", "colorway", "priority", "official_reference_url"), f"bags[{index}]")
+        v.required(row, ("name", "size", "pattern", "colorway", "priority", "family_id", "material", "hardware", "official_reference_url"), f"bags[{index}]")
+        if row.get("family_id") not in ids["bag_families"]:
+            v.error(f"bags[{index}]: unknown family_id {row.get('family_id')}")
         if row.get("official_reference_url") and not valid_url(row["official_reference_url"]):
             v.error(f"bags[{index}]: official_reference_url must be https")
         if row.get("tile_media_id") and row["tile_media_id"] not in ids["media"]:
@@ -106,10 +164,15 @@ def validate() -> list[str]:
 
     for index, row in enumerate(records["offerings"]):
         where = f"offerings[{index}]"
-        v.required(row, ("seller_id", "bag_id", "factory_id", "status", "last_verified", "evidence_ids"), where)
-        for field, target in (("seller_id", "sellers"), ("bag_id", "bags"), ("factory_id", "factories")):
+        v.required(row, ("seller_id", "bag_id", "variant_id", "family_id", "factory_id", "status", "last_verified", "evidence_ids"), where)
+        for field, target in (("seller_id", "sellers"), ("bag_id", "bags"), ("variant_id", "bags"), ("family_id", "bag_families"), ("factory_id", "factories")):
             if row.get(field) not in ids[target]:
                 v.error(f"{where}: unknown {field} {row.get(field)}")
+        if row.get("variant_id") != row.get("bag_id"):
+            v.error(f"{where}: variant_id must match the exact bag_id for backward-compatible references")
+        variant = next((item for item in records["bags"] if item.get("id") == row.get("variant_id")), None)
+        if variant and variant.get("family_id") != row.get("family_id"):
+            v.error(f"{where}: family_id does not match the referenced exact variant")
         if row.get("status") not in STATUSES:
             v.error(f"{where}: invalid status {row.get('status')}")
         if row.get("last_verified") and not valid_date(row["last_verified"]):
@@ -127,15 +190,17 @@ def validate() -> list[str]:
 
     for index, row in enumerate(records["evidence"]):
         where = f"evidence[{index}]"
-        v.required(row, ("source_type", "url", "publication_date", "access_date", "exact_product_match", "paraphrase", "positive_observations", "negative_observations", "media_ids"), where)
+        v.required(row, ("source_type", "evidence_type", "url", "publication_date", "access_date", "exact_product_match", "paraphrase", "positive_observations", "negative_observations", "media_ids"), where)
         if row.get("source_type") not in SOURCE_TYPES:
             v.error(f"{where}: invalid source_type")
+        if row.get("evidence_type") not in EVIDENCE_TYPES:
+            v.error(f"{where}: invalid evidence_type")
         if row.get("url") and not valid_url(row["url"]):
             v.error(f"{where}: URL must be https")
         for field in ("publication_date", "access_date"):
             if row.get(field) and not valid_date(row[field]):
                 v.error(f"{where}: invalid {field}")
-        for field, target in (("seller_ids", "sellers"), ("factory_ids", "factories"), ("bag_ids", "bags"), ("media_ids", "media")):
+        for field, target in (("seller_ids", "sellers"), ("factory_ids", "factories"), ("bag_ids", "bags"), ("family_ids", "bag_families"), ("media_ids", "media")):
             for ref in row.get(field, []):
                 if ref not in ids[target]:
                     v.error(f"{where}: unknown {field} reference {ref}")
@@ -155,12 +220,14 @@ def validate() -> list[str]:
             v.error(f"{where}: public_source_url must be https")
         if row.get("last_verified") and not valid_date(row["last_verified"]):
             v.error(f"{where}: invalid last_verified")
-        if row.get("provenance") not in {"seller_public_catalog", "seller_public_profile", "reddit_public_post"}:
+        if row.get("provenance") not in {"seller_public_catalog", "seller_public_profile", "reddit_public_post", "reddit_public_wiki"}:
             v.error(f"{where}: public provenance is required")
+        if row.get("link_url") and not valid_url(row["link_url"]):
+            v.error(f"{where}: link_url must be https")
 
     for index, row in enumerate(records["media"]):
         where = f"media[{index}]"
-        v.required(row, ("path", "attribution", "source_url", "capture_date", "sha256", "research_purpose"), where)
+        v.required(row, ("path", "attribution", "source_url", "post_url", "author", "subreddit", "capture_date", "sha256", "research_purpose"), where)
         path = ROOT / row.get("path", "")
         if not path.is_file():
             v.error(f"{where}: missing media file {row.get('path')}")
@@ -168,7 +235,9 @@ def validate() -> list[str]:
             v.error(f"{where}: SHA-256 mismatch")
         if row.get("source_url") and not valid_url(row["source_url"]):
             v.error(f"{where}: source_url must be https")
-        if row.get("usage_scope") == "target_tile" and urlparse(row.get("source_url", "")).hostname not in {"reddit.com", "www.reddit.com"}:
+        if row.get("post_url") and not reddit_url(row["post_url"]):
+            v.error(f"{where}: post_url must be a public Reddit URL")
+        if row.get("usage_scope") == "target_tile" and not reddit_url(row.get("source_url")):
             v.error(f"{where}: target tile source must be a public Reddit post")
         if row.get("capture_date") and not valid_date(row["capture_date"]):
             v.error(f"{where}: invalid capture_date")
@@ -188,6 +257,20 @@ def validate() -> list[str]:
             v.error(f"evidence[{index}]: major_negative needs a sourced observation")
         if row.get("allegation") and row.get("language") != "attributed_claim":
             v.error(f"evidence[{index}]: allegations must be explicitly attributed")
+
+    # Every published family must point at a locally hashed Reddit-only tile.
+    media_by_id = {row["id"]: row for row in records["media"]}
+    for index, family in enumerate(records["bag_families"]):
+        if family.get("publication_status") != "published":
+            continue
+        media = media_by_id.get(family.get("tile_media_id"))
+        if not media:
+            v.error(f"bag_families[{index}]: published family tile media is missing")
+            continue
+        if media.get("usage_scope") != "target_tile" or not reddit_url(media.get("post_url")):
+            v.error(f"bag_families[{index}]: published family tile must be a Reddit-only target tile")
+        if not media.get("sha256"):
+            v.error(f"bag_families[{index}]: published family tile needs a SHA-256 hash")
 
     return v.errors
 

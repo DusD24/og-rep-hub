@@ -6,6 +6,9 @@
     "pattern": "Monogram",
     "colorway": "brown",
     "priority": "primary",
+    "family_id": "bag-family-louis-vuitton-neverfull",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
     "tile_media_id": "media-monogram-gm-reddit",
     "official_reference_url": "https://us.louisvuitton.com/eng-us/products/neverfull-gm-monogram-nvprod5350101v/M46978"
   },
@@ -16,6 +19,9 @@
     "pattern": "Monogram Eden",
     "colorway": "brown",
     "priority": "secondary-priority",
+    "family_id": "bag-family-louis-vuitton-neverfull",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
     "tile_media_id": "media-eden-neverfull-reddit",
     "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
   },
@@ -26,6 +32,9 @@
     "pattern": "Monogram Eden",
     "colorway": "unknown",
     "priority": "research-lead",
+    "family_id": "bag-family-louis-vuitton-neverfull",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
     "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
   },
   {
@@ -35,6 +44,9 @@
     "pattern": "Monogram",
     "colorway": "brown",
     "priority": "near-match",
+    "family_id": "bag-family-louis-vuitton-neverfull",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
     "official_reference_url": "https://us.louisvuitton.com/eng-us/products/neverfull-mm-monogram-nvprod5350100v/M46975"
   },
   {
@@ -44,6 +56,9 @@
     "pattern": "Monogram",
     "colorway": "brown",
     "priority": "near-match",
+    "family_id": "bag-family-louis-vuitton-neverfull",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
     "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
   },
   {
@@ -53,6 +68,9 @@
     "pattern": "Damier Azur",
     "colorway": "light",
     "priority": "seller-reliability-only",
+    "family_id": "bag-family-louis-vuitton-neverfull",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
     "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
   },
   {
@@ -62,6 +80,9 @@
     "pattern": "Damier Ebene",
     "colorway": "brown",
     "priority": "seller-reliability-only",
+    "family_id": "bag-family-louis-vuitton-neverfull",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
     "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
   },
   {
@@ -71,6 +92,9 @@
     "pattern": "Damier Azur",
     "colorway": "light",
     "priority": "seller-reliability-only",
+    "family_id": "bag-family-louis-vuitton-neverfull",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
     "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
   }
 ]

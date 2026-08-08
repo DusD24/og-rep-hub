@@ -49,15 +49,48 @@ class DataTests(unittest.TestCase):
             if not offering.get("evidence_ids"):
                 self.assertEqual(row["rank_status"], "unranked")
 
-    def test_target_bags_have_one_reddit_tile_image_each(self):
-        targets = [row for row in load("bags") if row["priority"] in {"primary", "secondary-priority"}]
+    def test_twelve_families_have_source_coverage_and_unique_slugs(self):
+        families = load("bag_families")
+        self.assertEqual(len(families), 12)
+        self.assertEqual(len({row["slug"] for row in families}), 12)
+        self.assertTrue(all(row["evidence_coverage"]["independent_author_count"] >= 2 for row in families))
+        self.assertTrue(all(set(row["evidence_coverage"]["primary_subreddit_coverage"]) & {"RealRepLadies", "RepTherapy"} for row in families))
+
+    def test_published_family_tiles_are_reddit_only_and_research_queue_is_explicit(self):
+        families = load("bag_families")
         media = {row["id"]: row for row in load("media")}
-        tile_ids = [row.get("tile_media_id") for row in targets]
-        self.assertEqual(len(targets), 2)
-        self.assertEqual(len(tile_ids), len(set(tile_ids)))
-        self.assertTrue(all(tile_id in media for tile_id in tile_ids))
-        self.assertTrue(all(media[tile_id]["source_url"].startswith("https://www.reddit.com/") for tile_id in tile_ids))
-        self.assertTrue(all(media[tile_id].get("usage_scope") == "target_tile" for tile_id in tile_ids))
+        published = [row for row in families if row["publication_status"] == "published"]
+        self.assertTrue(published)
+        self.assertTrue(all(row["tile_media_id"] in media for row in published))
+        self.assertTrue(all(media[row["tile_media_id"]]["post_url"].startswith("https://www.reddit.com/") for row in published))
+        self.assertTrue(all(media[row["tile_media_id"]].get("usage_scope") == "target_tile" for row in published))
+        queued = [row for row in families if row["publication_status"] == "research_queue"]
+        self.assertEqual(len(queued), 11)
+        self.assertTrue(all(row.get("tile_media_id") is None and row.get("candidate_tile", {}).get("sha256") is None for row in queued))
+
+    def test_variants_and_offerings_keep_family_and_exact_variant_references(self):
+        families = {row["id"] for row in load("bag_families")}
+        variants = load("bags")
+        self.assertTrue(all(row.get("family_id") in families and "material" in row and "hardware" in row for row in variants))
+        self.assertTrue(all(row["variant_id"] == row["bag_id"] for row in load("offerings")))
+        self.assertTrue(all(row["family_id"] in families for row in load("offerings")))
+
+    def test_contacts_are_public_wiki_rows_for_existing_sellers_only(self):
+        sellers = {row["id"] for row in load("sellers")}
+        contacts = load("contacts")
+        self.assertEqual(len(contacts), 5)
+        self.assertTrue(all(row["seller_id"] in sellers for row in contacts))
+        self.assertTrue(all(row["provenance"] == "reddit_public_wiki" for row in contacts))
+        self.assertTrue(all(row["public_source_url"].endswith("/r/RepTherapy/wiki/trustedsellers/") for row in contacts))
+        self.assertEqual({row["seller_id"] for row in contacts}, {"seller-hyper-peter", "seller-doris", "seller-mandy", "seller-baobao", "seller-mike"})
+
+    def test_research_lanes_include_rep_ladies_world_scan_candidates(self):
+        research = load("research")
+        lane = next(row for row in research["research_lanes"] if row["subreddit_focus"] == "RepLadiesWorld")
+        self.assertEqual(lane["status"], "initial_scan_complete")
+        self.assertEqual(lane["families_checked"], 3)
+        self.assertEqual(len(research["scan_log"][0]["candidate_sources"]), 4)
+        self.assertEqual(research["glossary_source_url"], "https://www.reddit.com/r/RepTherapy/wiki/glossary/")
 
 
 if __name__ == "__main__":

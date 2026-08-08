@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read the public-data rules
+    url: https://github.com/DusD24/og-rep-hub#public-data-and-attribution
+    about: Please review the contribution rules before submitting a source or media request.

@@ -28,5 +28,101 @@
     "display_name": "Royal",
     "aliases": [],
     "notes": "Mentioned as a visual comparison alternative and on a different Eden bag style; no Eden Neverfull offering established."
+  },
+  {
+    "id": "factory-187",
+    "display_name": "187",
+    "aliases": [],
+    "notes": "Named or discussed in a public Chanel Classic Flap post; exact received-bag attribution is not independently established."
+  },
+  {
+    "id": "factory-god",
+    "display_name": "God",
+    "aliases": ["GOD"],
+    "notes": "Reported in public Speedy, Classic Flap, and Book Tote posts; consistency is not inferred from the name alone."
+  },
+  {
+    "id": "factory-mb",
+    "display_name": "MB",
+    "aliases": [],
+    "notes": "Reported in a public Speedy post; no broader factory conclusion is made."
+  },
+  {
+    "id": "factory-kendall",
+    "display_name": "Kendall",
+    "aliases": [],
+    "notes": "Reported in a public Margaux post; seller/factory role remains as described by the author."
+  },
+  {
+    "id": "factory-masoni",
+    "display_name": "Masoni",
+    "aliases": [],
+    "notes": "A reported leather-origin claim in a Margaux source; not independently verified here."
+  },
+  {
+    "id": "factory-liusheng",
+    "display_name": "Liusheng",
+    "aliases": ["Luisheng"],
+    "notes": "Reported in public Flamenco posts and comments; no broader consistency claim is made."
+  },
+  {
+    "id": "factory-jing",
+    "display_name": "Jing",
+    "aliases": [],
+    "notes": "Reported in public Andiamo posts; no broader consistency claim is made."
+  },
+  {
+    "id": "factory-lemon",
+    "display_name": "Lemon (reported)",
+    "aliases": ["Lemon Factory"],
+    "notes": "A tentative factory name in a public Saint Louis source; the author included uncertainty."
+  },
+  {
+    "id": "factory-white",
+    "display_name": "White Factory",
+    "aliases": [],
+    "notes": "Reported in a public Saint Louis QC post; no broader consistency claim is made."
+  },
+  {
+    "id": "factory-h",
+    "display_name": "H Factory",
+    "aliases": ["H"],
+    "notes": "Reported in a public Birkin 25 QC post; exact bag attributes remain incomplete."
+  },
+  {
+    "id": "factory-kata",
+    "display_name": "Kata",
+    "aliases": [],
+    "notes": "Reported in a public Arcadie post; no broader consistency claim is made."
+  },
+  {
+    "id": "factory-li",
+    "display_name": "Li Factory",
+    "aliases": ["Li"],
+    "notes": "Reported in a public Lady Dior post; no broader consistency claim is made."
+  },
+  {
+    "id": "factory-angel",
+    "display_name": "Angel",
+    "aliases": [],
+    "notes": "Reported in a public Book Tote post; no broader consistency claim is made."
+  },
+  {
+    "id": "factory-autumn",
+    "display_name": "Autumn",
+    "aliases": [],
+    "notes": "Reported in a public Flamenco post; no broader consistency claim is made."
+  },
+  {
+    "id": "factory-ls",
+    "display_name": "LS Factory",
+    "aliases": ["LS"],
+    "notes": "Reported in a public Puzzle post; no broader consistency claim is made."
+  },
+  {
+    "id": "factory-top",
+    "display_name": "The Top Factory",
+    "aliases": ["Top Factory"],
+    "notes": "Reported in a public Andiamo post; no broader consistency claim is made."
   }
 ]
