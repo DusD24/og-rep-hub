@@ -1,0 +1,10 @@
+[project]
+name = "og-rep-hub"
+version = "1.0.0"
+requires-python = "==3.13.*"
+description = "Evidence-linked static research catalog"
+
+[tool.og-rep-hub]
+python = "3.13.7"
+dependencies = []
+

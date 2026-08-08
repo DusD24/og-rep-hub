@@ -1,0 +1,45 @@
+{
+  "access_date": "2026-08-08",
+  "rounds": [
+    {
+      "id": "round-1",
+      "lanes": ["primary", "eden"],
+      "result": "Initial six-tab corpus plus focused searches produced HP/OC primary leads and Doris/Mandy Eden combinations.",
+      "new_combinations": [
+        "Hyper Peter|unknown factory|Monogram Neverfull GM",
+        "Hyper Peter|unknown factory|Monogram Neverfull MM",
+        "Hyper Peter|unknown factory|Damier Azur Neverfull GM",
+        "Old Cobbler|unknown factory|Monogram Neverfull size unknown",
+        "Doris|Birdcage|Eden Neverfull size/color unknown",
+        "Mandy|Huahui|Eden Neverfull size/color unknown"
+      ]
+    },
+    {
+      "id": "round-2-lane-swap",
+      "lanes": ["eden verified primary", "primary verified eden"],
+      "result": "Independent lane swap rejected size/color inference and master review resolved a same-commenter seller/factory chain.",
+      "new_combinations": ["Baobao|Birdcage|Eden Neverfull size/color unknown"]
+    },
+    {
+      "id": "round-3-targeted",
+      "lanes": ["primary", "eden"],
+      "result": "No new seller-factory-bag combination.",
+      "new_combinations": []
+    },
+    {
+      "id": "round-4-targeted",
+      "lanes": ["primary", "eden"],
+      "result": "No new seller-factory-bag combination; two-round saturation rule satisfied.",
+      "new_combinations": []
+    }
+  ],
+  "saturation_reached": true,
+  "saturation_reached_at": "2026-08-08",
+  "limitations": [
+    "No verified seller-owned public contact or catalog URL appeared in the accessible sources.",
+    "No source directly tied brown Eden MM to a named seller and factory.",
+    "Only one brief author directly supported the brown Monogram GM target, with factory undisclosed.",
+    "Some Reddit publication dates are stored as disclosed estimates because the visible UI showed relative age only."
+  ],
+  "saturation_rule": "Stop after two consecutive targeted search rounds add no new seller-factory-bag combination."
+}

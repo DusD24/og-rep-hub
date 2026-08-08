@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Evidence-linked research catalog for Neverfull-style Monogram GM and Eden MM bags.">
+  <title>OG Rep Hub</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <a class="brand" href="#catalog" aria-label="OG Rep Hub home">
+      <span class="brand-mark">OG</span>
+      <span>Rep Hub</span>
+    </a>
+    <div class="hero-copy">
+      <p class="eyebrow">Public research catalog</p>
+      <h1>Trace the evidence.<br>Keep the variants straight.</h1>
+      <p>Independent, source-linked research for brown Monogram GM and Eden/floral MM candidates. Historical signals are not live inventory.</p>
+    </div>
+    <div id="snapshot" class="snapshot" aria-live="polite"></div>
+  </header>
+
+  <nav class="view-nav" aria-label="Catalog views">
+    <button class="active" data-view="catalog">Catalog</button>
+    <button data-view="sellers">Sellers</button>
+    <button data-view="evidence">Evidence</button>
+    <button data-view="outreach">Outreach queue</button>
+    <a href="https://github.com/DusD24/og-rep-hub" target="_blank" rel="noopener noreferrer">Repository ↗</a>
+  </nav>
+
+  <main>
+    <section id="catalog" class="view active" aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Decision workspace</p>
+          <h2 id="catalog-title">Candidate catalog</h2>
+        </div>
+        <p class="scope-note">Scores measure evidence confidence—not authenticity, safety, or guaranteed seller behavior.</p>
+      </div>
+      <div class="controls" role="search">
+        <label>Search <input id="catalog-search" type="search" placeholder="Seller, factory, pattern…"></label>
+        <label>Size <select id="size-filter"><option value="">All sizes</option></select></label>
+        <label>Colorway <select id="color-filter"><option value="">All colorways</option></select></label>
+        <label>Status <select id="status-filter"><option value="">All statuses</option></select></label>
+        <label>Sort <select id="catalog-sort"><option value="score">Recommendation</option><option value="verified">Last verified</option><option value="seller">Seller A–Z</option></select></label>
+      </div>
+      <div id="catalog-results" class="card-grid"></div>
+    </section>
+
+    <section id="sellers" class="view" aria-labelledby="sellers-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Public directory</p><h2 id="sellers-title">Sellers</h2></div>
+        <p class="scope-note">Only publicly advertised business contacts with source provenance are shown.</p>
+      </div>
+      <div id="seller-results" class="directory"></div>
+    </section>
+
+    <section id="evidence" class="view" aria-labelledby="evidence-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Source trail</p><h2 id="evidence-title">Evidence explorer</h2></div>
+        <p class="scope-note">Repeated posts by the same author count once for corroboration.</p>
+      </div>
+      <div class="controls">
+        <label>Search <input id="evidence-search" type="search" placeholder="Author, subreddit, observation…"></label>
+        <label>Source <select id="source-filter"><option value="">All source types</option></select></label>
+        <label>Match <select id="match-filter"><option value="">Exact + related</option><option value="true">Exact only</option><option value="false">Related only</option></select></label>
+      </div>
+      <div id="evidence-results" class="evidence-list"></div>
+    </section>
+
+    <section id="outreach" class="view" aria-labelledby="outreach-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">No-purchase planning</p><h2 id="outreach-title">Contact queue & drafts</h2></div>
+        <p class="scope-note">Actual replies, payment information, and private conversations stay local and gitignored.</p>
+      </div>
+      <div id="outreach-results"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Research snapshot accessed August 8, 2026. Availability expires quickly—verify directly before making decisions.</p>
+    <p>Not affiliated with Louis Vuitton or any seller. Public-interest research; no purchase facilitation.</p>
+  </footer>
+</body>
+</html>
+

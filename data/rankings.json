@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-08-08",
+  "method_version": "1.0.0",
+  "rankings": [
+    {
+      "offering_id": "offering-baobao-birdcage-eden-unknown",
+      "seller_id": "seller-baobao",
+      "bag_id": "bag-eden-size-unknown-color-unknown",
+      "seller_reliability": null,
+      "bag_confidence": null,
+      "recommendation_score": null,
+      "tier": null,
+      "rank_status": "unranked",
+      "reason": "Insufficient exact-variant evidence for scoring"
+    },
+    {
+      "offering_id": "offering-doris-birdcage-eden-unknown",
+      "seller_id": "seller-doris",
+      "bag_id": "bag-eden-size-unknown-color-unknown",
+      "seller_reliability": null,
+      "bag_confidence": null,
+      "recommendation_score": null,
+      "tier": null,
+      "rank_status": "unranked",
+      "reason": "Insufficient exact-variant evidence for scoring"
+    },
+    {
+      "offering_id": "offering-hp-damier-azur-gm",
+      "seller_id": "seller-hyper-peter",
+      "bag_id": "bag-damier-azur-gm",
+      "seller_reliability": null,
+      "bag_confidence": null,
+      "recommendation_score": null,
+      "tier": null,
+      "rank_status": "unranked",
+      "reason": "Insufficient exact-variant evidence for scoring"
+    },
+    {
+      "offering_id": "offering-hp-damier-ebene-gm",
+      "seller_id": "seller-hyper-peter",
+      "bag_id": "bag-damier-ebene-gm",
+      "seller_reliability": null,
+      "bag_confidence": null,
+      "recommendation_score": null,
+      "tier": null,
+      "rank_status": "unranked",
+      "reason": "Insufficient exact-variant evidence for scoring"
+    },
+    {
+      "offering_id": "offering-hp-monogram-gm",
+      "seller_id": "seller-hyper-peter",
+      "bag_id": "bag-monogram-gm-brown",
+      "seller_reliability": null,
+      "bag_confidence": null,
+      "recommendation_score": null,
+      "tier": null,
+      "rank_status": "unranked",
+      "reason": "Insufficient exact-variant evidence for scoring"
+    },
+    {
+      "offering_id": "offering-hp-monogram-mm",
+      "seller_id": "seller-hyper-peter",
+      "bag_id": "bag-monogram-mm-brown",
+      "seller_reliability": null,
+      "bag_confidence": null,
+      "recommendation_score": null,
+      "tier": null,
+      "rank_status": "unranked",
+      "reason": "Insufficient exact-variant evidence for scoring"
+    },
+    {
+      "offering_id": "offering-mandy-huahui-eden-unknown",
+      "seller_id": "seller-mandy",
+      "bag_id": "bag-eden-size-unknown-color-unknown",
+      "seller_reliability": null,
+      "bag_confidence": null,
+      "recommendation_score": null,
+      "tier": null,
+      "rank_status": "unranked",
+      "reason": "Insufficient exact-variant evidence for scoring"
+    },
+    {
+      "offering_id": "offering-oc-damier-unknown",
+      "seller_id": "seller-old-cobbler",
+      "bag_id": "bag-damier-azur-size-unknown",
+      "seller_reliability": null,
+      "bag_confidence": null,
+      "recommendation_score": null,
+      "tier": null,
+      "rank_status": "unranked",
+      "reason": "Insufficient exact-variant evidence for scoring"
+    },
+    {
+      "offering_id": "offering-oc-monogram-unknown",
+      "seller_id": "seller-old-cobbler",
+      "bag_id": "bag-monogram-size-unknown-brown",
+      "seller_reliability": null,
+      "bag_confidence": null,
+      "recommendation_score": null,
+      "tier": null,
+      "rank_status": "unranked",
+      "reason": "Insufficient exact-variant evidence for scoring"
+    }
+  ]
+}

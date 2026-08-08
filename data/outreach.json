@@ -1,0 +1,48 @@
+{
+  "drafts": [
+    {
+      "id": "draft-exact-variant",
+      "title": "Exact variant and factory check",
+      "body": "Hi, do you currently have the [exact bag / size / colorway]? Which factory or batch is it from? Please share the current price and recent pre-shipment photos for this exact variant. Thank you."
+    },
+    {
+      "id": "draft-availability",
+      "title": "Availability follow-up",
+      "body": "Hi, I’m checking current availability for [exact bag / size / colorway]. Is it in stock now, and when was this batch last fulfilled? Please do not send payment instructions yet. Thank you."
+    }
+  ],
+  "queue": [
+    {
+      "id": "queue-hp-monogram-gm",
+      "priority": 1,
+      "seller_id": "seller-hyper-peter",
+      "bag_id": "bag-monogram-gm-brown",
+      "question": "Confirm current brown Monogram GM availability, price, recent exact-variant PSPs, and batch provenance without assuming a factory.",
+      "status": "needs_verified_public_contact"
+    },
+    {
+      "id": "queue-doris-eden",
+      "priority": 2,
+      "seller_id": "seller-doris",
+      "bag_id": "bag-eden-mm-brown",
+      "question": "Confirm whether Birdcage currently offers the exact brown Eden MM and provide physical dimensions plus recent exact-variant PSPs.",
+      "status": "needs_verified_public_contact"
+    },
+    {
+      "id": "queue-baobao-eden",
+      "priority": 3,
+      "seller_id": "seller-baobao",
+      "bag_id": "bag-eden-mm-brown",
+      "question": "Confirm whether the historical Birdcage Eden order was the canonical MM and whether brown is currently available.",
+      "status": "needs_verified_public_contact"
+    },
+    {
+      "id": "queue-mandy-eden",
+      "priority": 4,
+      "seller_id": "seller-mandy",
+      "bag_id": "bag-eden-mm-brown",
+      "question": "Confirm whether Huahui has the exact brown Eden MM and provide current dimensions, price, and recent PSPs.",
+      "status": "needs_verified_public_contact"
+    }
+  ]
+}

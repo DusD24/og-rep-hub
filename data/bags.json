@@ -1,0 +1,74 @@
+[
+  {
+    "id": "bag-monogram-gm-brown",
+    "name": "Neverfull-style Monogram GM",
+    "size": "GM",
+    "pattern": "Monogram",
+    "colorway": "brown",
+    "priority": "primary",
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/products/neverfull-gm-monogram-nvprod5350101v/M46978"
+  },
+  {
+    "id": "bag-eden-mm-brown",
+    "name": "Neverfull-style Eden MM",
+    "size": "MM",
+    "pattern": "Monogram Eden",
+    "colorway": "brown",
+    "priority": "secondary-priority",
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
+  },
+  {
+    "id": "bag-eden-size-unknown-color-unknown",
+    "name": "Neverfull-style Eden (unresolved variant)",
+    "size": "unknown",
+    "pattern": "Monogram Eden",
+    "colorway": "unknown",
+    "priority": "research-lead",
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
+  },
+  {
+    "id": "bag-monogram-mm-brown",
+    "name": "Neverfull-style Monogram MM",
+    "size": "MM",
+    "pattern": "Monogram",
+    "colorway": "brown",
+    "priority": "near-match",
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/products/neverfull-mm-monogram-nvprod5350100v/M46975"
+  },
+  {
+    "id": "bag-monogram-size-unknown-brown",
+    "name": "Neverfull-style Monogram (size unresolved)",
+    "size": "unknown",
+    "pattern": "Monogram",
+    "colorway": "brown",
+    "priority": "near-match",
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
+  },
+  {
+    "id": "bag-damier-azur-gm",
+    "name": "Neverfull-style Damier Azur GM",
+    "size": "GM",
+    "pattern": "Damier Azur",
+    "colorway": "light",
+    "priority": "seller-reliability-only",
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
+  },
+  {
+    "id": "bag-damier-ebene-gm",
+    "name": "Neverfull-style Damier Ebene GM",
+    "size": "GM",
+    "pattern": "Damier Ebene",
+    "colorway": "brown",
+    "priority": "seller-reliability-only",
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
+  },
+  {
+    "id": "bag-damier-azur-size-unknown",
+    "name": "Neverfull-style Damier Azur (size unresolved)",
+    "size": "unknown",
+    "pattern": "Damier Azur",
+    "colorway": "light",
+    "priority": "seller-reliability-only",
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
+  }
+]

@@ -1,0 +1,6 @@
+media/evidence/*.png filter=lfs diff=lfs merge=lfs -text
+media/evidence/*.jpg filter=lfs diff=lfs merge=lfs -text
+media/evidence/*.jpeg filter=lfs diff=lfs merge=lfs -text
+media/evidence/*.webp filter=lfs diff=lfs merge=lfs -text
+media/evidence/*.gif filter=lfs diff=lfs merge=lfs -text
+media/evidence/*.mp4 filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "seller-hyper-peter",
+    "display_name": "Hyper Peter (HP)",
+    "aliases": ["HP", "HyperPeter", "Booker"],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": {
+      "fulfillment": 74,
+      "service_communication": 70,
+      "qc_transparency": 45,
+      "shipping_consistency": 68,
+      "payment_risk_signals": 55
+    },
+    "reliability_evidence_ids": ["ev-hp-mm-durability", "ev-hp-mm-recent", "ev-hp-gm-azur", "ev-hp-gm-ebene", "ev-hp-factory-policy"],
+    "confidence_note": "Several historical delivery and communication reports, but mixed product QC and factory non-disclosure. No verified seller-owned public contact source."
+  },
+  {
+    "id": "seller-old-cobbler",
+    "display_name": "Old Cobbler (OC)",
+    "aliases": ["OC", "Old Cobbler"],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": {
+      "fulfillment": 62,
+      "service_communication": 55,
+      "qc_transparency": 52,
+      "shipping_consistency": 50,
+      "payment_risk_signals": 55
+    },
+    "reliability_evidence_ids": ["ev-oc-monogram-unknown", "ev-oc-damier-reliability"],
+    "confidence_note": "Limited owner reports show sturdy use but include vachetta-treatment concerns; factory and verified public contact provenance remain unknown."
+  },
+  {
+    "id": "seller-doris",
+    "display_name": "Doris",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": {
+      "fulfillment": 80,
+      "service_communication": 79,
+      "qc_transparency": 64,
+      "shipping_consistency": 78,
+      "payment_risk_signals": 60
+    },
+    "reliability_evidence_ids": ["ev-doris-birdcage-review", "ev-doris-birdcage-qc", "ev-doris-other-order"],
+    "confidence_note": "Two authors support historical fulfillment/service, but only one author supplies Doris-specific Eden Neverfull product evidence. No verified public contact source."
+  },
+  {
+    "id": "seller-mandy",
+    "display_name": "Mandy",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-mandy-huahui-pending"],
+    "confidence_note": "Only a pending order was found; insufficient evidence for seller reliability scoring."
+  },
+  {
+    "id": "seller-baobao",
+    "display_name": "Baobao",
+    "aliases": ["Bao Bao"],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-baobao-birdcage-comment"],
+    "confidence_note": "One public owner comment ties Baobao to a Birdcage Eden Neverfull; no fulfillment timeline or service assessment."
+  }
+]

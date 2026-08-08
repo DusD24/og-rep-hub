@@ -1,0 +1,105 @@
+[
+  {
+    "id": "offering-hp-monogram-gm",
+    "seller_id": "seller-hyper-peter",
+    "bag_id": "bag-monogram-gm-brown",
+    "factory_id": "factory-unknown",
+    "status": "historically_ordered",
+    "last_verified": "2026-08-08",
+    "current_stock": null,
+    "evidence_ids": ["ev-hp-monogram-gm-comment"],
+    "rank_note": "One brief exact-size/pattern owner comment; no factory, price, purchase date, photos, or independent corroboration."
+  },
+  {
+    "id": "offering-hp-monogram-mm",
+    "seller_id": "seller-hyper-peter",
+    "bag_id": "bag-monogram-mm-brown",
+    "factory_id": "factory-unknown",
+    "status": "historically_ordered",
+    "last_verified": "2026-08-08",
+    "current_stock": null,
+    "evidence_ids": ["ev-hp-mm-durability", "ev-hp-mm-recent"],
+    "price": {"amount_usd": 179, "display": "$179 shipped (one historical order)"},
+    "rank_note": "Near-match MM evidence must not be transferred to GM."
+  },
+  {
+    "id": "offering-hp-damier-azur-gm",
+    "seller_id": "seller-hyper-peter",
+    "bag_id": "bag-damier-azur-gm",
+    "factory_id": "factory-unknown",
+    "status": "historically_ordered",
+    "last_verified": "2026-08-08",
+    "current_stock": null,
+    "evidence_ids": ["ev-hp-gm-azur"],
+    "price": {"amount_usd": 205, "display": "$205 (historical review)"},
+    "rank_note": "Exact GM but wrong pattern; retained for seller reliability only."
+  },
+  {
+    "id": "offering-hp-damier-ebene-gm",
+    "seller_id": "seller-hyper-peter",
+    "bag_id": "bag-damier-ebene-gm",
+    "factory_id": "factory-unknown",
+    "status": "historically_ordered",
+    "last_verified": "2026-08-08",
+    "current_stock": null,
+    "evidence_ids": ["ev-hp-gm-ebene"],
+    "price": {"amount_usd": 175, "display": "$175 including shipping/initials (historical)"},
+    "rank_note": "Exact GM but wrong pattern; retained for seller reliability only."
+  },
+  {
+    "id": "offering-oc-monogram-unknown",
+    "seller_id": "seller-old-cobbler",
+    "bag_id": "bag-monogram-size-unknown-brown",
+    "factory_id": "factory-unknown",
+    "status": "historically_ordered",
+    "last_verified": "2026-08-08",
+    "current_stock": null,
+    "evidence_ids": ["ev-oc-monogram-unknown"],
+    "rank_note": "Size is not stated; do not infer GM."
+  },
+  {
+    "id": "offering-oc-damier-unknown",
+    "seller_id": "seller-old-cobbler",
+    "bag_id": "bag-damier-azur-size-unknown",
+    "factory_id": "factory-unknown",
+    "status": "historically_ordered",
+    "last_verified": "2026-08-08",
+    "current_stock": null,
+    "evidence_ids": ["ev-oc-damier-reliability"],
+    "rank_note": "Non-target pattern and unresolved size; seller-reliability evidence only."
+  },
+  {
+    "id": "offering-doris-birdcage-eden-unknown",
+    "seller_id": "seller-doris",
+    "bag_id": "bag-eden-size-unknown-color-unknown",
+    "factory_id": "factory-birdcage",
+    "status": "historically_ordered",
+    "last_verified": "2026-08-08",
+    "current_stock": null,
+    "evidence_ids": ["ev-doris-birdcage-review", "ev-doris-birdcage-qc"],
+    "price": {"amount_usd": 151, "display": "$151 product price (historical)"},
+    "rank_note": "Two posts are by the same author and count once; exact MM and brown colorway remain unresolved."
+  },
+  {
+    "id": "offering-mandy-huahui-eden-unknown",
+    "seller_id": "seller-mandy",
+    "bag_id": "bag-eden-size-unknown-color-unknown",
+    "factory_id": "factory-huahui",
+    "status": "historically_ordered",
+    "last_verified": "2026-08-08",
+    "current_stock": null,
+    "evidence_ids": ["ev-mandy-huahui-pending"],
+    "rank_note": "Order was pending at publication; no in-hand quality evidence, exact size, or colorway."
+  },
+  {
+    "id": "offering-baobao-birdcage-eden-unknown",
+    "seller_id": "seller-baobao",
+    "bag_id": "bag-eden-size-unknown-color-unknown",
+    "factory_id": "factory-birdcage",
+    "status": "historically_ordered",
+    "last_verified": "2026-08-08",
+    "current_stock": null,
+    "evidence_ids": ["ev-baobao-birdcage-comment"],
+    "rank_note": "Owner identifies Baobao and Birdcage, but colorway and canonical MM size are unresolved amid conflicting dimensions."
+  }
+]

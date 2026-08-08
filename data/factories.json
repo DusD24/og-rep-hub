@@ -1,0 +1,32 @@
+[
+  {
+    "id": "factory-unknown",
+    "display_name": "Unknown / undisclosed",
+    "aliases": [],
+    "notes": "No named factory was supported by the public source. This is not a factory attribution."
+  },
+  {
+    "id": "factory-birdcage",
+    "display_name": "Birdcage",
+    "aliases": ["Bird Cage"],
+    "notes": "Observed in Eden Neverfull reviews and QC discussions; dimensions and print-tone observations conflict."
+  },
+  {
+    "id": "factory-huahui",
+    "display_name": "Huahui",
+    "aliases": ["Hua Hui"],
+    "notes": "Observed in a pending Eden Neverfull order and comparison comments; no completed exact-variant review found."
+  },
+  {
+    "id": "factory-orange-sofa",
+    "display_name": "Orange Sofa",
+    "aliases": [],
+    "notes": "Factory-level Eden comparison lead only; no named seller offering found."
+  },
+  {
+    "id": "factory-royal",
+    "display_name": "Royal",
+    "aliases": [],
+    "notes": "Mentioned as a visual comparison alternative and on a different Eden bag style; no Eden Neverfull offering established."
+  }
+]
