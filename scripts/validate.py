@@ -88,6 +88,8 @@ def validate() -> list[str]:
         v.required(row, ("name", "size", "pattern", "colorway", "priority", "official_reference_url"), f"bags[{index}]")
         if row.get("official_reference_url") and not valid_url(row["official_reference_url"]):
             v.error(f"bags[{index}]: official_reference_url must be https")
+        if row.get("tile_media_id") and row["tile_media_id"] not in ids["media"]:
+            v.error(f"bags[{index}]: unknown tile_media_id {row['tile_media_id']}")
 
     for index, row in enumerate(records["sellers"]):
         where = f"sellers[{index}]"
@@ -166,6 +168,8 @@ def validate() -> list[str]:
             v.error(f"{where}: SHA-256 mismatch")
         if row.get("source_url") and not valid_url(row["source_url"]):
             v.error(f"{where}: source_url must be https")
+        if row.get("usage_scope") == "target_tile" and urlparse(row.get("source_url", "")).hostname not in {"reddit.com", "www.reddit.com"}:
+            v.error(f"{where}: target tile source must be a public Reddit post")
         if row.get("capture_date") and not valid_date(row["capture_date"]):
             v.error(f"{where}: invalid capture_date")
 

@@ -20,7 +20,8 @@ async function loadData() {
   results.forEach(([name, value]) => { state[name] = value; });
   state.maps = {
     bags: byId(state.bags), sellers: byId(state.sellers), factories: byId(state.factories),
-    evidence: byId(state.evidence), contacts: byId(state.contacts), rankings: byId(state.rankings.rankings.map(row => ({ id: row.offering_id, ...row })))
+    evidence: byId(state.evidence), contacts: byId(state.contacts), media: byId(state.media),
+    rankings: byId(state.rankings.rankings.map(row => ({ id: row.offering_id, ...row })))
   };
 }
 
@@ -83,8 +84,10 @@ function renderCatalog() {
   container.innerHTML = rows.map(({offering, bag, seller, factory, ranking, placeholder}) => {
     const unranked = ranking?.rank_status !== "ranked";
     const sourceCount = offering.evidence_ids.length;
+    const tileMedia = state.maps.media.get(bag.tile_media_id);
     const score = value => value == null ? "—" : value.toFixed(1);
     return `<article class="card">
+      ${tileMedia ? `<a class="bag-tile" href="${escapeHtml(safeUrl(tileMedia.source_url))}" target="_blank" rel="noopener noreferrer" aria-label="Open Reddit source for ${escapeHtml(bag.name)} tile image"><img src="${escapeHtml(tileMedia.path)}" alt="${escapeHtml(tileMedia.alt)}" loading="lazy" onerror="this.closest('.bag-tile').classList.add('missing')"><span class="bag-tile-source">Reddit photo · ${escapeHtml(tileMedia.attribution)} ↗</span></a>` : ""}
       <div class="card-top"><div class="tags"><span class="tag">${escapeHtml(bag.size)}</span><span class="tag">${escapeHtml(bag.colorway)}</span><span class="tag">${escapeHtml(label(offering.status))}</span></div><span class="tier ${unranked ? "unranked" : ""}">${escapeHtml(ranking?.tier || "Unranked")}</span></div>
       <h3>${escapeHtml(seller.display_name)} × ${escapeHtml(bag.name)}</h3>
       <p class="factory">Factory/batch: <strong>${escapeHtml(factory.display_name)}</strong></p>

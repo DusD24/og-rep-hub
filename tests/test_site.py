@@ -28,6 +28,12 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn("@media (max-width: 900px)", self.css)
         self.assertIn("@media (max-width: 600px)", self.css)
 
+    def test_compact_hero_and_reddit_tile_rendering(self):
+        self.assertNotIn("<h1>", self.html)
+        self.assertIn("bag-tile", self.js)
+        self.assertIn("tile_media_id", self.js)
+        self.assertIn("Reddit photo", self.js)
+
 
 if __name__ == "__main__":
     unittest.main()

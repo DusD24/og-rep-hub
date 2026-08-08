@@ -49,7 +49,16 @@ class DataTests(unittest.TestCase):
             if not offering.get("evidence_ids"):
                 self.assertEqual(row["rank_status"], "unranked")
 
+    def test_target_bags_have_one_reddit_tile_image_each(self):
+        targets = [row for row in load("bags") if row["priority"] in {"primary", "secondary-priority"}]
+        media = {row["id"]: row for row in load("media")}
+        tile_ids = [row.get("tile_media_id") for row in targets]
+        self.assertEqual(len(targets), 2)
+        self.assertEqual(len(tile_ids), len(set(tile_ids)))
+        self.assertTrue(all(tile_id in media for tile_id in tile_ids))
+        self.assertTrue(all(media[tile_id]["source_url"].startswith("https://www.reddit.com/") for tile_id in tile_ids))
+        self.assertTrue(all(media[tile_id].get("usage_scope") == "target_tile" for tile_id in tile_ids))
+
 
 if __name__ == "__main__":
     unittest.main()
-
