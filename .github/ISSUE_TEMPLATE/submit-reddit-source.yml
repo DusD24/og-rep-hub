@@ -1,0 +1,54 @@
+name: Submit a Reddit Source
+description: Submit a public Reddit review, PSP/QC post, auth comparison, or in-hand receipt.
+title: "[Reddit source] "
+labels: ["research", "source-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use a public Reddit post URL. Do not paste private messages, payment details, addresses, or unverified contact information.
+  - type: input
+    id: reddit-url
+    attributes:
+      label: Reddit post URL
+      description: The URL must be public and should point to the post or comment being submitted.
+      placeholder: https://www.reddit.com/r/...
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Reddit author
+      placeholder: u/example
+    validations:
+      required: true
+  - type: input
+    id: subreddit
+    attributes:
+      label: Subreddit
+      placeholder: r/RealRepLadies or r/RepTherapy
+    validations:
+      required: true
+  - type: input
+    id: publication-date
+    attributes:
+      label: Publication date
+      placeholder: YYYY-MM-DD or explain if only a relative date is visible
+    validations:
+      required: true
+  - type: textarea
+    id: evidence-details
+    attributes:
+      label: Evidence details
+      description: Describe the exact variant, evidence type, seller/factory names as reported, media provenance, and limitations.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-data-check
+    attributes:
+      label: Public-data check
+      options:
+        - label: I have included a public Reddit URL and no private messages, payment details, addresses, or unverified contact information.
+          required: true
+        - label: I understand source adjectives and seller/factory mentions will remain attributed to the post.
+          required: true

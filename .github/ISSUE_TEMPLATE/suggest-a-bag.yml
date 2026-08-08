@@ -1,0 +1,40 @@
+name: Suggest a Bag
+description: Suggest a bag family for the expanding guide with public source URLs.
+title: "[Bag suggestion] "
+labels: ["research", "bag-family"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please submit public URLs only. Do not include private messages, payment details, addresses, or unverified contact information.
+  - type: input
+    id: bag-name
+    attributes:
+      label: Brand and model
+      placeholder: "Example: Loewe Puzzle"
+    validations:
+      required: true
+  - type: input
+    id: public-url
+    attributes:
+      label: Public source URL
+      description: Link to a public Reddit post or other public research source.
+      placeholder: https://www.reddit.com/...
+    validations:
+      required: true
+  - type: textarea
+    id: source-summary
+    attributes:
+      label: What does the source document?
+      description: Include exact size, material, hardware, evidence type, author, subreddit, and unresolved gaps when stated.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-data-check
+    attributes:
+      label: Public-data check
+      options:
+        - label: I have included a public URL and no private messages, payment details, addresses, or unverified contact information.
+          required: true
+        - label: I understand a suggestion is not a site-level conclusion about a seller, factory, authenticity, or outcome.
+          required: true

@@ -1,0 +1,44 @@
+name: Correction or Media Removal
+description: Report an incorrect source, attribution, image provenance issue, or media-removal request.
+title: "[Correction or media] "
+labels: ["triage", "source-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide public URLs and enough context for review. Do not include private messages, payment details, addresses, or unverified contact information.
+  - type: input
+    id: affected-url
+    attributes:
+      label: Public URL or family route
+      description: Link to the source, image post, or public family file that needs review.
+      placeholder: https://www.reddit.com/... or #bag/bag-family-...
+    validations:
+      required: true
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: Request type
+      options:
+        - Correct a source or attribution
+        - Remove or replace media
+        - Correct a variant, seller, or factory reference
+        - Report a broken public link
+    validations:
+      required: true
+  - type: textarea
+    id: requested-change
+    attributes:
+      label: Requested change
+      description: Explain what is wrong, what should change, and which public source supports the request.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-data-check
+    attributes:
+      label: Public-data check
+      options:
+        - label: I have included public URLs only and no private messages, payment details, addresses, or unverified contact information.
+          required: true
+        - label: For media removal, I am identifying the public post and image provenance without uploading private material.
+          required: true
