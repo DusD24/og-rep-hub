@@ -76,13 +76,36 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn("welcomeEvidenceIds", self.js)
         self.assertEqual(len(re.findall(r'^\s+"ev-[^"]+"', self.js, re.MULTILINE)), 6)
         self.assertIn("--voice-index", self.js)
-        self.assertIn("2s", self.css)
+        self.assertIn("voice-bubble-in", self.css)
+        self.assertIn("2.35s", self.css)
         self.assertNotIn("<blockquote>", self.js)
         self.assertIn('aria-hidden="true"', self.html)
         for identity_part in ("tag-logo", ">OG<", ">REP<", "OG Rep Hub"):
             self.assertIn(identity_part, self.html)
         for identity_part in ("luggage tag", ">OG<", ">REP<"):
             self.assertIn(identity_part, self.favicon)
+
+    def test_welcome_chatter_persists_and_lines_up_before_catalog(self):
+        for contract in (
+            "function enterCatalogFromWelcome()",
+            'classList.add("welcome-transitioning")',
+            'classList.add("welcome-exiting")',
+            "welcomeExitDuration",
+            "--voice-line-y",
+            "--voice-exit-delay",
+        ):
+            self.assertIn(contract, self.js)
+        for contract in (
+            ".welcome-ready:not(.welcome-exiting) .welcome-voice",
+            ".welcome-exiting .welcome-voice",
+            "welcome-curtain-out",
+            "opacity: .62",
+            "top: var(--voice-line-y)",
+        ):
+            self.assertIn(contract, self.css)
+        voice_animation = self.css[self.css.index("@keyframes voice-bubble-in"):self.css.index(".welcome-final")]
+        self.assertIn("100% { opacity: .62", voice_animation)
+        self.assertNotIn("100% { opacity: 0", voice_animation)
 
     def test_single_router_uses_history_and_deep_link_context(self):
         for contract in (
