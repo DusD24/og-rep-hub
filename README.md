@@ -22,7 +22,7 @@ OG Rep Hub is a free, source-linked organizer for rep-bag research. It brings ba
 - Makes it easy to move from a summary back to the Reddit receipts behind it.
 - Shows research gaps instead of filling them with guesses.
 
-The current guide covers 12 launch collections, including the Neverfull, Classic Flap, Speedy, Margaux, Flamenco, Puzzle, Andiamo, Saint Louis, Birkin 25, Arcadie, Lady Dior, and Book Tote. The internal `data/bag_families.json` filename and `family_id` references remain unchanged for backward compatibility.
+The current guide covers a growing set of source-linked collections, including the Neverfull, Classic Flap, Speedy, Margaux, Flamenco, Puzzle, Andiamo, Saint Louis, Birkin 25, Arcadie, Lady Dior, and Book Tote. The internal `data/bag_families.json` filename and `family_id` references remain unchanged for backward compatibility.
 
 ## What it does not do
 

@@ -32,7 +32,7 @@ def main() -> int:
         f"- Public evidence records: {len(evidence)}",
         f"- Ranked offerings: {len(ranked)}",
         f"- Research lanes checked: {lane_summary}",
-        f"- Original campaign saturation reached: {'yes' if research['saturation_reached'] else 'no'}",
+        f"- Active evidence crawl saturation reached: {'yes' if research['saturation_reached'] else 'no'}",
         "",
         "Scores express evidence confidence, not a guarantee of seller behavior, availability, authenticity, or outcome.",
         "",

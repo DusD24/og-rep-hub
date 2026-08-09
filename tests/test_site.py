@@ -43,7 +43,7 @@ class SiteContractTests(unittest.TestCase):
             "Family-level", "family-level",
         ):
             self.assertNotIn(stale_phrase, public_copy)
-        for current_phrase in ("The Catalog", "Collection Details", "bag collections", "launch collections"):
+        for current_phrase in ("The Catalog", "Collection Details", "bag collections", "source-linked collections"):
             self.assertIn(current_phrase, public_copy)
 
     def test_sellers_and_factories_are_distinct_routes(self):
@@ -54,11 +54,16 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn('"sellers", "factories"', self.js)
 
     def test_all_family_routes_and_detail_rendering_exist(self):
-        self.assertEqual(len(self.families), 12)
+        self.assertGreaterEqual(len(self.families), 12)
         self.assertIn("#bag/", self.js)
         self.assertIn("renderBagDetail", self.js)
         self.assertIn("documented_variant_ids", self.js)
         self.assertIn("Reviews &amp; receipts", self.js)
+
+    def test_site_copy_allows_collection_growth_beyond_launch_baseline(self):
+        self.assertNotIn("12 launch families", self.html + self.js + self.readme)
+        self.assertIn("state.bag_families.length", self.js)
+        self.assertIn("state.evidence.length", self.js)
 
     def test_evidence_types_and_qualitative_badges_exist(self):
         for text in ("In-hand review", "Auth comparison", "Long-term wear", "Needs more receipts", "Community signal", "See reviews &amp; receipts"):
@@ -79,7 +84,8 @@ class SiteContractTests(unittest.TestCase):
         for term in ("PSP", "QC", "GL", "RL", "TS", "auth", "ISO", "RH"):
             self.assertIn(term, glossary_text)
         self.assertIn("glossary_source_url", self.js)
-        self.assertIn("r/RepLadiesWorld leads", self.js)
+        self.assertIn("Recent public scan leads", self.js)
+        self.assertNotIn("r/RepLadiesWorld leads", self.js)
         for template in ("suggest-a-bag.yml", "submit-reddit-source.yml", "correction-or-media-removal.yml"):
             self.assertTrue((ROOT / ".github" / "ISSUE_TEMPLATE" / template).is_file())
 
@@ -181,8 +187,8 @@ class SiteContractTests(unittest.TestCase):
             item for item in self.evidence
             if "bag-monogram-mm-brown" in item.get("bag_ids", [])
         ]
-        self.assertEqual(len(self.evidence), 38)
-        self.assertEqual(len(family_receipts), 16)
+        self.assertGreater(len(self.evidence), 38)
+        self.assertEqual(len(family_receipts), 17)
         self.assertEqual(len(monogram_mm_receipts), 3)
 
     def test_native_dialog_has_all_dismissal_and_focus_behaviors(self):

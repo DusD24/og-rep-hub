@@ -65,8 +65,8 @@
     "aliases": ["Bao Bao"],
     "last_verified": "2026-08-08",
     "reliability_metrics": null,
-    "reliability_evidence_ids": ["ev-baobao-birdcage-comment"],
-    "confidence_note": "One public owner comment ties Baobao to a Birdcage Eden Neverfull; no fulfillment timeline or service assessment. A public community wiki lists a WhatsApp contact; seller ownership and current availability remain unverified.",
+    "reliability_evidence_ids": ["ev-baobao-birdcage-comment", "ev-crawl-rll-speedy25-royal-2026", "ev-crawl-rll-celine-new-luggage-2026"],
+    "confidence_note": "Public evidence now includes one Eden owner comment plus two detailed RealRepLadies reviews; seller reliability remains separate from bag-specific confidence, and current availability remains unverified. A public community wiki lists a WhatsApp contact; seller ownership remains unverified.",
     "community_contact_status": "community_listed",
     "contact_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/"
   },
@@ -85,8 +85,8 @@
     "aliases": [],
     "last_verified": "2026-08-08",
     "reliability_metrics": null,
-    "reliability_evidence_ids": [],
-    "confidence_note": "Name is reported in public Classic Flap and Book Tote posts; no separate seller assessment or public contact provenance recorded."
+    "reliability_evidence_ids": ["ev-crawl-rll-chanel-vanity-slim-2026"],
+    "confidence_note": "Name is reported in public Classic Flap, Book Tote, and Chanel Vanity posts; the Vanity review adds a dated PSP-to-receipt timeline but not a site-level reliability verdict."
   },
   {
     "id": "seller-mike",
@@ -177,8 +177,8 @@
     "aliases": [],
     "last_verified": "2026-08-08",
     "reliability_metrics": null,
-    "reliability_evidence_ids": [],
-    "confidence_note": "Name appears in a public Lady Dior post; no separate seller assessment or public contact provenance recorded."
+    "reliability_evidence_ids": ["ev-crawl-rll-balenciaga-rodeo-medium-2026"],
+    "confidence_note": "Name appears in public Lady Dior and Balenciaga Rodeo posts; the Rodeo review supplies a dated delivery report, but no factory attribution or site-level reliability verdict."
   },
   {
     "id": "seller-emily-lunghon",
@@ -264,5 +264,86 @@
     "confidence_note": "Name appears in a public Book Tote post. The public community wiki notes this seller was removed; no contact is imported here.",
     "community_contact_status": "removed_from_community_wiki",
     "contact_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/"
+  },
+  {
+    "id": "seller-adon",
+    "display_name": "Adon",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-crawl-repculture-andiamos-small-2026"],
+    "confidence_note": "Name appears in a public RepCulture_Bags Andiamo review; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-yuyu",
+    "display_name": "Yuyu",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-crawl-repculture-andiamos-denim-2026", "ev-crawl-rll-bv-barbara-medium-2026"],
+    "confidence_note": "Name appears in public RepCulture_Bags Andiamo and RealRepLadies Barbara Tote reviews; seller reliability remains separate from bag-specific confidence and current availability is unverified."
+  },
+  {
+    "id": "seller-baker",
+    "display_name": "Baker",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-crawl-rt-book-tote-medium-qc-2026"],
+    "confidence_note": "Name appears in a public Dior Book Tote QC post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-aiden",
+    "display_name": "Aiden",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-crawl-rt-flamenco-medium-liusheng-2026"],
+    "confidence_note": "Name appears in a public Loewe Flamenco group-buy review; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-ming",
+    "display_name": "Ming",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-crawl-repculture-balmain-anthem-2025"],
+    "confidence_note": "Name appears in a public Balmain Anthem review; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-felix",
+    "display_name": "Felix",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-crawl-rll-ysl-loulou-black-frame-2026"],
+    "confidence_note": "Name appears in a public YSL LouLou review; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-laomao",
+    "display_name": "Laomao",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-crawl-rll-puzzle-edge33-liusheng-2026"],
+    "confidence_note": "Name appears in a public Loewe Puzzle Edge review; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-dhg-meifeng",
+    "display_name": "DHG meifengg010203",
+    "aliases": ["meifengg010203"],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-crawl-rll-flamenco-medium-dhg-2026"],
+    "confidence_note": "Publicly named in one DHGate-linked Flamenco review; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-elsa",
+    "display_name": "Elsa",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-crawl-rlw-saint-louis-navy-2026"],
+    "confidence_note": "Name appears in a public RepLadiesWorld Saint Louis PSP/QC post; no separate seller assessment or public contact provenance recorded."
   }
 ]

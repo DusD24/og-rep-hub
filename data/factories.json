@@ -80,8 +80,8 @@
   {
     "id": "factory-white",
     "display_name": "White Factory",
-    "aliases": [],
-    "notes": "Reported in a public Saint Louis QC post; no broader consistency claim is made."
+    "aliases": ["Afen White", "White Factory"],
+    "notes": "Reported in public Saint Louis QC posts, including a RepLadiesWorld source that calls it Afen White; no broader consistency claim is made."
   },
   {
     "id": "factory-h",
@@ -122,7 +122,25 @@
   {
     "id": "factory-top",
     "display_name": "The Top Factory",
-    "aliases": ["Top Factory"],
-    "notes": "Reported in a public Andiamo post; no broader consistency claim is made."
+    "aliases": ["Top Factory", "Taitai"],
+    "notes": "Reported in public Andiamo and BV Barbara Tote posts; no broader consistency claim is made."
+  },
+  {
+    "id": "factory-black-frame",
+    "display_name": "Black Frame",
+    "aliases": ["Black Frame Factory"],
+    "notes": "Reported in a public YSL LouLou review; no broader consistency claim is made."
+  },
+  {
+    "id": "factory-captain-dz",
+    "display_name": "Captain/CZ",
+    "aliases": ["Captain Factory", "CZ Factory", "Captain/DZ"],
+    "notes": "Reported in a public Celine New Luggage review; no broader consistency claim is made."
+  },
+  {
+    "id": "factory-jipin",
+    "display_name": "Jipin",
+    "aliases": ["Jipin Factory"],
+    "notes": "Reported in public Loewe Puzzle reviews; no broader consistency claim is made."
   }
 ]
