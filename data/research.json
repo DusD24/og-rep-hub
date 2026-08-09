@@ -27,9 +27,9 @@
     {
       "id": "lane-realladies",
       "subreddit_focus": "RealRepLadies",
-      "status": "completed_audit",
-      "families_checked": 12,
-      "status_note": "Two-author coverage and qualifying local media are complete for the published families; ongoing research remains focused on exact variants and unresolved attribution.",
+      "status": "active_evidence_expansion",
+      "families_checked": 17,
+      "status_note": "The initial published-family audit is complete; indexed public review pages added nine normalized receipts across four existing families and opened five research-queue collections. Ongoing work remains focused on exact variants, second authors, and unresolved attribution.",
       "scope": "Check every published family for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
     },
     {
@@ -43,17 +43,17 @@
     {
       "id": "lane-repladiesworld",
       "subreddit_focus": "RepLadiesWorld",
-      "status": "initial_scan_complete",
-      "families_checked": 3,
-      "status_note": "The initial public-feed scan found Chanel Classic Flap, Louis Vuitton Speedy, and Neverfull leads. Promising links remain scan candidates until their source details are normalized; no accessory-only material was imported.",
+      "status": "active_evidence_expansion",
+      "families_checked": 4,
+      "status_note": "The public-feed scan has four normalized PSP/QC records across Classic Flap, Speedy, Neverfull, and Saint Louis. Ambiguous leads remain separate until their bag identity and public source details are normalized; no accessory-only material was imported.",
       "scope": "Scan public bag posts for PSP/QC, in-hand reviews, auth comparisons, seller/factory mentions, and user-posted image candidates."
     },
     {
       "id": "lane-repculture-bags",
       "subreddit_focus": "RepCulture_Bags",
-      "status": "candidate_leads",
-      "families_checked": 14,
-      "status_note": "Public sidebar rules and bag-focused posting guides were reviewed. The subreddit wiki is disabled; the first public crawl normalized Andiamo evidence and opened Balmain Anthem and Ferragamo Hug queue collections. The resumable overnight crawl continues across public searches, posts, and comments. No private contact or conversation-only material is imported.",
+      "status": "active_crawl",
+      "families_checked": 19,
+      "status_note": "Public sidebar rules and bag-focused posting guides were reviewed. The subreddit wiki is disabled; the first public crawl normalized Andiamo evidence and opened Balmain Anthem and Ferragamo Hug queue collections. The resumable overnight crawl continues across public searches, posts, and comments with source-local failure isolation. No private contact or conversation-only material is imported.",
       "scope": "Scan public bag reviews, PSP/QC, wear reports, auth comparisons, collections, seller/factory references, and receipt-like posts, then map credible leads to existing or new collections."
     }
   ],
@@ -222,6 +222,110 @@
         "Private-message-only contacts, payment details, addresses, buyer conversations, and unverified allegations remain outside the public catalog boundary."
       ],
       "note": "The public guides emphasize clear photos, seller and factory attribution, price, materials, hardware, capacity, wear, pros and cons, PSP/QC, and seller service. These fields guide candidate extraction but are not themselves bag-specific receipts."
+    },
+    {
+      "id": "scan-realladies-indexed-expansion-2026-08-08",
+      "subreddit_focus": "RealRepLadies",
+      "source_url": "https://www.reddit.com/r/RealRepLadies/",
+      "checked_at": "2026-08-08",
+      "status": "normalized_and_queued",
+      "source_surfaces": ["public review pages", "public post comments", "publicly linked auth references"],
+      "candidate_sources": [
+        {
+          "family_ids": ["bag-family-chanel-classic-flap"],
+          "title": "My Honest Review: Auth Jumbo vs Two CF Replicas",
+          "url": "https://www.reddit.com/r/RealRepLadies/comments/1rrphlq/my_honest_review_auth_jumbo_vs_two_cf_replicas/",
+          "author": "Motor_Elk_5608",
+          "evidence_type": "auth_comparison",
+          "status": "normalized",
+          "normalized_evidence_id": "ev-crawl-rll-classic-flap-auth-jumbo-2026",
+          "note": "Size mismatch is kept explicit: authentic Jumbo versus medium replicas; seller, factory, price, and payment details are not imported."
+        },
+        {
+          "family_ids": ["bag-family-louis-vuitton-speedy"],
+          "title": "LV Speedy 25 Damier Ebene - Royal Factory via Baobao",
+          "url": "https://www.reddit.com/r/RealRepLadies/comments/1u4h6cz/review_lv_speedy_25_damier_ebene_royal_factory/",
+          "author": "randomace",
+          "evidence_type": "in_hand_review",
+          "status": "normalized",
+          "normalized_evidence_id": "ev-crawl-rll-speedy25-royal-2026",
+          "note": "Exact size/pattern and a dated PSP-to-receipt timeline are captured; the author duplicates an existing Speedy author and is not counted as independent corroboration."
+        },
+        {
+          "family_ids": ["bag-family-loewe-puzzle"],
+          "title": "Loewe Puzzle Edge 33cm - Liusheng Factory",
+          "url": "https://www.reddit.com/r/RealRepLadies/comments/1rcht8u/review_loewe_puzzle_edge_33cm_large_black_grained/",
+          "author": "Alph4dan",
+          "evidence_type": "factory_comparison",
+          "status": "normalized",
+          "normalized_evidence_id": "ev-crawl-rll-puzzle-edge33-liusheng-2026",
+          "note": "Current 33cm versus older 35cm-with-feet construction is preserved as a variant warning, not a factory conclusion."
+        },
+        {
+          "family_ids": ["bag-family-loewe-flamenco"],
+          "title": "Dh8 review of Loew* Medium Flamenc* clutch",
+          "url": "https://www.reddit.com/r/RealRepLadies/comments/1v9yef4/dh8_review_of_loew_medium_flamenc_clutch/",
+          "author": "Ginasmith345",
+          "evidence_type": "in_hand_review",
+          "status": "normalized",
+          "normalized_evidence_id": "ev-crawl-rll-flamenco-medium-dhg-2026",
+          "note": "A lower-tier marketplace receipt is retained as a comparison point, with community comments recording limitations on sizing, interior, and leather."
+        },
+        {
+          "family_ids": ["bag-family-ysl-loulou"],
+          "title": "YSL LouLou Review",
+          "url": "https://www.reddit.com/r/RealRepLadies/comments/1tq3web/ysl_loulou_review/",
+          "author": "Possible-Chip-6557",
+          "evidence_type": "in_hand_review",
+          "status": "normalized_queue",
+          "normalized_evidence_id": "ev-crawl-rll-ysl-loulou-black-frame-2026",
+          "note": "Opened a YSL LouLou research queue; private seller-contact requests in comments are excluded."
+        },
+        {
+          "family_ids": ["bag-family-celine-new-luggage"],
+          "title": "Review: Celine New Luggage from BaoBao",
+          "url": "https://www.reddit.com/r/RealRepLadies/comments/1rj6c07/review_celine_new_luggage_from_baobao/",
+          "author": "deluluvenusian",
+          "evidence_type": "psp_qc",
+          "status": "normalized_queue",
+          "normalized_evidence_id": "ev-crawl-rll-celine-new-luggage-2026",
+          "note": "Opened a Celine New Luggage research queue with exact medium/brick details and PSP-to-receipt timing."
+        },
+        {
+          "family_ids": ["bag-family-bottega-veneta-barbara"],
+          "title": "Review: BV Barbara Tote from Yuyu",
+          "url": "https://www.reddit.com/r/RealRepLadies/comments/1tr2qbh/review_bv_barbara_tote_from_yuyu/",
+          "author": "gucci312",
+          "evidence_type": "in_hand_review",
+          "status": "normalized_queue",
+          "normalized_evidence_id": "ev-crawl-rll-bv-barbara-medium-2026",
+          "note": "Opened a BV Barbara research queue; the public post's phone number and price are not imported."
+        },
+        {
+          "family_ids": ["bag-family-balenciaga-rodeo"],
+          "title": "Review: Balenciaga Rodeo from Garmen",
+          "url": "https://www.reddit.com/r/RealRepLadies/comments/1r51jcj/review_balenciaga_rodeo_from_garmen/",
+          "author": "bartsimpsonisababe",
+          "evidence_type": "auth_comparison",
+          "status": "normalized_queue",
+          "normalized_evidence_id": "ev-crawl-rll-balenciaga-rodeo-medium-2026",
+          "note": "Opened a Balenciaga Rodeo research queue; Garmen's explicit factory non-disclosure is preserved."
+        },
+        {
+          "family_ids": ["bag-family-chanel-vanity-slim"],
+          "title": "Heidi Review - Chanel vanity slim",
+          "url": "https://www.reddit.com/r/RealRepLadies/comments/1sk6k8g/heidi_review_chanel_vanity_slim/",
+          "author": "AudienceOk4478",
+          "evidence_type": "psp_qc",
+          "status": "normalized_queue",
+          "normalized_evidence_id": "ev-crawl-rll-chanel-vanity-slim-2026",
+          "note": "Opened a Chanel Slim Vanity research queue; the 187 attribution is preserved as a public thread statement only."
+        }
+      ],
+      "exclusions": [
+        "Private seller contacts, payment amounts, and private-message replies were omitted.",
+        "A highly promotional multi-factory haul was not normalized as seller-reliability evidence because its claims were not independently corroborated."
+      ]
     }
   ],
   "rounds": [
@@ -266,6 +370,32 @@
         "Ming|Kata or Boutique|Balmain Anthem medium",
         "unknown seller|unknown factory|Ferragamo Hug Soft large"
       ]
+    },
+    {
+      "id": "round-6-indexed-expansion-2026-08-08",
+      "lanes": ["RealRepLadies", "RepTherapy", "RepLadiesWorld", "RepCulture_Bags"],
+      "result": "Public indexed review pages added nine normalized receipts across four existing families and opened five research-queue collections; the direct overnight crawl remains active and saturation is not declared.",
+      "new_combinations": [
+        "Baobao|Royal|Speedy 25 Damier Ebene",
+        "Laomao|Liusheng|Puzzle Edge 33",
+        "DHG meifengg010203|undisclosed|Flamenco medium",
+        "Felix|Black Frame|YSL LouLou medium",
+        "Baobao|Captain/CZ|Celine New Luggage medium",
+        "Yuyu|Top/Taitai|BV Barbara medium",
+        "Garmen|undisclosed|Balenciaga Rodeo medium",
+        "Heidi|187 (source-reported)|Chanel Slim Vanity"
+      ]
+    },
+    {
+      "id": "round-7-repladiesworld-indexed-2026-08-08",
+      "lanes": ["RepLadiesWorld"],
+      "result": "Four public RepLadiesWorld PSP/QC pages were normalized into four existing families; ambiguous links, private contact details, and unconfirmed bag identities remain outside the catalog. Saturation is not declared.",
+      "new_combinations": [
+        "unknown seller|unknown factory|Neverfull MM Damier Ebene",
+        "Mandy|Royal|Speedy 25",
+        "Elsa|Afen White (source-reported)|Saint Louis GM navy",
+        "unknown seller|187 (source-reported)|Classic Flap medium silver hardware"
+      ]
     }
   ],
   "saturation_reached": false,
@@ -277,7 +407,8 @@
     "Some Reddit publication dates are stored as disclosed estimates because the visible UI showed relative age only.",
     "Family-level image coverage is complete, but exact-variant imagery remains uneven and must stay linked to its own normalized receipt.",
     "The r/RepLadiesWorld work is an initial scan, not a completed all-family audit; its remaining leads stay separate until normalized.",
-    "The first Reddit HTML-fallback smoke runs demonstrated public-host throttling and are preserved as resumable local artifacts; the overnight crawl must be allowed to complete before saturation is assessed."
+    "The first Reddit HTML-fallback smoke runs demonstrated public-host throttling and are preserved as resumable local artifacts; the overnight crawl must be allowed to complete before saturation is assessed.",
+    "The first resumed run summary was overwritten by a later zero-new-capture segment; the crawler now preserves append-only run-history.jsonl and cumulative run-summary.json for subsequent resumes."
   ],
   "saturation_rule": "Stop after two consecutive targeted search rounds add no new seller-factory-bag combination."
 }

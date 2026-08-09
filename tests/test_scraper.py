@@ -135,6 +135,26 @@ class FakeClient:
         return {"data": {}}
 
 
+class FailFirstSourceClient(FakeClient):
+    """Make every request for the first seed fail while later seeds work."""
+
+    @staticmethod
+    def _fails(url):
+        return "RepCulture_Bags" in url
+
+    def get_text(self, url):
+        if self._fails(url):
+            self.calls.append(("text", url))
+            raise OSError("first source fixture failure")
+        return super().get_text(url)
+
+    def get_json(self, url):
+        if self._fails(url):
+            self.calls.append(("json", url))
+            raise OSError("first source fixture failure")
+        return super().get_json(url)
+
+
 class CrawlerRunTests(unittest.TestCase):
     def setUp(self):
         self.tempdir = tempfile.TemporaryDirectory()
@@ -206,6 +226,30 @@ class CrawlerRunTests(unittest.TestCase):
         self.assertGreater(summary["successful_endpoint_count"], 0)
         self.assertTrue(any(failed in error["url"] for error in summary["errors"]))
 
+    def test_three_failures_in_one_source_do_not_poison_later_seed_sources(self):
+        client = FailFirstSourceClient(posts=[
+            {
+                "id": "post-after-failure",
+                "title": "A later-source review",
+                "selftext": "The leather is soft.",
+                "author": "reader",
+                "subreddit": "RepTherapy",
+                "created_utc": 1783907242.0,
+                "permalink": "/r/RepTherapy/comments/post-after-failure/review/",
+                "link_flair_text": "Review",
+                "num_comments": 0,
+            }
+        ])
+        summary = RedditScraper(
+            self.registry,
+            RunStore(self.run_dir),
+            client=client,
+            max_pages=1,
+            max_posts=10,
+        ).run()
+        self.assertEqual(summary["source_post_counts"]["r/RepCulture_Bags"], 0)
+        self.assertEqual(summary["source_post_counts"]["r/RepTherapy"], 1)
+
     def test_run_writes_manifest_candidates_and_summary(self):
         client = FakeClient(posts=[
             {
@@ -232,6 +276,46 @@ class CrawlerRunTests(unittest.TestCase):
 
         summary = json.loads((self.run_dir / "run-summary.json").read_text(encoding="utf-8"))
         self.assertGreaterEqual(summary["duration_seconds"], 0)
+
+    def test_resumed_summary_keeps_segment_history_and_cumulative_counts(self):
+        store = RunStore(self.run_dir)
+
+        def segment(started_at, finished_at, new_candidates, posts, source_posts):
+            return {
+                "started_at": started_at,
+                "finished_at": finished_at,
+                "sources_requested": 1,
+                "subreddits_checked": ["RepCulture_Bags"],
+                "known_subreddits": ["RepCulture_Bags"],
+                "discovered_subreddits": [],
+                "successful_endpoint_count": 1,
+                "fallback_endpoint_count": 0,
+                "failed_endpoint_count": 0,
+                "consecutive_failure_count": 0,
+                "skipped_endpoint_count": 2,
+                "new_capture_count": new_candidates,
+                "new_candidate_count": new_candidates,
+                "post_count": posts,
+                "comment_count": 0,
+                "query_counts": {"r/RepCulture_Bags:review": posts},
+                "source_post_counts": {"r/RepCulture_Bags": source_posts},
+                "errors": [],
+                "capture_count": new_candidates,
+                "candidate_count": new_candidates,
+                "duration_seconds": 1.0,
+            }
+
+        store.save_summary(segment("2026-08-08T01:00:00+00:00", "2026-08-08T01:00:01+00:00", 2, 2, 2))
+        store.save_summary(segment("2026-08-08T02:00:00+00:00", "2026-08-08T02:00:01+00:00", 1, 1, 1))
+
+        summary = json.loads((self.run_dir / "run-summary.json").read_text(encoding="utf-8"))
+        history = (self.run_dir / "run-history.jsonl").read_text(encoding="utf-8").splitlines()
+        self.assertEqual(len(history), 2)
+        self.assertEqual(summary["run_count"], 2)
+        self.assertEqual(summary["new_candidate_count"], 3)
+        self.assertEqual(summary["post_count"], 3)
+        self.assertEqual(summary["source_post_counts"]["r/RepCulture_Bags"], 3)
+        self.assertEqual(summary["last_run"]["new_candidate_count"], 1)
 
     def test_source_specific_comment_setting_overrides_registry_default(self):
         registry = json.loads(json.dumps(self.registry))

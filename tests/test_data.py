@@ -158,8 +158,8 @@ class DataTests(unittest.TestCase):
     def test_research_lanes_include_rep_ladies_world_scan_candidates(self):
         research = load("research")
         lane = next(row for row in research["research_lanes"] if row["subreddit_focus"] == "RepLadiesWorld")
-        self.assertEqual(lane["status"], "initial_scan_complete")
-        self.assertEqual(lane["families_checked"], 3)
+        self.assertEqual(lane["status"], "active_evidence_expansion")
+        self.assertEqual(lane["families_checked"], 4)
         self.assertEqual(len(research["scan_log"][0]["candidate_sources"]), 4)
         self.assertEqual(research["glossary_source_url"], "https://www.reddit.com/r/RepTherapy/wiki/glossary/")
 

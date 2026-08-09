@@ -510,6 +510,7 @@ class RunStore:
         self.captures_path = self.root / "captures.jsonl"
         self.candidates_path = self.root / "candidates.json"
         self.summary_path = self.root / "run-summary.json"
+        self.history_path = self.root / "run-history.jsonl"
         self.manifest = self._read_json(self.manifest_path, {
             "schema_version": "1.0.0",
             "started_at": None,
@@ -587,9 +588,104 @@ class RunStore:
             encoding="utf-8",
         )
 
+    def _read_summary_history(self) -> list[dict[str, Any]]:
+        history: list[dict[str, Any]] = []
+        if not self.history_path.exists():
+            return history
+        for line in self.history_path.read_text(encoding="utf-8").splitlines():
+            try:
+                row = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if isinstance(row, dict):
+                history.append(row)
+        return history
+
+    @staticmethod
+    def _ordered_union(history: list[dict[str, Any]], field: str) -> list[Any]:
+        values: list[Any] = []
+        seen: set[str] = set()
+        for row in history:
+            for value in row.get(field, []) if isinstance(row.get(field, []), list) else []:
+                marker = json.dumps(value, ensure_ascii=False, sort_keys=True)
+                if marker in seen:
+                    continue
+                seen.add(marker)
+                values.append(value)
+        return values
+
+    @staticmethod
+    def _summed_mapping(history: list[dict[str, Any]], field: str) -> dict[str, int]:
+        totals: dict[str, int] = {}
+        for row in history:
+            values = row.get(field, {})
+            if not isinstance(values, dict):
+                continue
+            for key, value in values.items():
+                try:
+                    totals[str(key)] = totals.get(str(key), 0) + int(value)
+                except (TypeError, ValueError):
+                    continue
+        return totals
+
+    def _aggregate_summaries(self, history: list[dict[str, Any]]) -> dict[str, Any]:
+        first = history[0]
+        last = history[-1]
+        aggregate: dict[str, Any] = {
+            "schema_version": "1.1.0",
+            "started_at": first.get("started_at"),
+            "finished_at": last.get("finished_at"),
+            "run_count": len(history),
+            "run_history_path": self.history_path.name,
+            "last_run": last,
+        }
+        for field in (
+            "sources_requested",
+            "successful_endpoint_count",
+            "fallback_endpoint_count",
+            "failed_endpoint_count",
+            "skipped_endpoint_count",
+            "new_capture_count",
+            "new_candidate_count",
+            "post_count",
+            "comment_count",
+        ):
+            aggregate[field] = sum(int(row.get(field, 0) or 0) for row in history)
+        aggregate["consecutive_failure_count"] = int(last.get("consecutive_failure_count", 0) or 0)
+        aggregate["subreddits_checked"] = self._ordered_union(history, "subreddits_checked")
+        aggregate["known_subreddits"] = sorted({
+            str(value)
+            for row in history
+            for value in row.get("known_subreddits", [])
+            if isinstance(row.get("known_subreddits", []), list)
+        })
+        aggregate["discovered_subreddits"] = self._ordered_union(history, "discovered_subreddits")
+        aggregate["query_counts"] = self._summed_mapping(history, "query_counts")
+        aggregate["source_post_counts"] = self._summed_mapping(history, "source_post_counts")
+        aggregate["errors"] = [
+            error
+            for row in history
+            for error in row.get("errors", [])
+            if isinstance(error, dict)
+        ]
+        aggregate["capture_count"] = len(self.capture_keys)
+        aggregate["candidate_count"] = len(self.candidates)
+        aggregate["duration_seconds"] = round(sum(float(row.get("duration_seconds", 0) or 0) for row in history), 3)
+        return aggregate
+
     def save_summary(self, summary: dict[str, Any]) -> None:
+        history = self._read_summary_history()
+        if not history and self.summary_path.exists():
+            legacy = self._read_json(self.summary_path, None)
+            if isinstance(legacy, dict) and legacy.get("started_at"):
+                with self.history_path.open("a", encoding="utf-8") as handle:
+                    handle.write(json.dumps(legacy, ensure_ascii=False, sort_keys=True) + "\n")
+                history.append(legacy)
+        with self.history_path.open("a", encoding="utf-8") as handle:
+            handle.write(json.dumps(summary, ensure_ascii=False, sort_keys=True) + "\n")
+        history.append(summary)
         self.summary_path.write_text(
-            json.dumps(summary, ensure_ascii=False, indent=2) + "\n",
+            json.dumps(self._aggregate_summaries(history), ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
 
@@ -773,6 +869,9 @@ class RedditScraper:
         base = subreddit_base(subreddit)
         discovered: list[str] = []
         source_post_count = 0
+        # Failure streaks are scoped to one source. A blocked seed must not
+        # prevent later communities in the same crawl from being attempted.
+        summary["consecutive_failure_count"] = 0
         html_urls = [source["landing_url"]] + [f"{base.rstrip('/')}{path}" for path in source.get("wiki_paths", [])]
         for url in html_urls:
             if not self._within_budget() or summary["consecutive_failure_count"] >= 3:

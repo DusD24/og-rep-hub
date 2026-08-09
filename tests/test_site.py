@@ -159,7 +159,7 @@ class SiteContractTests(unittest.TestCase):
             if "bag-monogram-mm-brown" in item.get("bag_ids", [])
         ]
         self.assertGreater(len(self.evidence), 38)
-        self.assertEqual(len(family_receipts), 16)
+        self.assertEqual(len(family_receipts), 17)
         self.assertEqual(len(monogram_mm_receipts), 3)
 
     def test_native_dialog_has_all_dismissal_and_focus_behaviors(self):
