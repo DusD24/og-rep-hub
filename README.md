@@ -15,7 +15,7 @@ OG Rep Hub is a public, bag-first research guide for rep-bag communities. It org
 - Dior Lady Dior
 - Dior Book Tote
 
-The family layer is bag-first; seller offerings still point to exact variant records. The 11 expansion families have independent two-author source coverage and Reddit image candidates, but remain in the research queue until a user-posted Reddit image is locally archived, attributed, hashed, and checked for removal requests. A family tile is never replaced with official-brand, seller-catalog, social-media, or other website imagery.
+The family layer is bag-first; seller offerings still point to exact variant records. All 12 launch families now have independent two-author source coverage and a qualifying user-posted image that is locally archived, attributed, hashed, dimension-checked, linked to normalized evidence, and checked for removal requests. Family tiles are never replaced with official-brand, seller-catalog, generated, or unrelated website imagery.
 
 ## Evidence model
 
@@ -40,7 +40,7 @@ Then open `http://localhost:8000/`.
 
 ## Repository layout
 
-- `data/bag_families.json`: family-level catalog, research status, coverage, and image candidates
+- `data/bag_families.json`: family-level catalog, publication status, evidence coverage, and verified tile references
 - `data/bags.json`: exact variants retained from the original campaign
 - `data/`: normalized public JSON collections and generated rankings
 - `scripts/`: validation, scoring, summary generation, and local server

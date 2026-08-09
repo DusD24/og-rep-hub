@@ -1,5 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="OG Rep Hub">
-  <rect width="64" height="64" rx="18" fill="#6d2525"/>
-  <circle cx="32" cy="32" r="21" fill="none" stroke="#f7f1e8" stroke-width="2"/>
-  <text x="32" y="38" fill="#f7f1e8" font-family="Georgia,serif" font-size="18" text-anchor="middle">OG</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="OG Rep Hub luggage tag">
+  <rect width="96" height="96" rx="20" fill="#291b16"/>
+  <path d="M17 17h46l17 17v45H17z" fill="#6f3826" stroke="#f1d5a3" stroke-width="3"/>
+  <circle cx="65" cy="33" r="4" fill="#291b16" stroke="#f1d5a3" stroke-width="2"/>
+  <text x="28" y="48" fill="#fff8ed" font-family="Georgia,serif" font-size="20" font-weight="700">OG</text>
+  <text x="28" y="68" fill="#f1d5a3" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">REP</text>
 </svg>

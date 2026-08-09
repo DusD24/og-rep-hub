@@ -342,7 +342,7 @@
     "paraphrase": "An author compares a Hyper Peter Monogram Neverfull MM with authentic references and posts user photographs; the post does not establish a factory or a common hardware specification.",
     "positive_observations": ["Independent public author from r/RealRepLadies.", "Provides a second-lane comparison lead for the consolidated Neverfull family."],
     "negative_observations": ["MM evidence cannot be transferred to the exact GM variant.", "Factory and exact material/hardware details are not stated."],
-    "media_ids": []
+    "media_ids": ["media-neverfull-monogram-reddit"]
   },
   {
     "id": "ev-rt-neverfull-oc-auth",
@@ -411,7 +411,7 @@
     "paraphrase": "An in-hand black caviar Classic Flap review references gold hardware and a 187 factory attribution while comparing the bag with authentic references.",
     "positive_observations": ["Independent public author from r/RepTherapy.", "In-hand and auth-reference evidence are both described."],
     "negative_observations": ["The visible post does not confirm a canonical size.", "A comparison reference is not a formal authentication."],
-    "media_ids": []
+    "media_ids": ["media-classic-flap-reddit"]
   },
   {
     "id": "ev-rll-speedy-25",
@@ -434,7 +434,7 @@
     "paraphrase": "A Speedy Bandouliere 25 Monogram source records PSP/QC, in-hand photographs, and an auth-reference comparison; coated canvas and leather trim are described.",
     "positive_observations": ["Independent public author from r/RealRepLadies.", "Exact 25 size and Monogram variant are named."],
     "negative_observations": ["Hardware details are not stated.", "Factory attribution is source-reported, not independently verified."],
-    "media_ids": []
+    "media_ids": ["media-speedy-reddit"]
   },
   {
     "id": "ev-rt-speedy-25",
@@ -480,7 +480,7 @@
     "paraphrase": "A Margaux 17 comparison discusses a brown soft saddle-leather bag, public photographs, and source-reported Kendall attribution.",
     "positive_observations": ["Independent public author from r/RealRepLadies.", "Auth comparison and rep-science discussion are both represented."],
     "negative_observations": ["The source is variant-specific and does not establish all Margaux sizes.", "Source adjectives are not treated as a site conclusion."],
-    "media_ids": []
+    "media_ids": ["media-margaux-reddit"]
   },
   {
     "id": "ev-rt-margaux-15",
@@ -549,7 +549,7 @@
     "paraphrase": "An in-hand review describes a large black deerskin Flamenco with seller and factory names as reported in the source.",
     "positive_observations": ["Independent public author from r/RepTherapy.", "Adds a distinct material-specific Flamenco variant."],
     "negative_observations": ["This variant does not establish the 30 cm Sand details.", "Hardware is not fully stated."],
-    "media_ids": []
+    "media_ids": ["media-flamenco-reddit"]
   },
   {
     "id": "ev-rll-puzzle-small",
@@ -572,7 +572,7 @@
     "paraphrase": "An in-hand review discusses a small navy Puzzle measuring about 24 cm and includes an auth-reference discussion.",
     "positive_observations": ["Independent public author from r/RealRepLadies.", "Exact small size and navy color are named."],
     "negative_observations": ["Leather/material and hardware are not stated.", "The comparison is source-reported rather than a formal authentication."],
-    "media_ids": []
+    "media_ids": ["media-puzzle-reddit"]
   },
   {
     "id": "ev-rt-puzzle-large",
@@ -641,7 +641,7 @@
     "paraphrase": "An in-hand Andiamo East West review names Emily and The Top Factory as reported, with limited material, color, and hardware detail.",
     "positive_observations": ["Independent public author from r/RepTherapy.", "Adds a distinct Andiamo shape to the family file."],
     "negative_observations": ["Core material, color, and hardware fields are not stated.", "This is a different format from the Medium source."],
-    "media_ids": []
+    "media_ids": ["media-andiamo-reddit"]
   },
   {
     "id": "ev-rll-goyard-gm",
@@ -663,8 +663,8 @@
     "shipping_timeline": null,
     "paraphrase": "A Saint Louis GM review discusses a Burgundy bag with a Goyard-store comparison and a tentative Lemon factory attribution.",
     "positive_observations": ["Independent public author from r/RealRepLadies.", "Exact GM size and Burgundy color are named."],
-    "negative_observations": ["Factory name is explicitly uncertain.", "In-hand image is linked externally rather than archived here."],
-    "media_ids": []
+    "negative_observations": ["Factory name is explicitly uncertain.", "The personal-photo album is externally hosted and should be rechecked if the Reddit post or album changes."],
+    "media_ids": ["media-saint-louis-reddit"]
   },
   {
     "id": "ev-rt-goyard-gm",
@@ -733,7 +733,7 @@
     "paraphrase": "A two-month review covers a Birkin 25 Togo Sellier-style bag with extra veins, brushed palladium hardware, and contrast stitching.",
     "positive_observations": ["Independent public author from r/RepTherapy.", "Longer-term wear details and hardware are explicitly described."],
     "negative_observations": ["Factory is not stated.", "Wear observations are one author’s experience."],
-    "media_ids": []
+    "media_ids": ["media-birkin-25-reddit"]
   },
   {
     "id": "ev-rll-arcadie",
@@ -779,7 +779,7 @@
     "paraphrase": "An in-hand review describes a 27 cm cognac leather Arcadie and names Orange Sofa as reported.",
     "positive_observations": ["Independent public author from r/RepTherapy.", "Exact 27 cm size, cognac color, and leather are stated."],
     "negative_observations": ["Hardware details are not stated.", "Factory attribution remains source-reported."],
-    "media_ids": []
+    "media_ids": ["media-arcadie-reddit"]
   },
   {
     "id": "ev-rll-lady-dior-auth",
@@ -825,7 +825,7 @@
     "paraphrase": "An in-hand review describes a Small Lady Dior / My ABCDior Bag with a God Factory attribution as reported.",
     "positive_observations": ["Independent public author from r/RepTherapy.", "Small size and factory attribution are named."],
     "negative_observations": ["Color, leather, and hardware are not stated.", "Factory attribution remains source-reported."],
-    "media_ids": []
+    "media_ids": ["media-lady-dior-reddit"]
   },
   {
     "id": "ev-rll-book-tote-small",
@@ -848,7 +848,7 @@
     "paraphrase": "A Small Book Tote review records canvas and embroidery with PSP/in-hand evidence and a God Factory attribution as reported.",
     "positive_observations": ["Independent public author from r/RealRepLadies.", "Small size, canvas, and embroidery are stated."],
     "negative_observations": ["Color and hardware are not stated.", "Factory attribution remains source-reported."],
-    "media_ids": []
+    "media_ids": ["media-book-tote-reddit"]
   },
   {
     "id": "ev-rt-book-tote",

@@ -22,7 +22,7 @@
       "subreddit_focus": "RealRepLadies",
       "status": "completed_audit",
       "families_checked": 12,
-      "status_note": "Two-author and image candidates found for all 12 families; local media archive and hash remain a publication gate for the 11 expansion families.",
+      "status_note": "Two-author coverage and qualifying local media are complete for all 12 launch families; ongoing research remains focused on exact variants and unresolved attribution.",
       "scope": "Check every launch family for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
     },
     {
@@ -30,7 +30,7 @@
       "subreddit_focus": "RepTherapy",
       "status": "completed_audit",
       "families_checked": 12,
-      "status_note": "Two-author and image candidates found for all 12 families; local media archive and hash remain a publication gate for the 11 expansion families.",
+      "status_note": "Two-author coverage and qualifying local media are complete for all 12 launch families; ongoing research remains focused on exact variants and unresolved attribution.",
       "scope": "Check every launch family for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
     },
     {
@@ -43,7 +43,7 @@
     }
   ],
   "publication_requirements": [
-    "A published family needs one representative user-posted Reddit image with post URL, author, subreddit, capture date, hash, and alt text.",
+    "A published family needs one representative user-posted image linked to a normalized Reddit evidence record, with direct source URL, Reddit post URL, author, subreddit, capture and removal-check dates, SHA-256 hash, pixel dimensions, and meaningful alt text.",
     "A new family needs at least two independent Reddit authors, including one source from r/RealRepLadies or r/RepTherapy.",
     "Seller and factory names are displayed only as reported by public sources; no site-level trust, safety, 1:1, best-factory, or authenticity conclusions are allowed."
   ],
@@ -188,7 +188,7 @@
     "No source directly tied brown Eden MM to a named seller and factory.",
     "Only one brief author directly supported the brown Monogram GM target, with factory undisclosed.",
     "Some Reddit publication dates are stored as disclosed estimates because the visible UI showed relative age only.",
-    "The 11 expansion families remain research-queue records until their two-author and Reddit-image requirements are met.",
+    "Family-level image coverage is complete, but exact-variant imagery remains uneven and must stay linked to its own normalized receipt.",
     "The r/RepLadiesWorld work is an initial three-family scan, not a completed 12-family audit; its leads remain separate until normalized."
   ],
   "saturation_rule": "Stop after two consecutive targeted search rounds add no new seller-factory-bag combination."
