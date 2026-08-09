@@ -33,6 +33,15 @@ class DataTests(unittest.TestCase):
         self.assertNotIn("expected exactly 38 normalized receipts", source)
         self.assertNotIn("expected exactly 12 launch families", source)
 
+    def test_research_registry_and_log_cover_repculture_bags(self):
+        research = load("research")
+        lanes = {row["subreddit_focus"]: row for row in research["research_lanes"]}
+        self.assertIn("RepCulture_Bags", lanes)
+        self.assertTrue(any(
+            row["subreddit_focus"] == "RepCulture_Bags" and row["status"] == "candidate_leads"
+            for row in research["scan_log"]
+        ))
+
     def test_size_pattern_colorway_are_explicit_and_unique(self):
         variants = [(row["size"], row["pattern"], row["colorway"]) for row in load("bags")]
         self.assertEqual(len(variants), len(set(variants)))

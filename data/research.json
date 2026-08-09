@@ -14,6 +14,13 @@
       "status": "active",
       "scope": "Twelve bag families with independent Reddit-source and Reddit-only image provenance requirements.",
       "started_at": "2026-08-08"
+    },
+    {
+      "id": "campaign-reddit-evidence-crawl-2026-08-08",
+      "name": "Multi-subreddit evidence saturation crawl",
+      "status": "active",
+      "scope": "A resumable public crawl across r/RealRepLadies, r/RepTherapy, r/RepLadiesWorld, and r/RepCulture_Bags, covering public wikis, sidebars, search results, posts, and comments. Candidate leads stay separate until their bag identity, source author, and public evidence are manually normalized.",
+      "started_at": "2026-08-08"
     }
   ],
   "research_lanes": [
@@ -40,6 +47,14 @@
       "families_checked": 3,
       "status_note": "The initial public-feed scan found Chanel Classic Flap, Louis Vuitton Speedy, and Neverfull leads. Promising links remain scan candidates until their source details are normalized; no accessory-only material was imported.",
       "scope": "Scan public bag posts for PSP/QC, in-hand reviews, auth comparisons, seller/factory mentions, and user-posted image candidates."
+    },
+    {
+      "id": "lane-repculture-bags",
+      "subreddit_focus": "RepCulture_Bags",
+      "status": "candidate_leads",
+      "families_checked": 0,
+      "status_note": "Public sidebar rules and bag-focused posting guides were reviewed. The subreddit wiki is disabled; the overnight crawl is queued across public searches, posts, and comments. No private contact or conversation-only material is imported.",
+      "scope": "Scan public bag reviews, PSP/QC, wear reports, auth comparisons, collections, seller/factory references, and receipt-like posts, then map credible leads to existing or new collections."
     }
   ],
   "publication_requirements": [
@@ -146,6 +161,26 @@
       "exclusions": [
         "An LV Neverfull from Anisa appeared in the scan, but Anisa is not an existing tracked seller in this bag directory. The post also contains an access credential; that credential is not copied or imported."
       ]
+    },
+    {
+      "id": "scan-repculture-bags-guides-2026-08-08",
+      "subreddit_focus": "RepCulture_Bags",
+      "source_url": "https://www.reddit.com/r/RepCulture_Bags/",
+      "checked_at": "2026-08-08",
+      "status": "candidate_leads",
+      "source_surfaces": [
+        "public landing page",
+        "public sidebar rules",
+        "public flair and review guides",
+        "public search results",
+        "public post comments"
+      ],
+      "candidate_sources": [],
+      "exclusions": [
+        "The subreddit wiki is disabled, so no wiki-only evidence was available.",
+        "Private-message-only contacts, payment details, addresses, buyer conversations, and unverified allegations remain outside the public catalog boundary."
+      ],
+      "note": "The public guides emphasize clear photos, seller and factory attribution, price, materials, hardware, capacity, wear, pros and cons, PSP/QC, and seller service. These fields guide candidate extraction but are not themselves bag-specific receipts."
     }
   ],
   "rounds": [

@@ -56,7 +56,8 @@ class SiteContractTests(unittest.TestCase):
         for term in ("PSP", "QC", "GL", "RL", "TS", "auth", "ISO", "RH"):
             self.assertIn(term, glossary_text)
         self.assertIn("glossary_source_url", self.js)
-        self.assertIn("r/RepLadiesWorld leads", self.js)
+        self.assertIn("Recent public scan leads", self.js)
+        self.assertNotIn("r/RepLadiesWorld leads", self.js)
         for template in ("suggest-a-bag.yml", "submit-reddit-source.yml", "correction-or-media-removal.yml"):
             self.assertTrue((ROOT / ".github" / "ISSUE_TEMPLATE" / template).is_file())
 
