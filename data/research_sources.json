@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "last_verified": "2026-08-08",
+  "max_discovered_subreddits": 8,
+  "include_comments_by_default": true,
+  "search_terms": [
+    "review",
+    "QC",
+    "PSP",
+    "haul",
+    "receipt",
+    "wear",
+    "seller",
+    "factory",
+    "auth comparison",
+    "long term"
+  ],
+  "sources": [
+    {
+      "subreddit": "RealRepLadies",
+      "landing_url": "https://www.reddit.com/r/RealRepLadies/",
+      "wiki_paths": ["/wiki/", "/about/sidebar/"],
+      "include_comments": true
+    },
+    {
+      "subreddit": "RepTherapy",
+      "landing_url": "https://www.reddit.com/r/RepTherapy/",
+      "wiki_paths": [
+        "/wiki/",
+        "/wiki/rules/",
+        "/wiki/glossary/",
+        "/wiki/reviewtemplate/",
+        "/wiki/trustedsellers/",
+        "/about/sidebar/"
+      ],
+      "include_comments": true
+    },
+    {
+      "subreddit": "RepLadiesWorld",
+      "landing_url": "https://www.reddit.com/r/RepLadiesWorld/",
+      "wiki_paths": ["/wiki/", "/about/sidebar/"],
+      "include_comments": true
+    },
+    {
+      "subreddit": "RepCulture_Bags",
+      "landing_url": "https://www.reddit.com/r/RepCulture_Bags/",
+      "wiki_paths": ["/wiki/", "/about/sidebar/"],
+      "include_comments": true
+    }
+  ]
+}
