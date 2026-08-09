@@ -13,6 +13,7 @@ class SiteContractTests(unittest.TestCase):
         cls.js = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
         cls.css = (ROOT / "assets" / "styles.css").read_text(encoding="utf-8")
         cls.favicon = (ROOT / "favicon.svg").read_text(encoding="utf-8")
+        cls.readme = (ROOT / "README.md").read_text(encoding="utf-8")
         cls.families = json.loads((ROOT / "data" / "bag_families.json").read_text(encoding="utf-8"))
         cls.bags = json.loads((ROOT / "data" / "bags.json").read_text(encoding="utf-8"))
         cls.evidence = json.loads((ROOT / "data" / "evidence.json").read_text(encoding="utf-8"))
@@ -53,6 +54,20 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn("r/RepLadiesWorld leads", self.js)
         for template in ("suggest-a-bag.yml", "submit-reddit-source.yml", "correction-or-media-removal.yml"):
             self.assertTrue((ROOT / ".github" / "ISSUE_TEMPLATE" / template).is_file())
+
+    def test_repository_front_door_links_to_real_local_resources(self):
+        expected_targets = {
+            "CONTRIBUTING.md",
+            "docs/assets/og-rep-hub-preview.png",
+        }
+        markdown_targets = {
+            target.split("#", 1)[0]
+            for target in re.findall(r"!?\[[^\]]*\]\(([^)]+)\)", self.readme)
+            if not re.match(r"^(?:https?://|mailto:|#)", target)
+        }
+        self.assertTrue(expected_targets.issubset(markdown_targets))
+        for target in markdown_targets:
+            self.assertTrue((ROOT / target).is_file(), f"README target does not exist: {target}")
 
     def test_responsive_breakpoints_exist(self):
         self.assertIn("@media (max-width: 900px)", self.css)
