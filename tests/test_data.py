@@ -8,7 +8,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from validate import jpeg_dimensions, publication_counts, validate
+from validate import Validator, jpeg_dimensions, publication_counts, validate, validate_collection_heroes
 from score import generate
 
 
@@ -24,6 +24,21 @@ def load(name):
 
 
 class DataTests(unittest.TestCase):
+    def hero_errors(self, families, media=()):
+        validator = Validator()
+        validate_collection_heroes(families, list(media), ROOT, validator)
+        return validator.errors
+
+    def test_collection_hero_contract_rejects_missing_duplicate_and_unknown_heroes(self):
+        base = {"id": "bag-family-test", "publication_status": "research_queue"}
+        self.assertTrue(self.hero_errors([base]))
+        self.assertTrue(self.hero_errors([{**base, "tile_media_id": "media-test", "hero_icon": "tote"}]))
+        self.assertTrue(self.hero_errors([{**base, "hero_icon": "bucket"}]))
+
+    def test_published_collection_cannot_use_generic_icon(self):
+        row = {"id": "bag-family-test", "publication_status": "published", "hero_icon": "tote"}
+        self.assertTrue(self.hero_errors([row]))
+
     def test_generic_collection_icon_suite_is_complete_and_consistent(self):
         icon_dir = ROOT / "assets" / "collection-icons"
         names = {"tote", "shoulder-flap", "top-handle", "hobo", "vanity"}
@@ -101,8 +116,8 @@ class DataTests(unittest.TestCase):
         self.assertTrue(any(row["publication_status"] == "research_queue" for row in families))
         self.assertGreaterEqual(sum(len(row["evidence_ids"]) > 2 for row in published), 8)
 
-    def test_all_launch_families_have_distinct_reddit_tiles_and_exact_evidence_links(self):
-        families = [row for row in load("bag_families") if row["publication_status"] == "published"]
+    def test_all_media_backed_collections_have_distinct_reddit_tiles_and_exact_evidence_links(self):
+        families = [row for row in load("bag_families") if row.get("tile_media_id")]
         media_rows = load("media")
         media = {row["id"]: row for row in media_rows}
         evidence = {row["id"]: row for row in load("evidence")}
@@ -190,7 +205,14 @@ class DataTests(unittest.TestCase):
         }
         self.assertIn("balmain-anthem", queued)
         self.assertIn("ferragamo-hug", queued)
-        self.assertTrue(all(not row.get("tile_media_id") for row in queued.values()))
+        families = load("bag_families")
+        self.assertTrue(all(bool(row.get("tile_media_id")) ^ bool(row.get("hero_icon")) for row in families))
+        self.assertTrue(all(row["publication_status"] == "research_queue" for row in queued.values()))
+
+    def test_generic_icons_do_not_enter_media_or_evidence_data(self):
+        icon_prefix = "assets/collection-icons/"
+        self.assertTrue(all(not row["path"].startswith(icon_prefix) for row in load("media")))
+        self.assertNotIn(icon_prefix, json.dumps(load("evidence")))
 
 
 if __name__ == "__main__":

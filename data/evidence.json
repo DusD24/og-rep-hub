@@ -1286,7 +1286,7 @@
     "paraphrase": "A RepCulture_Bags review covers a medium black calfskin Balmain Anthem with a Kata/Boutique attribution, comparing it in-store with an authentic reference and describing leather, buckle, lining, stamping, stitching, and early wear.",
     "positive_observations": ["Public bag-focused review includes an auth in-store comparison, factory photos, PSP, and personal wear observations.", "Exact medium size, black color, and calfskin material are stated."],
     "negative_observations": ["The author discloses that the seller knew about the review; no incentive was reported.", "Factory naming is ambiguous in the source (Kata / Boutique) and should not be treated as a settled identity."],
-    "media_ids": []
+    "media_ids": ["media-balmain-anthem-reddit"]
   },
   {
     "id": "ev-crawl-rt-ferragamo-hug-2026",
@@ -1309,7 +1309,7 @@
     "paraphrase": "An in-hand review covers a large black-and-oxblood Ferragamo Hug Soft work bag, describing soft leather, interior capacity, and use as a laptop-friendly everyday tote.",
     "positive_observations": ["Independent public author from r/RepTherapy.", "Exact model and large work-bag use case are described with practical capacity observations."],
     "negative_observations": ["Seller and factory are not disclosed in the normalized record.", "This is an early impression rather than long-term wear evidence."],
-    "media_ids": []
+    "media_ids": ["media-ferragamo-hug-soft-reddit"]
   },
   {
     "id": "ev-crawl-rll-ferragamo-hug-2026",
@@ -1447,7 +1447,7 @@
     "paraphrase": "A medium red YSL LouLou review reports a Black Frame attribution through Felix, lambskin, substantial chain weight, roomy capacity, clean stitching and alignment, and a positive communication experience.",
     "positive_observations": ["Independent public author from r/RealRepLadies.", "The review reports material, hardware, size, capacity, construction, and seller-service observations."],
     "negative_observations": ["The post does not include an auth side-by-side or long-term wear report.", "Factory and seller names remain source-reported; private contact requests in comments are excluded."],
-    "media_ids": []
+    "media_ids": ["media-ysl-loulou-reddit"]
   },
   {
     "id": "ev-crawl-rll-celine-new-luggage-2026",
@@ -1470,7 +1470,7 @@
     "paraphrase": "A self-disclosed, non-incentivized review covers a medium brick Celine New Luggage from BaoBao and Captain/CZ Factory, with PSPs, in-hand photos, and observations on supple sheepskin, weight, zippers, hardware, stitching, and a shallow logo stamp.",
     "positive_observations": ["Exact model, medium size, color, seller, and source-reported factory are stated.", "The author documents PSPs and receipt timing and reports strong everyday usability and construction."],
     "negative_observations": ["The author has not handled an authentic bag side by side.", "The factory attribution and the high-tier label are source-reported, and a shallow logo impression is noted."],
-    "media_ids": []
+    "media_ids": ["media-celine-new-luggage-reddit"]
   },
   {
     "id": "ev-crawl-rll-bv-barbara-medium-2026",
@@ -1493,7 +1493,7 @@
     "paraphrase": "An in-hand medium Barbara Tote review from Yuyu reports very soft dark-brown leather, PSP review, and delivery, with a Top/Taitai factory attribution preserved as source-reported.",
     "positive_observations": ["Independent public author from r/RealRepLadies.", "The review records a specific medium size, color, material feel, seller, factory label, PSP stage, and receipt timeline."],
     "negative_observations": ["The post does not provide an auth comparison or long-term wear evidence.", "The factory label is not independently verified and comments include a price-comparison question rather than a second receipt."],
-    "media_ids": []
+    "media_ids": ["media-bv-barbara-tote-reddit"]
   },
   {
     "id": "ev-crawl-rll-balenciaga-rodeo-medium-2026",
@@ -1516,7 +1516,7 @@
     "paraphrase": "A medium black calfskin Balenciaga Rodeo review compares a Garmen bag with authentic references and reports soft-but-sturdy leather, aged-silver hardware, work capacity, secure closures, and accurate proportions.",
     "positive_observations": ["Independent public author from r/RealRepLadies.", "Exact size, material, hardware, auth reference, use case, shipping timeline, and detailed construction observations are stated."],
     "negative_observations": ["Garmen does not disclose the factory, so no factory attribution is imported.", "The author notes the split-ring engraving may be bolder than authentic; one review cannot establish consistency."],
-    "media_ids": []
+    "media_ids": ["media-balenciaga-rodeo-reddit"]
   },
   {
     "id": "ev-crawl-rll-chanel-vanity-slim-2026",
@@ -1539,7 +1539,7 @@
     "paraphrase": "A Chanel Slim Vanity review names Heidi and a 187 attribution in the public thread, reports quick communication and shipping, and notes that the received bag feels lighter than the authentic store example.",
     "positive_observations": ["Independent public author from r/RealRepLadies.", "The post documents PSP, shipping, receipt, seller communication, and an in-store weight comparison."],
     "negative_observations": ["The author does not provide a full authentic side-by-side and reports a lighter feel than the store example.", "The factory attribution appears in a public comment exchange and remains source-reported, not independently verified."],
-    "media_ids": []
+    "media_ids": ["media-chanel-slim-vanity-reddit"]
   },
   {
     "id": "ev-crawl-rlw-neverfull-damier-mm-2026",
