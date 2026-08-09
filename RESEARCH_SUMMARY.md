@@ -1,7 +1,7 @@
 # Research snapshot
 
-- Bag families mapped: 12
-- Families published with Reddit tiles: 12
+- Bag collections mapped: 12
+- Collections published with Reddit tiles: 12
 - Exact variants retained: 8
 - Sellers tracked: 26
 - Community-listed contacts: 5

@@ -11,19 +11,47 @@ class SiteContractTests(unittest.TestCase):
     def setUpClass(cls):
         cls.html = (ROOT / "index.html").read_text(encoding="utf-8")
         cls.js = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
+        cls.ui_logic = (ROOT / "assets" / "ui-logic.js").read_text(encoding="utf-8")
         cls.css = (ROOT / "assets" / "styles.css").read_text(encoding="utf-8")
         cls.favicon = (ROOT / "favicon.svg").read_text(encoding="utf-8")
         cls.readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        cls.research_summary = (ROOT / "RESEARCH_SUMMARY.md").read_text(encoding="utf-8")
         cls.families = json.loads((ROOT / "data" / "bag_families.json").read_text(encoding="utf-8"))
         cls.bags = json.loads((ROOT / "data" / "bags.json").read_text(encoding="utf-8"))
         cls.evidence = json.loads((ROOT / "data" / "evidence.json").read_text(encoding="utf-8"))
         cls.research = json.loads((ROOT / "data" / "research.json").read_text(encoding="utf-8"))
 
-    def test_required_views_and_family_filters_exist(self):
-        for item in ("bag-results", "brand-filter", "type-filter", "size-filter", "material-filter", "evidence-type-filter", "seller-results", "factory-results", "evidence-results", "research-results"):
+    def test_required_views_and_collection_filters_exist(self):
+        for item in (
+            "bag-results", "brand-filter", "type-filter", "size-filter", "material-filter",
+            "seller-results", "factory-results", "evidence-results", "research-results",
+            "evidence-collection-filter", "evidence-seller-filter", "evidence-factory-filter",
+            "evidence-subreddit-filter", "evidence-source-filter", "evidence-type-filter",
+            "evidence-match-filter", "evidence-clear-filters",
+        ):
             self.assertIn(item, self.html)
-        for label in ("Bags", "Sellers &amp; Factories", "Reviews &amp; Receipts", "Research", "Bag Finder", "Help Fill the Gaps"):
+        for label in ("Catalog", "Sellers", "Factories", "Reviews &amp; Receipts", "Research", "The Catalog", "Help Fill the Gaps"):
             self.assertIn(label, self.html + self.js)
+
+    def test_public_catalog_and_collection_language_is_current(self):
+        public_copy = "\n".join((self.html, self.js, self.readme, self.research_summary))
+        self.assertNotIn("Bag-first catalog", public_copy)
+        self.assertNotIn("Bag Finder", public_copy)
+        for stale_phrase in (
+            "Open family file", "family files", "bag families", "bag family",
+            "Useful family facts", "Family gap", "family candidate", "families checked",
+            "Family-level", "family-level",
+        ):
+            self.assertNotIn(stale_phrase, public_copy)
+        for current_phrase in ("The Catalog", "Collection Details", "bag collections", "launch collections"):
+            self.assertIn(current_phrase, public_copy)
+
+    def test_sellers_and_factories_are_distinct_routes(self):
+        self.assertIn('id="sellers"', self.html)
+        self.assertIn('id="factories"', self.html)
+        self.assertIn('data-view-nav="sellers"', self.html)
+        self.assertIn('data-view-nav="factories"', self.html)
+        self.assertIn('"sellers", "factories"', self.js)
 
     def test_all_family_routes_and_detail_rendering_exist(self):
         self.assertEqual(len(self.families), 12)
@@ -132,6 +160,7 @@ class SiteContractTests(unittest.TestCase):
             "activeEvidenceContext",
             "resetEvidenceControls()",
             "data-clear-evidence",
+            "evidence-clear-filters",
             'window.addEventListener("hashchange"',
             "document.startViewTransition",
         ):
@@ -163,11 +192,20 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn("event.target === dialog", self.js)
         self.assertIn('dialog.addEventListener("close"', self.js)
         self.assertIn("dialogOpener", self.js)
-        self.assertIn("target.focus()", self.js)
+        self.assertIn("target.focus({ preventScroll: true })", self.js)
         self.assertIn('classList.add("dialog-open")', self.js)
-        self.assertIn('classList.remove("dialog-open")', self.js)
+        self.assertIn('classList.remove("dialog-open")', self.js + self.ui_logic)
+        self.assertIn("restoreLockedScroll", self.js)
+        self.assertIn("scroll-restoring", self.css)
         self.assertIn(".content-dialog::backdrop", self.css)
         self.assertNotIn('addEventListener("cancel"', self.js)
+
+    def test_receipt_dialog_can_swap_to_branded_update_form(self):
+        for contract in (
+            "Request a receipt update", "renderReceiptUpdateForm", "receipt-update-form",
+            "Back to receipt", "turnstileToken", "evidenceUrls",
+        ):
+            self.assertIn(contract, self.html + self.js)
 
     def test_family_file_is_receipt_first_and_variant_cards_are_compact(self):
         detail = self.js[self.js.index("function renderBagDetail"):self.js.index("function renderResearch")]
@@ -177,6 +215,7 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn("slice(0, 6)", detail)
         self.assertIn("View all ${evidence.length} receipts", detail)
         self.assertIn("At a glance", detail)
+        self.assertIn("Useful collection facts", detail)
         self.assertIn("Research notes", detail)
         self.assertIn("slice(0, 3)", detail)
         self.assertIn("Read all ${qcNotes.length}", detail)
@@ -213,6 +252,16 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn('focus({ preventScroll: true })', self.js)
         self.assertIn('loading="lazy"', self.js)
         self.assertIn("onerror=", self.js)
+
+    def test_mobile_navigation_does_not_duplicate_accessible_link_names(self):
+        self.assertNotIn('content: "Catalog"', self.css)
+        self.assertNotIn('content: "Factories"', self.css)
+        self.assertNotIn('content: "Receipts"', self.css)
+
+    def test_expected_view_transition_cancellation_is_consumed(self):
+        transition = self.js[self.js.index("function transitionView"):self.js.index("function focusAndScroll")]
+        self.assertIn("transition.ready.catch", transition)
+        self.assertIn("transition.finished.catch", transition)
 
 
 if __name__ == "__main__":

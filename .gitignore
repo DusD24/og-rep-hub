@@ -2,9 +2,10 @@ __pycache__/
 *.py[cod]
 .DS_Store
 .venv/
+node_modules/
+.wrangler/
 local-private/
 private/
 .env
 .env.*
 !.env.example
-

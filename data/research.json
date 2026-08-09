@@ -5,14 +5,14 @@
       "id": "campaign-neverfull-original",
       "name": "Original Neverfull evidence campaign",
       "status": "historical",
-      "scope": "Brown Monogram GM and Eden/floral MM candidate research; retained as the source campaign for the consolidated Neverfull family.",
+      "scope": "Brown Monogram GM and Eden/floral MM candidate research; retained as the source campaign for the consolidated Neverfull collection.",
       "completed_at": "2026-08-08"
     },
     {
       "id": "campaign-community-first-expansion",
       "name": "Community-first OG Rep Hub expansion",
       "status": "active",
-      "scope": "Twelve bag families with independent Reddit-source and Reddit-only image provenance requirements.",
+      "scope": "Twelve bag collections with independent Reddit-source and Reddit-only image provenance requirements.",
       "started_at": "2026-08-08"
     }
   ],
@@ -22,16 +22,16 @@
       "subreddit_focus": "RealRepLadies",
       "status": "completed_audit",
       "families_checked": 12,
-      "status_note": "Two-author coverage and qualifying local media are complete for all 12 launch families; ongoing research remains focused on exact variants and unresolved attribution.",
-      "scope": "Check every launch family for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
+      "status_note": "Two-author coverage and qualifying local media are complete for all 12 launch collections; ongoing research remains focused on exact variants and unresolved attribution.",
+      "scope": "Check every launch collection for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
     },
     {
       "id": "lane-reptherapy",
       "subreddit_focus": "RepTherapy",
       "status": "completed_audit",
       "families_checked": 12,
-      "status_note": "Two-author coverage and qualifying local media are complete for all 12 launch families; ongoing research remains focused on exact variants and unresolved attribution.",
-      "scope": "Check every launch family for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
+      "status_note": "Two-author coverage and qualifying local media are complete for all 12 launch collections; ongoing research remains focused on exact variants and unresolved attribution.",
+      "scope": "Check every launch collection for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
     },
     {
       "id": "lane-repladiesworld",
@@ -43,8 +43,8 @@
     }
   ],
   "publication_requirements": [
-    "A published family needs one representative user-posted image linked to a normalized Reddit evidence record, with direct source URL, Reddit post URL, author, subreddit, capture and removal-check dates, SHA-256 hash, pixel dimensions, and meaningful alt text.",
-    "A new family needs at least two independent Reddit authors, including one source from r/RealRepLadies or r/RepTherapy.",
+    "A published collection needs one representative user-posted image linked to a normalized Reddit evidence record, with direct source URL, Reddit post URL, author, subreddit, capture and removal-check dates, SHA-256 hash, pixel dimensions, and meaningful alt text.",
+    "A new collection needs at least two independent Reddit authors, including one source from r/RealRepLadies or r/RepTherapy.",
     "Seller and factory names are displayed only as reported by public sources; no site-level trust, safety, 1:1, best-factory, or authenticity conclusions are allowed."
   ],
   "seller_contact_sources": [
@@ -188,8 +188,8 @@
     "No source directly tied brown Eden MM to a named seller and factory.",
     "Only one brief author directly supported the brown Monogram GM target, with factory undisclosed.",
     "Some Reddit publication dates are stored as disclosed estimates because the visible UI showed relative age only.",
-    "Family-level image coverage is complete, but exact-variant imagery remains uneven and must stay linked to its own normalized receipt.",
-    "The r/RepLadiesWorld work is an initial three-family scan, not a completed 12-family audit; its leads remain separate until normalized."
+    "Collection-level image coverage is complete, but exact-variant imagery remains uneven and must stay linked to its own normalized receipt.",
+    "The r/RepLadiesWorld work is an initial three-collection scan, not a completed 12-collection audit; its leads remain separate until normalized."
   ],
   "saturation_rule": "Stop after two consecutive targeted search rounds add no new seller-factory-bag combination."
 }

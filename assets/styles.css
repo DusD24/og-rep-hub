@@ -18,6 +18,7 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+html.scroll-restoring { scroll-behavior: auto !important; }
 body {
   min-width: 0;
   margin: 0;
@@ -37,12 +38,13 @@ body.dialog-open {
   width: 100%;
 }
 a { color: var(--oxblood); text-underline-offset: 3px; }
-button, input, select { font: inherit; }
+button, input, select, textarea { font: inherit; }
 button, select { cursor: pointer; }
 button:focus-visible,
 a:focus-visible,
 input:focus-visible,
 select:focus-visible,
+textarea:focus-visible,
 [tabindex="-1"]:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
 h1, h2, h3, h4, p, dd, td { overflow-wrap: anywhere; }
 h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
@@ -323,7 +325,19 @@ main { width: min(100%, 1360px); min-height: calc(100svh - var(--header-height))
 }
 .controls label { min-width: 0; color: var(--muted); font-size: 9px; font-weight: 850; letter-spacing: .09em; text-transform: uppercase; }
 .controls input, .controls select { width: 100%; min-width: 0; height: 44px; margin-top: 5px; padding: 0 10px; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; font-size: 13px; letter-spacing: normal; text-transform: none; }
-.evidence-controls { grid-template-columns: minmax(230px, 2fr) repeat(3, minmax(140px, 1fr)); }
+.evidence-controls { grid-template-columns: minmax(230px, 2fr) repeat(4, minmax(130px, 1fr)); }
+.filter-clear {
+  min-height: 44px;
+  align-self: end;
+  padding: 9px 14px;
+  color: white;
+  background: var(--brown);
+  border: 1px solid var(--brown);
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 820;
+}
+.filter-clear:hover { background: var(--oxblood); border-color: var(--oxblood); }
 .context-chip {
   width: fit-content;
   min-height: 44px;
@@ -395,7 +409,7 @@ main { width: min(100%, 1360px); min-height: calc(100svh - var(--header-height))
 .receipt-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; }
 .receipt-card h3 { font-size: 22px; }
 
-/* Family files */
+/* Collection details */
 .family-hero { display: grid; grid-template-columns: minmax(260px, .8fr) minmax(0, 1.2fr); gap: clamp(24px, 4vw, 48px); align-items: center; }
 .detail-tile { border-radius: 14px; }
 .family-hero h1 { margin: 5px 0 9px; font-size: clamp(42px, 6vw, 72px); letter-spacing: -.045em; line-height: .94; }
@@ -485,6 +499,68 @@ main { width: min(100%, 1360px); min-height: calc(100svh - var(--header-height))
 .variant-thumb.media-unavailable::before, .evidence-media figure.media-unavailable::before { min-height: 150px; display: grid; place-items: center; padding: 14px; border-radius: 9px; }
 .contact-link { font-weight: 750; }
 .contact-source { color: var(--muted); font-size: 11px; }
+.dialog-back {
+  min-height: 44px;
+  margin: -8px 0 12px;
+  padding: 8px 0;
+  color: var(--oxblood);
+  background: transparent;
+  border: 0;
+  font-weight: 820;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.receipt-update-context {
+  margin-bottom: 18px;
+  padding: 13px 15px;
+  display: grid;
+  gap: 3px;
+  color: var(--muted);
+  background: #f3eadf;
+  border-left: 3px solid var(--gold);
+  border-radius: 8px;
+  font-size: 11px;
+}
+.receipt-update-context strong { color: var(--brown); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+.receipt-update-form { display: grid; gap: 16px; }
+.receipt-update-form .form-intro { margin: 0; color: #574a44; }
+.receipt-update-form > label,
+.form-grid label { min-width: 0; display: grid; gap: 6px; color: var(--brown); font-size: 11px; font-weight: 820; }
+.receipt-update-form label > span { color: var(--muted); font-weight: 500; }
+.receipt-update-form select,
+.receipt-update-form textarea,
+.receipt-update-form input:not([type="checkbox"]):not([type="hidden"]) {
+  width: 100%;
+  min-width: 0;
+  padding: 11px 12px;
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 450;
+}
+.receipt-update-form textarea { resize: vertical; line-height: 1.45; }
+.field-help { color: var(--muted) !important; font-size: 10px; line-height: 1.45; }
+.form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.receipt-update-form .form-confirm { display: flex; align-items: start; gap: 9px; color: #574a44; line-height: 1.45; }
+.form-confirm input { flex: 0 0 auto; width: 18px; height: 18px; margin: 1px 0 0; }
+.form-honeypot { position: absolute !important; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.turnstile-host { min-height: 65px; }
+.form-status { min-height: 20px; margin: 0; color: var(--moss); font-size: 12px; font-weight: 750; }
+.form-status.error { color: var(--oxblood); }
+.form-submit {
+  width: fit-content;
+  min-height: 48px;
+  padding: 11px 17px;
+  color: white;
+  background: var(--oxblood);
+  border: 0;
+  border-radius: 999px;
+  font-weight: 850;
+}
+.form-submit:disabled { cursor: wait; opacity: .65; }
+.form-success { padding: 10px 0; }
 
 .app-footer { padding: 28px clamp(18px, 5vw, 68px); display: flex; justify-content: space-between; gap: 28px; color: #cdbfb5; background: #241a16; font-size: 11px; }
 .app-footer p { max-width: 570px; margin: 0; line-height: 1.5; }
@@ -552,6 +628,7 @@ main { width: min(100%, 1360px); min-height: calc(100svh - var(--header-height))
   .family-card h3 { font-size: 25px; }
   .at-a-glance { grid-template-columns: 1fr; }
   .observations { grid-template-columns: 1fr; }
+  .form-grid { grid-template-columns: 1fr; }
   .app-footer { display: block; }
   .app-footer p + p { margin-top: 13px; }
   .content-dialog {
@@ -568,11 +645,7 @@ main { width: min(100%, 1360px); min-height: calc(100svh - var(--header-height))
 }
 
 @media (max-width: 430px) {
-  .app-nav a { font-size: 0; }
-  .app-nav a[data-view-nav="bags"]::after { content: "Bags"; font-size: 11px; }
-  .app-nav a[data-view-nav="sellers"]::after { content: "Directory"; font-size: 11px; }
-  .app-nav a[data-view-nav="evidence"]::after { content: "Receipts"; font-size: 11px; }
-  .app-nav a[data-view-nav="research"]::after { content: "Research"; font-size: 11px; }
+  .app-nav a { font-size: 10px; }
   .variant-card { grid-template-columns: 1fr; }
   .variant-thumb { min-height: 0; aspect-ratio: 16 / 9; }
 }

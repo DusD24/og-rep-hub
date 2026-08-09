@@ -1,4 +1,4 @@
-name: Validate and deploy Pages
+name: Validate and deploy release
 
 on:
   push:
@@ -12,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: release-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -27,24 +27,72 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13.7'
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.20.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: pnpm
+      - name: Install Worker dependencies
+        run: pnpm install --frozen-lockfile
       - name: Validate data and public safety
         run: python scripts/validate.py
       - name: Verify deterministic rankings
         run: python scripts/score.py --check
-      - name: Run tests
+      - name: Run Python tests
         run: python -m unittest discover -s tests -v
+      - name: Run browser-logic and Worker tests
+        run: pnpm test
+      - name: Verify Worker bundle
+        run: pnpm exec wrangler deploy --dry-run --config worker/wrangler.jsonc
+
+  deploy-worker:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.20.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Deploy receipt-update Worker
+        env:
+          BUILD_SHA: ${{ github.sha }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: pnpm exec wrangler deploy --config worker/wrangler.jsonc --var "BUILD_SHA:$BUILD_SHA"
 
   deploy:
-    if: github.event_name != 'pull_request'
-    needs: validate
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: [validate, deploy-worker]
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
           lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.7'
+      - name: Build public runtime configuration
+        env:
+          ISSUE_INTAKE_URL: ${{ vars.ISSUE_INTAKE_URL }}
+          TURNSTILE_SITE_KEY: ${{ vars.TURNSTILE_SITE_KEY }}
+        run: python scripts/build_site_config.py --output data/site_config.json
+      - name: Publish release commit marker
+        env:
+          BUILD_SHA: ${{ github.sha }}
+        run: python scripts/build_release_meta.py --output build-meta.json --sha "$BUILD_SHA"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -52,3 +100,23 @@ jobs:
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  verify-live:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: [deploy-worker, deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.7'
+      - name: Verify Pages and Worker release SHA
+        env:
+          PAGES_URL: ${{ needs.deploy.outputs.page_url }}
+          WORKER_URL: ${{ vars.ISSUE_INTAKE_URL }}
+          BUILD_SHA: ${{ github.sha }}
+        run: >-
+          python scripts/verify_release.py
+          --pages-url "$PAGES_URL"
+          --worker-url "$WORKER_URL"
+          --sha "$BUILD_SHA"
