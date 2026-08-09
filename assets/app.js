@@ -10,9 +10,12 @@ const welcomeEvidenceIds = [
   "ev-rll-lady-dior-auth"
 ];
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+const welcomeExitDuration = 1280;
 let activeEvidenceContext = null;
 let dialogOpener = null;
 let dialogScrollPosition = 0;
+let welcomeExitTimer = null;
+let welcomeExitActive = false;
 let ready = false;
 
 const STATUS_LABELS = {
@@ -49,7 +52,19 @@ const plural = (count, singular, pluralForm = `${singular}s`) => `${count} ${cou
 const placeholderValue = value => /^(unknown|none|n\/a|not documented|not stated|not consistently stated|unavailable|still researching)/i.test(String(value || "").trim());
 const meaningfulValues = values => cleanList(values).filter(value => !placeholderValue(value));
 
+function resetWelcomeExit() {
+  if (welcomeExitTimer !== null) window.clearTimeout(welcomeExitTimer);
+  welcomeExitTimer = null;
+  welcomeExitActive = false;
+  document.body.classList.remove("welcome-transitioning");
+  document.querySelector("#welcome")?.classList.remove("welcome-exiting");
+  const cta = document.querySelector("[data-enter-site]");
+  if (cta) cta.disabled = false;
+  document.querySelectorAll(".app-shell").forEach(shell => { shell.inert = false; });
+}
+
 function setDisplayMode(mode) {
+  resetWelcomeExit();
   document.body.classList.toggle("welcome-mode", mode === "welcome");
   document.body.classList.toggle("app-mode", mode === "app");
 }
@@ -122,18 +137,48 @@ function renderWelcomeVoices() {
   const selected = welcomeEvidenceIds.map(id => state.maps.evidence.get(id)).filter(Boolean);
   const rows = (selected.length === welcomeEvidenceIds.length ? selected : [...state.evidence]
     .sort((a, b) => String(a.id).localeCompare(String(b.id))).slice(0, 6));
-  const positions = [[-34, -18], [31, -27], [-25, 18], [27, 14], [-7, -32], [4, 27]];
+  const positions = [
+    [-34, -18, -19, -20],
+    [31, -27, 19, -26],
+    [-25, 18, -20, 13],
+    [27, 14, 20, 17],
+    [-7, -32, -4, -35],
+    [4, 27, 5, 31]
+  ];
   document.querySelector("#welcome-voices").innerHTML = rows.map((item, index) => {
-    const [x, y] = positions[index] || [0, 0];
-    return `<figure class="welcome-voice" style="--voice-index:${index};--voice-x:${x}vw;--voice-y:${y}vh"><p>${escapeHtml(item.paraphrase)}</p><figcaption>${item.author ? `u/${escapeHtml(item.author)} · ` : ""}${item.subreddit ? `r/${escapeHtml(item.subreddit)}` : escapeHtml(sourceLabel(item.source_type))}</figcaption></figure>`;
+    const [x, y, mobileX, mobileY] = positions[index] || [0, 0, 0, 0];
+    const lineY = 9 + (index * 14.5);
+    return `<figure class="welcome-voice" style="--voice-index:${index};--voice-x:${x}vw;--voice-y:${y}vh;--voice-mobile-x:${mobileX}vw;--voice-mobile-y:${mobileY}vh;--voice-line-y:${lineY}vh;--voice-exit-delay:${index * .025}s"><p>${escapeHtml(item.paraphrase)}</p><figcaption>${item.author ? `u/${escapeHtml(item.author)} · ` : ""}${item.subreddit ? `r/${escapeHtml(item.subreddit)}` : escapeHtml(sourceLabel(item.source_type))}</figcaption></figure>`;
   }).join("");
 }
 
 function restartWelcomeAnimation() {
+  resetWelcomeExit();
   const welcome = document.querySelector("#welcome");
   welcome.classList.remove("welcome-ready");
   void welcome.offsetWidth;
   welcome.classList.add("welcome-ready");
+}
+
+function enterCatalogFromWelcome() {
+  if (!ready || welcomeExitActive) return;
+  if (reducedMotion.matches) {
+    navigate("bags");
+    return;
+  }
+  const welcome = document.querySelector("#welcome");
+  const cta = document.querySelector("[data-enter-site]");
+  welcomeExitActive = true;
+  activateView("bags");
+  window.scrollTo({ top: 0, behavior: "auto" });
+  document.querySelectorAll(".app-shell").forEach(shell => { shell.inert = true; });
+  document.body.classList.add("welcome-transitioning");
+  welcome.classList.add("welcome-exiting");
+  if (cta) cta.disabled = true;
+  welcomeExitTimer = window.setTimeout(() => {
+    welcomeExitTimer = null;
+    navigate("bags");
+  }, welcomeExitDuration);
 }
 
 function renderSnapshot() {
@@ -560,7 +605,7 @@ function bindControls() {
     if (close) return closeDialog();
     const dialogTrigger = event.target.closest(".dialog-trigger");
     if (dialogTrigger) return openDialog(dialogTrigger);
-    if (event.target.closest("[data-enter-site]")) return navigate("bags");
+    if (event.target.closest("[data-enter-site]")) return enterCatalogFromWelcome();
     if (event.target.closest("[data-welcome-route]")) {
       event.preventDefault();
       closeDialog();
