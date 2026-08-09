@@ -4,7 +4,7 @@ Thanks for helping make the research trail more useful. The best contributions a
 
 ## Choose the right contribution path
 
-- [Suggest a bag](https://github.com/DusD24/og-rep-hub/issues/new?template=suggest-a-bag.yml) when a family is missing from the guide.
+- [Suggest a bag](https://github.com/DusD24/og-rep-hub/issues/new?template=suggest-a-bag.yml) when a collection is missing from the guide.
 - [Submit a Reddit source](https://github.com/DusD24/og-rep-hub/issues/new?template=submit-reddit-source.yml) for a public review, PSP/QC post, auth comparison, factory comparison, or long-term wear report.
 - [Request a correction or media removal](https://github.com/DusD24/og-rep-hub/issues/new?template=correction-or-media-removal.yml) for incorrect attribution, broken provenance, factual corrections, or image-removal requests.
 
@@ -14,11 +14,11 @@ Blank issues are disabled so each request arrives with the context needed for re
 
 Every research submission must include a public URL. Include as much of the following as the source supports:
 
-- bag brand, family, exact size, material, pattern, colorway, and hardware;
+- bag brand, collection, exact size, material, pattern, colorway, and hardware;
 - source author, subreddit, publication date, and evidence type;
 - seller or factory name exactly as the source reports it;
 - useful positive and negative observations;
-- whether the source is an exact-variant match or related family context; and
+- whether the source is an exact-variant match or related collection context; and
 - any uncertainty, contradiction, or missing detail that remains unresolved.
 
 A listing or catalog image can document that something was shown publicly. It cannot, by itself, prove current stock, quality, fulfillment, or a buyer's outcome.
@@ -43,16 +43,19 @@ Media selected for the public guide must have a documented research purpose, pub
 
 ## Corrections and removals
 
-Use the correction and media-removal form to identify the affected public URL or family route, explain the requested change, and provide a public source when one is available. For a media-removal request, identifying the public post and the affected image is enough; do not upload private proof.
+Use the correction and media-removal form to identify the affected public URL or collection route, explain the requested change, and provide a public source when one is available. For a media-removal request, identifying the public post and the affected image is enough; do not upload private proof.
 
 ## Local checks
 
 Before proposing repository changes, run:
 
 ```sh
+pnpm install --frozen-lockfile
 python3 scripts/validate.py
 python3 scripts/score.py --check
 python3 -m unittest discover -s tests -v
+pnpm test
+pnpm exec wrangler deploy --dry-run --config worker/wrangler.jsonc
 ```
 
 These checks protect the normalized data relationships, deterministic scoring, public-data boundaries, media provenance, and site behavior.

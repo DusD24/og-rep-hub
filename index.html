@@ -4,9 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="A source-linked community guide to rep bags, factories, sellers, and the Reddit posts behind every note.">
-  <title>OG Rep Hub · Bags, receipts &amp; research</title>
+  <title>OG Rep Hub · The Catalog, receipts &amp; research</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/ui-logic.js" defer></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
   <script src="assets/app.js" defer></script>
 </head>
 <body class="welcome-mode">
@@ -36,8 +38,9 @@
       <span>OG Rep Hub</span>
     </a>
     <nav class="app-nav" aria-label="Primary navigation">
-      <a href="#bags" data-route data-view-nav="bags">Bags</a>
-      <a href="#sellers" data-route data-view-nav="sellers">Sellers &amp; Factories</a>
+      <a href="#bags" data-route data-view-nav="bags">Catalog</a>
+      <a href="#sellers" data-route data-view-nav="sellers">Sellers</a>
+      <a href="#factories" data-route data-view-nav="factories">Factories</a>
       <a href="#evidence" data-route data-view-nav="evidence">Reviews &amp; Receipts</a>
       <a href="#research" data-route data-view-nav="research">Research</a>
       <a class="repository-link" href="https://github.com/DusD24/og-rep-hub" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
@@ -47,15 +50,15 @@
   <main id="main-content" class="app-shell" tabindex="-1">
     <section id="bags" class="view" aria-labelledby="bags-title">
       <div class="section-heading">
-        <div><p class="eyebrow">Bag-first catalog</p><h1 id="bags-title" tabindex="-1">Bag Finder</h1></div>
-        <p class="scope-note">Source-linked collection files, organized for quick comparison and deeper receipt review.</p>
+        <div><h1 id="bags-title" tabindex="-1">The Catalog</h1></div>
+        <p class="scope-note">Twelve source-linked collections, organized for quick comparison and deeper receipt review.</p>
       </div>
       <div id="snapshot" class="snapshot-strip" aria-live="polite"></div>
       <div class="notice-row">
         <p class="notice"><strong>How to read this:</strong> “As reported” keeps seller and factory names tied to a public post. Community signal is a research trail, not a site verdict.</p>
         <a class="text-link" href="#research" data-route>See methods &amp; contribution paths →</a>
       </div>
-      <div class="controls" role="search" aria-label="Filter bag families">
+      <div class="controls" role="search" aria-label="Filter bag collections">
         <label>Search <input id="bag-search" type="search" placeholder="Brand, model, alias…"></label>
         <label>Brand <select id="brand-filter"><option value="">All brands</option></select></label>
         <label>Bag type <select id="type-filter"><option value="">All types</option></select></label>
@@ -69,14 +72,21 @@
 
     <section id="sellers" class="view" aria-labelledby="sellers-title">
       <div class="section-heading">
-        <div><p class="eyebrow">Public directory</p><h2 id="sellers-title" tabindex="-1">Sellers &amp; Factories</h2></div>
+        <div><p class="eyebrow">Public directory</p><h2 id="sellers-title" tabindex="-1">Sellers</h2></div>
         <p class="scope-note">Names appear only when a public source reports them. Listings are not current-stock claims.</p>
       </div>
       <section aria-labelledby="seller-grid-title">
         <div class="subsection-heading"><h3 id="seller-grid-title">Sellers as reported</h3><p>Community-listed contacts stay attached to their public source.</p></div>
         <div id="seller-results" class="directory-grid"></div>
       </section>
-      <section class="directory-section" aria-labelledby="factory-grid-title">
+    </section>
+
+    <section id="factories" class="view" aria-labelledby="factories-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Public directory</p><h2 id="factories-title" tabindex="-1">Factories</h2></div>
+        <p class="scope-note">Factory and batch names stay tied to the exact public receipts that reported them.</p>
+      </div>
+      <section aria-labelledby="factory-grid-title">
         <div class="subsection-heading"><h3 id="factory-grid-title">Factories / batches as reported</h3><p>Source language is preserved without turning a name into a site conclusion.</p></div>
         <div id="factory-results" class="directory-grid"></div>
       </section>
@@ -89,10 +99,15 @@
       </div>
       <div id="evidence-context" class="context-chip" hidden aria-live="polite"></div>
       <div class="controls evidence-controls" role="search" aria-label="Filter reviews and receipts">
-        <label>Search <input id="evidence-search" type="search" placeholder="Author, subreddit, observation…"></label>
-        <label>Source <select id="source-filter"><option value="">All source types</option></select></label>
-        <label>Evidence type <select id="evidence-type-detail-filter"><option value="">All evidence</option></select></label>
-        <label>Match <select id="match-filter"><option value="">Exact + related</option><option value="true">Exact only</option><option value="false">Related only</option></select></label>
+        <label>Search <input id="evidence-search" type="search" placeholder="Collection, seller, author, observation…"></label>
+        <label>Collection <select id="evidence-collection-filter"><option value="">All collections</option></select></label>
+        <label>Seller <select id="evidence-seller-filter"><option value="">All sellers</option></select></label>
+        <label>Factory / batch <select id="evidence-factory-filter"><option value="">All factories / batches</option></select></label>
+        <label>Subreddit <select id="evidence-subreddit-filter"><option value="">All subreddits</option></select></label>
+        <label>Source <select id="evidence-source-filter"><option value="">All source types</option></select></label>
+        <label>Evidence type <select id="evidence-type-filter-detail"><option value="">All evidence</option></select></label>
+        <label>Match <select id="evidence-match-filter"><option value="">Exact + related</option><option value="true">Exact only</option><option value="false">Related only</option></select></label>
+        <button id="evidence-clear-filters" class="filter-clear" type="button" data-clear-evidence>Clear Filters</button>
       </div>
       <div id="evidence-results" class="receipt-grid" aria-live="polite"></div>
     </section>
@@ -117,7 +132,7 @@
 
   <dialog id="content-dialog" class="content-dialog app-shell" aria-labelledby="dialog-title">
     <div class="dialog-panel">
-      <header class="dialog-header"><div><p id="dialog-kicker" class="eyebrow"></p><h2 id="dialog-title"></h2></div><button class="dialog-close" type="button" data-dialog-close aria-label="Close dialog">×</button></header>
+      <header class="dialog-header"><div><p id="dialog-kicker" class="eyebrow"></p><h2 id="dialog-title" tabindex="-1"></h2></div><button class="dialog-close" type="button" data-dialog-close aria-label="Close dialog">×</button></header>
       <div id="dialog-body" class="dialog-body"></div>
     </div>
   </dialog>

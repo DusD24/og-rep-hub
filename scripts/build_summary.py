@@ -24,8 +24,8 @@ def main() -> int:
     lines = [
         "# Research snapshot",
         "",
-        f"- Bag families mapped: {len(families)}",
-        f"- Families published with Reddit tiles: {sum(row['publication_status'] == 'published' for row in families)}",
+        f"- Bag collections mapped: {len(families)}",
+        f"- Collections published with Reddit tiles: {sum(row['publication_status'] == 'published' for row in families)}",
         f"- Exact variants retained: {len(bags)}",
         f"- Sellers tracked: {len(sellers)}",
         f"- Community-listed contacts: {len(contacts)}",

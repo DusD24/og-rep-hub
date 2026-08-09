@@ -5,14 +5,14 @@
       "id": "campaign-neverfull-original",
       "name": "Original Neverfull evidence campaign",
       "status": "historical",
-      "scope": "Brown Monogram GM and Eden/floral MM candidate research; retained as the source campaign for the consolidated Neverfull family.",
+      "scope": "Brown Monogram GM and Eden/floral MM candidate research; retained as the source campaign for the consolidated Neverfull collection.",
       "completed_at": "2026-08-08"
     },
     {
       "id": "campaign-community-first-expansion",
       "name": "Community-first OG Rep Hub expansion",
       "status": "active",
-      "scope": "Published bag families with independent Reddit-source and Reddit-only image provenance requirements, plus a visible research queue for new collections.",
+      "scope": "Published bag collections with independent Reddit-source and Reddit-only image provenance requirements, plus a visible research queue for new collections.",
       "started_at": "2026-08-08"
     },
     {
@@ -29,16 +29,16 @@
       "subreddit_focus": "RealRepLadies",
       "status": "active_evidence_expansion",
       "families_checked": 17,
-      "status_note": "The initial published-family audit is complete; indexed public review pages added nine normalized receipts across four existing families and opened five research-queue collections. Ongoing work remains focused on exact variants, second authors, and unresolved attribution.",
-      "scope": "Check every published family for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
+      "status_note": "The initial published-collection audit is complete; indexed public review pages added nine normalized receipts across four existing collections and opened five research-queue collections. Ongoing work remains focused on exact variants, second authors, and unresolved attribution.",
+      "scope": "Check every published collection for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
     },
     {
       "id": "lane-reptherapy",
       "subreddit_focus": "RepTherapy",
       "status": "completed_audit",
       "families_checked": 12,
-      "status_note": "Two-author coverage and qualifying local media are complete for the published families; ongoing research remains focused on exact variants and unresolved attribution.",
-      "scope": "Check every published family for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
+      "status_note": "Two-author coverage and qualifying local media are complete for the published collections; ongoing research remains focused on exact variants and unresolved attribution.",
+      "scope": "Check every published collection for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
     },
     {
       "id": "lane-repladiesworld",
@@ -58,8 +58,8 @@
     }
   ],
   "publication_requirements": [
-    "A published family needs one representative user-posted image linked to a normalized Reddit evidence record, with direct source URL, Reddit post URL, author, subreddit, capture and removal-check dates, SHA-256 hash, pixel dimensions, and meaningful alt text.",
-    "A new family needs at least two independent Reddit authors, including one source from r/RealRepLadies or r/RepTherapy.",
+    "A published collection needs one representative user-posted image linked to a normalized Reddit evidence record, with direct source URL, Reddit post URL, author, subreddit, capture and removal-check dates, SHA-256 hash, pixel dimensions, and meaningful alt text.",
+    "A new collection needs at least two independent Reddit authors, including one source from r/RealRepLadies or r/RepTherapy.",
     "Seller and factory names are displayed only as reported by public sources; no site-level trust, safety, 1:1, best-factory, or authenticity conclusions are allowed."
   ],
   "seller_contact_sources": [
@@ -363,7 +363,7 @@
     {
       "id": "round-5-public-crawl-seeded-2026-08-08",
       "lanes": ["RealRepLadies", "RepTherapy", "RepLadiesWorld", "RepCulture_Bags"],
-      "result": "The first public HTML-fallback pass added receipts to eight existing families and opened two research-queue collections; the overnight resumable crawl remains in progress.",
+      "result": "The first public HTML-fallback pass added receipts to eight existing collections and opened two research-queue collections; the overnight resumable crawl remains in progress.",
       "new_combinations": [
         "Adon|Jing|Andiamo small Barolo",
         "Yuyu|Top Factory|Andiamo medium embellished denim",
@@ -374,7 +374,7 @@
     {
       "id": "round-6-indexed-expansion-2026-08-08",
       "lanes": ["RealRepLadies", "RepTherapy", "RepLadiesWorld", "RepCulture_Bags"],
-      "result": "Public indexed review pages added nine normalized receipts across four existing families and opened five research-queue collections; the direct overnight crawl remains active and saturation is not declared.",
+      "result": "Public indexed review pages added nine normalized receipts across four existing collections and opened five research-queue collections; the direct overnight crawl remains active and saturation is not declared.",
       "new_combinations": [
         "Baobao|Royal|Speedy 25 Damier Ebene",
         "Laomao|Liusheng|Puzzle Edge 33",
@@ -389,7 +389,7 @@
     {
       "id": "round-7-repladiesworld-indexed-2026-08-08",
       "lanes": ["RepLadiesWorld"],
-      "result": "Four public RepLadiesWorld PSP/QC pages were normalized into four existing families; ambiguous links, private contact details, and unconfirmed bag identities remain outside the catalog. Saturation is not declared.",
+      "result": "Four public RepLadiesWorld PSP/QC pages were normalized into four existing collections; ambiguous links, private contact details, and unconfirmed bag identities remain outside the catalog. Saturation is not declared.",
       "new_combinations": [
         "unknown seller|unknown factory|Neverfull MM Damier Ebene",
         "Mandy|Royal|Speedy 25",
@@ -405,8 +405,8 @@
     "No source directly tied brown Eden MM to a named seller and factory.",
     "Only one brief author directly supported the brown Monogram GM target, with factory undisclosed.",
     "Some Reddit publication dates are stored as disclosed estimates because the visible UI showed relative age only.",
-    "Family-level image coverage is complete, but exact-variant imagery remains uneven and must stay linked to its own normalized receipt.",
-    "The r/RepLadiesWorld work is an initial scan, not a completed all-family audit; its remaining leads stay separate until normalized.",
+    "Collection-level image coverage is complete, but exact-variant imagery remains uneven and must stay linked to its own normalized receipt.",
+    "The r/RepLadiesWorld work is an initial scan, not a completed all-collection audit; its remaining leads stay separate until normalized.",
     "The first Reddit HTML-fallback smoke runs demonstrated public-host throttling and are preserved as resumable local artifacts; the overnight crawl must be allowed to complete before saturation is assessed.",
     "The first resumed run summary was overwritten by a later zero-new-capture segment; the crawler now preserves append-only run-history.jsonl and cumulative run-summary.json for subsequent resumes."
   ],

@@ -202,7 +202,7 @@
     "price": {"amount_usd": 151, "qualifier": "product price"},
     "shipping_timeline": "One week, per reviewer.",
     "paraphrase": "A Doris/Birdcage Eden Neverfull reviewer reports good quality, shape, measurements, and bottom alignment, with concern that the Monogram tone looks orange.",
-    "positive_observations": ["Direct seller, factory, and product-family identification.", "Positive shape, measurement, alignment, and shipping observations."],
+    "positive_observations": ["Direct seller, factory, and product-collection identification.", "Positive shape, measurement, alignment, and shipping observations."],
     "negative_observations": ["Exact MM size and brown colorway are not stated.", "Reviewer reports a warm/orange Monogram tone."],
     "media_ids": []
   },
@@ -248,7 +248,7 @@
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A commenter says their Eden Neverfull was ordered from Baobao and later confirms Birdcage, reporting 45×27×15 cm dimensions.",
-    "positive_observations": ["Independent author directly ties seller, factory, and product family.", "Owner-supplied physical dimensions are stated."],
+    "positive_observations": ["Independent author directly ties seller, factory, and product collection.", "Owner-supplied physical dimensions are stated."],
     "negative_observations": ["The reported dimensions are described by another commenter as approximately MM but conflict with seller-provided Birdcage dimensions elsewhere.", "Exact colorway, price, timeline, and current availability are absent."],
     "media_ids": []
   },
@@ -271,7 +271,7 @@
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "The author says an Eden Neverfull was added to a Mandy order from Huahui, selected because Royal looked muted and Orange Sofa looked vibrant; it had not arrived.",
-    "positive_observations": ["Direct named seller/factory/product-family pending order."],
+    "positive_observations": ["Direct named seller/factory/product-collection pending order."],
     "negative_observations": ["No received-bag quality, fulfillment, exact size, colorway, price, or live availability evidence.", "Factory color comparisons are one buyer’s selection rationale, not controlled findings."],
     "media_ids": []
   },
@@ -340,7 +340,7 @@
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An author compares a Hyper Peter Monogram Neverfull MM with authentic references and posts user photographs; the post does not establish a factory or a common hardware specification.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Provides a second-lane comparison lead for the consolidated Neverfull family."],
+    "positive_observations": ["Independent public author from r/RealRepLadies.", "Provides a second-lane comparison lead for the consolidated Neverfull collection."],
     "negative_observations": ["MM evidence cannot be transferred to the exact GM variant.", "Factory and exact material/hardware details are not stated."],
     "media_ids": ["media-neverfull-monogram-reddit"]
   },
@@ -639,7 +639,7 @@
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An in-hand Andiamo East West review names Emily and The Top Factory as reported, with limited material, color, and hardware detail.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Adds a distinct Andiamo shape to the family file."],
+    "positive_observations": ["Independent public author from r/RepTherapy.", "Adds a distinct Andiamo shape to the collection details."],
     "negative_observations": ["Core material, color, and hardware fields are not stated.", "This is a different format from the Medium source."],
     "media_ids": ["media-andiamo-reddit"]
   },

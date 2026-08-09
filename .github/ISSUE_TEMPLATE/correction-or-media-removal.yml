@@ -10,8 +10,8 @@ body:
   - type: input
     id: affected-url
     attributes:
-      label: Public URL or family route
-      description: Link to the source, image post, or public family file that needs review.
+      label: Public URL or collection route
+      description: Link to the source, image post, or public Collection Details page that needs review.
       placeholder: https://www.reddit.com/... or #bag/bag-family-...
     validations:
       required: true

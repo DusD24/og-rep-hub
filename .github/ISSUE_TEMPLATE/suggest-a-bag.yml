@@ -1,7 +1,7 @@
 name: Suggest a Bag
-description: Suggest a bag family for the expanding guide with public source URLs.
+description: Suggest a bag collection for the expanding guide with public source URLs.
 title: "[Bag suggestion] "
-labels: ["research", "bag-family"]
+labels: ["research", "bag-collection"]
 body:
   - type: markdown
     attributes:
