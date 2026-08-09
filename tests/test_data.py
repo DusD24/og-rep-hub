@@ -12,11 +12,30 @@ from validate import jpeg_dimensions, publication_counts, validate
 from score import generate
 
 
+def png_dimensions(path):
+    data = path.read_bytes()
+    if data[:8] != b"\x89PNG\r\n\x1a\n" or data[12:16] != b"IHDR":
+        return None
+    return int.from_bytes(data[16:20], "big"), int.from_bytes(data[20:24], "big")
+
+
 def load(name):
     return json.loads((ROOT / "data" / f"{name}.json").read_text(encoding="utf-8"))
 
 
 class DataTests(unittest.TestCase):
+    def test_generic_collection_icon_suite_is_complete_and_consistent(self):
+        icon_dir = ROOT / "assets" / "collection-icons"
+        names = {"tote", "shoulder-flap", "top-handle", "hobo", "vanity"}
+        paths = [icon_dir / f"{name}.png" for name in names]
+        self.assertTrue(all(path.is_file() for path in paths))
+        dimensions = {png_dimensions(path) for path in paths}
+        self.assertEqual(len(dimensions), 1)
+        width, height = dimensions.pop()
+        self.assertGreaterEqual(width, 1200)
+        self.assertGreaterEqual(width / height, 1.4)
+        self.assertLessEqual(width / height, 1.8)
+
     def test_repository_data_validates(self):
         self.assertEqual(validate(), [])
 
