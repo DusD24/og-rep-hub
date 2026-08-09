@@ -195,6 +195,39 @@ test("malformed requests and strict body limits return structured errors", async
   });
 });
 
+test("oversized chunked bodies are rejected before the full stream is buffered", async () => {
+  if (!workerModule) return;
+  const { handler, env } = createHarness();
+  const chunk = new TextEncoder().encode("x".repeat(1024));
+  let pulls = 0;
+  let cancelled = false;
+  const body = new ReadableStream({
+    pull(controller) {
+      pulls += 1;
+      if (pulls > 100) return controller.close();
+      controller.enqueue(chunk);
+    },
+    cancel() { cancelled = true; },
+  });
+  const request = new Request("https://issues.example.test/issues/receipt-update", {
+    method: "POST",
+    headers: {
+      Origin: env.ALLOWED_ORIGIN,
+      "Content-Type": "application/json",
+      "CF-Connecting-IP": "203.0.113.10",
+    },
+    body,
+    duplex: "half",
+  });
+
+  const result = await responseJson(await handler.fetch(request, env));
+
+  assert.equal(result.response.status, 413);
+  assert.equal(result.body.code, "payload_too_large");
+  assert.equal(cancelled, true);
+  assert.ok(pulls < 100, `expected early rejection, read ${pulls} chunks`);
+});
+
 test("Turnstile hostname and action are enforced", async t => {
   if (!workerModule) return;
   for (const [name, turnstile] of [

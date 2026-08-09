@@ -91,6 +91,28 @@ function validOptionalText(value) {
   return value === undefined || (typeof value === "string" && value.length <= 2000);
 }
 
+async function readBoundedBody(request, maxBytes) {
+  const declaredLength = Number(request.headers.get("Content-Length"));
+  if (Number.isFinite(declaredLength) && declaredLength > maxBytes) return null;
+  if (!request.body) return "";
+
+  const reader = request.body.getReader();
+  const decoder = new TextDecoder();
+  let totalBytes = 0;
+  let text = "";
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) return text + decoder.decode();
+    totalBytes += value.byteLength;
+    if (totalBytes > maxBytes) {
+      try { await reader.cancel(); }
+      catch { /* The size limit still applies if cancellation races stream completion. */ }
+      return null;
+    }
+    text += decoder.decode(value, { stream: true });
+  }
+}
+
 function validatePayload(payload, receiptById) {
   if (!payload || typeof payload !== "object" || Array.isArray(payload)) return { error: ["invalid_payload", "Submit a JSON object."] };
   if (typeof payload.website !== "string" || payload.website) return { error: ["invalid_submission", "The submission could not be accepted."] };
@@ -234,8 +256,8 @@ export function createWorker({ canonicalReceipts: receiptRows = canonicalReceipt
       if (!request.headers.get("Content-Type")?.toLowerCase().startsWith("application/json"))
         return failure("invalid_content_type", "Submit JSON with the application/json content type.", 415, origin);
 
-      const rawBody = await request.text();
-      if (new TextEncoder().encode(rawBody).byteLength > MAX_BODY_BYTES)
+      const rawBody = await readBoundedBody(request, MAX_BODY_BYTES);
+      if (rawBody === null)
         return failure("payload_too_large", "The submission is too large.", 413, origin);
       let payload;
       try { payload = JSON.parse(rawBody); }

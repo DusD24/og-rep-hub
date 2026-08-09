@@ -3,6 +3,7 @@
   "name": "og-rep-hub-issue-intake",
   "main": "src/index.js",
   "compatibility_date": "2026-08-08",
+  "compatibility_flags": ["nodejs_compat"],
   "workers_dev": true,
   "vars": {
     "ALLOWED_ORIGIN": "https://dusd24.github.io",
@@ -21,6 +22,7 @@
     }
   ],
   "observability": {
-    "enabled": true
+    "enabled": true,
+    "head_sampling_rate": 1
   }
 }
