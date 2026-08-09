@@ -22,6 +22,13 @@ PRIMARY_SUBREDDITS = {"RealRepLadies", "RepTherapy"}
 CONTACT_TYPES = {"whatsapp", "wechat", "email", "website", "instagram", "telegram", "phone", "other"}
 MEDIA_SOURCE_HOSTS = {"i.redd.it", "preview.redd.it", "i.imgur.com"}
 MEDIA_USAGE_SCOPES = {"target_tile", "variant_tile"}
+HERO_ICON_PATHS = {
+    "tote": "assets/collection-icons/tote.png",
+    "shoulder-flap": "assets/collection-icons/shoulder-flap.png",
+    "top-handle": "assets/collection-icons/top-handle.png",
+    "hobo": "assets/collection-icons/hobo.png",
+    "vanity": "assets/collection-icons/vanity.png",
+}
 FORBIDDEN_KEYS = {"payment", "address", "private_message", "buyer_conversation", "password", "secret", "token"}
 SENSITIVE_PATTERNS = [
     re.compile(r"\b(?:sk_live|sk_test)_[A-Za-z0-9]+\b"),
@@ -30,7 +37,7 @@ SENSITIVE_PATTERNS = [
 ]
 
 
-class Validation:
+class Validator:
     def __init__(self) -> None:
         self.errors: list[str] = []
 
@@ -41,6 +48,32 @@ class Validation:
         for key in keys:
             if key not in row or row[key] in (None, ""):
                 self.error(f"{where}: missing {key}")
+
+
+Validation = Validator
+
+
+def validate_collection_heroes(families, media_rows, root, validator) -> None:
+    target_ids = {row["id"] for row in media_rows if row.get("usage_scope") == "target_tile"}
+    referenced_tiles = []
+    for index, family in enumerate(families):
+        where = f"bag_families[{index}]"
+        tile_id = family.get("tile_media_id")
+        icon = family.get("hero_icon")
+        if bool(tile_id) == bool(icon):
+            validator.error(f"{where}: exactly one of tile_media_id or hero_icon is required")
+        if icon and icon not in HERO_ICON_PATHS:
+            validator.error(f"{where}: invalid hero_icon {icon}")
+        if icon and icon in HERO_ICON_PATHS and not (root / HERO_ICON_PATHS[icon]).is_file():
+            validator.error(f"{where}: missing hero icon asset {HERO_ICON_PATHS[icon]}")
+        if family.get("publication_status") == "published" and icon:
+            validator.error(f"{where}: published collection requires receipt-linked media")
+        if tile_id:
+            referenced_tiles.append(tile_id)
+    if len(referenced_tiles) != len(set(referenced_tiles)):
+        validator.error("bag_families.json: collection tile_media_id values must be unique")
+    if set(referenced_tiles) != target_ids:
+        validator.error("bag_families.json: collection media heroes must exactly match target_tile media records")
 
 
 def valid_date(value: str) -> bool:
@@ -118,7 +151,7 @@ def publication_counts(family_rows: list[dict]) -> tuple[int, int]:
 
 
 def validate() -> list[str]:
-    v = Validation()
+    v = Validator()
     records = {name: load(name) for name in COLLECTIONS}
     ids: dict[str, set[str]] = {}
 
@@ -391,36 +424,22 @@ def validate() -> list[str]:
         if row.get("allegation") and row.get("language") != "attributed_claim":
             v.error(f"evidence[{index}]: allegations must be explicitly attributed")
 
-    # Every launch family must point at a distinct, locally verified Reddit tile
-    # whose media/evidence record names that exact family.
-    media_by_id = {row["id"]: row for row in records["media"]}
-    published_family_tile_ids = [
-        family.get("tile_media_id")
-        for family in records["bag_families"]
-        if family.get("publication_status") == "published"
-    ]
-    target_media_ids = {row["id"] for row in records["media"] if row.get("usage_scope") == "target_tile"}
-    if len(target_media_ids) != published_family_count:
-        v.error(
-            f"media.json: target_tile records ({len(target_media_ids)}) must match "
-            f"published families ({published_family_count})"
-        )
-    if len(published_family_tile_ids) != len(set(published_family_tile_ids)):
-        v.error("bag_families.json: published families must use unique tile_media_id values")
-    if set(published_family_tile_ids) != target_media_ids:
-        v.error("bag_families.json: published family tiles must exactly match target_tile media records")
+    validate_collection_heroes(records["bag_families"], records["media"], ROOT, v)
 
+    # Every collection using receipt-linked media must point at a distinct,
+    # locally verified Reddit tile whose media/evidence record names that exact collection.
+    media_by_id = {row["id"]: row for row in records["media"]}
     for index, family in enumerate(records["bag_families"]):
-        if family.get("publication_status") != "published":
+        if not family.get("tile_media_id"):
             continue
         media = media_by_id.get(family.get("tile_media_id"))
         if not media:
-            v.error(f"bag_families[{index}]: published family tile media is missing")
+            v.error(f"bag_families[{index}]: collection tile media is missing")
             continue
         if media.get("usage_scope") != "target_tile" or not reddit_url(media.get("post_url")):
-            v.error(f"bag_families[{index}]: published family tile must be a Reddit-only target tile")
+            v.error(f"bag_families[{index}]: collection tile must be a Reddit-only target tile")
         if not media.get("sha256"):
-            v.error(f"bag_families[{index}]: published family tile needs a SHA-256 hash")
+            v.error(f"bag_families[{index}]: collection tile needs a SHA-256 hash")
         evidence = evidence_by_id.get(media.get("evidence_id"), {})
         if media.get("evidence_id") not in family.get("evidence_ids", []):
             v.error(f"bag_families[{index}]: tile evidence_id is not in the family's evidence_ids")
