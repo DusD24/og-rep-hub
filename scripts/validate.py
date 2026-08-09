@@ -110,6 +110,13 @@ def flatten(value, path="$"):
             yield from flatten(child, f"{path}[{index}]")
 
 
+def publication_counts(family_rows: list[dict]) -> tuple[int, int]:
+    """Return published and research-queue family counts from the data itself."""
+    published = sum(row.get("publication_status") == "published" for row in family_rows)
+    queued = sum(row.get("publication_status") == "research_queue" for row in family_rows)
+    return published, queued
+
+
 def validate() -> list[str]:
     v = Validation()
     records = {name: load(name) for name in COLLECTIONS}
@@ -134,10 +141,11 @@ def validate() -> list[str]:
         ids[name] = seen
 
     family_rows = records["bag_families"]
-    if len(records["evidence"]) != 38:
-        v.error(f"evidence.json: expected exactly 38 normalized receipts, found {len(records['evidence'])}")
-    if len(family_rows) != 12:
-        v.error(f"bag_families.json: expected exactly 12 launch families, found {len(family_rows)}")
+    published_family_count, _queued_family_count = publication_counts(family_rows)
+    if not records["evidence"]:
+        v.error("evidence.json: at least one normalized public receipt is required")
+    if not family_rows:
+        v.error("bag_families.json: at least one family record is required")
     family_slugs: set[str] = set()
     for index, row in enumerate(family_rows):
         where = f"bag_families[{index}]"
@@ -166,16 +174,15 @@ def validate() -> list[str]:
             v.error(f"{where}: evidence_coverage.source_count does not match evidence_ids")
         if coverage.get("independent_author_count") != len(authors):
             v.error(f"{where}: evidence_coverage.independent_author_count does not match linked authors")
-        if len(authors) < 2:
-            v.error(f"{where}: two independent Reddit authors are required")
-        if not subreddits & PRIMARY_SUBREDDITS:
-            v.error(f"{where}: a RealRepLadies or RepTherapy source is required")
-        if row.get("publication_status") != "published":
-            v.error(f"{where}: all launch families must be published")
-        if not row.get("tile_media_id"):
-            v.error(f"{where}: published family needs a Reddit tile_media_id")
-        if coverage.get("image_ready") is not True:
-            v.error(f"{where}: published family must be image_ready")
+        if row.get("publication_status") == "published":
+            if len(authors) < 2:
+                v.error(f"{where}: two independent Reddit authors are required")
+            if not subreddits & PRIMARY_SUBREDDITS:
+                v.error(f"{where}: a RealRepLadies or RepTherapy source is required")
+            if not row.get("tile_media_id"):
+                v.error(f"{where}: published family needs a Reddit tile_media_id")
+            if coverage.get("image_ready") is not True:
+                v.error(f"{where}: published family must be image_ready")
         if "candidate_tile" in row:
             v.error(f"{where}: stale candidate_tile must be removed after publication")
         stale_gap = " ".join(str(gap) for gap in row.get("research_gaps", [])).casefold()
@@ -387,16 +394,25 @@ def validate() -> list[str]:
     # Every launch family must point at a distinct, locally verified Reddit tile
     # whose media/evidence record names that exact family.
     media_by_id = {row["id"]: row for row in records["media"]}
-    family_tile_ids = [family.get("tile_media_id") for family in records["bag_families"]]
+    published_family_tile_ids = [
+        family.get("tile_media_id")
+        for family in records["bag_families"]
+        if family.get("publication_status") == "published"
+    ]
     target_media_ids = {row["id"] for row in records["media"] if row.get("usage_scope") == "target_tile"}
-    if len(target_media_ids) != 12:
-        v.error(f"media.json: expected exactly 12 target_tile records, found {len(target_media_ids)}")
-    if len(family_tile_ids) != len(set(family_tile_ids)):
-        v.error("bag_families.json: launch families must use unique tile_media_id values")
-    if set(family_tile_ids) != target_media_ids:
-        v.error("bag_families.json: family tiles must exactly match the 12 target_tile media records")
+    if len(target_media_ids) != published_family_count:
+        v.error(
+            f"media.json: target_tile records ({len(target_media_ids)}) must match "
+            f"published families ({published_family_count})"
+        )
+    if len(published_family_tile_ids) != len(set(published_family_tile_ids)):
+        v.error("bag_families.json: published families must use unique tile_media_id values")
+    if set(published_family_tile_ids) != target_media_ids:
+        v.error("bag_families.json: published family tiles must exactly match target_tile media records")
 
     for index, family in enumerate(records["bag_families"]):
+        if family.get("publication_status") != "published":
+            continue
         media = media_by_id.get(family.get("tile_media_id"))
         if not media:
             v.error(f"bag_families[{index}]: published family tile media is missing")

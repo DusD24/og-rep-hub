@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0.0",
+  "last_verified": "2026-08-08",
+  "max_discovered_subreddits": 8,
+  "include_comments_by_default": true,
+  "search_terms": [
+    "review",
+    "QC",
+    "PSP",
+    "haul",
+    "receipt",
+    "wear",
+    "seller",
+    "factory",
+    "auth comparison",
+    "long term",
+    "Neverfull",
+    "Eden",
+    "Monogram",
+    "Classic Flap",
+    "Chanel 25",
+    "Chanel 19",
+    "Speedy",
+    "Alma",
+    "Margaux",
+    "Flamenco",
+    "Puzzle",
+    "Andiamo",
+    "Saint Louis",
+    "Birkin",
+    "Kelly",
+    "Arcadie",
+    "Lady Dior",
+    "Book Tote",
+    "Saddle",
+    "Dionysus",
+    "Jackie",
+    "Prada",
+    "Miu Miu",
+    "Loewe",
+    "Bottega",
+    "Goyard",
+    "Hermes",
+    "Dior",
+    "Louis Vuitton",
+    "YSL",
+    "Saint Laurent",
+    "wear test",
+    "months later",
+    "unboxing",
+    "in hand",
+    "auth vs",
+    "factory comparison"
+  ],
+  "sources": [
+    {
+      "subreddit": "RealRepLadies",
+      "landing_url": "https://www.reddit.com/r/RealRepLadies/",
+      "wiki_paths": ["/wiki/", "/about/sidebar/"],
+      "include_comments": true
+    },
+    {
+      "subreddit": "RepTherapy",
+      "landing_url": "https://www.reddit.com/r/RepTherapy/",
+      "wiki_paths": [
+        "/wiki/",
+        "/wiki/rules/",
+        "/wiki/glossary/",
+        "/wiki/reviewtemplate/",
+        "/wiki/trustedsellers/",
+        "/about/sidebar/"
+      ],
+      "include_comments": true
+    },
+    {
+      "subreddit": "RepLadiesWorld",
+      "landing_url": "https://www.reddit.com/r/RepLadiesWorld/",
+      "wiki_paths": ["/wiki/", "/about/sidebar/"],
+      "include_comments": true
+    },
+    {
+      "subreddit": "RepCulture_Bags",
+      "landing_url": "https://www.reddit.com/r/RepCulture_Bags/",
+      "wiki_paths": ["/wiki/", "/about/sidebar/"],
+      "include_comments": true
+    }
+  ]
+}

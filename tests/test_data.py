@@ -8,7 +8,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from validate import jpeg_dimensions, validate
+from validate import jpeg_dimensions, publication_counts, validate
 from score import generate
 
 
@@ -19,6 +19,28 @@ def load(name):
 class DataTests(unittest.TestCase):
     def test_repository_data_validates(self):
         self.assertEqual(validate(), [])
+
+    def test_publication_counts_are_data_derived(self):
+        published, queued = publication_counts([
+            {"publication_status": "published"},
+            {"publication_status": "research_queue"},
+            {"publication_status": "published"},
+        ])
+        self.assertEqual((published, queued), (2, 1))
+
+    def test_validator_has_no_fixed_launch_record_counts(self):
+        source = (ROOT / "scripts" / "validate.py").read_text(encoding="utf-8")
+        self.assertNotIn("expected exactly 38 normalized receipts", source)
+        self.assertNotIn("expected exactly 12 launch families", source)
+
+    def test_research_registry_and_log_cover_repculture_bags(self):
+        research = load("research")
+        lanes = {row["subreddit_focus"]: row for row in research["research_lanes"]}
+        self.assertIn("RepCulture_Bags", lanes)
+        self.assertTrue(any(
+            row["subreddit_focus"] == "RepCulture_Bags" and row["status"] == "candidate_leads"
+            for row in research["scan_log"]
+        ))
 
     def test_size_pattern_colorway_are_explicit_and_unique(self):
         variants = [(row["size"], row["pattern"], row["colorway"]) for row in load("bags")]
@@ -50,26 +72,27 @@ class DataTests(unittest.TestCase):
             if not offering.get("evidence_ids"):
                 self.assertEqual(row["rank_status"], "unranked")
 
-    def test_twelve_families_have_source_coverage_and_unique_slugs(self):
+    def test_published_families_have_source_coverage_and_unique_slugs(self):
         families = load("bag_families")
-        self.assertEqual(len(families), 12)
-        self.assertEqual(len({row["slug"] for row in families}), 12)
-        self.assertTrue(all(row["evidence_coverage"]["independent_author_count"] >= 2 for row in families))
-        self.assertTrue(all(set(row["evidence_coverage"]["primary_subreddit_coverage"]) & {"RealRepLadies", "RepTherapy"} for row in families))
+        published = [row for row in families if row["publication_status"] == "published"]
+        self.assertGreaterEqual(len(published), 12)
+        self.assertEqual(len({row["slug"] for row in families}), len(families))
+        self.assertTrue(all(row["evidence_coverage"]["independent_author_count"] >= 2 for row in published))
+        self.assertTrue(all(set(row["evidence_coverage"]["primary_subreddit_coverage"]) & {"RealRepLadies", "RepTherapy"} for row in published))
+        self.assertTrue(any(row["publication_status"] == "research_queue" for row in families))
+        self.assertGreaterEqual(sum(len(row["evidence_ids"]) > 2 for row in published), 8)
 
     def test_all_launch_families_have_distinct_reddit_tiles_and_exact_evidence_links(self):
-        families = load("bag_families")
+        families = [row for row in load("bag_families") if row["publication_status"] == "published"]
         media_rows = load("media")
         media = {row["id"]: row for row in media_rows}
         evidence = {row["id"]: row for row in load("evidence")}
         tile_ids = [row["tile_media_id"] for row in families]
         target_ids = {row["id"] for row in media_rows if row["usage_scope"] == "target_tile"}
 
-        self.assertEqual(len(families), 12)
-        self.assertTrue(all(row["publication_status"] == "published" for row in families))
         self.assertTrue(all(row["evidence_coverage"]["image_ready"] is True for row in families))
         self.assertTrue(all("candidate_tile" not in row for row in families))
-        self.assertEqual(len(set(tile_ids)), 12)
+        self.assertEqual(len(set(tile_ids)), len(families))
         self.assertEqual(set(tile_ids), target_ids)
 
         for family in families:
@@ -86,10 +109,11 @@ class DataTests(unittest.TestCase):
 
     def test_media_files_have_unique_paths_hashes_dimensions_and_removal_checks(self):
         rows = load("media")
-        self.assertEqual(len(rows), 13)
+        target_ids = {row["id"] for row in rows if row["usage_scope"] == "target_tile"}
+        self.assertEqual(len(rows), len(target_ids) + 1)
         self.assertEqual(len({row["id"] for row in rows}), len(rows))
         self.assertEqual(len({row["path"] for row in rows}), len(rows))
-        self.assertEqual(sum(row["usage_scope"] == "target_tile" for row in rows), 12)
+        self.assertEqual(sum(row["usage_scope"] == "target_tile" for row in rows), len(target_ids))
 
         required = {
             "evidence_id", "source_url", "post_url", "author", "subreddit",
@@ -105,7 +129,7 @@ class DataTests(unittest.TestCase):
             date.fromisoformat(row["removal_checked_at"])
 
     def test_evidence_count_and_published_state_have_no_stale_media_candidates(self):
-        self.assertEqual(len(load("evidence")), 38)
+        self.assertGreater(len(load("evidence")), 38)
         families = load("bag_families")
         stale_family_text = json.dumps(families).casefold()
         self.assertNotIn("candidate_not_archived", stale_family_text)
@@ -134,10 +158,20 @@ class DataTests(unittest.TestCase):
     def test_research_lanes_include_rep_ladies_world_scan_candidates(self):
         research = load("research")
         lane = next(row for row in research["research_lanes"] if row["subreddit_focus"] == "RepLadiesWorld")
-        self.assertEqual(lane["status"], "initial_scan_complete")
-        self.assertEqual(lane["families_checked"], 3)
+        self.assertEqual(lane["status"], "active_evidence_expansion")
+        self.assertEqual(lane["families_checked"], 4)
         self.assertEqual(len(research["scan_log"][0]["candidate_sources"]), 4)
         self.assertEqual(research["glossary_source_url"], "https://www.reddit.com/r/RepTherapy/wiki/glossary/")
+
+    def test_research_queue_contains_new_public_collection_leads(self):
+        queued = {
+            row["slug"]: row
+            for row in load("bag_families")
+            if row["publication_status"] == "research_queue"
+        }
+        self.assertIn("balmain-anthem", queued)
+        self.assertIn("ferragamo-hug", queued)
+        self.assertTrue(all(not row.get("tile_media_id") for row in queued.values()))
 
 
 if __name__ == "__main__":
