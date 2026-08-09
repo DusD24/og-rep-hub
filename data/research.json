@@ -12,7 +12,7 @@
       "id": "campaign-community-first-expansion",
       "name": "Community-first OG Rep Hub expansion",
       "status": "active",
-      "scope": "Twelve bag families with independent Reddit-source and Reddit-only image provenance requirements.",
+      "scope": "Published bag families with independent Reddit-source and Reddit-only image provenance requirements, plus a visible research queue for new collections.",
       "started_at": "2026-08-08"
     },
     {
@@ -29,16 +29,16 @@
       "subreddit_focus": "RealRepLadies",
       "status": "completed_audit",
       "families_checked": 12,
-      "status_note": "Two-author coverage and qualifying local media are complete for all 12 launch families; ongoing research remains focused on exact variants and unresolved attribution.",
-      "scope": "Check every launch family for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
+      "status_note": "Two-author coverage and qualifying local media are complete for the published families; ongoing research remains focused on exact variants and unresolved attribution.",
+      "scope": "Check every published family for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
     },
     {
       "id": "lane-reptherapy",
       "subreddit_focus": "RepTherapy",
       "status": "completed_audit",
       "families_checked": 12,
-      "status_note": "Two-author coverage and qualifying local media are complete for all 12 launch families; ongoing research remains focused on exact variants and unresolved attribution.",
-      "scope": "Check every launch family for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
+      "status_note": "Two-author coverage and qualifying local media are complete for the published families; ongoing research remains focused on exact variants and unresolved attribution.",
+      "scope": "Check every published family for two-author coverage, exact variant details, seller/factory attribution as reported, and representative Reddit media."
     },
     {
       "id": "lane-repladiesworld",
@@ -52,8 +52,8 @@
       "id": "lane-repculture-bags",
       "subreddit_focus": "RepCulture_Bags",
       "status": "candidate_leads",
-      "families_checked": 0,
-      "status_note": "Public sidebar rules and bag-focused posting guides were reviewed. The subreddit wiki is disabled; the overnight crawl is queued across public searches, posts, and comments. No private contact or conversation-only material is imported.",
+      "families_checked": 14,
+      "status_note": "Public sidebar rules and bag-focused posting guides were reviewed. The subreddit wiki is disabled; the first public crawl normalized Andiamo evidence and opened Balmain Anthem and Ferragamo Hug queue collections. The resumable overnight crawl continues across public searches, posts, and comments. No private contact or conversation-only material is imported.",
       "scope": "Scan public bag reviews, PSP/QC, wear reports, auth comparisons, collections, seller/factory references, and receipt-like posts, then map credible leads to existing or new collections."
     }
   ],
@@ -175,7 +175,48 @@
         "public search results",
         "public post comments"
       ],
-      "candidate_sources": [],
+      "candidate_sources": [
+        {
+          "family_ids": ["bag-family-bottega-veneta-andiamos"],
+          "title": "Review: BV Andiamo from Adon",
+          "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1qzada1/review_bv_andiamo_from_adon/",
+          "author": "calilav",
+          "evidence_type": "in_hand_review",
+          "status": "normalized",
+          "normalized_evidence_id": "ev-crawl-repculture-andiamos-small-2026",
+          "note": "Small Barolo Andiamo; Jing Factory and Adon are preserved as source-reported, with price, payment, and contact details omitted."
+        },
+        {
+          "family_ids": ["bag-family-bottega-veneta-andiamos"],
+          "title": "Review: BV Denim/Leather Andiamo from Yuyu",
+          "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1vi9idk/review_bv_denimleather_andiamo_from_yuyu/",
+          "author": "calilav",
+          "evidence_type": "in_hand_review",
+          "status": "normalized",
+          "normalized_evidence_id": "ev-crawl-repculture-andiamos-denim-2026",
+          "note": "Medium embellished leather-and-denim Andiamo; repeated author is counted once for independent corroboration."
+        },
+        {
+          "family_ids": ["bag-family-balmain-anthem"],
+          "title": "The bag I fell in love with that was not repped until recently - Balmain Anthem",
+          "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1ou0bsm/the_bag_i_fell_in_love_with_that_was_not_repped/",
+          "author": "chokemeowt",
+          "evidence_type": "auth_comparison",
+          "status": "normalized_queue",
+          "normalized_evidence_id": "ev-crawl-repculture-balmain-anthem-2025",
+          "note": "Opened the Balmain Anthem research queue; the public review includes auth comparison, PSP, factory photos, and early wear notes."
+        },
+        {
+          "family_ids": ["bag-family-ferragamo-hug"],
+          "title": "Ferragamo Hug Soft Large review",
+          "url": "https://www.reddit.com/r/RepTherapy/comments/1ublml6/ferragamo_hug_soft_large_review_my_quiet_luxury_work_bag_of_my_dreams_lol/",
+          "author": "soxsr",
+          "evidence_type": "in_hand_review",
+          "status": "normalized_queue",
+          "normalized_evidence_id": "ev-crawl-rt-ferragamo-hug-2026",
+          "note": "Added as a new queue collection with a second RealRepLadies PSP/QC author; no seller, factory, price, or contact details were imported."
+        }
+      ],
       "exclusions": [
         "The subreddit wiki is disabled, so no wiki-only evidence was available.",
         "Private-message-only contacts, payment details, addresses, buyer conversations, and unverified allegations remain outside the public catalog boundary."
@@ -214,17 +255,29 @@
       "lanes": ["primary", "eden"],
       "result": "No new seller-factory-bag combination; two-round saturation rule satisfied.",
       "new_combinations": []
+    },
+    {
+      "id": "round-5-public-crawl-seeded-2026-08-08",
+      "lanes": ["RealRepLadies", "RepTherapy", "RepLadiesWorld", "RepCulture_Bags"],
+      "result": "The first public HTML-fallback pass added receipts to eight existing families and opened two research-queue collections; the overnight resumable crawl remains in progress.",
+      "new_combinations": [
+        "Adon|Jing|Andiamo small Barolo",
+        "Yuyu|Top Factory|Andiamo medium embellished denim",
+        "Ming|Kata or Boutique|Balmain Anthem medium",
+        "unknown seller|unknown factory|Ferragamo Hug Soft large"
+      ]
     }
   ],
-  "saturation_reached": true,
-  "saturation_reached_at": "2026-08-08",
+  "saturation_reached": false,
+  "saturation_reached_at": null,
   "limitations": [
     "Public community-wiki contact rows exist for five already-tracked sellers, but seller ownership and current availability remain unverified.",
     "No source directly tied brown Eden MM to a named seller and factory.",
     "Only one brief author directly supported the brown Monogram GM target, with factory undisclosed.",
     "Some Reddit publication dates are stored as disclosed estimates because the visible UI showed relative age only.",
     "Family-level image coverage is complete, but exact-variant imagery remains uneven and must stay linked to its own normalized receipt.",
-    "The r/RepLadiesWorld work is an initial three-family scan, not a completed 12-family audit; its leads remain separate until normalized."
+    "The r/RepLadiesWorld work is an initial scan, not a completed all-family audit; its remaining leads stay separate until normalized.",
+    "The first Reddit HTML-fallback smoke runs demonstrated public-host throttling and are preserved as resumable local artifacts; the overnight crawl must be allowed to complete before saturation is assessed."
   ],
   "saturation_rule": "Stop after two consecutive targeted search rounds add no new seller-factory-bag combination."
 }

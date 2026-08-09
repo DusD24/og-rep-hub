@@ -264,5 +264,50 @@
     "confidence_note": "Name appears in a public Book Tote post. The public community wiki notes this seller was removed; no contact is imported here.",
     "community_contact_status": "removed_from_community_wiki",
     "contact_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/"
+  },
+  {
+    "id": "seller-adon",
+    "display_name": "Adon",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-crawl-repculture-andiamos-small-2026"],
+    "confidence_note": "Name appears in a public RepCulture_Bags Andiamo review; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-yuyu",
+    "display_name": "Yuyu",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-crawl-repculture-andiamos-denim-2026"],
+    "confidence_note": "Name appears in a public RepCulture_Bags Andiamo review; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-baker",
+    "display_name": "Baker",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-crawl-rt-book-tote-medium-qc-2026"],
+    "confidence_note": "Name appears in a public Dior Book Tote QC post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-aiden",
+    "display_name": "Aiden",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-crawl-rt-flamenco-medium-liusheng-2026"],
+    "confidence_note": "Name appears in a public Loewe Flamenco group-buy review; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-ming",
+    "display_name": "Ming",
+    "aliases": [],
+    "last_verified": "2026-08-08",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-crawl-repculture-balmain-anthem-2025"],
+    "confidence_note": "Name appears in a public Balmain Anthem review; no separate seller assessment or public contact provenance recorded."
   }
 ]

@@ -124,5 +124,11 @@
     "display_name": "The Top Factory",
     "aliases": ["Top Factory"],
     "notes": "Reported in a public Andiamo post; no broader consistency claim is made."
+  },
+  {
+    "id": "factory-jipin",
+    "display_name": "Jipin",
+    "aliases": ["Jipin Factory"],
+    "notes": "Reported in public Loewe Puzzle reviews; no broader consistency claim is made."
   }
 ]
