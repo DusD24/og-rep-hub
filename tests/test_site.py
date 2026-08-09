@@ -32,6 +32,11 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn("documented_variant_ids", self.js)
         self.assertIn("Reviews &amp; receipts", self.js)
 
+    def test_site_copy_allows_collection_growth_beyond_launch_baseline(self):
+        self.assertNotIn("12 launch families", self.html + self.js + self.readme)
+        self.assertIn("state.bag_families.length", self.js)
+        self.assertIn("state.evidence.length", self.js)
+
     def test_evidence_types_and_qualitative_badges_exist(self):
         for text in ("In-hand review", "Auth comparison", "Long-term wear", "Needs more receipts", "Community signal", "See reviews &amp; receipts"):
             self.assertIn(text, self.html + self.js)

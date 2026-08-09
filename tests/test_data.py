@@ -8,7 +8,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from validate import jpeg_dimensions, validate
+from validate import jpeg_dimensions, publication_counts, validate
 from score import generate
 
 
@@ -19,6 +19,19 @@ def load(name):
 class DataTests(unittest.TestCase):
     def test_repository_data_validates(self):
         self.assertEqual(validate(), [])
+
+    def test_publication_counts_are_data_derived(self):
+        published, queued = publication_counts([
+            {"publication_status": "published"},
+            {"publication_status": "research_queue"},
+            {"publication_status": "published"},
+        ])
+        self.assertEqual((published, queued), (2, 1))
+
+    def test_validator_has_no_fixed_launch_record_counts(self):
+        source = (ROOT / "scripts" / "validate.py").read_text(encoding="utf-8")
+        self.assertNotIn("expected exactly 38 normalized receipts", source)
+        self.assertNotIn("expected exactly 12 launch families", source)
 
     def test_size_pattern_colorway_are_explicit_and_unique(self):
         variants = [(row["size"], row["pattern"], row["colorway"]) for row in load("bags")]
