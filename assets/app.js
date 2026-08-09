@@ -39,6 +39,27 @@ const EVIDENCE_LABELS = {
   psp_qc: "PSP / QC",
   seller_context: "Seller context"
 };
+const heroIconPaths = {
+  tote: "assets/collection-icons/tote.png",
+  "shoulder-flap": "assets/collection-icons/shoulder-flap.png",
+  "top-handle": "assets/collection-icons/top-handle.png",
+  hobo: "assets/collection-icons/hobo.png",
+  vanity: "assets/collection-icons/vanity.png"
+};
+const categoryHeroIcons = {
+  tote: "tote",
+  "shoulder-bag": "shoulder-flap",
+  "top-handle": "top-handle",
+  hobo: "hobo",
+  vanity: "vanity"
+};
+const heroIconLabels = {
+  tote: "tote bag",
+  "shoulder-flap": "shoulder or flap bag",
+  "top-handle": "top-handle bag",
+  hobo: "hobo bag",
+  vanity: "vanity case"
+};
 
 const escapeHtml = (value = "") => String(value).replace(/[&<>'"]/g, character => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
@@ -263,10 +284,26 @@ function mediaImage(media, className = "") {
   return `<img class="${escapeHtml(className)}" src="${escapeHtml(media.path)}" alt="${escapeHtml(media.alt || media.research_purpose || "Community evidence image")}" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('media-unavailable')">`;
 }
 
+function heroIconType(family) {
+  return family.hero_icon || categoryHeroIcons[family.category] || "tote";
+}
+
+function heroIconPath(family) {
+  return heroIconPaths[heroIconType(family)] || heroIconPaths.tote;
+}
+
+function genericHeroMarkup(family, detail = false, hiddenFallback = false) {
+  const icon = heroIconType(family);
+  const iconLabel = heroIconLabels[icon] || heroIconLabels.tote;
+  const hidden = hiddenFallback ? ' aria-hidden="true"' : "";
+  return `<div class="bag-tile${detail ? " detail-tile" : ""} generic-hero" role="img" aria-label="Generic ${escapeHtml(iconLabel)} collection illustration for ${escapeHtml(family.brand)} ${escapeHtml(family.model)}"${hidden}><img src="${escapeHtml(heroIconPath(family))}" alt="Generic ${escapeHtml(iconLabel)} collection illustration" loading="lazy"><span class="bag-tile-source">Generic collection illustration</span></div>`;
+}
+
 function renderFamilyTile(family, detail = false) {
   const media = state.maps.media.get(family.tile_media_id);
-  if (!media) return `<div class="family-tile family-tile-empty" role="img" aria-label="No representative Reddit image is archived for ${escapeHtml(family.brand)} ${escapeHtml(family.model)}"><span class="tile-kicker">Media unavailable</span><strong>Reddit photo pending</strong><span>The collection details remain transparent while a sourced image is archived.</span></div>`;
-  return `<a class="bag-tile${detail ? " detail-tile" : ""}" href="${escapeHtml(httpsUrl(media.post_url || media.source_url))}" target="_blank" rel="noopener noreferrer" aria-label="Open Reddit source for ${escapeHtml(family.brand)} ${escapeHtml(family.model)} image">${mediaImage(media)}<span class="bag-tile-source">Reddit photo · ${escapeHtml(media.attribution || "source author")} <span aria-hidden="true">↗</span></span></a>`;
+  if (!media) return genericHeroMarkup(family, detail);
+  const sourceLabel = /imgur\.com/i.test(media.source_url || "") ? "Imgur photo" : "Reddit photo";
+  return `<div class="hero-stack"><div class="generic-fallback">${genericHeroMarkup(family, detail, true)}</div><a class="bag-tile${detail ? " detail-tile" : ""}" href="${escapeHtml(httpsUrl(media.post_url || media.source_url))}" target="_blank" rel="noopener noreferrer" aria-label="Open ${escapeHtml(sourceLabel)} source for ${escapeHtml(family.brand)} ${escapeHtml(family.model)} image"><img src="${escapeHtml(media.path)}" alt="${escapeHtml(media.alt || media.research_purpose || "Community evidence image")}" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('media-unavailable');this.closest('.hero-stack')?.querySelector('.generic-hero')?.removeAttribute("aria-hidden")"><span class="bag-tile-source">${sourceLabel} · ${escapeHtml(media.attribution || "source author")} <span aria-hidden="true">↗</span></span></a></div>`;
 }
 
 function renderFamilyCard(family) {

@@ -362,10 +362,18 @@ main { width: min(100%, 1360px); min-height: calc(100svh - var(--header-height))
 .family-card h3 { margin: 11px 0 7px; font-size: 27px; line-height: 1.06; }
 .family-card h3 a { min-height: 44px; display: inline-flex; align-items: center; color: inherit; text-decoration: none; }
 .family-summary { margin: 0; color: #574a44; font-size: 13px; line-height: 1.5; }
+.hero-stack { position: relative; aspect-ratio: 16 / 10; overflow: hidden; background: #efe4d6; }
+.hero-stack > .generic-fallback, .hero-stack > .bag-tile { position: absolute; inset: 0; }
+.generic-hero { display: block; color: var(--brown); background: #efe4d6; }
+.generic-hero img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.generic-hero .bag-tile-source { color: var(--brown-deep); text-shadow: none; }
+.generic-hero[aria-hidden="true"] { visibility: hidden; }
 .bag-tile { position: relative; display: block; aspect-ratio: 16 / 10; overflow: hidden; color: white; background: #33251f; text-decoration: none; }
 .bag-tile::after { content: ""; position: absolute; inset: 42% 0 0; background: linear-gradient(transparent, rgb(20 12 8 / 82%)); pointer-events: none; }
 .bag-tile img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .2s ease; }
 .bag-tile:hover img { transform: scale(1.025); }
+.generic-hero:hover img { transform: none; }
+.bag-tile.media-unavailable { display: none; }
 .bag-tile-source { position: absolute; z-index: 1; right: 11px; bottom: 9px; left: 11px; color: #fff; font-size: 10px; font-weight: 800; letter-spacing: .03em; text-shadow: 0 1px 8px rgb(0 0 0 / 60%); }
 .family-tile-empty { min-height: 190px; padding: 24px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 6px; color: var(--muted); background: linear-gradient(135deg, #f2dfd8, #eee6da); text-align: center; }
 .family-tile-empty strong { color: var(--brown); font-family: Georgia, serif; font-size: 24px; font-weight: 500; }

@@ -79,6 +79,19 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn("No selected media archived", self.js)
         self.assertIn("loading=\"lazy\"", self.js)
 
+    def test_collection_heroes_distinguish_sources_from_generic_fallbacks(self):
+        for contract in (
+            "function heroIconType(family)",
+            "function genericHeroMarkup(",
+            "Generic collection illustration",
+            "hero-stack",
+            "generic-hero",
+            "media-unavailable",
+            "removeAttribute(\"aria-hidden\")",
+        ):
+            self.assertIn(contract, self.js + self.css)
+        self.assertNotIn("Reddit photo pending", self.js)
+
     def test_glossary_and_contribution_forms_exist(self):
         glossary_text = json.dumps(self.research)
         for term in ("PSP", "QC", "GL", "RL", "TS", "auth", "ISO", "RH"):
