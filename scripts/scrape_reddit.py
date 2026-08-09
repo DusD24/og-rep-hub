@@ -8,14 +8,16 @@ import json
 import re
 import time
 from datetime import datetime, timezone
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
-from urllib.parse import quote, urlencode, urlparse
+from urllib.parse import parse_qs, quote, urlencode, urlparse
 from urllib.request import Request, urlopen
 
 
 HREF_PATTERN = re.compile(r"href\s*=\s*[\"']([^\"']+)[\"']", re.IGNORECASE)
+VOID_TAGS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
 ABSOLUTE_SUBREDDIT_PATTERN = re.compile(
     r"https://(?:www\.)?reddit\.com/r/([A-Za-z0-9_]+)(?:/|[?#]|$)",
     re.IGNORECASE,
@@ -163,6 +165,27 @@ def comments_url(subreddit: str, post_id: str, limit: int = 100) -> str:
     return f"{subreddit_base(subreddit)}comments/{quote(post_id, safe='')}.json?{urlencode(params)}"
 
 
+def old_reddit_url(url: str) -> str:
+    """Translate a modern public Reddit endpoint to the reachable old-Reddit HTML host."""
+    parsed = urlparse(url)
+    path = parsed.path or "/"
+    if path.endswith(".json"):
+        path = path[:-5]
+    if "/search" in path and not path.endswith("/"):
+        path += "/"
+    elif not path.endswith("/"):
+        path += "/"
+    return f"https://old.reddit.com{path}{f'?{parsed.query}' if parsed.query else ''}"
+
+
+def old_search_url(url: str) -> str:
+    """Translate a search JSON URL while retaining its public search parameters."""
+    parsed = urlparse(url)
+    path = parsed.path.replace("/search.json", "/search/")
+    params = parse_qs(parsed.query, keep_blank_values=True)
+    return f"https://old.reddit.com{path}?{urlencode(params, doseq=True)}"
+
+
 def about_url(subreddit: str) -> str:
     return f"{subreddit_base(subreddit)}about.json?raw_json=1"
 
@@ -182,6 +205,198 @@ def iso_date_from_timestamp(value: Any) -> str | None:
         return datetime.fromtimestamp(float(value), tz=timezone.utc).date().isoformat()
     except (TypeError, ValueError, OverflowError, OSError):
         return None
+
+
+def timestamp_from_datetime(value: str | None) -> float | None:
+    try:
+        return datetime.fromisoformat(str(value).replace("Z", "+00:00")).timestamp()
+    except (TypeError, ValueError, OverflowError, OSError):
+        return None
+
+
+def _html_text(parts: list[str]) -> str:
+    return re.sub(r"\s+", " ", " ".join(parts)).strip()
+
+
+class OldSearchHTMLParser(HTMLParser):
+    """Parse old Reddit's public search result cards into post-like dictionaries."""
+
+    def __init__(self, subreddit: str) -> None:
+        super().__init__(convert_charrefs=True)
+        self.subreddit = subreddit
+        self.depth = 0
+        self.result_depth: int | None = None
+        self.current: dict[str, Any] | None = None
+        self.title_depth: int | None = None
+        self.body_depth: int | None = None
+        self.author_depth: int | None = None
+        self.flair_depth: int | None = None
+        self.next_url: str | None = None
+        self.posts: list[dict[str, Any]] = []
+
+    @staticmethod
+    def _attrs(attrs: list[tuple[str, str | None]]) -> dict[str, str]:
+        return {key: value or "" for key, value in attrs}
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag not in VOID_TAGS:
+            self.depth += 1
+        values = self._attrs(attrs)
+        classes = set(values.get("class", "").split())
+        if tag == "a" and ("next" in classes or values.get("rel") == "nofollow next"):
+            self.next_url = values.get("href") or self.next_url
+        if self.current is None and tag == "div" and "search-result" in classes:
+            self.current = {
+                "title_parts": [],
+                "body_parts": [],
+                "author_parts": [],
+                "flair_parts": [],
+                "href": "",
+                "publication_date": values.get("datetime"),
+            }
+            self.result_depth = self.depth
+        if self.current is None:
+            return
+        if tag == "a" and "search-title" in classes:
+            self.current["href"] = values.get("href", "")
+            self.title_depth = self.depth
+        elif tag == "div" and "search-result-body" in classes:
+            self.body_depth = self.depth
+        elif tag == "a" and "author" in classes:
+            self.author_depth = self.depth
+        elif tag == "span" and ("flairrichtext" in classes or "linkflairlabel" in classes):
+            self.flair_depth = self.depth
+            if values.get("title"):
+                self.current["flair_parts"].append(values["title"])
+        elif tag == "time" and values.get("datetime"):
+            self.current["publication_date"] = values["datetime"]
+
+    def handle_data(self, data: str) -> None:
+        if self.current is None:
+            return
+        if self.title_depth is not None and self.depth >= self.title_depth:
+            self.current["title_parts"].append(data)
+        if self.body_depth is not None and self.depth >= self.body_depth:
+            self.current["body_parts"].append(data)
+        if self.author_depth is not None and self.depth >= self.author_depth:
+            self.current["author_parts"].append(data)
+        if self.flair_depth is not None and self.depth >= self.flair_depth:
+            self.current["flair_parts"].append(data)
+
+    def _finish_current(self) -> None:
+        if self.current is None:
+            return
+        href = self.current.get("href", "")
+        path = urlparse(href).path
+        match = re.search(r"/comments/([A-Za-z0-9]+)/", path)
+        if match:
+            self.posts.append({
+                "id": match.group(1),
+                "permalink": path,
+                "title": _html_text(self.current["title_parts"]) or "Untitled public post",
+                "selftext": _html_text(self.current["body_parts"]),
+                "author": _html_text(self.current["author_parts"]) or "[deleted]",
+                "subreddit": self.subreddit,
+                "created_utc": timestamp_from_datetime(self.current.get("publication_date")),
+                "link_flair_text": _html_text(self.current["flair_parts"]),
+            })
+        self.current = None
+        self.result_depth = None
+        self.title_depth = None
+        self.body_depth = None
+        self.author_depth = None
+        self.flair_depth = None
+
+    def handle_endtag(self, tag: str) -> None:
+        if self.current is not None:
+            if tag == "a" and self.title_depth == self.depth:
+                self.title_depth = None
+            if tag == "a" and self.author_depth == self.depth:
+                self.author_depth = None
+            if tag == "span" and self.flair_depth == self.depth:
+                self.flair_depth = None
+            if tag == "div" and self.body_depth == self.depth:
+                self.body_depth = None
+            if tag == "div" and self.result_depth == self.depth:
+                self._finish_current()
+        if tag not in VOID_TAGS:
+            self.depth = max(0, self.depth - 1)
+
+
+def parse_old_search_html(html: str, subreddit: str) -> dict[str, Any]:
+    parser = OldSearchHTMLParser(subreddit)
+    parser.feed(html or "")
+    parser.close()
+    after = None
+    if parser.next_url:
+        after = parse_qs(urlparse(parser.next_url).query).get("after", [None])[0]
+    return {"data": {"children": [{"kind": "t3", "data": post} for post in parser.posts], "after": after}}
+
+
+class OldCommentsHTMLParser(HTMLParser):
+    """Parse public old-Reddit comment blocks, including nested replies."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.depth = 0
+        self.stack: list[dict[str, Any]] = []
+        self.comments: list[dict[str, Any]] = []
+
+    @staticmethod
+    def _attrs(attrs: list[tuple[str, str | None]]) -> dict[str, str]:
+        return {key: value or "" for key, value in attrs}
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag not in VOID_TAGS:
+            self.depth += 1
+        values = self._attrs(attrs)
+        classes = set(values.get("class", "").split())
+        if tag == "div" and "comment" in classes and values.get("data-permalink"):
+            comment_id = ""
+            id_match = re.search(r"id-t1_([A-Za-z0-9]+)", values.get("id", ""))
+            if id_match:
+                comment_id = id_match.group(1)
+            if not comment_id:
+                comment_id = values["data-permalink"].rstrip("/").rsplit("/", 1)[-1]
+            self.stack.append({
+                "depth": self.depth,
+                "body_depth": None,
+                "record": {
+                    "id": comment_id,
+                    "permalink": values["data-permalink"],
+                    "author": values.get("data-author") or "[deleted]",
+                    "created_utc": None,
+                    "body_parts": [],
+                },
+            })
+        if self.stack and tag == "div" and "usertext-body" in classes:
+            self.stack[-1]["body_depth"] = self.depth
+        if self.stack and tag == "time" and values.get("datetime"):
+            self.stack[-1]["record"]["created_utc"] = timestamp_from_datetime(values["datetime"])
+
+    def handle_data(self, data: str) -> None:
+        if self.stack and self.stack[-1]["body_depth"] is not None and self.depth >= self.stack[-1]["body_depth"]:
+            self.stack[-1]["record"]["body_parts"].append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "div" and self.stack:
+            current = self.stack[-1]
+            if current["body_depth"] == self.depth:
+                current["body_depth"] = None
+            if current["depth"] == self.depth:
+                record = current["record"]
+                record["body"] = _html_text(record.pop("body_parts"))
+                self.comments.append(record)
+                self.stack.pop()
+        if tag not in VOID_TAGS:
+            self.depth = max(0, self.depth - 1)
+
+
+def parse_old_comments_html(html: str) -> list[dict[str, Any]]:
+    parser = OldCommentsHTMLParser()
+    parser.feed(html or "")
+    parser.close()
+    return [{"data": {"children": [{"kind": "t1", "data": row} for row in parser.comments]}}]
 
 
 def _unique_terms(text: str, terms: tuple[str, ...]) -> list[str]:
@@ -247,7 +462,7 @@ class RedditClient:
     def __init__(
         self,
         *,
-        timeout: float = 30.0,
+        timeout: float = 15.0,
         retries: int = 3,
         delay: float = 1.5,
         user_agent: str = "OG-Rep-Hub-Research/1.0 (public-source catalog)",
@@ -256,12 +471,16 @@ class RedditClient:
         self.retries = max(1, retries)
         self.delay = max(0.0, delay)
         self.user_agent = user_agent
+        self._last_request_at = 0.0
 
     def _get(self, url: str, accept: str) -> bytes:
         last_error: Exception | None = None
         for attempt in range(self.retries):
-            if self.delay and attempt:
-                time.sleep(self.delay * attempt)
+            if self.delay:
+                remaining = self.delay - (time.monotonic() - self._last_request_at)
+                if remaining > 0:
+                    time.sleep(remaining)
+            self._last_request_at = time.monotonic()
             request = Request(url, headers={"Accept": accept, "User-Agent": self.user_agent})
             try:
                 with urlopen(request, timeout=self.timeout) as response:
@@ -415,6 +634,8 @@ class RedditScraper:
         self.max_comments = max(0, max_comments)
         self.resume = resume
         self.deadline = time.monotonic() + overnight_hours * 3600 if overnight_hours else None
+        seed_count = max(1, len(registry.get("sources", [])))
+        self.source_post_limit = max(1, self.max_posts // seed_count)
 
     @staticmethod
     def _timestamp() -> str:
@@ -423,6 +644,35 @@ class RedditScraper:
     def _within_budget(self) -> bool:
         return self.deadline is None or time.monotonic() < self.deadline
 
+    def _html_fallback(self, url: str, method: str) -> tuple[bool, Any, str | None]:
+        """Use old Reddit HTML when modern JSON is blocked by the public endpoint."""
+        if not hasattr(self.client, "get_text"):
+            return False, None, None
+        parsed = urlparse(url)
+        if method == "text":
+            fallback_url = old_reddit_url(url)
+        elif "/search.json" in parsed.path:
+            fallback_url = old_search_url(url)
+        elif "/comments/" in parsed.path and parsed.path.endswith(".json"):
+            fallback_url = old_reddit_url(url)
+        elif parsed.path.endswith("/about.json"):
+            subreddit = parsed.path.split("/r/", 1)[1].split("/", 1)[0]
+            fallback_url = f"https://old.reddit.com/r/{subreddit}/"
+        else:
+            return False, None, None
+        try:
+            html = self.client.get_text(fallback_url)
+        except Exception as error:
+            return False, None, f"{type(error).__name__}: {error}"
+        if method == "text":
+            return True, html, None
+        if "/search.json" in parsed.path:
+            subreddit = parsed.path.split("/r/", 1)[1].split("/", 1)[0]
+            return True, parse_old_search_html(html, subreddit), None
+        if "/comments/" in parsed.path:
+            return True, parse_old_comments_html(html), None
+        return True, {}, None
+
     def _fetch(self, url: str, method: str, summary: dict[str, Any]) -> Any | None:
         if self.resume and self.store.endpoint_complete(url):
             summary["skipped_endpoint_count"] += 1
@@ -430,12 +680,25 @@ class RedditScraper:
         try:
             result = self.client.get_json(url) if method == "json" else self.client.get_text(url)
         except Exception as error:  # keep unrelated sources running
+            fallback_error = None
+            if method in {"json", "text"}:
+                handled, result, fallback_error = self._html_fallback(url, method)
+                if handled:
+                    summary["successful_endpoint_count"] += 1
+                    summary["fallback_endpoint_count"] += 1
+                    summary["consecutive_failure_count"] = 0
+                    self.store.mark_endpoint_complete(url, self._timestamp())
+                    return result
             summary["failed_endpoint_count"] += 1
+            summary["consecutive_failure_count"] += 1
             entry = {"url": url, "error": f"{type(error).__name__}: {error}"}
+            if fallback_error:
+                entry["fallback_error"] = fallback_error
             summary["errors"].append(entry)
             self.store.add_error(entry, self._timestamp())
             return None
         summary["successful_endpoint_count"] += 1
+        summary["consecutive_failure_count"] = 0
         self.store.mark_endpoint_complete(url, self._timestamp())
         return result
 
@@ -446,10 +709,10 @@ class RedditScraper:
         summary: dict[str, Any],
         *,
         include_comments: bool,
-    ) -> None:
+    ) -> bool:
         post_id = str(post.get("id") or "")
         if not post_id:
-            return
+            return False
         title, title_flags = sanitize_text(str(post.get("title") or ""))
         body, body_flags = sanitize_text(str(post.get("selftext") or ""))
         record = {
@@ -473,14 +736,15 @@ class RedditScraper:
         summary["post_count"] += 1
 
         if self.max_comments <= 0 or not include_comments:
-            return
+            return True
         comment_payload = self._fetch(comments_url(subreddit, post_id, self.max_comments), "json", summary)
         if comment_payload is None:
-            return
+            return True
         for index, comment in enumerate(_comment_rows(comment_payload)):
             if index >= self.max_comments or not self._within_budget():
                 break
             self._capture_comment(subreddit, post, comment, summary)
+        return True
 
     def _capture_comment(self, subreddit: str, post: dict[str, Any], comment: dict[str, Any], summary: dict[str, Any]) -> None:
         comment_id = str(comment.get("id") or "")
@@ -504,24 +768,28 @@ class RedditScraper:
             summary["new_capture_count"] += 1
         summary["comment_count"] += 1
 
-    def _source(self, source: dict[str, Any], summary: dict[str, Any]) -> list[str]:
+    def _source(self, source: dict[str, Any], summary: dict[str, Any], post_limit: int) -> list[str]:
         subreddit = source["subreddit"]
         base = subreddit_base(subreddit)
         discovered: list[str] = []
+        source_post_count = 0
         html_urls = [source["landing_url"]] + [f"{base.rstrip('/')}{path}" for path in source.get("wiki_paths", [])]
         for url in html_urls:
-            if not self._within_budget():
+            if not self._within_budget() or summary["consecutive_failure_count"] >= 3:
                 break
             html = self._fetch(url, "text", summary)
             if isinstance(html, str):
                 discovered.extend(discover_subreddits(html, summary["known_subreddits"]))
-        self._fetch(about_url(subreddit), "json", summary)
-
         queries = list(dict.fromkeys(self.registry.get("search_terms", [])))
         for query in queries:
             after = None
             for _page in range(self.max_pages):
-                if not self._within_budget() or summary["post_count"] >= self.max_posts:
+                if (
+                    not self._within_budget()
+                    or summary["post_count"] >= self.max_posts
+                    or source_post_count >= post_limit
+                    or summary["consecutive_failure_count"] >= 3
+                ):
                     break
                 endpoint = search_url(subreddit, query, after)
                 payload = self._fetch(endpoint, "json", summary)
@@ -531,11 +799,16 @@ class RedditScraper:
                 children = listing.get("children", []) if isinstance(listing, dict) else []
                 summary["query_counts"].setdefault(f"r/{subreddit}:{query}", 0)
                 for child in children:
-                    if summary["post_count"] >= self.max_posts or not self._within_budget():
+                    if (
+                        summary["post_count"] >= self.max_posts
+                        or source_post_count >= post_limit
+                        or not self._within_budget()
+                        or summary["consecutive_failure_count"] >= 3
+                    ):
                         break
                     post = child.get("data") if isinstance(child, dict) else None
                     if isinstance(post, dict):
-                        self._capture_post(
+                        captured = self._capture_post(
                             subreddit,
                             post,
                             summary,
@@ -546,10 +819,13 @@ class RedditScraper:
                                 )
                             ),
                         )
+                        if captured:
+                            source_post_count += 1
                         summary["query_counts"][f"r/{subreddit}:{query}"] += 1
                 after = listing.get("after") if isinstance(listing, dict) else None
                 if not after or not children:
                     break
+        summary["source_post_counts"][f"r/{subreddit}"] = source_post_count
         return discovered
 
     def run(self) -> dict[str, Any]:
@@ -566,13 +842,16 @@ class RedditScraper:
             "known_subreddits": {row["subreddit"] for row in self.registry.get("sources", [])},
             "discovered_subreddits": [],
             "successful_endpoint_count": 0,
+            "fallback_endpoint_count": 0,
             "failed_endpoint_count": 0,
+            "consecutive_failure_count": 0,
             "skipped_endpoint_count": 0,
             "new_capture_count": 0,
             "new_candidate_count": 0,
             "post_count": 0,
             "comment_count": 0,
             "query_counts": {},
+            "source_post_counts": {},
             "errors": [],
         }
         queue = list(self.registry.get("sources", []))
@@ -584,7 +863,7 @@ class RedditScraper:
                 continue
             summary["sources_requested"] += 1
             summary["subreddits_checked"].append(subreddit)
-            discovered = self._source(source, summary)
+            discovered = self._source(source, summary, self.source_post_limit)
             for name in discovered:
                 if (
                     name.casefold() in {item.casefold() for item in summary["known_subreddits"]}

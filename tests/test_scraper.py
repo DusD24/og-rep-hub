@@ -12,6 +12,9 @@ from scrape_reddit import (  # noqa: E402
     candidate_from_post,
     discover_subreddits,
     load_registry,
+    old_reddit_url,
+    parse_old_comments_html,
+    parse_old_search_html,
     RedditScraper,
     RunStore,
     sanitize_text,
@@ -73,6 +76,40 @@ class ScraperContractTests(unittest.TestCase):
         )
         self.assertIsNone(canonical_subreddit_url("https://www.reddit.com/u/someone/"))
         self.assertIsNone(canonical_subreddit_url("https://example.com/r/RepCulture_Bags/"))
+
+    def test_old_reddit_fallback_urls_and_search_parser_keep_public_post_fields(self):
+        self.assertIn("old.reddit.com/r/RepCulture_Bags/search/", old_reddit_url(
+            "https://www.reddit.com/r/RepCulture_Bags/search.json?q=review"
+        ))
+        html = (
+            '<div class="search-result search-result-link">'
+            '<a class="search-title" href="https://old.reddit.com/r/RepCulture_Bags/comments/abc/title/">'
+            "Speedy review</a>"
+            '<a class="author">reader</a>'
+            '<time datetime="2026-08-08T00:00:00+00:00"></time>'
+            '<div class="search-result-body"><div class="md"><p>soft leather</p></div></div>'
+            "</div>"
+        )
+        payload = parse_old_search_html(html, "RepCulture_Bags")
+        post = payload["data"]["children"][0]["data"]
+        self.assertEqual(post["id"], "abc")
+        self.assertEqual(post["author"], "reader")
+        self.assertIn("soft leather", post["selftext"])
+
+    def test_old_reddit_comments_parser_keeps_nested_public_replies(self):
+        html = (
+            '<div class="thing id-t1_c1 comment" data-author="reader" '
+            'data-permalink="/r/RepCulture_Bags/comments/post/c1/">'
+            '<time datetime="2026-08-08T00:00:00+00:00"></time>'
+            '<div class="usertext-body"><div class="md"><p>top reply</p></div></div>'
+            '<div class="child"><div class="thing id-t1_c2 comment" data-author="other" '
+            'data-permalink="/r/RepCulture_Bags/comments/post/c2/">'
+            '<div class="usertext-body"><div class="md"><p>nested reply</p></div></div>'
+            "</div></div></div>"
+        )
+        rows = [child["data"] for listing in parse_old_comments_html(html) for child in listing["data"]["children"]]
+        self.assertEqual([row["id"] for row in rows], ["c2", "c1"])
+        self.assertEqual(rows[0]["body"], "nested reply")
 
 
 class FakeClient:
@@ -158,7 +195,7 @@ class CrawlerRunTests(unittest.TestCase):
 
     def test_one_failed_endpoint_is_recorded_and_other_sources_continue(self):
         failed = "https://www.reddit.com/r/RepTherapy/wiki/"
-        client = FakeClient(fail_urls={failed})
+        client = FakeClient(fail_urls={failed, old_reddit_url(failed)})
         summary = RedditScraper(
             self.registry,
             RunStore(self.run_dir),
