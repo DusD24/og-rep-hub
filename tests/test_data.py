@@ -1,4 +1,5 @@
 import json
+import hashlib
 import unittest
 from datetime import date, timedelta
 from pathlib import Path
@@ -7,7 +8,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from validate import validate
+from validate import jpeg_dimensions, validate
 from score import generate
 
 
@@ -56,17 +57,63 @@ class DataTests(unittest.TestCase):
         self.assertTrue(all(row["evidence_coverage"]["independent_author_count"] >= 2 for row in families))
         self.assertTrue(all(set(row["evidence_coverage"]["primary_subreddit_coverage"]) & {"RealRepLadies", "RepTherapy"} for row in families))
 
-    def test_published_family_tiles_are_reddit_only_and_research_queue_is_explicit(self):
+    def test_all_launch_families_have_distinct_reddit_tiles_and_exact_evidence_links(self):
         families = load("bag_families")
-        media = {row["id"]: row for row in load("media")}
-        published = [row for row in families if row["publication_status"] == "published"]
-        self.assertTrue(published)
-        self.assertTrue(all(row["tile_media_id"] in media for row in published))
-        self.assertTrue(all(media[row["tile_media_id"]]["post_url"].startswith("https://www.reddit.com/") for row in published))
-        self.assertTrue(all(media[row["tile_media_id"]].get("usage_scope") == "target_tile" for row in published))
-        queued = [row for row in families if row["publication_status"] == "research_queue"]
-        self.assertEqual(len(queued), 11)
-        self.assertTrue(all(row.get("tile_media_id") is None and row.get("candidate_tile", {}).get("sha256") is None for row in queued))
+        media_rows = load("media")
+        media = {row["id"]: row for row in media_rows}
+        evidence = {row["id"]: row for row in load("evidence")}
+        tile_ids = [row["tile_media_id"] for row in families]
+        target_ids = {row["id"] for row in media_rows if row["usage_scope"] == "target_tile"}
+
+        self.assertEqual(len(families), 12)
+        self.assertTrue(all(row["publication_status"] == "published" for row in families))
+        self.assertTrue(all(row["evidence_coverage"]["image_ready"] is True for row in families))
+        self.assertTrue(all("candidate_tile" not in row for row in families))
+        self.assertEqual(len(set(tile_ids)), 12)
+        self.assertEqual(set(tile_ids), target_ids)
+
+        for family in families:
+            tile = media[family["tile_media_id"]]
+            receipt = evidence[tile["evidence_id"]]
+            self.assertEqual(tile["usage_scope"], "target_tile")
+            self.assertTrue(tile["post_url"].startswith("https://www.reddit.com/"))
+            self.assertIn(tile["evidence_id"], family["evidence_ids"])
+            self.assertEqual(receipt["media_ids"].count(tile["id"]), 1)
+            self.assertEqual(tile["post_url"], receipt["url"])
+            self.assertEqual(tile["author"], receipt["author"])
+            self.assertEqual(tile["subreddit"], receipt["subreddit"])
+            self.assertIn(family["id"], receipt["family_ids"])
+
+    def test_media_files_have_unique_paths_hashes_dimensions_and_removal_checks(self):
+        rows = load("media")
+        self.assertEqual(len(rows), 13)
+        self.assertEqual(len({row["id"] for row in rows}), len(rows))
+        self.assertEqual(len({row["path"] for row in rows}), len(rows))
+        self.assertEqual(sum(row["usage_scope"] == "target_tile" for row in rows), 12)
+
+        required = {
+            "evidence_id", "source_url", "post_url", "author", "subreddit",
+            "capture_date", "removal_checked_at", "sha256", "width", "height", "alt",
+        }
+        for row in rows:
+            self.assertTrue(required <= row.keys())
+            path = ROOT / row["path"]
+            self.assertTrue(path.is_file())
+            self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), row["sha256"])
+            self.assertEqual(jpeg_dimensions(path), (row["width"], row["height"]))
+            self.assertGreaterEqual(len(row["alt"].strip()), 24)
+            date.fromisoformat(row["removal_checked_at"])
+
+    def test_evidence_count_and_published_state_have_no_stale_media_candidates(self):
+        self.assertEqual(len(load("evidence")), 38)
+        families = load("bag_families")
+        stale_family_text = json.dumps(families).casefold()
+        self.assertNotIn("candidate_not_archived", stale_family_text)
+        self.assertNotIn("archive and hash the selected reddit image", stale_family_text)
+        self.assertNotIn("launch candidate", stale_family_text)
+        lane_notes = " ".join(row["status_note"] for row in load("research")["research_lanes"]).casefold()
+        self.assertNotIn("local media archive and hash remain", lane_notes)
+        self.assertNotIn("publication gate for the 11", lane_notes)
 
     def test_variants_and_offerings_keep_family_and_exact_variant_references(self):
         families = {row["id"] for row in load("bag_families")}

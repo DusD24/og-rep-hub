@@ -20,6 +20,8 @@ EVIDENCE_TYPES = {"auth_comparison", "factory_comparison", "in_hand_review", "lo
 FAMILY_STATUSES = {"published", "research_queue"}
 PRIMARY_SUBREDDITS = {"RealRepLadies", "RepTherapy"}
 CONTACT_TYPES = {"whatsapp", "wechat", "email", "website", "instagram", "telegram", "phone", "other"}
+MEDIA_SOURCE_HOSTS = {"i.redd.it", "preview.redd.it", "i.imgur.com"}
+MEDIA_USAGE_SCOPES = {"target_tile", "variant_tile"}
 FORBIDDEN_KEYS = {"payment", "address", "private_message", "buyer_conversation", "password", "secret", "token"}
 SENSITIVE_PATTERNS = [
     re.compile(r"\b(?:sk_live|sk_test)_[A-Za-z0-9]+\b"),
@@ -58,6 +60,46 @@ def reddit_url(value: str) -> bool:
     return valid_url(value) and urlparse(value).hostname in {"reddit.com", "www.reddit.com"}
 
 
+def jpeg_dimensions(path: Path) -> tuple[int, int] | None:
+    """Read JPEG width and height without adding a runtime image dependency."""
+    data = path.read_bytes()
+    if data[:2] != b"\xff\xd8":
+        return None
+
+    start_of_frame = {
+        0xC0, 0xC1, 0xC2, 0xC3,
+        0xC5, 0xC6, 0xC7,
+        0xC9, 0xCA, 0xCB,
+        0xCD, 0xCE, 0xCF,
+    }
+    offset = 2
+    while offset < len(data):
+        if data[offset] != 0xFF:
+            offset += 1
+            continue
+        while offset < len(data) and data[offset] == 0xFF:
+            offset += 1
+        if offset >= len(data):
+            return None
+        marker = data[offset]
+        offset += 1
+        if marker in {0x01, 0xD8, 0xD9} or 0xD0 <= marker <= 0xD7:
+            continue
+        if offset + 2 > len(data):
+            return None
+        segment_length = int.from_bytes(data[offset:offset + 2], "big")
+        if segment_length < 2 or offset + segment_length > len(data):
+            return None
+        if marker in start_of_frame and segment_length >= 7:
+            height = int.from_bytes(data[offset + 3:offset + 5], "big")
+            width = int.from_bytes(data[offset + 5:offset + 7], "big")
+            return width, height
+        if marker == 0xDA:
+            return None
+        offset += segment_length
+    return None
+
+
 def flatten(value, path="$"):
     if isinstance(value, dict):
         for key, child in value.items():
@@ -92,6 +134,8 @@ def validate() -> list[str]:
         ids[name] = seen
 
     family_rows = records["bag_families"]
+    if len(records["evidence"]) != 38:
+        v.error(f"evidence.json: expected exactly 38 normalized receipts, found {len(records['evidence'])}")
     if len(family_rows) != 12:
         v.error(f"bag_families.json: expected exactly 12 launch families, found {len(family_rows)}")
     family_slugs: set[str] = set()
@@ -126,19 +170,17 @@ def validate() -> list[str]:
             v.error(f"{where}: two independent Reddit authors are required")
         if not subreddits & PRIMARY_SUBREDDITS:
             v.error(f"{where}: a RealRepLadies or RepTherapy source is required")
-        candidate = row.get("candidate_tile")
-        if row.get("publication_status") == "published" and not row.get("tile_media_id"):
+        if row.get("publication_status") != "published":
+            v.error(f"{where}: all launch families must be published")
+        if not row.get("tile_media_id"):
             v.error(f"{where}: published family needs a Reddit tile_media_id")
-        if row.get("publication_status") == "research_queue" and not candidate:
-            v.error(f"{where}: research_queue family needs a candidate_tile provenance record")
-        if candidate:
-            v.required(candidate, ("status", "post_url", "author", "subreddit", "capture_date", "alt_text"), f"{where}.candidate_tile")
-            if not reddit_url(candidate.get("post_url")):
-                v.error(f"{where}.candidate_tile: post_url must be a public Reddit URL")
-            if not valid_date(candidate.get("capture_date")):
-                v.error(f"{where}.candidate_tile: invalid capture_date")
-            if candidate.get("status") != "candidate_not_archived":
-                v.error(f"{where}.candidate_tile: status must disclose that local archival is pending")
+        if coverage.get("image_ready") is not True:
+            v.error(f"{where}: published family must be image_ready")
+        if "candidate_tile" in row:
+            v.error(f"{where}: stale candidate_tile must be removed after publication")
+        stale_gap = " ".join(str(gap) for gap in row.get("research_gaps", [])).casefold()
+        if "archive and hash" in stale_gap or "candidate_not_archived" in stale_gap:
+            v.error(f"{where}: stale media-archive research gap remains after publication")
 
     for index, row in enumerate(records["bags"]):
         v.required(row, ("name", "size", "pattern", "colorway", "priority", "family_id", "material", "hardware", "official_reference_url"), f"bags[{index}]")
@@ -206,6 +248,8 @@ def validate() -> list[str]:
                     v.error(f"{where}: unknown {field} reference {ref}")
         if row.get("source_type", "").startswith("reddit_"):
             v.required(row, ("subreddit", "author"), where)
+            if not reddit_url(row.get("url")):
+                v.error(f"{where}: Reddit evidence URL must be a public Reddit post")
         if row.get("publication_date_precision") not in {"exact", "month_estimate", "relative_day_estimate"}:
             v.error(f"{where}: publication_date_precision must disclose date certainty")
 
@@ -225,22 +269,104 @@ def validate() -> list[str]:
         if row.get("link_url") and not valid_url(row["link_url"]):
             v.error(f"{where}: link_url must be https")
 
+    evidence_by_id = {row["id"]: row for row in records["evidence"]}
+    media_paths: set[str] = set()
+    linked_media_ids: list[str] = []
+    for evidence_index, evidence in enumerate(records["evidence"]):
+        media_ids = evidence.get("media_ids", [])
+        if len(media_ids) != len(set(media_ids)):
+            v.error(f"evidence[{evidence_index}]: duplicate media_ids link")
+        linked_media_ids.extend(media_ids)
+
     for index, row in enumerate(records["media"]):
         where = f"media[{index}]"
-        v.required(row, ("path", "attribution", "source_url", "post_url", "author", "subreddit", "capture_date", "sha256", "research_purpose"), where)
-        path = ROOT / row.get("path", "")
+        v.required(
+            row,
+            (
+                "path", "attribution", "source_url", "post_url", "author", "subreddit",
+                "capture_date", "removal_checked_at", "sha256", "width", "height",
+                "alt", "research_purpose", "source_platform", "usage_scope", "evidence_id",
+            ),
+            where,
+        )
+
+        path_value = row.get("path", "")
+        relative_path = Path(path_value)
+        if (
+            not path_value
+            or relative_path.is_absolute()
+            or ".." in relative_path.parts
+            or "\\" in path_value
+            or relative_path.parts[:2] != ("media", "evidence")
+            or relative_path.suffix.casefold() not in {".jpg", ".jpeg"}
+        ):
+            v.error(f"{where}: path must be a safe JPEG under media/evidence")
+        if path_value in media_paths:
+            v.error(f"{where}: duplicate media path {path_value}")
+        elif path_value:
+            media_paths.add(path_value)
+
+        path = ROOT / relative_path
         if not path.is_file():
-            v.error(f"{where}: missing media file {row.get('path')}")
-        elif hashlib.sha256(path.read_bytes()).hexdigest() != row.get("sha256"):
-            v.error(f"{where}: SHA-256 mismatch")
-        if row.get("source_url") and not valid_url(row["source_url"]):
-            v.error(f"{where}: source_url must be https")
-        if row.get("post_url") and not reddit_url(row["post_url"]):
+            v.error(f"{where}: missing media file {path_value}")
+        else:
+            digest = hashlib.sha256(path.read_bytes()).hexdigest()
+            if not re.fullmatch(r"[0-9a-f]{64}", str(row.get("sha256", ""))):
+                v.error(f"{where}: sha256 must be 64 lowercase hexadecimal characters")
+            elif digest != row.get("sha256"):
+                v.error(f"{where}: SHA-256 mismatch")
+            dimensions = jpeg_dimensions(path)
+            if dimensions is None:
+                v.error(f"{where}: file must be a readable JPEG")
+            elif dimensions != (row.get("width"), row.get("height")):
+                v.error(f"{where}: declared dimensions do not match JPEG ({dimensions[0]}x{dimensions[1]})")
+
+        for dimension in ("width", "height"):
+            if not isinstance(row.get(dimension), int) or isinstance(row.get(dimension), bool) or row[dimension] <= 0:
+                v.error(f"{where}: {dimension} must be a positive integer")
+        alt = row.get("alt", "")
+        if not isinstance(alt, str) or len(alt.strip()) < 24:
+            v.error(f"{where}: alt must meaningfully describe the image")
+        elif any(term in alt.casefold() for term in ("candidate", "pending", "archive and hash")):
+            v.error(f"{where}: alt contains stale candidate language")
+
+        source_url = row.get("source_url", "")
+        source_host = urlparse(source_url).hostname if valid_url(source_url) else None
+        if source_host not in MEDIA_SOURCE_HOSTS:
+            v.error(f"{where}: source_url must be a direct Reddit-media or approved personal-album URL")
+        if not reddit_url(row.get("post_url")):
             v.error(f"{where}: post_url must be a public Reddit URL")
-        if row.get("usage_scope") == "target_tile" and not reddit_url(row.get("source_url")):
-            v.error(f"{where}: target tile source must be a public Reddit post")
-        if row.get("capture_date") and not valid_date(row["capture_date"]):
-            v.error(f"{where}: invalid capture_date")
+        if source_host == "i.imgur.com":
+            album_url = row.get("album_url")
+            if not valid_url(album_url) or urlparse(album_url).hostname not in {"imgur.com", "www.imgur.com"}:
+                v.error(f"{where}: Imgur source needs the Reddit author's public album_url")
+        if row.get("source_platform") != "Reddit":
+            v.error(f"{where}: source_platform must preserve Reddit provenance")
+        if row.get("usage_scope") not in MEDIA_USAGE_SCOPES:
+            v.error(f"{where}: invalid usage_scope {row.get('usage_scope')}")
+        for field in ("capture_date", "removal_checked_at"):
+            if not valid_date(row.get(field)):
+                v.error(f"{where}: invalid {field}")
+
+        evidence = evidence_by_id.get(row.get("evidence_id"))
+        if not evidence:
+            v.error(f"{where}: evidence_id must reference a normalized evidence record")
+            continue
+        if evidence.get("media_ids", []).count(row.get("id")) != 1:
+            v.error(f"{where}: matching evidence record must link this media ID exactly once")
+        if row.get("post_url") != evidence.get("url"):
+            v.error(f"{where}: post_url does not match evidence URL")
+        if row.get("author") != evidence.get("author"):
+            v.error(f"{where}: author does not match evidence record")
+        if row.get("subreddit") != evidence.get("subreddit"):
+            v.error(f"{where}: subreddit does not match evidence record")
+        if not evidence.get("family_ids"):
+            v.error(f"{where}: evidence link must identify a bag family")
+
+    for media_id in ids["media"]:
+        link_count = linked_media_ids.count(media_id)
+        if link_count != 1:
+            v.error(f"media {media_id}: expected exactly one evidence.media_ids reverse link, found {link_count}")
 
     all_public = {name: records[name] for name in COLLECTIONS}
     for path, key, value in flatten(all_public):
@@ -258,11 +384,19 @@ def validate() -> list[str]:
         if row.get("allegation") and row.get("language") != "attributed_claim":
             v.error(f"evidence[{index}]: allegations must be explicitly attributed")
 
-    # Every published family must point at a locally hashed Reddit-only tile.
+    # Every launch family must point at a distinct, locally verified Reddit tile
+    # whose media/evidence record names that exact family.
     media_by_id = {row["id"]: row for row in records["media"]}
+    family_tile_ids = [family.get("tile_media_id") for family in records["bag_families"]]
+    target_media_ids = {row["id"] for row in records["media"] if row.get("usage_scope") == "target_tile"}
+    if len(target_media_ids) != 12:
+        v.error(f"media.json: expected exactly 12 target_tile records, found {len(target_media_ids)}")
+    if len(family_tile_ids) != len(set(family_tile_ids)):
+        v.error("bag_families.json: launch families must use unique tile_media_id values")
+    if set(family_tile_ids) != target_media_ids:
+        v.error("bag_families.json: family tiles must exactly match the 12 target_tile media records")
+
     for index, family in enumerate(records["bag_families"]):
-        if family.get("publication_status") != "published":
-            continue
         media = media_by_id.get(family.get("tile_media_id"))
         if not media:
             v.error(f"bag_families[{index}]: published family tile media is missing")
@@ -271,6 +405,28 @@ def validate() -> list[str]:
             v.error(f"bag_families[{index}]: published family tile must be a Reddit-only target tile")
         if not media.get("sha256"):
             v.error(f"bag_families[{index}]: published family tile needs a SHA-256 hash")
+        evidence = evidence_by_id.get(media.get("evidence_id"), {})
+        if media.get("evidence_id") not in family.get("evidence_ids", []):
+            v.error(f"bag_families[{index}]: tile evidence_id is not in the family's evidence_ids")
+        if family.get("id") not in evidence.get("family_ids", []):
+            v.error(f"bag_families[{index}]: tile evidence does not link the matching family")
+
+    for index, bag in enumerate(records["bags"]):
+        media_id = bag.get("tile_media_id")
+        if not media_id:
+            continue
+        media = media_by_id.get(media_id)
+        if not media:
+            continue
+        evidence = evidence_by_id.get(media.get("evidence_id"), {})
+        if bag.get("family_id") not in evidence.get("family_ids", []):
+            v.error(f"bags[{index}]: tile media evidence does not link the bag's family")
+
+    research = load("research")
+    for index, lane in enumerate(research.get("research_lanes", [])):
+        status_note = lane.get("status_note", "").casefold()
+        if "local media archive and hash remain" in status_note or "publication gate for the 11" in status_note:
+            v.error(f"research.research_lanes[{index}]: stale media-candidate status note")
 
     return v.errors
 
