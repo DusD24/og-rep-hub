@@ -60,6 +60,8 @@ pnpm exec wrangler deploy --dry-run --config worker/wrangler.jsonc
 
 These checks protect the normalized data relationships, deterministic scoring, public-data boundaries, media provenance, and site behavior.
 
+Running `scripts/scrape_reddit.py` locally is optional and manual (it is not part of CI). It works with no setup; copy `.env.example` to `.env` and set `FIRECRAWL_API_KEY` only if you want it to fall back to Firecrawl when the public Reddit endpoints and the old.reddit.com HTML fallback both fail.
+
 ## Research boundaries
 
 OG Rep Hub organizes public reports. It does not authenticate goods, guarantee outcomes, broker purchases, claim current stock, or issue site-level “safe,” “trusted,” “best,” or exactness verdicts about sellers and factories.
