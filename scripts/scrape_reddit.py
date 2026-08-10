@@ -6,6 +6,17 @@ parsed old.reddit.com HTML when the JSON API is blocked, and finally
 Firecrawl (https://www.firecrawl.dev) as a last resort when both fail. The
 Firecrawl tier is optional and stays fully disabled unless a FIRECRAWL_API_KEY
 environment variable is set locally.
+
+Two crawl modes share that fetch stack:
+
+  --mode daily  polls /r/<sub>/new.json and stops at the per-subreddit watermark
+                in data/scrape_ledger.json. Cost tracks what was posted since the
+                last run, so it stays flat as communities are added.
+  --mode sweep  runs the full search-term matrix for backfill and for newly added
+                communities. Slower and broader; run it deliberately, not nightly.
+
+Both consult the committed ledger so a post already promoted to evidence or
+explicitly rejected never resurfaces as a candidate.
 """
 
 from __future__ import annotations
@@ -22,6 +33,8 @@ from typing import Any
 from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qs, quote, urlencode, urlparse
 from urllib.request import Request, urlopen
+
+from ledger import empty_ledger, is_settled, load_ledger, save_ledger, set_watermark, watermark
 
 
 HREF_PATTERN = re.compile(r"href\s*=\s*[\"']([^\"']+)[\"']", re.IGNORECASE)
@@ -166,6 +179,24 @@ def search_url(subreddit: str, query: str, after: str | None = None, limit: int 
     if after:
         params["after"] = after
     return f"{subreddit_base(subreddit)}search.json?{urlencode(params, quote_via=quote)}"
+
+
+def new_url(subreddit: str, after: str | None = None, limit: int = 100) -> str:
+    """Newest-first listing. Daily mode reads this and stops at the stored watermark."""
+    params = {"limit": str(limit), "raw_json": "1"}
+    if after:
+        params["after"] = after
+    return f"{subreddit_base(subreddit)}new.json?{urlencode(params)}"
+
+
+def old_listing_url(url: str) -> str:
+    """Translate a /new.json endpoint to the old-Reddit HTML listing, keeping pagination."""
+    parsed = urlparse(url)
+    path = parsed.path.replace("/new.json", "/new/")
+    params = parse_qs(parsed.query, keep_blank_values=True)
+    params.pop("raw_json", None)
+    query = urlencode(params, doseq=True)
+    return f"https://old.reddit.com{path}{f'?{query}' if query else ''}"
 
 
 def comments_url(subreddit: str, post_id: str, limit: int = 100) -> str:
@@ -331,6 +362,119 @@ class OldSearchHTMLParser(HTMLParser):
             self.depth = max(0, self.depth - 1)
 
 
+class OldListingHTMLParser(HTMLParser):
+    """Parse old Reddit's /new/ listing cards, which use data-* attributes rather than search markup."""
+
+    def __init__(self, subreddit: str) -> None:
+        super().__init__(convert_charrefs=True)
+        self.subreddit = subreddit
+        self.depth = 0
+        self.current: dict[str, Any] | None = None
+        self.thing_depth: int | None = None
+        self.title_depth: int | None = None
+        self.body_depth: int | None = None
+        self.flair_depth: int | None = None
+        self.next_url: str | None = None
+        self.posts: list[dict[str, Any]] = []
+
+    @staticmethod
+    def _attrs(attrs: list[tuple[str, str | None]]) -> dict[str, str]:
+        return {key: value or "" for key, value in attrs}
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag not in VOID_TAGS:
+            self.depth += 1
+        values = self._attrs(attrs)
+        classes = set(values.get("class", "").split())
+        if tag == "a" and ("next-button" in classes or values.get("rel") == "nofollow next"):
+            self.next_url = values.get("href") or self.next_url
+        if self.current is None and tag == "div" and "thing" in classes and values.get("data-fullname", "").startswith("t3_"):
+            self.current = {
+                "fullname": values.get("data-fullname", ""),
+                "author": values.get("data-author", ""),
+                "permalink": values.get("data-permalink", ""),
+                "subreddit": values.get("data-subreddit") or self.subreddit,
+                # Old Reddit reports data-timestamp in milliseconds.
+                "timestamp": values.get("data-timestamp", ""),
+                "title_parts": [],
+                "body_parts": [],
+                "flair_parts": [],
+            }
+            self.thing_depth = self.depth
+            return
+        if self.current is None:
+            return
+        if tag == "a" and "title" in classes:
+            self.title_depth = self.depth
+        elif tag == "div" and "md" in classes:
+            self.body_depth = self.depth
+        elif tag == "span" and ("linkflairlabel" in classes or "flairrichtext" in classes):
+            self.flair_depth = self.depth
+            if values.get("title"):
+                self.current["flair_parts"].append(values["title"])
+
+    def handle_data(self, data: str) -> None:
+        if self.current is None:
+            return
+        if self.title_depth is not None and self.depth >= self.title_depth:
+            self.current["title_parts"].append(data)
+        if self.body_depth is not None and self.depth >= self.body_depth:
+            self.current["body_parts"].append(data)
+        if self.flair_depth is not None and self.depth >= self.flair_depth:
+            self.current["flair_parts"].append(data)
+
+    def _finish_current(self) -> None:
+        if self.current is None:
+            return
+        post_id = self.current["fullname"].split("_", 1)[-1]
+        try:
+            created = float(self.current["timestamp"]) / 1000.0 if self.current["timestamp"] else 0.0
+        except (TypeError, ValueError):
+            created = 0.0
+        # Flair arrives twice when the label carries both a title attribute and
+        # matching inner text; keep one copy.
+        flair_parts = list(dict.fromkeys(part.strip() for part in self.current["flair_parts"] if part.strip()))
+        if post_id:
+            self.posts.append({
+                "id": post_id,
+                "permalink": self.current["permalink"],
+                "title": _html_text(self.current["title_parts"]) or "Untitled public post",
+                "selftext": _html_text(self.current["body_parts"]),
+                "author": self.current["author"] or "[deleted]",
+                "subreddit": self.current["subreddit"],
+                "created_utc": created,
+                "link_flair_text": _html_text(flair_parts),
+            })
+        self.current = None
+        self.thing_depth = None
+        self.title_depth = None
+        self.body_depth = None
+        self.flair_depth = None
+
+    def handle_endtag(self, tag: str) -> None:
+        if self.current is not None:
+            if tag == "a" and self.title_depth == self.depth:
+                self.title_depth = None
+            if tag == "span" and self.flair_depth == self.depth:
+                self.flair_depth = None
+            if tag == "div" and self.body_depth == self.depth:
+                self.body_depth = None
+            if tag == "div" and self.thing_depth == self.depth:
+                self._finish_current()
+        if tag not in VOID_TAGS:
+            self.depth = max(0, self.depth - 1)
+
+
+def parse_old_listing_html(html: str, subreddit: str) -> dict[str, Any]:
+    parser = OldListingHTMLParser(subreddit)
+    parser.feed(html or "")
+    parser.close()
+    after = None
+    if parser.next_url:
+        after = parse_qs(urlparse(parser.next_url).query).get("after", [None])[0]
+    return {"data": {"children": [{"kind": "t3", "data": post} for post in parser.posts], "after": after}}
+
+
 def parse_old_search_html(html: str, subreddit: str) -> dict[str, Any]:
     parser = OldSearchHTMLParser(subreddit)
     parser.feed(html or "")
@@ -407,7 +551,14 @@ def parse_old_comments_html(html: str) -> list[dict[str, Any]]:
     return [{"data": {"children": [{"kind": "t1", "data": row} for row in parser.comments]}}]
 
 
-def firecrawl_to_listing(html: str, *, method: str, subreddit: str, is_search: bool) -> Any:
+def firecrawl_to_listing(
+    html: str,
+    *,
+    method: str,
+    subreddit: str,
+    is_search: bool,
+    is_listing: bool = False,
+) -> Any:
     """Reshape a Firecrawl scrape's HTML into the same shape old-Reddit HTML parsing produces."""
     if not html:
         raise RuntimeError("firecrawl response had no html payload")
@@ -415,6 +566,8 @@ def firecrawl_to_listing(html: str, *, method: str, subreddit: str, is_search: b
         return html
     if is_search:
         return parse_old_search_html(html, subreddit)
+    if is_listing:
+        return parse_old_listing_html(html, subreddit)
     return parse_old_comments_html(html)
 
 
@@ -594,7 +747,8 @@ class RunStore:
         self.root.mkdir(parents=True, exist_ok=True)
         self.manifest_path = self.root / "manifest.json"
         self.captures_path = self.root / "captures.jsonl"
-        self.candidates_path = self.root / "candidates.json"
+        self.candidates_path = self.root / "candidates.jsonl"
+        self.legacy_candidates_path = self.root / "candidates.json"
         self.summary_path = self.root / "run-summary.json"
         self.history_path = self.root / "run-history.jsonl"
         self.manifest = self._read_json(self.manifest_path, {
@@ -605,7 +759,10 @@ class RunStore:
             "errors": [],
         })
         self.capture_keys = self._load_capture_keys()
-        self.candidates = self._read_json(self.candidates_path, [])
+        # Membership is checked on every fetch, so the set is built once here rather
+        # than rebuilt from the (unbounded) manifest list per call.
+        self.completed_endpoints = set(self.manifest.get("completed_endpoints", []))
+        self.candidates = self._load_candidates()
         self.candidate_ids = {row.get("candidate_id") for row in self.candidates if row.get("candidate_id")}
 
     @staticmethod
@@ -616,6 +773,21 @@ class RunStore:
             return json.loads(path.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
             return default
+
+    def _load_candidates(self) -> list[dict[str, Any]]:
+        rows: list[dict[str, Any]] = []
+        if self.candidates_path.exists():
+            for line in self.candidates_path.read_text(encoding="utf-8").splitlines():
+                try:
+                    row = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                if isinstance(row, dict):
+                    rows.append(row)
+            return rows
+        # Resume a run directory written before candidates moved to JSONL.
+        legacy = self._read_json(self.legacy_candidates_path, [])
+        return [row for row in legacy if isinstance(row, dict)] if isinstance(legacy, list) else []
 
     def _load_capture_keys(self) -> set[str]:
         keys: set[str] = set()
@@ -631,12 +803,13 @@ class RunStore:
         return keys
 
     def endpoint_complete(self, url: str) -> bool:
-        return url in set(self.manifest.get("completed_endpoints", []))
+        return url in self.completed_endpoints
 
     def mark_endpoint_complete(self, url: str, timestamp: str) -> None:
         completed = self.manifest.setdefault("completed_endpoints", [])
-        if url not in completed:
+        if url not in self.completed_endpoints:
             completed.append(url)
+            self.completed_endpoints.add(url)
         self.manifest["updated_at"] = timestamp
         self.save_manifest()
 
@@ -662,10 +835,10 @@ class RunStore:
             return False
         self.candidates.append(record)
         self.candidate_ids.add(candidate_id)
-        self.candidates_path.write_text(
-            json.dumps(self.candidates, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
+        # Append rather than rewriting the whole array per candidate; the old
+        # write_text form was quadratic and a long sweep spends real time in it.
+        with self.candidates_path.open("a", encoding="utf-8") as handle:
+            handle.write(json.dumps(record, ensure_ascii=False, sort_keys=True) + "\n")
         return True
 
     def save_manifest(self) -> None:
@@ -734,6 +907,7 @@ class RunStore:
             "firecrawl_calls_used",
             "failed_endpoint_count",
             "skipped_endpoint_count",
+            "settled_skip_count",
             "new_capture_count",
             "new_candidate_count",
             "post_count",
@@ -811,11 +985,19 @@ class RedditScraper:
         max_comments: int = 100,
         resume: bool = True,
         overnight_hours: float | None = None,
+        mode: str = "sweep",
+        ledger: dict[str, Any] | None = None,
     ) -> None:
         self.registry = registry
         self.store = store
         self.client = client or RedditClient()
         self.firecrawl = firecrawl
+        if mode not in {"daily", "sweep"}:
+            raise ValueError(f"unknown mode {mode!r}")
+        self.mode = mode
+        # An empty ledger means "nothing settled yet", so the crawler behaves exactly
+        # as it did before the ledger existed.
+        self.ledger = ledger if ledger is not None else empty_ledger()
         self.max_pages = max(1, max_pages)
         self.max_posts = max(1, max_posts)
         self.max_comments = max(0, max_comments)
@@ -840,6 +1022,8 @@ class RedditScraper:
             fallback_url = old_reddit_url(url)
         elif "/search.json" in parsed.path:
             fallback_url = old_search_url(url)
+        elif parsed.path.endswith("/new.json"):
+            fallback_url = old_listing_url(url)
         elif "/comments/" in parsed.path and parsed.path.endswith(".json"):
             fallback_url = old_reddit_url(url)
         elif parsed.path.endswith("/about.json"):
@@ -853,9 +1037,11 @@ class RedditScraper:
             return False, None, f"{type(error).__name__}: {error}"
         if method == "text":
             return True, html, None
+        subreddit = parsed.path.split("/r/", 1)[1].split("/", 1)[0] if "/r/" in parsed.path else ""
         if "/search.json" in parsed.path:
-            subreddit = parsed.path.split("/r/", 1)[1].split("/", 1)[0]
             return True, parse_old_search_html(html, subreddit), None
+        if parsed.path.endswith("/new.json"):
+            return True, parse_old_listing_html(html, subreddit), None
         if "/comments/" in parsed.path:
             return True, parse_old_comments_html(html), None
         return True, {}, None
@@ -868,10 +1054,13 @@ class RedditScraper:
             return False, None, "firecrawl call budget exhausted"
         parsed = urlparse(url)
         is_search = "/search.json" in parsed.path
+        is_listing = parsed.path.endswith("/new.json")
         if method == "text":
             target_url = old_reddit_url(url)
         elif is_search:
             target_url = old_search_url(url)
+        elif is_listing:
+            target_url = old_listing_url(url)
         elif "/comments/" in parsed.path and parsed.path.endswith(".json"):
             target_url = old_reddit_url(url)
         elif parsed.path.endswith("/about.json"):
@@ -883,7 +1072,9 @@ class RedditScraper:
             data = self.firecrawl.scrape(target_url)
             html = str(data.get("html") or "")
             subreddit = parsed.path.split("/r/", 1)[1].split("/", 1)[0] if "/r/" in parsed.path else ""
-            result = firecrawl_to_listing(html, method=method, subreddit=subreddit, is_search=is_search)
+            result = firecrawl_to_listing(
+                html, method=method, subreddit=subreddit, is_search=is_search, is_listing=is_listing
+            )
         except Exception as error:
             return False, None, f"{type(error).__name__}: {error}"
         return True, result, None
@@ -936,6 +1127,11 @@ class RedditScraper:
     ) -> bool:
         post_id = str(post.get("id") or "")
         if not post_id:
+            return False
+        # Cross-run memory: a post already promoted to evidence or explicitly rejected
+        # never becomes a candidate again, no matter which run directory is in use.
+        if is_settled(self.ledger, f"t3_{post_id.casefold()}"):
+            summary["settled_skip_count"] += 1
             return False
         title, title_flags = sanitize_text(str(post.get("title") or ""))
         body, body_flags = sanitize_text(str(post.get("selftext") or ""))
@@ -992,6 +1188,72 @@ class RedditScraper:
             summary["new_capture_count"] += 1
         summary["comment_count"] += 1
 
+    def _daily_source(
+        self,
+        source: dict[str, Any],
+        summary: dict[str, Any],
+        post_limit: int,
+        *,
+        include_comments: bool,
+    ) -> int:
+        """Poll newest-first and stop at the stored watermark.
+
+        Cost is proportional to what was posted since the last run, not to the size
+        of the search-term matrix, which is what keeps a daily crawl flat as more
+        communities are added.
+        """
+        subreddit = source["subreddit"]
+        since = watermark(self.ledger, subreddit)
+        newest_seen = since
+        source_post_count = 0
+        after = None
+        reached_watermark = False
+        for _page in range(self.max_pages):
+            if (
+                reached_watermark
+                or not self._within_budget()
+                or summary["post_count"] >= self.max_posts
+                or source_post_count >= post_limit
+                or summary["consecutive_failure_count"] >= 3
+            ):
+                break
+            payload = self._fetch(new_url(subreddit, after), "json", summary)
+            if not isinstance(payload, dict):
+                break
+            listing = payload.get("data", {})
+            children = listing.get("children", []) if isinstance(listing, dict) else []
+            for child in children:
+                if (
+                    summary["post_count"] >= self.max_posts
+                    or source_post_count >= post_limit
+                    or not self._within_budget()
+                    or summary["consecutive_failure_count"] >= 3
+                ):
+                    break
+                post = child.get("data") if isinstance(child, dict) else None
+                if not isinstance(post, dict):
+                    continue
+                try:
+                    created = float(post.get("created_utc") or 0)
+                except (TypeError, ValueError):
+                    created = 0.0
+                newest_seen = max(newest_seen, created)
+                if since and created and created <= since:
+                    # Listing is newest-first, so the first already-seen post means
+                    # everything below it was covered by an earlier run.
+                    reached_watermark = True
+                    break
+                if self._capture_post(subreddit, post, summary, include_comments=include_comments):
+                    source_post_count += 1
+            after = listing.get("after") if isinstance(listing, dict) else None
+            if not after or not children:
+                break
+        # Only advance once the source finished cleanly; a run cut short by the
+        # circuit breaker must re-check the same window tomorrow.
+        if summary["consecutive_failure_count"] < 3:
+            set_watermark(self.ledger, subreddit, newest_seen)
+        return source_post_count
+
     def _source(self, source: dict[str, Any], summary: dict[str, Any], post_limit: int) -> list[str]:
         subreddit = source["subreddit"]
         base = subreddit_base(subreddit)
@@ -1000,13 +1262,27 @@ class RedditScraper:
         # Failure streaks are scoped to one source. A blocked seed must not
         # prevent later communities in the same crawl from being attempted.
         summary["consecutive_failure_count"] = 0
-        html_urls = [source["landing_url"]] + [f"{base.rstrip('/')}{path}" for path in source.get("wiki_paths", [])]
-        for url in html_urls:
-            if not self._within_budget() or summary["consecutive_failure_count"] >= 3:
-                break
-            html = self._fetch(url, "text", summary)
-            if isinstance(html, str):
-                discovered.extend(discover_subreddits(html, summary["known_subreddits"]))
+        # Wiki/landing discovery is a sweep concern. A daily poll re-reading static
+        # wiki pages every night is pure waste, so it is skipped in daily mode.
+        if self.mode == "sweep":
+            html_urls = [source["landing_url"]] + [f"{base.rstrip('/')}{path}" for path in source.get("wiki_paths", [])]
+            for url in html_urls:
+                if not self._within_budget() or summary["consecutive_failure_count"] >= 3:
+                    break
+                html = self._fetch(url, "text", summary)
+                if isinstance(html, str):
+                    discovered.extend(discover_subreddits(html, summary["known_subreddits"]))
+
+        include_comments = bool(
+            source.get("include_comments", self.registry.get("include_comments_by_default", True))
+        )
+        if self.mode == "daily":
+            source_post_count = self._daily_source(
+                source, summary, post_limit, include_comments=include_comments
+            )
+            summary["source_post_counts"][f"r/{subreddit}"] = source_post_count
+            return discovered
+
         queries = list(dict.fromkeys(self.registry.get("search_terms", [])))
         for query in queries:
             after = None
@@ -1075,6 +1351,7 @@ class RedditScraper:
             "failed_endpoint_count": 0,
             "consecutive_failure_count": 0,
             "skipped_endpoint_count": 0,
+            "settled_skip_count": 0,
             "new_capture_count": 0,
             "new_candidate_count": 0,
             "post_count": 0,
@@ -1107,6 +1384,10 @@ class RedditScraper:
                     "wiki_paths": ["/wiki/", "/about/sidebar/"],
                     "include_comments": self.registry.get("include_comments_by_default", True),
                 })
+        if self.mode == "sweep":
+            for name in summary["subreddits_checked"]:
+                set_watermark(self.ledger, name, watermark(self.ledger, name), full_sweep=True)
+        summary["mode"] = self.mode
         summary["finished_at"] = self._timestamp()
         summary["capture_count"] = len(self.store.capture_keys)
         summary["candidate_count"] = len(self.store.candidates)
@@ -1121,6 +1402,18 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--registry", type=Path, default=Path("data/research_sources.json"))
     parser.add_argument("--run-dir", type=Path, required=True)
+    parser.add_argument(
+        "--mode",
+        choices=("daily", "sweep"),
+        default="sweep",
+        help="daily polls /new.json down to the stored watermark; sweep runs the full search-term matrix",
+    )
+    parser.add_argument(
+        "--ledger",
+        type=Path,
+        default=None,
+        help="path to the committed crawl ledger (defaults to data/scrape_ledger.json)",
+    )
     parser.add_argument("--max-pages", type=int, default=3)
     parser.add_argument("--max-posts", type=int, default=250)
     parser.add_argument("--max-comments", type=int, default=100)
@@ -1136,7 +1429,8 @@ def main() -> int:
     args = parser.parse_args()
     registry = load_registry(args.registry)
     firecrawl_key = os.environ.get("FIRECRAWL_API_KEY", "").strip() or None
-    summary = RedditScraper(
+    ledger = load_ledger(args.ledger)
+    scraper = RedditScraper(
         registry,
         RunStore(args.run_dir),
         client=RedditClient(delay=args.delay),
@@ -1150,7 +1444,13 @@ def main() -> int:
         max_comments=args.max_comments,
         resume=args.resume,
         overnight_hours=args.overnight_hours,
-    ).run()
+        mode=args.mode,
+        ledger=ledger,
+    )
+    summary = scraper.run()
+    # Watermarks advance during the run; persist them so tomorrow starts where
+    # tonight stopped. Triage writes the dispositions later.
+    save_ledger(scraper.ledger, args.ledger)
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     return 0 if summary["successful_endpoint_count"] or not summary["errors"] else 1
 

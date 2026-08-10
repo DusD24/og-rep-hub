@@ -7,15 +7,19 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
+from ledger import empty_ledger, record, set_watermark, watermark  # noqa: E402
 from scrape_reddit import (  # noqa: E402
     canonical_subreddit_url,
     candidate_from_post,
     discover_subreddits,
     firecrawl_to_listing,
     load_registry,
+    new_url,
+    old_listing_url,
     old_reddit_url,
     old_search_url,
     parse_old_comments_html,
+    parse_old_listing_html,
     parse_old_search_html,
     RedditScraper,
     RunStore,
@@ -262,6 +266,221 @@ class FakeFirecrawlClient:
         return {"html": self.html_by_url.get(url, "")}
 
 
+class NewListingClient(FakeClient):
+    """Serves /new.json newest-first so daily-mode watermark behavior can be exercised."""
+
+    def __init__(self, listing_posts=None, **kwargs):
+        super().__init__(**kwargs)
+        self.listing_posts = list(listing_posts or ())
+
+    def get_json(self, url):
+        if "/new.json" in url:
+            self.calls.append(("json", url))
+            if url in self.fail_urls:
+                raise OSError(f"fixture failure for {url}")
+            return {
+                "data": {
+                    "children": [{"kind": "t3", "data": post} for post in self.listing_posts],
+                    "after": None,
+                }
+            }
+        return super().get_json(url)
+
+
+def listing_post(post_id, created_utc, title="Speedy review in hand"):
+    return {
+        "id": post_id,
+        "title": title,
+        "selftext": "The leather feels soft after a week.",
+        "author": f"author-{post_id}",
+        "subreddit": "RepTherapy",
+        "created_utc": created_utc,
+        "permalink": f"/r/RepTherapy/comments/{post_id}/slug/",
+        "link_flair_text": "Review",
+    }
+
+
+class DailyModeTests(unittest.TestCase):
+    def setUp(self):
+        self.tempdir = tempfile.TemporaryDirectory()
+        self.run_dir = Path(self.tempdir.name)
+        self.registry = {
+            "max_discovered_subreddits": 0,
+            "include_comments_by_default": False,
+            "search_terms": ["review"],
+            "sources": [
+                {
+                    "subreddit": "RepTherapy",
+                    "landing_url": "https://www.reddit.com/r/RepTherapy/",
+                    "wiki_paths": ["/wiki/"],
+                    "include_comments": False,
+                },
+            ],
+        }
+
+    def tearDown(self):
+        self.tempdir.cleanup()
+
+    def _run(self, client, ledger, **kwargs):
+        return RedditScraper(
+            self.registry,
+            RunStore(self.run_dir),
+            client=client,
+            mode="daily",
+            ledger=ledger,
+            max_pages=1,
+            max_posts=50,
+            **kwargs,
+        ).run()
+
+    def test_daily_mode_stops_at_the_watermark(self):
+        client = NewListingClient(listing_posts=[
+            listing_post("new2", 3000.0),
+            listing_post("new1", 2000.0),
+            listing_post("old1", 500.0),
+            listing_post("old2", 400.0),
+        ])
+        ledger = empty_ledger()
+        set_watermark(ledger, "RepTherapy", 1000.0)
+        summary = self._run(client, ledger)
+        captured = {row["candidate_id"] for row in RunStore(self.run_dir).candidates}
+        self.assertEqual(captured, {"candidate-RepTherapy-new2", "candidate-RepTherapy-new1"})
+        self.assertEqual(summary["post_count"], 2)
+        # The watermark advances to the newest post so tomorrow starts here.
+        self.assertEqual(watermark(ledger, "RepTherapy"), 3000.0)
+
+    def test_daily_mode_skips_settled_posts_from_a_previous_run_directory(self):
+        client = NewListingClient(listing_posts=[
+            listing_post("promoted1", 3000.0),
+            listing_post("rejected1", 2500.0),
+            listing_post("fresh1", 2000.0),
+        ])
+        ledger = empty_ledger()
+        record(ledger, "t3_promoted1", "promoted", evidence_ids=["ev-existing"])
+        record(ledger, "t3_rejected1", "rejected")
+        summary = self._run(client, ledger)
+        captured = {row["candidate_id"] for row in RunStore(self.run_dir).candidates}
+        self.assertEqual(captured, {"candidate-RepTherapy-fresh1"})
+        self.assertEqual(summary["settled_skip_count"], 2)
+
+    def test_daily_mode_does_not_refetch_wiki_pages(self):
+        client = NewListingClient(listing_posts=[listing_post("a", 10.0)])
+        self._run(client, empty_ledger())
+        text_calls = [url for kind, url in client.calls if kind == "text"]
+        self.assertEqual(text_calls, [])
+
+    def test_failed_daily_source_does_not_advance_the_watermark(self):
+        client = AlwaysFailClient()
+        ledger = empty_ledger()
+        set_watermark(ledger, "RepTherapy", 1000.0)
+        self._run(client, ledger)
+        self.assertEqual(watermark(ledger, "RepTherapy"), 1000.0)
+
+    def test_first_daily_run_with_no_watermark_captures_everything(self):
+        client = NewListingClient(listing_posts=[
+            listing_post("a", 3000.0),
+            listing_post("b", 2000.0),
+        ])
+        ledger = empty_ledger()
+        summary = self._run(client, ledger)
+        self.assertEqual(summary["post_count"], 2)
+        self.assertEqual(watermark(ledger, "RepTherapy"), 3000.0)
+
+    def test_sweep_mode_also_honours_settled_posts(self):
+        client = FakeClient(posts=[
+            {
+                "id": "settledpost",
+                "title": "Speedy review",
+                "selftext": "soft leather",
+                "author": "reader",
+                "subreddit": "RepTherapy",
+                "created_utc": 1000.0,
+                "permalink": "/r/RepTherapy/comments/settledpost/slug/",
+            },
+        ])
+        ledger = empty_ledger()
+        record(ledger, "t3_settledpost", "rejected")
+        summary = RedditScraper(
+            self.registry,
+            RunStore(self.run_dir),
+            client=client,
+            mode="sweep",
+            ledger=ledger,
+            max_pages=1,
+            max_posts=50,
+        ).run()
+        self.assertEqual(RunStore(self.run_dir).candidates, [])
+        self.assertGreater(summary["settled_skip_count"], 0)
+
+    def test_unknown_mode_is_rejected(self):
+        with self.assertRaises(ValueError):
+            RedditScraper(self.registry, RunStore(self.run_dir), client=FakeClient(), mode="hourly")
+
+
+class OldListingParsingTests(unittest.TestCase):
+    LISTING_HTML = (
+        '<div class="thing id-t3_abc123" data-fullname="t3_abc123" data-author="reader"'
+        ' data-subreddit="RepTherapy" data-timestamp="1786000000000"'
+        ' data-permalink="/r/RepTherapy/comments/abc123/speedy_review/">'
+        '<a class="title may-blank" href="/r/RepTherapy/comments/abc123/speedy_review/">Speedy review</a>'
+        '<span class="linkflairlabel" title="Review">Review</span>'
+        '<div class="md"><p>The leather feels soft.</p></div>'
+        "</div>"
+        '<div class="nav-buttons"><a href="https://old.reddit.com/r/RepTherapy/new/?count=25&amp;after=t3_abc123"'
+        ' rel="nofollow next">next</a></div>'
+    )
+
+    def test_listing_html_parses_into_the_json_listing_shape(self):
+        payload = parse_old_listing_html(self.LISTING_HTML, "RepTherapy")
+        children = payload["data"]["children"]
+        self.assertEqual(len(children), 1)
+        post = children[0]["data"]
+        self.assertEqual(post["id"], "abc123")
+        self.assertEqual(post["author"], "reader")
+        self.assertEqual(post["subreddit"], "RepTherapy")
+        self.assertEqual(post["title"], "Speedy review")
+        self.assertIn("leather feels soft", post["selftext"])
+        self.assertEqual(post["link_flair_text"], "Review")
+        # data-timestamp is milliseconds; created_utc is seconds.
+        self.assertEqual(post["created_utc"], 1786000000.0)
+        self.assertEqual(payload["data"]["after"], "t3_abc123")
+
+    def test_old_listing_url_translation_keeps_pagination(self):
+        self.assertEqual(
+            old_listing_url(new_url("RepTherapy")),
+            "https://old.reddit.com/r/RepTherapy/new/?limit=100",
+        )
+        self.assertIn("after=t3_abc", old_listing_url(new_url("RepTherapy", after="t3_abc")))
+
+    def test_daily_json_failure_falls_back_to_old_listing_html(self):
+        tempdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tempdir.cleanup)
+        endpoint = new_url("RepTherapy")
+        client = JsonOnlyFailClient(text_by_url={old_listing_url(endpoint): self.LISTING_HTML})
+        registry = {
+            "max_discovered_subreddits": 0,
+            "include_comments_by_default": False,
+            "search_terms": ["review"],
+            "sources": [{
+                "subreddit": "RepTherapy",
+                "landing_url": "https://www.reddit.com/r/RepTherapy/",
+                "wiki_paths": [],
+                "include_comments": False,
+            }],
+        }
+        summary = RedditScraper(
+            registry,
+            RunStore(Path(tempdir.name)),
+            client=client,
+            mode="daily",
+            ledger=empty_ledger(),
+            max_pages=1,
+            max_posts=10,
+        ).run()
+        self.assertEqual(summary["html_fallback_count"], 1)
+        self.assertEqual(summary["post_count"], 1)
+
+
 class CrawlerRunTests(unittest.TestCase):
     def setUp(self):
         self.tempdir = tempfile.TemporaryDirectory()
@@ -496,7 +715,7 @@ class CrawlerRunTests(unittest.TestCase):
             max_pages=1,
             max_posts=10,
         ).run()
-        for filename in ("manifest.json", "candidates.json", "run-summary.json", "captures.jsonl"):
+        for filename in ("manifest.json", "candidates.jsonl", "run-summary.json", "captures.jsonl"):
             self.assertTrue((self.run_dir / filename).exists(), filename)
 
         summary = json.loads((self.run_dir / "run-summary.json").read_text(encoding="utf-8"))
