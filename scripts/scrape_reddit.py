@@ -76,7 +76,7 @@ KNOWN_BAG_TERMS = (
     "Andiamo", "Puzzle", "Flamenco", "Margaux", "Birkin", "Kelly", "Lady Dior",
     "Book Tote", "Saint Louis", "Arcadie", "Saddle", "Dionysus", "Jackie",
     "Prada", "Miu Miu", "Loewe", "Chanel", "Louis Vuitton", "Dior", "Hermes",
-    "Bottega", "Goyard", "YSL", "Saint Laurent",
+    "Bottega", "Goyard", "YSL", "Saint Laurent", "Balenciaga", "Le City",
 )
 KNOWN_FACTORY_TERMS = (
     "Birdcage", "Huahui", "Orange Sofa", "Royal", "187", "God", "P9", "Xiao C",
@@ -576,6 +576,20 @@ def _unique_terms(text: str, terms: tuple[str, ...]) -> list[str]:
     return [term for term in terms if term.casefold() in folded]
 
 
+def matches_scope(
+    text: str,
+    include_terms: list[str] | None,
+    exclude_terms: list[str] | None,
+) -> bool:
+    """Screen a scoped-request candidate by simple casefolded substring match."""
+    folded = text.casefold()
+    if include_terms and not any(term.casefold() in folded for term in include_terms):
+        return False
+    if exclude_terms and any(term.casefold() in folded for term in exclude_terms):
+        return False
+    return True
+
+
 def evidence_type_for(title: str, text: str, flair: str | None = None) -> str:
     """Classify a public post conservatively for normalization review."""
     haystack = " ".join(part for part in (flair or "", title, text) if part).casefold()
@@ -987,6 +1001,9 @@ class RedditScraper:
         overnight_hours: float | None = None,
         mode: str = "sweep",
         ledger: dict[str, Any] | None = None,
+        ad_hoc_queries: list[str] | None = None,
+        include_terms: list[str] | None = None,
+        exclude_terms: list[str] | None = None,
     ) -> None:
         self.registry = registry
         self.store = store
@@ -1003,6 +1020,9 @@ class RedditScraper:
         self.max_comments = max(0, max_comments)
         self.resume = resume
         self.deadline = time.monotonic() + overnight_hours * 3600 if overnight_hours else None
+        self.ad_hoc_queries = ad_hoc_queries or None
+        self.include_terms = include_terms or None
+        self.exclude_terms = exclude_terms or None
         seed_count = max(1, len(registry.get("sources", [])))
         self.source_post_limit = max(1, self.max_posts // seed_count)
 
@@ -1135,6 +1155,9 @@ class RedditScraper:
             return False
         title, title_flags = sanitize_text(str(post.get("title") or ""))
         body, body_flags = sanitize_text(str(post.get("selftext") or ""))
+        if not matches_scope(f"{title} {body}", self.include_terms, self.exclude_terms):
+            summary["scope_filtered_count"] = summary.get("scope_filtered_count", 0) + 1
+            return False
         record = {
             "id": post_id,
             "kind": "post",
@@ -1283,7 +1306,7 @@ class RedditScraper:
             summary["source_post_counts"][f"r/{subreddit}"] = source_post_count
             return discovered
 
-        queries = list(dict.fromkeys(self.registry.get("search_terms", [])))
+        queries = list(dict.fromkeys(self.ad_hoc_queries or self.registry.get("search_terms", [])))
         for query in queries:
             after = None
             for _page in range(self.max_pages):
@@ -1356,6 +1379,7 @@ class RedditScraper:
             "new_candidate_count": 0,
             "post_count": 0,
             "comment_count": 0,
+            "scope_filtered_count": 0,
             "query_counts": {},
             "source_post_counts": {},
             "errors": [],
@@ -1426,6 +1450,24 @@ def main() -> int:
         default=25,
         help="hard cap on billable tier-3 Firecrawl scrapes per run (0 disables the tier)",
     )
+    parser.add_argument(
+        "--query",
+        action="append",
+        dest="queries",
+        help="Ad-hoc search query for a scoped request (repeatable). Replaces the registry's search_terms for this run.",
+    )
+    parser.add_argument(
+        "--include-terms",
+        action="append",
+        dest="include_terms",
+        help="Only keep posts whose title/body contains at least one of these terms (repeatable).",
+    )
+    parser.add_argument(
+        "--exclude-terms",
+        action="append",
+        dest="exclude_terms",
+        help="Discard posts whose title/body contains any of these terms (repeatable).",
+    )
     args = parser.parse_args()
     registry = load_registry(args.registry)
     firecrawl_key = os.environ.get("FIRECRAWL_API_KEY", "").strip() or None
@@ -1446,6 +1488,9 @@ def main() -> int:
         overnight_hours=args.overnight_hours,
         mode=args.mode,
         ledger=ledger,
+        ad_hoc_queries=args.queries,
+        include_terms=args.include_terms,
+        exclude_terms=args.exclude_terms,
     )
     summary = scraper.run()
     # Watermarks advance during the run; persist them so tomorrow starts where

@@ -14,6 +14,7 @@ from scrape_reddit import (  # noqa: E402
     discover_subreddits,
     firecrawl_to_listing,
     load_registry,
+    matches_scope,
     new_url,
     old_listing_url,
     old_reddit_url,
@@ -513,6 +514,71 @@ class CrawlerRunTests(unittest.TestCase):
         self.assertIn("restrict_sr=1", endpoint)
         self.assertIn("after=t3_after", endpoint)
         self.assertIn("receipt%20review", endpoint)
+
+    def test_matches_scope_requires_include_term_and_rejects_exclude_term(self):
+        self.assertTrue(matches_scope("Le City Small in leather", ["leather"], ["suede"]))
+        self.assertFalse(matches_scope("Le City Small in suede", ["leather"], ["suede"]))
+        self.assertFalse(matches_scope("Le City Small colorway", ["leather"], ["suede"]))
+        self.assertTrue(matches_scope("anything goes", None, None))
+
+    def test_ad_hoc_query_replaces_registry_search_terms(self):
+        client = FakeClient(posts=[])
+        RedditScraper(
+            self.registry,
+            RunStore(self.run_dir),
+            client=client,
+            max_pages=1,
+            max_posts=10,
+            ad_hoc_queries=["Balenciaga Le City Small"],
+        ).run()
+        search_calls = [url for kind, url in client.calls if kind == "json" and "search.json" in url]
+        self.assertTrue(search_calls)
+        self.assertTrue(all("Balenciaga" in url for url in search_calls))
+        self.assertFalse(any("q=review" in url for url in search_calls))
+
+    def test_scope_filter_keeps_matching_posts_and_drops_others(self):
+        registry = json.loads(json.dumps(self.registry))
+        registry["max_discovered_subreddits"] = 0
+        registry["sources"] = registry["sources"][:1]
+        client = FakeClient(posts=[
+            {
+                "id": "post-leather",
+                "title": "Le City Small in leather",
+                "selftext": "Genuine leather trim, holds shape well.",
+                "author": "reader",
+                "subreddit": "RepCulture_Bags",
+                "created_utc": 1783907242.0,
+                "permalink": "/r/RepCulture_Bags/comments/post-leather/le_city/",
+                "link_flair_text": "Review",
+                "num_comments": 0,
+            },
+            {
+                "id": "post-suede",
+                "title": "Le City Small in suede",
+                "selftext": "Suede finish, very soft.",
+                "author": "reader",
+                "subreddit": "RepCulture_Bags",
+                "created_utc": 1783907242.0,
+                "permalink": "/r/RepCulture_Bags/comments/post-suede/le_city/",
+                "link_flair_text": "Review",
+                "num_comments": 0,
+            },
+        ])
+        summary = RedditScraper(
+            registry,
+            RunStore(self.run_dir),
+            client=client,
+            max_pages=1,
+            max_posts=10,
+            ad_hoc_queries=["Le City Small"],
+            include_terms=["leather"],
+            exclude_terms=["suede"],
+        ).run()
+        self.assertEqual(summary["new_candidate_count"], 1)
+        self.assertEqual(summary["scope_filtered_count"], 1)
+        candidates = RunStore(self.run_dir).candidates
+        self.assertEqual(len(candidates), 1)
+        self.assertIn("post-leather", candidates[0]["source_id"])
 
     def test_resume_skips_post_ids_already_in_manifest(self):
         store = RunStore(self.run_dir)
