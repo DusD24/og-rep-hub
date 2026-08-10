@@ -142,5 +142,17 @@
     "display_name": "Jipin",
     "aliases": ["Jipin Factory"],
     "notes": "Reported in public Loewe Puzzle reviews; no broader consistency claim is made."
+  },
+  {
+    "id": "factory-qiu",
+    "display_name": "Qiu",
+    "aliases": [],
+    "notes": "Reported in public Loewe Flamenco and Puzzle reviews; no broader consistency claim is made."
+  },
+  {
+    "id": "factory-vivi",
+    "display_name": "Vivi",
+    "aliases": [],
+    "notes": "Reported in a single public Loewe Flamenco review; not corroborated elsewhere."
   }
 ]
