@@ -21,7 +21,15 @@ pnpm exec wrangler deploy --dry-run --config worker/wrangler.jsonc   # verify Wo
 python3 scripts/serve.py                # local dev server, http://localhost:8000/
 ```
 
-Run a single Python test module: `python3 -m unittest tests.test_data -v` (or `tests.test_model`, `tests.test_scraper`, `tests.test_deployment`, `tests.test_site`).
+Daily evidence loop (see `docs/daily-evidence-loop.md`):
+
+```sh
+scripts/daily_crawl.sh                  # nightly: incremental crawl + triage + drafts
+scripts/daily_crawl.sh sweep            # weekly: full search-term backfill
+python3 scripts/draft_evidence.py --apply <run-dir>/evidence-drafts.json   # merge reviewed drafts
+```
+
+Run a single Python test module: `python3 -m unittest tests.test_data -v` (or `tests.test_model`, `tests.test_scraper`, `tests.test_ledger`, `tests.test_triage`, `tests.test_draft_evidence`, `tests.test_deployment`, `tests.test_site`).
 
 Run a single Node test file directly: `node --test tests/frontend_behavior.test.cjs` or `node --test worker/test/worker.test.mjs`.
 
@@ -37,7 +45,14 @@ Before proposing any change to this repo, run the full local-check sequence from
 
 **Evidence model**: every claim about a seller/factory traces back to an `evidence` record (source type, author, subreddit, date, exact-variant match, positive/negative observations). Repeated posts by the same author count as one corroborating source, not independent evidence. `offerings.json` links a `bag` + `seller` to its supporting `evidence_ids`; scores in `rankings.json` are only generated when non-catalog, exact-variant evidence exists.
 
-**`scripts/scrape_reddit.py`** is the largest script (~44KB) — pulls candidate source material from Reddit for research, independent of the validated `data/` records.
+**Evidence ingestion pipeline** (`docs/daily-evidence-loop.md`) — four stages, none of which touch the validated `data/` records until the last one:
+
+- **`scripts/scrape_reddit.py`** pulls candidate source material from Reddit. Fetching is tiered: reddit.com JSON, then parsed old.reddit.com HTML, then Firecrawl (optional, billable, capped by `--max-firecrawl-calls`; per-tier counters in the run summary show which tier served each request). `--mode daily` polls `/new.json` down to a per-subreddit watermark; `--mode sweep` runs the full search-term matrix for backfill.
+- **`data/scrape_ledger.json`** (via `scripts/ledger.py`) is committed cross-run memory keyed by Reddit thing id: `promoted`/`rejected` are terminal and permanently suppress a post, `deferred`/`pending` stay eligible. It stores identifiers and dispositions only, never post text. `validate.py` enforces its shape and that every committed receipt is settled.
+- **`scripts/triage.py`** scores candidates deterministically against terms derived from the live catalog, boosts collections by coverage gap (using `validate.py`'s own publication gates), and emits a shortlist capped by `--limit` with a per-collection cap. This is the cost gate: the digest is sized by the cap, not by crawl volume.
+- **`scripts/draft_evidence.py`** emits evidence skeletons with mechanical fields pre-filled, leaving six judgment fields to a reviewer; `--apply` merges them and recomputes each affected family's `evidence_coverage`.
+
+URL canonicalization is shared: `model.normalize_evidence_url` is a Python port of `normalizeEvidenceUrl` in `worker/src/index.js` — **keep the two in sync**, since ledger keys, worker submissions, and committed evidence URLs all depend on identical canonical forms.
 
 **`worker/`** is a separate Cloudflare Worker (`worker/src/index.js`) that is the only way public users can propose data changes: it accepts anonymous "receipt-update" submissions from the production Pages origin only, verifies Turnstile, applies a per-IP Cloudflare rate limit, validates/normalizes evidence URLs, resolves canonical receipt metadata **server-side** (never trusts browser-supplied metadata), and files the result as a public GitHub issue in `DusD24/og-rep-hub`. It has its own `package.json`/`wrangler.jsonc` — see `worker/README.md` for the one-time Cloudflare/GitHub secret and variable setup (`GITHUB_ISSUE_TOKEN`, `TURNSTILE_SECRET_KEY`, `CLOUDFLARE_API_TOKEN`, etc.). Secrets never live in the repo.
 

@@ -119,12 +119,19 @@ def build_vocabulary() -> dict[str, Any]:
                     out.append(built)
         return out
 
-    family_terms = collect(families, ("model",), strong=True)
-    # Brand alone is weak: half the catalog is Louis Vuitton.
+    family_terms = collect(families, ("model", "aliases"), strong=True)
     for row in families:
+        # Brand alone is weak: half the catalog is Louis Vuitton.
         built = entry(row.get("brand", ""), row["id"], strong=False)
         if built:
             family_terms.append(built)
+        # A model named for one size ("Birkin 25") must still match posts about
+        # another ("Birkin 30"); the collection is the same.
+        head = re.sub(r"\s+\d+\s*(?:cm)?$", "", str(row.get("model") or "")).strip()
+        if head and head != row.get("model"):
+            built = entry(head, row["id"], strong=True)
+            if built:
+                family_terms.append(built)
     return {
         "families": family_terms,
         "bags": collect(bags, ("name",), strong=True),

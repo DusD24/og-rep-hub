@@ -60,6 +60,18 @@ pnpm exec wrangler deploy --dry-run --config worker/wrangler.jsonc
 
 These checks protect the normalized data relationships, deterministic scoring, public-data boundaries, media provenance, and site behavior.
 
+## Maintainer: the daily evidence loop
+
+Catalog updates come from a nightly local crawl, not from CI. `scripts/daily_crawl.sh`
+crawls what is new, ranks it deterministically, and writes a capped review shortlist plus
+evidence drafts into `local-private/research-runs/<date>/`. Only six judgment fields per
+record need writing by hand; `draft_evidence.py --apply` handles the rest, including the
+collection coverage counts `validate.py` cross-checks.
+
+`data/scrape_ledger.json` is committed alongside `data/evidence.json` — it records what
+has already been reviewed, so decisions are not re-litigated on the next run. See
+[docs/daily-evidence-loop.md](docs/daily-evidence-loop.md).
+
 Running `scripts/scrape_reddit.py` locally is optional and manual (it is not part of CI). It works with no setup; copy `.env.example` to `.env` and set `FIRECRAWL_API_KEY` only if you want it to fall back to Firecrawl when the public Reddit endpoints and the old.reddit.com HTML fallback both fail.
 
 ## Research boundaries

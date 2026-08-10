@@ -70,6 +70,21 @@ class VocabularyTests(unittest.TestCase):
             for item in group:
                 self.assertGreaterEqual(len(item["term"]), 3, item["term"])
 
+    def test_catalog_aliases_are_matched(self):
+        terms = {item["term"] for item in self.vocabulary["families"]}
+        # Aliases are already curated in bag_families.json; ignoring them threw
+        # away real recall.
+        self.assertIn("Speedy Bandouliere", terms)
+        self.assertIn("YSL LouLou", terms)
+
+    def test_size_named_models_match_other_sizes_of_the_same_collection(self):
+        # "Birkin 25" is the catalogued model, but a post about a Birkin 30 is
+        # still about that collection.
+        by_term = {item["term"]: item for item in self.vocabulary["families"]}
+        self.assertIn("Birkin", by_term)
+        self.assertTrue(by_term["Birkin"]["pattern"].search("just got my Birkin 30"))
+        self.assertEqual(by_term["Birkin"]["id"], "bag-family-hermes-birkin-25")
+
     def test_terms_match_on_word_boundaries_only(self):
         pattern = next(item["pattern"] for item in self.vocabulary["families"] if item["term"] == "Speedy")
         self.assertTrue(pattern.search("bought a Speedy today"))

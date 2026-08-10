@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Nightly evidence crawl + triage.
+
+  Install:
+    1. Replace /Users/CHANGE_ME/og-rep-hub with the repo path on this machine.
+    2. cp docs/launchd/com.ogrephub.daily-crawl.plist ~/Library/LaunchAgents/
+    3. launchctl load ~/Library/LaunchAgents/com.ogrephub.daily-crawl.plist
+
+  Runs only while the Mac is awake. launchd runs a missed job once on wake, which is
+  the behaviour you want here: a skipped night is picked up rather than lost, and the
+  ledger watermarks mean the catch-up run still only fetches what is new.
+
+  For the weekly backfill, copy this file with a different Label, add <string>sweep</string>
+  to ProgramArguments, and set StartCalendarInterval to a single weekday.
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.ogrephub.daily-crawl</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/CHANGE_ME/og-rep-hub/scripts/daily_crawl.sh</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/CHANGE_ME/og-rep-hub</string>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>3</integer>
+        <key>Minute</key>
+        <integer>15</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/CHANGE_ME/og-rep-hub/local-private/daily-crawl.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/CHANGE_ME/og-rep-hub/local-private/daily-crawl.error.log</string>
+
+    <key>RunAtLoad</key>
+    <false/>
+    <key>LowPriorityIO</key>
+    <true/>
+    <key>Nice</key>
+    <integer>5</integer>
+</dict>
+</plist>
