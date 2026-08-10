@@ -1,10 +1,18 @@
 #!/usr/bin/env python3
-"""Privacy-safe, resumable discovery helpers for public Reddit research."""
+"""Privacy-safe, resumable discovery helpers for public Reddit research.
+
+Fetching is tiered: the public reddit.com JSON API first, falling back to
+parsed old.reddit.com HTML when the JSON API is blocked, and finally
+Firecrawl (https://www.firecrawl.dev) as a last resort when both fail. The
+Firecrawl tier is optional and stays fully disabled unless a FIRECRAWL_API_KEY
+environment variable is set locally.
+"""
 
 from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import time
 from datetime import datetime, timezone
@@ -399,6 +407,17 @@ def parse_old_comments_html(html: str) -> list[dict[str, Any]]:
     return [{"data": {"children": [{"kind": "t1", "data": row} for row in parser.comments]}}]
 
 
+def firecrawl_to_listing(html: str, *, method: str, subreddit: str, is_search: bool) -> Any:
+    """Reshape a Firecrawl scrape's HTML into the same shape old-Reddit HTML parsing produces."""
+    if not html:
+        raise RuntimeError("firecrawl response had no html payload")
+    if method == "text":
+        return html
+    if is_search:
+        return parse_old_search_html(html, subreddit)
+    return parse_old_comments_html(html)
+
+
 def _unique_terms(text: str, terms: tuple[str, ...]) -> list[str]:
     folded = text.casefold()
     return [term for term in terms if term.casefold() in folded]
@@ -498,6 +517,61 @@ class RedditClient:
 
     def get_json(self, url: str) -> Any:
         return json.loads(self._get(url, "application/json").decode("utf-8", errors="replace"))
+
+
+class FirecrawlClient:
+    """Small stdlib-only client for the Firecrawl scrape API, used as a last-resort fallback."""
+
+    API_URL = "https://api.firecrawl.dev/v1/scrape"
+
+    def __init__(
+        self,
+        *,
+        api_key: str | None = None,
+        timeout: float = 20.0,
+        retries: int = 2,
+        delay: float = 1.0,
+    ) -> None:
+        self.api_key = api_key
+        self.timeout = timeout
+        self.retries = max(1, retries)
+        self.delay = max(0.0, delay)
+        self._last_request_at = 0.0
+
+    @property
+    def enabled(self) -> bool:
+        return bool(self.api_key)
+
+    def scrape(self, url: str) -> dict[str, Any]:
+        payload = json.dumps({"url": url, "formats": ["html"], "onlyMainContent": False}).encode("utf-8")
+        last_error: Exception | None = None
+        for attempt in range(self.retries):
+            if self.delay:
+                remaining = self.delay - (time.monotonic() - self._last_request_at)
+                if remaining > 0:
+                    time.sleep(remaining)
+            self._last_request_at = time.monotonic()
+            request = Request(
+                self.API_URL,
+                data=payload,
+                method="POST",
+                headers={
+                    "Authorization": f"Bearer {self.api_key}",
+                    "Content-Type": "application/json",
+                    "Accept": "application/json",
+                },
+            )
+            try:
+                with urlopen(request, timeout=self.timeout) as response:
+                    body = json.loads(response.read().decode("utf-8", errors="replace"))
+                    return body.get("data", {})
+            except HTTPError as error:
+                last_error = error
+                if error.code not in {429, 500, 502, 503, 504}:
+                    raise
+            except URLError as error:
+                last_error = error
+        raise RuntimeError(f"firecrawl request failed after {self.retries} attempts: {url}") from last_error
 
 
 class RunStore:
@@ -716,6 +790,7 @@ class RedditScraper:
         store: RunStore,
         *,
         client: Any | None = None,
+        firecrawl: FirecrawlClient | None = None,
         max_pages: int = 3,
         max_posts: int = 250,
         max_comments: int = 100,
@@ -725,6 +800,7 @@ class RedditScraper:
         self.registry = registry
         self.store = store
         self.client = client or RedditClient()
+        self.firecrawl = firecrawl
         self.max_pages = max(1, max_pages)
         self.max_posts = max(1, max_posts)
         self.max_comments = max(0, max_comments)
@@ -769,6 +845,32 @@ class RedditScraper:
             return True, parse_old_comments_html(html), None
         return True, {}, None
 
+    def _firecrawl_fallback(self, url: str, method: str) -> tuple[bool, Any, str | None]:
+        """Last resort: ask Firecrawl for the old-Reddit page when both prior tiers failed."""
+        if self.firecrawl is None or not self.firecrawl.enabled:
+            return False, None, None
+        parsed = urlparse(url)
+        is_search = "/search.json" in parsed.path
+        if method == "text":
+            target_url = old_reddit_url(url)
+        elif is_search:
+            target_url = old_search_url(url)
+        elif "/comments/" in parsed.path and parsed.path.endswith(".json"):
+            target_url = old_reddit_url(url)
+        elif parsed.path.endswith("/about.json"):
+            subreddit = parsed.path.split("/r/", 1)[1].split("/", 1)[0]
+            target_url = f"https://old.reddit.com/r/{subreddit}/"
+        else:
+            return False, None, None
+        try:
+            data = self.firecrawl.scrape(target_url)
+            html = str(data.get("html") or "")
+            subreddit = parsed.path.split("/r/", 1)[1].split("/", 1)[0] if "/r/" in parsed.path else ""
+            result = firecrawl_to_listing(html, method=method, subreddit=subreddit, is_search=is_search)
+        except Exception as error:
+            return False, None, f"{type(error).__name__}: {error}"
+        return True, result, None
+
     def _fetch(self, url: str, method: str, summary: dict[str, Any]) -> Any | None:
         if self.resume and self.store.endpoint_complete(url):
             summary["skipped_endpoint_count"] += 1
@@ -779,6 +881,10 @@ class RedditScraper:
             fallback_error = None
             if method in {"json", "text"}:
                 handled, result, fallback_error = self._html_fallback(url, method)
+                if not handled:
+                    handled, result, firecrawl_error = self._firecrawl_fallback(url, method)
+                    if firecrawl_error:
+                        fallback_error = f"{fallback_error or ''} | firecrawl: {firecrawl_error}".strip(" |")
                 if handled:
                     summary["successful_endpoint_count"] += 1
                     summary["fallback_endpoint_count"] += 1
@@ -998,10 +1104,12 @@ def main() -> int:
     parser.add_argument("--resume", action="store_true")
     args = parser.parse_args()
     registry = load_registry(args.registry)
+    firecrawl_key = os.environ.get("FIRECRAWL_API_KEY", "").strip() or None
     summary = RedditScraper(
         registry,
         RunStore(args.run_dir),
         client=RedditClient(delay=args.delay),
+        firecrawl=FirecrawlClient(api_key=firecrawl_key) if firecrawl_key else None,
         max_pages=args.max_pages,
         max_posts=args.max_posts,
         max_comments=args.max_comments,

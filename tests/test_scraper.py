@@ -11,8 +11,10 @@ from scrape_reddit import (  # noqa: E402
     canonical_subreddit_url,
     candidate_from_post,
     discover_subreddits,
+    firecrawl_to_listing,
     load_registry,
     old_reddit_url,
+    old_search_url,
     parse_old_comments_html,
     parse_old_search_html,
     RedditScraper,
@@ -111,6 +113,54 @@ class ScraperContractTests(unittest.TestCase):
         self.assertEqual([row["id"] for row in rows], ["c2", "c1"])
         self.assertEqual(rows[0]["body"], "nested reply")
 
+    def test_firecrawl_to_listing_parses_search_results_via_existing_parser(self):
+        html = (
+            '<div class="search-result search-result-link">'
+            '<a class="search-title" href="https://old.reddit.com/r/RepCulture_Bags/comments/abc/title/">'
+            "Speedy review</a>"
+            '<a class="author">reader</a>'
+            '<time datetime="2026-08-08T00:00:00+00:00"></time>'
+            '<div class="search-result-body"><div class="md"><p>soft leather</p></div></div>'
+            "</div>"
+        )
+        payload = firecrawl_to_listing(html, method="json", subreddit="RepCulture_Bags", is_search=True)
+        post = payload["data"]["children"][0]["data"]
+        self.assertEqual(post["id"], "abc")
+        self.assertEqual(post["author"], "reader")
+
+    def test_firecrawl_to_listing_parses_comment_threads_via_existing_parser(self):
+        html = (
+            '<div class="thing id-t1_c1 comment" data-author="reader" '
+            'data-permalink="/r/RepCulture_Bags/comments/post/c1/">'
+            '<time datetime="2026-08-08T00:00:00+00:00"></time>'
+            '<div class="usertext-body"><div class="md"><p>top reply</p></div></div>'
+            "</div>"
+        )
+        payload = firecrawl_to_listing(html, method="json", subreddit="RepCulture_Bags", is_search=False)
+        rows = [child["data"] for listing in payload for child in listing["data"]["children"]]
+        self.assertEqual(rows[0]["id"], "c1")
+
+    def test_firecrawl_to_listing_raises_on_empty_html(self):
+        with self.assertRaises(RuntimeError):
+            firecrawl_to_listing("", method="json", subreddit="RepCulture_Bags", is_search=True)
+
+    def test_firecrawl_result_is_sanitized_like_other_tiers(self):
+        html = (
+            '<div class="search-result search-result-link">'
+            '<a class="search-title" href="https://old.reddit.com/r/RepTherapy/comments/xyz/title/">'
+            "Seller contact</a>"
+            '<a class="author">reader</a>'
+            '<time datetime="2026-08-08T00:00:00+00:00"></time>'
+            '<div class="search-result-body"><div class="md">'
+            "<p>DM me at jane@example.com for details.</p></div></div>"
+            "</div>"
+        )
+        payload = firecrawl_to_listing(html, method="json", subreddit="RepTherapy", is_search=True)
+        post = payload["data"]["children"][0]["data"]
+        candidate = candidate_from_post(post, "RepTherapy", "2026-08-08T00:00:00+00:00")
+        self.assertNotIn("jane@example.com", candidate["redacted_excerpt"])
+        self.assertTrue(candidate["redaction_flags"]["private_message_present"])
+
 
 class FakeClient:
     def __init__(self, fail_urls=None, posts=None):
@@ -153,6 +203,36 @@ class FailFirstSourceClient(FakeClient):
             self.calls.append(("json", url))
             raise OSError("first source fixture failure")
         return super().get_json(url)
+
+
+class AlwaysFailClient(FakeClient):
+    """Every request fails, so both the JSON API and the old-Reddit HTML fallback are exhausted."""
+
+    def get_text(self, url):
+        self.calls.append(("text", url))
+        raise OSError(f"fixture failure for {url}")
+
+    def get_json(self, url):
+        self.calls.append(("json", url))
+        raise OSError(f"fixture failure for {url}")
+
+
+class FakeFirecrawlClient:
+    def __init__(self, html_by_url=None, fail_urls=None, enabled=True):
+        self.html_by_url = dict(html_by_url or {})
+        self.fail_urls = set(fail_urls or ())
+        self._enabled = enabled
+        self.calls = []
+
+    @property
+    def enabled(self):
+        return self._enabled
+
+    def scrape(self, url):
+        self.calls.append(url)
+        if url in self.fail_urls:
+            raise OSError(f"firecrawl fixture failure for {url}")
+        return {"html": self.html_by_url.get(url, "")}
 
 
 class CrawlerRunTests(unittest.TestCase):
@@ -249,6 +329,59 @@ class CrawlerRunTests(unittest.TestCase):
         ).run()
         self.assertEqual(summary["source_post_counts"]["r/RepCulture_Bags"], 0)
         self.assertEqual(summary["source_post_counts"]["r/RepTherapy"], 1)
+
+    def test_firecrawl_used_only_after_html_fallback_fails(self):
+        search_endpoint = search_url("RepTherapy", "review")
+        firecrawl_target = old_search_url(search_endpoint)
+        search_html = (
+            '<div class="search-result search-result-link">'
+            '<a class="search-title" href="https://old.reddit.com/r/RepTherapy/comments/xyz/title/">'
+            "Speedy review</a>"
+            '<a class="author">reader</a>'
+            '<time datetime="2026-08-08T00:00:00+00:00"></time>'
+            '<div class="search-result-body"><div class="md"><p>soft leather</p></div></div>'
+            "</div>"
+        )
+        client = AlwaysFailClient()
+        firecrawl = FakeFirecrawlClient(html_by_url={firecrawl_target: search_html})
+        summary = RedditScraper(
+            self.registry,
+            RunStore(self.run_dir),
+            client=client,
+            firecrawl=firecrawl,
+            max_pages=1,
+            max_posts=10,
+        ).run()
+        self.assertGreater(summary["fallback_endpoint_count"], 0)
+        self.assertGreaterEqual(summary["new_candidate_count"], 1)
+        self.assertIn(firecrawl_target, firecrawl.calls)
+
+    def test_firecrawl_disabled_by_default_is_a_noop(self):
+        client = AlwaysFailClient()
+        summary = RedditScraper(
+            self.registry,
+            RunStore(self.run_dir),
+            client=client,
+            firecrawl=None,
+            max_pages=1,
+            max_posts=10,
+        ).run()
+        self.assertEqual(summary["new_candidate_count"], 0)
+        self.assertTrue(summary["errors"])
+
+    def test_firecrawl_fallback_respects_consecutive_failure_circuit_breaker(self):
+        client = AlwaysFailClient()
+        firecrawl = FakeFirecrawlClient()  # no html configured, so every scrape() yields empty content
+        summary = RedditScraper(
+            self.registry,
+            RunStore(self.run_dir),
+            client=client,
+            firecrawl=firecrawl,
+            max_pages=1,
+            max_posts=10,
+        ).run()
+        self.assertEqual(summary["source_post_counts"]["r/RepCulture_Bags"], 0)
+        self.assertEqual(summary["source_post_counts"]["r/RepTherapy"], 0)
 
     def test_run_writes_manifest_candidates_and_summary(self):
         client = FakeClient(posts=[
