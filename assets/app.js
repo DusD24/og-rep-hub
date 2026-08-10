@@ -22,6 +22,7 @@ let welcomeExitTimer = null;
 let welcomeExitActive = false;
 let ready = false;
 let analyticsLoaded = false;
+let analyticsBannerPending = false;
 
 const STATUS_LABELS = {
   seller_confirmed: "Seller reported",
@@ -93,6 +94,7 @@ function setDisplayMode(mode) {
   resetWelcomeExit();
   document.body.classList.toggle("welcome-mode", mode === "welcome");
   document.body.classList.toggle("app-mode", mode === "app");
+  syncAnalyticsBanner();
 }
 
 setDisplayMode(location.hash ? "app" : "welcome");
@@ -885,7 +887,10 @@ function bindControls() {
     if (dialogTrigger) return openDialog(dialogTrigger);
     if (event.target.closest("[data-consent-accept]")) return applyAnalyticsConsent("granted");
     if (event.target.closest("[data-consent-decline]")) return applyAnalyticsConsent("denied");
-    if (event.target.closest("[data-consent-preferences]")) return document.querySelector("#consent-banner")?.removeAttribute("hidden");
+    if (event.target.closest("[data-consent-preferences]")) {
+      analyticsBannerPending = true;
+      return syncAnalyticsBanner();
+    }
     if (event.target.closest("[data-enter-site]")) return enterCatalogFromWelcome();
     if (event.target.closest("[data-welcome-route]")) {
       event.preventDefault();
@@ -957,9 +962,15 @@ function loadAnalytics(measurementId) {
   window.gtag("config", measurementId, { allow_google_signals: false, allow_ad_personalization_signals: false });
 }
 
+function syncAnalyticsBanner() {
+  const shouldShow = analyticsBannerPending && !document.body.classList.contains("welcome-mode");
+  document.querySelector("#consent-banner")?.toggleAttribute("hidden", !shouldShow);
+}
+
 function applyAnalyticsConsent(decision) {
   try { localStorage.setItem(ANALYTICS_CONSENT_KEY, decision); } catch { /* storage unavailable */ }
-  document.querySelector("#consent-banner")?.setAttribute("hidden", "");
+  analyticsBannerPending = false;
+  syncAnalyticsBanner();
   if (decision === "granted") loadAnalytics(state.site_config.ga_measurement_id);
 }
 
@@ -970,7 +981,8 @@ function initAnalyticsConsent() {
   try { storedConsent = localStorage.getItem(ANALYTICS_CONSENT_KEY); } catch { storedConsent = null; }
   const { showBanner, shouldLoad } = resolveAnalyticsConsent({ measurementId, storedConsent });
   if (shouldLoad) loadAnalytics(measurementId);
-  document.querySelector("#consent-banner")?.toggleAttribute("hidden", !showBanner);
+  analyticsBannerPending = showBanner;
+  syncAnalyticsBanner();
 }
 
 function fillFilters() {

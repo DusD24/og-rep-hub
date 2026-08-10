@@ -236,6 +236,27 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn(".content-dialog::backdrop", self.css)
         self.assertNotIn('addEventListener("cancel"', self.js)
 
+    def test_consent_banner_hidden_attribute_actually_hides_it(self):
+        self.assertIn('id="consent-banner"', self.html)
+        self.assertIn("data-consent-accept", self.html)
+        self.assertIn("data-consent-decline", self.html)
+        self.assertIn("data-consent-preferences", self.html)
+        unscoped_banner_rule = re.search(r"\.consent-banner\s*\{[^}]*\}", self.css)
+        self.assertIsNotNone(unscoped_banner_rule)
+        self.assertNotIn("display", unscoped_banner_rule.group(0), (
+            "`.consent-banner { display: ... }` outranks the browser's default "
+            "`[hidden] { display: none }` rule (same specificity, author style wins), "
+            "so toggling the hidden attribute would stop actually hiding the banner. "
+            "Scope any `display` declaration to `.consent-banner:not([hidden])` instead."
+        ))
+        self.assertIn(".consent-banner:not([hidden])", self.css)
+
+    def test_consent_banner_only_shows_once_the_welcome_curtain_is_gone(self):
+        self.assertIn("function syncAnalyticsBanner()", self.js)
+        self.assertIn("analyticsBannerPending", self.js)
+        self.assertIn('classList.contains("welcome-mode")', self.js)
+        self.assertRegex(self.js, r"function setDisplayMode\([^)]*\)\s*\{[^}]*syncAnalyticsBanner\(\)")
+
     def test_receipt_dialog_can_swap_to_branded_update_form(self):
         for contract in (
             "Request a receipt update", "renderReceiptUpdateForm", "receipt-update-form",
