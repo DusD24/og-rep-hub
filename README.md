@@ -82,4 +82,8 @@ Receipt details can open a branded, anonymous update form. Accepted submissions 
 
 Pull requests run the Python, browser-logic, Worker, LFS, deterministic-score, validation, and Worker-bundle checks. A `main` release deploys the Worker first and Pages second, then polls the public `build-meta.json` and Worker `/health` markers until both report the merged commit SHA.
 
+## Analytics
+
+The site can optionally load Google Analytics (GA4) to track traffic, since GitHub Pages doesn't provide its own. It ships with none configured. To turn it on, set the `GA_MEASUREMENT_ID` GitHub Actions repository variable (see [worker/README.md](worker/README.md)) to a GA4 measurement id from [analytics.google.com](https://analytics.google.com). Analytics only loads client-side after a visitor accepts the cookie-consent banner; declining or ignoring it keeps the site tracker-free for that visitor.
+
 Released under the [MIT License](LICENSE).

@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
@@ -28,10 +29,14 @@ def main() -> None:
     site_key = os.environ.get("TURNSTILE_SITE_KEY", "").strip()
     if not site_key:
         raise ValueError("TURNSTILE_SITE_KEY is required")
+    ga_measurement_id = os.environ.get("GA_MEASUREMENT_ID", "").strip()
+    if ga_measurement_id and not re.fullmatch(r"G-[A-Z0-9]+", ga_measurement_id):
+        raise ValueError("GA_MEASUREMENT_ID must look like a GA4 measurement id (G-XXXXXXXXXX)")
 
     payload = {
         "issue_intake_url": endpoint,
         "turnstile_site_key": site_key,
+        "ga_measurement_id": ga_measurement_id,
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")

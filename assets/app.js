@@ -1,7 +1,8 @@
 const files = ["bag_families", "bags", "sellers", "factories", "offerings", "evidence", "contacts", "media", "outreach", "rankings", "research", "site_config"];
 const state = Object.create(null);
 const primaryViews = ["bags", "sellers", "factories", "evidence", "research"];
-const { buildEvidenceSearchDocument, matchesEvidenceSearch, meaningfulValue, restoreLockedScroll } = window.OGUiLogic;
+const { buildEvidenceSearchDocument, matchesEvidenceSearch, meaningfulValue, resolveAnalyticsConsent, restoreLockedScroll } = window.OGUiLogic;
+const ANALYTICS_CONSENT_KEY = "og-rep-hub-analytics-consent";
 const welcomeEvidenceIds = [
   "ev-hp-mm-durability",
   "ev-rll-chanel-classic-flap-187",
@@ -20,6 +21,7 @@ let turnstileWidgetId = null;
 let welcomeExitTimer = null;
 let welcomeExitActive = false;
 let ready = false;
+let analyticsLoaded = false;
 
 const STATUS_LABELS = {
   seller_confirmed: "Seller reported",
@@ -881,6 +883,9 @@ function bindControls() {
     if (event.target.closest("[data-back-to-receipt]")) return restoreReceiptDialog();
     const dialogTrigger = event.target.closest(".dialog-trigger");
     if (dialogTrigger) return openDialog(dialogTrigger);
+    if (event.target.closest("[data-consent-accept]")) return applyAnalyticsConsent("granted");
+    if (event.target.closest("[data-consent-decline]")) return applyAnalyticsConsent("denied");
+    if (event.target.closest("[data-consent-preferences]")) return document.querySelector("#consent-banner")?.removeAttribute("hidden");
     if (event.target.closest("[data-enter-site]")) return enterCatalogFromWelcome();
     if (event.target.closest("[data-welcome-route]")) {
       event.preventDefault();
@@ -939,6 +944,35 @@ function bindControls() {
   reducedMotion.addEventListener?.("change", () => document.documentElement.classList.toggle("reduced-motion", reducedMotion.matches));
 }
 
+function loadAnalytics(measurementId) {
+  if (analyticsLoaded) return;
+  analyticsLoaded = true;
+  const script = document.createElement("script");
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
+  script.async = true;
+  document.head.appendChild(script);
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function gtag() { window.dataLayer.push(arguments); };
+  window.gtag("js", new Date());
+  window.gtag("config", measurementId, { allow_google_signals: false, allow_ad_personalization_signals: false });
+}
+
+function applyAnalyticsConsent(decision) {
+  try { localStorage.setItem(ANALYTICS_CONSENT_KEY, decision); } catch { /* storage unavailable */ }
+  document.querySelector("#consent-banner")?.setAttribute("hidden", "");
+  if (decision === "granted") loadAnalytics(state.site_config.ga_measurement_id);
+}
+
+function initAnalyticsConsent() {
+  const measurementId = state.site_config?.ga_measurement_id;
+  document.querySelector("[data-consent-preferences]")?.toggleAttribute("hidden", !measurementId);
+  let storedConsent = null;
+  try { storedConsent = localStorage.getItem(ANALYTICS_CONSENT_KEY); } catch { storedConsent = null; }
+  const { showBanner, shouldLoad } = resolveAnalyticsConsent({ measurementId, storedConsent });
+  if (shouldLoad) loadAnalytics(measurementId);
+  document.querySelector("#consent-banner")?.toggleAttribute("hidden", !showBanner);
+}
+
 function fillFilters() {
   fillSelect("#brand-filter", state.bag_families.map(item => item.brand));
   fillSelect("#type-filter", state.bag_families.map(item => item.category));
@@ -967,6 +1001,7 @@ async function init() {
     renderEvidence();
     renderResearch();
     bindControls();
+    initAnalyticsConsent();
     ready = true;
     routeCurrent();
   } catch (error) {
