@@ -76,6 +76,24 @@ class ScraperContractTests(unittest.TestCase):
             ["NewRepBags"],
         )
 
+    def test_discover_subreddits_excludes_generic_sitewide_navigation_links(self):
+        html = (
+            '<a href="https://www.reddit.com/r/popular/">popular</a>'
+            '<a href="https://www.reddit.com/r/all/">all</a>'
+            '<a href="/r/AskReddit/">askreddit</a>'
+            '<a href="/r/pics/">pics</a>'
+            '<a href="/r/funny/">funny</a>'
+            '<a href="/r/movies/">movies</a>'
+            '<a href="/r/gaming/">gaming</a>'
+            '<a href="/r/worldnews/">worldnews</a>'
+            '<a href="/r/u_someuser/">user profile</a>'
+            '<a href="https://www.reddit.com/r/NewRepBags/">new</a>'
+        )
+        self.assertEqual(
+            discover_subreddits(html, {"RepCulture_Bags"}),
+            ["NewRepBags"],
+        )
+
     def test_canonical_subreddit_url_rejects_non_reddit_and_user_paths(self):
         self.assertEqual(
             canonical_subreddit_url("https://www.reddit.com/r/RepCulture_Bags/"),
