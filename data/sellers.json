@@ -52,10 +52,10 @@
     "id": "seller-mandy",
     "display_name": "Mandy",
     "aliases": [],
-    "last_verified": "2026-08-08",
+    "last_verified": "2026-08-10",
     "reliability_metrics": null,
-    "reliability_evidence_ids": ["ev-mandy-huahui-pending"],
-    "confidence_note": "Only a pending order was found; insufficient evidence for seller reliability scoring. A public community wiki lists a WhatsApp contact; seller ownership and current availability remain unverified.",
+    "reliability_evidence_ids": ["ev-mandy-huahui-pending", "ev-rt-flamenco-fever-black-qiu-mandy", "ev-rt-flamenco-fever-square-jipin-mandy", "ev-rt-flamenco-fever-orange-jipin-mandy", "ev-rt-flamenco-first-order-mandy-2025", "ev-rt-puzzle-biker-qiu-mandy-spiritatbay", "ev-rt-puzzle-braided-mandy-2026"],
+    "confidence_note": "Several completed public Loewe Flamenco and Puzzle reviews now report positive PSP, pricing, and shipping-timeline experiences; reliability_metrics remain null pending a scoring pass across this larger evidence set. A public community wiki lists a WhatsApp contact; seller ownership and current availability remain unverified.",
     "community_contact_status": "community_listed",
     "contact_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/"
   },
@@ -92,10 +92,10 @@
     "id": "seller-mike",
     "display_name": "Mike",
     "aliases": [],
-    "last_verified": "2026-08-08",
+    "last_verified": "2026-08-10",
     "reliability_metrics": null,
-    "reliability_evidence_ids": [],
-    "confidence_note": "Name appears in a public Speedy post. A public community wiki lists a WhatsApp contact; seller ownership and current availability remain unverified.",
+    "reliability_evidence_ids": ["ev-rt-flamenco-fever-green-jipin-mike", "ev-rt-rodeo-mike-2026"],
+    "confidence_note": "Name appears in a public Speedy post, plus new Flamenco and Rodeo reviews reporting clear communication, clean PSPs, and solid sale pricing. A public community wiki lists a WhatsApp contact; seller ownership and current availability remain unverified.",
     "community_contact_status": "community_listed",
     "contact_source_url": "https://www.reddit.com/r/RepTherapy/wiki/trustedsellers/"
   },
@@ -287,10 +287,10 @@
     "id": "seller-baker",
     "display_name": "Baker",
     "aliases": [],
-    "last_verified": "2026-08-08",
+    "last_verified": "2026-08-10",
     "reliability_metrics": null,
-    "reliability_evidence_ids": ["ev-crawl-rt-book-tote-medium-qc-2026"],
-    "confidence_note": "Name appears in a public Dior Book Tote QC post; no separate seller assessment or public contact provenance recorded."
+    "reliability_evidence_ids": ["ev-crawl-rt-book-tote-medium-qc-2026", "ev-rt-flamenco-fever-futurist-cat-vivi-baker"],
+    "confidence_note": "Name appears in a public Dior Book Tote QC post and a Loewe Flamenco collection review; no separate seller assessment or public contact provenance recorded."
   },
   {
     "id": "seller-aiden",
@@ -323,10 +323,10 @@
     "id": "seller-laomao",
     "display_name": "Laomao",
     "aliases": [],
-    "last_verified": "2026-08-08",
+    "last_verified": "2026-08-10",
     "reliability_metrics": null,
-    "reliability_evidence_ids": ["ev-crawl-rll-puzzle-edge33-liusheng-2026"],
-    "confidence_note": "Name appears in a public Loewe Puzzle Edge review; no separate seller assessment or public contact provenance recorded."
+    "reliability_evidence_ids": ["ev-crawl-rll-puzzle-edge33-liusheng-2026", "ev-rt-puzzle-biker-jipin-laomao-riyu28"],
+    "confidence_note": "Name appears in a public Loewe Puzzle Edge review and a Puzzle Biker factory-comparison mini-review; no separate seller assessment or public contact provenance recorded."
   },
   {
     "id": "seller-dhg-meifeng",
@@ -345,5 +345,14 @@
     "reliability_metrics": null,
     "reliability_evidence_ids": ["ev-crawl-rlw-saint-louis-navy-2026"],
     "confidence_note": "Name appears in a public RepLadiesWorld Saint Louis PSP/QC post; no separate seller assessment or public contact provenance recorded."
+  },
+  {
+    "id": "seller-nina",
+    "display_name": "Nina",
+    "aliases": [],
+    "last_verified": "2026-08-10",
+    "reliability_metrics": null,
+    "reliability_evidence_ids": ["ev-rt-puzzle-edge-large-nina-2025"],
+    "confidence_note": "A single detailed public Loewe Puzzle Edge review reports realistic PSPs, proactive QC, and a reviewer-described repeat-customer relationship (10+ prior orders); no independent second author or public contact provenance has been found yet."
   }
 ]
