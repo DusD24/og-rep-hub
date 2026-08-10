@@ -381,5 +381,24 @@
     "source_platform": "Reddit",
     "usage_scope": "variant_tile",
     "evidence_id": "ev-eden-factory-comparison"
+  },
+  {
+    "id": "media-balenciaga-le-city-small-reddit",
+    "path": "media/evidence/balenciaga-le-city-small-reddit.jpg",
+    "attribution": "u/Sabra-1302 via r/RealRepLadies",
+    "source_url": "https://preview.redd.it/7su7bgwa6rch1.jpg?width=3024&format=pjpg&auto=webp&s=4ec458d995457d8ba8c257121cf2f61a0d73f100",
+    "post_url": "https://www.reddit.com/r/RealRepLadies/comments/1uu8vp2/balenciaga_city_small_in_espresso/",
+    "author": "Sabra-1302",
+    "subreddit": "RealRepLadies",
+    "capture_date": "2026-08-10",
+    "removal_checked_at": "2026-08-10",
+    "sha256": "d4cfc0a9f5735987f37377687f835137a2d1fda115c86105248cc794a596e7a3",
+    "width": 3024,
+    "height": 4032,
+    "research_purpose": "Receipt-linked community collection-tile image for the Balenciaga Le City collection.",
+    "alt": "Balenciaga City Small bag in a deep chocolate/Espresso leather, shown whole with top handles, crossbody strap, and front zip pocket, on a white bed sheet.",
+    "source_platform": "Reddit",
+    "usage_scope": "target_tile",
+    "evidence_id": "ev-crawl-rll-balenciaga-le-city-1uu8vp2"
   }
 ]

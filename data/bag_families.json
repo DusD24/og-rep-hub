@@ -415,5 +415,24 @@
     "last_updated": "2026-08-08",
     "research_gaps": ["Find a second independent public author and resolve exact size, color, and material.", "Keep the 187 attribution as a source-reported thread statement only."],
     "reference_url": "https://www.chanel.com/us/fashion/handbags/"
+  },
+  {
+    "id": "bag-family-balenciaga-le-city",
+    "slug": "balenciaga-le-city",
+    "brand": "Balenciaga",
+    "model": "Le City",
+    "aliases": ["Le City", "City Bag", "Balenciaga City"],
+    "category": "shoulder-bag",
+    "summary": "A research-queue collection opened from two independent RealRepLadies reviews of the City Small in leather, covering finish, break-in, hardware fit, and seller experience across two different sellers.",
+    "tile_media_id": "media-balenciaga-le-city-small-reddit",
+    "publication_status": "research_queue",
+    "documented_variant_ids": [],
+    "evidence_ids": ["ev-crawl-rll-balenciaga-le-city-1uu8vp2", "ev-crawl-rll-balenciaga-le-city-1o69i9j"],
+    "documented_sizes": ["Small"],
+    "documented_materials": ["leather"],
+    "documented_hardware": ["not stated in selected sources"],
+    "evidence_coverage": {"source_count": 2, "independent_author_count": 2, "primary_subreddit_coverage": ["RealRepLadies"], "image_ready": true, "evidence_types": ["in_hand_review", "psp_qc"]},
+    "last_updated": "2026-08-10",
+    "research_gaps": ["Both sources cover a City Small in leather but different colors (Espresso/chocolate vs. unstated) and different sellers; do not merge them into a single confirmed colorway.", "The tile photo is from the Espresso/Tiny Jenny source only; it has not been confirmed to match the second, color-unstated source.", "Neither source discloses a factory; treat Kata as a source-reported claim about City-bag leather quality in general, not a confirmed factory attribution for either bag."]
   }
 ]
