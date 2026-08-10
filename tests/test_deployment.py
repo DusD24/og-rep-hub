@@ -21,12 +21,16 @@ def load_script(name):
 
 
 class SiteConfigBuildTests(unittest.TestCase):
-    def run_builder(self, endpoint, site_key):
+    def run_builder(self, endpoint, site_key, ga_measurement_id=None):
         temporary = tempfile.TemporaryDirectory()
         self.addCleanup(temporary.cleanup)
         output = Path(temporary.name) / "site_config.json"
         environment = os.environ.copy()
         environment.update({"ISSUE_INTAKE_URL": endpoint, "TURNSTILE_SITE_KEY": site_key})
+        if ga_measurement_id is None:
+            environment.pop("GA_MEASUREMENT_ID", None)
+        else:
+            environment["GA_MEASUREMENT_ID"] = ga_measurement_id
         result = subprocess.run(
             [sys.executable, str(ROOT / "scripts" / "build_site_config.py"), "--output", str(output)],
             cwd=ROOT,
@@ -36,13 +40,23 @@ class SiteConfigBuildTests(unittest.TestCase):
         )
         return result, output
 
-    def test_builder_emits_public_runtime_configuration(self):
+    def test_builder_emits_public_runtime_configuration_without_analytics_by_default(self):
         result, output = self.run_builder("https://og-rep-hub-issue-intake.example.workers.dev/", "0x4-public-site-key")
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertEqual(json.loads(output.read_text(encoding="utf-8")), {
             "issue_intake_url": "https://og-rep-hub-issue-intake.example.workers.dev",
             "turnstile_site_key": "0x4-public-site-key",
+            "ga_measurement_id": "",
         })
+
+    def test_builder_includes_a_configured_ga_measurement_id(self):
+        result, output = self.run_builder(
+            "https://og-rep-hub-issue-intake.example.workers.dev/", "0x4-public-site-key", "G-ABC1234567",
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(
+            json.loads(output.read_text(encoding="utf-8"))["ga_measurement_id"], "G-ABC1234567",
+        )
 
     def test_builder_rejects_missing_or_non_https_configuration(self):
         for endpoint, site_key in (("http://worker.example", "site-key"), ("https://worker.example", "")):
@@ -50,6 +64,13 @@ class SiteConfigBuildTests(unittest.TestCase):
                 result, output = self.run_builder(endpoint, site_key)
                 self.assertNotEqual(result.returncode, 0)
                 self.assertFalse(output.exists())
+
+    def test_builder_rejects_malformed_ga_measurement_id(self):
+        result, output = self.run_builder(
+            "https://worker.example", "site-key", "not-a-measurement-id",
+        )
+        self.assertNotEqual(result.returncode, 0)
+        self.assertFalse(output.exists())
 
 
 class ReleaseMetaBuildTests(unittest.TestCase):

@@ -22,6 +22,7 @@ This narrowly scoped Cloudflare Worker accepts anonymous receipt-update requests
 
    - `ISSUE_INTAKE_URL`: the deployed Worker HTTPS origin, without the route suffix
    - `TURNSTILE_SITE_KEY`: the public Turnstile site key
+   - `GA_MEASUREMENT_ID` (optional): a GA4 measurement id (`G-XXXXXXXXXX`). Leave unset to ship with no analytics. When set, the site only loads Google Analytics after a visitor accepts the cookie-consent banner.
 
 6. Keep the repository labels `receipt-update`, `research`, `source-review`, and `bag-collection` provisioned. `source-review` is added to source/media-review requests only.
 

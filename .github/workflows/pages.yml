@@ -88,6 +88,7 @@ jobs:
         env:
           ISSUE_INTAKE_URL: ${{ vars.ISSUE_INTAKE_URL }}
           TURNSTILE_SITE_KEY: ${{ vars.TURNSTILE_SITE_KEY }}
+          GA_MEASUREMENT_ID: ${{ vars.GA_MEASUREMENT_ID }}
         run: python scripts/build_site_config.py --output data/site_config.json
       - name: Publish release commit marker
         env:

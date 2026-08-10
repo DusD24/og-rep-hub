@@ -127,7 +127,19 @@
   <footer class="app-footer app-shell">
     <p>Research snapshot accessed August 8, 2026. Availability expires quickly—check recent PSPs and reviews before making decisions.</p>
     <p>Not affiliated with any brand, seller, factory, subreddit, or Reddit. Public-interest research; no purchase facilitation.</p>
+    <p><button class="text-link" type="button" data-consent-preferences hidden>Cookie preferences</button></p>
   </footer>
+
+  <div id="consent-banner" class="consent-banner" hidden role="dialog" aria-live="polite" aria-labelledby="consent-banner-title">
+    <div class="consent-banner-panel">
+      <p id="consent-banner-title"><strong>Help gauge site load</strong></p>
+      <p>With your permission, we'd use Google Analytics only to measure how much traffic this site gets and roughly where visitors come from, so we can decide what hosting this project needs as it grows. We only collect your approximate country and an anonymous visit count &mdash; Google doesn't store your exact IP address or precise location. Every Analytics hit still carries standard technical fields like browser and device type, the same as any Google Analytics setup, but we don't use it for tracking, ads, or building visitor profiles, and it's kept separate from every evidence record on this site.</p>
+      <div class="consent-banner-actions">
+        <button type="button" class="consent-decline" data-consent-decline>Decline</button>
+        <button type="button" class="consent-accept" data-consent-accept>Accept analytics</button>
+      </div>
+    </div>
+  </div>
 
   <dialog id="content-dialog" class="content-dialog app-shell" aria-labelledby="dialog-title">
     <div class="dialog-panel">

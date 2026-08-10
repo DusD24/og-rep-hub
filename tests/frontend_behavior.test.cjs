@@ -68,6 +68,34 @@ test("meaningful filter values reject null-style placeholders", () => {
   assert.equal(uiLogic.meaningfulValue("Coated canvas"), true);
 });
 
+test("analytics consent stays off without a configured measurement id", () => {
+  if (!uiLogic) return;
+  assert.deepEqual(
+    uiLogic.resolveAnalyticsConsent({ measurementId: "", storedConsent: "granted" }),
+    { showBanner: false, shouldLoad: false },
+  );
+});
+
+test("analytics consent shows the banner until a decision is stored", () => {
+  if (!uiLogic) return;
+  assert.deepEqual(
+    uiLogic.resolveAnalyticsConsent({ measurementId: "G-ABC123", storedConsent: null }),
+    { showBanner: true, shouldLoad: false },
+  );
+});
+
+test("analytics consent loads only after acceptance, never after decline", () => {
+  if (!uiLogic) return;
+  assert.deepEqual(
+    uiLogic.resolveAnalyticsConsent({ measurementId: "G-ABC123", storedConsent: "granted" }),
+    { showBanner: false, shouldLoad: true },
+  );
+  assert.deepEqual(
+    uiLogic.resolveAnalyticsConsent({ measurementId: "G-ABC123", storedConsent: "denied" }),
+    { showBanner: false, shouldLoad: false },
+  );
+});
+
 test("dialog scroll restoration disables smooth scrolling until the next frame", () => {
   if (!uiLogic) return;
   const calls = [];

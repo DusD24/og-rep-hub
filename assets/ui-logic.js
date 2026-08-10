@@ -62,6 +62,13 @@
     return tokens.every(token => text.includes(token) || compact.includes(token.replace(/\s+/g, "")));
   }
 
+  function resolveAnalyticsConsent({ measurementId, storedConsent }) {
+    if (!measurementId) return { showBanner: false, shouldLoad: false };
+    if (storedConsent === "granted") return { showBanner: false, shouldLoad: true };
+    if (storedConsent === "denied") return { showBanner: false, shouldLoad: false };
+    return { showBanner: true, shouldLoad: false };
+  }
+
   function restoreLockedScroll(environment, scrollPosition) {
     const { documentElement, body, scrollTo, requestAnimationFrame } = environment;
     documentElement.classList.add("scroll-restoring");
@@ -79,6 +86,7 @@
     meaningfulValue,
     buildEvidenceSearchDocument,
     matchesEvidenceSearch,
+    resolveAnalyticsConsent,
     restoreLockedScroll,
   };
 }));
