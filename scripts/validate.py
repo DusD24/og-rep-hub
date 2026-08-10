@@ -11,7 +11,8 @@ from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
-from model import DATA, ROOT, load
+from ledger import DISPOSITIONS, LEDGER_PATH
+from model import DATA, ROOT, load, reddit_thing_id
 
 COLLECTIONS = ("bag_families", "bags", "sellers", "factories", "offerings", "evidence", "contacts", "media")
 STATUSES = {"seller_confirmed", "catalog_seen", "historically_ordered", "inferred", "unavailable", "unknown"}
@@ -51,6 +52,50 @@ class Validator:
 
 
 Validation = Validator
+
+
+def validate_scrape_ledger(evidence_rows, validator) -> None:
+    """The crawl ledger is committed, so it is held to the same integrity bar as the catalog."""
+    if not LEDGER_PATH.exists():
+        return
+    try:
+        ledger = json.loads(LEDGER_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as error:
+        validator.error(f"scrape_ledger: unreadable ({error})")
+        return
+    if not isinstance(ledger, dict) or not isinstance(ledger.get("seen"), dict):
+        validator.error("scrape_ledger: expected an object with a seen map")
+        return
+    evidence_ids = {row.get("id") for row in evidence_rows}
+    promoted_sources = {reddit_thing_id(row.get("url")) for row in evidence_rows} - {None}
+    for thing_id, entry in ledger["seen"].items():
+        where = f"scrape_ledger.seen[{thing_id}]"
+        if not isinstance(entry, dict):
+            validator.error(f"{where}: expected an object")
+            continue
+        if entry.get("disposition") not in DISPOSITIONS:
+            validator.error(f"{where}: unknown disposition {entry.get('disposition')!r}")
+        if not valid_date(entry.get("decided_on", "")):
+            validator.error(f"{where}: decided_on must be YYYY-MM-DD")
+        if not thing_id.startswith(("t1_", "t3_")):
+            validator.error(f"{where}: key must be a t1_/t3_ Reddit thing id")
+        for evidence_id in entry.get("evidence_ids", []):
+            if evidence_id not in evidence_ids:
+                validator.error(f"{where}: unknown evidence_id {evidence_id}")
+        if entry.get("disposition") == "promoted" and not entry.get("evidence_ids"):
+            validator.error(f"{where}: promoted entries must cite the evidence they produced")
+    # Every committed receipt must be settled in the ledger, otherwise the next
+    # crawl re-presents work that is already published.
+    for thing_id in sorted(promoted_sources - set(ledger["seen"])):
+        validator.error(f"scrape_ledger: committed evidence source {thing_id} is missing from the ledger")
+    for subreddit, row in (ledger.get("watermarks") or {}).items():
+        if not isinstance(row, dict):
+            validator.error(f"scrape_ledger.watermarks[{subreddit}]: expected an object")
+            continue
+        if not isinstance(row.get("last_seen_utc"), (int, float)):
+            validator.error(f"scrape_ledger.watermarks[{subreddit}]: last_seen_utc must be numeric")
+        if row.get("last_full_sweep") and not valid_date(row["last_full_sweep"]):
+            validator.error(f"scrape_ledger.watermarks[{subreddit}]: last_full_sweep must be YYYY-MM-DD")
 
 
 def validate_collection_heroes(families, media_rows, root, validator) -> None:
@@ -456,6 +501,8 @@ def validate() -> list[str]:
         evidence = evidence_by_id.get(media.get("evidence_id"), {})
         if bag.get("family_id") not in evidence.get("family_ids", []):
             v.error(f"bags[{index}]: tile media evidence does not link the bag's family")
+
+    validate_scrape_ledger(records["evidence"], v)
 
     research = load("research")
     for index, lane in enumerate(research.get("research_lanes", [])):

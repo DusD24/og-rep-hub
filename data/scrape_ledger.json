@@ -1,0 +1,697 @@
+{
+  "schema_version": "1.0.0",
+  "watermarks": {},
+  "seen": {
+    "t1_onprciu": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-baobao-birdcage-comment"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t1_ootqmuf": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-hp-monogram-gm-comment"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1g63a20": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rll-goyard-gm"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1iiuf8z": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-arcadie"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1k4ryiy": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rll-arcadie"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1k5jftu": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-book-tote"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1kkqix4": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rll-birkin-25"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1ldi6n3": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rll-speedy-25"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1n077rf": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rt-book-tote-qc-2025"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1ncuv7r": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rll-andiamos-medium"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1nfk2vq": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rll-flamenco-medium"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1ooksmv": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-flamenco-first-order-mandy-2025"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1ou0bsm": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-repculture-balmain-anthem-2025"
+      ],
+      "subreddit": "RepCulture_Bags",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1p4cydm": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rll-chanel-classic-flap-187"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1peczjw": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-puzzle-edge-large-nina-2025"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1pjiz30": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rt-classic-flap-auth-2025"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1pki50r": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rt-flamenco-mini-jipin-2025",
+        "ev-crawl-rt-puzzle-burgundy-jipin-2025"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1pm7jz0": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-chanel-classic-flap"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1pu2o4x": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rt-flamenco-mandy-2025"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1q2yn0z": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rll-neverfull-constant"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1q4sn7g": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-puzzle-biker-jipin-laomao-riyu28",
+        "ev-rt-puzzle-biker-qiu-mandy-spiritatbay"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1qc1ozo": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rll-puzzle-small"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1qhbnbo": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-rodeo-mike-2026"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1qintjh": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-flamenco-deerskin"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1qupe7v": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rll-book-tote-small"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1qzada1": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-repculture-andiamos-small-2026"
+      ],
+      "subreddit": "RepCulture_Bags",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1r51jcj": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rll-balenciaga-rodeo-medium-2026"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1r6acje": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-birkin-25-wear"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1rbrt3z": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-puzzle-braided-mandy-2026"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1rcht8u": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rll-puzzle-edge33-liusheng-2026"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1rfq7yw": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-puzzle-conditioning-portrait-2026"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1rj6c07": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rll-celine-new-luggage-2026"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1rjfdm0": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rlw-neverfull-damier-mm-2026"
+      ],
+      "subreddit": "RepLadiesWorld",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1rrphlq": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rll-classic-flap-auth-jumbo-2026"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1rs4h9n": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-margaux-15"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1s0ywo2": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rll-goyard-stlouis-green-2026"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1s2thbk": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rt-flamenco-medium-liusheng-2026"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1s46cnz": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-lady-dior"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1s6fd6e": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-hp-mm-durability"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1sbw5n4": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-goyard-gm"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1shaq45": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rll-lady-dior-auth"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1sk6k8g": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rll-chanel-vanity-slim-2026"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1sr6nu6": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-neverfull-oc-auth"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1ssqlux": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-puzzle-large"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1t0vwi1": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rlw-saint-louis-navy-2026"
+      ],
+      "subreddit": "RepLadiesWorld",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1t3qv4i": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-hp-factory-policy"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1t3vy72": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-flamenco-fever-black-qiu-mandy",
+        "ev-rt-flamenco-fever-futurist-cat-vivi-baker",
+        "ev-rt-flamenco-fever-green-jipin-mike",
+        "ev-rt-flamenco-fever-orange-jipin-mandy",
+        "ev-rt-flamenco-fever-square-jipin-mandy"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1tcebjq": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-mandy-huahui-pending"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1tebntz": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rll-margaux-17"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1tfv4dz": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rt-andiamos-jing-auth-2026"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1tg1vzb": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rt-book-tote-medium-qc-2026"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1tmh8pf": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-doris-birdcage-qc"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1tq3web": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rll-ysl-loulou-black-frame-2026"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1tr2qbh": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rll-bv-barbara-medium-2026"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1tv5feu": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-doris-other-order"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1tzeb9i": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rt-ladydior-reykey-2026"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1u138f2": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rlw-classic-flap-2026"
+      ],
+      "subreddit": "RepLadiesWorld",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1u4h6cz": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rll-speedy25-royal-2026"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1u4hbbz": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-doris-birdcage-review"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1u4k2l6": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-speedy-25"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1u9p0tv": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-rt-andiamos-east-west"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1ua94ver": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rlw-speedy25-royal-2026"
+      ],
+      "subreddit": "RepLadiesWorld",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1ublml6": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rt-ferragamo-hug-2026"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1ud5nt0": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rlw-classic-flap-rehome-2026",
+        "ev-crawl-rlw-speedy-rehome-2026"
+      ],
+      "subreddit": "RepLadiesWorld",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1uefd12": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-hp-gm-ebene"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1uhb08r": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-oc-damier-reliability"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1ulu50w": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-hp-mm-recent"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1un9n9q": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rll-ferragamo-hug-2026"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1uqfpcm": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-hp-gm-azur"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1v1jd25": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rlw-classic-flap-187-medium-2026"
+      ],
+      "subreddit": "RepLadiesWorld",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1v9yef4": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rll-flamenco-medium-dhg-2026"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1vb0430": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-oc-monogram-unknown"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1vbzut6": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rt-puzzle-medium-jipin-2026"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1vfba9l": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-eden-factory-comparison"
+      ],
+      "subreddit": "RepTherapy",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1vi9idk": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-repculture-andiamos-denim-2026"
+      ],
+      "subreddit": "RepCulture_Bags",
+      "reason": "backfilled from committed evidence"
+    },
+    "t3_1vizfcd": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-10",
+      "evidence_ids": [
+        "ev-crawl-rll-speedy20-hp-auth-2026"
+      ],
+      "subreddit": "RealRepLadies",
+      "reason": "backfilled from committed evidence"
+    }
+  }
+}

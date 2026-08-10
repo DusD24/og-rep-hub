@@ -189,20 +189,37 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn('href="./" data-welcome-route', self.html)
 
     def test_context_receipt_counts_match_public_contract(self):
-        neverfull = next(item for item in self.families if item["id"] == "bag-family-louis-vuitton-neverfull")
-        variant_ids = set(neverfull["documented_variant_ids"])
-        family_receipts = [
-            item for item in self.evidence
-            if neverfull["id"] in item.get("family_ids", [])
-            or variant_ids.intersection(item.get("bag_ids", []))
-        ]
-        monogram_mm_receipts = [
-            item for item in self.evidence
-            if "bag-monogram-mm-brown" in item.get("bag_ids", [])
-        ]
+        # The UI derives every receipt count at request time (state.evidence.length,
+        # coverage.sourceCount), so this asserts the derivation paths agree rather than
+        # freezing record counts that grow with each ingestion run.
         self.assertGreater(len(self.evidence), 38)
-        self.assertEqual(len(family_receipts), 17)
-        self.assertEqual(len(monogram_mm_receipts), 3)
+        evidence_by_id = {item["id"]: item for item in self.evidence}
+        for family in self.families:
+            variant_ids = set(family.get("documented_variant_ids", []))
+            # #evidence?family= context: family_ids match or any documented variant match.
+            family_receipts = [
+                item for item in self.evidence
+                if family["id"] in item.get("family_ids", [])
+                or variant_ids.intersection(item.get("bag_ids", []))
+            ]
+            coverage = family.get("evidence_coverage", {})
+            linked = [evidence_by_id[eid] for eid in family.get("evidence_ids", []) if eid in evidence_by_id]
+            self.assertEqual(len(linked), len(family.get("evidence_ids", [])), family["id"])
+            self.assertEqual(coverage.get("source_count"), len(linked), family["id"])
+            self.assertEqual(
+                coverage.get("independent_author_count"),
+                len({item["author"].casefold() for item in linked if item.get("author")}),
+                family["id"],
+            )
+            # Every explicitly linked receipt must also be reachable from the family context
+            # the UI routes to, otherwise the detail page and the filtered view disagree.
+            self.assertTrue(set(family.get("evidence_ids", [])) <= {item["id"] for item in family_receipts}, family["id"])
+            # #evidence?variant= context is always a subset of its family context.
+            for variant_id in variant_ids:
+                variant_receipts = [item for item in self.evidence if variant_id in item.get("bag_ids", [])]
+                self.assertTrue(set(r["id"] for r in variant_receipts) <= {r["id"] for r in family_receipts}, variant_id)
+            if family.get("publication_status") == "published":
+                self.assertGreater(len(family_receipts), 0, family["id"])
 
     def test_native_dialog_has_all_dismissal_and_focus_behaviors(self):
         self.assertIn('<dialog id="content-dialog"', self.html)
