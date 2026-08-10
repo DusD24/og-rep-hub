@@ -92,6 +92,21 @@ EVIDENCE_LANES = (
     "psp_qc", "long_term_wear", "auth_comparison", "factory_comparison",
     "in_hand_review", "seller_context", "collection", "w2c", "discussion", "other",
 )
+# Reddit-wide navigation links (front page, sitewide defaults, meta subs) that
+# appear in the chrome of nearly every page, not just rep-community links.
+# Discovering these burns crawl budget on generic content instead of new
+# rep communities, so they are excluded even when literally linked as /r/<name>/.
+GENERIC_SUBREDDIT_DENYLIST = frozenset(
+    name.casefold()
+    for name in (
+        "popular", "all", "announcements", "mod", "modsupport", "modnews",
+        "reddit", "redditsessions", "help", "ideasfortheadmins", "blog",
+        "friends", "reddits", "bestof", "AskReddit", "pics", "funny", "movies",
+        "gaming", "worldnews", "videos", "news", "todayilearned", "science",
+        "askscience", "IAmA", "gifs", "aww", "music", "art", "books", "food",
+        "sports", "askmen", "askwomen",
+    )
+)
 
 
 def load_registry(path: Path) -> dict:
@@ -156,9 +171,15 @@ def discover_subreddits(html: str, known: set[str]) -> list[str]:
         if not canonical:
             continue
         name = urlparse(canonical).path.split("/")[2]
-        if name.casefold() in known_folded or name.casefold() in seen:
+        folded = name.casefold()
+        if (
+            folded in known_folded
+            or folded in seen
+            or folded in GENERIC_SUBREDDIT_DENYLIST
+            or folded.startswith("u_")
+        ):
             continue
-        seen.add(name.casefold())
+        seen.add(folded)
         discovered.append(name)
     return discovered
 
