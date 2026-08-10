@@ -531,18 +531,30 @@ class FirecrawlClient:
         timeout: float = 20.0,
         retries: int = 2,
         delay: float = 1.0,
+        max_calls: int = 25,
     ) -> None:
         self.api_key = api_key
         self.timeout = timeout
         self.retries = max(1, retries)
         self.delay = max(0.0, delay)
+        # This is the only metered tier. A night of 403s upstream must not turn into an
+        # unbounded bill, so the budget is enforced here rather than by the caller.
+        self.max_calls = max(0, max_calls)
+        self.call_count = 0
         self._last_request_at = 0.0
 
     @property
     def enabled(self) -> bool:
         return bool(self.api_key)
 
+    @property
+    def budget_remaining(self) -> int:
+        return max(0, self.max_calls - self.call_count)
+
     def scrape(self, url: str) -> dict[str, Any]:
+        if not self.budget_remaining:
+            raise RuntimeError(f"firecrawl call budget exhausted after {self.call_count} calls")
+        self.call_count += 1
         payload = json.dumps({"url": url, "formats": ["html"], "onlyMainContent": False}).encode("utf-8")
         last_error: Exception | None = None
         for attempt in range(self.retries):
@@ -717,6 +729,9 @@ class RunStore:
             "sources_requested",
             "successful_endpoint_count",
             "fallback_endpoint_count",
+            "html_fallback_count",
+            "firecrawl_fallback_count",
+            "firecrawl_calls_used",
             "failed_endpoint_count",
             "skipped_endpoint_count",
             "new_capture_count",
@@ -849,6 +864,8 @@ class RedditScraper:
         """Last resort: ask Firecrawl for the old-Reddit page when both prior tiers failed."""
         if self.firecrawl is None or not self.firecrawl.enabled:
             return False, None, None
+        if not self.firecrawl.budget_remaining:
+            return False, None, "firecrawl call budget exhausted"
         parsed = urlparse(url)
         is_search = "/search.json" in parsed.path
         if method == "text":
@@ -880,14 +897,19 @@ class RedditScraper:
         except Exception as error:  # keep unrelated sources running
             fallback_error = None
             if method in {"json", "text"}:
+                tier = "html"
                 handled, result, fallback_error = self._html_fallback(url, method)
                 if not handled:
+                    tier = "firecrawl"
                     handled, result, firecrawl_error = self._firecrawl_fallback(url, method)
                     if firecrawl_error:
                         fallback_error = f"{fallback_error or ''} | firecrawl: {firecrawl_error}".strip(" |")
                 if handled:
                     summary["successful_endpoint_count"] += 1
                     summary["fallback_endpoint_count"] += 1
+                    # Tier 3 is the only tier that costs money; keep it separately
+                    # countable so a run summary shows exactly what was paid for.
+                    summary[f"{tier}_fallback_count"] += 1
                     summary["consecutive_failure_count"] = 0
                     self.store.mark_endpoint_complete(url, self._timestamp())
                     return result
@@ -1048,6 +1070,8 @@ class RedditScraper:
             "discovered_subreddits": [],
             "successful_endpoint_count": 0,
             "fallback_endpoint_count": 0,
+            "html_fallback_count": 0,
+            "firecrawl_fallback_count": 0,
             "failed_endpoint_count": 0,
             "consecutive_failure_count": 0,
             "skipped_endpoint_count": 0,
@@ -1087,6 +1111,7 @@ class RedditScraper:
         summary["capture_count"] = len(self.store.capture_keys)
         summary["candidate_count"] = len(self.store.candidates)
         summary["duration_seconds"] = round(time.monotonic() - run_started_monotonic, 3)
+        summary["firecrawl_calls_used"] = self.firecrawl.call_count if self.firecrawl else 0
         summary["known_subreddits"] = sorted(summary["known_subreddits"])
         self.store.save_summary(summary)
         return summary
@@ -1102,6 +1127,12 @@ def main() -> int:
     parser.add_argument("--delay", type=float, default=1.5)
     parser.add_argument("--overnight-hours", type=float)
     parser.add_argument("--resume", action="store_true")
+    parser.add_argument(
+        "--max-firecrawl-calls",
+        type=int,
+        default=25,
+        help="hard cap on billable tier-3 Firecrawl scrapes per run (0 disables the tier)",
+    )
     args = parser.parse_args()
     registry = load_registry(args.registry)
     firecrawl_key = os.environ.get("FIRECRAWL_API_KEY", "").strip() or None
@@ -1109,7 +1140,11 @@ def main() -> int:
         registry,
         RunStore(args.run_dir),
         client=RedditClient(delay=args.delay),
-        firecrawl=FirecrawlClient(api_key=firecrawl_key) if firecrawl_key else None,
+        firecrawl=(
+            FirecrawlClient(api_key=firecrawl_key, max_calls=args.max_firecrawl_calls)
+            if firecrawl_key and args.max_firecrawl_calls > 0
+            else None
+        ),
         max_pages=args.max_pages,
         max_posts=args.max_posts,
         max_comments=args.max_comments,

@@ -217,18 +217,45 @@ class AlwaysFailClient(FakeClient):
         raise OSError(f"fixture failure for {url}")
 
 
+class JsonOnlyFailClient(FakeClient):
+    """JSON is blocked but old-Reddit HTML still answers, so tier 2 handles the retry."""
+
+    def __init__(self, text_by_url=None, **kwargs):
+        super().__init__(**kwargs)
+        self.text_by_url = dict(text_by_url or {})
+
+    def get_text(self, url):
+        self.calls.append(("text", url))
+        if url in self.text_by_url:
+            return self.text_by_url[url]
+        return '<a href="/r/DiscoveredRep/">discovered</a>'
+
+    def get_json(self, url):
+        self.calls.append(("json", url))
+        raise OSError(f"fixture failure for {url}")
+
+
 class FakeFirecrawlClient:
-    def __init__(self, html_by_url=None, fail_urls=None, enabled=True):
+    def __init__(self, html_by_url=None, fail_urls=None, enabled=True, max_calls=25):
         self.html_by_url = dict(html_by_url or {})
         self.fail_urls = set(fail_urls or ())
         self._enabled = enabled
+        self.max_calls = max_calls
+        self.call_count = 0
         self.calls = []
 
     @property
     def enabled(self):
         return self._enabled
 
+    @property
+    def budget_remaining(self):
+        return max(0, self.max_calls - self.call_count)
+
     def scrape(self, url):
+        if not self.budget_remaining:
+            raise RuntimeError("firecrawl call budget exhausted")
+        self.call_count += 1
         self.calls.append(url)
         if url in self.fail_urls:
             raise OSError(f"firecrawl fixture failure for {url}")
@@ -355,6 +382,71 @@ class CrawlerRunTests(unittest.TestCase):
         self.assertGreater(summary["fallback_endpoint_count"], 0)
         self.assertGreaterEqual(summary["new_candidate_count"], 1)
         self.assertIn(firecrawl_target, firecrawl.calls)
+        # Tier 3 is billable, so it must be countable on its own rather than being
+        # folded into the shared fallback counter.
+        self.assertGreater(summary["firecrawl_fallback_count"], 0)
+        self.assertEqual(summary["firecrawl_calls_used"], firecrawl.call_count)
+        self.assertEqual(
+            summary["fallback_endpoint_count"],
+            summary["html_fallback_count"] + summary["firecrawl_fallback_count"],
+        )
+
+    def test_firecrawl_call_budget_caps_billable_scrapes(self):
+        client = AlwaysFailClient()
+        firecrawl = FakeFirecrawlClient(max_calls=2)
+        summary = RedditScraper(
+            self.registry,
+            RunStore(self.run_dir),
+            client=client,
+            firecrawl=firecrawl,
+            max_pages=1,
+            max_posts=10,
+        ).run()
+        self.assertLessEqual(firecrawl.call_count, 2)
+        self.assertEqual(summary["firecrawl_calls_used"], firecrawl.call_count)
+        # Exhausting the budget must not abort the run or lose the failure record.
+        self.assertTrue(summary["errors"])
+
+    def test_firecrawl_budget_of_zero_never_calls_the_paid_tier(self):
+        client = AlwaysFailClient()
+        firecrawl = FakeFirecrawlClient(max_calls=0)
+        summary = RedditScraper(
+            self.registry,
+            RunStore(self.run_dir),
+            client=client,
+            firecrawl=firecrawl,
+            max_pages=1,
+            max_posts=10,
+        ).run()
+        self.assertEqual(firecrawl.calls, [])
+        self.assertEqual(summary["firecrawl_fallback_count"], 0)
+        self.assertEqual(summary["firecrawl_calls_used"], 0)
+
+    def test_html_fallback_is_counted_separately_from_firecrawl(self):
+        search_endpoint = search_url("RepTherapy", "review")
+        html_target = old_search_url(search_endpoint)
+        search_html = (
+            '<div class="search-result search-result-link">'
+            f'<a class="search-title" href="https://old.reddit.com/r/RepTherapy/comments/abc/title/">'
+            "Speedy review</a>"
+            '<a class="author">reader</a>'
+            '<time datetime="2026-08-08T00:00:00+00:00"></time>'
+            '<div class="search-result-body"><div class="md"><p>soft leather</p></div></div>'
+            "</div>"
+        )
+        client = JsonOnlyFailClient(text_by_url={html_target: search_html})
+        firecrawl = FakeFirecrawlClient()
+        summary = RedditScraper(
+            self.registry,
+            RunStore(self.run_dir),
+            client=client,
+            firecrawl=firecrawl,
+            max_pages=1,
+            max_posts=10,
+        ).run()
+        self.assertGreater(summary["html_fallback_count"], 0)
+        self.assertEqual(summary["firecrawl_fallback_count"], 0)
+        self.assertEqual(firecrawl.calls, [])
 
     def test_firecrawl_disabled_by_default_is_a_noop(self):
         client = AlwaysFailClient()
