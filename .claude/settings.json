@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install --frozen-lockfile)",
+      "Bash(pnpm test)",
+      "Bash(python3 scripts/validate.py)",
+      "Bash(python3 scripts/score.py --check)",
+      "Bash(python3 -m unittest discover -s tests -v)",
+      "Bash(pnpm exec wrangler deploy --dry-run --config worker/wrangler.jsonc)",
+      "Bash(gh auth status)"
+    ]
+  }
+}
