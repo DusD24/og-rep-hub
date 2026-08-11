@@ -264,6 +264,15 @@ class SiteContractTests(unittest.TestCase):
         ):
             self.assertIn(contract, self.html + self.js)
 
+    def test_all_contribution_paths_submit_through_the_worker(self):
+        for contract in (
+            "CONTRIBUTION_FORMS", "submitContributionForm", "contributionDialogContent",
+            "/issues/suggest-bag", "/issues/submit-source", "/issues/correction-media-removal",
+            "data-contribution-kind", "suggest-bag-form", "submit-source-form", "correction-media-removal-form",
+        ):
+            self.assertIn(contract, self.js)
+        self.assertNotIn("issues/new?template=", self.js)
+
     def test_family_file_is_receipt_first_and_variant_cards_are_compact(self):
         detail = self.js[self.js.index("function renderBagDetail"):self.js.index("function renderResearch")]
         self.assertLess(detail.index("family-hero"), detail.index("family-receipts"))
