@@ -33,7 +33,7 @@ function jsonResponse(value, status = 200) {
   return new Response(JSON.stringify(value), { status, headers: { "Content-Type": "application/json" } });
 }
 
-function createHarness({ turnstile, github, rateLimit = true } = {}) {
+function createHarness({ turnstile, github, rateLimit = true, collections } = {}) {
   const calls = [];
   const fetchImpl = async (input, init = {}) => {
     const url = String(input);
@@ -42,7 +42,11 @@ function createHarness({ turnstile, github, rateLimit = true } = {}) {
     if (url.includes("api.github.com")) return github || jsonResponse({ number: 42, html_url: "https://github.com/DusD24/og-rep-hub/issues/42" }, 201);
     throw new Error(`Unexpected fetch: ${url}`);
   };
-  const handler = workerModule.createWorker({ canonicalReceipts: [RECEIPT], fetchImpl });
+  const handler = workerModule.createWorker({
+    canonicalReceipts: [RECEIPT],
+    collectionIds: collections ? new Set(collections.map(item => item.id)) : undefined,
+    fetchImpl,
+  });
   const env = {
     ALLOWED_ORIGIN: "https://dusd24.github.io",
     ALLOWED_TURNSTILE_HOSTNAME: "dusd24.github.io",
@@ -55,8 +59,8 @@ function createHarness({ turnstile, github, rateLimit = true } = {}) {
   return { handler, env, calls };
 }
 
-function submissionRequest(payload = VALID_PAYLOAD, origin = "https://dusd24.github.io") {
-  return new Request("https://issues.example.test/issues/receipt-update", {
+function submissionRequest(payload = VALID_PAYLOAD, origin = "https://dusd24.github.io", path = "/issues/receipt-update") {
+  return new Request(`https://issues.example.test${path}`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -66,6 +70,35 @@ function submissionRequest(payload = VALID_PAYLOAD, origin = "https://dusd24.git
     body: JSON.stringify(payload),
   });
 }
+
+const VALID_SUGGEST_BAG_PAYLOAD = {
+  brandModel: "Loewe Puzzle",
+  publicUrl: "https://www.reddit.com/r/RepLadies/comments/new/puzzle-review/",
+  sourceSummary: "This public review documents the exact size, hardware, and stitching of the Puzzle bag in detail.",
+  publicDataAcknowledgement: true,
+  website: "",
+  turnstileToken: "turnstile-token",
+};
+
+const VALID_SUBMIT_SOURCE_PAYLOAD = {
+  redditUrl: "https://www.reddit.com/r/RealRepLadies/comments/new/qc-post/",
+  author: "u/example-author",
+  subreddit: "r/RealRepLadies",
+  publicationDate: "2026-08-01",
+  evidenceDetails: "This QC post documents the exact variant, seller name, and hardware finish with clear photos.",
+  publicDataAcknowledgement: true,
+  website: "",
+  turnstileToken: "turnstile-token",
+};
+
+const VALID_CORRECTION_PAYLOAD = {
+  affectedUrl: "https://www.reddit.com/r/RealRepLadies/comments/current/source/",
+  requestType: "correct_source",
+  requestedChange: "The linked source misattributes this receipt to the wrong seller; the post credits a different seller entirely.",
+  publicDataAcknowledgement: true,
+  website: "",
+  turnstileToken: "turnstile-token",
+};
 
 async function responseJson(response) {
   return { response, body: await response.json() };
@@ -262,6 +295,122 @@ test("rate limits, forbidden origins, and GitHub failures return structured erro
     assert.equal(response.status, 502);
     assert.equal(body.code, "github_error");
   });
+});
+
+test("bag suggestion creates a public GitHub issue with the right labels", async () => {
+  if (!workerModule) return;
+  const { handler, env, calls } = createHarness({ turnstile: { success: true, hostname: "dusd24.github.io", action: "suggest_bag" } });
+  const request = submissionRequest(VALID_SUGGEST_BAG_PAYLOAD, "https://dusd24.github.io", "/issues/suggest-bag");
+  const { response, body } = await responseJson(await handler.fetch(request, env));
+  assert.equal(response.status, 200);
+  assert.deepEqual(body, { ok: true, issueNumber: 42, issueUrl: "https://github.com/DusD24/og-rep-hub/issues/42" });
+  const issue = JSON.parse(calls.find(call => call.url.includes("api.github.com")).init.body);
+  assert.equal(issue.title, "[Bag suggestion] Loewe Puzzle");
+  assert.deepEqual(issue.labels, ["research", "bag-collection"]);
+  assert.match(issue.body, /Loewe Puzzle/);
+});
+
+test("bag suggestion validation rejects unsafe or incomplete submissions", async t => {
+  if (!workerModule) return;
+  const cases = [
+    ["missing brand/model", { ...VALID_SUGGEST_BAG_PAYLOAD, brandModel: "" }, "invalid_brand_model"],
+    ["disallowed URL host", { ...VALID_SUGGEST_BAG_PAYLOAD, publicUrl: "https://example.com/post" }, "invalid_public_url"],
+    ["short summary", { ...VALID_SUGGEST_BAG_PAYLOAD, sourceSummary: "Too short" }, "invalid_source_summary"],
+    ["missing acknowledgement", { ...VALID_SUGGEST_BAG_PAYLOAD, publicDataAcknowledgement: false }, "acknowledgement_required"],
+    ["honeypot", { ...VALID_SUGGEST_BAG_PAYLOAD, website: "bot.example" }, "invalid_submission"],
+  ];
+  for (const [name, payload, code] of cases) await t.test(name, async () => {
+    const { handler, env, calls } = createHarness();
+    const { response, body } = await responseJson(await handler.fetch(submissionRequest(payload, "https://dusd24.github.io", "/issues/suggest-bag"), env));
+    assert.equal(response.status, 400);
+    assert.equal(body.code, code);
+    assert.equal(calls.length, 0);
+  });
+});
+
+test("Reddit source submission creates a public GitHub issue with the right labels", async () => {
+  if (!workerModule) return;
+  const { handler, env, calls } = createHarness({ turnstile: { success: true, hostname: "dusd24.github.io", action: "submit_source" } });
+  const request = submissionRequest(VALID_SUBMIT_SOURCE_PAYLOAD, "https://dusd24.github.io", "/issues/submit-source");
+  const { response, body } = await responseJson(await handler.fetch(request, env));
+  assert.equal(response.status, 200);
+  assert.deepEqual(body, { ok: true, issueNumber: 42, issueUrl: "https://github.com/DusD24/og-rep-hub/issues/42" });
+  const issue = JSON.parse(calls.find(call => call.url.includes("api.github.com")).init.body);
+  assert.equal(issue.title, "[Reddit source] u/example-author on r/RealRepLadies");
+  assert.deepEqual(issue.labels, ["research", "source-review"]);
+  assert.match(issue.body, /RealRepLadies/);
+});
+
+test("Reddit source validation rejects unsafe or incomplete submissions", async t => {
+  if (!workerModule) return;
+  const cases = [
+    ["imgur host rejected", { ...VALID_SUBMIT_SOURCE_PAYLOAD, redditUrl: "https://imgur.com/abc123" }, "invalid_reddit_url"],
+    ["disallowed URL host", { ...VALID_SUBMIT_SOURCE_PAYLOAD, redditUrl: "https://example.com/post" }, "invalid_reddit_url"],
+    ["missing author", { ...VALID_SUBMIT_SOURCE_PAYLOAD, author: "" }, "invalid_author"],
+    ["missing subreddit", { ...VALID_SUBMIT_SOURCE_PAYLOAD, subreddit: "" }, "invalid_subreddit"],
+    ["missing publication date", { ...VALID_SUBMIT_SOURCE_PAYLOAD, publicationDate: "" }, "invalid_publication_date"],
+    ["short evidence details", { ...VALID_SUBMIT_SOURCE_PAYLOAD, evidenceDetails: "Too short" }, "invalid_evidence_details"],
+  ];
+  for (const [name, payload, code] of cases) await t.test(name, async () => {
+    const { handler, env, calls } = createHarness();
+    const { response, body } = await responseJson(await handler.fetch(submissionRequest(payload, "https://dusd24.github.io", "/issues/submit-source"), env));
+    assert.equal(response.status, 400);
+    assert.equal(body.code, code);
+    assert.equal(calls.length, 0);
+  });
+});
+
+test("correction/media-removal creates a public GitHub issue with the right labels", async () => {
+  if (!workerModule) return;
+  const { handler, env, calls } = createHarness({ turnstile: { success: true, hostname: "dusd24.github.io", action: "correction_media_removal" } });
+  const request = submissionRequest(VALID_CORRECTION_PAYLOAD, "https://dusd24.github.io", "/issues/correction-media-removal");
+  const { response, body } = await responseJson(await handler.fetch(request, env));
+  assert.equal(response.status, 200);
+  assert.deepEqual(body, { ok: true, issueNumber: 42, issueUrl: "https://github.com/DusD24/og-rep-hub/issues/42" });
+  const issue = JSON.parse(calls.find(call => call.url.includes("api.github.com")).init.body);
+  assert.equal(issue.title, "[Correction or media] Correct a source or attribution");
+  assert.deepEqual(issue.labels, ["triage", "source-review"]);
+});
+
+test("correction/media-removal accepts a valid internal collection route", async () => {
+  if (!workerModule) return;
+  const { handler, env, calls } = createHarness({
+    collections: [{ id: "collection-1" }],
+    turnstile: { success: true, hostname: "dusd24.github.io", action: "correction_media_removal" },
+  });
+  const payload = { ...VALID_CORRECTION_PAYLOAD, affectedUrl: "#bag/collection-1" };
+  const request = submissionRequest(payload, "https://dusd24.github.io", "/issues/correction-media-removal");
+  const { response } = await responseJson(await handler.fetch(request, env));
+  assert.equal(response.status, 200);
+  const issue = JSON.parse(calls.find(call => call.url.includes("api.github.com")).init.body);
+  assert.match(issue.body, /#bag\/collection-1/);
+});
+
+test("correction/media-removal validation rejects unsafe or incomplete submissions", async t => {
+  if (!workerModule) return;
+  const cases = [
+    ["disallowed URL host", { ...VALID_CORRECTION_PAYLOAD, affectedUrl: "https://example.com/post" }, "invalid_affected_url"],
+    ["unknown collection route", { ...VALID_CORRECTION_PAYLOAD, affectedUrl: "#bag/unknown-collection" }, "invalid_affected_url"],
+    ["unsupported request type", { ...VALID_CORRECTION_PAYLOAD, requestType: "other" }, "invalid_request_type"],
+    ["short requested change", { ...VALID_CORRECTION_PAYLOAD, requestedChange: "Too short" }, "invalid_requested_change"],
+    ["missing acknowledgement", { ...VALID_CORRECTION_PAYLOAD, publicDataAcknowledgement: false }, "acknowledgement_required"],
+  ];
+  for (const [name, payload, code] of cases) await t.test(name, async () => {
+    const { handler, env, calls } = createHarness();
+    const { response, body } = await responseJson(await handler.fetch(submissionRequest(payload, "https://dusd24.github.io", "/issues/correction-media-removal"), env));
+    assert.equal(response.status, 400);
+    assert.equal(body.code, code);
+    assert.equal(calls.length, 0);
+  });
+});
+
+test("unknown submission routes return not_found", async () => {
+  if (!workerModule) return;
+  const { handler, env } = createHarness();
+  const request = submissionRequest(VALID_PAYLOAD, "https://dusd24.github.io", "/issues/unknown-type");
+  const { response, body } = await responseJson(await handler.fetch(request, env));
+  assert.equal(response.status, 404);
+  assert.equal(body.code, "not_found");
 });
 
 test("health and preflight expose only the production origin", async () => {

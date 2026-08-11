@@ -509,9 +509,9 @@ function renderResearch() {
   const leads = scanLogs.flatMap(scan => (scan.candidate_sources || []).map(item => ({ ...item, scan_id: scan.id, checked_at: scan.checked_at, source_url: scan.source_url, subreddit_focus: scan.subreddit_focus })));
   const leadSubreddits = unique(leads.map(item => item.subreddit || item.subreddit_focus)).map(value => `r/${value}`);
   const forms = [
-    ["Suggest a Bag", "Add a collection candidate with public source URLs and no private contact details.", "suggest-a-bag.yml"],
-    ["Submit a Reddit Source", "Add a review, PSP/QC post, auth comparison, or in-hand receipt with provenance.", "submit-reddit-source.yml"],
-    ["Correction or Media Removal", "Flag a source, attribution, image, or research note for review.", "correction-or-media-removal.yml"]
+    ["Suggest a Bag", "Add a collection candidate with public source URLs and no private contact details.", "suggest-bag"],
+    ["Submit a Reddit Source", "Add a review, PSP/QC post, auth comparison, or in-hand receipt with provenance.", "submit-source"],
+    ["Correction or Media Removal", "Flag a source, attribution, image, or research note for review.", "correction-media-removal"]
   ];
   const campaignMarkup = campaigns.map(item => `<article class="compact-card research-card"><p class="eyebrow">${escapeHtml(label(item.status))}</p><h3>${escapeHtml(item.name)}</h3><p class="clamped-text">${escapeHtml(item.scope)}</p><div class="card-spacer"></div><button class="card-action dialog-trigger" type="button" data-dialog-kind="campaign" data-dialog-id="${escapeHtml(item.id)}">Read more</button></article>`).join("");
   const laneMarkup = lanes.map(item => `<article class="compact-card research-card"><p class="eyebrow">Independent lane</p><h3>r/${escapeHtml(item.subreddit_focus)}</h3><p class="metadata">${escapeHtml(label(item.status))} · ${plural(item.families_checked || 0, "collection")} checked</p><p class="clamped-text">${escapeHtml(item.scope)}</p><div class="card-spacer"></div><button class="card-action dialog-trigger" type="button" data-dialog-kind="lane" data-dialog-id="${escapeHtml(item.id)}">Read more</button></article>`).join("");
@@ -522,7 +522,7 @@ function renderResearch() {
     ${leads.length ? `<section class="research-section"><div class="subsection-heading"><div><p class="eyebrow">Latest scan</p><h2>Recent public scan leads</h2></div><p>${leadSubreddits.length ? `From ${escapeHtml(leadSubreddits.join(", "))}. ` : ""}Leads stay separate until normalized.</p></div><div class="auto-grid">${leadMarkup}</div></section>` : ""}
     <section class="research-section glossary-section"><div class="subsection-heading"><div><p class="eyebrow">First-use notes</p><h2>Rep vocabulary</h2></div>${glossarySource}</div><dl class="glossary-grid">${glossary.map(item => `<div><dt>${escapeHtml(item.term)}</dt><dd>${escapeHtml(item.definition)}</dd></div>`).join("")}</dl></section>
     <section class="research-section queue-section"><div class="subsection-heading"><div><p class="eyebrow">Contribution queue</p><h2>Help Fill the Gaps</h2></div><p>Every submission needs a public URL and no private details.</p></div>${queue.length ? `<div class="queue-table-wrap"><table class="queue-table"><thead><tr><th>Priority</th><th>Collection</th><th>Exact ask</th><th>Status</th></tr></thead><tbody>${queue.map(item => { const bag = state.maps.bags.get(item.bag_id); const family = bag ? state.maps.families.get(bag.family_id) : null; return `<tr><td>${escapeHtml(item.priority)}</td><td>${escapeHtml(family?.model || "Collection gap")}</td><td>${escapeHtml(item.question)}</td><td>${escapeHtml(label(item.status))}</td></tr>`; }).join("")}</tbody></table></div>` : '<p class="empty">No open research questions are queued.</p>'}</section>
-    <section class="research-section contribution-section"><p class="eyebrow">Public contribution paths</p><h2>Bring a receipt</h2><div class="contribution-grid">${forms.map(([title, description, template]) => `<a class="contribution-card" href="https://github.com/DusD24/og-rep-hub/issues/new?template=${encodeURIComponent(template)}" target="_blank" rel="noopener noreferrer"><strong>${escapeHtml(title)} <span aria-hidden="true">↗</span></strong><span>${escapeHtml(description)}</span></a>`).join("")}</div></section>`;
+    <section class="research-section contribution-section"><p class="eyebrow">Public contribution paths</p><h2>Bring a receipt</h2><div class="contribution-grid">${forms.map(([title, description, kind]) => `<button class="contribution-card dialog-trigger" type="button" data-dialog-kind="contribute" data-dialog-id="${escapeHtml(kind)}"><strong>${escapeHtml(title)}</strong><span>${escapeHtml(description)}</span></button>`).join("")}</div></section>`;
 }
 
 function sellerDialog(seller) {
@@ -569,6 +569,7 @@ function dialogContent(kind, id) {
   if (kind === "seller") return sellerDialog(state.maps.sellers.get(id));
   if (kind === "factory") return factoryDialog(state.maps.factories.get(id));
   if (kind === "notes") return notesDialog(state.maps.families.get(id));
+  if (kind === "contribute") return contributionDialogContent(id);
   return researchDialog(kind, id);
 }
 
@@ -585,28 +586,201 @@ function destroyTurnstileWidget() {
   turnstileWidgetId = null;
 }
 
-function mountTurnstile(attempt = 0) {
-  const form = document.querySelector("#receipt-update-form");
+function mountTurnstile({ formSelector = "#receipt-update-form", turnstileSelector = "#receipt-turnstile", action = "receipt_update", attempt = 0 } = {}) {
+  const form = document.querySelector(formSelector);
   if (!form) return;
   const siteKey = state.site_config?.turnstile_site_key;
   const status = form.querySelector("[data-form-status]");
   if (!siteKey) {
-    status.textContent = "Receipt updates are temporarily unavailable while the submission service is configured.";
+    status.textContent = "Submissions are temporarily unavailable while the submission service is configured.";
     return;
   }
   if (!window.turnstile?.render) {
-    if (attempt < 40) window.setTimeout(() => mountTurnstile(attempt + 1), 100);
+    if (attempt < 40) window.setTimeout(() => mountTurnstile({ formSelector, turnstileSelector, action, attempt: attempt + 1 }), 100);
     else status.textContent = "The verification challenge could not load. Check your connection and try again.";
     return;
   }
   destroyTurnstileWidget();
-  turnstileWidgetId = window.turnstile.render("#receipt-turnstile", {
+  turnstileWidgetId = window.turnstile.render(turnstileSelector, {
     sitekey: siteKey,
-    action: "receipt_update",
+    action,
     callback(token) { form.elements.turnstileToken.value = token; },
     "expired-callback"() { form.elements.turnstileToken.value = ""; },
     "error-callback"() { status.textContent = "Verification could not load. Please try again."; },
   });
+}
+
+const CONTRIBUTION_FORMS = {
+  "suggest-bag": {
+    title: "Suggest a Bag",
+    formId: "suggest-bag-form",
+    turnstileId: "suggest-bag-turnstile",
+    turnstileAction: "suggest_bag",
+    endpointPath: "/issues/suggest-bag",
+    successTitle: "Suggestion is in the queue",
+    successMessage: "Your bag suggestion is now public.",
+    renderForm: () => `<form id="suggest-bag-form" class="receipt-update-form" data-contribution-kind="suggest-bag" novalidate>
+      <p class="form-intro">Add a collection candidate with public source URLs. The submission creates a public GitHub issue without sending you to GitHub.</p>
+      <label>Brand and model
+        <input name="brandModel" type="text" required maxlength="200" placeholder="Example: Loewe Puzzle">
+      </label>
+      <label>Public source URL
+        <input name="publicUrl" type="url" required placeholder="https://www.reddit.com/...">
+        <span class="field-help">A public Reddit or Imgur link.</span>
+      </label>
+      <label>What does the source document?
+        <textarea name="sourceSummary" required minlength="40" maxlength="4000" rows="6" placeholder="Include exact size, material, hardware, evidence type, author, subreddit, and unresolved gaps when stated."></textarea>
+        <span class="field-help">40–4,000 characters. Do not include private messages or personal information.</span>
+      </label>
+      <label class="form-confirm"><input name="publicDataAcknowledgement" type="checkbox" required> I understand this creates a public issue, and I have not included private or identifying information.</label>
+      <label class="form-honeypot" aria-hidden="true">Website <input name="website" tabindex="-1" autocomplete="off"></label>
+      <input name="turnstileToken" type="hidden">
+      <div id="suggest-bag-turnstile" class="turnstile-host"></div>
+      <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+      <button class="form-submit" type="submit">Create public suggestion</button>
+    </form>`,
+    buildPayload: form => ({
+      brandModel: form.elements.brandModel.value.trim(),
+      publicUrl: form.elements.publicUrl.value.trim(),
+      sourceSummary: form.elements.sourceSummary.value.trim(),
+      publicDataAcknowledgement: form.elements.publicDataAcknowledgement.checked,
+      website: form.elements.website.value,
+      turnstileToken: form.elements.turnstileToken.value,
+    }),
+  },
+  "submit-source": {
+    title: "Submit a Reddit Source",
+    formId: "submit-source-form",
+    turnstileId: "submit-source-turnstile",
+    turnstileAction: "submit_source",
+    endpointPath: "/issues/submit-source",
+    successTitle: "Source is in the queue",
+    successMessage: "Your Reddit source is now public.",
+    renderForm: () => `<form id="submit-source-form" class="receipt-update-form" data-contribution-kind="submit-source" novalidate>
+      <p class="form-intro">Submit a public review, PSP/QC post, auth comparison, or in-hand receipt. The submission creates a public GitHub issue without sending you to GitHub.</p>
+      <label>Reddit post URL
+        <input name="redditUrl" type="url" required placeholder="https://www.reddit.com/r/...">
+      </label>
+      <div class="form-grid">
+        <label>Reddit author <input name="author" type="text" required maxlength="100" placeholder="u/example"></label>
+        <label>Subreddit <input name="subreddit" type="text" required maxlength="100" placeholder="r/RealRepLadies"></label>
+      </div>
+      <label>Publication date
+        <input name="publicationDate" type="text" required maxlength="100" placeholder="YYYY-MM-DD or explain if only a relative date is visible">
+      </label>
+      <label>Evidence details
+        <textarea name="evidenceDetails" required minlength="40" maxlength="4000" rows="6" placeholder="Describe the exact variant, evidence type, seller/factory names as reported, media provenance, and limitations."></textarea>
+        <span class="field-help">40–4,000 characters. Do not include private messages or personal information.</span>
+      </label>
+      <label class="form-confirm"><input name="publicDataAcknowledgement" type="checkbox" required> I understand this creates a public issue, and I have not included private or identifying information.</label>
+      <label class="form-honeypot" aria-hidden="true">Website <input name="website" tabindex="-1" autocomplete="off"></label>
+      <input name="turnstileToken" type="hidden">
+      <div id="submit-source-turnstile" class="turnstile-host"></div>
+      <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+      <button class="form-submit" type="submit">Create public submission</button>
+    </form>`,
+    buildPayload: form => ({
+      redditUrl: form.elements.redditUrl.value.trim(),
+      author: form.elements.author.value.trim(),
+      subreddit: form.elements.subreddit.value.trim(),
+      publicationDate: form.elements.publicationDate.value.trim(),
+      evidenceDetails: form.elements.evidenceDetails.value.trim(),
+      publicDataAcknowledgement: form.elements.publicDataAcknowledgement.checked,
+      website: form.elements.website.value,
+      turnstileToken: form.elements.turnstileToken.value,
+    }),
+  },
+  "correction-media-removal": {
+    title: "Correction or Media Removal",
+    formId: "correction-media-removal-form",
+    turnstileId: "correction-media-removal-turnstile",
+    turnstileAction: "correction_media_removal",
+    endpointPath: "/issues/correction-media-removal",
+    successTitle: "Request is in the queue",
+    successMessage: "Your correction request is now public.",
+    renderForm: () => `<form id="correction-media-removal-form" class="receipt-update-form" data-contribution-kind="correction-media-removal" novalidate>
+      <p class="form-intro">Report an incorrect source, attribution, image provenance issue, or media-removal request. The submission creates a public GitHub issue without sending you to GitHub.</p>
+      <label>Public URL or collection route
+        <input name="affectedUrl" type="text" required placeholder="https://www.reddit.com/... or #bag/bag-family-...">
+      </label>
+      <label>Request type
+        <select name="requestType" required>
+          <option value="">Choose one</option>
+          <option value="correct_source">Correct a source or attribution</option>
+          <option value="remove_media">Remove or replace media</option>
+          <option value="correct_reference">Correct a variant, seller, or factory reference</option>
+          <option value="broken_link">Report a broken public link</option>
+        </select>
+      </label>
+      <label>Requested change
+        <textarea name="requestedChange" required minlength="40" maxlength="4000" rows="6" placeholder="Explain what is wrong, what should change, and which public source supports the request."></textarea>
+        <span class="field-help">40–4,000 characters. Do not include private messages or personal information.</span>
+      </label>
+      <label class="form-confirm"><input name="publicDataAcknowledgement" type="checkbox" required> I understand this creates a public issue, and I have not included private or identifying information.</label>
+      <label class="form-honeypot" aria-hidden="true">Website <input name="website" tabindex="-1" autocomplete="off"></label>
+      <input name="turnstileToken" type="hidden">
+      <div id="correction-media-removal-turnstile" class="turnstile-host"></div>
+      <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+      <button class="form-submit" type="submit">Create public request</button>
+    </form>`,
+    buildPayload: form => ({
+      affectedUrl: form.elements.affectedUrl.value.trim(),
+      requestType: form.elements.requestType.value,
+      requestedChange: form.elements.requestedChange.value.trim(),
+      publicDataAcknowledgement: form.elements.publicDataAcknowledgement.checked,
+      website: form.elements.website.value,
+      turnstileToken: form.elements.turnstileToken.value,
+    }),
+  },
+};
+
+function contributionDialogContent(kind) {
+  const config = CONTRIBUTION_FORMS[kind];
+  return config && { kicker: "Public contribution", title: config.title, body: config.renderForm() };
+}
+
+async function submitContributionForm(kind, form) {
+  const config = CONTRIBUTION_FORMS[kind];
+  const status = form.querySelector("[data-form-status]");
+  const submit = form.querySelector("[type=submit]");
+  const endpoint = String(state.site_config?.issue_intake_url || "").replace(/\/$/, "");
+  if (!config || !endpoint) {
+    status.textContent = "Submissions are temporarily unavailable while the submission service is configured.";
+    return;
+  }
+  if (!form.reportValidity()) return;
+  if (!form.elements.turnstileToken.value) {
+    status.textContent = "Complete the verification challenge before submitting.";
+    return;
+  }
+  const payload = config.buildPayload(form);
+  form.setAttribute("aria-busy", "true");
+  submit.disabled = true;
+  status.textContent = "Creating the public submission…";
+  try {
+    const response = await fetch(`${endpoint}${config.endpointPath}`, {
+      method: "POST",
+      mode: "cors",
+      credentials: "omit",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    const result = await response.json().catch(() => ({ ok: false, message: "The submission service returned an unreadable response." }));
+    if (!response.ok || !result.ok) throw new Error(result.message || "The submission could not be created.");
+    setDialogContent({
+      kicker: "Request received",
+      title: config.successTitle,
+      body: `<div class="form-success"><p>${escapeHtml(config.successMessage)}</p><p><a class="card-action" href="${escapeHtml(httpsUrl(result.issueUrl))}" target="_blank" rel="noopener noreferrer">View issue #${escapeHtml(result.issueNumber)} <span aria-hidden="true">↗</span></a></p></div>`,
+    });
+    document.querySelector("#dialog-title").focus({ preventScroll: true });
+  } catch (error) {
+    status.textContent = error.message;
+    status.classList.add("error");
+    resetTurnstileAfterError(form);
+  } finally {
+    form.removeAttribute("aria-busy");
+    submit.disabled = false;
+  }
 }
 
 function renderReceiptUpdateForm(item) {
@@ -737,6 +911,10 @@ function openDialog(opener) {
   document.documentElement.classList.add("dialog-open");
   document.body.classList.add("dialog-open");
   document.querySelector("#content-dialog").showModal();
+  if (opener.dataset.dialogKind === "contribute") {
+    const config = CONTRIBUTION_FORMS[opener.dataset.dialogId];
+    if (config) mountTurnstile({ formSelector: `#${config.formId}`, turnstileSelector: `#${config.turnstileId}`, action: config.turnstileAction });
+  }
 }
 
 function closeDialog() {
@@ -910,9 +1088,15 @@ function bindControls() {
     }
   });
   document.body.addEventListener("submit", event => {
-    if (!event.target.matches("#receipt-update-form")) return;
-    event.preventDefault();
-    submitReceiptUpdate(event.target);
+    if (event.target.matches("#receipt-update-form")) {
+      event.preventDefault();
+      return submitReceiptUpdate(event.target);
+    }
+    const kind = event.target.dataset.contributionKind;
+    if (kind && CONTRIBUTION_FORMS[kind]) {
+      event.preventDefault();
+      return submitContributionForm(kind, event.target);
+    }
   });
   const dialog = document.querySelector("#content-dialog");
   dialog.addEventListener("click", event => { if (event.target === dialog) closeDialog(); });

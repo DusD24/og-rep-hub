@@ -1,10 +1,21 @@
-# Receipt-update Worker
+# Issue-intake Worker
 
-This narrowly scoped Cloudflare Worker accepts anonymous receipt-update requests from the production OG Rep Hub Pages origin. It verifies Turnstile, applies a per-IP Cloudflare rate limit, validates and normalizes allowed public evidence URLs, resolves canonical receipt metadata server-side, and creates a public issue in `DusD24/og-rep-hub`.
+This narrowly scoped Cloudflare Worker accepts anonymous submissions from the production OG Rep Hub Pages origin for all four contribution paths — receipt updates, bag suggestions, Reddit source submissions, and correction/media-removal requests. It verifies Turnstile, applies a per-IP Cloudflare rate limit, validates and normalizes allowed public evidence URLs, resolves canonical receipt/collection metadata server-side, and creates a public issue in `DusD24/og-rep-hub`.
+
+## Routes
+
+| Route | Turnstile action | Labels |
+| --- | --- | --- |
+| `POST /issues/receipt-update` | `receipt_update` | `receipt-update`, `research` (+ `source-review` for source/media-review requests) |
+| `POST /issues/suggest-bag` | `suggest_bag` | `research`, `bag-collection` |
+| `POST /issues/submit-source` | `submit_source` | `research`, `source-review` |
+| `POST /issues/correction-media-removal` | `correction_media_removal` | `triage`, `source-review` |
+
+`GET /health` reports the deployed build SHA.
 
 ## One-time setup
 
-1. Create a Cloudflare Turnstile widget for `dusd24.github.io`. The form and Worker use the action `receipt_update`.
+1. Create a Cloudflare Turnstile widget for `dusd24.github.io`. All four forms share this one site key; each form passes its own `action` (see the table above) and the Worker checks it server-side — no per-route Cloudflare dashboard configuration is needed.
 2. Create a repository-scoped GitHub token with Issues write access only.
 3. Store runtime secrets directly in Cloudflare; never add them to repository variables or files:
 
@@ -24,10 +35,10 @@ This narrowly scoped Cloudflare Worker accepts anonymous receipt-update requests
    - `TURNSTILE_SITE_KEY`: the public Turnstile site key
    - `GA_MEASUREMENT_ID` (optional): a GA4 measurement id (`G-XXXXXXXXXX`). Leave unset to ship with no analytics. When set, the site only loads Google Analytics after a visitor accepts the cookie-consent banner.
 
-6. Keep the repository labels `receipt-update`, `research`, `source-review`, and `bag-collection` provisioned. `source-review` is added to source/media-review requests only.
+6. Keep the repository labels `receipt-update`, `research`, `source-review`, `bag-collection`, and `triage` provisioned. `source-review` is added to source/media-review and correction requests; `triage` is added to correction/media-removal requests only.
 
 ## Release behavior
 
 Run `pnpm test` and a Wrangler dry run locally. The release workflow deploys the Worker with the Git commit SHA as `BUILD_SHA`, generates the public Pages configuration only inside the Pages artifact, and publishes the same SHA in `build-meta.json`. Pages will not deploy if the Worker deployment fails, and the workflow remains incomplete until both public endpoints report the same SHA.
 
-The Worker allows `POST` and production-origin `OPTIONS` only at `/issues/receipt-update`. `GET /health` reports the deployed build SHA. Secrets stay in Cloudflare; the static site contains only the Worker URL and public Turnstile site key.
+The Worker allows `POST` and production-origin `OPTIONS` only at the routes above. Secrets stay in Cloudflare; the static site contains only the Worker URL and public Turnstile site key.

@@ -4,11 +4,15 @@ Thanks for helping make the research trail more useful. The best contributions a
 
 ## Choose the right contribution path
 
-- [Suggest a bag](https://github.com/DusD24/og-rep-hub/issues/new?template=suggest-a-bag.yml) when a collection is missing from the guide.
-- [Submit a Reddit source](https://github.com/DusD24/og-rep-hub/issues/new?template=submit-reddit-source.yml) for a public review, PSP/QC post, auth comparison, factory comparison, or long-term wear report.
-- [Request a correction or media removal](https://github.com/DusD24/og-rep-hub/issues/new?template=correction-or-media-removal.yml) for incorrect attribution, broken provenance, factual corrections, or image-removal requests.
+The "Bring a receipt" section on the [Research page](https://dusd24.github.io/og-rep-hub/#research) has an in-page form for each path below. Forms submit anonymously through a Cloudflare Worker and file a public GitHub issue without leaving the site:
 
-Blank issues are disabled so each request arrives with the context needed for review.
+- **Suggest a Bag** when a collection is missing from the guide.
+- **Submit a Reddit Source** for a public review, PSP/QC post, auth comparison, factory comparison, or long-term wear report.
+- **Correction or Media Removal** for incorrect attribution, broken provenance, factual corrections, or image-removal requests.
+
+Each evidence card also has a **Request a receipt update** button for changes tied to a specific receipt.
+
+If you'd rather file directly on GitHub (or JavaScript is unavailable), the same three request types have issue templates: [Suggest a bag](https://github.com/DusD24/og-rep-hub/issues/new?template=suggest-a-bag.yml), [Submit a Reddit source](https://github.com/DusD24/og-rep-hub/issues/new?template=submit-reddit-source.yml), [Request a correction or media removal](https://github.com/DusD24/og-rep-hub/issues/new?template=correction-or-media-removal.yml). Blank issues are disabled so each request arrives with the context needed for review.
 
 ## Public-source requirements
 

@@ -40,13 +40,13 @@ The historical Neverfull campaign remains available as source material while the
 
 ## Contribute a receipt
 
-Good research gets better when the source trail stays public and specific. You can:
+Good research gets better when the source trail stays public and specific. The "Bring a receipt" section on the live site's Research page has an in-page, anonymous form for each of these:
 
-- [Suggest a bag collection](https://github.com/DusD24/og-rep-hub/issues/new?template=suggest-a-bag.yml)
-- [Submit a public Reddit source](https://github.com/DusD24/og-rep-hub/issues/new?template=submit-reddit-source.yml)
-- [Request a correction or media removal](https://github.com/DusD24/og-rep-hub/issues/new?template=correction-or-media-removal.yml)
+- Suggest a bag collection
+- Submit a public Reddit source
+- Request a correction or media removal
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting anything. Public URLs and public post context are welcome; private messages, payment details, addresses, passwords, and unverified contact information are not.
+Each evidence card also has its own "Request a receipt update" button. All four submit through a Cloudflare Worker straight to a public GitHub issue — no GitHub account needed. See [CONTRIBUTING.md](CONTRIBUTING.md) before submitting anything. Public URLs and public post context are welcome; private messages, payment details, addresses, passwords, and unverified contact information are not.
 
 ## Run it locally
 
@@ -76,9 +76,9 @@ Only public URLs and public post context belong in this repository. Seller and f
 
 OG Rep Hub is not affiliated with any brand, seller, factory, subreddit, or Reddit. It is independent public-interest research and does not facilitate purchases.
 
-## Receipt-update service and release setup
+## Submission service and release setup
 
-Receipt details can open a branded, anonymous update form. Accepted submissions become public GitHub issues; the form collects no contact details. The Worker resolves the receipt, current source, collection, and variant from the bundled canonical dataset instead of trusting browser-supplied metadata. See [worker/README.md](worker/README.md) for the one-time Cloudflare and GitHub configuration.
+All four contribution paths — receipt updates, bag suggestions, Reddit source submissions, and correction/media-removal requests — open a branded, anonymous in-page form. Accepted submissions become public GitHub issues; none of the forms collect contact details. The Worker resolves receipt/collection metadata from the bundled canonical dataset instead of trusting browser-supplied metadata, and validates every submitted URL against an HTTPS Reddit/Imgur allowlist. See [worker/README.md](worker/README.md) for the one-time Cloudflare and GitHub configuration.
 
 Pull requests run the Python, browser-logic, Worker, LFS, deterministic-score, validation, and Worker-bundle checks. A `main` release deploys the Worker first and Pages second, then polls the public `build-meta.json` and Worker `/health` markers until both report the merged commit SHA.
 
