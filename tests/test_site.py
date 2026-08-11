@@ -273,6 +273,15 @@ class SiteContractTests(unittest.TestCase):
             self.assertIn(contract, self.js)
         self.assertNotIn("issues/new?template=", self.js)
 
+    def test_research_starts_with_cloudflare_backed_contribution_paths(self):
+        research = self.js[self.js.index("function renderResearch"):self.js.index("function sellerDialog")]
+        self.assertIn("CONTRIBUTION_LINKS", self.js)
+        self.assertIn("function renderContributionCards", self.js)
+        self.assertLess(research.index("contribution-section"), research.index("How this corpus grew"))
+        self.assertIn("Contribute to the research", research)
+        for kind in ("suggest-bag", "submit-source", "correction-media-removal"):
+            self.assertIn(kind, research)
+
     def test_family_file_is_receipt_first_and_variant_cards_are_compact(self):
         detail = self.js[self.js.index("function renderBagDetail"):self.js.index("function renderResearch")]
         self.assertLess(detail.index("family-hero"), detail.index("family-receipts"))
