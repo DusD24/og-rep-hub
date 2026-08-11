@@ -304,4 +304,3 @@ git status --short
 ```
 
 Expected: no whitespace errors, only the design/plan and intended frontend/test files are committed, and the unrelated `docs/research/moderator-outreach-drafts.md` remains untracked and untouched.
-
