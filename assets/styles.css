@@ -492,6 +492,11 @@ button.text-link { padding: 0; color: var(--oxblood); background: none; border: 
 .queue-table th { color: var(--muted); font-size: 9px; letter-spacing: .09em; text-transform: uppercase; }
 .queue-table td { font-size: 12px; line-height: 1.45; }
 .contribution-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.catalog-contribution { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, .55fr); gap: 24px; align-items: center; }
+.catalog-contribution h2, .bag-contribution h2 { margin: 5px 0 9px; font-size: clamp(27px, 4vw, 38px); }
+.catalog-contribution p, .bag-contribution > p { max-width: 650px; color: var(--muted); line-height: 1.5; }
+.contribution-grid-single { grid-template-columns: minmax(0, 360px); justify-content: end; }
+.contribution-grid-two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .contribution-card { min-width: 0; min-height: 112px; padding: 15px; display: flex; flex-direction: column; gap: 7px; color: var(--ink); background: #f5ede3; border: 0; border-radius: 9px; text-decoration: none; text-align: left; width: 100%; }
 .contribution-card strong { color: var(--oxblood); }
 .contribution-card span { color: var(--muted); font-size: 12px; line-height: 1.45; }
@@ -619,7 +624,8 @@ button.text-link { padding: 0; color: var(--oxblood); background: none; border: 
   .family-hero { grid-template-columns: minmax(220px, .8fr) minmax(0, 1.2fr); }
   .variant-card { grid-template-columns: 1fr; }
   .variant-thumb { min-height: 150px; aspect-ratio: 16 / 9; }
-  .contribution-grid { grid-template-columns: 1fr; }
+  .catalog-contribution { grid-template-columns: 1fr; gap: 12px; }
+  .contribution-grid, .contribution-grid-single, .contribution-grid-two { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 700px) {

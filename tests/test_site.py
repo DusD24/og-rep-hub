@@ -282,6 +282,23 @@ class SiteContractTests(unittest.TestCase):
         for kind in ("suggest-bag", "submit-source", "correction-media-removal"):
             self.assertIn(kind, research)
 
+    def test_catalog_ends_with_suggest_a_bag_callout(self):
+        catalog = self.html[self.html.index('<section id="bags"'):self.html.index('<section id="sellers"')]
+        self.assertIn('id="catalog-contribution-title"', catalog)
+        self.assertLess(catalog.index('id="bag-results"'), catalog.index('id="catalog-contribution-title"'))
+        self.assertIn('data-dialog-kind="contribute"', catalog)
+        self.assertIn('data-dialog-id="suggest-bag"', catalog)
+        self.assertIn("Don’t see your bag?", catalog)
+
+    def test_bag_detail_ends_with_source_and_correction_actions(self):
+        detail = self.js[self.js.index("function renderBagDetail"):self.js.index("const CONTRIBUTION_LINKS")]
+        self.assertIn("bag-contribution-title", detail)
+        self.assertLess(detail.index("support-grid"), detail.index("bag-contribution-title"))
+        self.assertIn('renderContributionCards(["submit-source", "correction-media-removal"], "two")', detail)
+        contribution = detail[detail.index("bag-contribution-title"):]
+        self.assertNotIn("suggest-bag", contribution)
+        self.assertIn("Help improve this bag’s research", contribution)
+
     def test_family_file_is_receipt_first_and_variant_cards_are_compact(self):
         detail = self.js[self.js.index("function renderBagDetail"):self.js.index("function renderResearch")]
         self.assertLess(detail.index("family-hero"), detail.index("family-receipts"))
@@ -312,6 +329,9 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn(".card-spacer", self.css)
         self.assertIn(".queue-table", self.css)
         self.assertIn(".contribution-grid", self.css)
+        self.assertIn(".catalog-contribution", self.css)
+        self.assertIn(".contribution-grid-two", self.css)
+        self.assertIn(".contribution-grid-single", self.css)
         mobile = self.css[self.css.index("@media (max-width: 700px)"):]
         self.assertIn(".variant-grid", mobile)
         self.assertIn("grid-template-columns: 1fr", mobile)
