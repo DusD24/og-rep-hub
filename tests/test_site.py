@@ -273,6 +273,21 @@ class SiteContractTests(unittest.TestCase):
             self.assertIn(contract, self.js)
         self.assertNotIn("issues/new?template=", self.js)
 
+        shared_launcher = self.js[self.js.index("function renderContributionCards"):self.js.index("function renderResearch")]
+        for contract in (
+            'class="contribution-card dialog-trigger"',
+            'data-dialog-kind="contribute"',
+            'data-dialog-id="${escapeHtml(item.kind)}"',
+        ):
+            self.assertIn(contract, shared_launcher)
+
+        dialog_router = self.js[self.js.index("function dialogContent"):self.js.index("function setDialogContent")]
+        self.assertIn('if (kind === "contribute") return contributionDialogContent(id);', dialog_router)
+
+        click_dispatch = self.js[self.js.index("function bindControls"):self.js.index("function loadAnalytics")]
+        self.assertIn('const dialogTrigger = event.target.closest(".dialog-trigger");', click_dispatch)
+        self.assertIn("if (dialogTrigger) return openDialog(dialogTrigger);", click_dispatch)
+
     def test_research_starts_with_cloudflare_backed_contribution_paths(self):
         research = self.js[self.js.index("function renderResearch"):self.js.index("function sellerDialog")]
         self.assertIn("CONTRIBUTION_LINKS", self.js)
@@ -286,6 +301,7 @@ class SiteContractTests(unittest.TestCase):
         catalog = self.html[self.html.index('<section id="bags"'):self.html.index('<section id="sellers"')]
         self.assertIn('id="catalog-contribution-title"', catalog)
         self.assertLess(catalog.index('id="bag-results"'), catalog.index('id="catalog-contribution-title"'))
+        self.assertIn('class="contribution-card dialog-trigger"', catalog)
         self.assertIn('data-dialog-kind="contribute"', catalog)
         self.assertIn('data-dialog-id="suggest-bag"', catalog)
         self.assertIn("Don’t see your bag?", catalog)
@@ -332,6 +348,9 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn(".catalog-contribution", self.css)
         self.assertIn(".contribution-grid-two", self.css)
         self.assertIn(".contribution-grid-single", self.css)
+        tablet = self.css[self.css.index("@media (max-width: 900px)"):self.css.index("@media (max-width: 700px)")]
+        self.assertIn(".catalog-contribution { grid-template-columns: 1fr; gap: 12px; }", tablet)
+        self.assertIn(".contribution-grid, .contribution-grid-single, .contribution-grid-two { grid-template-columns: 1fr; }", tablet)
         mobile = self.css[self.css.index("@media (max-width: 700px)"):]
         self.assertIn(".variant-grid", mobile)
         self.assertIn("grid-template-columns: 1fr", mobile)
