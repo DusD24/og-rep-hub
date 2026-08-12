@@ -11,15 +11,27 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-hyper-peter"],
-    "factory_ids": ["factory-unknown"],
-    "bag_ids": ["bag-monogram-gm-brown"],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [
+      "factory-unknown"
+    ],
+    "bag_ids": [
+      "bag-monogram-gm-brown"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An owner says they had both authentic and HP Monogram Neverfull GM bags and would not buy the authentic Monogram version again.",
-    "positive_observations": ["Direct owner comparison mentions seller, Monogram pattern, and GM size."],
-    "negative_observations": ["Brief comment only; no factory, price, purchase date, photos, current availability, or independent exact-variant corroboration."],
+    "positive_observations": [
+      "Direct owner comparison mentions seller, Monogram pattern, and GM size."
+    ],
+    "negative_observations": [
+      "Brief comment only; no factory, price, purchase date, photos, current availability, or independent exact-variant corroboration."
+    ],
     "media_ids": []
   },
   {
@@ -34,15 +46,32 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": false,
-    "seller_ids": ["seller-hyper-peter"],
-    "factory_ids": ["factory-unknown"],
-    "bag_ids": ["bag-monogram-mm-brown"],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
-    "price": {"amount_usd": 179, "qualifier": "shipping included in the reviewed order"},
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [
+      "factory-unknown"
+    ],
+    "bag_ids": [
+      "bag-monogram-mm-brown"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "price": {
+      "amount_usd": 179,
+      "qualifier": "shipping included in the reviewed order"
+    },
     "shipping_timeline": null,
     "paraphrase": "A six-month owner review of an HP Monogram Neverfull MM reports sturdy canvas, untarnished hardware, developing patina, and quick responses.",
-    "positive_observations": ["Longer-term durability report.", "Historical price and responsive communication are stated."],
-    "negative_observations": ["MM, not GM; cannot support target-bag accuracy.", "A commenter reports a pink vachetta hue and variation across options."],
+    "positive_observations": [
+      "Longer-term durability report.",
+      "Historical price and responsive communication are stated."
+    ],
+    "negative_observations": [
+      "MM, not GM; cannot support target-bag accuracy.",
+      "A commenter reports a pink vachetta hue and variation across options."
+    ],
     "media_ids": []
   },
   {
@@ -57,15 +86,32 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": false,
-    "seller_ids": ["seller-hyper-peter"],
-    "factory_ids": ["factory-unknown"],
-    "bag_ids": ["bag-monogram-mm-brown"],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
-    "price": {"amount_usd": 218, "qualifier": "included insurance and patina service"},
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [
+      "factory-unknown"
+    ],
+    "bag_ids": [
+      "bag-monogram-mm-brown"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "price": {
+      "amount_usd": 218,
+      "qualifier": "included insurance and patina service"
+    },
     "shipping_timeline": "Ordered 2026-06-02 and delivered 2026-07-01, per reviewer.",
     "paraphrase": "A recent HP Monogram Neverfull MM review describes responsive communication; an authentic owner commenter says it was difficult to distinguish.",
-    "positive_observations": ["Dated historical fulfillment timeline.", "Positive communication report."],
-    "negative_observations": ["MM, not GM.", "A commenter says the HP MM appeared smaller than authentic."],
+    "positive_observations": [
+      "Dated historical fulfillment timeline.",
+      "Positive communication report."
+    ],
+    "negative_observations": [
+      "MM, not GM.",
+      "A commenter says the HP MM appeared smaller than authentic."
+    ],
     "media_ids": []
   },
   {
@@ -80,15 +126,32 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": false,
-    "seller_ids": ["seller-hyper-peter"],
-    "factory_ids": ["factory-unknown"],
-    "bag_ids": ["bag-damier-azur-gm"],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
-    "price": {"amount_usd": 205, "qualifier": "reviewed order"},
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [
+      "factory-unknown"
+    ],
+    "bag_ids": [
+      "bag-damier-azur-gm"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "price": {
+      "amount_usd": 205,
+      "qualifier": "reviewed order"
+    },
     "shipping_timeline": "About 14 days to Canada, per reviewer.",
     "paraphrase": "The reviewer describes a smooth HP purchase and two-week shipment, but reports finish and stitching concerns on a Damier Azur GM.",
-    "positive_observations": ["Direct GM fulfillment and shipping signal.", "Other commenters describe positive prior HP Neverfull experiences."],
-    "negative_observations": ["Wrong pattern for the target.", "Reviewer reports finish and stitching details they disliked and uncertainty about ordering again."],
+    "positive_observations": [
+      "Direct GM fulfillment and shipping signal.",
+      "Other commenters describe positive prior HP Neverfull experiences."
+    ],
+    "negative_observations": [
+      "Wrong pattern for the target.",
+      "Reviewer reports finish and stitching details they disliked and uncertainty about ordering again."
+    ],
     "media_ids": []
   },
   {
@@ -103,15 +166,32 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": false,
-    "seller_ids": ["seller-hyper-peter"],
-    "factory_ids": ["factory-unknown"],
-    "bag_ids": ["bag-damier-ebene-gm"],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
-    "price": {"amount_usd": 175, "qualifier": "included initials and shipping"},
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [
+      "factory-unknown"
+    ],
+    "bag_ids": [
+      "bag-damier-ebene-gm"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "price": {
+      "amount_usd": 175,
+      "qualifier": "included initials and shipping"
+    },
     "shipping_timeline": "Two weeks, per reviewer.",
     "paraphrase": "An owner reports a two-week HP delivery for a Damier Ebene GM and describes the bag as well made for its price.",
-    "positive_observations": ["Direct seller and GM-size historical order.", "Positive price/quality and delivery report."],
-    "negative_observations": ["Damier Ebene, not Monogram; cannot support target accuracy.", "Factory is undisclosed."],
+    "positive_observations": [
+      "Direct seller and GM-size historical order.",
+      "Positive price/quality and delivery report."
+    ],
+    "negative_observations": [
+      "Damier Ebene, not Monogram; cannot support target accuracy.",
+      "Factory is undisclosed."
+    ],
     "media_ids": []
   },
   {
@@ -126,15 +206,27 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": false,
-    "seller_ids": ["seller-hyper-peter"],
-    "factory_ids": ["factory-unknown"],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [
+      "factory-unknown"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
     "price": null,
     "shipping_timeline": "Three weeks for a non-Neverfull order, per reviewer.",
     "paraphrase": "A non-Neverfull reviewer says HP does not disclose factories and charges separately for pre-shipment photos.",
-    "positive_observations": ["Historical delivery and positive quality report on another product."],
-    "negative_observations": ["Factory provenance is explicitly unavailable.", "Optional paid PSP is a QC-transparency limitation.", "A buyer-posted phone number was excluded because seller-owned public provenance was not verified."],
+    "positive_observations": [
+      "Historical delivery and positive quality report on another product."
+    ],
+    "negative_observations": [
+      "Factory provenance is explicitly unavailable.",
+      "Optional paid PSP is a QC-transparency limitation.",
+      "A buyer-posted phone number was excluded because seller-owned public provenance was not verified."
+    ],
     "media_ids": []
   },
   {
@@ -149,15 +241,29 @@
     "publication_date_precision": "relative_day_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": false,
-    "seller_ids": ["seller-old-cobbler"],
-    "factory_ids": ["factory-unknown"],
-    "bag_ids": ["bag-monogram-size-unknown-brown"],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
+    "seller_ids": [
+      "seller-old-cobbler"
+    ],
+    "factory_ids": [
+      "factory-unknown"
+    ],
+    "bag_ids": [
+      "bag-monogram-size-unknown-brown"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An OC Monogram Neverfull owner compares it favorably with a family member’s authentic bag after heavy work use, while noting a shallower red interior.",
-    "positive_observations": ["Direct Monogram owner comparison and use report.", "Straps reportedly softened and vachetta developed patina."],
-    "negative_observations": ["Size, price, order timing, factory, and current listing are unstated.", "Shallower red interior is reported."],
+    "positive_observations": [
+      "Direct Monogram owner comparison and use report.",
+      "Straps reportedly softened and vachetta developed patina."
+    ],
+    "negative_observations": [
+      "Size, price, order timing, factory, and current listing are unstated.",
+      "Shallower red interior is reported."
+    ],
     "media_ids": []
   },
   {
@@ -172,15 +278,28 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": false,
-    "seller_ids": ["seller-old-cobbler"],
-    "factory_ids": ["factory-unknown"],
-    "bag_ids": ["bag-damier-azur-size-unknown"],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
+    "seller_ids": [
+      "seller-old-cobbler"
+    ],
+    "factory_ids": [
+      "factory-unknown"
+    ],
+    "bag_ids": [
+      "bag-damier-azur-size-unknown"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A discussion includes reports of sturdy OC Neverfull use and good overall quality, alongside vachetta-treatment concerns.",
-    "positive_observations": ["Multiple OC Neverfull durability anecdotes."],
-    "negative_observations": ["Wrong pattern and unresolved size for the target.", "A commenter says some vachetta may need stripping and mentions older untreated versions."],
+    "positive_observations": [
+      "Multiple OC Neverfull durability anecdotes."
+    ],
+    "negative_observations": [
+      "Wrong pattern and unresolved size for the target.",
+      "A commenter says some vachetta may need stripping and mentions older untreated versions."
+    ],
     "media_ids": []
   },
   {
@@ -195,15 +314,32 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": false,
-    "seller_ids": ["seller-doris"],
-    "factory_ids": ["factory-birdcage"],
-    "bag_ids": ["bag-eden-size-unknown-color-unknown"],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
-    "price": {"amount_usd": 151, "qualifier": "product price"},
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-birdcage"
+    ],
+    "bag_ids": [
+      "bag-eden-size-unknown-color-unknown"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "price": {
+      "amount_usd": 151,
+      "qualifier": "product price"
+    },
     "shipping_timeline": "One week, per reviewer.",
     "paraphrase": "A Doris/Birdcage Eden Neverfull reviewer reports good quality, shape, measurements, and bottom alignment, with concern that the Monogram tone looks orange.",
-    "positive_observations": ["Direct seller, factory, and product-collection identification.", "Positive shape, measurement, alignment, and shipping observations."],
-    "negative_observations": ["Exact MM size and brown colorway are not stated.", "Reviewer reports a warm/orange Monogram tone."],
+    "positive_observations": [
+      "Direct seller, factory, and product-collection identification.",
+      "Positive shape, measurement, alignment, and shipping observations."
+    ],
+    "negative_observations": [
+      "Exact MM size and brown colorway are not stated.",
+      "Reviewer reports a warm/orange Monogram tone."
+    ],
     "media_ids": []
   },
   {
@@ -218,15 +354,30 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": false,
-    "seller_ids": ["seller-doris"],
-    "factory_ids": ["factory-birdcage"],
-    "bag_ids": ["bag-eden-size-unknown-color-unknown"],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-birdcage"
+    ],
+    "bag_ids": [
+      "bag-eden-size-unknown-color-unknown"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "The same author’s earlier QC names Doris and Birdcage and raises the same orange-tone concern; comments reveal materially conflicting dimensions.",
-    "positive_observations": ["Direct seller/factory identification.", "Author considers the bag good, while inviting QC opinions."],
-    "negative_observations": ["Same author as the completed review, so it counts as one corroborating source.", "31×28×14 cm seller dimensions conflict with another owner’s 45×27×15 cm measurement.", "Exact MM and brown colorway remain unresolved."],
+    "positive_observations": [
+      "Direct seller/factory identification.",
+      "Author considers the bag good, while inviting QC opinions."
+    ],
+    "negative_observations": [
+      "Same author as the completed review, so it counts as one corroborating source.",
+      "31×28×14 cm seller dimensions conflict with another owner’s 45×27×15 cm measurement.",
+      "Exact MM and brown colorway remain unresolved."
+    ],
     "media_ids": []
   },
   {
@@ -241,15 +392,29 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": false,
-    "seller_ids": ["seller-baobao"],
-    "factory_ids": ["factory-birdcage"],
-    "bag_ids": ["bag-eden-size-unknown-color-unknown"],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-birdcage"
+    ],
+    "bag_ids": [
+      "bag-eden-size-unknown-color-unknown"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A commenter says their Eden Neverfull was ordered from Baobao and later confirms Birdcage, reporting 45×27×15 cm dimensions.",
-    "positive_observations": ["Independent author directly ties seller, factory, and product collection.", "Owner-supplied physical dimensions are stated."],
-    "negative_observations": ["The reported dimensions are described by another commenter as approximately MM but conflict with seller-provided Birdcage dimensions elsewhere.", "Exact colorway, price, timeline, and current availability are absent."],
+    "positive_observations": [
+      "Independent author directly ties seller, factory, and product collection.",
+      "Owner-supplied physical dimensions are stated."
+    ],
+    "negative_observations": [
+      "The reported dimensions are described by another commenter as approximately MM but conflict with seller-provided Birdcage dimensions elsewhere.",
+      "Exact colorway, price, timeline, and current availability are absent."
+    ],
     "media_ids": []
   },
   {
@@ -264,15 +429,30 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": false,
-    "seller_ids": ["seller-mandy"],
-    "factory_ids": ["factory-huahui", "factory-orange-sofa", "factory-royal"],
-    "bag_ids": ["bag-eden-size-unknown-color-unknown"],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-huahui",
+      "factory-orange-sofa",
+      "factory-royal"
+    ],
+    "bag_ids": [
+      "bag-eden-size-unknown-color-unknown"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "The author says an Eden Neverfull was added to a Mandy order from Huahui, selected because Royal looked muted and Orange Sofa looked vibrant; it had not arrived.",
-    "positive_observations": ["Direct named seller/factory/product-collection pending order."],
-    "negative_observations": ["No received-bag quality, fulfillment, exact size, colorway, price, or live availability evidence.", "Factory color comparisons are one buyer’s selection rationale, not controlled findings."],
+    "positive_observations": [
+      "Direct named seller/factory/product-collection pending order."
+    ],
+    "negative_observations": [
+      "No received-bag quality, fulfillment, exact size, colorway, price, or live availability evidence.",
+      "Factory color comparisons are one buyer’s selection rationale, not controlled findings."
+    ],
     "media_ids": []
   },
   {
@@ -288,15 +468,29 @@
     "access_date": "2026-08-08",
     "exact_product_match": false,
     "seller_ids": [],
-    "factory_ids": ["factory-birdcage", "factory-orange-sofa"],
-    "bag_ids": ["bag-eden-size-unknown-color-unknown"],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
+    "factory_ids": [
+      "factory-birdcage",
+      "factory-orange-sofa"
+    ],
+    "bag_ids": [
+      "bag-eden-size-unknown-color-unknown"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A comparison describes Birdcage as sharper/high-contrast and Orange Sofa as softer/warmer; several commenters prefer Birdcage.",
-    "positive_observations": ["Useful factory-level visual comparison lead."],
-    "negative_observations": ["No named seller, exact size/colorway, purchase verification, or controlled retail comparison.", "Comment preference is subjective and does not prove consistency."],
-    "media_ids": ["media-eden-neverfull-reddit"]
+    "positive_observations": [
+      "Useful factory-level visual comparison lead."
+    ],
+    "negative_observations": [
+      "No named seller, exact size/colorway, purchase verification, or controlled retail comparison.",
+      "Comment preference is subjective and does not prove consistency."
+    ],
+    "media_ids": [
+      "media-eden-neverfull-reddit"
+    ]
   },
   {
     "id": "ev-doris-other-order",
@@ -310,15 +504,26 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": false,
-    "seller_ids": ["seller-doris"],
-    "factory_ids": ["factory-royal", "factory-birdcage"],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-royal",
+      "factory-birdcage"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
     "price": null,
     "shipping_timeline": "Paid 2026-05-19, tracking 2026-05-26, received 2026-06-02, per reviewer.",
     "paraphrase": "A second Doris customer reports a completed repeat order and fast service, but the bags are an Eden Soft Speedy and Keepall—not Neverfulls.",
-    "positive_observations": ["Independent historical Doris fulfillment and repeat-customer service signal."],
-    "negative_observations": ["Different product styles; cannot support Eden Neverfull quality or availability."],
+    "positive_observations": [
+      "Independent historical Doris fulfillment and repeat-customer service signal."
+    ],
+    "negative_observations": [
+      "Different product styles; cannot support Eden Neverfull quality or availability."
+    ],
     "media_ids": []
   },
   {
@@ -333,16 +538,32 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-hyper-peter"],
-    "factory_ids": ["factory-unknown"],
-    "bag_ids": ["bag-monogram-mm-brown"],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [
+      "factory-unknown"
+    ],
+    "bag_ids": [
+      "bag-monogram-mm-brown"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An author compares a Hyper Peter Monogram Neverfull MM with authentic references and posts user photographs; the post does not establish a factory or a common hardware specification.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Provides a second-lane comparison lead for the consolidated Neverfull collection."],
-    "negative_observations": ["MM evidence cannot be transferred to the exact GM variant.", "Factory and exact material/hardware details are not stated."],
-    "media_ids": ["media-neverfull-monogram-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "Provides a second-lane comparison lead for the consolidated Neverfull collection."
+    ],
+    "negative_observations": [
+      "MM evidence cannot be transferred to the exact GM variant.",
+      "Factory and exact material/hardware details are not stated."
+    ],
+    "media_ids": [
+      "media-neverfull-monogram-reddit"
+    ]
   },
   {
     "id": "ev-rt-neverfull-oc-auth",
@@ -356,15 +577,29 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-old-cobbler"],
-    "factory_ids": ["factory-unknown"],
-    "bag_ids": ["bag-damier-azur-gm"],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
+    "seller_ids": [
+      "seller-old-cobbler"
+    ],
+    "factory_ids": [
+      "factory-unknown"
+    ],
+    "bag_ids": [
+      "bag-damier-azur-gm"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A public comparison discusses an Old Cobbler Damier Azur Neverfull GM against an authentic reference and notes canvas and raw vachetta details.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Exact GM and pattern are named."],
-    "negative_observations": ["Factory is not stated.", "This Damier Azur source does not establish Monogram GM accuracy."],
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Exact GM and pattern are named."
+    ],
+    "negative_observations": [
+      "Factory is not stated.",
+      "This Damier Azur source does not establish Monogram GM accuracy."
+    ],
     "media_ids": []
   },
   {
@@ -379,15 +614,27 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-heidi"],
-    "factory_ids": ["factory-187"],
+    "seller_ids": [
+      "seller-heidi"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-chanel-classic-flap"],
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A Classic Flap PSP/QC post discusses a caviar bag with a 187 reference and requested gold hardware; the received size and factory are not fully confirmed.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Caviar and hardware details are partly stated."],
-    "negative_observations": ["Size and received-factory attribution remain unresolved.", "PSP/QC is not in-hand evidence."],
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "Caviar and hardware details are partly stated."
+    ],
+    "negative_observations": [
+      "Size and received-factory attribution remain unresolved.",
+      "PSP/QC is not in-hand evidence."
+    ],
     "media_ids": []
   },
   {
@@ -402,16 +649,30 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-andy"],
-    "factory_ids": ["factory-187"],
+    "seller_ids": [
+      "seller-andy"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-chanel-classic-flap"],
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An in-hand black caviar Classic Flap review references gold hardware and a 187 factory attribution while comparing the bag with authentic references.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "In-hand and auth-reference evidence are both described."],
-    "negative_observations": ["The visible post does not confirm a canonical size.", "A comparison reference is not a formal authentication."],
-    "media_ids": ["media-classic-flap-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "In-hand and auth-reference evidence are both described."
+    ],
+    "negative_observations": [
+      "The visible post does not confirm a canonical size.",
+      "A comparison reference is not a formal authentication."
+    ],
+    "media_ids": [
+      "media-classic-flap-reddit"
+    ]
   },
   {
     "id": "ev-rll-speedy-25",
@@ -425,16 +686,30 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-mike"],
-    "factory_ids": ["factory-god"],
+    "seller_ids": [
+      "seller-mike"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-louis-vuitton-speedy"],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A Speedy Bandouliere 25 Monogram source records PSP/QC, in-hand photographs, and an auth-reference comparison; coated canvas and leather trim are described.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Exact 25 size and Monogram variant are named."],
-    "negative_observations": ["Hardware details are not stated.", "Factory attribution is source-reported, not independently verified."],
-    "media_ids": ["media-speedy-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "Exact 25 size and Monogram variant are named."
+    ],
+    "negative_observations": [
+      "Hardware details are not stated.",
+      "Factory attribution is source-reported, not independently verified."
+    ],
+    "media_ids": [
+      "media-speedy-reddit"
+    ]
   },
   {
     "id": "ev-rt-speedy-25",
@@ -448,15 +723,28 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-baobao"],
-    "factory_ids": ["factory-royal", "factory-birdcage"],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-royal",
+      "factory-birdcage"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-louis-vuitton-speedy"],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An in-hand Speedy Bandouliere 25 Damier Ebene review names Baobao and a Royal/Birdcage-Royal factory attribution and includes a comparison reference.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Exact size and pattern are named."],
-    "negative_observations": ["Factory naming varies by the source language.", "Evidence does not establish a Speedy 30 variant."],
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Exact size and pattern are named."
+    ],
+    "negative_observations": [
+      "Factory naming varies by the source language.",
+      "Evidence does not establish a Speedy 30 variant."
+    ],
     "media_ids": []
   },
   {
@@ -471,16 +759,30 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-baobao"],
-    "factory_ids": ["factory-kendall"],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-kendall"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-the-row-margaux"],
+    "family_ids": [
+      "bag-family-the-row-margaux"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A Margaux 17 comparison discusses a brown soft saddle-leather bag, public photographs, and source-reported Kendall attribution.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Auth comparison and rep-science discussion are both represented."],
-    "negative_observations": ["The source is variant-specific and does not establish all Margaux sizes.", "Source adjectives are not treated as a site conclusion."],
-    "media_ids": ["media-margaux-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "Auth comparison and rep-science discussion are both represented."
+    ],
+    "negative_observations": [
+      "The source is variant-specific and does not establish all Margaux sizes.",
+      "Source adjectives are not treated as a site conclusion."
+    ],
+    "media_ids": [
+      "media-margaux-reddit"
+    ]
   },
   {
     "id": "ev-rt-margaux-15",
@@ -494,15 +796,27 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-baobao"],
-    "factory_ids": ["factory-kendall"],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-kendall"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-the-row-margaux"],
+    "family_ids": [
+      "bag-family-the-row-margaux"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An in-hand Margaux 15 review names Baobao and Kendall as reported and records a separate size-specific experience.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Adds a second Margaux size-specific source."],
-    "negative_observations": ["Color, material, and hardware are not fully stated.", "Factory attribution remains source-reported."],
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Adds a second Margaux size-specific source."
+    ],
+    "negative_observations": [
+      "Color, material, and hardware are not fully stated.",
+      "Factory attribution remains source-reported."
+    ],
     "media_ids": []
   },
   {
@@ -517,15 +831,27 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-titi-4325"],
-    "factory_ids": ["factory-liusheng"],
+    "seller_ids": [
+      "seller-titi-4325"
+    ],
+    "factory_ids": [
+      "factory-liusheng"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-flamenco"],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A 30 cm Sand Flamenco post covers PSP/QC, in-hand photographs, and a follow-up discussion with a seller and factory name as reported.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Exact 30 cm size and Sand color are named."],
-    "negative_observations": ["Material and hardware specifics are incomplete.", "The partial seller identifier is preserved without private contact data."],
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "Exact 30 cm size and Sand color are named."
+    ],
+    "negative_observations": [
+      "Material and hardware specifics are incomplete.",
+      "The partial seller identifier is preserved without private contact data."
+    ],
     "media_ids": []
   },
   {
@@ -540,16 +866,30 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-mandy"],
-    "factory_ids": ["factory-autumn"],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-autumn"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-flamenco"],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An in-hand review describes a large black deerskin Flamenco with seller and factory names as reported in the source.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Adds a distinct material-specific Flamenco variant."],
-    "negative_observations": ["This variant does not establish the 30 cm Sand details.", "Hardware is not fully stated."],
-    "media_ids": ["media-flamenco-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Adds a distinct material-specific Flamenco variant."
+    ],
+    "negative_observations": [
+      "This variant does not establish the 30 cm Sand details.",
+      "Hardware is not fully stated."
+    ],
+    "media_ids": [
+      "media-flamenco-reddit"
+    ]
   },
   {
     "id": "ev-rll-puzzle-small",
@@ -563,16 +903,28 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-mia"],
+    "seller_ids": [
+      "seller-mia"
+    ],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-puzzle"],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An in-hand review discusses a small navy Puzzle measuring about 24 cm and includes an auth-reference discussion.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Exact small size and navy color are named."],
-    "negative_observations": ["Leather/material and hardware are not stated.", "The comparison is source-reported rather than a formal authentication."],
-    "media_ids": ["media-puzzle-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "Exact small size and navy color are named."
+    ],
+    "negative_observations": [
+      "Leather/material and hardware are not stated.",
+      "The comparison is source-reported rather than a formal authentication."
+    ],
+    "media_ids": [
+      "media-puzzle-reddit"
+    ]
   },
   {
     "id": "ev-rt-puzzle-large",
@@ -586,15 +938,27 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-emily"],
-    "factory_ids": ["factory-ls"],
+    "seller_ids": [
+      "seller-emily"
+    ],
+    "factory_ids": [
+      "factory-ls"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-puzzle"],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An in-hand Large Puzzle review records a leather bag with brown suede interior and source-reported LS Factory attribution.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Adds a large-size and material-specific source."],
-    "negative_observations": ["Dimensions and material differ from the small Puzzle source.", "Factory attribution remains source-reported."],
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Adds a large-size and material-specific source."
+    ],
+    "negative_observations": [
+      "Dimensions and material differ from the small Puzzle source.",
+      "Factory attribution remains source-reported."
+    ],
     "media_ids": []
   },
   {
@@ -609,15 +973,27 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-baobao"],
-    "factory_ids": ["factory-jing"],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-jing"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-bottega-veneta-andiamos"],
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A Medium Fondant Andiamo post covers PSP/QC, in-hand photographs, and a store-based auth comparison with seller and factory names as reported.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Medium size and Fondant color are named."],
-    "negative_observations": ["Exact leather construction and hardware details are incomplete.", "Store-based comparison is not a formal authentication."],
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "Medium size and Fondant color are named."
+    ],
+    "negative_observations": [
+      "Exact leather construction and hardware details are incomplete.",
+      "Store-based comparison is not a formal authentication."
+    ],
     "media_ids": []
   },
   {
@@ -632,16 +1008,30 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-emily"],
-    "factory_ids": ["factory-top"],
+    "seller_ids": [
+      "seller-emily"
+    ],
+    "factory_ids": [
+      "factory-top"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-bottega-veneta-andiamos"],
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An in-hand Andiamo East West review names Emily and The Top Factory as reported, with limited material, color, and hardware detail.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Adds a distinct Andiamo shape to the collection details."],
-    "negative_observations": ["Core material, color, and hardware fields are not stated.", "This is a different format from the Medium source."],
-    "media_ids": ["media-andiamo-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Adds a distinct Andiamo shape to the collection details."
+    ],
+    "negative_observations": [
+      "Core material, color, and hardware fields are not stated.",
+      "This is a different format from the Medium source."
+    ],
+    "media_ids": [
+      "media-andiamo-reddit"
+    ]
   },
   {
     "id": "ev-rll-goyard-gm",
@@ -655,16 +1045,30 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-alisa"],
-    "factory_ids": ["factory-lemon"],
+    "seller_ids": [
+      "seller-alisa"
+    ],
+    "factory_ids": [
+      "factory-lemon"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-goyard-saint-louis"],
+    "family_ids": [
+      "bag-family-goyard-saint-louis"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A Saint Louis GM review discusses a Burgundy bag with a Goyard-store comparison and a tentative Lemon factory attribution.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Exact GM size and Burgundy color are named."],
-    "negative_observations": ["Factory name is explicitly uncertain.", "The personal-photo album is externally hosted and should be rechecked if the Reddit post or album changes."],
-    "media_ids": ["media-saint-louis-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "Exact GM size and Burgundy color are named."
+    ],
+    "negative_observations": [
+      "Factory name is explicitly uncertain.",
+      "The personal-photo album is externally hosted and should be rechecked if the Reddit post or album changes."
+    ],
+    "media_ids": [
+      "media-saint-louis-reddit"
+    ]
   },
   {
     "id": "ev-rt-goyard-gm",
@@ -678,15 +1082,25 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-griffin"],
+    "seller_ids": [
+      "seller-griffin"
+    ],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-goyard-saint-louis"],
+    "family_ids": [
+      "bag-family-goyard-saint-louis"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An in-hand Saint Louis GM review discusses a grey bag from Griffin; no factory is named in the source.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Native Reddit image candidate is identified by the research lane."],
-    "negative_observations": ["Factory and material/hardware are not stated.", "The second source covers a different color than the older Burgundy review."],
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Native Reddit image candidate is identified by the research lane."
+    ],
+    "negative_observations": [
+      "Factory and material/hardware are not stated.",
+      "The second source covers a different color than the older Burgundy review."
+    ],
     "media_ids": []
   },
   {
@@ -701,15 +1115,25 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-elaine"],
+    "seller_ids": [
+      "seller-elaine"
+    ],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-hermes-birkin-25"],
+    "family_ids": [
+      "bag-family-hermes-birkin-25"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A Birkin 25 post describes a Noir Togo bag with palladium hardware and PSP/in-hand evidence.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Togo and palladium details are stated."],
-    "negative_observations": ["Factory is not stated.", "The source is variant-specific and cannot describe every Birkin 25 material or hardware option."],
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "Togo and palladium details are stated."
+    ],
+    "negative_observations": [
+      "Factory is not stated.",
+      "The source is variant-specific and cannot describe every Birkin 25 material or hardware option."
+    ],
     "media_ids": []
   },
   {
@@ -724,16 +1148,28 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-jim"],
+    "seller_ids": [
+      "seller-jim"
+    ],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-hermes-birkin-25"],
+    "family_ids": [
+      "bag-family-hermes-birkin-25"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A two-month review covers a Birkin 25 Togo Sellier-style bag with extra veins, brushed palladium hardware, and contrast stitching.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Longer-term wear details and hardware are explicitly described."],
-    "negative_observations": ["Factory is not stated.", "Wear observations are one author’s experience."],
-    "media_ids": ["media-birkin-25-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Longer-term wear details and hardware are explicitly described."
+    ],
+    "negative_observations": [
+      "Factory is not stated.",
+      "Wear observations are one author’s experience."
+    ],
+    "media_ids": [
+      "media-birkin-25-reddit"
+    ]
   },
   {
     "id": "ev-rll-arcadie",
@@ -747,15 +1183,27 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-alina"],
-    "factory_ids": ["factory-kata"],
+    "seller_ids": [
+      "seller-alina"
+    ],
+    "factory_ids": [
+      "factory-kata"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-miu-miu-arcadie"],
+    "family_ids": [
+      "bag-family-miu-miu-arcadie"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An Arcadie review describes a brown regular/small bag with PSP/QC, in-hand photographs, and an auth-reference discussion.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Provides the more detailed Arcadie variant lead."],
-    "negative_observations": ["Hardware details are incomplete.", "The comparison is not a formal authentication."],
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "Provides the more detailed Arcadie variant lead."
+    ],
+    "negative_observations": [
+      "Hardware details are incomplete.",
+      "The comparison is not a formal authentication."
+    ],
     "media_ids": []
   },
   {
@@ -770,16 +1218,30 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-ariel"],
-    "factory_ids": ["factory-orange-sofa"],
+    "seller_ids": [
+      "seller-ariel"
+    ],
+    "factory_ids": [
+      "factory-orange-sofa"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-miu-miu-arcadie"],
+    "family_ids": [
+      "bag-family-miu-miu-arcadie"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An in-hand review describes a 27 cm cognac leather Arcadie and names Orange Sofa as reported.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Exact 27 cm size, cognac color, and leather are stated."],
-    "negative_observations": ["Hardware details are not stated.", "Factory attribution remains source-reported."],
-    "media_ids": ["media-arcadie-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Exact 27 cm size, cognac color, and leather are stated."
+    ],
+    "negative_observations": [
+      "Hardware details are not stated.",
+      "Factory attribution remains source-reported."
+    ],
+    "media_ids": [
+      "media-arcadie-reddit"
+    ]
   },
   {
     "id": "ev-rll-lady-dior-auth",
@@ -794,14 +1256,24 @@
     "access_date": "2026-08-08",
     "exact_product_match": true,
     "seller_ids": [],
-    "factory_ids": ["factory-god"],
+    "factory_ids": [
+      "factory-god"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-dior-lady-dior"],
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A long-term/auth comparison describes a reported God Factory Lady Dior after approximately three years of use and compares it with an authentic bag.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Long-term wear and auth-comparison evidence types are represented."],
-    "negative_observations": ["Exact size, material, color, and hardware are not stated.", "The comparison is source-reported, not a formal authentication."],
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "Long-term wear and auth-comparison evidence types are represented."
+    ],
+    "negative_observations": [
+      "Exact size, material, color, and hardware are not stated.",
+      "The comparison is source-reported, not a formal authentication."
+    ],
     "media_ids": []
   },
   {
@@ -816,16 +1288,30 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-reykay"],
-    "factory_ids": ["factory-god"],
+    "seller_ids": [
+      "seller-reykay"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-dior-lady-dior"],
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An in-hand review describes a Small Lady Dior / My ABCDior Bag with a God Factory attribution as reported.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Small size and factory attribution are named."],
-    "negative_observations": ["Color, leather, and hardware are not stated.", "Factory attribution remains source-reported."],
-    "media_ids": ["media-lady-dior-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Small size and factory attribution are named."
+    ],
+    "negative_observations": [
+      "Color, leather, and hardware are not stated.",
+      "Factory attribution remains source-reported."
+    ],
+    "media_ids": [
+      "media-lady-dior-reddit"
+    ]
   },
   {
     "id": "ev-rll-book-tote-small",
@@ -839,16 +1325,30 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-emily"],
-    "factory_ids": ["factory-god"],
+    "seller_ids": [
+      "seller-emily"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-dior-book-tote"],
+    "family_ids": [
+      "bag-family-dior-book-tote"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A Small Book Tote review records canvas and embroidery with PSP/in-hand evidence and a God Factory attribution as reported.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Small size, canvas, and embroidery are stated."],
-    "negative_observations": ["Color and hardware are not stated.", "Factory attribution remains source-reported."],
-    "media_ids": ["media-book-tote-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "Small size, canvas, and embroidery are stated."
+    ],
+    "negative_observations": [
+      "Color and hardware are not stated.",
+      "Factory attribution remains source-reported."
+    ],
+    "media_ids": [
+      "media-book-tote-reddit"
+    ]
   },
   {
     "id": "ev-rt-book-tote",
@@ -862,15 +1362,27 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-mr-canvas"],
-    "factory_ids": ["factory-god"],
+    "seller_ids": [
+      "seller-mr-canvas"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-dior-book-tote"],
+    "family_ids": [
+      "bag-family-dior-book-tote"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An in-hand Book Tote haul describes a size 36 canvas and embroidery bag and names Mr Canvas and God Factory as reported.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Adds a larger size-specific source."],
-    "negative_observations": ["Hardware is not stated.", "The size 36 source cannot establish the Small variant."],
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Adds a larger size-specific source."
+    ],
+    "negative_observations": [
+      "Hardware is not stated.",
+      "The size 36 source cannot establish the Small variant."
+    ],
     "media_ids": []
   },
   {
@@ -886,14 +1398,24 @@
     "access_date": "2026-08-08",
     "exact_product_match": true,
     "seller_ids": [],
-    "factory_ids": ["factory-god"],
+    "factory_ids": [
+      "factory-god"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-chanel-classic-flap"],
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An auth-versus-rep Chanel 25 comparison discusses a God Factory attribution, leather and chain similarity, and differences in color, hardware texture, pocket construction, grommets, and thread.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Specific construction and material comparisons are recorded."],
-    "negative_observations": ["Factory attribution is source-reported.", "The comparison is not a formal authentication and does not establish every Classic Flap size or material."],
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Specific construction and material comparisons are recorded."
+    ],
+    "negative_observations": [
+      "Factory attribution is source-reported.",
+      "The comparison is not a formal authentication and does not establish every Classic Flap size or material."
+    ],
     "media_ids": []
   },
   {
@@ -911,12 +1433,20 @@
     "seller_ids": [],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-chanel-classic-flap"],
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An in-hand So Black Classic Flap review describes a medium 11.12-style bag with black lambskin, matte black hardware, consistent stitching, and a soft but potentially delicate feel.",
-    "positive_observations": ["Independent public author from r/RepLadiesWorld.", "Size, material, hardware finish, and construction observations are stated."],
-    "negative_observations": ["Seller and factory are not identified.", "One owner report cannot establish batch consistency."],
+    "positive_observations": [
+      "Independent public author from r/RepLadiesWorld.",
+      "Size, material, hardware finish, and construction observations are stated."
+    ],
+    "negative_observations": [
+      "Seller and factory are not identified.",
+      "One owner report cannot establish batch consistency."
+    ],
     "media_ids": []
   },
   {
@@ -934,12 +1464,20 @@
     "seller_ids": [],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-chanel-classic-flap"],
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A public rehome review describes a beige Chanel 25 attributed by the author to an older Xiao C batch, including color, structure, slouch, hardware, and stitching observations.",
-    "positive_observations": ["Independent public author and size-specific in-hand observations.", "Color, structure, and hardware are discussed."],
-    "negative_observations": ["This is a rehome, not direct-order evidence.", "The original factory attribution is not independently verified and seller provenance is not imported."],
+    "positive_observations": [
+      "Independent public author and size-specific in-hand observations.",
+      "Color, structure, and hardware are discussed."
+    ],
+    "negative_observations": [
+      "This is a rehome, not direct-order evidence.",
+      "The original factory attribution is not independently verified and seller provenance is not imported."
+    ],
     "media_ids": []
   },
   {
@@ -957,12 +1495,20 @@
     "seller_ids": [],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-louis-vuitton-speedy"],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "The same public rehome review describes a Louis Vuitton Speedy Dark 30 with observations on weight, color, stamp placement, interior leather, seams, chain, and lock details.",
-    "positive_observations": ["Exact Dark 30 size and in-hand construction details are stated.", "The source includes a physical inspection rather than a catalog-only claim."],
-    "negative_observations": ["This is a rehome, not direct-order evidence.", "Factory attribution is uncertain and no seller is imported."],
+    "positive_observations": [
+      "Exact Dark 30 size and in-hand construction details are stated.",
+      "The source includes a physical inspection rather than a catalog-only claim."
+    ],
+    "negative_observations": [
+      "This is a rehome, not direct-order evidence.",
+      "Factory attribution is uncertain and no seller is imported."
+    ],
     "media_ids": []
   },
   {
@@ -977,15 +1523,25 @@
     "publication_date_precision": "relative_day_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-hyper-peter"],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-louis-vuitton-speedy"],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A Speedy 20 post compares a Hyper Peter bag with an authentic reference and records the author’s observations on shape, canvas, trim, and hardware.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Exact Speedy 20 size and an auth-reference comparison are stated."],
-    "negative_observations": ["The post discloses that the review was requested or the bag was gifted by Hyper Peter; treat it as bag evidence, not independent seller-quality evidence.", "Factory attribution is not stated."],
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "Exact Speedy 20 size and an auth-reference comparison are stated."
+    ],
+    "negative_observations": [
+      "The post discloses that the review was requested or the bag was gifted by Hyper Peter; treat it as bag evidence, not independent seller-quality evidence.",
+      "Factory attribution is not stated."
+    ],
     "media_ids": []
   },
   {
@@ -1000,15 +1556,27 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-mandy"],
-    "factory_ids": ["factory-jipin"],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-jipin"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-puzzle"],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A medium chestnut-brown Puzzle review reports a Jipin Factory attribution through Mandy and discusses soft leather, alignment, logo, stitching, glazing, hardware, and delivery experience.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Exact medium size, color, seller, and factory are reported with material and construction observations."],
-    "negative_observations": ["Factory attribution is source-reported.", "One author’s review cannot establish consistency across Jipin batches."],
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Exact medium size, color, seller, and factory are reported with material and construction observations."
+    ],
+    "negative_observations": [
+      "Factory attribution is source-reported.",
+      "One author’s review cannot establish consistency across Jipin batches."
+    ],
     "media_ids": []
   },
   {
@@ -1023,16 +1591,28 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-doris"],
-    "factory_ids": ["factory-jipin"],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-jipin"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-puzzle"],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
     "price": null,
     "shipping_timeline": null,
     "exact_variant_note": "Small haul review; the Puzzle is the burgundy small variant.",
     "paraphrase": "A multi-bag review describes a small burgundy Loewe Puzzle attributed to Jipin through Doris, with comments on stiffness, softness, hardware, zippers, and odor.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Adds a separate color and small-size in-hand report."],
-    "negative_observations": ["Details are brief because the post covers multiple bags.", "Factory attribution is source-reported."],
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Adds a separate color and small-size in-hand report."
+    ],
+    "negative_observations": [
+      "Details are brief because the post covers multiple bags.",
+      "Factory attribution is source-reported."
+    ],
     "media_ids": []
   },
   {
@@ -1047,15 +1627,27 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-doris"],
-    "factory_ids": ["factory-jipin"],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-jipin"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-flamenco"],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "The same multi-bag review describes a mini Loewe Flamenco attributed to Jipin through Doris, noting soft leather, acceptable hardware, zippers, and no unusual odor.",
-    "positive_observations": ["Adds a separate mini Flamenco in-hand report.", "Leather feel and hardware are directly discussed."],
-    "negative_observations": ["Repeated author from the Puzzle row counts once for corroboration.", "Details are brief and factory attribution is source-reported."],
+    "positive_observations": [
+      "Adds a separate mini Flamenco in-hand report.",
+      "Leather feel and hardware are directly discussed."
+    ],
+    "negative_observations": [
+      "Repeated author from the Puzzle row counts once for corroboration.",
+      "Details are brief and factory attribution is source-reported."
+    ],
     "media_ids": []
   },
   {
@@ -1070,15 +1662,25 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-mandy"],
+    "seller_ids": [
+      "seller-mandy"
+    ],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-flamenco"],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A black-on-black Flamenco review reports soft supple leather, neat stitching, sturdy hardware, careful packaging, and a positive first purchase experience with Mandy.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "In-hand material, stitching, hardware, and packaging observations are stated."],
-    "negative_observations": ["The factory is not identified.", "The author describes being new to reps, so this is not an experienced comparative review."],
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "In-hand material, stitching, hardware, and packaging observations are stated."
+    ],
+    "negative_observations": [
+      "The factory is not identified.",
+      "The author describes being new to reps, so this is not an experienced comparative review."
+    ],
     "media_ids": []
   },
   {
@@ -1093,15 +1695,27 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-aiden"],
-    "factory_ids": ["factory-liusheng"],
+    "seller_ids": [
+      "seller-aiden"
+    ],
+    "factory_ids": [
+      "factory-liusheng"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-flamenco"],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A medium dark-khaki Flamenco review names Aiden and a Liusheng attribution and compares the bag with auth references, reporting accurate color, soft structured leather, neat stitching, and edge-paint defects.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Exact medium color, seller, factory, auth references, and a later resolution are recorded."],
-    "negative_observations": ["The review discloses a group-buy context and a partial resolution; this is not a general seller or factory verdict.", "Edge-paint defects were visible after receipt even though PSP did not make them obvious."],
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Exact medium color, seller, factory, auth references, and a later resolution are recorded."
+    ],
+    "negative_observations": [
+      "The review discloses a group-buy context and a partial resolution; this is not a general seller or factory verdict.",
+      "Edge-paint defects were visible after receipt even though PSP did not make them obvious."
+    ],
     "media_ids": []
   },
   {
@@ -1116,15 +1730,25 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-griffin"],
+    "seller_ids": [
+      "seller-griffin"
+    ],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-goyard-saint-louis"],
+    "family_ids": [
+      "bag-family-goyard-saint-louis"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An owner compares a green Saint Louis bought from Griffin with an authentic Saint Louis GM after carrying the rep for months, noting handle thickness, canvas shine, and a slight leather-shade difference.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "The author reports no quality issues during use and provides a direct side-by-side reference."],
-    "negative_observations": ["Griffin does not disclose a factory in the source.", "The comparison is one owner’s observation and the rep/auth size pairing should be checked against the post."],
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "The author reports no quality issues during use and provides a direct side-by-side reference."
+    ],
+    "negative_observations": [
+      "Griffin does not disclose a factory in the source.",
+      "The comparison is one owner’s observation and the rep/auth size pairing should be checked against the post."
+    ],
     "media_ids": []
   },
   {
@@ -1139,15 +1763,27 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-reykay"],
-    "factory_ids": ["factory-god"],
+    "seller_ids": [
+      "seller-reykay"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-dior-lady-dior"],
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A Small Lady Dior review reports a God Factory attribution through Reykey and discusses leather texture, details, QC, communication, and a refund-and-reorder interaction.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Exact small size, seller, factory, leather, and service observations are stated."],
-    "negative_observations": ["Factory attribution is source-reported.", "The review contains a seller interaction and is not independent corroboration of batch consistency."],
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Exact small size, seller, factory, leather, and service observations are stated."
+    ],
+    "negative_observations": [
+      "Factory attribution is source-reported.",
+      "The review contains a seller interaction and is not independent corroboration of batch consistency."
+    ],
     "media_ids": []
   },
   {
@@ -1165,12 +1801,20 @@
     "seller_ids": [],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-dior-book-tote"],
+    "family_ids": [
+      "bag-family-dior-book-tote"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A received-bag Book Tote QC post flags visible top stitching lines and asks the community to compare them with an authentic reference.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "The post documents a received bag rather than a catalog listing."],
-    "negative_observations": ["Size, seller provenance beyond a public name, factory, and authentic reference are unresolved.", "QC discussion is not a completed long-term review."],
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "The post documents a received bag rather than a catalog listing."
+    ],
+    "negative_observations": [
+      "Size, seller provenance beyond a public name, factory, and authentic reference are unresolved.",
+      "QC discussion is not a completed long-term review."
+    ],
     "media_ids": []
   },
   {
@@ -1185,15 +1829,25 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-baker"],
+    "seller_ids": [
+      "seller-baker"
+    ],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-dior-book-tote"],
+    "family_ids": [
+      "bag-family-dior-book-tote"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A medium Dior Book Tote QC post names Baker and asks about print placement; a commenter notes the handles look good but flags a lower-right blank-space concern.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Medium size, seller name, handles, and print-placement questions are recorded."],
-    "negative_observations": ["This is PSP/QC rather than in-hand wear evidence.", "Factory is not identified and the print concern remains a community observation."],
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Medium size, seller name, handles, and print-placement questions are recorded."
+    ],
+    "negative_observations": [
+      "This is PSP/QC rather than in-hand wear evidence.",
+      "Factory is not identified and the print concern remains a community observation."
+    ],
     "media_ids": []
   },
   {
@@ -1209,14 +1863,24 @@
     "access_date": "2026-08-08",
     "exact_product_match": true,
     "seller_ids": [],
-    "factory_ids": ["factory-jing"],
+    "factory_ids": [
+      "factory-jing"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-bottega-veneta-andiamos"],
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A public RepScience post compares an authentic black Andiamo with a Jing Factory Andiamo, discussing softness, slouch, weave tightness, handle placement, and handle feel.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Direct auth comparison and factory attribution are stated."],
-    "negative_observations": ["The author notes a looser weave and lighter, flimsier handle than the authentic reference.", "Factory attribution is source-reported and the comparison is not a formal authentication."],
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Direct auth comparison and factory attribution are stated."
+    ],
+    "negative_observations": [
+      "The author notes a looser weave and lighter, flimsier handle than the authentic reference.",
+      "Factory attribution is source-reported and the comparison is not a formal authentication."
+    ],
     "media_ids": []
   },
   {
@@ -1231,15 +1895,27 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-adon"],
-    "factory_ids": ["factory-jing"],
+    "seller_ids": [
+      "seller-adon"
+    ],
+    "factory_ids": [
+      "factory-jing"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-bottega-veneta-andiamos"],
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A RepCulture_Bags review covers a small Barolo Andiamo attributed to Jing Factory and Adon, with observations on soft leather, odor, PSP, and seller communication.",
-    "positive_observations": ["Public bag-focused subreddit review with exact small size and Barolo color.", "Factory, seller, material, and PSP context are stated."],
-    "negative_observations": ["The author also posted another Andiamo review, so repeated-author entries count once for independent corroboration.", "Factory attribution is source-reported."],
+    "positive_observations": [
+      "Public bag-focused subreddit review with exact small size and Barolo color.",
+      "Factory, seller, material, and PSP context are stated."
+    ],
+    "negative_observations": [
+      "The author also posted another Andiamo review, so repeated-author entries count once for independent corroboration.",
+      "Factory attribution is source-reported."
+    ],
     "media_ids": []
   },
   {
@@ -1254,15 +1930,27 @@
     "publication_date_precision": "relative_day_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-yuyu"],
-    "factory_ids": ["factory-top"],
+    "seller_ids": [
+      "seller-yuyu"
+    ],
+    "factory_ids": [
+      "factory-top"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-bottega-veneta-andiamos"],
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A recent RepCulture_Bags review covers a medium embellished leather-and-denim Andiamo attributed to Top Factory and Yuyu, reporting soft leather, strong denim quality, and work-bag capacity.",
-    "positive_observations": ["Public bag-focused subreddit review with exact medium embellished variant.", "Material, factory, seller, and practical-use observations are stated."],
-    "negative_observations": ["Same author as the small Andiamo review; it is not independent corroboration.", "Factory attribution and current availability are source-reported only."],
+    "positive_observations": [
+      "Public bag-focused subreddit review with exact medium embellished variant.",
+      "Material, factory, seller, and practical-use observations are stated."
+    ],
+    "negative_observations": [
+      "Same author as the small Andiamo review; it is not independent corroboration.",
+      "Factory attribution and current availability are source-reported only."
+    ],
     "media_ids": []
   },
   {
@@ -1277,16 +1965,30 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-ming"],
-    "factory_ids": ["factory-kata"],
+    "seller_ids": [
+      "seller-ming"
+    ],
+    "factory_ids": [
+      "factory-kata"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-balmain-anthem"],
+    "family_ids": [
+      "bag-family-balmain-anthem"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A RepCulture_Bags review covers a medium black calfskin Balmain Anthem with a Kata/Boutique attribution, comparing it in-store with an authentic reference and describing leather, buckle, lining, stamping, stitching, and early wear.",
-    "positive_observations": ["Public bag-focused review includes an auth in-store comparison, factory photos, PSP, and personal wear observations.", "Exact medium size, black color, and calfskin material are stated."],
-    "negative_observations": ["The author discloses that the seller knew about the review; no incentive was reported.", "Factory naming is ambiguous in the source (Kata / Boutique) and should not be treated as a settled identity."],
-    "media_ids": ["media-balmain-anthem-reddit"]
+    "positive_observations": [
+      "Public bag-focused review includes an auth in-store comparison, factory photos, PSP, and personal wear observations.",
+      "Exact medium size, black color, and calfskin material are stated."
+    ],
+    "negative_observations": [
+      "The author discloses that the seller knew about the review; no incentive was reported.",
+      "Factory naming is ambiguous in the source (Kata / Boutique) and should not be treated as a settled identity."
+    ],
+    "media_ids": [
+      "media-balmain-anthem-reddit"
+    ]
   },
   {
     "id": "ev-crawl-rt-ferragamo-hug-2026",
@@ -1303,13 +2005,23 @@
     "seller_ids": [],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-ferragamo-hug"],
+    "family_ids": [
+      "bag-family-ferragamo-hug"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An in-hand review covers a large black-and-oxblood Ferragamo Hug Soft work bag, describing soft leather, interior capacity, and use as a laptop-friendly everyday tote.",
-    "positive_observations": ["Independent public author from r/RepTherapy.", "Exact model and large work-bag use case are described with practical capacity observations."],
-    "negative_observations": ["Seller and factory are not disclosed in the normalized record.", "This is an early impression rather than long-term wear evidence."],
-    "media_ids": ["media-ferragamo-hug-soft-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RepTherapy.",
+      "Exact model and large work-bag use case are described with practical capacity observations."
+    ],
+    "negative_observations": [
+      "Seller and factory are not disclosed in the normalized record.",
+      "This is an early impression rather than long-term wear evidence."
+    ],
+    "media_ids": [
+      "media-ferragamo-hug-soft-reddit"
+    ]
   },
   {
     "id": "ev-crawl-rll-ferragamo-hug-2026",
@@ -1326,12 +2038,20 @@
     "seller_ids": [],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-ferragamo-hug"],
+    "family_ids": [
+      "bag-family-ferragamo-hug"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A Ferragamo Soft Hug PSP/QC post asks for extra eyes on a first rep purchase and includes a personal image set; a comment mentions Kata, but that factory name is not treated as the author’s confirmed attribution.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Adds a second author and public PSP/QC surface for the new collection."],
-    "negative_observations": ["Exact size, seller, and factory are unresolved.", "The Kata reference appears in a comment rather than the author’s own post, so it is excluded from factory attribution."],
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "Adds a second author and public PSP/QC surface for the new collection."
+    ],
+    "negative_observations": [
+      "Exact size, seller, and factory are unresolved.",
+      "The Kata reference appears in a comment rather than the author’s own post, so it is excluded from factory attribution."
+    ],
     "media_ids": []
   },
   {
@@ -1349,12 +2069,20 @@
     "seller_ids": [],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-chanel-classic-flap"],
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An owner compares an authentic Chanel Jumbo with two medium Classic Flap replicas, reporting differences in caviar grain, leather stiffness, chain weight, hardware tone, and initial odor.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "The side-by-side comparison records both strengths and limitations rather than a blanket quality claim."],
-    "negative_observations": ["The authentic reference is Jumbo while the replicas are medium, so size-specific conclusions do not transfer across variants.", "The two received factories and sellers are not identified in the post."],
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "The side-by-side comparison records both strengths and limitations rather than a blanket quality claim."
+    ],
+    "negative_observations": [
+      "The authentic reference is Jumbo while the replicas are medium, so size-specific conclusions do not transfer across variants.",
+      "The two received factories and sellers are not identified in the post."
+    ],
     "media_ids": []
   },
   {
@@ -1369,15 +2097,27 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-baobao"],
-    "factory_ids": ["factory-royal"],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-royal"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-louis-vuitton-speedy"],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
     "price": null,
     "shipping_timeline": "Reviewer reports PSP approval on May 28, shipment on May 29, and delivery on June 10.",
     "paraphrase": "A self-funded first-rep review identifies a Louis Vuitton Speedy Bandouliere 25 in Damier Ebene, reports Baobao and Royal Factory, and documents PSP review, shipping, and factory-versus-in-hand comparisons.",
-    "positive_observations": ["Exact size and pattern are stated with a named seller and source-reported factory.", "The author reports a smooth transaction, prompt PSP response after follow-up, and an in-hand comparison."],
-    "negative_observations": ["The factory attribution is source-reported and does not establish batch consistency.", "The reviewer notes that additional close-ups of hardware, zipper stops, and stamps would have improved QC confidence."],
+    "positive_observations": [
+      "Exact size and pattern are stated with a named seller and source-reported factory.",
+      "The author reports a smooth transaction, prompt PSP response after follow-up, and an in-hand comparison."
+    ],
+    "negative_observations": [
+      "The factory attribution is source-reported and does not establish batch consistency.",
+      "The reviewer notes that additional close-ups of hardware, zipper stops, and stamps would have improved QC confidence."
+    ],
     "media_ids": []
   },
   {
@@ -1392,15 +2132,28 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-laomao"],
-    "factory_ids": ["factory-liusheng", "factory-jipin"],
+    "seller_ids": [
+      "seller-laomao"
+    ],
+    "factory_ids": [
+      "factory-liusheng",
+      "factory-jipin"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-puzzle"],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A public review covers a black grained-calfskin Puzzle Edge 33 cm from Liusheng via Laomao and compares its leather with the author's prior Jipin Puzzle bags.",
-    "positive_observations": ["Exact Edge model, size, color, seller, and source-reported factory are stated.", "The author reports hydrated leather, substantial hardware, smooth zippers, and accurate current 33 cm proportions."],
-    "negative_observations": ["The author says the leather is not as buttery as authentic.", "The 33 cm current version is contrasted with older 35 cm versions with metal feet; this is a variant warning, not a universal factory verdict."],
+    "positive_observations": [
+      "Exact Edge model, size, color, seller, and source-reported factory are stated.",
+      "The author reports hydrated leather, substantial hardware, smooth zippers, and accurate current 33 cm proportions."
+    ],
+    "negative_observations": [
+      "The author says the leather is not as buttery as authentic.",
+      "The 33 cm current version is contrasted with older 35 cm versions with metal feet; this is a variant warning, not a universal factory verdict."
+    ],
     "media_ids": []
   },
   {
@@ -1415,15 +2168,25 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-dhg-meifeng"],
+    "seller_ids": [
+      "seller-dhg-meifeng"
+    ],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-flamenco"],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "An in-hand medium Flamenco clutch review reports soft-feeling material and a seller-described genuine-cowhide claim, while community replies distinguish it from high-tier accuracy on sizing, interior, and leather.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "The post and comments provide a useful lower-tier comparison point and explicitly record both the owner's satisfaction and community limitations."],
-    "negative_observations": ["No named factory is supported; the seller's own-factory wording is not treated as provenance.", "The review is a single early impression and community feedback says it is not close to authentic or high-tier."],
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "The post and comments provide a useful lower-tier comparison point and explicitly record both the owner's satisfaction and community limitations."
+    ],
+    "negative_observations": [
+      "No named factory is supported; the seller's own-factory wording is not treated as provenance.",
+      "The review is a single early impression and community feedback says it is not close to authentic or high-tier."
+    ],
     "media_ids": []
   },
   {
@@ -1438,16 +2201,30 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-felix"],
-    "factory_ids": ["factory-black-frame"],
+    "seller_ids": [
+      "seller-felix"
+    ],
+    "factory_ids": [
+      "factory-black-frame"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-ysl-loulou"],
+    "family_ids": [
+      "bag-family-ysl-loulou"
+    ],
     "price": null,
     "shipping_timeline": "Reviewer describes the bag as arriving quickly but does not give a dated timeline.",
     "paraphrase": "A medium red YSL LouLou review reports a Black Frame attribution through Felix, lambskin, substantial chain weight, roomy capacity, clean stitching and alignment, and a positive communication experience.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "The review reports material, hardware, size, capacity, construction, and seller-service observations."],
-    "negative_observations": ["The post does not include an auth side-by-side or long-term wear report.", "Factory and seller names remain source-reported; private contact requests in comments are excluded."],
-    "media_ids": ["media-ysl-loulou-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "The review reports material, hardware, size, capacity, construction, and seller-service observations."
+    ],
+    "negative_observations": [
+      "The post does not include an auth side-by-side or long-term wear report.",
+      "Factory and seller names remain source-reported; private contact requests in comments are excluded."
+    ],
+    "media_ids": [
+      "media-ysl-loulou-reddit"
+    ]
   },
   {
     "id": "ev-crawl-rll-celine-new-luggage-2026",
@@ -1461,16 +2238,30 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-baobao"],
-    "factory_ids": ["factory-captain-dz"],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-captain-dz"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-celine-new-luggage"],
+    "family_ids": [
+      "bag-family-celine-new-luggage"
+    ],
     "price": null,
     "shipping_timeline": "Reviewer reports PSP approval on February 7, shipment on February 8, and receipt on March 2.",
     "paraphrase": "A self-disclosed, non-incentivized review covers a medium brick Celine New Luggage from BaoBao and Captain/CZ Factory, with PSPs, in-hand photos, and observations on supple sheepskin, weight, zippers, hardware, stitching, and a shallow logo stamp.",
-    "positive_observations": ["Exact model, medium size, color, seller, and source-reported factory are stated.", "The author documents PSPs and receipt timing and reports strong everyday usability and construction."],
-    "negative_observations": ["The author has not handled an authentic bag side by side.", "The factory attribution and the high-tier label are source-reported, and a shallow logo impression is noted."],
-    "media_ids": ["media-celine-new-luggage-reddit"]
+    "positive_observations": [
+      "Exact model, medium size, color, seller, and source-reported factory are stated.",
+      "The author documents PSPs and receipt timing and reports strong everyday usability and construction."
+    ],
+    "negative_observations": [
+      "The author has not handled an authentic bag side by side.",
+      "The factory attribution and the high-tier label are source-reported, and a shallow logo impression is noted."
+    ],
+    "media_ids": [
+      "media-celine-new-luggage-reddit"
+    ]
   },
   {
     "id": "ev-crawl-rll-bv-barbara-medium-2026",
@@ -1484,16 +2275,30 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-yuyu"],
-    "factory_ids": ["factory-top"],
+    "seller_ids": [
+      "seller-yuyu"
+    ],
+    "factory_ids": [
+      "factory-top"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-bottega-veneta-barbara"],
+    "family_ids": [
+      "bag-family-bottega-veneta-barbara"
+    ],
     "price": null,
     "shipping_timeline": "Reviewer reports PSP approval on May 8 and delivery on May 21 after an April inquiry.",
     "paraphrase": "An in-hand medium Barbara Tote review from Yuyu reports very soft dark-brown leather, PSP review, and delivery, with a Top/Taitai factory attribution preserved as source-reported.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "The review records a specific medium size, color, material feel, seller, factory label, PSP stage, and receipt timeline."],
-    "negative_observations": ["The post does not provide an auth comparison or long-term wear evidence.", "The factory label is not independently verified and comments include a price-comparison question rather than a second receipt."],
-    "media_ids": ["media-bv-barbara-tote-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "The review records a specific medium size, color, material feel, seller, factory label, PSP stage, and receipt timeline."
+    ],
+    "negative_observations": [
+      "The post does not provide an auth comparison or long-term wear evidence.",
+      "The factory label is not independently verified and comments include a price-comparison question rather than a second receipt."
+    ],
+    "media_ids": [
+      "media-bv-barbara-tote-reddit"
+    ]
   },
   {
     "id": "ev-crawl-rll-balenciaga-rodeo-medium-2026",
@@ -1507,16 +2312,28 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-garmen"],
+    "seller_ids": [
+      "seller-garmen"
+    ],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-balenciaga-rodeo"],
+    "family_ids": [
+      "bag-family-balenciaga-rodeo"
+    ],
     "price": null,
     "shipping_timeline": "Reviewer reports PSP approval on December 14, shipment on December 16, and receipt on December 23.",
     "paraphrase": "A medium black calfskin Balenciaga Rodeo review compares a Garmen bag with authentic references and reports soft-but-sturdy leather, aged-silver hardware, work capacity, secure closures, and accurate proportions.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "Exact size, material, hardware, auth reference, use case, shipping timeline, and detailed construction observations are stated."],
-    "negative_observations": ["Garmen does not disclose the factory, so no factory attribution is imported.", "The author notes the split-ring engraving may be bolder than authentic; one review cannot establish consistency."],
-    "media_ids": ["media-balenciaga-rodeo-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "Exact size, material, hardware, auth reference, use case, shipping timeline, and detailed construction observations are stated."
+    ],
+    "negative_observations": [
+      "Garmen does not disclose the factory, so no factory attribution is imported.",
+      "The author notes the split-ring engraving may be bolder than authentic; one review cannot establish consistency."
+    ],
+    "media_ids": [
+      "media-balenciaga-rodeo-reddit"
+    ]
   },
   {
     "id": "ev-crawl-rll-chanel-vanity-slim-2026",
@@ -1530,16 +2347,30 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-heidi"],
-    "factory_ids": ["factory-187"],
+    "seller_ids": [
+      "seller-heidi"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-chanel-vanity-slim"],
+    "family_ids": [
+      "bag-family-chanel-vanity-slim"
+    ],
     "price": null,
     "shipping_timeline": "Reviewer reports PSP approval on April 3, shipment on April 8, and receipt on April 13.",
     "paraphrase": "A Chanel Slim Vanity review names Heidi and a 187 attribution in the public thread, reports quick communication and shipping, and notes that the received bag feels lighter than the authentic store example.",
-    "positive_observations": ["Independent public author from r/RealRepLadies.", "The post documents PSP, shipping, receipt, seller communication, and an in-store weight comparison."],
-    "negative_observations": ["The author does not provide a full authentic side-by-side and reports a lighter feel than the store example.", "The factory attribution appears in a public comment exchange and remains source-reported, not independently verified."],
-    "media_ids": ["media-chanel-slim-vanity-reddit"]
+    "positive_observations": [
+      "Independent public author from r/RealRepLadies.",
+      "The post documents PSP, shipping, receipt, seller communication, and an in-store weight comparison."
+    ],
+    "negative_observations": [
+      "The author does not provide a full authentic side-by-side and reports a lighter feel than the store example.",
+      "The factory attribution appears in a public comment exchange and remains source-reported, not independently verified."
+    ],
+    "media_ids": [
+      "media-chanel-slim-vanity-reddit"
+    ]
   },
   {
     "id": "ev-crawl-rlw-neverfull-damier-mm-2026",
@@ -1556,12 +2387,20 @@
     "seller_ids": [],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-louis-vuitton-neverfull"],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
     "price": null,
     "shipping_timeline": "Author later comments that the bag arrived quickly and they loved it.",
     "paraphrase": "A public PSP/QC post covers a Neverfull MM in Damier Ebene and a HighRise bumbag; the author later reports the Neverfull arrived quickly and was loved.",
-    "positive_observations": ["RepLadiesWorld source adds cross-community PSP/arrival coverage.", "Exact MM and Damier Ebene are stated."],
-    "negative_observations": ["Wrong pattern and MM relative to brown Monogram GM target.", "Seller/factory are not identified; PSP/QC is not long-term wear."],
+    "positive_observations": [
+      "RepLadiesWorld source adds cross-community PSP/arrival coverage.",
+      "Exact MM and Damier Ebene are stated."
+    ],
+    "negative_observations": [
+      "Wrong pattern and MM relative to brown Monogram GM target.",
+      "Seller/factory are not identified; PSP/QC is not long-term wear."
+    ],
     "media_ids": []
   },
   {
@@ -1576,15 +2415,27 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-mandy"],
-    "factory_ids": ["factory-royal"],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-royal"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-louis-vuitton-speedy"],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "RepLadiesWorld PSP/QC asks about asymmetric tab alignment and bottom piping on a Speedy 25 from Royal; comments identify Mandy as seller.",
-    "positive_observations": ["Exact size/factory label and concrete QC concerns.", "Adds independent RepLadiesWorld PSP surface."],
-    "negative_observations": ["Pattern/color and received-bag outcome are not stated.", "Mandy attribution appears in a public comment; no price/contact imported."],
+    "positive_observations": [
+      "Exact size/factory label and concrete QC concerns.",
+      "Adds independent RepLadiesWorld PSP surface."
+    ],
+    "negative_observations": [
+      "Pattern/color and received-bag outcome are not stated.",
+      "Mandy attribution appears in a public comment; no price/contact imported."
+    ],
     "media_ids": []
   },
   {
@@ -1599,15 +2450,27 @@
     "publication_date_precision": "month_estimate",
     "access_date": "2026-08-08",
     "exact_product_match": true,
-    "seller_ids": ["seller-elsa"],
-    "factory_ids": ["factory-white"],
+    "seller_ids": [
+      "seller-elsa"
+    ],
+    "factory_ids": [
+      "factory-white"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-goyard-saint-louis"],
+    "family_ids": [
+      "bag-family-goyard-saint-louis"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A public PSP/QC post covers a navy Saint Louis GM from Elsa, source-reported as Afen White, and asks about the branded top clip and pattern color against authentic.",
-    "positive_observations": ["Exact GM/color and source-reported seller/factory are stated.", "Adds RepLadiesWorld QC to Saint Louis coverage."],
-    "negative_observations": ["Seller/factory labels are source-reported.", "Phone number in comments is excluded; no in-hand wear report."],
+    "positive_observations": [
+      "Exact GM/color and source-reported seller/factory are stated.",
+      "Adds RepLadiesWorld QC to Saint Louis coverage."
+    ],
+    "negative_observations": [
+      "Seller/factory labels are source-reported.",
+      "Phone number in comments is excluded; no in-hand wear report."
+    ],
     "media_ids": []
   },
   {
@@ -1623,14 +2486,22 @@
     "access_date": "2026-08-08",
     "exact_product_match": true,
     "seller_ids": [],
-    "factory_ids": ["factory-187"],
+    "factory_ids": [
+      "factory-187"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-chanel-classic-flap"],
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A recent public PSP/QC post describes a 187 medium Classic Flap with silver hardware; the author reports aligned quilting, even caviar, good hardware tone, and asks about the CC lock.",
-    "positive_observations": ["Exact size, hardware, factory label, and concrete observations."],
-    "negative_observations": ["Seller and receipt outcome are not stated; PSP/QC is not received-bag or wear evidence."],
+    "positive_observations": [
+      "Exact size, hardware, factory label, and concrete observations."
+    ],
+    "negative_observations": [
+      "Seller and receipt outcome are not stated; PSP/QC is not received-bag or wear evidence."
+    ],
     "media_ids": []
   },
   {
@@ -1645,15 +2516,27 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-10",
     "exact_product_match": true,
-    "seller_ids": ["seller-mandy"],
-    "factory_ids": ["factory-qiu"],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-qiu"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-flamenco"],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A collection overview of five Loewe Flamenco bags singles out a black Flamenco from Qiu through Mandy as the softest, most pliable leather in the set.",
-    "positive_observations": ["Leather softness and pliability are called out as a standout reference point.", "Seller and factory are both explicitly named."],
-    "negative_observations": ["Same author as other Flamenco evidence already on file; does not add independent corroboration.", "No price, size, or QC-defect detail is given beyond leather feel."],
+    "positive_observations": [
+      "Leather softness and pliability are called out as a standout reference point.",
+      "Seller and factory are both explicitly named."
+    ],
+    "negative_observations": [
+      "Same author as other Flamenco evidence already on file; does not add independent corroboration.",
+      "No price, size, or QC-defect detail is given beyond leather feel."
+    ],
     "media_ids": []
   },
   {
@@ -1668,15 +2551,27 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-10",
     "exact_product_match": true,
-    "seller_ids": ["seller-mandy"],
-    "factory_ids": ["factory-jipin"],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-jipin"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-flamenco"],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "The same collection overview reports a Homage to the Square colorway Flamenco from Jipin through Mandy, acquired for its design.",
-    "positive_observations": ["Named colorway, seller, and factory are all stated.", "Adds a second Jipin-factory Flamenco data point to the family."],
-    "negative_observations": ["Same author as other Flamenco evidence already on file; does not add independent corroboration.", "No construction or QC detail beyond general collection commentary."],
+    "positive_observations": [
+      "Named colorway, seller, and factory are all stated.",
+      "Adds a second Jipin-factory Flamenco data point to the family."
+    ],
+    "negative_observations": [
+      "Same author as other Flamenco evidence already on file; does not add independent corroboration.",
+      "No construction or QC detail beyond general collection commentary."
+    ],
     "media_ids": []
   },
   {
@@ -1691,15 +2586,27 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-10",
     "exact_product_match": true,
-    "seller_ids": ["seller-mandy"],
-    "factory_ids": ["factory-jipin"],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-jipin"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-flamenco"],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "The same collection overview reports an orange Flamenco from Jipin through Mandy, paired with an aftermarket strap from another bag.",
-    "positive_observations": ["Named colorway, seller, and factory are stated.", "Adds a third Jipin-factory Flamenco data point to the family."],
-    "negative_observations": ["Same author as other Flamenco evidence already on file; does not add independent corroboration.", "No construction or QC detail beyond general collection commentary."],
+    "positive_observations": [
+      "Named colorway, seller, and factory are stated.",
+      "Adds a third Jipin-factory Flamenco data point to the family."
+    ],
+    "negative_observations": [
+      "Same author as other Flamenco evidence already on file; does not add independent corroboration.",
+      "No construction or QC detail beyond general collection commentary."
+    ],
     "media_ids": []
   },
   {
@@ -1714,15 +2621,27 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-10",
     "exact_product_match": true,
-    "seller_ids": ["seller-mike"],
-    "factory_ids": ["factory-jipin"],
+    "seller_ids": [
+      "seller-mike"
+    ],
+    "factory_ids": [
+      "factory-jipin"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-flamenco"],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "The same collection overview reports a green Flamenco from Jipin through seller Mike, paired with an aftermarket duffel strap.",
-    "positive_observations": ["Introduces seller Mike as a source for the Flamenco family.", "Named colorway and factory are stated."],
-    "negative_observations": ["Same author as other Flamenco evidence already on file; does not add independent corroboration.", "No construction or QC detail beyond general collection commentary."],
+    "positive_observations": [
+      "Introduces seller Mike as a source for the Flamenco family.",
+      "Named colorway and factory are stated."
+    ],
+    "negative_observations": [
+      "Same author as other Flamenco evidence already on file; does not add independent corroboration.",
+      "No construction or QC detail beyond general collection commentary."
+    ],
     "media_ids": []
   },
   {
@@ -1737,15 +2656,27 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-10",
     "exact_product_match": true,
-    "seller_ids": ["seller-baker"],
-    "factory_ids": ["factory-vivi"],
+    "seller_ids": [
+      "seller-baker"
+    ],
+    "factory_ids": [
+      "factory-vivi"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-flamenco"],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "The same collection overview reports the newest and smallest Flamenco in the set, the Futurist Cat colorway, sourced from Vivi through seller Baker.",
-    "positive_observations": ["Introduces both seller Baker and factory Vivi as sources for the Flamenco family.", "Named colorway and smallest-in-collection size context are stated."],
-    "negative_observations": ["Same author as other Flamenco evidence already on file; does not add independent corroboration.", "Author describes it primarily as a collector piece, not a functional pick, so no durability read is given."],
+    "positive_observations": [
+      "Introduces both seller Baker and factory Vivi as sources for the Flamenco family.",
+      "Named colorway and smallest-in-collection size context are stated."
+    ],
+    "negative_observations": [
+      "Same author as other Flamenco evidence already on file; does not add independent corroboration.",
+      "Author describes it primarily as a collector piece, not a functional pick, so no durability read is given."
+    ],
     "media_ids": []
   },
   {
@@ -1760,16 +2691,26 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-10",
     "exact_product_match": false,
-    "seller_ids": ["seller-mike"],
+    "seller_ids": [
+      "seller-mike"
+    ],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-balenciaga-rodeo"],
+    "family_ids": [
+      "bag-family-balenciaga-rodeo"
+    ],
     "price": null,
     "shipping_timeline": null,
     "exact_variant_note": "Color and size are not stated in the post, so this cannot be matched to the existing medium black entry.",
     "paraphrase": "An in-hand Balenciaga Rodeo review, purchased from seller Mike during a sale, reports soft supple leather, natural slouch development, a well-functioning flap, and a smooth seller experience with clear communication and clean PSPs.",
-    "positive_observations": ["Second independent Reddit author for this family: the only prior evidence is authored by a different Redditor, bartsimpsonisababe, on r/RealRepLadies.", "Detailed leather, structure, and seller-experience observations are stated."],
-    "negative_observations": ["Exact color and size are not stated, so this cannot confirm the medium black variant already documented.", "Factory is not disclosed."],
+    "positive_observations": [
+      "Second independent Reddit author for this family: the only prior evidence is authored by a different Redditor, bartsimpsonisababe, on r/RealRepLadies.",
+      "Detailed leather, structure, and seller-experience observations are stated."
+    ],
+    "negative_observations": [
+      "Exact color and size are not stated, so this cannot confirm the medium black variant already documented.",
+      "Factory is not disclosed."
+    ],
     "media_ids": []
   },
   {
@@ -1784,15 +2725,25 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-10",
     "exact_product_match": true,
-    "seller_ids": ["seller-mandy"],
+    "seller_ids": [
+      "seller-mandy"
+    ],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-flamenco"],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
     "price": null,
     "shipping_timeline": "Reviewer reports about 10 days from ship-out to arrival for the full order.",
     "paraphrase": "A first Flamenco order via Mandy covers a black-and-gold-hardware large Flamenco and a red Homage to the Square medium, describing high build quality and a fast, low-issue seller experience.",
-    "positive_observations": ["Exact size and colorway are stated for both bags (large black/gold; medium red Homage to the Square).", "Seller communication, pricing, and shipping timeline are described positively."],
-    "negative_observations": ["Same author as other Flamenco evidence in this batch; does not add independent corroboration.", "Factory is not disclosed."],
+    "positive_observations": [
+      "Exact size and colorway are stated for both bags (large black/gold; medium red Homage to the Square).",
+      "Seller communication, pricing, and shipping timeline are described positively."
+    ],
+    "negative_observations": [
+      "Same author as other Flamenco evidence in this batch; does not add independent corroboration.",
+      "Factory is not disclosed."
+    ],
     "media_ids": []
   },
   {
@@ -1808,15 +2759,26 @@
     "access_date": "2026-08-10",
     "exact_product_match": true,
     "seller_ids": [],
-    "factory_ids": ["factory-jipin", "factory-qiu"],
+    "factory_ids": [
+      "factory-jipin",
+      "factory-qiu"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-puzzle"],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
     "price": null,
     "shipping_timeline": null,
     "exact_variant_note": "Covers five owned Puzzles in one post: burgundy Featherlight, green, tan, and black (Jipin), plus a Biker (Qiu).",
     "paraphrase": "A pre-conditioning 'family portrait' of five owned Loewe Puzzles reports the green, tan, and black pieces (Jipin) as noticeably dry compared to an already-supple Qiu-factory Biker, ahead of a planned conditioning pass.",
-    "positive_observations": ["Directly compares leather condition across four Jipin pieces and one Qiu piece within the same household.", "Multi-bag long-term-ownership observation, not a fresh-unboxing review."],
-    "negative_observations": ["No seller is named for any of the five bags.", "Same author as other Puzzle evidence already on file; does not add independent corroboration."],
+    "positive_observations": [
+      "Directly compares leather condition across four Jipin pieces and one Qiu piece within the same household.",
+      "Multi-bag long-term-ownership observation, not a fresh-unboxing review."
+    ],
+    "negative_observations": [
+      "No seller is named for any of the five bags.",
+      "Same author as other Puzzle evidence already on file; does not add independent corroboration."
+    ],
     "media_ids": []
   },
   {
@@ -1831,16 +2793,28 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-10",
     "exact_product_match": true,
-    "seller_ids": ["seller-laomao"],
-    "factory_ids": ["factory-jipin"],
+    "seller_ids": [
+      "seller-laomao"
+    ],
+    "factory_ids": [
+      "factory-jipin"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-puzzle"],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
     "price": null,
     "shipping_timeline": null,
     "exact_variant_note": "Independently authored mini-review quoted within a collaborative factory-comparison post hosted by spiritatbay.",
     "paraphrase": "Within a collaborative factory-comparison post, u/Riyu28 independently reviews a small Jipin-factory Loewe Biker Puzzle via seller Laomao, reporting clean stitching, near-authentic hardware, and leather that arrived drier than preferred but expected to soften with wear.",
-    "positive_observations": ["Independent public author distinct from the post's host author, adding real corroboration to the Puzzle family.", "Exact size, seller, and factory are stated with specific stitching, hardware, and leather-scent observations."],
-    "negative_observations": ["Leather arrived drier/more matte than the reviewer preferred out of the box.", "Single review; cannot establish consistency across Jipin batches."],
+    "positive_observations": [
+      "Independent public author distinct from the post's host author, adding real corroboration to the Puzzle family.",
+      "Exact size, seller, and factory are stated with specific stitching, hardware, and leather-scent observations."
+    ],
+    "negative_observations": [
+      "Leather arrived drier/more matte than the reviewer preferred out of the box.",
+      "Single review; cannot establish consistency across Jipin batches."
+    ],
     "media_ids": []
   },
   {
@@ -1855,15 +2829,27 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-10",
     "exact_product_match": true,
-    "seller_ids": ["seller-mandy"],
-    "factory_ids": ["factory-qiu"],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-qiu"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-puzzle"],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "In the same collaborative post, spiritatbay reviews a large Qiu-factory Loewe Biker Puzzle via Mandy, describing softer/more relaxed leather with more visible grain, slightly thicker edge paint, and hardware that moves with the leather, contrasted directly against the Jipin small.",
-    "positive_observations": ["Direct side-by-side factory comparison against a same-day Jipin review by a second author.", "Detailed leather, edge-paint, and hardware observations are stated."],
-    "negative_observations": ["Same author as other Puzzle evidence already on file; does not add independent corroboration on its own.", "Framed as a stylistic difference rather than a defect, so it cannot support a quality-ranking claim between factories."],
+    "positive_observations": [
+      "Direct side-by-side factory comparison against a same-day Jipin review by a second author.",
+      "Detailed leather, edge-paint, and hardware observations are stated."
+    ],
+    "negative_observations": [
+      "Same author as other Puzzle evidence already on file; does not add independent corroboration on its own.",
+      "Framed as a stylistic difference rather than a defect, so it cannot support a quality-ranking claim between factories."
+    ],
     "media_ids": []
   },
   {
@@ -1878,15 +2864,30 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-10",
     "exact_product_match": true,
-    "seller_ids": ["seller-nina"],
-    "factory_ids": ["factory-jipin"],
+    "seller_ids": [
+      "seller-nina"
+    ],
+    "factory_ids": [
+      "factory-jipin"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-puzzle"],
-    "price": {"amount_usd": 222, "qualifier": "purchased in August 2025"},
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "price": {
+      "amount_usd": 222,
+      "qualifier": "purchased in August 2025"
+    },
     "shipping_timeline": null,
     "paraphrase": "A structured Large Puzzle Edge review in classic calfskin, sourced from Jipin through Nina for $222, cites the authentic 24S listing for reference and reports smooth leather, secure hardware, clean lining/stitching, and accurate proportions, with a disclosed no-incentive review relationship.",
-    "positive_observations": ["Exact size, material, seller, factory, and price are stated, with an authentic reference URL cited by the author.", "Repeat-customer seller-reliability detail: 10+ prior orders, realistic PSPs, proactive QC, no warped arrivals."],
-    "negative_observations": ["Same author as other Puzzle evidence already on file; does not add independent corroboration.", "No defects reported, so this cannot speak to failure modes."],
+    "positive_observations": [
+      "Exact size, material, seller, factory, and price are stated, with an authentic reference URL cited by the author.",
+      "Repeat-customer seller-reliability detail: 10+ prior orders, realistic PSPs, proactive QC, no warped arrivals."
+    ],
+    "negative_observations": [
+      "Same author as other Puzzle evidence already on file; does not add independent corroboration.",
+      "No defects reported, so this cannot speak to failure modes."
+    ],
     "media_ids": []
   },
   {
@@ -1901,15 +2902,27 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-10",
     "exact_product_match": true,
-    "seller_ids": ["seller-mandy"],
-    "factory_ids": ["factory-jipin"],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-jipin"
+    ],
     "bag_ids": [],
-    "family_ids": ["bag-family-loewe-puzzle"],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
     "price": null,
     "shipping_timeline": null,
     "paraphrase": "A braided-handle Loewe Puzzle review via Mandy through Jipin reports clean panel geometry, correctly aligned seams, and smooth substantial leather with no edge-paint bleeding, though the reviewer later rehomed it for personal-preference reasons unrelated to quality.",
-    "positive_observations": ["Exact braided-handle variant, seller, and factory are stated.", "Detailed panel-geometry and leather observations with no reported defects."],
-    "negative_observations": ["Same author as other Puzzle evidence already on file; does not add independent corroboration.", "Author notes the design didn't suit their long-term preference, though this is explicitly not a quality complaint."],
+    "positive_observations": [
+      "Exact braided-handle variant, seller, and factory are stated.",
+      "Detailed panel-geometry and leather observations with no reported defects."
+    ],
+    "negative_observations": [
+      "Same author as other Puzzle evidence already on file; does not add independent corroboration.",
+      "Author notes the design didn't suit their long-term preference, though this is explicitly not a quality complaint."
+    ],
     "media_ids": []
   },
   {
@@ -1924,17 +2937,30 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-10",
     "exact_product_match": true,
-    "seller_ids": ["seller-tiny-jenny"],
+    "seller_ids": [
+      "seller-tiny-jenny"
+    ],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-balenciaga-le-city"],
+    "family_ids": [
+      "bag-family-balenciaga-le-city"
+    ],
     "price": null,
     "shipping_timeline": null,
     "exact_variant_note": "Size (Small) and material (leather) are explicit; color is stated as a deep chocolate/Espresso.",
     "paraphrase": "A second purchase from seller Tiny Jenny: a Balenciaga City Small in a deep chocolate/Espresso colorway. The leather has a matte-glossy finish that softens and develops a slouch with wear, and the size is described as practical -- large enough for essentials without feeling bulky. The author was told Kata makes strong City-bag leather and credits it for the finish, but does not confirm the factory for this specific bag.",
-    "positive_observations": ["Leather finish softens and develops a natural slouch with use.", "Size is described as practical -- large enough for essentials, small enough to stay manageable.", "Repeat buyer from this seller (second purchase), citing thoroughness and responsiveness to questions."],
-    "negative_observations": ["The Kata leather-quality claim is reported secondhand and is not independently confirmed as this bag's factory.", "No price or shipping timeline is included in the redacted excerpt."],
-    "media_ids": ["media-balenciaga-le-city-small-reddit"]
+    "positive_observations": [
+      "Leather finish softens and develops a natural slouch with use.",
+      "Size is described as practical -- large enough for essentials, small enough to stay manageable.",
+      "Repeat buyer from this seller (second purchase), citing thoroughness and responsiveness to questions."
+    ],
+    "negative_observations": [
+      "The Kata leather-quality claim is reported secondhand and is not independently confirmed as this bag's factory.",
+      "No price or shipping timeline is included in the redacted excerpt."
+    ],
+    "media_ids": [
+      "media-balenciaga-le-city-small-reddit"
+    ]
   },
   {
     "id": "ev-crawl-rll-balenciaga-le-city-1o69i9j",
@@ -1948,16 +2974,298 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-10",
     "exact_product_match": true,
-    "seller_ids": ["seller-heidi"],
+    "seller_ids": [
+      "seller-heidi"
+    ],
     "factory_ids": [],
     "bag_ids": [],
-    "family_ids": ["bag-family-balenciaga-le-city"],
+    "family_ids": [
+      "bag-family-balenciaga-le-city"
+    ],
     "price": null,
     "shipping_timeline": null,
     "exact_variant_note": "Size (small) and material (leather) are explicit; colorway is not stated in the excerpt.",
     "paraphrase": "An in-hand review of a Balenciaga City Small purchased from seller Heidi. Applying dubbin softened the leather and improved its smell. The author reports mixed build quality: an uneven curve on the two handles, and stiff, hard-to-click chain clasps, plus a shoulder strap heavily creased from packaging that may not fully relax to its intended shape.",
-    "positive_observations": ["Leather softens and smells better after a dubbin treatment.", "A named, independently-sourced seller (Heidi) with a price and shipping cost reported (redacted here)."],
-    "negative_observations": ["Uneven curve reported on both handles.", "Chain clasps described as stiff and hard to click closed.", "A strap is heavily creased from packaging and the post is uncertain whether it will fully relax."],
+    "positive_observations": [
+      "Leather softens and smells better after a dubbin treatment.",
+      "A named, independently-sourced seller (Heidi) with a price and shipping cost reported (redacted here)."
+    ],
+    "negative_observations": [
+      "Uneven curve reported on both handles.",
+      "Chain clasps described as stiff and hard to click closed.",
+      "A strap is heavily creased from packaging and the post is uncertain whether it will fully relax."
+    ],
     "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1utfhhw",
+    "title": "[WARNING / REVIEW] Buyer Beware: Axin Sold Me a [payment amount redacted] DHGate-Tier \"OF\" Chanel for [payment amount redacted] (Bait-and-Switch Quality & No Refunds)",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1utfhhw/warning_review_buyer_beware_axin_sold_me_a_20/",
+    "subreddit": "RealRepLadies",
+    "author": "Apprehensive-Wear496",
+    "publication_date": "2026-07-11",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-axin"
+    ],
+    "factory_ids": [
+      "factory-187",
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "Buyer bought a Chanel Classic Flap/Mini from seller Axin, claimed as \"OF\" factory; the bag had misaligned diamond quilting, incorrect (Phillips-head) turnlock screws instead of Chanel's proprietary hardware, and poorly etched authentication plate. Seller only admitted the low tier after being confronted and offered no refund or exchange.",
+    "positive_observations": [
+      "Author states an existing purchasing baseline with 187 and God factory, giving the QC complaint some comparative context."
+    ],
+    "negative_observations": [
+      "Diamond quilting on the back pocket is significantly misaligned with the main body.",
+      "Turnlock backplate uses standard Phillips-head screws instead of Chanel's proprietary star/flathead hardware.",
+      "Authentication microchip plate etching described as sloppy and rushed.",
+      "Seller reportedly did not disclose the lower factory tier upfront and refused a refund, exchange, or partial remedy after the fact."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1pht6us",
+    "title": "[REVIEW] Chanel Classic Flap from 187!!!<3 Bag from Seller Andy + Detailed comparison to Authentic",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1pht6us/review_chanel_classic_flap_from_1873_bag_from/",
+    "subreddit": "RealRepLadies",
+    "author": "Loverofnicetings",
+    "publication_date": "2025-12-09",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-andy"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "Owner review of a 187-factory Chanel Classic Flap in black caviar with gold hardware from seller Andy, with detailed feature-by-feature comparison to a referenced authentic: measurements, chain length, quilting/diamond count, flap-tab fit, and Mona Lisa pocket alignment.",
+    "positive_observations": [
+      "Measurements closely match a referenced authentic (25.6x15.5x6.7cm vs 25.5x15.5x6.5cm; weight 1.34lb vs ~1.3-1.5lb).",
+      "Diamond count and placement, flap-tab size, and CC logo reported as accurate.",
+      "Flap tab closes tightly with no flap noise, called out as a common lower-tier defect that this bag avoided.",
+      "Caviar leather, interior leather, and stitching described as high quality; chain described as well-weighted."
+    ],
+    "negative_observations": [
+      "Leather arrived slightly dry on receipt, though author notes this may resolve with conditioning.",
+      "Mona Lisa pocket's top-of-smile corner does not align exactly to the diamond edge, a minor deviation from what the author expected."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-flamenco-1rpqirm",
+    "title": "Overhyped bag reviews?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1rpqirm/overhyped_bag_reviews/",
+    "subreddit": "RealRepLadies",
+    "author": "Chancey1984",
+    "publication_date": "2026-03-10",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "Author bought a Loewe Flamenco from Liusheng factory and found it disappointing relative to its reputation: it did not hang with the expected slouch or have the soft \"butter\" leather feel, illustrated with an authentic-vs-replica comparison photo; she resold it at a reduced price.",
+    "positive_observations": [
+      "Includes a direct side-by-side authentic-vs-replica comparison photo."
+    ],
+    "negative_observations": [
+      "Bag did not hang with the correct slouch and lacked the expected soft, \"butter\"-like leather feel.",
+      "Author felt the factory's reputation (one of the most-reviewed for this brand) did not match the item she received and resold it at a reduced price as mid-tier leather."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-neverfull-1tqbwds",
+    "title": "Hyper Peter Neverfull MM review",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1tqbwds/hyper_peter_neverfull_mm_review/",
+    "subreddit": "RealRepLadies",
+    "author": "precious_hr",
+    "publication_date": "2026-05-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "Buyer documents the purchase and fulfillment timeline for a Louis Vuitton Neverfull MM from Hyper Peter (handled partly by assistant Booker): paid May 7, PSPs May 13, shipped May 18, delivered May 28, plus insurance and PSP fees.",
+    "positive_observations": [
+      "Communication with both Hyper Peter and his assistant Booker described as fast and helpful throughout the process.",
+      "Full-coverage insurance option (10% of total) is documented, covering reshipment if seized or lost."
+    ],
+    "negative_observations": [
+      "No in-hand quality assessment of the bag itself — no comments on canvas, hardware, stitching, or accuracy to authentic; content is limited to price, insurance, and shipping logistics."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1oqjerr",
+    "title": "Review: Chanel 25 187! I'm obsessed",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1oqjerr/review_chanel_25_187_im_obsessed/",
+    "subreddit": "RealRepLadies",
+    "author": "EducationalQuiet788",
+    "publication_date": "2025-11-07",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "Buyer compared her 187-factory Chanel 25 Small (crumpled calfskin, black) to a referenced authentic Fashionphile listing and found it visually identical. Seller (TS Tina) was transparent that God factory has puffier quilting versus the flatter authentic look, and that 187 better matched the crumpled-calfskin texture.",
+    "positive_observations": [
+      "Compared side by side against a specific referenced authentic Fashionphile listing and found it visually identical.",
+      "Seller gave an honest, unprompted factory-tier tradeoff explanation (187 vs God) rather than an unqualified sales pitch."
+    ],
+    "negative_observations": [
+      "Single buyer's subjective visual comparison; no in-post photos, measurements, or hardware detail given.",
+      "No independent corroborating source yet for this exact factory/colorway combination."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1u6wek0",
+    "title": "Battle of the Chanel 25: 👄 reviews vs factory photos 🏭",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1u6wek0/battle_of_the_chanel_25_reviews_vs_factory_photos/",
+    "subreddit": "RealRepLadies",
+    "author": "understood_learning",
+    "publication_date": "2026-06-15",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "paraphrase": "A discussion thread comparing the Chanel 25 (Medium Black Caviar GHW and Small Brown Suede GHW) across five factories (187, OF, Rome, X-C, God) using a seller's factory-photo album benchmarked against official Chanel photos, plus multiple sellers' factory recommendations. Author has not reported purchasing or receiving the bag herself in this post.",
+    "positive_observations": [
+      "Aggregates factory-photo comparisons across five factories, benchmarked against official Chanel product photos.",
+      "Documents recommendations from ten separate sellers on which factory they rate best for this bag."
+    ],
+    "negative_observations": [
+      "Not a first-hand owner review — author has not reported purchasing or receiving the bag in this post, so it cannot confirm exact-variant accuracy on its own.",
+      "Seller factory recommendations are self-reported and may reflect what a seller stocks or profits from rather than independently verified quality."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1s95ped",
+    "title": "Review: Chanel 25 from Michael ♥️",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1s95ped/review_chanel_25_from_michael/",
+    "subreddit": "RealRepLadies",
+    "author": "bartsimpsonisababe",
+    "publication_date": "2026-04-01",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "In-hand review of a Chanel 25 Small in burgundy grained calfskin with ruthenium hardware from seller Michael. Praises leather thickness and drape, quilting, colour depth/sheen, hardware weight, and a silhouette that keeps the authentic's firm sides and base rather than over-slouching.",
+    "positive_observations": [
+      "Leather described as luxurious in thickness and structure, with accurate drape while keeping firm sides and base like the authentic (a common failure point the author called out).",
+      "Diamond quilting, burgundy colour depth, and sheen described as closely matching the authentic look.",
+      "Ruthenium hardware described as accurately toned and nicely weighted.",
+      "Fast turnaround (about 10 days from inquiry to delivery in Australia) and responsive seller communication."
+    ],
+    "negative_observations": [
+      "Single buyer's subjective account with no side-by-side authentic comparison photos included in the post.",
+      "Price was unusually low for the reported quality tier, which the author herself flagged as a concern before purchasing.",
+      "Seller does not disclose the factory, so the reported quality cannot be attributed to or cross-checked against a specific factory."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1t3sfuv",
+    "title": "Another Chanel 25 Review",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1t3sfuv/another_chanel_25_review/",
+    "subreddit": "RealRepLadies",
+    "author": "Sparkle_pony_01",
+    "publication_date": "2026-05-04",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-tiny-jenny"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "First-time buyer describes a 12-day OF-factory Chanel 25 Medium (black caviar, gold hardware) via seller Tiny Jenny: accurate gold hardware, leather feel comparable to the buyer's newer authentic Chanel pieces, no chemical smell on arrival, and an expectation the bag will develop the same puffiness authentic C25s get with wear.",
+    "positive_observations": [
+      "12-day fulfillment start to finish, described as faster than expected.",
+      "Seller (Tiny Jenny) described as responsive and reassuring for a first-time buyer.",
+      "Hardware and leather feel described as consistent with the buyer's other, newer authentic Chanel pieces.",
+      "No chemical/\"fufu\" smell reported on arrival."
+    ],
+    "negative_observations": [
+      "No side-by-side authentic photos or measurements provided.",
+      "Buyer notes the bag arrived less broken-in/puffy than desired, though expects this to develop with wear — not yet confirmed."
+    ]
   }
 ]

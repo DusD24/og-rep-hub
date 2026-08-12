@@ -4,7 +4,10 @@
     "slug": "louis-vuitton-neverfull",
     "brand": "Louis Vuitton",
     "model": "Neverfull",
-    "aliases": ["NF", "Neverfull-style"],
+    "aliases": [
+      "NF",
+      "Neverfull-style"
+    ],
     "category": "tote",
     "summary": "The original Neverfull evidence campaign, consolidated as one collection while keeping GM, MM, pattern, seller, and factory variants explicit below.",
     "tile_media_id": "media-neverfull-monogram-reddit",
@@ -36,19 +39,39 @@
       "ev-doris-other-order",
       "ev-rll-neverfull-constant",
       "ev-rt-neverfull-oc-auth",
-      "ev-crawl-rlw-neverfull-damier-mm-2026"
+      "ev-crawl-rlw-neverfull-damier-mm-2026",
+      "ev-crawl-rrl-louis-vuitton-neverfull-1tqbwds"
     ],
-    "documented_sizes": ["GM", "MM", "unknown"],
-    "documented_materials": ["not documented in current public sources"],
-    "documented_hardware": ["not documented in current public sources"],
+    "documented_sizes": [
+      "GM",
+      "MM",
+      "unknown"
+    ],
+    "documented_materials": [
+      "not documented in current public sources"
+    ],
+    "documented_hardware": [
+      "not documented in current public sources"
+    ],
     "evidence_coverage": {
-      "source_count": 17,
-      "independent_author_count": 16,
-      "primary_subreddit_coverage": ["RealRepLadies", "RepTherapy", "RepLadiesWorld"],
+      "source_count": 18,
+      "independent_author_count": 17,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepLadiesWorld",
+        "RepTherapy"
+      ],
       "image_ready": true,
-      "evidence_types": ["auth_comparison", "factory_comparison", "in_hand_review", "long_term_wear", "psp_qc", "seller_context"]
+      "evidence_types": [
+        "auth_comparison",
+        "factory_comparison",
+        "in_hand_review",
+        "long_term_wear",
+        "psp_qc",
+        "seller_context"
+      ]
     },
-    "last_updated": "2026-08-08",
+    "last_updated": "2026-08-12",
     "research_gaps": [
       "Keep exact brown Monogram GM evidence separate from MM and Damier comparisons.",
       "Keep Eden MM size, colorway, dimensions, and batch attribution separate where sources conflict.",
@@ -61,19 +84,56 @@
     "slug": "chanel-classic-flap",
     "brand": "Chanel",
     "model": "Classic Flap",
-    "aliases": ["Classic Double Flap", "CC flap"],
+    "aliases": [
+      "Classic Double Flap",
+      "CC flap"
+    ],
     "category": "shoulder-bag",
     "summary": "Community evidence file covering flap construction, chain, leather, and size-specific comparisons.",
     "tile_media_id": "media-classic-flap-reddit",
     "publication_status": "published",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-rll-chanel-classic-flap-187", "ev-rt-chanel-classic-flap", "ev-crawl-rt-classic-flap-auth-2025", "ev-crawl-rlw-classic-flap-2026", "ev-crawl-rlw-classic-flap-rehome-2026", "ev-crawl-rll-classic-flap-auth-jumbo-2026", "ev-crawl-rlw-classic-flap-187-medium-2026"],
-    "documented_sizes": ["not stated in selected sources"],
-    "documented_materials": ["caviar"],
-    "documented_hardware": ["gold-tone hardware reported or requested"],
-    "evidence_coverage": {"source_count": 7, "independent_author_count": 7, "primary_subreddit_coverage": ["RealRepLadies", "RepTherapy", "RepLadiesWorld"], "image_ready": true, "evidence_types": ["auth_comparison", "in_hand_review", "psp_qc"]},
-    "last_updated": "2026-08-08",
-    "research_gaps": ["Resolve size and received-factory attribution across the two posts.", "Keep source-reported seller/factory names separate from site conclusions."],
+    "evidence_ids": [
+      "ev-rll-chanel-classic-flap-187",
+      "ev-rt-chanel-classic-flap",
+      "ev-crawl-rt-classic-flap-auth-2025",
+      "ev-crawl-rlw-classic-flap-2026",
+      "ev-crawl-rlw-classic-flap-rehome-2026",
+      "ev-crawl-rll-classic-flap-auth-jumbo-2026",
+      "ev-crawl-rlw-classic-flap-187-medium-2026",
+      "ev-crawl-rrl-chanel-classic-flap-1utfhhw",
+      "ev-crawl-rrl-chanel-classic-flap-1pht6us"
+    ],
+    "documented_sizes": [
+      "not stated in selected sources"
+    ],
+    "documented_materials": [
+      "caviar"
+    ],
+    "documented_hardware": [
+      "gold-tone hardware reported or requested"
+    ],
+    "evidence_coverage": {
+      "source_count": 9,
+      "independent_author_count": 8,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepLadiesWorld",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "auth_comparison",
+        "factory_comparison",
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
+    "last_updated": "2026-08-12",
+    "research_gaps": [
+      "Resolve size and received-factory attribution across the two posts.",
+      "Keep source-reported seller/factory names separate from site conclusions."
+    ],
     "reference_url": "https://www.chanel.com/us/fashion/p/A01112Y01864C3906/medium-classic-handbag-grained-calfskin-gold-tone-metal/"
   },
   {
@@ -81,19 +141,54 @@
     "slug": "louis-vuitton-speedy",
     "brand": "Louis Vuitton",
     "model": "Speedy",
-    "aliases": ["Speedy Bandouliere", "Speedy 25", "Speedy 30"],
+    "aliases": [
+      "Speedy Bandouliere",
+      "Speedy 25",
+      "Speedy 30"
+    ],
     "category": "top-handle",
     "summary": "Community evidence file covering size, structure, handle, canvas, and wear across Speedy variants.",
     "tile_media_id": "media-speedy-reddit",
     "publication_status": "published",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-rll-speedy-25", "ev-rt-speedy-25", "ev-crawl-rlw-speedy-rehome-2026", "ev-crawl-rll-speedy20-hp-auth-2026", "ev-crawl-rll-speedy25-royal-2026", "ev-crawl-rlw-speedy25-royal-2026"],
-    "documented_sizes": ["25", "30"],
-    "documented_materials": ["coated canvas with leather trim"],
-    "documented_hardware": ["not consistently stated in selected sources"],
-    "evidence_coverage": {"source_count": 6, "independent_author_count": 5, "primary_subreddit_coverage": ["RealRepLadies", "RepTherapy", "RepLadiesWorld"], "image_ready": true, "evidence_types": ["auth_comparison", "in_hand_review", "psp_qc"]},
+    "evidence_ids": [
+      "ev-rll-speedy-25",
+      "ev-rt-speedy-25",
+      "ev-crawl-rlw-speedy-rehome-2026",
+      "ev-crawl-rll-speedy20-hp-auth-2026",
+      "ev-crawl-rll-speedy25-royal-2026",
+      "ev-crawl-rlw-speedy25-royal-2026"
+    ],
+    "documented_sizes": [
+      "25",
+      "30"
+    ],
+    "documented_materials": [
+      "coated canvas with leather trim"
+    ],
+    "documented_hardware": [
+      "not consistently stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 6,
+      "independent_author_count": 5,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepLadiesWorld",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "auth_comparison",
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
     "last_updated": "2026-08-08",
-    "research_gaps": ["Keep 25 and 30 size evidence separate.", "Resolve factory and hardware details only when the source states them."],
+    "research_gaps": [
+      "Keep 25 and 30 size evidence separate.",
+      "Resolve factory and hardware details only when the source states them."
+    ],
     "reference_url": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-25-monogram-nvprod2790047v/M46977"
   },
   {
@@ -101,19 +196,47 @@
     "slug": "the-row-margaux",
     "brand": "The Row",
     "model": "Margaux",
-    "aliases": ["Margaux bag"],
+    "aliases": [
+      "Margaux bag"
+    ],
     "category": "tote",
     "summary": "Community evidence file covering soft structure, leather, lining, and everyday wear.",
     "tile_media_id": "media-margaux-reddit",
     "publication_status": "published",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-rll-margaux-17", "ev-rt-margaux-15"],
-    "documented_sizes": ["15", "17"],
-    "documented_materials": ["saddle leather", "untreated leather / raw materials"],
-    "documented_hardware": ["not stated in selected sources"],
-    "evidence_coverage": {"source_count": 2, "independent_author_count": 2, "primary_subreddit_coverage": ["RealRepLadies", "RepTherapy"], "image_ready": true, "evidence_types": ["auth_comparison", "in_hand_review"]},
+    "evidence_ids": [
+      "ev-rll-margaux-17",
+      "ev-rt-margaux-15"
+    ],
+    "documented_sizes": [
+      "15",
+      "17"
+    ],
+    "documented_materials": [
+      "saddle leather",
+      "untreated leather / raw materials"
+    ],
+    "documented_hardware": [
+      "not stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 2,
+      "independent_author_count": 2,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "auth_comparison",
+        "in_hand_review"
+      ]
+    },
     "last_updated": "2026-08-08",
-    "research_gaps": ["Keep Margaux 15 and 17 evidence separate from Shoulder Bag reports.", "Do not turn seller-reported leather language into a site conclusion."],
+    "research_gaps": [
+      "Keep Margaux 15 and 17 evidence separate from Shoulder Bag reports.",
+      "Do not turn seller-reported leather language into a site conclusion."
+    ],
     "reference_url": "https://www.therow.com/products/soft-margaux-15-black"
   },
   {
@@ -121,19 +244,61 @@
     "slug": "loewe-flamenco",
     "brand": "Loewe",
     "model": "Flamenco",
-    "aliases": ["Flamenco clutch", "Flamenco purse"],
+    "aliases": [
+      "Flamenco clutch",
+      "Flamenco purse"
+    ],
     "category": "shoulder-bag",
     "summary": "Community evidence file covering drawstring construction, leather feel, strap configuration, and in-hand wear.",
     "tile_media_id": "media-flamenco-reddit",
     "publication_status": "published",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-rll-flamenco-medium", "ev-rt-flamenco-deerskin", "ev-crawl-rt-flamenco-mini-jipin-2025", "ev-crawl-rt-flamenco-mandy-2025", "ev-crawl-rt-flamenco-medium-liusheng-2026", "ev-crawl-rll-flamenco-medium-dhg-2026", "ev-rt-flamenco-fever-black-qiu-mandy", "ev-rt-flamenco-fever-square-jipin-mandy", "ev-rt-flamenco-fever-orange-jipin-mandy", "ev-rt-flamenco-fever-green-jipin-mike", "ev-rt-flamenco-fever-futurist-cat-vivi-baker", "ev-rt-flamenco-first-order-mandy-2025"],
-    "documented_sizes": ["30 cm", "large"],
-    "documented_materials": ["deerskin", "not consistently stated in selected sources"],
-    "documented_hardware": ["yellow / shiny hardware noted in QC discussion"],
-    "evidence_coverage": {"source_count": 12, "independent_author_count": 7, "primary_subreddit_coverage": ["RealRepLadies", "RepTherapy"], "image_ready": true, "evidence_types": ["auth_comparison", "in_hand_review", "psp_qc"]},
-    "last_updated": "2026-08-10",
-    "research_gaps": ["Keep 30 cm Sand and large black deerskin reports separate.", "Resolve stamp and hardware questions from source-linked QC context.", "Six of the twelve evidence records share one author (spiritatbay); treat them as one corroborating source, not six independent ones."],
+    "evidence_ids": [
+      "ev-rll-flamenco-medium",
+      "ev-rt-flamenco-deerskin",
+      "ev-crawl-rt-flamenco-mini-jipin-2025",
+      "ev-crawl-rt-flamenco-mandy-2025",
+      "ev-crawl-rt-flamenco-medium-liusheng-2026",
+      "ev-crawl-rll-flamenco-medium-dhg-2026",
+      "ev-rt-flamenco-fever-black-qiu-mandy",
+      "ev-rt-flamenco-fever-square-jipin-mandy",
+      "ev-rt-flamenco-fever-orange-jipin-mandy",
+      "ev-rt-flamenco-fever-green-jipin-mike",
+      "ev-rt-flamenco-fever-futurist-cat-vivi-baker",
+      "ev-rt-flamenco-first-order-mandy-2025",
+      "ev-crawl-rrl-loewe-flamenco-1rpqirm"
+    ],
+    "documented_sizes": [
+      "30 cm",
+      "large"
+    ],
+    "documented_materials": [
+      "deerskin",
+      "not consistently stated in selected sources"
+    ],
+    "documented_hardware": [
+      "yellow / shiny hardware noted in QC discussion"
+    ],
+    "evidence_coverage": {
+      "source_count": 13,
+      "independent_author_count": 8,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "auth_comparison",
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
+    "last_updated": "2026-08-12",
+    "research_gaps": [
+      "Keep 30 cm Sand and large black deerskin reports separate.",
+      "Resolve stamp and hardware questions from source-linked QC context.",
+      "Six of the twelve evidence records share one author (spiritatbay); treat them as one corroborating source, not six independent ones."
+    ],
     "reference_url": "https://www.loewe.com/usa/en/women/bags/flamenco/"
   },
   {
@@ -141,19 +306,60 @@
     "slug": "loewe-puzzle",
     "brand": "Loewe",
     "model": "Puzzle",
-    "aliases": ["Puzzle bag", "Puzzle Fold"],
+    "aliases": [
+      "Puzzle bag",
+      "Puzzle Fold"
+    ],
     "category": "shoulder-bag",
     "summary": "Community evidence file covering panel geometry, leather, strap, and shape retention.",
     "tile_media_id": "media-puzzle-reddit",
     "publication_status": "published",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-rll-puzzle-small", "ev-rt-puzzle-large", "ev-crawl-rt-puzzle-medium-jipin-2026", "ev-crawl-rt-puzzle-burgundy-jipin-2025", "ev-crawl-rll-puzzle-edge33-liusheng-2026", "ev-rt-puzzle-conditioning-portrait-2026", "ev-rt-puzzle-biker-jipin-laomao-riyu28", "ev-rt-puzzle-biker-qiu-mandy-spiritatbay", "ev-rt-puzzle-edge-large-nina-2025", "ev-rt-puzzle-braided-mandy-2026"],
-    "documented_sizes": ["small", "large", "24 cm"],
-    "documented_materials": ["leather", "brown suede interior"],
-    "documented_hardware": ["not stated in selected sources"],
-    "evidence_coverage": {"source_count": 10, "independent_author_count": 7, "primary_subreddit_coverage": ["RealRepLadies", "RepTherapy"], "image_ready": true, "evidence_types": ["auth_comparison", "factory_comparison", "in_hand_review", "long_term_wear"]},
+    "evidence_ids": [
+      "ev-rll-puzzle-small",
+      "ev-rt-puzzle-large",
+      "ev-crawl-rt-puzzle-medium-jipin-2026",
+      "ev-crawl-rt-puzzle-burgundy-jipin-2025",
+      "ev-crawl-rll-puzzle-edge33-liusheng-2026",
+      "ev-rt-puzzle-conditioning-portrait-2026",
+      "ev-rt-puzzle-biker-jipin-laomao-riyu28",
+      "ev-rt-puzzle-biker-qiu-mandy-spiritatbay",
+      "ev-rt-puzzle-edge-large-nina-2025",
+      "ev-rt-puzzle-braided-mandy-2026"
+    ],
+    "documented_sizes": [
+      "small",
+      "large",
+      "24 cm"
+    ],
+    "documented_materials": [
+      "leather",
+      "brown suede interior"
+    ],
+    "documented_hardware": [
+      "not stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 10,
+      "independent_author_count": 7,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "auth_comparison",
+        "factory_comparison",
+        "in_hand_review",
+        "long_term_wear"
+      ]
+    },
     "last_updated": "2026-08-10",
-    "research_gaps": ["Keep small and large Puzzle evidence separate.", "Resolve material and hardware details only from exact-variant sources.", "Four of the ten evidence records share one author (spiritatbay); treat them as one corroborating source, not four independent ones."],
+    "research_gaps": [
+      "Keep small and large Puzzle evidence separate.",
+      "Resolve material and hardware details only from exact-variant sources.",
+      "Four of the ten evidence records share one author (spiritatbay); treat them as one corroborating source, not four independent ones."
+    ],
     "reference_url": "https://www.loewe.com/usa/en/women/bags/puzzle/"
   },
   {
@@ -161,19 +367,50 @@
     "slug": "bottega-veneta-andiamos",
     "brand": "Bottega Veneta",
     "model": "Andiamo",
-    "aliases": ["Andiamo bag"],
+    "aliases": [
+      "Andiamo bag"
+    ],
     "category": "tote",
     "summary": "Community evidence file covering woven leather, braided handles, hardware, and travel use.",
     "tile_media_id": "media-andiamo-reddit",
     "publication_status": "published",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-rll-andiamos-medium", "ev-rt-andiamos-east-west", "ev-crawl-rt-andiamos-jing-auth-2026", "ev-crawl-repculture-andiamos-small-2026", "ev-crawl-repculture-andiamos-denim-2026"],
-    "documented_sizes": ["medium", "East West"],
-    "documented_materials": ["leather (source-reported)"],
-    "documented_hardware": ["not consistently stated in selected sources"],
-    "evidence_coverage": {"source_count": 5, "independent_author_count": 4, "primary_subreddit_coverage": ["RealRepLadies", "RepTherapy"], "image_ready": true, "evidence_types": ["auth_comparison", "in_hand_review"]},
+    "evidence_ids": [
+      "ev-rll-andiamos-medium",
+      "ev-rt-andiamos-east-west",
+      "ev-crawl-rt-andiamos-jing-auth-2026",
+      "ev-crawl-repculture-andiamos-small-2026",
+      "ev-crawl-repculture-andiamos-denim-2026"
+    ],
+    "documented_sizes": [
+      "medium",
+      "East West"
+    ],
+    "documented_materials": [
+      "leather (source-reported)"
+    ],
+    "documented_hardware": [
+      "not consistently stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 5,
+      "independent_author_count": 4,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepCulture_Bags",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "auth_comparison",
+        "in_hand_review"
+      ]
+    },
     "last_updated": "2026-08-08",
-    "research_gaps": ["Keep Medium and East West evidence separate.", "Do not infer leather or hardware where the source is silent."],
+    "research_gaps": [
+      "Keep Medium and East West evidence separate.",
+      "Do not infer leather or hardware where the source is silent."
+    ],
     "reference_url": "https://www.bottegaveneta.com/en-us/large-andiamo-749299VCPP18425.html"
   },
   {
@@ -181,19 +418,50 @@
     "slug": "goyard-saint-louis",
     "brand": "Goyard",
     "model": "Saint Louis",
-    "aliases": ["Saint Louis tote", "St. Louis"],
+    "aliases": [
+      "Saint Louis tote",
+      "St. Louis"
+    ],
     "category": "tote",
     "summary": "Community evidence file covering coated-canvas structure, handle finish, pouch, and everyday use.",
     "tile_media_id": "media-saint-louis-reddit",
     "publication_status": "published",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-rll-goyard-gm", "ev-rt-goyard-gm", "ev-crawl-rll-goyard-stlouis-green-2026", "ev-crawl-rlw-saint-louis-navy-2026"],
-    "documented_sizes": ["GM"],
-    "documented_materials": ["not stated in selected sources"],
-    "documented_hardware": ["not stated in selected sources"],
-    "evidence_coverage": {"source_count": 4, "independent_author_count": 4, "primary_subreddit_coverage": ["RealRepLadies", "RepTherapy", "RepLadiesWorld"], "image_ready": true, "evidence_types": ["auth_comparison", "in_hand_review", "psp_qc"]},
+    "evidence_ids": [
+      "ev-rll-goyard-gm",
+      "ev-rt-goyard-gm",
+      "ev-crawl-rll-goyard-stlouis-green-2026",
+      "ev-crawl-rlw-saint-louis-navy-2026"
+    ],
+    "documented_sizes": [
+      "GM"
+    ],
+    "documented_materials": [
+      "not stated in selected sources"
+    ],
+    "documented_hardware": [
+      "not stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 4,
+      "independent_author_count": 4,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepLadiesWorld",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "auth_comparison",
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
     "last_updated": "2026-08-08",
-    "research_gaps": ["Keep grey and Burgundy GM reports separate.", "Treat the tentative Lemon name and absent Griffin factory as unresolved."],
+    "research_gaps": [
+      "Keep grey and Burgundy GM reports separate.",
+      "Treat the tentative Lemon name and absent Griffin factory as unresolved."
+    ],
     "reference_url": "https://www.goyard.com/us_en/saint-louis.html"
   },
   {
@@ -201,19 +469,48 @@
     "slug": "hermes-birkin-25",
     "brand": "Hermès",
     "model": "Birkin 25",
-    "aliases": ["B25", "Birkin 25 cm"],
+    "aliases": [
+      "B25",
+      "Birkin 25 cm"
+    ],
     "category": "top-handle",
     "summary": "Community evidence file covering leather, stamp, stitching, hardware, and comparison details.",
     "tile_media_id": "media-birkin-25-reddit",
     "publication_status": "published",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-rll-birkin-25", "ev-rt-birkin-25-wear"],
-    "documented_sizes": ["25"],
-    "documented_materials": ["Togo", "leather"],
-    "documented_hardware": ["palladium", "brushed palladium"],
-    "evidence_coverage": {"source_count": 2, "independent_author_count": 2, "primary_subreddit_coverage": ["RealRepLadies", "RepTherapy"], "image_ready": true, "evidence_types": ["long_term_wear", "psp_qc"]},
+    "evidence_ids": [
+      "ev-rll-birkin-25",
+      "ev-rt-birkin-25-wear"
+    ],
+    "documented_sizes": [
+      "25"
+    ],
+    "documented_materials": [
+      "Togo",
+      "leather"
+    ],
+    "documented_hardware": [
+      "palladium",
+      "brushed palladium"
+    ],
+    "evidence_coverage": {
+      "source_count": 2,
+      "independent_author_count": 2,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "long_term_wear",
+        "psp_qc"
+      ]
+    },
     "last_updated": "2026-08-08",
-    "research_gaps": ["Keep Togo Sellier-style and Noir Togo reports separate.", "Resolve factory and color details only from exact-variant sources."],
+    "research_gaps": [
+      "Keep Togo Sellier-style and Noir Togo reports separate.",
+      "Resolve factory and color details only from exact-variant sources."
+    ],
     "reference_url": "https://www.hermes.com/us/en/product/birkin-25-bag-H056289CKAD/"
   },
   {
@@ -221,19 +518,46 @@
     "slug": "miu-miu-arcadie",
     "brand": "Miu Miu",
     "model": "Arcadie",
-    "aliases": ["Arcadie bag"],
+    "aliases": [
+      "Arcadie bag"
+    ],
     "category": "top-handle",
     "summary": "Community evidence file covering structured leather, handles, hardware, and long-term shape.",
     "tile_media_id": "media-arcadie-reddit",
     "publication_status": "published",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-rll-arcadie", "ev-rt-arcadie"],
-    "documented_sizes": ["27 cm", "regular / small"],
-    "documented_materials": ["leather"],
-    "documented_hardware": ["not stated in selected sources"],
-    "evidence_coverage": {"source_count": 2, "independent_author_count": 2, "primary_subreddit_coverage": ["RealRepLadies", "RepTherapy"], "image_ready": true, "evidence_types": ["auth_comparison", "in_hand_review"]},
+    "evidence_ids": [
+      "ev-rll-arcadie",
+      "ev-rt-arcadie"
+    ],
+    "documented_sizes": [
+      "27 cm",
+      "regular / small"
+    ],
+    "documented_materials": [
+      "leather"
+    ],
+    "documented_hardware": [
+      "not stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 2,
+      "independent_author_count": 2,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "auth_comparison",
+        "in_hand_review"
+      ]
+    },
     "last_updated": "2026-08-08",
-    "research_gaps": ["Keep 27 cm cognac and matelassé reports separate.", "Resolve hardware details from exact-variant source material."],
+    "research_gaps": [
+      "Keep 27 cm cognac and matelassé reports separate.",
+      "Resolve hardware details from exact-variant source material."
+    ],
     "reference_url": "https://www.miumiu.com/us/en/p/arcadie-leather-bag/5BA189_N88_F0002_V_OOO"
   },
   {
@@ -241,19 +565,47 @@
     "slug": "dior-lady-dior",
     "brand": "Dior",
     "model": "Lady Dior",
-    "aliases": ["Lady D", "Lady Dior bag"],
+    "aliases": [
+      "Lady D",
+      "Lady Dior bag"
+    ],
     "category": "top-handle",
     "summary": "Community evidence file covering cannage pattern, charms, handle, leather, and comparison details.",
     "tile_media_id": "media-lady-dior-reddit",
     "publication_status": "published",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-rll-lady-dior-auth", "ev-rt-lady-dior", "ev-crawl-rt-ladydior-reykey-2026"],
-    "documented_sizes": ["Small"],
-    "documented_materials": ["not stated in selected sources"],
-    "documented_hardware": ["not stated in selected sources"],
-    "evidence_coverage": {"source_count": 3, "independent_author_count": 3, "primary_subreddit_coverage": ["RealRepLadies", "RepTherapy"], "image_ready": true, "evidence_types": ["auth_comparison", "in_hand_review", "long_term_wear"]},
+    "evidence_ids": [
+      "ev-rll-lady-dior-auth",
+      "ev-rt-lady-dior",
+      "ev-crawl-rt-ladydior-reykey-2026"
+    ],
+    "documented_sizes": [
+      "Small"
+    ],
+    "documented_materials": [
+      "not stated in selected sources"
+    ],
+    "documented_hardware": [
+      "not stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 3,
+      "independent_author_count": 3,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "in_hand_review",
+        "long_term_wear"
+      ]
+    },
     "last_updated": "2026-08-08",
-    "research_gaps": ["Resolve size, leather, color, and hardware across the comparison and in-hand sources.", "Keep God Factory as a source-reported label only."],
+    "research_gaps": [
+      "Resolve size, leather, color, and hardware across the comparison and in-hand sources.",
+      "Keep God Factory as a source-reported label only."
+    ],
     "reference_url": "https://www.dior.com/en_us/fashion/products/M0538ONGE_M900"
   },
   {
@@ -261,19 +613,50 @@
     "slug": "dior-book-tote",
     "brand": "Dior",
     "model": "Book Tote",
-    "aliases": ["Book tote", "Dior tote"],
+    "aliases": [
+      "Book tote",
+      "Dior tote"
+    ],
     "category": "tote",
     "summary": "Community evidence file covering embroidery, structure, handles, size, and travel use.",
     "tile_media_id": "media-book-tote-reddit",
     "publication_status": "published",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-rll-book-tote-small", "ev-rt-book-tote", "ev-crawl-rt-book-tote-qc-2025", "ev-crawl-rt-book-tote-medium-qc-2026"],
-    "documented_sizes": ["Small", "36"],
-    "documented_materials": ["canvas", "embroidery"],
-    "documented_hardware": ["not stated in selected sources"],
-    "evidence_coverage": {"source_count": 4, "independent_author_count": 4, "primary_subreddit_coverage": ["RealRepLadies", "RepTherapy"], "image_ready": true, "evidence_types": ["in_hand_review", "psp_qc"]},
+    "evidence_ids": [
+      "ev-rll-book-tote-small",
+      "ev-rt-book-tote",
+      "ev-crawl-rt-book-tote-qc-2025",
+      "ev-crawl-rt-book-tote-medium-qc-2026"
+    ],
+    "documented_sizes": [
+      "Small",
+      "36"
+    ],
+    "documented_materials": [
+      "canvas",
+      "embroidery"
+    ],
+    "documented_hardware": [
+      "not stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 4,
+      "independent_author_count": 4,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
     "last_updated": "2026-08-08",
-    "research_gaps": ["Keep Small and size 36 reports separate.", "Do not infer hardware or a factory from comment-only claims."],
+    "research_gaps": [
+      "Keep Small and size 36 reports separate.",
+      "Do not infer hardware or a factory from comment-only claims."
+    ],
     "reference_url": "https://www.dior.com/en_us/fashion/products/M1296ZRIW_M928"
   },
   {
@@ -281,19 +664,44 @@
     "slug": "balmain-anthem",
     "brand": "Balmain",
     "model": "Anthem",
-    "aliases": ["Anthem bag", "Balmain Anthem"],
+    "aliases": [
+      "Anthem bag",
+      "Balmain Anthem"
+    ],
     "category": "shoulder-bag",
     "summary": "A research-queue collection opened from a public RepCulture_Bags review of a medium black calfskin Anthem.",
     "tile_media_id": "media-balmain-anthem-reddit",
     "publication_status": "research_queue",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-crawl-repculture-balmain-anthem-2025"],
-    "documented_sizes": ["Medium"],
-    "documented_materials": ["calfskin", "suede lining"],
-    "documented_hardware": ["large buckle"],
-    "evidence_coverage": {"source_count": 1, "independent_author_count": 1, "primary_subreddit_coverage": [], "image_ready": true, "evidence_types": ["auth_comparison"]},
+    "evidence_ids": [
+      "ev-crawl-repculture-balmain-anthem-2025"
+    ],
+    "documented_sizes": [
+      "Medium"
+    ],
+    "documented_materials": [
+      "calfskin",
+      "suede lining"
+    ],
+    "documented_hardware": [
+      "large buckle"
+    ],
+    "evidence_coverage": {
+      "source_count": 1,
+      "independent_author_count": 1,
+      "primary_subreddit_coverage": [
+        "RepCulture_Bags"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "auth_comparison"
+      ]
+    },
     "last_updated": "2026-08-08",
-    "research_gaps": ["Find a second independent public author, including a source from r/RealRepLadies or r/RepTherapy.", "Resolve the source's Kata / Boutique factory naming without treating it as a verified factory identity."],
+    "research_gaps": [
+      "Find a second independent public author, including a source from r/RealRepLadies or r/RepTherapy.",
+      "Resolve the source's Kata / Boutique factory naming without treating it as a verified factory identity."
+    ],
     "reference_url": "https://us.balmain.com/en/p/medium-anthem-bag-in-leather-FN0KK990LVGX0PA.html"
   },
   {
@@ -301,19 +709,47 @@
     "slug": "ferragamo-hug",
     "brand": "Ferragamo",
     "model": "Hug Soft",
-    "aliases": ["Ferragamo Hug", "Soft Hug"],
+    "aliases": [
+      "Ferragamo Hug",
+      "Soft Hug"
+    ],
     "category": "tote",
     "summary": "A research-queue collection opened from public in-hand and PSP/QC posts covering the Ferragamo Hug Soft work-bag shape.",
     "tile_media_id": "media-ferragamo-hug-soft-reddit",
     "publication_status": "research_queue",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-crawl-rt-ferragamo-hug-2026", "ev-crawl-rll-ferragamo-hug-2026"],
-    "documented_sizes": ["large", "unknown"],
-    "documented_materials": ["leather"],
-    "documented_hardware": ["gold-tone accents"],
-    "evidence_coverage": {"source_count": 2, "independent_author_count": 2, "primary_subreddit_coverage": ["RealRepLadies", "RepTherapy"], "image_ready": true, "evidence_types": ["in_hand_review", "psp_qc"]},
+    "evidence_ids": [
+      "ev-crawl-rt-ferragamo-hug-2026",
+      "ev-crawl-rll-ferragamo-hug-2026"
+    ],
+    "documented_sizes": [
+      "large",
+      "unknown"
+    ],
+    "documented_materials": [
+      "leather"
+    ],
+    "documented_hardware": [
+      "gold-tone accents"
+    ],
+    "evidence_coverage": {
+      "source_count": 2,
+      "independent_author_count": 2,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
     "last_updated": "2026-08-08",
-    "research_gaps": ["Confirm exact size and material across the two sources.", "Add a second in-hand or auth-comparison receipt if the queue is to become a published collection."],
+    "research_gaps": [
+      "Confirm exact size and material across the two sources.",
+      "Add a second in-hand or auth-comparison receipt if the queue is to become a published collection."
+    ],
     "reference_url": "https://www.ferragamo.com/shop/us/en/women/handbags/hug"
   },
   {
@@ -321,19 +757,43 @@
     "slug": "ysl-loulou",
     "brand": "Saint Laurent",
     "model": "LouLou",
-    "aliases": ["YSL LouLou", "LouLou bag"],
+    "aliases": [
+      "YSL LouLou",
+      "LouLou bag"
+    ],
     "category": "shoulder-bag",
     "summary": "A research-queue collection opened from a public medium red LouLou review covering lambskin, chain weight, capacity, construction, and seller service.",
     "tile_media_id": "media-ysl-loulou-reddit",
     "publication_status": "research_queue",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-crawl-rll-ysl-loulou-black-frame-2026"],
-    "documented_sizes": ["Medium"],
-    "documented_materials": ["lambskin (source-reported)"],
-    "documented_hardware": ["substantial chain"],
-    "evidence_coverage": {"source_count": 1, "independent_author_count": 1, "primary_subreddit_coverage": ["RealRepLadies"], "image_ready": true, "evidence_types": ["in_hand_review"]},
+    "evidence_ids": [
+      "ev-crawl-rll-ysl-loulou-black-frame-2026"
+    ],
+    "documented_sizes": [
+      "Medium"
+    ],
+    "documented_materials": [
+      "lambskin (source-reported)"
+    ],
+    "documented_hardware": [
+      "substantial chain"
+    ],
+    "evidence_coverage": {
+      "source_count": 1,
+      "independent_author_count": 1,
+      "primary_subreddit_coverage": [
+        "RealRepLadies"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "in_hand_review"
+      ]
+    },
     "last_updated": "2026-08-08",
-    "research_gaps": ["Find a second independent public author and keep color and size explicit.", "Keep Black Frame and Felix as source-reported labels rather than site conclusions."],
+    "research_gaps": [
+      "Find a second independent public author and keep color and size explicit.",
+      "Keep Black Frame and Felix as source-reported labels rather than site conclusions."
+    ],
     "reference_url": "https://www.ysl.com/en-us/women/handbags"
   },
   {
@@ -341,19 +801,43 @@
     "slug": "celine-new-luggage",
     "brand": "Celine",
     "model": "New Luggage",
-    "aliases": ["Celine New Luggage", "New Luggage bag"],
+    "aliases": [
+      "Celine New Luggage",
+      "New Luggage bag"
+    ],
     "category": "top-handle",
     "summary": "A research-queue collection opened from a self-disclosed medium brick New Luggage review with PSP, receipt-timeline, and in-hand construction details.",
     "tile_media_id": "media-celine-new-luggage-reddit",
     "publication_status": "research_queue",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-crawl-rll-celine-new-luggage-2026"],
-    "documented_sizes": ["Medium"],
-    "documented_materials": ["sheepskin / lambskin (source-reported)"],
-    "documented_hardware": ["not separately named"],
-    "evidence_coverage": {"source_count": 1, "independent_author_count": 1, "primary_subreddit_coverage": ["RealRepLadies"], "image_ready": true, "evidence_types": ["psp_qc"]},
+    "evidence_ids": [
+      "ev-crawl-rll-celine-new-luggage-2026"
+    ],
+    "documented_sizes": [
+      "Medium"
+    ],
+    "documented_materials": [
+      "sheepskin / lambskin (source-reported)"
+    ],
+    "documented_hardware": [
+      "not separately named"
+    ],
+    "evidence_coverage": {
+      "source_count": 1,
+      "independent_author_count": 1,
+      "primary_subreddit_coverage": [
+        "RealRepLadies"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "psp_qc"
+      ]
+    },
     "last_updated": "2026-08-08",
-    "research_gaps": ["Find a second independent public author and preserve New Luggage versus older Phantom Luggage distinctions.", "Keep Captain/CZ and BaoBao as source-reported labels."],
+    "research_gaps": [
+      "Find a second independent public author and preserve New Luggage versus older Phantom Luggage distinctions.",
+      "Keep Captain/CZ and BaoBao as source-reported labels."
+    ],
     "reference_url": "https://www.celine.com/en-us/celine-shop-women/handbags/new-luggage/"
   },
   {
@@ -361,19 +845,43 @@
     "slug": "bottega-veneta-barbara",
     "brand": "Bottega Veneta",
     "model": "Barbara Tote",
-    "aliases": ["BV Barbara", "Barbara Tote"],
+    "aliases": [
+      "BV Barbara",
+      "Barbara Tote"
+    ],
     "category": "tote",
     "summary": "A research-queue collection opened from a public medium dark-brown Barbara Tote review covering leather feel, PSP, and delivery timing.",
     "tile_media_id": "media-bv-barbara-tote-reddit",
     "publication_status": "research_queue",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-crawl-rll-bv-barbara-medium-2026"],
-    "documented_sizes": ["Medium"],
-    "documented_materials": ["soft leather (source-reported)"],
-    "documented_hardware": ["not stated in selected source"],
-    "evidence_coverage": {"source_count": 1, "independent_author_count": 1, "primary_subreddit_coverage": ["RealRepLadies"], "image_ready": true, "evidence_types": ["in_hand_review"]},
+    "evidence_ids": [
+      "ev-crawl-rll-bv-barbara-medium-2026"
+    ],
+    "documented_sizes": [
+      "Medium"
+    ],
+    "documented_materials": [
+      "soft leather (source-reported)"
+    ],
+    "documented_hardware": [
+      "not stated in selected source"
+    ],
+    "evidence_coverage": {
+      "source_count": 1,
+      "independent_author_count": 1,
+      "primary_subreddit_coverage": [
+        "RealRepLadies"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "in_hand_review"
+      ]
+    },
     "last_updated": "2026-08-08",
-    "research_gaps": ["Find a second independent public author and retain the medium-size distinction.", "Keep Top/Taitai and Yuyu as source-reported labels."],
+    "research_gaps": [
+      "Find a second independent public author and retain the medium-size distinction.",
+      "Keep Top/Taitai and Yuyu as source-reported labels."
+    ],
     "reference_url": "https://www.bottegaveneta.com/en-us/women/bags.html"
   },
   {
@@ -381,19 +889,46 @@
     "slug": "balenciaga-rodeo",
     "brand": "Balenciaga",
     "model": "Rodeo",
-    "aliases": ["Rodeo bag", "Balenciaga Rodeo"],
+    "aliases": [
+      "Rodeo bag",
+      "Balenciaga Rodeo"
+    ],
     "category": "top-handle",
     "summary": "Community evidence file covering a medium black Rodeo with auth-reference observations, work capacity, and hardware, plus a second independent in-hand review reporting leather feel, structure, and seller experience.",
     "tile_media_id": "media-balenciaga-rodeo-reddit",
     "publication_status": "published",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-crawl-rll-balenciaga-rodeo-medium-2026", "ev-rt-rodeo-mike-2026"],
-    "documented_sizes": ["Medium"],
-    "documented_materials": ["calfskin"],
-    "documented_hardware": ["aged silver"],
-    "evidence_coverage": {"source_count": 2, "independent_author_count": 2, "primary_subreddit_coverage": ["RealRepLadies", "RepTherapy"], "image_ready": true, "evidence_types": ["auth_comparison", "in_hand_review"]},
+    "evidence_ids": [
+      "ev-crawl-rll-balenciaga-rodeo-medium-2026",
+      "ev-rt-rodeo-mike-2026"
+    ],
+    "documented_sizes": [
+      "Medium"
+    ],
+    "documented_materials": [
+      "calfskin"
+    ],
+    "documented_hardware": [
+      "aged silver"
+    ],
+    "evidence_coverage": {
+      "source_count": 2,
+      "independent_author_count": 2,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "auth_comparison",
+        "in_hand_review"
+      ]
+    },
     "last_updated": "2026-08-10",
-    "research_gaps": ["Keep medium, black, and aged-silver details from the first source separate from the second review, whose color and size are unstated.", "Neither the Garmen nor the Mike-sourced bag discloses a factory; do not infer one."],
+    "research_gaps": [
+      "Keep medium, black, and aged-silver details from the first source separate from the second review, whose color and size are unstated.",
+      "Neither the Garmen nor the Mike-sourced bag discloses a factory; do not infer one."
+    ],
     "reference_url": "https://www.balenciaga.com/en-us/rodeo-handbag-medium-black-7897722AA4U1000.html"
   },
   {
@@ -401,19 +936,43 @@
     "slug": "chanel-vanity-slim",
     "brand": "Chanel",
     "model": "Slim Vanity",
-    "aliases": ["Chanel vanity", "Slim vanity case"],
+    "aliases": [
+      "Chanel vanity",
+      "Slim vanity case"
+    ],
     "category": "top-handle",
     "summary": "A research-queue collection opened from a public Chanel Slim Vanity receipt with PSP, shipping, and authentic-store weight comparison notes.",
     "tile_media_id": "media-chanel-slim-vanity-reddit",
     "publication_status": "research_queue",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-crawl-rll-chanel-vanity-slim-2026"],
-    "documented_sizes": ["not stated in selected source"],
-    "documented_materials": ["not stated in selected source"],
-    "documented_hardware": ["not stated in selected source"],
-    "evidence_coverage": {"source_count": 1, "independent_author_count": 1, "primary_subreddit_coverage": ["RealRepLadies"], "image_ready": true, "evidence_types": ["psp_qc"]},
+    "evidence_ids": [
+      "ev-crawl-rll-chanel-vanity-slim-2026"
+    ],
+    "documented_sizes": [
+      "not stated in selected source"
+    ],
+    "documented_materials": [
+      "not stated in selected source"
+    ],
+    "documented_hardware": [
+      "not stated in selected source"
+    ],
+    "evidence_coverage": {
+      "source_count": 1,
+      "independent_author_count": 1,
+      "primary_subreddit_coverage": [
+        "RealRepLadies"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "psp_qc"
+      ]
+    },
     "last_updated": "2026-08-08",
-    "research_gaps": ["Find a second independent public author and resolve exact size, color, and material.", "Keep the 187 attribution as a source-reported thread statement only."],
+    "research_gaps": [
+      "Find a second independent public author and resolve exact size, color, and material.",
+      "Keep the 187 attribution as a source-reported thread statement only."
+    ],
     "reference_url": "https://www.chanel.com/us/fashion/handbags/"
   },
   {
@@ -421,18 +980,99 @@
     "slug": "balenciaga-le-city",
     "brand": "Balenciaga",
     "model": "Le City",
-    "aliases": ["Le City", "City Bag", "Balenciaga City"],
+    "aliases": [
+      "Le City",
+      "City Bag",
+      "Balenciaga City"
+    ],
     "category": "shoulder-bag",
     "summary": "A research-queue collection opened from two independent RealRepLadies reviews of the City Small in leather, covering finish, break-in, hardware fit, and seller experience across two different sellers.",
     "tile_media_id": "media-balenciaga-le-city-small-reddit",
     "publication_status": "research_queue",
     "documented_variant_ids": [],
-    "evidence_ids": ["ev-crawl-rll-balenciaga-le-city-1uu8vp2", "ev-crawl-rll-balenciaga-le-city-1o69i9j"],
-    "documented_sizes": ["Small"],
-    "documented_materials": ["leather"],
-    "documented_hardware": ["not stated in selected sources"],
-    "evidence_coverage": {"source_count": 2, "independent_author_count": 2, "primary_subreddit_coverage": ["RealRepLadies"], "image_ready": true, "evidence_types": ["in_hand_review", "psp_qc"]},
+    "evidence_ids": [
+      "ev-crawl-rll-balenciaga-le-city-1uu8vp2",
+      "ev-crawl-rll-balenciaga-le-city-1o69i9j"
+    ],
+    "documented_sizes": [
+      "Small"
+    ],
+    "documented_materials": [
+      "leather"
+    ],
+    "documented_hardware": [
+      "not stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 2,
+      "independent_author_count": 2,
+      "primary_subreddit_coverage": [
+        "RealRepLadies"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
     "last_updated": "2026-08-10",
-    "research_gaps": ["Both sources cover a City Small in leather but different colors (Espresso/chocolate vs. unstated) and different sellers; do not merge them into a single confirmed colorway.", "The tile photo is from the Espresso/Tiny Jenny source only; it has not been confirmed to match the second, color-unstated source.", "Neither source discloses a factory; treat Kata as a source-reported claim about City-bag leather quality in general, not a confirmed factory attribution for either bag."]
+    "research_gaps": [
+      "Both sources cover a City Small in leather but different colors (Espresso/chocolate vs. unstated) and different sellers; do not merge them into a single confirmed colorway.",
+      "The tile photo is from the Espresso/Tiny Jenny source only; it has not been confirmed to match the second, color-unstated source.",
+      "Neither source discloses a factory; treat Kata as a source-reported claim about City-bag leather quality in general, not a confirmed factory attribution for either bag."
+    ]
+  },
+  {
+    "id": "bag-family-chanel-25",
+    "slug": "chanel-25",
+    "brand": "Chanel",
+    "model": "Chanel 25",
+    "aliases": [
+      "C25",
+      "Chanel25"
+    ],
+    "category": "shoulder-bag",
+    "summary": "Community evidence file covering the Chanel 25, opened from four independent RealRepLadies reviews spanning factory comparisons (187, OF, Rome, X-C, God) and in-hand quality reports across caviar and suede in multiple colourways.",
+    "hero_icon": "shoulder-flap",
+    "publication_status": "research_queue",
+    "documented_variant_ids": [],
+    "evidence_ids": [
+      "ev-crawl-rrl-chanel-25-1oqjerr",
+      "ev-crawl-rrl-chanel-25-1u6wek0",
+      "ev-crawl-rrl-chanel-25-1s95ped",
+      "ev-crawl-rrl-chanel-25-1t3sfuv"
+    ],
+    "documented_sizes": [
+      "Small",
+      "Medium"
+    ],
+    "documented_materials": [
+      "caviar",
+      "grained calfskin",
+      "suede"
+    ],
+    "documented_hardware": [
+      "gold-tone hardware reported",
+      "ruthenium hardware reported"
+    ],
+    "evidence_coverage": {
+      "source_count": 4,
+      "independent_author_count": 4,
+      "primary_subreddit_coverage": [
+        "RealRepLadies"
+      ],
+      "image_ready": false,
+      "evidence_types": [
+        "factory_comparison",
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
+    "last_updated": "2026-08-12",
+    "research_gaps": [
+      "No tile image yet — this uses a category hero_icon instead; add a Reddit-sourced tile_media_id before publishing.",
+      "reference_url intentionally left blank — add the official Chanel product page if one exists.",
+      "Only one post (understood_learning's factory-comparison discussion) is not a first-hand owner review; the other three are independent purchases, which should satisfy the two-author publication gate once applied."
+    ]
   }
 ]
