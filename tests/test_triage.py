@@ -85,6 +85,15 @@ class VocabularyTests(unittest.TestCase):
         self.assertTrue(by_term["Birkin"]["pattern"].search("just got my Birkin 30"))
         self.assertEqual(by_term["Birkin"]["id"], "bag-family-hermes-birkin-25")
 
+    def test_a_model_named_brand_plus_number_does_not_add_a_strong_brand_term(self):
+        # "Chanel 25" strips to "Chanel" -- the brand itself, not a distinctive
+        # model head like "Birkin". A strong "Chanel" term would make every post
+        # naming the brand register as a strong match for this one specific
+        # family, which is exactly what brand-alone matching is meant to avoid.
+        for item in self.vocabulary["families"]:
+            if item["term"].casefold() == "chanel":
+                self.assertFalse(item["strong"], item)
+
     def test_terms_match_on_word_boundaries_only(self):
         pattern = next(item["pattern"] for item in self.vocabulary["families"] if item["term"] == "Speedy")
         self.assertTrue(pattern.search("bought a Speedy today"))

@@ -177,6 +177,7 @@ def discover_subreddits(html: str, known: set[str]) -> list[str]:
             or folded in seen
             or folded in GENERIC_SUBREDDIT_DENYLIST
             or folded.startswith("u_")
+            or "rep" not in folded
         ):
             continue
         seen.add(folded)

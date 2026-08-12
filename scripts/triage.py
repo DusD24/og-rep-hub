@@ -126,9 +126,13 @@ def build_vocabulary() -> dict[str, Any]:
         if built:
             family_terms.append(built)
         # A model named for one size ("Birkin 25") must still match posts about
-        # another ("Birkin 30"); the collection is the same.
+        # another ("Birkin 30"); the collection is the same. But when the model
+        # itself is just "<Brand> <number>" ("Chanel 25"), stripping the number
+        # collapses the head to the brand name alone -- that must stay weak like
+        # any other brand-only mention, or every post naming the brand would
+        # falsely register as a strong match for this one specific model.
         head = re.sub(r"\s+\d+\s*(?:cm)?$", "", str(row.get("model") or "")).strip()
-        if head and head != row.get("model"):
+        if head and head != row.get("model") and head.casefold() != str(row.get("brand") or "").casefold():
             built = entry(head, row["id"], strong=True)
             if built:
                 family_terms.append(built)
@@ -277,6 +281,10 @@ def score_candidate(
         # No catalogued collection means there is nothing to attach a receipt to,
         # regardless of how well the post reads.
         "has_collection_anchor": bool(family_ids or bag_ids),
+        # A brand-only match (e.g. "Chanel") anchors a post to every family of
+        # that brand without confirming which model it is actually about, so a
+        # strong match is a stronger signal of a *specific* catalogued model.
+        "has_strong_collection_anchor": bool(family_strong or bag_strong),
     }
 
 

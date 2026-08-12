@@ -94,6 +94,17 @@ class ScraperContractTests(unittest.TestCase):
             ["NewRepBags"],
         )
 
+    def test_discover_subreddits_excludes_names_without_rep(self):
+        html = (
+            '<a href="https://www.reddit.com/r/TwoXChromosomes/">unrelated</a>'
+            '<a href="https://www.reddit.com/r/LifeProTips/">unrelated</a>'
+            '<a href="https://www.reddit.com/r/NewRepBags/">new</a>'
+        )
+        self.assertEqual(
+            discover_subreddits(html, {"RepCulture_Bags"}),
+            ["NewRepBags"],
+        )
+
     def test_canonical_subreddit_url_rejects_non_reddit_and_user_paths(self):
         self.assertEqual(
             canonical_subreddit_url("https://www.reddit.com/r/RepCulture_Bags/"),
