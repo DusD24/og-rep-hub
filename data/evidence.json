@@ -3267,5 +3267,75 @@
       "No side-by-side authentic photos or measurements provided.",
       "Buyer notes the bag arrived less broken-in/puffy than desired, though expects this to develop with wear — not yet confirmed."
     ]
+  },
+  {
+    "id": "ev-crawl-repculture-hermes-kelly-2026",
+    "title": "Review of my HSS K28 Gris Meyer + Rose Mexico Togo GHW from Jim",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1u8p98u/review_of_my_hss_k28_gris_meyer_rose_mexico_togo/",
+    "subreddit": "RepCulture_Bags",
+    "author": "oliviafarr1992",
+    "publication_date": "2026-06-17",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-hermes-kelly"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-jim"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "In-hand review of a Kelly 28 HSS (Sellier, two-tone) in Gris Meyer and Rose Mexico Togo leather with gold hardware from seller Jim. Praises the leather's structure and natural grain, the Gris Meyer/Rose Mexico colour contrast, gold hardware finish, and crisp Sellier-style edges and stitching.",
+    "positive_observations": [
+      "Reports well-structured Togo leather with natural grain and flexibility rather than a stiff feel.",
+      "Describes crisp Sellier-style edges, evenly spaced stitching, and balanced handle/flap alignment.",
+      "Gold hardware described as well-polished with a warm tone consistent with an authentic Kelly feel."
+    ],
+    "negative_observations": [
+      "Single buyer's subjective in-hand account with no side-by-side authentic comparison photos or measurements in the post.",
+      "No factory is named and price is not disclosed in the visible post text, so quality cannot be cross-checked against a specific factory or price tier.",
+      "No independent corroborating source yet for this exact size/colour/hardware combination."
+    ]
+  },
+  {
+    "id": "ev-crawl-repculture-dior-saddle-2026",
+    "title": "Alina - D**R Small Saddle messenger Men's bag review",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1thnmyr/alina_dr_small_saddle_messenger_mens_bag_review/",
+    "subreddit": "RepCulture_Bags",
+    "author": "yax29",
+    "publication_date": "2026-05-19",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-dior-saddle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-alina"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "QC/purchase-experience post for a Dior Saddle Small Messenger (men's) in cowhide leather from seller Alina, source-attributed to a factory the buyer calls \"LiLi\" (not in this catalog's factory roster). Buyer describes an approximately 15-day contact-to-delivery timeline and asks the community to assess QC photos against retail images.",
+    "positive_observations": [
+      "Reports the bag feels like real cowhide leather and holds up well in hand.",
+      "Documents a full timeline from first contact through delivery (about 15 days) and a specific price paid.",
+      "Compared QC photos against official retail images before approving, rather than approving unconditionally."
+    ],
+    "negative_observations": [
+      "Buyer admits inexperience QCing (\"wasn't fully sure how to QC properly\"), so the approval itself is a weaker signal than an experienced reviewer's.",
+      "Factory is source-reported as \"LiLi,\" which is not a factory this catalog otherwise tracks, so it cannot be cross-checked.",
+      "No independent corroborating source yet for this exact size/leather/colour combination."
+    ]
   }
 ]

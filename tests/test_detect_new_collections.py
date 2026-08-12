@@ -8,7 +8,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from detect_new_collections import detect  # noqa: E402
 
 
-def candidate(post_id, title, bag_terms, author="reader", subreddit="RealRepLadies"):
+def candidate(post_id, title, bag_terms, author="reader", subreddit="RealRepLadies", evidence_type="other"):
     return {
         "candidate_id": f"candidate-{subreddit}-{post_id}",
         "url": f"https://www.reddit.com/r/{subreddit}/comments/{post_id}/slug/",
@@ -16,7 +16,7 @@ def candidate(post_id, title, bag_terms, author="reader", subreddit="RealRepLadi
         "author": author,
         "title": title,
         "flair": "",
-        "evidence_type": "other",
+        "evidence_type": evidence_type,
         "redacted_excerpt": "",
         "redaction_flags": {},
         "bag_terms": bag_terms,
@@ -69,6 +69,48 @@ class DetectNewCollectionsTests(unittest.TestCase):
         entry = next(e for e in report["entries"] if e["term"] == "Faketown Special")
         self.assertTrue(entry["meets_floor"])
         self.assertEqual(entry["independent_author_count"], 2)
+
+    def test_a_single_high_confidence_post_meets_the_floor(self):
+        candidates = [
+            candidate("1", "Review: Faketown Zephyr in hand", ["Faketown Zephyr"], evidence_type="in_hand_review"),
+        ]
+        report = detect(candidates, min_authors=2)
+        entry = next(e for e in report["entries"] if e["term"] == "Faketown Zephyr")
+        self.assertTrue(entry["meets_floor"])
+        self.assertTrue(entry["high_confidence_hit"])
+        self.assertEqual(entry["independent_author_count"], 1)
+
+    def test_a_single_low_confidence_post_still_does_not_meet_the_floor(self):
+        candidates = [
+            candidate("1", "Seller reviews", ["Faketown Zephyr"], evidence_type="discussion"),
+        ]
+        report = detect(candidates, min_authors=2)
+        entry = next(e for e in report["entries"] if e["term"] == "Faketown Zephyr")
+        self.assertFalse(entry["meets_floor"])
+        self.assertFalse(entry["high_confidence_hit"])
+
+    def test_a_how_to_guide_post_is_not_high_confidence_even_in_a_strong_lane(self):
+        candidates = [
+            candidate("1", "How to Ask for QC Without Sounding Clueless", ["Faketown Zephyr"], evidence_type="psp_qc"),
+        ]
+        report = detect(candidates, min_authors=2)
+        entry = next(e for e in report["entries"] if e["term"] == "Faketown Zephyr")
+        self.assertFalse(entry["meets_floor"])
+        self.assertFalse(entry["high_confidence_hit"])
+
+    def test_a_multi_brand_haul_post_is_not_high_confidence(self):
+        candidates = [
+            candidate(
+                "1",
+                "Massive haul review",
+                ["Faketown Zephyr", "Chanel", "Hermes", "YSL"],
+                evidence_type="in_hand_review",
+            ),
+        ]
+        report = detect(candidates, min_authors=2)
+        entry = next(e for e in report["entries"] if e["term"] == "Faketown Zephyr")
+        self.assertFalse(entry["meets_floor"])
+        self.assertFalse(entry["high_confidence_hit"])
 
 
 if __name__ == "__main__":

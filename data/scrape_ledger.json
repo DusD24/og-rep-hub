@@ -1,6 +1,23 @@
 {
   "schema_version": "1.0.0",
-  "watermarks": {},
+  "watermarks": {
+    "RealRepLadies": {
+      "last_seen_utc": 0.0,
+      "last_full_sweep": "2026-08-12"
+    },
+    "RepCulture_Bags": {
+      "last_seen_utc": 0.0,
+      "last_full_sweep": "2026-08-12"
+    },
+    "RepLadiesWorld": {
+      "last_seen_utc": 0.0,
+      "last_full_sweep": "2026-08-12"
+    },
+    "RepTherapy": {
+      "last_seen_utc": 0.0,
+      "last_full_sweep": "2026-08-12"
+    }
+  },
   "seen": {
     "t1_onprciu": {
       "disposition": "promoted",
@@ -65,6 +82,12 @@
       "subreddit": "RealRepLadies",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1lacn0h": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
     "t3_1ldi6n3": {
       "disposition": "promoted",
       "decided_on": "2026-08-10",
@@ -75,10 +98,16 @@
       "reason": "backfilled from committed evidence"
     },
     "t3_1lohmwj": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "triage score 20 below floor 30"
+    },
+    "t3_1mfgkwg": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "no catalogued collection referenced"
     },
     "t3_1n077rf": {
       "disposition": "promoted",
@@ -107,6 +136,18 @@
       "subreddit": "RealRepLadies",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1nm92lp": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "on the review shortlist"
+    },
+    "t3_1o1dj61": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "no catalogued collection referenced"
+    },
     "t3_1o69i9j": {
       "disposition": "promoted",
       "decided_on": "2026-08-10",
@@ -115,6 +156,18 @@
       ],
       "subreddit": "RealRepLadies",
       "reason": "normalized from a scoped ad-hoc request for Balenciaga Le City Small in leather"
+    },
+    "t3_1oa0p0d": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "triage score 0 below floor 30"
+    },
+    "t3_1oie05q": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "above floor but outside the daily cap (priority 105)"
     },
     "t3_1ooksmv": {
       "disposition": "promoted",
@@ -161,6 +214,12 @@
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1pgt8ri": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "no catalogued collection referenced"
+    },
     "t3_1pht6us": {
       "disposition": "promoted",
       "decided_on": "2026-08-12",
@@ -198,6 +257,12 @@
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1ppkx9i": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "on the review shortlist"
+    },
     "t3_1pu2o4x": {
       "disposition": "promoted",
       "decided_on": "2026-08-10",
@@ -214,10 +279,10 @@
       "reason": "no catalogued collection referenced"
     },
     "t3_1pz1fvj": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 69)"
+      "reason": "triage score 24 below floor 30"
     },
     "t3_1q2yn0z": {
       "disposition": "promoted",
@@ -238,6 +303,18 @@
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1q6skjy": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1qbdvj8": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "no catalogued collection referenced"
+    },
     "t3_1qc1ozo": {
       "disposition": "promoted",
       "decided_on": "2026-08-10",
@@ -246,6 +323,18 @@
       ],
       "subreddit": "RealRepLadies",
       "reason": "backfilled from committed evidence"
+    },
+    "t3_1qdbyea": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1qga9s5": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "on the review shortlist"
     },
     "t3_1qhbnbo": {
       "disposition": "promoted",
@@ -287,10 +376,10 @@
       "reason": "triage score 0 below floor 20"
     },
     "t3_1qyn3ey": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "triage score 20 below floor 30"
     },
     "t3_1qzada1": {
       "disposition": "promoted",
@@ -306,6 +395,12 @@
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
       "reason": "no catalogued collection referenced"
+    },
+    "t3_1r2y18k": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "above floor but outside the daily cap (priority 90)"
     },
     "t3_1r51jcj": {
       "disposition": "promoted",
@@ -343,6 +438,12 @@
       "subreddit": "RealRepLadies",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1re132c": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "above floor but outside the daily cap (priority 77)"
+    },
     "t3_1rfq7yw": {
       "disposition": "promoted",
       "decided_on": "2026-08-10",
@@ -351,6 +452,12 @@
       ],
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
+    },
+    "t3_1rgdyp0": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "on the review shortlist"
     },
     "t3_1rj6c07": {
       "disposition": "promoted",
@@ -369,6 +476,12 @@
       ],
       "subreddit": "RepLadiesWorld",
       "reason": "backfilled from committed evidence"
+    },
+    "t3_1rl7jpg": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "on the review shortlist"
     },
     "t3_1rpqirm": {
       "disposition": "promoted",
@@ -434,10 +547,10 @@
       "reason": "backfilled from committed evidence"
     },
     "t3_1s3f4fc": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 69)"
+      "reason": "triage score 24 below floor 30"
     },
     "t3_1s46cnz": {
       "disposition": "promoted",
@@ -447,6 +560,12 @@
       ],
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
+    },
+    "t3_1s4msfj": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "on the review shortlist"
     },
     "t3_1s68nyl": {
       "disposition": "rejected",
@@ -472,6 +591,12 @@
       "subreddit": "RealRepLadies",
       "reason": "normalized from a triage shortlist"
     },
+    "t3_1s9lxh2": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "no catalogued collection referenced"
+    },
     "t3_1sbw5n4": {
       "disposition": "promoted",
       "decided_on": "2026-08-10",
@@ -480,6 +605,12 @@
       ],
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
+    },
+    "t3_1sby0h0": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "no catalogued collection referenced"
     },
     "t3_1schpjb": {
       "disposition": "rejected",
@@ -505,6 +636,12 @@
       "subreddit": "RealRepLadies",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1snlezf": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "no catalogued collection referenced"
+    },
     "t3_1sr6nu6": {
       "disposition": "promoted",
       "decided_on": "2026-08-10",
@@ -523,11 +660,29 @@
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1su1ga0": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "above floor but outside the daily cap (priority 75)"
+    },
+    "t3_1su669a": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
     "t3_1svkpab": {
       "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
       "reason": "no catalogued collection referenced"
+    },
+    "t3_1swx7op": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "above floor but outside the daily cap (priority 75)"
     },
     "t3_1sxh883": {
       "disposition": "rejected",
@@ -549,6 +704,18 @@
       ],
       "subreddit": "RepLadiesWorld",
       "reason": "backfilled from committed evidence"
+    },
+    "t3_1t34nd8": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1t3m4wh": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
     },
     "t3_1t3qv4i": {
       "disposition": "promoted",
@@ -581,6 +748,18 @@
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1t4e0w1": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "above floor but outside the daily cap (priority 40)"
+    },
+    "t3_1t6g05e": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "above floor but outside the daily cap (priority 103)"
+    },
     "t3_1tcebjq": {
       "disposition": "promoted",
       "decided_on": "2026-08-10",
@@ -598,6 +777,12 @@
       ],
       "subreddit": "RealRepLadies",
       "reason": "backfilled from committed evidence"
+    },
+    "t3_1tflzxu": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "no catalogued collection referenced"
     },
     "t3_1tfv4dz": {
       "disposition": "promoted",
@@ -617,7 +802,21 @@
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1thnmyr": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-12",
+      "evidence_ids": [
+        "ev-crawl-repculture-dior-saddle-2026"
+      ],
+      "subreddit": "RepCulture_Bags"
+    },
     "t3_1thuh79": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1tledlg": {
       "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
@@ -631,6 +830,18 @@
       ],
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
+    },
+    "t3_1tnjjqb": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "above floor but outside the daily cap (priority 88)"
+    },
+    "t3_1tp3rtp": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "on the review shortlist"
     },
     "t3_1tq3web": {
       "disposition": "promoted",
@@ -649,6 +860,18 @@
       ],
       "subreddit": "RealRepLadies",
       "reason": "normalized from a triage shortlist"
+    },
+    "t3_1tqufb1": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1tr0fe8": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "on the review shortlist"
     },
     "t3_1tr2qbh": {
       "disposition": "promoted",
@@ -677,6 +900,12 @@
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1tzf230": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "above floor but outside the daily cap (priority 79)"
+    },
     "t3_1u138f2": {
       "disposition": "promoted",
       "decided_on": "2026-08-10",
@@ -686,17 +915,29 @@
       "subreddit": "RepLadiesWorld",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1u1oyk1": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "above floor but outside the daily cap (priority 90)"
+    },
     "t3_1u1yydv": {
       "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
       "reason": "no catalogued collection referenced"
     },
-    "t3_1u3vg87": {
-      "disposition": "deferred",
+    "t3_1u2crng": {
+      "disposition": "pending",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 69)"
+      "reason": "on the review shortlist"
+    },
+    "t3_1u3vg87": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "triage score 24 below floor 30"
     },
     "t3_1u4h6cz": {
       "disposition": "promoted",
@@ -731,6 +972,18 @@
       "subreddit": "RealRepLadies",
       "reason": "no catalogued collection referenced"
     },
+    "t3_1u6ippp": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "on the review shortlist"
+    },
+    "t3_1u6w0xa": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "above floor but outside the daily cap (priority 79)"
+    },
     "t3_1u6wek0": {
       "disposition": "promoted",
       "decided_on": "2026-08-12",
@@ -739,6 +992,26 @@
       ],
       "subreddit": "RealRepLadies",
       "reason": "normalized from a triage shortlist"
+    },
+    "t3_1u7d9w0": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1u8p98u": {
+      "disposition": "promoted",
+      "decided_on": "2026-08-12",
+      "evidence_ids": [
+        "ev-crawl-repculture-hermes-kelly-2026"
+      ],
+      "subreddit": "RepCulture_Bags"
+    },
+    "t3_1u8zrn5": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "on the review shortlist"
     },
     "t3_1u9ejcj": {
       "disposition": "rejected",
@@ -789,6 +1062,12 @@
       "subreddit": "RepLadiesWorld",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1udij6m": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "on the review shortlist"
+    },
     "t3_1uefd12": {
       "disposition": "promoted",
       "decided_on": "2026-08-10",
@@ -797,6 +1076,24 @@
       ],
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
+    },
+    "t3_1uf4s5n": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1ufiwm2": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "above floor but outside the daily cap (priority 59)"
+    },
+    "t3_1ufniat": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "no catalogued collection referenced"
     },
     "t3_1uhb08r": {
       "disposition": "promoted",
@@ -807,6 +1104,24 @@
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1ui4e7p": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "above floor but outside the daily cap (priority 100)"
+    },
+    "t3_1uierto": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "on the review shortlist"
+    },
+    "t3_1ulkngx": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
     "t3_1ulu50w": {
       "disposition": "promoted",
       "decided_on": "2026-08-10",
@@ -815,6 +1130,12 @@
       ],
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
+    },
+    "t3_1umjhpy": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
     },
     "t3_1un9n9q": {
       "disposition": "promoted",
@@ -825,6 +1146,12 @@
       "subreddit": "RealRepLadies",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1upgzfc": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "above floor but outside the daily cap (priority 110)"
+    },
     "t3_1uqfpcm": {
       "disposition": "promoted",
       "decided_on": "2026-08-10",
@@ -834,11 +1161,29 @@
       "subreddit": "RealRepLadies",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1uqs90l": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
     "t3_1urp3w2": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "triage score 20 below floor 30"
+    },
+    "t3_1urvhni": {
       "disposition": "deferred",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "above floor but outside the daily cap (priority 82)"
+    },
+    "t3_1usre2y": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "on the review shortlist"
     },
     "t3_1utfhhw": {
       "disposition": "promoted",
@@ -848,6 +1193,12 @@
       ],
       "subreddit": "RealRepLadies",
       "reason": "normalized from a triage shortlist"
+    },
+    "t3_1utij2t": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "on the review shortlist"
     },
     "t3_1uu8vp2": {
       "disposition": "promoted",
@@ -864,6 +1215,36 @@
       "subreddit": "RealRepLadies",
       "reason": "no catalogued collection referenced"
     },
+    "t3_1uuy1fi": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1uwu1in": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "above floor but outside the daily cap (priority 89)"
+    },
+    "t3_1uyhxl4": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1uys7il": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1v1g210": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "above floor but outside the daily cap (priority 40)"
+    },
     "t3_1v1jd25": {
       "disposition": "promoted",
       "decided_on": "2026-08-10",
@@ -873,7 +1254,37 @@
       "subreddit": "RepLadiesWorld",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1v1pyph": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "no catalogued collection referenced"
+    },
     "t3_1v1ytqb": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1v2dthf": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "on the review shortlist"
+    },
+    "t3_1v3fra3": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1v4fwer": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1v4shq3": {
       "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
@@ -884,6 +1295,42 @@
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
       "reason": "no catalogued collection referenced"
+    },
+    "t3_1v74jz6": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1v7x6pz": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1v8jjj2": {
+      "disposition": "deferred",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "above floor but outside the daily cap (priority 84)"
+    },
+    "t3_1v9bdtd": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1v9c7rt": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "no catalogued collection referenced"
+    },
+    "t3_1v9fmj6": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "triage score 28 below floor 30"
     },
     "t3_1v9yef4": {
       "disposition": "promoted",
@@ -912,6 +1359,12 @@
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1vf2n8k": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RepCulture_Bags",
+      "reason": "on the review shortlist"
+    },
     "t3_1vfba9l": {
       "disposition": "promoted",
       "decided_on": "2026-08-10",
@@ -920,6 +1373,12 @@
       ],
       "subreddit": "RepTherapy",
       "reason": "backfilled from committed evidence"
+    },
+    "t3_1vgao2z": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
     },
     "t3_1vi9idk": {
       "disposition": "promoted",
@@ -930,6 +1389,12 @@
       "subreddit": "RepCulture_Bags",
       "reason": "backfilled from committed evidence"
     },
+    "t3_1viqjo0": {
+      "disposition": "pending",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "on the review shortlist"
+    },
     "t3_1vizfcd": {
       "disposition": "promoted",
       "decided_on": "2026-08-10",
@@ -938,6 +1403,12 @@
       ],
       "subreddit": "RealRepLadies",
       "reason": "backfilled from committed evidence"
+    },
+    "t3_1vkhwp6": {
+      "disposition": "rejected",
+      "decided_on": "2026-08-12",
+      "subreddit": "RealRepLadies",
+      "reason": "no catalogued collection referenced"
     },
     "t3_1vkw1a6": {
       "disposition": "rejected",

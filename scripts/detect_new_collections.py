@@ -21,7 +21,19 @@ new-collection signal, and belongs in triage.py's matching instead.
 
 Per the "repeated posts by the same author count as one source" rule the rest
 of the catalog follows (see model.py's evidence model), a term only clears the
-default floor once at least two *distinct* authors have mentioned it.
+default floor once at least two *distinct* authors have mentioned it -- unless
+a single post is a high-confidence hit, in which case one is enough. Every
+candidate here is already a Reddit *post*: comments are captured for context
+but never turned into candidates (see candidate_from_post in scrape_reddit.py),
+so that half of "one high-confidence post, not a comment" is structural, not
+a filter this script has to apply. "High confidence" itself means: the post's
+own evidence-type lane is a substantive, hands-on lane (QC, in-hand review,
+factory comparison, long-term wear, or auth comparison -- not seller_context,
+w2c, collection, discussion, or other); the post is not itself a generic
+how-to/guide post (those routinely use real model names as examples, and
+otherwise pass the lane check for the wrong reason); and the post names few
+enough catalogued-vocabulary bag terms (at most two) that this term reads as
+the subject of the post rather than one line item in a multi-brand haul.
 
 This never writes to data/ or the ledger. It is a read-only report for a human
 to act on through the normal contribution path (see CONTRIBUTING.md) -- adding
@@ -54,6 +66,34 @@ def _catalogued_terms(vocabulary: dict[str, Any]) -> set[str]:
     }
 
 
+# Lanes that reflect a hands-on account of a specific bag, mirroring
+# LANE_TO_EVIDENCE_TYPE's non-None entries in triage.py. seller_context is
+# left out here even though it maps to an evidence type there: it is about the
+# seller/transaction, not a confirmed look at the bag itself.
+_STRONG_LANES = frozenset({"psp_qc", "in_hand_review", "factory_comparison", "long_term_wear", "auth_comparison"})
+
+# How-to/guide posts routinely use real model names as illustrative examples
+# ("QC for Kelly should look like...") and can otherwise pass the strong-lane
+# check for the wrong reason, since they are full of the same QC/review words.
+_META_POST_MARKERS = ("how to", "guide", "faq", "tips for", "before you")
+
+# A post naming more than this many catalogued-vocabulary bag terms reads as a
+# multi-brand haul, where any single term is a passing mention rather than the
+# post's subject.
+_MAX_TERMS_FOR_HIGH_CONFIDENCE = 2
+
+
+def _is_high_confidence(candidate: dict[str, Any]) -> bool:
+    if str(candidate.get("evidence_type") or "") not in _STRONG_LANES:
+        return False
+    title = str(candidate.get("title") or "").casefold()
+    if any(marker in title for marker in _META_POST_MARKERS):
+        return False
+    if len(candidate.get("bag_terms") or []) > _MAX_TERMS_FOR_HIGH_CONFIDENCE:
+        return False
+    return True
+
+
 def detect(candidates: list[dict[str, Any]], *, min_authors: int) -> dict[str, Any]:
     vocabulary = build_vocabulary()
     gap_index = build_gap_index()
@@ -69,14 +109,17 @@ def detect(candidates: list[dict[str, Any]], *, min_authors: int) -> dict[str, A
         author = str(candidate.get("author") or "").strip()
         if not author:
             continue
+        high_confidence = _is_high_confidence(candidate)
         for term in candidate.get("bag_terms") or []:
             if _fold(term) in catalogued:
                 continue
             group = groups.setdefault(
                 term,
-                {"term": term, "authors": {}, "examples": []},
+                {"term": term, "authors": {}, "examples": [], "high_confidence_hit": False},
             )
             group["authors"].setdefault(author.casefold(), author)
+            if high_confidence:
+                group["high_confidence_hit"] = True
             if len(group["examples"]) < 5:
                 group["examples"].append(
                     {
@@ -85,6 +128,7 @@ def detect(candidates: list[dict[str, Any]], *, min_authors: int) -> dict[str, A
                         "author": author,
                         "url": candidate.get("url"),
                         "title": candidate.get("title"),
+                        "high_confidence": high_confidence,
                     }
                 )
 
@@ -97,7 +141,8 @@ def detect(candidates: list[dict[str, Any]], *, min_authors: int) -> dict[str, A
                 "independent_author_count": len(distinct_authors),
                 "authors": distinct_authors,
                 "post_count": len(group["examples"]),
-                "meets_floor": len(distinct_authors) >= min_authors,
+                "high_confidence_hit": group["high_confidence_hit"],
+                "meets_floor": len(distinct_authors) >= min_authors or group["high_confidence_hit"],
                 "examples": group["examples"],
             }
         )

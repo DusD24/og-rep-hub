@@ -1074,5 +1074,93 @@
       "reference_url intentionally left blank — add the official Chanel product page if one exists.",
       "Only one post (understood_learning's factory-comparison discussion) is not a first-hand owner review; the other three are independent purchases, which should satisfy the two-author publication gate once applied."
     ]
+  },
+  {
+    "id": "bag-family-hermes-kelly",
+    "slug": "hermes-kelly",
+    "brand": "Hermès",
+    "model": "Kelly 28",
+    "aliases": [
+      "Kelly",
+      "K28",
+      "Kelly Sellier"
+    ],
+    "category": "top-handle",
+    "summary": "Community evidence file covering the Hermès Kelly, opened from a single high-confidence RepCulture_Bags in-hand review of a Kelly 28 HSS in Togo leather with gold hardware.",
+    "hero_icon": "top-handle",
+    "publication_status": "research_queue",
+    "documented_variant_ids": [],
+    "evidence_ids": [
+      "ev-crawl-repculture-hermes-kelly-2026"
+    ],
+    "documented_sizes": [
+      "28"
+    ],
+    "documented_materials": [
+      "Togo leather"
+    ],
+    "documented_hardware": [
+      "gold-tone hardware reported"
+    ],
+    "evidence_coverage": {
+      "source_count": 1,
+      "independent_author_count": 1,
+      "primary_subreddit_coverage": [],
+      "image_ready": false,
+      "evidence_types": [
+        "in_hand_review"
+      ]
+    },
+    "last_updated": "2026-08-12",
+    "research_gaps": [
+      "Opened from a single high-confidence post under the site's updated new-collection rule (one high-confidence post, not a comment, is enough to open a research_queue family); still needs a second independent author before it can approach publication.",
+      "Source subreddit is RepCulture_Bags, not RealRepLadies/RepTherapy -- the publish gate requires at least one of those two, so a primary-subreddit source is also needed.",
+      "No tile image yet -- this uses a category hero_icon instead; add a Reddit-sourced tile_media_id before publishing.",
+      "No factory named in the source; do not infer one."
+    ]
+  },
+  {
+    "id": "bag-family-dior-saddle",
+    "slug": "dior-saddle",
+    "brand": "Dior",
+    "model": "Saddle",
+    "aliases": [
+      "Saddle bag",
+      "Dior Saddle bag"
+    ],
+    "category": "shoulder-bag",
+    "summary": "Community evidence file covering the Dior Saddle, opened from a single high-confidence RepCulture_Bags QC/purchase-experience post for a men's Small Saddle messenger in cowhide leather.",
+    "hero_icon": "shoulder-flap",
+    "publication_status": "research_queue",
+    "documented_variant_ids": [],
+    "evidence_ids": [
+      "ev-crawl-repculture-dior-saddle-2026"
+    ],
+    "documented_sizes": [
+      "Small"
+    ],
+    "documented_materials": [
+      "cowhide leather"
+    ],
+    "documented_hardware": [
+      "not stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 1,
+      "independent_author_count": 1,
+      "primary_subreddit_coverage": [],
+      "image_ready": false,
+      "evidence_types": [
+        "psp_qc"
+      ]
+    },
+    "last_updated": "2026-08-12",
+    "research_gaps": [
+      "Opened from a single high-confidence post under the site's updated new-collection rule (one high-confidence post, not a comment, is enough to open a research_queue family); still needs a second independent author before it can approach publication.",
+      "Source subreddit is RepCulture_Bags, not RealRepLadies/RepTherapy -- the publish gate requires at least one of those two, so a primary-subreddit source is also needed.",
+      "No tile image yet -- this uses a category hero_icon instead; add a Reddit-sourced tile_media_id before publishing.",
+      "Source-reported factory (\"LiLi\") is not in this catalog's factory roster and was left unlinked; do not infer a match to an existing factory id.",
+      "This is a men's messenger variant of the Saddle silhouette; confirm whether future women's-line sources belong in the same family or need their own bag records."
+    ]
   }
 ]
