@@ -21403,5 +21403,237 @@
     "subreddit": "RepTherapy",
     "title": "Need advice: Has anyone successfully returned a rep to China?",
     "url": "https://www.reddit.com/r/RepTherapy/comments/1u5o2yu/need_advice_has_anyone_successfully_returned_a/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "SignificantToe2480",
+    "bag_ids": [],
+    "evidence_type": "auth_comparison",
+    "exact_product_match": false,
+    "exact_variant_note": "Chanel 25 received through the source-reported seller/factory context, with exact size, material, seller, and factory not normalized; the source uses GF wording but its factory identity is left unattributed.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "id": "ev-crawl-rrl-chanel-25-1oqbr9g",
+    "media_ids": [],
+    "negative_observations": [
+      "Compared with the author's authentic Chanel bags, the received bag's leather feels stiffer and less soft; the author is unsure whether the difference is caused by a different leather type.",
+      "The post does not state the exact size or material beyond the Chanel 25 label, and the source-reported GF attribution is not normalized to a factory."
+    ],
+    "paraphrase": "A received Chanel 25 is compared with the author's authentic Chanel bags: the rep is described as comfortable and visually good, but its leather feels stiffer and less soft than the authentic references; the source-reported GF label is left unattributed.",
+    "positive_observations": [
+      "The review records a delivered Chanel 25 and a direct owner comparison with authentic Chanel bags.",
+      "It separates appearance and comfort from the specific leather-handfeel difference rather than treating the seller's service as product evidence."
+    ],
+    "price": null,
+    "publication_date": "2025-11-06",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": "The source reports an order on October 15 and delivery on November 5.",
+    "source_type": "reddit_review",
+    "subreddit": "RealRepLadies",
+    "title": "Chanel 25",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1oqbr9g/chanel_25/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "EyeHeartRamen",
+    "bag_ids": [],
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "exact_variant_note": "Speedy 30 in Damier Azur attributed by the source to Royal; seller and exact hardware/material details are not stated in the public record.",
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1tsf6lr",
+    "media_ids": [],
+    "negative_observations": [
+      "The report is only eleven days into use and does not provide an authentic comparison or longer-term wear result.",
+      "Seller contact, sale information, and service praise are excluded; the product observations are limited to the received bag's use, appearance, packaging, and zipper."
+    ],
+    "paraphrase": "An in-hand Damier Azur Speedy 30 attributed to Royal has been used almost daily for eleven days; the owner reports a useful size and shape, quieter-than-Monogram canvas colors, a smooth zipper, and delivery without creases or an unusual smell.",
+    "positive_observations": [
+      "The post preserves the Speedy 30 size, Damier Azur pattern, Royal attribution, and an actual daily-use period.",
+      "It records concrete observations about capacity context, shape, canvas color, zipper operation, packaging, and delivery condition."
+    ],
+    "price": null,
+    "publication_date": "2026-05-30",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": "The source reports ordering May 6, PSPs May 10, shipment May 11, and arrival May 19.",
+    "source_type": "reddit_review",
+    "subreddit": "RealRepLadies",
+    "title": "Speedy Review",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1tsf6lr/speedy_review/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "frxn90",
+    "bag_ids": [],
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "exact_variant_note": "Small Loewe Puzzle attributed by the source to Liusheng; color, material, seller, and exact dimensions are not stated.",
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "id": "ev-crawl-rt-loewe-puzzle-1u6jprr",
+    "media_ids": [],
+    "negative_observations": [
+      "The leather initially felt dry and the owner reports a small hole near the zipper opening that was not visible in the PSP because it was covered by the flap.",
+      "The owner conditioned the leather before reporting improvement and has no authentic comparison; the seller and payment details are excluded."
+    ],
+    "paraphrase": "A received Small Puzzle attributed to Liusheng is described as having very good hardware and a pleasant leather smell after conditioning, but the owner reports initially dry leather and a small hole near the zipper opening that was hidden in the PSPs.",
+    "positive_observations": [
+      "The post identifies a received Small Puzzle and a Liusheng attribution, and distinguishes the PSP from the delivered-bag inspection.",
+      "It records both a material-handfeel observation and a concrete construction concern rather than generic satisfaction."
+    ],
+    "price": null,
+    "publication_date": "2026-06-15",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": "The source reports shipment on June 3 and receipt on June 15.",
+    "source_type": "reddit_review",
+    "subreddit": "RepTherapy",
+    "title": "Loewe puzzle small from Liusheng",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1u6jprr/loewe_puzzle_small_from_liusheng/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "gold-and-pearls",
+    "bag_ids": [],
+    "evidence_type": "psp_qc",
+    "exact_product_match": true,
+    "exact_variant_note": "Medium Loewe Flamenco attributed by the source to Liusheng; color, material, seller, and final delivery status are not stated.",
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "id": "ev-crawl-rt-loewe-flamenco-1ubxzzy",
+    "media_ids": [],
+    "negative_observations": [
+      "The PSP photos appear to show a long scratch on the front left side, although the author is still waiting to learn whether it is a flaw or normal veining in genuine leather.",
+      "The shape appears slightly tilted when cinched, but the author notes that the way it was pulled closed may be responsible; no delivered-bag result is captured."
+    ],
+    "paraphrase": "A PSP QC post for a Medium Flamenco attributed to Liusheng reports an apparent long scratch on the front left side and a possibly tilted shape when cinched, while leaving both concerns unresolved because the mark may be leather veining and the drawstring may have been pulled unevenly.",
+    "positive_observations": [
+      "The post identifies a Medium Flamenco and preserves the Liusheng attribution.",
+      "It records specific PSP concerns about the front surface and cinched shape without converting uncertain interpretations into fact."
+    ],
+    "price": null,
+    "publication_date": "2026-06-21",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_qc",
+    "subreddit": "RepTherapy",
+    "title": "Help on first flamenco",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ubxzzy/help_on_first_flamenco/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "JXuKitty",
+    "bag_ids": [],
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "exact_variant_note": "Loewe x Ghibli Mini Puzzle from Qiu; color and material are not stated. The separate wallet in the mixed post is excluded.",
+    "factory_ids": [
+      "factory-qiu"
+    ],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "id": "ev-crawl-rrl-loewe-puzzle-1u63raj",
+    "media_ids": [],
+    "negative_observations": [
+      "The owner reports a strong smell, a leather flap that tilts upward more than expected, and a zipper-end Loewe engraving that looks suspect.",
+      "The post is a mixed Puzzle-and-wallet review; wallet observations, seller/payment details, and the author's future update promise are excluded from this Puzzle record."
+    ],
+    "paraphrase": "A received Loewe x Ghibli Mini Puzzle attributed to Qiu is described as cute and soft with the expected details present, but the owner reports a strong smell, a slightly upward-tilting flap, and a zipper-end engraving that looks questionable.",
+    "positive_observations": [
+      "The review preserves the Loewe x Ghibli collaboration wording, Mini size, Qiu attribution, and delivered-bag status.",
+      "It contains both positive handfeel/detail observations and concrete negative observations that can be separated from the wallet in the same post."
+    ],
+    "price": null,
+    "publication_date": "2026-06-15",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": "The source reports payment May 23, PSPs June 1, tracking June 5, and receipt June 14; payment amounts and contact details are excluded.",
+    "source_type": "reddit_review",
+    "subreddit": "RealRepLadies",
+    "title": "Review! Loe X Ghib mini puzzle and wallet",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1u63raj/review_loe_x_ghib_mini_puzzle_and_wallet/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "Fast_Dimension5038",
+    "bag_ids": [],
+    "evidence_type": "psp_qc",
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Neverfull MM in Damier Ebene; the source calls the group-buy source GF but does not establish a catalogued factory attribution. Seller Baker is not used as a quality claim.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "id": "ev-crawl-rt-louis-vuitton-neverfull-1t3612t",
+    "media_ids": [],
+    "negative_observations": [
+      "The PSP shows stitching above the interior branding where the author says the factory photo does not, leaving a specific construction-placement mismatch for review.",
+      "This is a pre-shipment PSP report with no delivered-bag result; the source-reported GF label and seller/service/payment details are not normalized as factory-quality claims."
+    ],
+    "paraphrase": "A PSP QC post for a Damier Ebene Neverfull MM from a group buy reports that stitching appears above the interior branding in a way that does not match the factory photo; the post does not capture the final delivery or resolution.",
+    "positive_observations": [
+      "The post preserves the Neverfull MM size, Damier Ebene pattern, and a concrete PSP-versus-factory-photo construction comparison.",
+      "The concern is limited to the visible stitching placement rather than a generic request for the best factory."
+    ],
+    "price": null,
+    "publication_date": "2026-05-04",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_qc",
+    "subreddit": "RepTherapy",
+    "title": "🤎 DE MM Neverfull Help 🤎",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1t3612t/de_mm_neverfull_help/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "KhaleesiTheStudent",
+    "bag_ids": [],
+    "evidence_type": "auth_comparison",
+    "exact_product_match": false,
+    "exact_variant_note": "Received Louis Vuitton Neverfull in Damier Ebene; size, seller, factory, and exact edition are not stated.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "id": "ev-crawl-rrl-louis-vuitton-neverfull-1f9k3mg",
+    "media_ids": [],
+    "negative_observations": [
+      "The bag is still very stiff immediately after unpacking, and the owner questions whether one side's stitching should run on both sides because the pictured side has only one line.",
+      "Exact size, seller, factory, and the source's payment details are not retained; the review does not provide longer-term wear."
+    ],
+    "paraphrase": "A received Damier Ebene Neverfull is compared with the author's understanding of authentic construction: the leather feels good, exterior inscriptions and stitching look close, but the bag remains very stiff and the owner flags a one-sided stitching detail for QC review.",
+    "positive_observations": [
+      "The post records a delivered Damier Ebene Neverfull and explicit comparisons of leather feel, exterior inscriptions, and stitching clarity with an original reference.",
+      "It preserves the unresolved stitching question instead of treating a newly unpacked bag as fully validated."
+    ],
+    "price": null,
+    "publication_date": "2024-09-05",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_qc",
+    "subreddit": "RealRepLadies",
+    "title": "QC this Neverfull Damiar Ebene please",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1f9k3mg/qc_this_neverfull_damiar_ebene_please/"
   }
 ]
