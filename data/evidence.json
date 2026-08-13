@@ -24710,5 +24710,102 @@
     "negative_observations": [
       "The rep's size, color, material, seller, and factory are not independently normalized, and the comparison concerns a never-used rehome rather than long-term wear."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1s20via",
+    "title": "I was not an LV speedy girl until…",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1s20via/i_was_not_an_lv_speedy_girl_until/",
+    "subreddit": "RealRepLadies",
+    "author": "1derManilatt3",
+    "publication_date": "2026-03-24",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "Multi-variant Speedy collection post covering a vintage Speedy 30, regular Speedy 30, Nano, Murakami variant, Speedy Bandouliere 20, Soft Speedy 30, Black Eclipse lower/master versions, and an all-black P9 30; exact materials, sellers, and factories are not stated.",
+    "paraphrase": "A multi-variant Speedy collection review says the regular Speedy 30 feels too large while the Nano cannot fit much, and compares lower-tier and master Black Eclipse versions by noting that the master has lighter black leather and lighter hardware; the author describes an all-black P9 30 as the first Speedy that fully matched their preferences.",
+    "positive_observations": [
+      "The post preserves several named Speedy sizes and variants and records concrete capacity, size-preference, color, and hardware comparisons.",
+      "It separates the Black Eclipse lower/master comparison from the author's broader enthusiasm for the all-black P9."
+    ],
+    "negative_observations": [
+      "The post does not identify sellers, factories, materials, or exact construction details, and the all-black P9 praise is not accompanied by a feature-level inspection."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1s6xw6q",
+    "title": "🍊LV Speedy P9 20 in Ochre from Royal Factory🍊",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1s6xw6q/lv_speedy_p9_20_in_ochre_from_royal_factory/",
+    "subreddit": "RealRepLadies",
+    "author": "Weekly-Spend-4977",
+    "publication_date": "2026-03-29",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "15 days from label creation to receipt, as reported.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-tiny-jenny"
+    ],
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy P9 20 in Ochre from Royal Factory through seller Tiny Jenny; an official authentic reference is linked, and material type is not separately stated. Payment and contact details are excluded.",
+    "paraphrase": "A received Royal Speedy P9 20 in Ochre is compared with an official reference and described as having soft slouchy leather from arrival, a rich caramel-gold color, useful small capacity for essentials, versatile strap options, clean not-overbright hardware, and even stitching.",
+    "positive_observations": [
+      "The post identifies the exact P9 20 size and Ochre color, Royal attribution, seller, delivery, official reference, and concrete use/capacity observations.",
+      "It preserves leather hand, slouch, color, hardware, stitching, and strap-function observations separately from broad seller/factory praise."
+    ],
+    "negative_observations": [
+      "The review is one owner's early in-hand assessment without a detailed physical authentic side-by-side, and material type beyond the leather description is not stated."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-flamenco-1uu5e8y",
+    "title": "Flamenco",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1uu5e8y/flamenco/",
+    "subreddit": "RepTherapy",
+    "author": "Own-Gas-5200",
+    "publication_date": "2026-07-12",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Loewe Large Flamenco with drawstring ties; seller, factory, color, and material are not stated.",
+    "paraphrase": "A Large Flamenco is reported to have drawstrings that are too long: when the bag opening is fully expanded, the knots do not sit flush as the owner expects them to.",
+    "positive_observations": [
+      "The post identifies the Large Flamenco and isolates a concrete drawstring-length and knot-position concern.",
+      "It preserves the condition under which the issue appears rather than generalizing it to all Flamenco bags."
+    ],
+    "negative_observations": [
+      "The source does not state seller, factory, color, material, authentic reference, or whether the drawstring was replaced or corrected."
+    ]
   }
 ]
