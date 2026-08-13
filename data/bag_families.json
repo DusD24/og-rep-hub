@@ -291,7 +291,8 @@
       "ev-crawl-rrl-louis-vuitton-speedy-1sjvu8w",
       "ev-crawl-rcb-louis-vuitton-speedy-1v2ica2",
       "ev-crawl-rrl-louis-vuitton-speedy-1rgdwv2",
-      "ev-crawl-rcb-louis-vuitton-speedy-1ou0p1q"
+      "ev-crawl-rcb-louis-vuitton-speedy-1ou0p1q",
+      "ev-crawl-rcb-louis-vuitton-speedy-1ufiwm2"
     ],
     "documented_sizes": [
       "25",
@@ -304,7 +305,7 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 87,
+      "source_count": 88,
       "independent_author_count": 67,
       "primary_subreddit_coverage": [
         "RealRepLadies",
@@ -367,7 +368,8 @@
       "ev-crawl-rrl-the-row-margaux-1qycezj",
       "ev-crawl-rrl-the-row-margaux-1t3a7qn",
       "ev-crawl-rrl-the-row-margaux-1tj0xd9",
-      "ev-crawl-rt-the-row-margaux-1rt0svn"
+      "ev-crawl-rt-the-row-margaux-1rt0svn",
+      "ev-crawl-rrl-the-row-margaux-1rw7npn"
     ],
     "documented_sizes": [
       "15",
@@ -381,8 +383,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 26,
-      "independent_author_count": 21,
+      "source_count": 27,
+      "independent_author_count": 22,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -391,6 +393,7 @@
       "image_ready": true,
       "evidence_types": [
         "auth_comparison",
+        "factory_comparison",
         "in_hand_review",
         "long_term_wear",
         "psp_qc"
@@ -618,7 +621,8 @@
       "ev-crawl-rt-loewe-puzzle-1pu6vkg",
       "ev-crawl-rt-loewe-puzzle-1r6icf8",
       "ev-crawl-rt-loewe-puzzle-1swhh0d",
-      "ev-crawl-rt-loewe-puzzle-1s69ner"
+      "ev-crawl-rt-loewe-puzzle-1s69ner",
+      "ev-crawl-rlw-loewe-puzzle-1ucjbyz"
     ],
     "documented_sizes": [
       "small",
@@ -633,8 +637,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 89,
-      "independent_author_count": 68,
+      "source_count": 90,
+      "independent_author_count": 69,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepLadiesWorld",
@@ -727,7 +731,9 @@
       "ev-crawl-rt-bottega-veneta-andiamos-1t8b9gi",
       "ev-crawl-rt-bottega-veneta-andiamos-1sqb41b",
       "ev-crawl-rt-bottega-veneta-andiamos-1uay41x",
-      "ev-crawl-rrl-bottega-veneta-andiamos-1rwtckq"
+      "ev-crawl-rrl-bottega-veneta-andiamos-1rwtckq",
+      "ev-crawl-rrl-bottega-veneta-andiamos-1ttui4v",
+      "ev-crawl-rt-bottega-veneta-andiamos-1rh1tes"
     ],
     "documented_sizes": [
       "medium",
@@ -740,7 +746,7 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 56,
+      "source_count": 58,
       "independent_author_count": 49,
       "primary_subreddit_coverage": [
         "RealRepLadies",
@@ -842,7 +848,8 @@
       "ev-crawl-rrl-hermes-birkin-1u5hnue",
       "ev-crawl-rrl-hermes-birkin-25-1ug877t",
       "ev-crawl-rrl-hermes-birkin-25-1j9u8f2",
-      "ev-crawl-rrl-hermes-birkin-25-1tb5js8"
+      "ev-crawl-rrl-hermes-birkin-25-1tb5js8",
+      "ev-crawl-rrl-hermes-birkin-25-1gscxp0"
     ],
     "documented_sizes": [
       "25"
@@ -856,8 +863,8 @@
       "brushed palladium"
     ],
     "evidence_coverage": {
-      "source_count": 11,
-      "independent_author_count": 10,
+      "source_count": 12,
+      "independent_author_count": 11,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepLadiesWorld",
@@ -867,7 +874,8 @@
       "evidence_types": [
         "in_hand_review",
         "long_term_wear",
-        "psp_qc"
+        "psp_qc",
+        "seller_context"
       ]
     },
     "last_updated": "2026-08-13",
@@ -1556,7 +1564,9 @@
       "ev-crawl-rcb-chanel-25-1ud0mej",
       "ev-crawl-rlw-chanel-25-1tfva38",
       "ev-crawl-rt-chanel-25-1q9k19j",
-      "ev-crawl-rt-chanel-25-1uq7smx"
+      "ev-crawl-rt-chanel-25-1uq7smx",
+      "ev-crawl-rrl-chanel-25-1pumv54",
+      "ev-crawl-rrl-chanel-25-1qkau71"
     ],
     "documented_sizes": [
       "Small",
@@ -1572,8 +1582,8 @@
       "ruthenium hardware reported"
     ],
     "evidence_coverage": {
-      "source_count": 57,
-      "independent_author_count": 46,
+      "source_count": 59,
+      "independent_author_count": 48,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
