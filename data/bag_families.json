@@ -72,7 +72,8 @@
       "ev-crawl-rrl-louis-vuitton-neverfull-1syink7",
       "ev-crawl-rrl-louis-vuitton-neverfull-1tf50d6",
       "ev-crawl-rrl-louis-vuitton-neverfull-1uqzy2u",
-      "ev-crawl-rcb-louis-vuitton-neverfull-1s58nsa"
+      "ev-crawl-rcb-louis-vuitton-neverfull-1s58nsa",
+      "ev-crawl-rt-louis-vuitton-neverfull-1pslotw"
     ],
     "documented_sizes": [
       "GM",
@@ -86,7 +87,7 @@
       "not documented in current public sources"
     ],
     "evidence_coverage": {
-      "source_count": 50,
+      "source_count": 51,
       "independent_author_count": 43,
       "primary_subreddit_coverage": [
         "RealRepLadies",
@@ -153,7 +154,8 @@
       "ev-crawl-rrl-chanel-classic-flap-1ueisat",
       "ev-crawl-rcb-chanel-classic-flap-1v1h9zb",
       "ev-crawl-rrl-chanel-classic-flap-1ttooqn",
-      "ev-crawl-rt-chanel-classic-flap-1szwkst"
+      "ev-crawl-rt-chanel-classic-flap-1szwkst",
+      "ev-crawl-rrl-chanel-classic-flap-1qsjc1w"
     ],
     "documented_sizes": [
       "not stated in selected sources"
@@ -165,8 +167,8 @@
       "gold-tone hardware reported or requested"
     ],
     "evidence_coverage": {
-      "source_count": 27,
-      "independent_author_count": 24,
+      "source_count": 28,
+      "independent_author_count": 25,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -292,7 +294,8 @@
       "ev-crawl-rcb-louis-vuitton-speedy-1v2ica2",
       "ev-crawl-rrl-louis-vuitton-speedy-1rgdwv2",
       "ev-crawl-rcb-louis-vuitton-speedy-1ou0p1q",
-      "ev-crawl-rcb-louis-vuitton-speedy-1ufiwm2"
+      "ev-crawl-rcb-louis-vuitton-speedy-1ufiwm2",
+      "ev-crawl-rt-louis-vuitton-speedy-1ll6nti"
     ],
     "documented_sizes": [
       "25",
@@ -305,7 +308,7 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 88,
+      "source_count": 89,
       "independent_author_count": 67,
       "primary_subreddit_coverage": [
         "RealRepLadies",
@@ -369,7 +372,8 @@
       "ev-crawl-rrl-the-row-margaux-1t3a7qn",
       "ev-crawl-rrl-the-row-margaux-1tj0xd9",
       "ev-crawl-rt-the-row-margaux-1rt0svn",
-      "ev-crawl-rrl-the-row-margaux-1rw7npn"
+      "ev-crawl-rrl-the-row-margaux-1rw7npn",
+      "ev-crawl-rt-the-row-margaux-1v1xouv"
     ],
     "documented_sizes": [
       "15",
@@ -383,8 +387,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 27,
-      "independent_author_count": 22,
+      "source_count": 28,
+      "independent_author_count": 23,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -622,7 +626,8 @@
       "ev-crawl-rt-loewe-puzzle-1r6icf8",
       "ev-crawl-rt-loewe-puzzle-1swhh0d",
       "ev-crawl-rt-loewe-puzzle-1s69ner",
-      "ev-crawl-rlw-loewe-puzzle-1ucjbyz"
+      "ev-crawl-rlw-loewe-puzzle-1ucjbyz",
+      "ev-crawl-rt-loewe-puzzle-1o4temm"
     ],
     "documented_sizes": [
       "small",
@@ -637,8 +642,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 90,
-      "independent_author_count": 69,
+      "source_count": 91,
+      "independent_author_count": 70,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepLadiesWorld",
@@ -733,7 +738,8 @@
       "ev-crawl-rt-bottega-veneta-andiamos-1uay41x",
       "ev-crawl-rrl-bottega-veneta-andiamos-1rwtckq",
       "ev-crawl-rrl-bottega-veneta-andiamos-1ttui4v",
-      "ev-crawl-rt-bottega-veneta-andiamos-1rh1tes"
+      "ev-crawl-rt-bottega-veneta-andiamos-1rh1tes",
+      "ev-crawl-rrl-bottega-veneta-andiamos-1kfho8f"
     ],
     "documented_sizes": [
       "medium",
@@ -746,8 +752,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 58,
-      "independent_author_count": 49,
+      "source_count": 59,
+      "independent_author_count": 50,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -757,6 +763,7 @@
       "image_ready": true,
       "evidence_types": [
         "auth_comparison",
+        "factory_comparison",
         "in_hand_review",
         "long_term_wear",
         "psp_qc"
@@ -1640,7 +1647,8 @@
       "ev-crawl-rrl-hermes-kelly-1ojhzrg",
       "ev-crawl-rrl-hermes-kelly-1vaxqsd",
       "ev-crawl-rrl-hermes-kelly-1tgoy3b",
-      "ev-crawl-rrl-hermes-kelly-1usv91k"
+      "ev-crawl-rrl-hermes-kelly-1usv91k",
+      "ev-crawl-rrl-hermes-kelly-1l39er9"
     ],
     "documented_sizes": [
       "28"
@@ -1652,8 +1660,8 @@
       "gold-tone hardware reported"
     ],
     "evidence_coverage": {
-      "source_count": 18,
-      "independent_author_count": 18,
+      "source_count": 19,
+      "independent_author_count": 19,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
