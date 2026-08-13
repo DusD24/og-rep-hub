@@ -4526,10 +4526,10 @@
       "reason": "triage score 20 below floor 30"
     },
     "t3_1n1rgav": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The post is a tongue-in-cheek discussion of why Chanel puffy bags are popular. The comments are preference and style opinions, not received-bag QC, wear, factory-comparison, or authentic-comparison evidence."
     },
     "t3_1n1wwq3": {
       "disposition": "deferred",
@@ -4787,7 +4787,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 45)"
+      "reason": "above floor but outside the daily cap (priority 53)"
     },
     "t3_1n8a1y3": {
       "disposition": "rejected",
@@ -5306,10 +5306,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1nip1op": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The post recommends a purse organizer and says a medium brown organizer fits a Chanel 25. This is an accessory/storage recommendation, not evidence about the bag's construction, quality, wear, factory, or authenticity."
     },
     "t3_1niqahe": {
       "disposition": "deferred",
@@ -27010,10 +27010,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ssxstt": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The post is a pre-purchase choice between a YSL Niki and Chanel 25 Small and ends with a Niki purchase. Comments are subjective functionality and styling opinions, with seller/factory solicitation and no normalized Chanel 25 evidence."
     },
     "t3_1sszqxa": {
       "disposition": "deferred",
@@ -35833,10 +35833,13 @@
       "reason": "reviewed and not promoted: Pink Chanel 25 Mini post is playful promotional praise with no credible defect or comparison observation."
     },
     "t3_1u1zqss": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1u1zqss"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1u1zreh": {
       "disposition": "rejected",
@@ -36055,10 +36058,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u2wmzs": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "reviewed and not promoted: This is an overlapping duplicate of the image-free Soft Speedy Bliss 25 QC request at the other Reddit URL; its only comment says photos were not attached. It adds no resolved evidence beyond the canonical request."
     },
     "t3_1u2y0kt": {
       "disposition": "deferred",

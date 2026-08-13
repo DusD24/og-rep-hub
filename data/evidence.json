@@ -27307,5 +27307,39 @@
       "No public commenter resolves the concerns, and the capture has no authentic reference, standardized measurements, final decision, delivery inspection, material subtype, or wear result.",
       "The seller is source-reported and left unattributed; payment and unrelated purchase details are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1u1zqss",
+    "title": "QC Requested: LV Black Speedy 25 from Royal",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1u1zqss/qc_requested_lv_black_speedy_25_from_royal/",
+    "subreddit": "RepTherapy",
+    "author": "jms0479",
+    "publication_date": "2026-06-10",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Soft Speedy Bliss 25 in black at PSP/QC stage; the source reports a recent-sale seller named Jack and Royal Factory. The buyer asks whether the color, chunky hardware, and logo-etching depth look correct, including whether some etching is too light. The duplicate post at the RepTherapy URL has no substantive answer; no photos, final decision, delivery inspection, material subtype, measurements, or wear outcome are captured.",
+    "paraphrase": "A buyer requests QC on a black Louis Vuitton Soft Speedy Bliss 25 attributed to Royal Factory and asks whether the color, hardware proportions, and logo etching look correct. A duplicate post notes that photos were not attached, and the thread contains no substantive public answer, so the QC questions remain unresolved.",
+    "positive_observations": [
+      "The post identifies the Soft Speedy Bliss 25 and isolates concrete PSP/QC questions about color, metal chunkiness, and logo-etching depth.",
+      "The record preserves the unanswered status rather than converting an image-free request into a quality conclusion."
+    ],
+    "negative_observations": [
+      "No photos, authentic reference, standardized measurements, final QC decision, delivery inspection, material subtype, or wear result are captured.",
+      "Royal and the seller are source-reported, with the seller left unattributed; payment and unrelated purchase details are excluded."
+    ]
   }
 ]
