@@ -35,12 +35,10 @@ factory attribution, ranking, or the raw crawl artifacts.
 - Dior Saddle: prefer the review author's personal-photo frame from
   `ev-crawl-rrl-dior-saddle-1gqvspa`, not its factory, PSP, or authentication
   frames.
-- Hermès Kelly 28: prefer the exact in-hand review
-  `ev-crawl-repculture-hermes-kelly-2026`. Its sanitized local capture does
-  not include an image URL, so recover only public image metadata for that
-  already-normalized post. If no privacy-safe direct image can be recovered,
-  retain the generic icon rather than inventing a source or using an unrelated
-  image.
+- Hermès Kelly 28: use the exact Kelly 28 review
+  `ev-crawl-rrl-hermes-kelly-1sl383j`, whose public post supplies a clean,
+  front-facing in-hand frame. The separate HSS Kelly capture was inspected but
+  its available frame is packaging rather than a qualifying bag hero.
 
 Only a direct Reddit-media or author-owned Imgur image that passes the existing
   validator's host, provenance, JPEG, privacy, and exact-family checks may be
@@ -82,4 +80,3 @@ The final state must satisfy:
   Python and frontend test suites, `git lfs fsck`, Wrangler dry-run deployment,
   and `git diff --check` pass;
 - no `local-private/` artifact is staged.
-
