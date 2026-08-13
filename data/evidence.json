@@ -8294,5 +8294,408 @@
     "negative_observations": [
       "The shoulder straps are too short for the author's preference, and no factory or direct authentic comparison is stated."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1quxdvm",
+    "title": "Chanel 25 auth vs rep",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1quxdvm/chanel_25_auth_vs_rep/",
+    "subreddit": "RealRepLadies",
+    "author": "cff86",
+    "publication_date": "2026-02-03",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A side-by-side report of a medium Chanel 25 from God factory against a different-color authentic says the rep leather is stiffer than the well-worn authentic, the hardware is similar in size and color, the authentic font is crisper, and the side pockets are the same size.",
+    "positive_observations": [
+      "The author identifies the medium Chanel 25, God attribution, and concrete leather, hardware, font, and pocket comparisons against an authentic bag."
+    ],
+    "negative_observations": [
+      "The rep leather remains stiffer and its font less crisp in this comparison; the authentic is well worn and a different color, so color is not assessed."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1urg2rl",
+    "title": "Lady Dior charms",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1urg2rl/lady_dior_charms/",
+    "subreddit": "RealRepLadies",
+    "author": "No_Unit_7344",
+    "publication_date": "2026-07-09",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-reykay"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand Lady Dior report from Reykay says the letter charms feel unusually light and make a loud noise when the bag moves; the author asks for ways to reduce their movement.",
+    "positive_observations": [
+      "The author identifies a received Lady Dior, seller attribution, and a specific hardware-weight and noise observation."
+    ],
+    "negative_observations": [
+      "The charms are described as light and loud; no factory, size, or follow-up modification result is provided."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1vfevtb",
+    "title": "QC White Sm Lady Dior",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vfevtb/qc_white_sm_lady_dior/",
+    "subreddit": "RealRepLadies",
+    "author": "Illustrious_Ebb1616",
+    "publication_date": "2026-08-04",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC request for a white small Lady Dior from an undisclosed new seller reports neat stitching and asks whether the light champagne-gold hardware is correct or merely affected by factory lighting.",
+    "positive_observations": [
+      "The post identifies the white small Lady Dior and records separate positive stitching and hardware-tone observations."
+    ],
+    "negative_observations": [
+      "The hardware-tone concern is unresolved and the seller/factory are intentionally undisclosed until receipt."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-bottega-veneta-andiamos-1uguypd",
+    "title": "QC",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1uguypd/qc/",
+    "subreddit": "RepTherapy",
+    "author": "Different-Card4001",
+    "publication_date": "2026-06-27",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC request for a Mini Bottega Veneta Andiamo from Mandy reports that the side weaving is unevenly dyed and that the cut looks rough; the author is trying Conan after prior disappointments attributed to Jing.",
+    "positive_observations": [
+      "The post identifies the Mini Andiamo, seller, and two concrete PSP construction concerns involving dye evenness and cut quality."
+    ],
+    "negative_observations": [
+      "The author’s Conan attribution is not normalized to a catalogued factory, and the concerns remain unresolved at PSP stage."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1sxa0rg",
+    "title": "LV Nano Speedy from HyperPeter QC",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1sxa0rg/lv_nano_speedy_from_hyperpeter_qc/",
+    "subreddit": "RealRepLadies",
+    "author": "musculartrout",
+    "publication_date": "2026-04-27",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC request for an LV Nano Speedy from Hyper Peter says the shape does not look overly egg-shaped, the strap color and glazing look correct, and the hardware looks good; a later review is linked but not incorporated here.",
+    "positive_observations": [
+      "The post identifies the Nano Speedy and seller and records specific shape, strap/glazing color, and hardware observations from the PSPs."
+    ],
+    "negative_observations": [
+      "No factory is disclosed and no PSP defect or in-hand result is captured in this source; the linked later review is a separate record."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1oez1g8",
+    "title": "Sharing my review and love for my new LV nano speedy + matching Lisa wallet💕",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1oez1g8/sharing_my_review_and_love_for_my_new_lv_nano/",
+    "subreddit": "RealRepLadies",
+    "author": "Aysz6834",
+    "publication_date": "2025-10-24",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-huahui"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a Huahui Nano Speedy reports a slight close-up smell, soft leather, pebbling that differs from the authentic, color that the author considers close, and acceptable stitching; a matching wallet is excluded from this Speedy record.",
+    "positive_observations": [
+      "The post identifies the Nano Speedy and Huahui attribution and records concrete leather, color, pebbling, smell, and stitching observations against an authentic reference."
+    ],
+    "negative_observations": [
+      "The pebbling is described as off compared with the authentic and a slight smell remains at close range; seller and wallet details are not normalized here."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1rv8lkn",
+    "title": "Loewe Suna Fujita \"Penguin\" Fold Tote & Beaded Horse Charm - TS Nina",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1rv8lkn/loewe_suna_fujita_penguin_fold_tote_beaded_horse/",
+    "subreddit": "RepTherapy",
+    "author": "Any_Win_7788",
+    "publication_date": "2026-03-16",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-nina"
+    ],
+    "factory_ids": [
+      "factory-qiu"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a Loewe Puzzle Fold Tote in Arctic Blue with Penguin marquetry from Nina/Qiu describes a fold that collapses flat along its geometric lines, thin precise joint skiving, nearly flush leather inlay, aligned artwork across seams, tight symmetrical X-stitching, and a crisp interior logo; the separate Jipin horse charm is excluded.",
+    "positive_observations": [
+      "The post identifies the Puzzle Fold Tote, Arctic Blue/Penguin variant, seller, Qiu attribution, and detailed fold, marquetry, skiving, stitching, and logo observations."
+    ],
+    "negative_observations": [
+      "The review is strongly positive but provides no direct authentic side-by-side or long-term wear result; Jipin applies to the separate charm, not the bag."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-bottega-veneta-andiamos-1j49q35",
+    "title": "QC BV Andiamo!",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1j49q35/qc_bv_andiamo/",
+    "subreddit": "RealRepLadies",
+    "author": "paleycat",
+    "publication_date": "2025-03-05",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC request for a Bottega Veneta Andiamo from BaoBao asks whether the leather ends on the strap look like an abnormal finish or merely a stray thread that should be trimmed; the author says the rest looks beautiful.",
+    "positive_observations": [
+      "The post identifies the Andiamo, seller attribution, and a specific strap-end construction question rather than a general approval request."
+    ],
+    "negative_observations": [
+      "The strap-end concern is unresolved, no factory is stated, and the source contains no in-hand follow-up."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-bottega-veneta-andiamos-1sbh68t",
+    "title": "Bags: Mixed Feelings | Service: A+",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1sbh68t/bags_mixed_feelings_service_a/",
+    "subreddit": "RealRepLadies",
+    "author": "r_u_kittin",
+    "publication_date": "2026-04-03",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-tiny-jenny"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A mixed-bag review of a Tomato Red Bottega Veneta Andiamo Clutch from Tiny Jenny says authentic-comparison videos led the author to find the rep too puffy, less tautly stitched, less slender, and less smooth than the authentic; the separate Loewe bag is excluded.",
+    "positive_observations": [
+      "The post identifies the Tomato Red Andiamo Clutch, seller, and specific construction differences based on authentic and rep comparison videos."
+    ],
+    "negative_observations": [
+      "The author reports excessive puffiness, loose-looking stitching, a less-slender profile, and less-smooth material; the named Ajing factory is not catalogued and is left unattributed."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-the-row-margaux-1nlzdmp",
+    "title": "What's your perfect Fall bag?",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1nlzdmp/whats_your_perfect_fall_bag/",
+    "subreddit": "RepTherapy",
+    "author": "NewHospital1549",
+    "publication_date": "2025-09-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-the-row-margaux"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A Fall styling post identifies a Row Margaux 17 in mocha leather from Doris and reports that conditioning, stuffing, and a dryer treatment left it soft and slouchy.",
+    "positive_observations": [
+      "The post records the Margaux 17 size, mocha leather, seller attribution, and a concrete post-arrival softening/slouch result after care."
+    ],
+    "negative_observations": [
+      "The softness report follows conditioning and heat treatment rather than documenting the untreated baseline; no factory or authentic comparison is provided."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1rbyu79",
+    "title": "Review: Loewe Small Puzzle + Saint Laurent College from Doris",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1rbyu79/review_loewe_small_puzzle_saint_laurent_college/",
+    "subreddit": "RepTherapy",
+    "author": "Beneficial_Rush_370",
+    "publication_date": "2026-02-22",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A mixed review from Doris includes a warm brown-gray Loewe Small Puzzle and reports soft, slouchy leather from arrival, a real-leather smell, attractive woven detailing, and good hardware and construction; the separate YSL College is excluded.",
+    "positive_observations": [
+      "The author identifies the Small Puzzle and seller and gives feature-level leather, slouch, smell, woven-detailing, hardware, and construction observations, informed by prior authentic ownership."
+    ],
+    "negative_observations": [
+      "The factory is unknown and the positive authentic-parity assessment is a single author's judgment; the YSL bag in the same post is not normalized here."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-neverfull-1ro85p5",
+    "title": "QC on Inside Out Neverfull MM in Smoke",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ro85p5/qc_on_inside_out_neverfull_mm_in_smoke/",
+    "subreddit": "RepTherapy",
+    "author": "osrapla",
+    "publication_date": "2026-03-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-aiden"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC request for an Inside Out Neverfull MM in Smoke from Aiden says the received PSPs read much grayer than expected and asks whether to reject them, with factory photos and an official reference supplied.",
+    "positive_observations": [
+      "The post identifies the Inside Out Neverfull MM, Smoke color, seller attribution, official reference, and a specific PSP-to-reference color concern."
+    ],
+    "negative_observations": [
+      "The gray color discrepancy and reject/approve decision are unresolved; the factory is not stated and the mixed Flamenco mention is outside this record."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-neverfull-1s4bmtu",
+    "title": "Mother In Laws bag came today… Neverfull ladies… what we sayin?",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1s4bmtu/mother_in_laws_bag_came_today_neverfull_ladies/",
+    "subreddit": "RepTherapy",
+    "author": "MissKLO",
+    "publication_date": "2026-03-26",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-old-cobbler"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand Neverfull arrival review from Old Cobbler reports stitching that looks quite good, leather trim, no noticeable smell, and a bag the recipient considers a substantial improvement over a market-bought comparison.",
+    "positive_observations": [
+      "The post identifies the Neverfull, seller attribution, and concrete stitching, trim-material, and smell observations from the received bag."
+    ],
+    "negative_observations": [
+      "Size, colorway, factory, measurements, and direct authentic comparison are not stated; the market-bag comparison is not an authentic reference."
+    ]
   }
 ]
