@@ -26077,5 +26077,71 @@
       "The bag was not received in the captured thread, and the canvas/shape assessment comes from one commenter without a direct authentic side-by-side or factory attribution.",
       "Color and material are not stated; payment and contact details are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1sjw3bq",
+    "title": "Chanel 25 small beige QC",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1sjw3bq/chanel_25_small_beige_qc/",
+    "subreddit": "RealRepLadies",
+    "author": "Decent_Character_355",
+    "publication_date": "2026-04-13",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25 Small in a beige/peach-beige color at PSP/QC stage; comments refer to caviar, but the source does not independently establish material. The author identifies the source as OF, which is not a normalized public factory entity, and asks whether the beige tone, hardware, CC logo, and upright ears match authentic references. Seller, payment, and contact details are excluded.",
+    "paraphrase": "A buyer submits a beige Chanel 25 Small PSP and asks whether the hardware and CC logo differ from authentic references and whether the seller's 'peach beige' tone matches an authentic light beige. Commenters say the quilting appears aligned, the hardware looks good, and OF C25 ears stand upright; the buyer notes that store photos are brighter than website photos and remains concerned about the color until receipt.",
+    "positive_observations": [
+      "The thread identifies the Chanel 25 Small, beige color description, PSP stage, and concrete questions about color matching, hardware, CC logo, quilting, and ear shape.",
+      "It preserves both the reassuring observations and the lighting/photo-source differences without presenting the source-reported OF label or color name as independently verified."
+    ],
+    "negative_observations": [
+      "The bag had not been received in the captured thread, and the beige/peach-beige color and hardware comparison remain unresolved against a controlled authentic reference.",
+      "Material, seller, and normalized factory are not established; the comments include broad praise and contact-seeking that are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1ug0w1m",
+    "title": "Am I being too picky about colors?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ug0w1m/am_i_being_too_picky_about_colors/",
+    "subreddit": "RealRepLadies",
+    "author": "OutInAPout",
+    "publication_date": "2026-06-26",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton x Takashi Murakami Soft Speedy 30 in multicolore noir at PSP/QC stage, with the buyer comparing PSPs against BaoBao's factory-photo album. BaoBao lists the source as GX and the buyer speculates it may be MB; neither factory attribution is normalized here. The post discusses a 33-color pattern and matte canvas; payment, insurance, shipping amounts, and private-message details are excluded.",
+    "paraphrase": "A buyer compares PSPs for a black multicolore Louis Vuitton x Takashi Murakami Soft Speedy 30 with the cited factory-photo album. The buyer reports brown motifs reading orange, the three intended yellow shades collapsing together, fuchsia looking too hot-pink rather than blue-based, muted overall colors, a lime/chartreuse motif reading yellow, and matte canvas. Lighting is acknowledged as a confounder, but daylight comparisons still leave the buyer inclined to reject the PSP; the GX/possible-MB attribution remains unverified.",
+    "positive_observations": [
+      "The comparison preserves the exact Soft Speedy 30 multicolore noir variant, normalized BaoBao seller, 33-color layout, PSP-versus-factory-photo method, and motif-level color observations.",
+      "It records the buyer's concrete color-map criteria and the separate matte-canvas concern rather than reducing the thread to a generic QC rating."
+    ],
+    "negative_observations": [
+      "Lighting materially affects the photos and another commenter says the bag looks good, so the color and canvas concerns remain a disputed PSP assessment rather than a verified production defect.",
+      "GX and the buyer's possible MB equivalence are source-reported/speculative, no normalized factory is attached, and no received-bag wear outcome is reported; transaction and contact details are excluded."
+    ]
   }
 ]

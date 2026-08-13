@@ -3854,7 +3854,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-12",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 35)"
+      "reason": "above floor but outside the daily cap (priority 43)"
     },
     "t3_1mpetnx": {
       "disposition": "deferred",
@@ -22738,10 +22738,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1s4yjat": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "reviewed and not promoted: pre-purchase request for a suede Chanel 25 factory or seller recommendation; no owned bag or observation"
     },
     "t3_1s50wf1": {
       "disposition": "deferred",
@@ -23434,10 +23434,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1s9obgg": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "reviewed and not promoted: bare Chanel 25 PSP with generic praise and one vague puffy-quilting comment, without enough feature-level detail to normalize"
     },
     "t3_1s9qesf": {
       "disposition": "deferred",
@@ -25189,10 +25189,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1sjw3bq": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1sjw3bq"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sjwhi1": {
       "disposition": "promoted",
@@ -39094,10 +39097,13 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1ug0w1m": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1ug0w1m"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ug238f": {
       "disposition": "deferred",
@@ -44992,10 +44998,10 @@
       "reason": "above floor but outside the daily cap (priority 55)"
     },
     "t3_1vbpt9x": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: received Speedy 20 review is broad seller and authenticity praise with delivery timing but no concrete construction, wear, or variant observation"
     },
     "t3_1vbr51j": {
       "disposition": "deferred",
@@ -46336,10 +46342,10 @@
       "reason": "backfilled from committed evidence"
     },
     "t3_1vi9w2t": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: media-only Soft Speedy PSP request with no product observation in the post or comments"
     },
     "t3_1vibmpu": {
       "disposition": "deferred",
