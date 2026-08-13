@@ -49,7 +49,7 @@ import unicodedata
 from pathlib import Path
 from typing import Any
 
-from triage import build_vocabulary, load_candidates, score_candidate, build_gap_index
+from triage import build_vocabulary, dedupe_candidates, load_candidates, score_candidate, build_gap_index
 
 
 def _fold(value: str) -> str:
@@ -95,6 +95,8 @@ def _is_high_confidence(candidate: dict[str, Any]) -> bool:
 
 
 def detect(candidates: list[dict[str, Any]], *, min_authors: int) -> dict[str, Any]:
+    raw_candidate_count = len(candidates)
+    candidates, duplicates_collapsed = dedupe_candidates(candidates)
     vocabulary = build_vocabulary()
     gap_index = build_gap_index()
     known_authors: set[str] = set()  # not used for scoring here, just satisfies score_candidate
@@ -152,7 +154,9 @@ def detect(candidates: list[dict[str, Any]], *, min_authors: int) -> dict[str, A
         "schema_version": "1.0.0",
         "min_authors": min_authors,
         "counts": {
-            "candidates_in": len(candidates),
+            "candidates_in": raw_candidate_count,
+            "unique_candidates_in": len(candidates),
+            "duplicates_collapsed": duplicates_collapsed,
             "uncatalogued_terms": len(entries),
             "meeting_floor": sum(1 for e in entries if e["meets_floor"]),
         },

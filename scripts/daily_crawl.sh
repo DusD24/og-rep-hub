@@ -34,6 +34,18 @@ RUN_ID="${RUN_ID:-$(date +%Y-%m-%d)}"
 RUN_DIR="local-private/research-runs/${RUN_ID}"
 mkdir -p "$RUN_DIR"
 
+# A sweep and a daily run must never share a run directory concurrently. Without
+# this guard, stale processes can overwrite candidates and the committed ledger
+# with older in-memory snapshots after a newer process has made decisions.
+source "$REPO_ROOT/scripts/run_lock.sh"
+CRAWL_LOCK="${RUN_DIR}/.crawl.lock"
+if acquire_run_lock "$CRAWL_LOCK" "daily_crawl:${MODE}"; then
+  trap 'release_run_lock "$CRAWL_LOCK"' EXIT
+else
+  lock_status=$?
+  exit "$lock_status"
+fi
+
 # Keep the key out of the process list and out of the repo.
 if [ -f .env ]; then
   set -a
@@ -72,14 +84,19 @@ else
 fi
 
 echo "==> crawl (${MODE}) into ${RUN_DIR} (delay ${DELAY}s)"
+crawl_exit=0
 python3 scripts/scrape_reddit.py \
   --run-dir "$RUN_DIR" \
   --resume \
   --delay "$DELAY" \
   "${CRAWL_ARGS[@]}" \
-  > "${RUN_DIR}/last-run.json" || {
+  > "${RUN_DIR}/last-run.json" || crawl_exit=$?
+if [ "$crawl_exit" -eq 75 ]; then
+  echo "crawl lock contention; refusing to triage a concurrently changing run" >&2
+  exit 75
+elif [ "$crawl_exit" -ne 0 ]; then
     echo "crawl exited non-zero; triaging whatever was captured" >&2
-  }
+fi
 
 # Runs BEFORE triage, and deliberately so. triage.py rejects anything that references no
 # catalogued collection, and writes that rejection to the ledger as terminal -- but a post

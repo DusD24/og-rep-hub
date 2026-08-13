@@ -13,6 +13,7 @@ from triage import (  # noqa: E402
     build_context,
     build_gap_index,
     build_vocabulary,
+    dedupe_candidates,
     load_candidates,
     score_candidate,
     triage,
@@ -247,6 +248,32 @@ class ScoringTests(unittest.TestCase):
 
 
 class TriageRunTests(unittest.TestCase):
+    def test_dedupe_candidates_uses_reddit_thing_id_and_preserves_first_order(self):
+        first = candidate("duplicate")
+        duplicate = dict(
+            first,
+            candidate_id="candidate-RepTherapy-duplicate-second",
+            url="https://www.reddit.com/r/RepTherapy/comments/duplicate/changed-title/?utm_source=feed",
+        )
+        distinct = candidate("distinct")
+
+        unique, collapsed = dedupe_candidates([first, duplicate, distinct])
+
+        self.assertEqual(collapsed, 1)
+        self.assertEqual([row["candidate_id"] for row in unique], [first["candidate_id"], distinct["candidate_id"]])
+        self.assertIs(unique[0], first)
+
+    def test_triage_reports_raw_and_unique_candidate_counts_without_duplicate_digest_entries(self):
+        rows = [candidate("duplicate"), candidate("duplicate"), candidate("distinct")]
+
+        digest = triage(rows, empty_ledger(), limit=25, floor=30, excerpt_chars=400, per_family_cap=0)
+
+        self.assertEqual(digest["counts"]["candidates_in"], 3)
+        self.assertEqual(digest["counts"]["unique_candidates_in"], 2)
+        self.assertEqual(digest["counts"]["duplicates_collapsed"], 1)
+        thing_ids = [entry["thing_id"] for entry in digest["entries"]]
+        self.assertEqual(len(thing_ids), len(set(thing_ids)))
+
     def test_cap_holds_and_ordering_is_stable(self):
         rows = [candidate(f"p{index:03d}") for index in range(200)]
         ledger = empty_ledger()

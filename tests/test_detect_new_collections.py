@@ -50,6 +50,22 @@ class DetectNewCollectionsTests(unittest.TestCase):
         self.assertFalse(entry["meets_floor"])
         self.assertEqual(entry["independent_author_count"], 1)
 
+    def test_duplicate_post_does_not_inflate_new_collection_counts(self):
+        candidates = [
+            candidate("same", "Faketown review", ["Faketown"], author="alice", evidence_type="discussion"),
+            candidate("same", "Faketown review", ["Faketown"], author="alice", evidence_type="discussion"),
+        ]
+
+        report = detect(candidates, min_authors=2)
+
+        entry = next(e for e in report["entries"] if e["term"] == "Faketown")
+        self.assertEqual(report["counts"]["candidates_in"], 2)
+        self.assertEqual(report["counts"]["unique_candidates_in"], 1)
+        self.assertEqual(report["counts"]["duplicates_collapsed"], 1)
+        self.assertEqual(entry["post_count"], 1)
+        self.assertEqual(entry["independent_author_count"], 1)
+        self.assertFalse(entry["meets_floor"])
+
     def test_candidates_with_a_catalogued_anchor_are_skipped_entirely(self):
         candidates = [candidate("1", "Neverfull review with Prada bag too", ["Neverfull", "Prada"])]
         report = detect(candidates, min_authors=1)

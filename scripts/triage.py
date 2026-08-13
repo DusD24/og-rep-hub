@@ -394,6 +394,28 @@ def load_candidates(run_dir: Path) -> list[dict[str, Any]]:
     return []
 
 
+def dedupe_candidates(candidates: Iterable[dict[str, Any]]) -> tuple[list[dict[str, Any]], int]:
+    """Keep the first candidate for each Reddit post and count collapsed rows.
+
+    A candidate id is normally stable across search terms, but the Reddit thing id
+    is the stronger identity because it survives subreddit/source formatting and
+    URL query differences. Malformed rows without either identity are preserved so
+    this helper does not silently discard data that a later validator should see.
+    """
+    unique: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    collapsed = 0
+    for candidate in candidates:
+        key = reddit_thing_id(candidate.get("url")) or str(candidate.get("candidate_id") or "").strip()
+        if key and key in seen:
+            collapsed += 1
+            continue
+        if key:
+            seen.add(key)
+        unique.append(candidate)
+    return unique, collapsed
+
+
 def digest_entry(candidate: dict[str, Any], scored: dict[str, Any], excerpt_chars: int) -> dict[str, Any]:
     """Compact review payload. Everything here is redacted, public post context."""
     return {
@@ -456,6 +478,8 @@ def triage(
     excerpt_chars: int,
     per_family_cap: int = 3,
 ) -> dict[str, Any]:
+    raw_candidate_count = len(candidates)
+    candidates, duplicates_collapsed = dedupe_candidates(candidates)
     vocabulary = build_vocabulary()
     gap_index = build_gap_index()
     bag_to_family = {row["id"]: row.get("family_id") for row in load("bags")}
@@ -555,7 +579,9 @@ def triage(
     return {
         "schema_version": "1.0.0",
         "counts": {
-            "candidates_in": len(candidates),
+            "candidates_in": raw_candidate_count,
+            "unique_candidates_in": len(candidates),
+            "duplicates_collapsed": duplicates_collapsed,
             "already_settled": settled,
             "auto_rejected": len(rejected),
             "awaiting_catalog": len(unanchored),
