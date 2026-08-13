@@ -260,10 +260,10 @@
       "reason": "reviewed and not promoted: asks fellow owners to share photos; not the poster's own bag"
     },
     "t3_1fevz2c": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 64)"
+      "reason": "reviewed and not promoted: Pre-purchase question asks which of two Classic Flap caviar options on a seller website is closest to authentic; no owned-bag observation."
     },
     "t3_1ffkmlw": {
       "disposition": "rejected",
@@ -2321,10 +2321,13 @@
       "reason": "triage score 20 below floor 30"
     },
     "t3_1kixvmb": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1kixvmb"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1kjgzdp": {
       "disposition": "deferred",
@@ -3323,10 +3326,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1lrh438": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1lrh438"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1lrs5ik": {
       "disposition": "promoted",
@@ -6626,10 +6632,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1nlcw8f": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "reviewed and not promoted: Pre-purchase color-comparison question about a Speedy P9 Damoflage Pink Sakura; the author has not seen the authentic version and records no owned-bag observation."
     },
     "t3_1nle89w": {
       "disposition": "rejected",
@@ -10418,10 +10424,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ox1azi": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-dior-lady-dior-1ox1azi"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 35)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ox21u5": {
       "disposition": "deferred",
@@ -13076,10 +13085,13 @@
       "reason": "triage score 10 below floor 30"
     },
     "t3_1pj3we7": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1pj3we7"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1pj5pma": {
       "disposition": "rejected",
@@ -13680,10 +13692,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1powtmb": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1powtmb"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1poyd8p": {
       "disposition": "deferred",
@@ -17188,10 +17203,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qi14ya": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: Pre-purchase factory-photo question about a Jumbo/Double Flap before payment; no received product or confirmed seller/factory evidence."
     },
     "t3_1qi2mko": {
       "disposition": "deferred",
@@ -57946,10 +57961,10 @@
       "reason": "reviewed and not promoted: pre-purchase pricing and factory recommendation discussion; no owned Chanel 25 or Classic Flap observation"
     },
     "t3_1vjd67b": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: Pre-purchase request for the best Classic Flap factory and seller; no owned-bag evidence."
     },
     "t3_1vjdo5q": {
       "disposition": "deferred",
