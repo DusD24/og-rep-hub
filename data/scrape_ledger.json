@@ -3797,10 +3797,10 @@
       "reason": "above floor but outside the daily cap (priority 40)"
     },
     "t3_1mo7ip9": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: image-only Chanel 25 seller-choice solicitation with no sanitized text or product observation"
     },
     "t3_1mobze6": {
       "disposition": "deferred",
@@ -25714,10 +25714,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1smog3e": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: generic Chanel vanity unboxing praise saying details are perfect without any feature-level observations"
     },
     "t3_1smokqw": {
       "disposition": "promoted",
@@ -29222,10 +29222,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t4mayy": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1t4mayy"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1t4mpxn": {
       "disposition": "deferred",
@@ -30317,10 +30320,10 @@
       "reason": "reviewed and not promoted: bare second PSP and green-light request for a Heidi/187 Medium Classic Flap with no specific visible discrepancy"
     },
     "t3_1taee2g": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: pre-shipment Chanel 25 denim QC and alternative-factory request that asks about the CC logo and color but provides no resolved observation"
     },
     "t3_1taevz1": {
       "disposition": "deferred",
@@ -30641,10 +30644,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tc9xlc": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "reviewed and not promoted: Speedy Soft 30 PSP request describing requested future photos and seller communication but no concrete product observation"
     },
     "t3_1tcbwna": {
       "disposition": "deferred",
@@ -35218,10 +35221,10 @@
       "reason": "triage score 20 below floor 30"
     },
     "t3_1u07yoj": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "reviewed and not promoted: bare God Factory Speedy Dark 30 QC request with no stated discrepancy or resolved finding"
     },
     "t3_1u081p0": {
       "disposition": "rejected",
