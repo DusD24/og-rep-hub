@@ -776,10 +776,10 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1gkyogy": {
-      "disposition": "pending",
+      "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "Exact item is a BV Teen Jodie, not the existing Andiamo family used by triage; Jodie is an uncatalogued family with a separate catalog-gap signal, so preserve this PSP/QC lead for a catalog decision rather than misattributing or rejecting it."
     },
     "t3_1glwgzv": {
       "disposition": "deferred",
@@ -1052,10 +1052,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1hr8x1n": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: Factory and availability announcement for Miu Miu Arcadie with future price and date language; no received, PSP, QC, wear, or comparison observation."
     },
     "t3_1hrvlj2": {
       "disposition": "deferred",
@@ -4499,10 +4499,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1mmtryk": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: Post explicitly presents ChatGPT analysis of PSP images; no first-hand inspection, receipt, or wear, and no independent evidence beyond generated interpretation."
     },
     "t3_1mmyt1z": {
       "disposition": "deferred",
@@ -7310,10 +7310,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1nv86je": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: Pre-purchase Balenciaga Rodeo seller and factory selection post; the bag was not yet delivered and the thread is dominated by vendor, contact, and purchase details."
     },
     "t3_1nv9r0k": {
       "disposition": "deferred",
@@ -8582,10 +8582,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1oemowu": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: Received Speedy 40 post mostly offers generic praise, seller shipping, and a daily-size note; color, submodel, material, factory, and feature-level quality or wear evidence are not established."
     },
     "t3_1oeo03p": {
       "disposition": "deferred",
@@ -9377,10 +9377,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1oobx23": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: Mixed footwear and haul or sale report; the Balenciaga/City mention is not an exact bag review and the thread is dominated by pricing, incentives, and contact context."
     },
     "t3_1ooc90y": {
       "disposition": "deferred",
@@ -9977,10 +9977,13 @@
       "reason": "above floor but outside the daily cap (priority 35)"
     },
     "t3_1otzj1d": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-balmain-anthem-1otzj1d"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1otzkwi": {
       "disposition": "rejected",
@@ -12056,10 +12059,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1paw3tw": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: PSP-only Catogram haul and sale post with mixed Keepall, Speedy, and small-leather-goods items; no received exact Speedy review, and the uncatalogued Keepall must not be attached to Speedy."
     },
     "t3_1pax62x": {
       "disposition": "rejected",
@@ -13821,10 +13824,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1prflfp": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-balenciaga-rodeo-1prflfp"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1prfntt": {
       "disposition": "promoted",
@@ -16783,10 +16789,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1qgax0l": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-ysl-loulou-1qgax0l"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qgb13m": {
       "disposition": "rejected",
@@ -18496,10 +18505,13 @@
       "reason": "triage score 15 below floor 30"
     },
     "t3_1qo4fwn": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-ferragamo-hug-1qo4fwn"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qo68ya": {
       "disposition": "deferred",
@@ -19312,10 +19324,13 @@
       "reason": "reviewed and not promoted: The post is a first-outing lifestyle story and the comments are mostly generic compliments, charms, and vendor requests. It does not provide enough bag-specific QC, wear, factory, or authentic-comparison detail for public evidence."
     },
     "t3_1qrwpyq": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-loewe-puzzle-1qrwpyq"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qrwx5g": {
       "disposition": "deferred",
@@ -19552,10 +19567,10 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1qt5nlu": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: General discussion about seller album and photo reuse and factory-sourcing uncertainty; no exact bag-specific physical observation, so unverified sourcing claims are not normalized."
     },
     "t3_1qt74t3": {
       "disposition": "deferred",
@@ -19801,10 +19816,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1quc97x": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: Seller and factory fulfillment discussion about a delayed 187 Classic Flap; no physical bag evidence, and reputation claims are conflicting or unverified."
     },
     "t3_1quf7nn": {
       "disposition": "rejected",
@@ -19876,10 +19891,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1quq3ar": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: Seller-recommendation request for Mike with mixed bag anecdotes; no received exact Speedy Soft 30 quality record, while contact, shipping, and payment solicitation dominates."
     },
     "t3_1quq3iv": {
       "disposition": "deferred",
@@ -20191,10 +20206,13 @@
       "reason": "triage score 20 below floor 30"
     },
     "t3_1qw26xy": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-ysl-loulou-1qw26xy"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qw29gr": {
       "disposition": "promoted",
@@ -21091,10 +21109,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qzb3zp": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-ysl-loulou-1qzb3zp"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qzcfbh": {
       "disposition": "deferred",
@@ -23866,10 +23887,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rh2y5s": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-ferragamo-hug-1rh2y5s"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1rh3dp9": {
       "disposition": "deferred",
@@ -28876,10 +28900,13 @@
       "reason": "reviewed and not promoted: generic seller, communication, and charm praise; no checkable construction or wear observation for the referenced bags"
     },
     "t3_1s6dsu1": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-dior-book-tote-1s6dsu1"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1s6em9c": {
       "disposition": "deferred",
@@ -30109,10 +30136,10 @@
       "reason": "above floor but outside the daily cap (priority 48)"
     },
     "t3_1sd57ce": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: Pre-purchase God versus babala Classic Flap factory-choice question; no received bag, QC, wear, or comparison evidence."
     },
     "t3_1sd67s1": {
       "disposition": "rejected",
@@ -34189,10 +34216,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1suf7tc": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: Mixed LV and Loewe haul incorrectly anchored to Dior Lady Dior; concrete comments do not identify a Lady Dior record, and generic praise and seller solicitation dominate."
     },
     "t3_1suftud": {
       "disposition": "deferred",
@@ -39844,10 +39871,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tipiib": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: Pre-purchase Barbara Tote price and bargaining request; comments do not supply a received-quality report or exact construction or wear observation."
     },
     "t3_1tipppv": {
       "disposition": "deferred",
@@ -47001,10 +47028,13 @@
       "reason": "reviewed and not promoted: general discussion about personal style and a rep collection; the named Chanel Reissue and Margaux are not described with specific construction, wear, or comparison observations"
     },
     "t3_1ub2y89": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1ub2y89"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ub35ui": {
       "disposition": "deferred",
@@ -50755,10 +50785,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uqnun9": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-dior-lady-dior-1uqnun9"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1uqo297": {
       "disposition": "promoted",
@@ -58561,10 +58594,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1vmlu85": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: Pre-purchase warehouse and PSP delay question; no product-quality observation, and comments include unverified factory and logistics claims."
     },
     "t3_1vmmgni": {
       "disposition": "deferred",

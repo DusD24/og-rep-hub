@@ -27958,5 +27958,383 @@
       "The owner found the 25 cm size too small for their needs; the review does not document long-term wear or controlled authentic measurements.",
       "The seller and factory are source-reported, no factory-wide conclusion is inferred, and contact and payment details are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rt-ysl-loulou-1qgax0l",
+    "title": "QC YSL Small LouLou",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qgax0l/qc_ysl_small_loulou/",
+    "subreddit": "RepTherapy",
+    "author": "Available-Lecture711",
+    "publication_date": "2026-01-18",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-ysl-loulou"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-black-frame"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "A PSP/QC post identifies a YSL Small Loulou attributed by the source to Black Frame and ordered through Doris; color, material, and measurements are not stated. The author flags slightly misaligned sides and hardware that may look different under lighting. Comments give differing descriptions of the expected hardware tone and do not resolve the concern; seller and factory remain source-reported.",
+    "paraphrase": "A buyer requests QC on a YSL Small Loulou PSP attributed to Black Frame. They flag slightly misaligned sides and hardware that may look different in the light; comments give conflicting descriptions of the expected hardware tone and do not resolve the question.",
+    "positive_observations": [
+      "The post identifies a YSL Small Loulou, Black Frame attribution, and a specific side-alignment and hardware QC question.",
+      "The author includes a second-lighting view, while the public comments add comparison context without claiming a definitive resolution."
+    ],
+    "negative_observations": [
+      "The color, material, measurements, and final delivery or wear result are not established; lighting may affect the hardware impression.",
+      "Seller and factory are source-reported, and contact, payment, and private-order details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-ysl-loulou-1qw26xy",
+    "title": "How is the inside stitching on your YSL Loulou bags? (Old version)",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qw26xy/how_is_the_inside_stitching_on_your_ysl_loulou/",
+    "subreddit": "RepTherapy",
+    "author": "Jija_jija",
+    "publication_date": "2026-02-04",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-ysl-loulou"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-black-frame"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "A PSP discussion for a small YSL Loulou attributed by the source to Black Frame focuses on crooked interior stitching. The author decides to return or seek a refund; a second buyer says the same bag they received also has upward-right crooked stitching, but the thread does not establish a controlled batch pattern. Color, material, measurements, and final wear are not stated.",
+    "paraphrase": "A PSP discussion for a small YSL Loulou attributed to Black Frame focuses on wobbly, uneven interior stitching. The author weighs a refund, and another buyer says their received example has similar upward-right stitching; the thread leaves the extent of the issue unresolved.",
+    "positive_observations": [
+      "The post isolates interior stitching as the QC subject and identifies the small Loulou, seller, and source-reported Black Frame attribution.",
+      "A commenter who says they received the same bag reports a similar stitching direction, adding a second public observation without treating it as a factory-wide conclusion."
+    ],
+    "negative_observations": [
+      "The author is still at PSP stage and plans a return or refund, so no in-hand wear result or controlled authentic comparison is documented.",
+      "The observations are limited to a small public sample; color, material, measurements, batch, and seller or factory verification are not established."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-ysl-loulou-1qzb3zp",
+    "title": "Please check out the hardware",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qzb3zp/please_check_out_the_hardware/",
+    "subreddit": "RepTherapy",
+    "author": "KaleidoscopeNo3728",
+    "publication_date": "2026-02-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-ysl-loulou"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-black-frame"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "A PSP post identifies a YSL Loulou Small; the item label says white while the author refers to violet, so the exact color is unresolved. Black Frame and Doris are source-reported. Hardware and shape are the stated QC concerns; a commenter says the bag resembles another Doris/Black Frame example, but the thread does not independently resolve either concern.",
+    "paraphrase": "A buyer requests QC on a YSL Loulou Small attributed to Black Frame, focusing on hardware and shape. The post labels the bag white but also calls it violet, and a commenter compares it with another Doris/Black Frame example without resolving the color or QC questions.",
+    "positive_observations": [
+      "The post identifies the small Loulou model, seller, source-reported factory, and two concrete QC subjects: hardware and shape.",
+      "A public comparison comment supplies a second example for context while leaving the author's concern qualified."
+    ],
+    "negative_observations": [
+      "The post uses both white and violet color descriptions, so the exact colorway is not normalized; material, measurements, delivery, and wear are not stated.",
+      "The hardware and shape questions remain unresolved, and seller and factory are source-reported rather than independently verified."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-dior-lady-dior-1uqnun9",
+    "title": "My new mini lady Dior",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1uqnun9/my_new_mini_lady_dior/",
+    "subreddit": "RepTherapy",
+    "author": "Mindless-Repeat-1859",
+    "publication_date": "2026-07-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The owner reports about 14 days from inquiry to receipt, with about 3 days for shipping and customs, per the post.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "An owner reports receiving a Mini Lady Dior and attributes it to God Factory through Bao Bao. On opening the package, the owner noticed a leather smell rather than a plastic smell and says the bag stands on its two handles. Color, material, measurements, hardware, and long-term wear are not stated; the factory and seller remain source-reported.",
+    "paraphrase": "An owner reviews a received Mini Lady Dior attributed to God Factory through Bao Bao. They report a leather smell without a plastic smell and say the bag stands with both handles raised; the post gives about a 14-day inquiry-to-receipt timeline, but no detailed wear or controlled authentic comparison.",
+    "positive_observations": [
+      "The post identifies a received Mini Lady Dior and records a concrete first-opening smell observation.",
+      "The owner reports that the bag stands on its two handles when raised and supplies a short inquiry-to-receipt timeline."
+    ],
+    "negative_observations": [
+      "The review is an early first impression; color, material, measurements, hardware, and long-term wear are not documented.",
+      "The standing-handle heuristic is subjective, and the factory and seller attributions are source-reported; payment and contact details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-balmain-anthem-1otzj1d",
+    "title": "The bag I fell in love with that was not repped until recently!✨🖤Balmain Anthem 🖤✨",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1otzj1d/the_bag_i_fell_in_love_with_that_was_not_repped/",
+    "subreddit": "RepTherapy",
+    "author": "chokemeowt",
+    "publication_date": "2025-11-11",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The owner reports PSPs and receipt between 2025-10-12 and 2025-10-24, per the post.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-balmain-anthem"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "An owner reviews a Balmain Anthem Medium in black calfskin measuring 35 x 20 x 8 cm. The source describes the attribution as 'Kata // Boutique'; that wording is ambiguous and is intentionally left unattributed. After receipt, the owner reports very soft leather, a heavy buckle, smooth suede lining, clean stitching, and clear stamping, and compares the bag in person with an authentic reference. Seller details are not normalized.",
+    "paraphrase": "A received black Balmain Anthem Medium in calfskin, measured at 35 x 20 x 8 cm, is described as having very soft leather, a heavy buckle, smooth suede lining, clean stitching, and clear stamping. An in-person comparison with an authentic reference covers feel, structure, strap length, and calfskin, while the source's ambiguous 'Kata // Boutique' attribution is left unresolved.",
+    "positive_observations": [
+      "The review identifies the Medium size, black color, calfskin material, and stated measurements.",
+      "The owner reports very soft leather, a heavy buckle, smooth suede lining, clean stitching, and clear stamping after receipt.",
+      "The owner compares the received bag with an authentic store reference and records similar feel, structure, strap length, and calfskin observations without treating that comparison as authentication."
+    ],
+    "negative_observations": [
+      "The factory wording is ambiguous ('Kata // Boutique') and is not mapped to a factory entity; no seller, batch, or extended structured wear result is established.",
+      "The comparison is one owner's visual and tactile assessment, and contact, payment, incentive, and external-album details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-balenciaga-rodeo-1prflfp",
+    "title": "🚨PSA:🚨 The Croc Rodeo Is Finally Being Repped & It’s INSANELY Accurate 🐊",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1prflfp/psa_the_croc_rodeo_is_finally_being_repped_its/",
+    "subreddit": "RepTherapy",
+    "author": "chokemeowt",
+    "publication_date": "2025-12-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The owner reports receipt about 9 days after ordering, per the post.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-balenciaga-rodeo"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "An owner reviews a Balenciaga Rodeo Medium in dark brown crocodile-embossed suede calfskin with aged-silver hardware. The factory is only a tentative 'Kata?' in the source and is left unattributed; the seller is also not normalized. The owner compares the received bag directly with an authentic reference and records leather, embossing, structure, stitching, hardware, interior, drape, and strap observations.",
+    "paraphrase": "A received medium Balenciaga Rodeo in dark brown crocodile-embossed suede calfskin is described as having rich velvety suede, clean embossing, stable structure when closed, pliability when open, clean stitching, brushed-silver hardware, and a smooth interior. A direct authentic comparison covers texture, pattern depth, color tone, drape, and strap length; the source's tentative factory attribution remains unresolved.",
+    "positive_observations": [
+      "The review preserves the Medium size, dark-brown color, crocodile-embossed suede calfskin, and aged-silver hardware.",
+      "The owner reports rich velvety suede, consistent embossing, clean stitching, stable closed structure, a soft drape when open, brushed hardware, and a smooth interior.",
+      "A direct authentic comparison records similarities and differences in texture, pattern depth, color tone, drape, and strap length."
+    ],
+    "negative_observations": [
+      "The source did not use a PSP stage and identifies the factory only tentatively as 'Kata?'; no seller or batch attribution is normalized.",
+      "The review documents early ownership rather than a structured long-term wear result, and contact, payment, and external-link details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-ferragamo-hug-1qo4fwn",
+    "title": "Ferragamo Hug bag - fresh out of the box",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qo4fwn/ferragamo_hug_bag_fresh_out_of_the_box/",
+    "subreddit": "RepTherapy",
+    "author": "RepTherapyIsMyCardio",
+    "publication_date": "2026-01-27",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-ferragamo-hug"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "A Ferragamo Hug arrived through Mandy and is described as fresh out of the box; size, color, and material are not stated. The source mentions a Katya factory attribution, but that spelling is not mapped to a normalized factory entity. Initial comments by the author describe soft textured leather without a plastic feel, a sturdy but not rigid body, shiny plated gold hardware that is not orange, and a shape that is not the slouchy Soft Hug. A full review was promised but is not present in this post.",
+    "paraphrase": "Initial in-hand observations for a Ferragamo Hug from Mandy describe soft textured leather without a plastic feel, a sturdy but not rigid body, and shiny plated gold hardware that does not read orange. The author distinguishes it from the slouchy Soft Hug but says a fuller review will come later.",
+    "positive_observations": [
+      "The post documents a fresh-out-of-box Ferragamo Hug and identifies Mandy as the normalized seller attribution.",
+      "The author's initial inspection records leather texture and feel, body firmness, and a specific gold-hardware color observation."
+    ],
+    "negative_observations": [
+      "This is an initial impression rather than a full review; size, color, material, measurements, long-term wear, and construction details are not established.",
+      "The source's Katya factory label is not mapped, and payment, contact, and private-order details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-dior-book-tote-1s6dsu1",
+    "title": "Dior girlie always and forever",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1s6dsu1/dior_girlie_always_and_forever/",
+    "subreddit": "RepTherapy",
+    "author": "RepTherapyIsMyCardio",
+    "publication_date": "2026-03-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-dior-book-tote"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "This mixed Dior haul record covers only the large Dior Book Tote. The owner says they have authentic and replica Book Totes and reports clean embroidery and structure that holds, including the handles. A comment attributes the Book Tote to Shadow factory, but that source label is not normalized here. Color, material, measurements, and wear duration are not stated; other Dior bags and accessories in the haul are excluded.",
+    "paraphrase": "A large Dior Book Tote in a mixed Dior haul is described by an owner with authentic and replica examples as having clean embroidery and structure that holds, including the handles. The post is kept to the Book Tote only; the source-reported Shadow attribution is left unattributed and other Dior items are excluded.",
+    "positive_observations": [
+      "The post identifies the large Dior Book Tote and supplies an owner comparison with authentic and replica examples.",
+      "The owner reports clean embroidery and a structure that holds, including the handles."
+    ],
+    "negative_observations": [
+      "Color, material, measurements, factory verification, and long-term wear are not established; the Shadow label remains source-reported and unattributed.",
+      "The post is a mixed haul, so Lady Dior, D-Joy, small leather goods, seller-contact, and payment details are excluded from this record."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1ub2y89",
+    "title": "Black caviar CF is finally here.",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ub2y89/black_caviar_cf_is_finally_here/",
+    "subreddit": "RealRepLadies",
+    "author": "TomatilloMajestic610",
+    "publication_date": "2026-06-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "A received black caviar Classic Flap is described by the owner as having subtle leather sheen and texture, bright shiny gold hardware, deep and even diamond stitching, and a chain strap with decent weight. Size, material details beyond the source's caviar label, seller, factory, batch, and wear duration are not stated.",
+    "paraphrase": "An owner unboxes a black caviar Classic Flap and reports subtle leather sheen and texture, bright shiny gold hardware, deep and even diamond stitching, and a chain strap with decent weight. The bag itself is described as solid, while size, seller, factory, and longer-term wear are not documented.",
+    "positive_observations": [
+      "The post identifies a received black caviar Classic Flap and records separate observations about leather texture, hardware, stitching, and chain weight.",
+      "The owner distinguishes the bag's construction from less elaborate packaging, keeping the product observations specific."
+    ],
+    "negative_observations": [
+      "Size, material specifications beyond the caviar description, seller, factory, batch, authentic comparison, and long-term wear are not stated.",
+      "The observations are an initial unboxing impression rather than a controlled QC or extended-use result."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-ferragamo-hug-1rh2y5s",
+    "title": "Ferragamo Hug Soft - Factory photo vs auth",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1rh2y5s/ferragamo_hug_soft_factory_photo_vs_auth/",
+    "subreddit": "RepTherapy",
+    "author": "SatisfactionOdd2727",
+    "publication_date": "2026-02-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-ferragamo-hug"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "A factory-photo/auth comparison for the Ferragamo Hug Soft asks about front-hardware spacing and top-handle length. Comments note that the rep may be a large size while the authentic reference appears medium and discuss a separate large Soft Hug example, so the exact size match is unresolved. No received bag, factory, seller, material, or wear result is documented.",
+    "paraphrase": "A factory-photo versus authentic comparison for the Ferragamo Hug Soft flags front hardware that may be too far apart and a top handle that may be too short. Comments raise a likely size mismatch between the rep and authentic reference, so the thread does not establish an exact-variant conclusion.",
+    "positive_observations": [
+      "The post isolates front-hardware spacing and top-handle length as the comparison subjects.",
+      "Public comments identify a possible large-versus-medium mismatch, which is useful context for interpreting the images."
+    ],
+    "negative_observations": [
+      "The rep and authentic references may be different sizes, and no received-bag inspection or confirmed factory attribution is available.",
+      "The thread remains a sourcing and comparison discussion; material, measurements, batch, wear, seller, and payment details are not normalized."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1qrwpyq",
+    "title": "Help with QC - Loewe colour doubts",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qrwpyq/help_with_qc_loewe_colour_doubts/",
+    "subreddit": "RepTherapy",
+    "author": "cometeelqueso",
+    "publication_date": "2026-01-31",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "A PSP/QC post identifies a medium Loewe Puzzle Tote in burgundy attributed by the source to Liusheng and Mandy; material is not stated. Indoor PSPs appear more purple than the author's authentic reference, while an outdoor photograph appears closer. Comments note that burgundy tones vary with lighting and across examples. The author ultimately swaps for a Mini Flamenco, so this record has no received wear result.",
+    "paraphrase": "A buyer requests QC on a medium burgundy Loewe Puzzle Tote attributed to Liusheng, focusing on PSPs that look more purple than an authentic reference indoors. An outdoor image appears closer and commenters discuss lighting and burgundy variation; the author swaps for another item, leaving the color concern unresolved without in-hand evidence.",
+    "positive_observations": [
+      "The post identifies the medium Puzzle Tote, burgundy color, Liusheng attribution, and Mandy seller attribution.",
+      "The author compares indoor and outdoor PSP lighting, while comments preserve the possibility that burgundy variation or lighting explains the difference."
+    ],
+    "negative_observations": [
+      "The color match is unresolved, material is not stated, and the author does not receive this bag, so there is no in-hand or wear evidence.",
+      "Liusheng and Mandy are source-reported attributions; price and other payment details are excluded."
+    ]
   }
 ]
