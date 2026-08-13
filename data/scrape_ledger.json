@@ -23059,10 +23059,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1s6x5vn": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1s6x5vn"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1s6xe6w": {
       "disposition": "deferred",
@@ -26683,10 +26686,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sre52u": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1sre52u"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1srexz4": {
       "disposition": "deferred",
@@ -28411,10 +28417,10 @@
       "reason": "above floor but outside the daily cap (priority 40)"
     },
     "t3_1sz3rfa": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The post is promotional giveaway copy for a Chanel Classic Flap and contains no received product, QC, in-hand, wear, factory-comparison, or authentic-comparison observation."
     },
     "t3_1sz3ryv": {
       "disposition": "deferred",
@@ -34876,10 +34882,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1txhxwt": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The post body is empty and the only comment asks a general question about Chanel 25 hardware weight. There is no identified variant, answer, QC result, or usable product observation."
     },
     "t3_1txij83": {
       "disposition": "deferred",
@@ -46129,10 +46135,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1vgr0c4": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The post body is empty and the comments only ask about size, possible flap-stitching alignment, and seller/factory details. No owner response or resolved QC comparison is captured."
     },
     "t3_1vgr676": {
       "disposition": "deferred",

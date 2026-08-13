@@ -27139,5 +27139,73 @@
       "The buyer is still deciding whether to reject the PSPs; no delivered-bag inspection, measurements, long-term wear result, or resolved alignment assessment is captured.",
       "The public comparison is photo-based and includes mixed factory references, so the comments are not treated as a controlled authentic side-by-side or universal quality verdict; payment and private-message requests are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1s6x5vn",
+    "title": "White P9 Speedy 30 from Royal and Mina",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1s6x5vn/white_p9_speedy_30_from_royal_and_mina/",
+    "subreddit": "RealRepLadies",
+    "author": "formerbays",
+    "publication_date": "2026-03-29",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "Ordered 2026-03-26 and received 2026-03-27, as reported in the post edit.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Received Louis Vuitton Speedy P9 30 in white, described as a Korea-exclusive limited addition; the title names Royal and Mina, and a later comment says the source was told to be Royal. The owner compares the bag with an authentic reference image and reports matching shape and glow-in-the-dark behavior, plus soft, squishy leather. Blue-jean dye transferred onto the white bag and was cleaned with Dawn; seller, material subtype, measurements, and long-term wear are not established, and payment/contact details are excluded.",
+    "paraphrase": "After receiving a white Speedy P9 30, the owner compares it with an authentic reference and says the initially awkward-looking shape is the same as the authentic and that both bags glow in the dark. The owner describes the leather as soft and squishy, reports blue-jean dye transfer onto the white bag that cleaned up with Dawn, and says the bag is not an everyday default because of the transfer risk. The source reports Royal attribution but does not establish a normalized seller.",
+    "positive_observations": [
+      "The review identifies a received white Speedy P9 30 and preserves direct authentic-reference observations about shape and glow-in-the-dark behavior.",
+      "It adds concrete in-hand material and care outcomes: soft or squishy leather and removable blue-jean dye transfer on the white surface."
+    ],
+    "negative_observations": [
+      "The authentic reference is a limited comparison rather than a controlled in-person inspection, and no measurements, material subtype, seller, or long-term wear period are stated.",
+      "Royal is source-reported and the dye-transfer and cleaning result are one owner's experience; seller-contact requests and payment details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1sre52u",
+    "title": "QC Help on Speedy Trunk 20",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1sre52u/qc_help_on_speedy_trunk_20/",
+    "subreddit": "RealRepLadies",
+    "author": "VegetableCounter1944",
+    "publication_date": "2026-04-21",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-birdcage"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy Trunk 20 at PSP/QC stage; the author initially thought the catalog images were from Royal and later corrected the source to Birdcage. The buyer flags hardware that may look too yellow. Comments attribute the appearance partly to lighting, compare a Royal version, and describe source-reported regular-versus-duty-free quality differences between Birdcage and Royal without independently verifying them. Color, material, seller, measurements, and final outcome are not stated.",
+    "paraphrase": "A buyer asks for QC on a Speedy Trunk 20 and worries that the hardware looks too yellow. The author later corrects the factory attribution from likely Royal to Birdcage. Comments say lighting may be responsible and one Royal owner says their received product does not look as yellow; another commenter describes Birdcage and Royal as different quality tiers, but the thread does not resolve the hardware concern or verify the tier claim.",
+    "positive_observations": [
+      "The PSP/QC post identifies the Speedy Trunk 20 and isolates a concrete hardware-tone concern rather than offering only generic praise.",
+      "The author corrects the factory attribution to Birdcage, and the record preserves the separate Royal comparison as source-reported context rather than treating it as a verified factory-wide result."
+    ],
+    "negative_observations": [
+      "The yellow-hardware concern remains unresolved and may be caused by lighting; no standardized photos, authentic reference, measurements, seller, material, or final delivery outcome are captured.",
+      "The Birdcage-versus-Royal quality-tier statement is an unverified comment and is not promoted as a general ranking; payment and solicitation details are excluded."
+    ]
   }
 ]
