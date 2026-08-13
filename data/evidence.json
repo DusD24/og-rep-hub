@@ -29857,43 +29857,6 @@
     "exact_variant_note": "Mini Lady Dior in red, God Factory attribution source-reported; PSP/QC stage, not an in-hand result."
   },
   {
-    "id": "ev-crawl-rt-dior-lady-dior-1sdum48",
-    "title": "Retail vs GOD (GF)",
-    "url": "https://www.reddit.com/r/RepTherapy/comments/1sdum48/retail_vs_god_gf/",
-    "subreddit": "RepTherapy",
-    "author": "Exciting_Rain2074",
-    "publication_date": "2026-04-06",
-    "publication_date_precision": "exact",
-    "access_date": "2026-08-13",
-    "price": null,
-    "shipping_timeline": null,
-    "media_ids": [],
-    "source_type": "reddit_review",
-    "evidence_type": "auth_comparison",
-    "family_ids": [
-      "bag-family-dior-lady-dior"
-    ],
-    "bag_ids": [],
-    "seller_ids": [
-      "seller-heidi"
-    ],
-    "factory_ids": [
-      "factory-god"
-    ],
-    "exact_product_match": true,
-    "paraphrase": "A received white lambskin D-Joy attributed to God Factory is compared with a retail pink Lady Dior; the owner reports aligned Cannage quilting, plush leather, champagne-toned hardware, weighted charms, and sharp CD engravings.",
-    "positive_observations": [
-      "The owner reports that the D-Joy's Cannage quilting aligns with the retail comparison and that its lambskin feels plush rather than plasticky.",
-      "The owner reports weighted charms and sharp, deep CD engravings.",
-      "The post gives an explicit retail-versus-rep comparison and source-reported God Factory attribution."
-    ],
-    "negative_observations": [
-      "The comparison uses different Dior models and colorways, so it is not a controlled same-model comparison.",
-      "The post also contains broad factory and seller praise that is excluded from the evidence record."
-    ],
-    "exact_variant_note": "White lambskin Dior D-Joy attributed to God Factory, compared with a retail pink Lady Dior; exact color/size details beyond this are not normalized."
-  },
-  {
     "id": "ev-crawl-rt-ysl-loulou-1nh3fl2",
     "title": "REVIEW: YSL TOY LOULOU FROM BLACK FRAME FACTORY",
     "url": "https://www.reddit.com/r/RepTherapy/comments/1nh3fl2/review_ysl_toy_loulou_from_black_frame_factory/",
@@ -30199,5 +30162,186 @@
       "This is a pre-delivery PSP/QC observation, not a confirmed in-hand defect."
     ],
     "exact_variant_note": "Chanel 25 Medium, God Factory attribution source-reported; PSP/QC stage."
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1qet1hn",
+    "title": "QC/PSP a small classic flap from Heidi",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1qet1hn/qcpsp_a_small_classic_flap_from_heidi/",
+    "subreddit": "RealRepLadies",
+    "author": "HurryAlert5246",
+    "publication_date": "2026-01-16",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-heidi"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A PSP/QC post for a small black lambskin Chanel Classic Flap attributed to 187 reports that the shape and proportions do not look like the expected Small Classic Flap.",
+    "positive_observations": [
+      "The post identifies the small black lambskin variant and a source-reported 187 Factory attribution.",
+      "The author raises a specific shape/proportion concern for community review."
+    ],
+    "negative_observations": [
+      "The author reports that the PSP shape and proportions appear off for a Small Classic Flap.",
+      "This is a pre-delivery PSP/QC concern and does not establish the cause or confirm a factory-wide issue."
+    ],
+    "exact_variant_note": "Small black lambskin Chanel Classic Flap; 187 Factory attribution is source-reported."
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1ufzozb",
+    "title": "Am I being too harsh about the colors?",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ufzozb/am_i_being_too_harsh_about_the_colors/",
+    "subreddit": "RepTherapy",
+    "author": "OutInAPout",
+    "publication_date": "2026-06-26",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP-to-factory-photo comparison for a multicolore noir Soft Speedy 30 reports substantial color-rendering differences across the 33-color pattern and a noticeably matte canvas in the PSPs.",
+    "positive_observations": [
+      "The author documents a detailed comparison of the PSPs with factory photos across the multicolore pattern.",
+      "The post identifies the LV x Murakami Soft Speedy 30 variant and the specific colorway."
+    ],
+    "negative_observations": [
+      "The PSP browns, yellows, fuchsia, and lime/chartreuse are reported as materially different or muted compared with the factory photos.",
+      "The canvas is described as very matte, and the author is inclined to reject the item pending community feedback.",
+      "The source-reported GX/MB factory wording is not asserted as a normalized public factory attribution."
+    ],
+    "exact_variant_note": "Louis Vuitton x Murakami Soft Speedy 30 in multicolore noir; GX/MB factory wording is source-reported and not normalized as a factory entity."
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1of7qyn",
+    "title": "Review of LV Speedy Soft 30 Dark",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1of7qyn/review_of_lv_speedy_soft_30_dark/",
+    "subreddit": "RepTherapy",
+    "author": "Initial_Source_7880",
+    "publication_date": "2025-10-24",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A received Speedy Soft 30 Dark review reports a preferred amount of slouch, an organizer-friendly 30 size, and a silver chain, while comparing the received bag with authentic pieces and noting the owner's confidence in the Royal-attributed source.",
+    "positive_observations": [
+      "The owner reports that the bag has the desired amount of slouch and that the 30 size accommodates an organizer and can be swapped between bags.",
+      "The post identifies the Speedy Soft 30 Dark, source-reported Royal Factory attribution, and includes an authentic product reference and the owner's photos.",
+      "The author reports that the chain and overall quality matched their expectations in an informal comparison with authentic pieces."
+    ],
+    "negative_observations": [
+      "The comparison is a single owner's assessment and includes broad seller/factory praise that is excluded from the record.",
+      "No specific construction defect or long-term wear result is reported."
+    ],
+    "exact_variant_note": "Louis Vuitton Speedy Soft 30 Dark, Royal Factory attribution source-reported."
+  },
+  {
+    "id": "ev-crawl-rt-chanel-25-1s0rsfz",
+    "title": "Crumpled Calfskin Chanel 25 small",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1s0rsfz/crumpled_calfskin_chanel_25_small/",
+    "subreddit": "RepTherapy",
+    "author": "Southern_Town1004",
+    "publication_date": "2026-03-22",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP/QC post for a small crumpled-calfskin Chanel 25 reports that the hardware looks off compared with an authentic reference and questions whether the bag is actually from 187 despite the seller's repeated claim.",
+    "positive_observations": [
+      "The post identifies the small Chanel 25 crumpled calfskin variant and compares the PSPs with an authentic reference.",
+      "The author raises a concrete hardware concern and records a disputed factory attribution rather than treating the seller's claim as settled fact."
+    ],
+    "negative_observations": [
+      "The author reports that something about the hardware appears off compared with the authentic reference.",
+      "The source-reported 187 attribution is disputed and the actual factory is unresolved; this is a pre-delivery PSP/QC report."
+    ],
+    "exact_variant_note": "Chanel 25 Small in crumpled calfskin; the seller claims 187 but the author disputes the attribution, so factory is left unresolved."
+  },
+  {
+    "id": "ev-crawl-rt-chanel-classic-flap-1tlyq8h",
+    "title": "Review",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1tlyq8h/review/",
+    "subreddit": "RepTherapy",
+    "author": "SophieBearS",
+    "publication_date": "2026-05-24",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "long_term_wear",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-heidy"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "After almost a year of use, an owner reports that a black caviar 25.5 cm Classic Flap remains structured with no corner wear, tight stitching, and an untarnished, unkinked chain, and compares its grain, quilting puffiness, hardware tone, stamp, and weight with an authentic version.",
+    "positive_observations": [
+      "The owner reports no corner wear after almost a year, tight stitching, and a chain without tarnishing or kinking.",
+      "The post records an informal authentic comparison covering caviar grain, quilt puffiness, hardware tone, stamp, and weight.",
+      "The post identifies the 25.5 cm black caviar variant and source-reported 187 Factory attribution."
+    ],
+    "negative_observations": [
+      "The review includes broad seller/factory superlatives that are excluded from the record.",
+      "The authentic comparison is the owner's visual and tactile assessment, without controlled measurements or batch information."
+    ],
+    "exact_variant_note": "Chanel Classic Flap 25.5 cm in black caviar, 187 Factory attribution source-reported."
   }
 ]

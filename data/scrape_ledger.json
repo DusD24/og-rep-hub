@@ -8693,10 +8693,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1of7qyn": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1of7qyn"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 60)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ofg4hv": {
       "disposition": "rejected",
@@ -16558,10 +16561,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qet1hn": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1qet1hn"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 68)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qewbgc": {
       "disposition": "deferred",
@@ -25789,10 +25795,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1rqynxx": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 44)"
+      "reason": "reviewed and not promoted: Dior Lady D-Joy Micro PSP/QC asks whether a discontinued powder-beige color is accurate but records no concrete observed product issue."
     },
     "t3_1rr24s4": {
       "disposition": "deferred",
@@ -26671,10 +26677,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rve5yw": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 41)"
+      "reason": "reviewed and not promoted: Dior Book Tote first-order post gives broad satisfaction and a dentist outing but no specific construction, material, capacity, or wear observation."
     },
     "t3_1rvfhxk": {
       "disposition": "rejected",
@@ -27682,10 +27688,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1s0rsfz": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-chanel-25-1s0rsfz"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 44)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1s0rt7v": {
       "disposition": "deferred",
@@ -29293,10 +29302,10 @@
       "reason": "reviewed and not promoted: pre-purchase Andiamo factory/seller advice request with no received-bag or feature-level observation"
     },
     "t3_1s83wke": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 68)"
+      "reason": "reviewed and not promoted: Mixed Chanel/God Factory sale-inspiration post gives broad wardrobe praise but no feature-level observations for the Classic Flap, Shopper Tote, or unnamed shoulder bag."
     },
     "t3_1s85eat": {
       "disposition": "rejected",
@@ -30364,13 +30373,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sdum48": {
-      "disposition": "promoted",
+      "disposition": "deferred",
       "decided_on": "2026-08-13",
-      "evidence_ids": [
-        "ev-crawl-rt-dior-lady-dior-1sdum48"
-      ],
       "subreddit": "RepTherapy",
-      "reason": "normalized from a triage shortlist"
+      "reason": "reviewed and deferred: the received item is a Dior D-Joy, distinct from the existing Lady Dior family; preserve for a separate catalog decision"
     },
     "t3_1sdvfay": {
       "disposition": "rejected",
@@ -35587,10 +35593,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1sz5c8x": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 44)"
+      "reason": "reviewed and not promoted: Chanel Mini Flap PSP/QC asks about diamond alignment and light-gold hardware but says the photos look good and gives no specific observed concern."
     },
     "t3_1sz5vyo": {
       "disposition": "deferred",
@@ -37265,10 +37271,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1t6sifz": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 57)"
+      "reason": "reviewed and not promoted: Pre-comparison DE canvas science-project discussion asks others for opinions and factory experiences without documenting a specific received bag."
     },
     "t3_1t6sxji": {
       "disposition": "deferred",
@@ -40714,10 +40720,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tlyq8h": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-chanel-classic-flap-1tlyq8h"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 44)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1tlzs6o": {
       "disposition": "deferred",
@@ -48151,10 +48160,10 @@
       "reason": "triage score 0 below floor 30"
     },
     "t3_1uen39x": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 69)"
+      "reason": "reviewed and not promoted: 187 Maxi Classic Flap PSP timing question says only that the photos look good; it records no product-specific construction or QC observation."
     },
     "t3_1uenpm8": {
       "disposition": "deferred",
@@ -48568,10 +48577,13 @@
       "reason": "reviewed and not promoted: pre-purchase multi-seller comparison for several products with private pricing and reputation questions; no owned-bag quality observation"
     },
     "t3_1ufzozb": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1ufzozb"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 63)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ufzt6f": {
       "disposition": "rejected",
