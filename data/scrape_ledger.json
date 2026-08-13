@@ -779,7 +779,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "Exact item is a BV Teen Jodie, not the existing Andiamo family used by triage; Jodie remains an uncatalogued family with a separate catalog-gap signal, so preserve this PSP/QC lead for a catalog decision rather than misattributing or rejecting it."
+      "reason": "Exact item is a BV Teen Jodie, not the existing Andiamo family used by triage; preserve this PSP/QC lead for a separate Jodie catalog decision rather than misattributing or rejecting it."
     },
     "t3_1glwgzv": {
       "disposition": "deferred",
@@ -1358,10 +1358,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ie5xob": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 69)"
+      "reason": "reviewed and not promoted: Pre-purchase color selection from album photos, with seller-contact solicitation and no received-bag evidence."
     },
     "t3_1ifbnly": {
       "disposition": "deferred",
@@ -6617,7 +6617,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-12",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 45)"
+      "reason": "above floor but outside the daily cap (priority 53)"
     },
     "t3_1nle89w": {
       "disposition": "rejected",
@@ -8540,10 +8540,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1oe62tb": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 70)"
+      "reason": "reviewed and not promoted: Pre-delivery PSP excitement and generic praise for a Classic Flap; comments do not provide a substantive QC or in-hand result for this bag."
     },
     "t3_1oech1i": {
       "disposition": "deferred",
@@ -8879,10 +8879,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1oi1jt5": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-dior-lady-dior-1oi1jt5"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 63)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1oi1nca": {
       "disposition": "promoted",
@@ -9902,10 +9905,13 @@
       "reason": "reviewed and not promoted: detailed in-hand review is for a Hermès Lindy 26, while the catalogued match is Kelly; do not misattribute a distinct model or add a new family in this pass"
     },
     "t3_1otcpnf": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-balenciaga-rodeo-1otcpnf"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 63)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1otdku2": {
       "disposition": "deferred",
@@ -15907,10 +15913,10 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1qc43l0": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 45)"
+      "reason": "reviewed and not promoted: Generic first-finds and collection praise with no specific quality, wear, factory, or comparison observation for the triaged Book Tote."
     },
     "t3_1qc48lx": {
       "disposition": "deferred",
@@ -18202,7 +18208,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "Received Hermes Evelyne 29 with strap-stamp placement and leather observations, but triage misattached it to Dior Saddle; preserve as a separate Evelyne catalog lead."
     },
     "t3_1qmotkc": {
       "disposition": "deferred",
@@ -21202,10 +21208,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qzot8u": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1qzot8u"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 44)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qzrdsy": {
       "disposition": "rejected",
@@ -23329,10 +23338,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1rctd5y": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 63)"
+      "reason": "reviewed and not promoted: Sourcing request for an unreleased or newly shown City bag; the discussion is speculative and contains no received-rep evidence."
     },
     "t3_1rcvt3v": {
       "disposition": "rejected",
@@ -23800,7 +23809,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 63)"
+      "reason": "Chanel WOC PSP/QC from Xiao C was misattached to Le City; preserve the WOC-specific chain, leather, and quilting observations for a separate Chanel WOC catalog decision."
     },
     "t3_1rgkrzm": {
       "disposition": "deferred",
@@ -26437,7 +26446,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "Chloe Marcie Saddle PSP/QC from 70 Factory with suede, lining, and toggle observations; do not misattribute it to Dior Saddle, and preserve it for a separate Marcie catalog decision."
     },
     "t3_1ruj3n5": {
       "disposition": "deferred",
@@ -30388,10 +30397,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1seeuvm": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: Pre-purchase request for a Murakami Speedy factory recommendation; comments describe separate bags and do not establish evidence for the requested Speedy 25."
     },
     "t3_1sefhdb": {
       "disposition": "deferred",
@@ -31798,10 +31807,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sklufa": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 50)"
+      "reason": "reviewed and not promoted: Seller promotion spanning a Puzzle, clothing, and other products; the thread provides generic praise and contact solicitation rather than a documented exact-bag review."
     },
     "t3_1skm8kb": {
       "disposition": "deferred",
@@ -31810,10 +31819,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1skn7g4": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1skn7g4"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 77)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sko40q": {
       "disposition": "deferred",
@@ -33598,10 +33610,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1sryvwm": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 81)"
+      "reason": "reviewed and not promoted: Promotional group-buy starter pack with mixed products, generic praise, and seller solicitation; no sufficiently specific public observation for the triaged Speedy family."
     },
     "t3_1srzh45": {
       "disposition": "rejected",
@@ -34033,10 +34045,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1stqswu": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-balenciaga-rodeo-1stqswu"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1stspmy": {
       "disposition": "rejected",
@@ -40786,10 +40801,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tmffyv": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: Pre-purchase Loulou PSP request for an unfamiliar factory with no substantive public QC observations or follow-up."
     },
     "t3_1tmgxdk": {
       "disposition": "deferred",
@@ -41779,10 +41794,13 @@
       "reason": "reviewed and not promoted: generic QC approval request with no concrete feature-level observation in the captured text"
     },
     "t3_1tqq9m7": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-balenciaga-rodeo-1tqq9m7"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1tqr8gh": {
       "disposition": "promoted",
@@ -42295,16 +42313,16 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1tszxtf": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 67)"
+      "reason": "reviewed and not promoted: Factory and seller availability request for a large Loulou; the thread contains no received-bag observation."
     },
     "t3_1tszz6u": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 67)"
+      "reason": "reviewed and not promoted: Duplicate cross-post of the Loulou availability request; it contains only sourcing advice and no product evidence."
     },
     "t3_1tt0orb": {
       "disposition": "deferred",
@@ -44821,10 +44839,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u325y3": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-chanel-classic-flap-1u325y3"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 73)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1u34vmb": {
       "disposition": "deferred",
@@ -45538,10 +45559,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1u656wn": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1u656wn"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 47)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1u65i68": {
       "disposition": "rejected",
@@ -54466,10 +54490,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1v73wcu": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 77)"
+      "reason": "reviewed and not promoted: Packaging and delivery discussion around a Lady Dior rehome, without a product-quality observation tied to the exact bag."
     },
     "t3_1v73wex": {
       "disposition": "rejected",
@@ -54634,10 +54658,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1v7wovl": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 73)"
+      "reason": "reviewed and not promoted: Book Tote embroidery-service discussion and private-message photo exchange; it does not provide a sufficiently specific public bag-quality observation or exact variant."
     },
     "t3_1v7x6pz": {
       "disposition": "deferred",
@@ -54745,10 +54769,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1v8a41s": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-dior-lady-dior-1v8a41s"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1v8a8jr": {
       "disposition": "deferred",
