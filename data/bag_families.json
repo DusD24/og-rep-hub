@@ -227,7 +227,8 @@
       "ev-crawl-rrl-louis-vuitton-speedy-1tjju7t",
       "ev-crawl-rrl-louis-vuitton-speedy-1uzj6zx",
       "ev-crawl-rt-louis-vuitton-speedy-1uc3ah8",
-      "ev-crawl-rt-louis-vuitton-speedy-1ujuh2r"
+      "ev-crawl-rt-louis-vuitton-speedy-1ujuh2r",
+      "ev-crawl-rrl-louis-vuitton-speedy-1v18o9j"
     ],
     "documented_sizes": [
       "25",
@@ -240,8 +241,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 53,
-      "independent_author_count": 43,
+      "source_count": 54,
+      "independent_author_count": 44,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -380,7 +381,8 @@
       "ev-crawl-rt-loewe-puzzle-1shhbyf",
       "ev-crawl-rt-loewe-flamenco-1unb1g0",
       "ev-crawl-rrl-loewe-flamenco-1rhyoo8",
-      "ev-crawl-rrl-loewe-flamenco-1t5wfbq"
+      "ev-crawl-rrl-loewe-flamenco-1t5wfbq",
+      "ev-crawl-rt-loewe-flamenco-1qn8p6t"
     ],
     "documented_sizes": [
       "30 cm",
@@ -394,8 +396,8 @@
       "yellow / shiny hardware noted in QC discussion"
     ],
     "evidence_coverage": {
-      "source_count": 34,
-      "independent_author_count": 27,
+      "source_count": 35,
+      "independent_author_count": 28,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -479,7 +481,9 @@
       "ev-crawl-rt-loewe-puzzle-1ueto2g",
       "ev-crawl-rt-loewe-puzzle-1umt12w",
       "ev-crawl-rt-loewe-puzzle-1uyj00q",
-      "ev-crawl-rrl-loewe-puzzle-1rinnji"
+      "ev-crawl-rrl-loewe-puzzle-1rinnji",
+      "ev-crawl-rt-loewe-puzzle-1m2n66d",
+      "ev-crawl-rrl-loewe-puzzle-1rsxrwu"
     ],
     "documented_sizes": [
       "small",
@@ -494,8 +498,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 48,
-      "independent_author_count": 38,
+      "source_count": 50,
+      "independent_author_count": 39,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepTherapy"
@@ -566,7 +570,8 @@
       "ev-crawl-rlw-bottega-veneta-andiamos-1s17ig2",
       "ev-crawl-rlw-bottega-veneta-andiamos-1vdaam3",
       "ev-crawl-rrl-bottega-veneta-andiamos-1uha9vi",
-      "ev-crawl-rt-bottega-veneta-andiamos-1u0dkkm"
+      "ev-crawl-rt-bottega-veneta-andiamos-1u0dkkm",
+      "ev-crawl-rrl-bottega-veneta-andiamos-1qdd0rh"
     ],
     "documented_sizes": [
       "medium",
@@ -579,8 +584,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 36,
-      "independent_author_count": 31,
+      "source_count": 37,
+      "independent_author_count": 32,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -796,7 +801,8 @@
       "ev-crawl-rrl-dior-lady-dior-1vdkymc",
       "ev-crawl-rrl-dior-lady-dior-1oi1nca",
       "ev-crawl-rcb-dior-lady-dior-1td4dak",
-      "ev-crawl-rrl-dior-lady-dior-1p6zgua"
+      "ev-crawl-rrl-dior-lady-dior-1p6zgua",
+      "ev-crawl-rrl-dior-lady-dior-1sfvm40"
     ],
     "documented_sizes": [
       "Small"
@@ -808,8 +814,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 27,
-      "independent_author_count": 27,
+      "source_count": 28,
+      "independent_author_count": 28,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -1151,7 +1157,8 @@
       "ev-crawl-rt-balenciaga-rodeo-1t57egs",
       "ev-crawl-rt-balenciaga-rodeo-1ux8mwn",
       "ev-crawl-rt-balenciaga-rodeo-1r06yja",
-      "ev-crawl-rt-balenciaga-rodeo-1su5btb"
+      "ev-crawl-rt-balenciaga-rodeo-1su5btb",
+      "ev-crawl-rt-balenciaga-rodeo-1ovkc38"
     ],
     "documented_sizes": [
       "Medium"
@@ -1163,8 +1170,8 @@
       "aged silver"
     ],
     "evidence_coverage": {
-      "source_count": 13,
-      "independent_author_count": 13,
+      "source_count": 14,
+      "independent_author_count": 14,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -1179,7 +1186,7 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-12",
+    "last_updated": "2026-08-13",
     "research_gaps": [
       "Keep medium, black, and aged-silver details from the first source separate from the second review, whose color and size are unstated.",
       "Neither the Garmen nor the Mike-sourced bag discloses a factory; do not infer one."

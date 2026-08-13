@@ -11726,5 +11726,230 @@
     "negative_observations": [
       "The leather is less pliable than the author’s God Neverfull Empreinte and the side rings sit slightly lower than authentic; the comparison is one owner’s report and the private sale price is excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1sfvm40",
+    "title": "DiorGate: Will the real God Factory please stand up?!",
+    "source_type": "reddit_discussion",
+    "evidence_type": "factory_comparison",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1sfvm40/diorgate_will_the_real_god_factory_please_stand_up/",
+    "subreddit": "RealRepLadies",
+    "author": "Limp_Cod7426",
+    "publication_date": "2026-04-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": false,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A public comparison of seller album photos for small and mini Lady Dior models reports that different photo sets are labeled God, Queens, or C&D by different sellers; the author treats the conflicting labels as a reason that factory identity cannot be verified from the album name alone.",
+    "positive_observations": [
+      "The author records a concrete label discrepancy across public seller photo sets for the Lady Dior rather than treating a factory name as self-authenticating.",
+      "The post distinguishes the small/mini Lady Dior scope and compares photo-set provenance across multiple named labels."
+    ],
+    "negative_observations": [
+      "No purchased bag, PSP result, in-hand inspection, or controlled authentic comparison is reported.",
+      "Seller names, private payment details, and unverified allegations are excluded; the source's factory labels remain unresolved and are not attributed to a catalogued factory entity."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1v18o9j",
+    "title": "Second haul from Betty + An obsession with the perfect LV canvas grain (MB, MOCQ, Royal & God comparison)",
+    "source_type": "reddit_review",
+    "evidence_type": "factory_comparison",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1v18o9j/second_haul_from_betty_an_obsession_with_the/",
+    "subreddit": "RealRepLadies",
+    "author": "GuiltyMix1767",
+    "publication_date": "2026-07-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": false,
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-mb",
+      "factory-royal"
+    ],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A multi-variant Speedy comparison covers an old Nano Speedy from MB, a Speedy 20 from MOCQ, a year-old Speedy 18 from Royal, and a Royal jacquard Nano Speedy: the author finds MOCQ's canvas closest to an authentic raised, bumpy grain but slightly thin, MB flatter but better than Royal, and Royal/God flatter still; MB hardware is least yellow, Royal vachetta is more yellow after patina, and Royal jacquard texture and initial shape lag the authentic reference.",
+    "positive_observations": [
+      "The author records separate canvas-texture, hardware-tone, vachetta-tint, jacquard-texture, and shape observations for named Speedy variants and sources.",
+      "The comparison preserves the old Nano, Speedy 20, Speedy 18, and jacquard Nano distinctions rather than treating them as one interchangeable bag."
+    ],
+    "negative_observations": [
+      "MOCQ is not a catalogued factory entity here, and the grouped Royal/God statement does not establish a separately inspected God-owned bag; those portions remain source wording.",
+      "The assessment is one owner's comparison without a controlled in-person authentic test, and the later Hyper Peter orders had not produced results in this capture."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1m2n66d",
+    "title": "Loewe x Ghibli Puzzle/Mini/Pocket",
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1m2n66d/loewe_x_ghibli_puzzleminipocket/",
+    "subreddit": "RepTherapy",
+    "author": "spiritatbay",
+    "publication_date": "2025-07-17",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": false,
+    "seller_ids": [
+      "seller-nina"
+    ],
+    "factory_ids": [],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "An in-hand review of a Loewe x Ghibli order from Nina covers a yellow Puzzle Mini, a brown Puzzle, and a Pocket: after several days the author reports soft leather, a leather-like smell, clean texture and stitching, and satisfying zipper/detail finishing; the Mini fits a phone, wallet, and keys but felt smaller than expected.",
+    "positive_observations": [
+      "The review identifies three distinct Puzzle-family variants and reports post-arrival hand-feel, smell, stitching, zipper, and practical-capacity observations.",
+      "The seller name is public in the post and is mapped to the existing Nina entity without adding any contact information."
+    ],
+    "negative_observations": [
+      "The author does not name a factory or provide a controlled authentic side-by-side; external AI comparison language is not treated as authentication evidence.",
+      "The Mini's smaller-than-expected size is a user-expectation issue even though the author says it follows the authentic dimensions."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rt-loewe-flamenco-1qn8p6t",
+    "title": "Teaser - L0ewe plaid suede flamenco",
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qn8p6t/teaser_l0ewe_plaid_suede_flamenco/",
+    "subreddit": "RepTherapy",
+    "author": "RepTherapyIsMyCardio",
+    "publication_date": "2026-01-26",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": false,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A short in-hand teaser for a plaid suede Loewe Flamenco reports that the author likes the distinctive plaid and color palette, expects the suede to improve as it wears in, and plans to apply protectant because of a rainy climate.",
+    "positive_observations": [
+      "The post identifies the plaid suede material and records the owner's received-bag color and design assessment.",
+      "The author states a concrete intended care step rather than only offering generic praise."
+    ],
+    "negative_observations": [
+      "This is explicitly a teaser: it has no size, seller, factory, detailed construction review, or actual wear outcome.",
+      "The expected improvement with wear is prospective and should not be read as a long-term durability result."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-puzzle-1rsxrwu",
+    "title": "Pls help newbie QA their first bag (from Titi) Loewe",
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1rsxrwu/pls_help_newbie_qa_their_first_bag_from_titi_loewe/",
+    "subreddit": "RealRepLadies",
+    "author": "Salt-Preparation-608",
+    "publication_date": "2026-03-13",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A PSP QC request for a Loewe Puzzle Featherlight attributed to Liusheng asks for another closed-zipper photograph and flags the hot-stamped Loewe text on the tag as possibly off-center.",
+    "positive_observations": [
+      "The post identifies the Featherlight variant and source-reported Liusheng attribution and isolates the zipper view and tag stamp as the QC subjects."
+    ],
+    "negative_observations": [
+      "The stamp concern and request for another photograph are unresolved at PSP stage, with no seller response or in-hand outcome captured.",
+      "The seller is named only as Titi in this post and is left unattributed rather than being equated with a partial identifier from another source."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rt-balenciaga-rodeo-1ovkc38",
+    "title": "(Review) Meet my first Rodeo 🤠",
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ovkc38/meet_my_first_rodeo/",
+    "subreddit": "RepTherapy",
+    "author": "puzzlefev3r",
+    "publication_date": "2025-11-12",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [
+      "seller-mia"
+    ],
+    "factory_ids": [],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-balenciaga-rodeo"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "An in-hand review of a small 29 cm Balenciaga Rodeo from Mia describes a greenish-grey Caqui color, slightly aged silver hardware, thick soft pebbled leather, a strong leather smell, and shape that the author considers close to an authentic Rodeo they handled in store; the author also carried it to brunch.",
+    "positive_observations": [
+      "The review preserves the small size, named color, hardware finish, leather hand-feel, smell, and in-store authentic-comparison basis.",
+      "The author reports actual use after delivery and describes the bag as retaining its shape while remaining soft and pliable."
+    ],
+    "negative_observations": [
+      "The small metal key piece leans slightly off center when the bag is closed, according to the author.",
+      "No factory is disclosed, and the author's own uncertainty about Balenciaga expertise limits the scope of the comparison; private contact and payment details are excluded."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rrl-bottega-veneta-andiamos-1qdd0rh",
+    "title": "First Purchase and Review: Fondant Small Andiamo",
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1qdd0rh/first_purchase_and_review_fondant_small_andiamo/",
+    "subreddit": "RealRepLadies",
+    "author": "SelectionDefiant646",
+    "publication_date": "2026-01-15",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "An in-hand review of a small Fondant Andiamo records a side-by-side hardware comparison with the author's authentic Bottega bag and several owner modifications: the author toned down yellow hardware, extended a back weave gap to the stitching, conditioned the leather, and tightened the strap weave; remaining concerns are top-handle placement that exposes edging and a persistent odor masked by conditioner.",
+    "positive_observations": [
+      "The review identifies the small Fondant variant and reports concrete hardware, weave, leather-conditioning, strap, and authentic-reference observations.",
+      "The author documents which visible issues were modified and which remained after the modifications instead of presenting an unqualified score."
+    ],
+    "negative_observations": [
+      "The bag required multiple owner modifications before the author's 9/10 assessment, including treatment for yellow hardware, a weave gap, and a loose strap weave.",
+      "The top handles are reported as incorrectly positioned and the odor remained under the conditioner; seller and factory are not attributed because this post names only Titi."
+    ],
+    "media_ids": []
   }
 ]
