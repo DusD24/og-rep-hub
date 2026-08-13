@@ -27341,5 +27341,140 @@
       "No photos, authentic reference, standardized measurements, final QC decision, delivery inspection, material subtype, or wear result are captured.",
       "Royal and the seller are source-reported, with the seller left unattributed; payment and unrelated purchase details are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1gf7p5q",
+    "title": "Please help me QC my first Chanel",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1gf7p5q/please_help_me_qc_my_first_chanel/",
+    "subreddit": "RealRepLadies",
+    "author": "cocoandtitan",
+    "publication_date": "2024-10-29",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel Classic Flap, described as 23 cm in caviar leather with gold-tone hardware, at PSP/QC stage; the author attributes it to God Factory through a source-reported seller. The buyer links an official Chanel small classic reference and asks for QC. Comments raise a concern that current 187 gold hardware can be too yellow or brassy, while the buyer says this PSP hardware does not look too yellow. Color, seller, measurements beyond the stated 23 cm, final outcome, and wear are not independently established.",
+    "paraphrase": "A buyer requests QC on a 23 cm caviar Chanel Classic Flap attributed to God Factory and compares the PSPs with an official Chanel small-classic reference. The discussion focuses on gold-hardware tone: one commenter warns that current 187 gold hardware can look yellow or brassy, while the buyer says this bag's hardware does not look too yellow. The thread does not document a delivered-bag or wear result.",
+    "positive_observations": [
+      "The PSP/QC request identifies a 23 cm caviar Classic Flap and supplies an official reference comparison.",
+      "The comments preserve a specific gold-hardware tone question and a qualified owner assessment rather than only generic approval."
+    ],
+    "negative_observations": [
+      "The hardware judgment is photo-based and subjective, with no standardized measurements, final delivery inspection, or long-term wear result.",
+      "The seller is source-reported and not normalized; God Factory attribution is retained as source context, and contact requests are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1l7n7i7",
+    "title": "Chanel 25 small caviar 187",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1l7n7i7/chanel_25_small_caviar_187/",
+    "subreddit": "RealRepLadies",
+    "author": "Narrow_Resident",
+    "publication_date": "2025-06-10",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Received Chanel 25 Small in caviar attributed by the source to 187 Factory; the seller is source-reported but not normalized. The owner says the leather is more wrinkled and feels different from online authentic references, and asks how to make it more supple. Other owners compare received 187 examples, an authentic boutique display, and a friend's authentic bag, discussing structure, grain, shine, quilting, chain smoothness, and wrinkles after bending or stuffing. Color, measurements, batch, and long-term wear are not established.",
+    "paraphrase": "An owner of a received 187 Chanel 25 Small in caviar is disappointed that the leather looks more wrinkled and different from authentic reference photos. The discussion includes other received 187 comparisons and an authentic reference: one commenter describes authentic C25 caviar as shinier with more pronounced grain and flatter quilting, while others say wrinkles can occur from packaging, bending, or stuffing and that the bag can remain structured. The owner later says they are keeping it after conditioning discussion, but the thread does not establish a universal 187 result.",
+    "positive_observations": [
+      "The post identifies a received Chanel 25 Small in caviar and records a concrete authentic-comparison concern about wrinkling, grain, shine, and hand feel.",
+      "The thread contains multiple received-bag comparisons and version or use caveats, including wrinkles after bending or stuffing and differences among 187 examples."
+    ],
+    "negative_observations": [
+      "The authentic comparisons are primarily photographs or owner impressions, with no controlled measurements, standardized material testing, or confirmed production batch.",
+      "Conditioning and reshaping advice is anecdotal and is not promoted as a general care instruction; the seller is source-reported, and contact/payment details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1n7acxv",
+    "title": "Please help QC LV Speedy 20",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1n7acxv/please_help_qc_lv_speedy_20/",
+    "subreddit": "RealRepLadies",
+    "author": "jms0479",
+    "publication_date": "2025-09-03",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy 20 at PSP/QC stage; the author is uncertain whether the source is a duty-free group and says Royal did not have the size. Public comments say the imprint may look too deep and the leather looks off; the author reports that the seller attributed the concern to lighting, later supplied new photos, and offered a switch to a Speedy 25. A later commenter says their bag was not the same as the factory photos. Factory, seller, color, material, measurements, and final outcome are not established.",
+    "paraphrase": "A buyer asks for QC on a Speedy 20 and receives mixed comments: one says the imprint looks too deep, another says the leather looks wrong, and the buyer reports that the seller attributed the appearance to lighting before sending new photos. The seller later offered a switch to a Speedy 25, while a later commenter says their own version did not match the factory photos. The record preserves the unresolved PSP concern without assigning a factory.",
+    "positive_observations": [
+      "The thread identifies the Speedy 20 and records specific PSP concerns about imprint depth, leather appearance, and mismatch with factory photos.",
+      "It preserves the seller's lighting explanation and proposed size switch as part of the unresolved QC timeline rather than treating either side as proven."
+    ],
+    "negative_observations": [
+      "The original body is empty, the public comments are subjective, and no authentic comparison, standardized measurements, final exchange result, delivery inspection, or wear outcome is captured.",
+      "The factory and seller remain unattributed because the source itself is uncertain; private image and contact details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1uqusj3",
+    "title": "Review: Speedy P9 40 in Sakura pink from Royal 🩷🤎",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1uqusj3/review_speedy_p9_40_in_sakura_pink_from_royal/",
+    "subreddit": "RealRepLadies",
+    "author": "Human_Advertising_25",
+    "publication_date": "2026-07-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The post reports order/payment on 2026-06-16, PSPs on 2026-06-24, label creation on 2026-06-27, and delivery on 2026-07-07.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Received Louis Vuitton Speedy P9 40 in source-described Sakura pink, attributed to Royal Factory; the seller is source-reported but not normalized. The owner reports thick, supple, heavy leather that puddles and molds to the body, a very large 40 cm size, and a much lighter pink than the darker dusty-pink factory photo. The owner believes the bag may combine Sakura identifiers—dark brown vachetta, AH 25 interior plate, lobster stamp—with Candy-colored leather and embroidery, and later finds that Royal updated its pink color photos in May. The comparison with a separate MOQC Frozen Lime P9 30 is kept as a separate batch/material experience.",
+    "paraphrase": "A received Royal Speedy P9 40 described as Sakura pink is reported as unusually soft, thick, heavy, and slouchy, flattening against the body despite its large 40 cm size. The owner says the delivered leather is much lighter than the darker factory image and may be a mixed batch: dark-brown vachetta, an AH 25 plate, and a lobster stamp appear Sakura-related, while the pink leather and dust-bag embroidery appear Candy-related. A later update notes Royal changed its color photos in May, leaving the exact color/batch explanation unresolved.",
+    "positive_observations": [
+      "The review identifies a received Speedy P9 40 and records detailed in-hand observations about leather thickness, softness, weight, puddling, body-molding, and scale.",
+      "It preserves a specific factory-photo-to-delivered-bag color mismatch and exact variant clues—vachetta, interior plate, animal stamp, leather shade, and dust-bag embroidery—without hiding the uncertainty about whether this was a mixed batch or a Royal color update.",
+      "The dated PSP-to-delivery timeline and the owner's comparison with a separate MOQC P9 30 provide useful provenance while keeping the two bags distinct."
+    ],
+    "negative_observations": [
+      "The color and batch interpretation is the owner's hypothesis, lighting affects pink comparisons, and no controlled authentic measurement or independent factory confirmation is captured.",
+      "Royal is source-reported and the seller/contact and payment details are excluded; the separate MOQC P9 30 is not used to make a factory-wide ranking."
+    ]
   }
 ]

@@ -710,10 +710,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1gf7p5q": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1gf7p5q"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 74)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1gg0dr4": {
       "disposition": "deferred",
@@ -2375,10 +2378,13 @@
       "reason": "reviewed and not promoted: empty Kelly group-buy announcement"
     },
     "t3_1l7n7i7": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1l7n7i7"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 74)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1l7o6ov": {
       "disposition": "rejected",
@@ -4784,10 +4790,13 @@
       "reason": "reviewed and not promoted: title-only purple Kelly gallery post with no substantive evidence"
     },
     "t3_1n7acxv": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1n7acxv"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1n8a1y3": {
       "disposition": "rejected",
@@ -36697,10 +36706,10 @@
       "reason": "triage score 0 below floor 30"
     },
     "t3_1u6689a": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The post is a request for the best factory for a small Classic Flap. Comments are generic factory preferences, subjective rankings, and seller or rehome discussion rather than a specific received product or controlled comparison; no public evidence should encode a best-factory claim."
     },
     "t3_1u6a7qz": {
       "disposition": "deferred",
@@ -41218,10 +41227,13 @@
       "reason": "triage score 0 below floor 30"
     },
     "t3_1uqusj3": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1uqusj3"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1uqwk83": {
       "disposition": "deferred",
