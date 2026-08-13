@@ -7130,5 +7130,164 @@
     "negative_observations": [
       "The factory attribution is explicitly uncertain (“I believe Kata?”) and is left unattributed; the high-accuracy assessment is a single author’s comparison and the order was shipped without PSPs."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1orr3f3",
+    "title": "Another Chanel 25",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1orr3f3/another_chanel_25/",
+    "subreddit": "RealRepLadies",
+    "author": "fignewton0405",
+    "publication_date": "2025-11-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mia"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a Chanel 25 in caviar from Mia, attributed to 187 factory, reports soft leather, heavy-feeling hardware, and good-looking stitching; the author photographed the bag in different lighting.",
+    "positive_observations": [
+      "The author records receipt of a Chanel 25, identifies caviar leather, Mia, and 187, and gives specific leather, hardware-weight, and stitching observations."
+    ],
+    "negative_observations": [
+      "The review contains no authentic side-by-side comparison, dimensions, colorway, or wear duration, so the quality assessment remains a single owner’s report."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-saddle-1ve8uyd",
+    "title": "QC help on Black Medium Saddle Bag",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ve8uyd/qc_help_on_black_medium_saddle_bag/",
+    "subreddit": "RealRepLadies",
+    "author": "Careful-Method4015",
+    "publication_date": "2026-08-03",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-dior-saddle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A pre-purchase factory-photo QC post for a black medium Dior Saddle compares the images with authentic photos and flags hardware that appears more yellow than the authentic reference, while noting that lighting may explain the difference.",
+    "positive_observations": [
+      "The post identifies a black medium Saddle and records a specific hardware-color comparison against authentic reference photos."
+    ],
+    "negative_observations": [
+      "The bag had not been purchased or received, and the hardware concern remains unresolved between a real color difference and lighting; no seller or factory is named."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1tg836k",
+    "title": "My first puzzle bag 🤎",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1tg836k/my_first_puzzle_bag/",
+    "subreddit": "RepTherapy",
+    "author": "Expensive-Step-2672",
+    "publication_date": "2026-05-18",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-aiden"
+    ],
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A first in-hand Puzzle review from Aiden, attributed to Liusheng, reports that the leather feels very soft and plush and that the author carries the bag everywhere.",
+    "positive_observations": [
+      "The post identifies the Loewe Puzzle, Aiden, Liusheng, and a concrete in-hand leather-feel observation with ongoing personal use."
+    ],
+    "negative_observations": [
+      "Size, color, exact variant, wear duration, and construction details are not stated, so this is limited material/use evidence rather than a complete review."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1srsf86",
+    "title": "Loewe Puzzle QC",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1srsf86/loewe_puzzle_qc/",
+    "subreddit": "RepTherapy",
+    "author": "Puzzleheaded_End6284",
+    "publication_date": "2026-04-21",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-aiden"
+    ],
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A first-purchase PSP QC post for a dark-chestnut Loewe Puzzle from Aiden, attributed to Liusheng, asks whether the bag looks too boxy and whether its engraving and lettering are accurate.",
+    "positive_observations": [
+      "The post names the dark-chestnut Puzzle, seller, factory, and three specific QC dimensions: shape, engraving, and lettering."
+    ],
+    "negative_observations": [
+      "The questions are unresolved in the captured text and there is no in-hand or authentic comparison result."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-flamenco-1q2afa0",
+    "title": "QC help on Loewe Flamenco purse please",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1q2afa0/qc_help_on_loewe_flamenco_purse_please/",
+    "subreddit": "RepTherapy",
+    "author": "AnxiouslySunny",
+    "publication_date": "2026-01-02",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC post for a large black Loewe Flamenco in requested deerskin from Mandy compares factory photos, PSPs, and Loewe product images and flags a possible dark-grey rather than deep-black color plus a possible mismatch between the black donut chain and the bag; the seller’s follow-up photos did not place the chain on the bag.",
+    "positive_observations": [
+      "The post records the large deerskin variant, Mandy, official product references, and distinct color and chain-comparison questions."
+    ],
+    "negative_observations": [
+      "The color difference may be caused by shine or harsh lighting, and the chain comparison remains unresolved because the requested combined view was not provided in the capture."
+    ]
   }
 ]
