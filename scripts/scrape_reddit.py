@@ -82,6 +82,13 @@ KNOWN_BAG_TERMS = (
     "Saint Laurent", "Balenciaga", "Le City", "Pochette Accessories",
     "Side Trunk", "Barbara", "Mini Loop", "Luggage Tote", "Celine Soft",
     "Ferragamo Hug", "Neo Garden", "Le Click", "Marcie", "Marlo",
+    # Added from mining brand-only "Prada"/"YSL"/"Bottega" hits in
+    # new-collection-candidates.json: these three brands had no specific-model
+    # terms at all, so every post naming a model was invisible past the bare
+    # brand match. Ranked by title frequency in local-private/research-runs.
+    "Bonnie", "Prada Re-Edition 2005", "Aimee", "Arqué", "Arque", "Cleo",
+    "Niki", "Bea", "YSL Puffer", "Le 5 à 7", "Le 37", "Gaby", "Icare",
+    "Jodie", "Parachute", "Hop", "Sardine", "Cassette",
 )
 KNOWN_FACTORY_TERMS = (
     "Birdcage", "Huahui", "Orange Sofa", "Royal", "187", "God", "P9", "Xiao C",
