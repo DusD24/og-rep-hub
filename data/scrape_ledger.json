@@ -4844,10 +4844,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1n8v1bh": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The post is a giveaway announcement and the comments are entry strings and generic praise. It contains no received-bag or product-quality observation, and its seller contact/promotional material is not public evidence."
     },
     "t3_1n8vatd": {
       "disposition": "deferred",
@@ -5648,10 +5648,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1npbya9": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The post announces a Chanel 25 giveaway winner. The comments contain congratulations and coordination for delivery, not QC, in-hand, wear, factory-comparison, or authentic-comparison evidence."
     },
     "t3_1npg4t5": {
       "disposition": "rejected",
@@ -19120,16 +19120,19 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1rhz9dh": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1rhz9dh"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1rhz9jp": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "reviewed and not promoted: This is a duplicate crosspost of the richer Speedy 25 PSP/QC thread at the other Reddit URL, with the same author, date, title, and body. Its overlapping QC comments add no separate normalized record, so the canonical richer capture is retained instead."
     },
     "t3_1rhzf0i": {
       "disposition": "deferred",
@@ -46138,10 +46141,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1vgtdvj": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The post is a pink-bag show-and-tell thread. The comments are mostly photos, generic praise, and seller solicitation without enough identified product, QC, wear, factory-comparison, or authentic-comparison detail for a normalized evidence record."
     },
     "t3_1vgtobx": {
       "disposition": "deferred",
