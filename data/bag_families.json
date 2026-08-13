@@ -177,7 +177,10 @@
       "ev-crawl-bottomup-1qk7pxe",
       "ev-crawl-bottomup-1rrplbi",
       "ev-crawl-bottomup-1t6qz83",
-      "ev-crawl-rt-louis-vuitton-speedy-1phof2v"
+      "ev-crawl-rt-louis-vuitton-speedy-1phof2v",
+      "ev-crawl-rt-louis-vuitton-speedy-1s5q3s8",
+      "ev-crawl-rt-louis-vuitton-speedy-1t69oxp",
+      "ev-crawl-rt-louis-vuitton-speedy-1t9ca6x"
     ],
     "documented_sizes": [
       "25",
@@ -190,8 +193,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 20,
-      "independent_author_count": 17,
+      "source_count": 23,
+      "independent_author_count": 19,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -299,7 +302,8 @@
       "ev-crawl-bottomup-1rk0vub",
       "ev-crawl-bottomup-1psj45t",
       "ev-crawl-bottomup-1sq30yo",
-      "ev-crawl-rrl-loewe-flamenco-1viganx"
+      "ev-crawl-rrl-loewe-flamenco-1viganx",
+      "ev-crawl-rt-loewe-flamenco-1rpn69l"
     ],
     "documented_sizes": [
       "30 cm",
@@ -313,8 +317,8 @@
       "yellow / shiny hardware noted in QC discussion"
     ],
     "evidence_coverage": {
-      "source_count": 19,
-      "independent_author_count": 14,
+      "source_count": 20,
+      "independent_author_count": 15,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -366,7 +370,9 @@
       "ev-crawl-rrl-loewe-puzzle-1sryrl2",
       "ev-crawl-rrl-loewe-puzzle-1tsiilj",
       "ev-crawl-bottomup-1p4v173",
-      "ev-crawl-bottomup-1odd4h7"
+      "ev-crawl-bottomup-1odd4h7",
+      "ev-crawl-rt-loewe-puzzle-1rimrz7",
+      "ev-crawl-rt-loewe-puzzle-1rpdxcj"
     ],
     "documented_sizes": [
       "small",
@@ -381,8 +387,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 16,
-      "independent_author_count": 13,
+      "source_count": 18,
+      "independent_author_count": 15,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepTherapy"
@@ -648,7 +654,8 @@
       "ev-crawl-rrl-dior-lady-dior-1on3uzn",
       "ev-crawl-rrl-dior-lady-dior-1qefkdi",
       "ev-crawl-rrl-dior-lady-dior-1k4i04r",
-      "ev-crawl-rrl-dior-lady-dior-1nr94x4"
+      "ev-crawl-rrl-dior-lady-dior-1nr94x4",
+      "ev-crawl-rrl-dior-lady-dior-1t9os0k"
     ],
     "documented_sizes": [
       "Small"
@@ -660,8 +667,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 13,
-      "independent_author_count": 13,
+      "source_count": 14,
+      "independent_author_count": 14,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -1089,7 +1096,8 @@
       "ev-crawl-rll-balenciaga-le-city-1uu8vp2",
       "ev-crawl-rll-balenciaga-le-city-1o69i9j",
       "ev-crawl-rt-loewe-puzzle-1ux98h3",
-      "ev-crawl-rlw-balenciaga-le-city-1noitgu"
+      "ev-crawl-rlw-balenciaga-le-city-1noitgu",
+      "ev-crawl-rrl-balenciaga-le-city-1sv1upw"
     ],
     "documented_sizes": [
       "Small"
@@ -1101,8 +1109,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 4,
-      "independent_author_count": 4,
+      "source_count": 5,
+      "independent_author_count": 5,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepLadiesWorld",
@@ -1110,6 +1118,7 @@
       ],
       "image_ready": true,
       "evidence_types": [
+        "auth_comparison",
         "in_hand_review",
         "psp_qc"
       ]
@@ -1149,7 +1158,8 @@
       "ev-crawl-rrl-chanel-25-1nqyo19",
       "ev-crawl-rrl-chanel-25-1ryvauy",
       "ev-crawl-rrl-chanel-25-1swkkik",
-      "ev-crawl-rrl-chanel-25-1teee6j"
+      "ev-crawl-rrl-chanel-25-1teee6j",
+      "ev-crawl-rrl-chanel-25-1vh9y9u"
     ],
     "documented_sizes": [
       "Small",
@@ -1165,8 +1175,8 @@
       "ruthenium hardware reported"
     ],
     "evidence_coverage": {
-      "source_count": 14,
-      "independent_author_count": 11,
+      "source_count": 15,
+      "independent_author_count": 12,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepTherapy"
