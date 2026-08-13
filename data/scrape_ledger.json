@@ -3815,10 +3815,10 @@
       "reason": "triage score 20 below floor 30"
     },
     "t3_1moshhq": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: bare Chanel 25 suede PSP request that asks for input but states no concrete observation or discrepancy"
     },
     "t3_1mp3jko": {
       "disposition": "rejected",
@@ -6278,10 +6278,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1o3htwz": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: pre-purchase Chanel 25 factory and quality recommendation question without received-product evidence"
     },
     "t3_1o3hu6a": {
       "disposition": "deferred",
@@ -36100,10 +36100,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u3ytcv": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1u3ytcv"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1u400vy": {
       "disposition": "deferred",
@@ -37650,10 +37653,10 @@
       "reason": "reviewed and not promoted: pre-purchase request for owners to share OF Chanel 25 photos, without an inspected bag or comparison observation"
     },
     "t3_1uacd5x": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: pre-purchase request for owners to share OF Chanel 25 photos without an inspected product or comparison"
     },
     "t3_1uaff6r": {
       "disposition": "deferred",
@@ -43816,10 +43819,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1v6xy44": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "reviewed and not promoted: bare Hyper Peter Nano Speedy PSP request with generic monogram praise and no feature-level observation or resolved comparison"
     },
     "t3_1v6zabc": {
       "disposition": "rejected",
@@ -46879,10 +46882,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1vlfrbz": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "reviewed and not promoted: bare God Factory Speedy Bandouliere 20 QC request with no concrete observation in the sanitized capture"
     },
     "t3_1vlixu1": {
       "disposition": "rejected",
