@@ -24902,5 +24902,39 @@
       "The bag had not been received, the post does not identify the seller, material, factory, or exact handle variant, and no authoritative resolution of the design question is provided.",
       "The observation is a purchaser's comparison question, not a verified authenticity or counterfeit finding."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1vccnsj",
+    "title": "I need your help :)",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vccnsj/i_need_your_help/",
+    "subreddit": "RealRepLadies",
+    "author": "EmotionalAd86",
+    "publication_date": "2026-08-01",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy 20 attributed in the source to an unnamed TikTok seller and compared with a Hyper Peter option; receipt status, material, factory, and the unnamed seller are not established. Payment and box details are excluded.",
+    "paraphrase": "In a pre-purchase comparison, the author says the canvas in pictures from an unnamed TikTok seller's Speedy 20 looks different from authentic examples and asks whether that bag or a Hyper Peter option would be more accurate. The post does not resolve the comparison or establish receipt of the unnamed seller's bag.",
+    "positive_observations": [
+      "The discussion isolates canvas appearance as the comparison point and explicitly relates the Speedy 20 images to authentic references.",
+      "It preserves the named Speedy 20 variant and attaches only the already-normalized Hyper Peter seller; the other seller and any factory remain unattributed."
+    ],
+    "negative_observations": [
+      "The capture does not establish an in-hand inspection or final purchase, gives no material or factory detail, and does not identify the unnamed TikTok seller.",
+      "The author's impression that the canvas looks different is unresolved and is not a verified authenticity finding."
+    ]
   }
 ]

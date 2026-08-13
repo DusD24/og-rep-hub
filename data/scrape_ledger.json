@@ -8327,10 +8327,10 @@
       "reason": "triage score 5 below floor 30"
     },
     "t3_1ox3gyu": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 60)"
+      "reason": "reviewed and not promoted: pre-purchase poll asking owners to show bags so the author can choose between a Speedy Soft 30 and Side Trunk, without inspected-product evidence"
     },
     "t3_1ox3mkv": {
       "disposition": "deferred",
@@ -10109,10 +10109,10 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1ph7igo": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: bare Chanel vanity case QC request with no product observation beyond asking how the QC looks"
     },
     "t3_1ph8go9": {
       "disposition": "promoted",
@@ -25600,10 +25600,10 @@
       "reason": "reviewed and not promoted: single vague color question with no seller named and an uncatalogued factory"
     },
     "t3_1smazw5": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: image-led Chanel 25 Small feedback request asking whether it can be worn publicly, without a concrete feature-level observation"
     },
     "t3_1smbm2o": {
       "disposition": "deferred",
@@ -44629,10 +44629,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1vasf6t": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: bare pre-shipment Chanel 25 Mini PSP request with no concrete discrepancy or resolved QC finding in the sanitized capture"
     },
     "t3_1vaukzs": {
       "disposition": "deferred",
@@ -45043,10 +45043,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1vccnsj": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1vccnsj"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 60)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1vckac7": {
       "disposition": "deferred",
@@ -46867,10 +46870,10 @@
       "reason": "reviewed and not promoted: pre-purchase seller price comparison involving payment data, not bag-specific quality evidence"
     },
     "t3_1vlj2dk": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 60)"
+      "reason": "reviewed and not promoted: general Speedy size, styling, and customization discussion that does not report evidence about a rep bag"
     },
     "t3_1vljjz2": {
       "disposition": "deferred",
