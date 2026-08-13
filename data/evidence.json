@@ -27582,5 +27582,149 @@
       "The owner is new to reviewing and is uncertain about logo and tag details, so those impressions are not promoted as a confirmed factory or authenticity finding.",
       "The factory and seller are source-reported, no factory-wide conclusion is inferred, and contact/payment details are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1ql3w6p",
+    "title": "Help with QC - Chanel 25",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ql3w6p/help_with_qc_chanel_25/",
+    "subreddit": "RealRepLadies",
+    "author": "PuffytheFluffyLoofa",
+    "publication_date": "2026-01-23",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Received small burgundy Chanel 25 attributed by the author to 187 Factory; the seller is source-reported but not normalized. The author asks for QC after seeing the color shift across lighting. Comments give conflicting subjective impressions: some say the leather and hardware do not look like 187, while another owner says their 187 looks the same and that its color also changes in lighting. The factory question remains unresolved; material, batch, long-term wear, and an in-person authentic comparison are not established.",
+    "paraphrase": "A buyer requests QC on a received small burgundy Chanel 25 attributed to 187 Factory. The post focuses on whether the color and leather look right across different lighting, while comments disagree about whether the leather sheen and hardware tone fit 187. Another owner reports similar lighting-related color changes on their 187 example, but the thread does not resolve this bag's factory attribution or document a later wear result.",
+    "positive_observations": [
+      "The post identifies a received small burgundy Chanel 25 and preserves a specific lighting-related color question rather than generic praise.",
+      "The comments record concrete, qualified comparisons about leather sheen and hardware tone, including a conflicting 187-owner reference that the same color shift can occur across lighting."
+    ],
+    "negative_observations": [
+      "The QC discussion is photo-based and unresolved; the author has no in-person authentic reference, and no material, batch, or long-term wear result is documented.",
+      "The 187 attribution is disputed by commenters and is retained only as source context; seller, contact, and payment details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1qy3dlq",
+    "title": "Chanel 25 mini metallic silver review",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1qy3dlq/chanel_25_mini_metallic_silver_review/",
+    "subreddit": "RealRepLadies",
+    "author": "irey_yklm",
+    "publication_date": "2026-02-07",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The post reports payment on 2026-01-18, PSPs on 2026-01-24, tracking on 2026-01-27, and delivery on 2026-01-31.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Received Chanel 25 Mini in metallic silver attributed by the source to 187 Factory; the seller is source-reported but not normalized. The owner compares the delivered bag with authentic reference photos and a separate black Chanel 25 from OF. They report very soft leather, a natural metallic sheen, a side-pocket stitch that appeared misaligned in PSP photos but aligned in person because of the pocket thickness and camera angle, and a side CC logo that does not appear too thin. The main CC had scratches after three wears, and the owner noticed a slight plastic smell. The owner has not seen authentic silver in person, and the separate OF bag is not merged into this record.",
+    "paraphrase": "An owner reviews a received metallic-silver Chanel 25 Mini attributed to 187 Factory and compares it with authentic reference photos. The leather is described as much softer and more buttery than the owner's separate black OF Chanel 25; the metallic finish has a natural sheen, the side-pocket stitch looked misaligned in PSPs but aligned in person, and the side CC logo did not appear too thin. The owner reports scratches on the main CC after three wears and a slight plastic smell, while noting that the authentic comparison is photo-based rather than in person.",
+    "positive_observations": [
+      "The review identifies a received Chanel 25 Mini in metallic silver and supplies a dated PSP-to-delivery timeline.",
+      "The owner reports very soft leather and a natural metallic sheen that does not look overly shiny or cheap in the available comparison photos.",
+      "The owner records a concrete PSP-versus-in-hand correction: the side-pocket stitch appeared off-center in angled PSP photos but aligned when inspected in person, matching the owner's authentic reference photos.",
+      "The side CC logo is reported not to look noticeably too thin, and the delivered bag is compared with a separate OF example without collapsing the two variants or factories."
+    ],
+    "negative_observations": [
+      "The main CC had scratches after three wears, and the owner noticed a slight plastic smell; no longer-term wear result is documented.",
+      "The authentic comparison uses photos and the owner has not seen authentic silver in person, so metallic color and logo judgments remain subjective.",
+      "The seller is source-reported and not normalized; contact, payment, and external image details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1mxyk2o",
+    "title": "LV Soft Speedy Lucky Dune Rep vs Auth Comparison and US to US Re 🏡",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1mxyk2o/lv_soft_speedy_lucky_dune_rep_vs_auth_comparison/",
+    "subreddit": "RepTherapy",
+    "author": "jzappia7",
+    "publication_date": "2025-08-23",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "A side-by-side comparison covers a received Louis Vuitton Soft Speedy in Lucky Dune attributed by the author to Royal Factory and an authentic example of the same bag; the size is not stated. The owner reports the rep canvas as a shade lighter and whiter, the authentic canvas as creamier with slightly darker LV marks, a slight rep monogram misalignment on the backside near the handles, matching handle-glazing shade and gold hardware, clearer rep engraving, a rep handle slightly larger toward the ends, matching pink interior, a possible plastic smell, and an authentic rope charm slightly longer than the rep. The author had not carried the rep long-term; later comments about another user's vachetta are excluded from this record.",
+    "paraphrase": "An owner compares a received Royal Soft Speedy in Lucky Dune directly with an authentic same-model bag. The rep is reported as slightly whiter in canvas with a small backside monogram alignment difference, while the handle glazing and gold hardware appear to match the authentic example. The owner also says the rep engraving is clearer, the handle is slightly larger toward the ends, the interior pink is the same, and the authentic rope charm is a little longer; a possible plastic smell is noted. The comparison preserves exact observed differences rather than treating either bag as a universal factory standard.",
+    "positive_observations": [
+      "The post documents a direct same-model rep-versus-auth comparison and identifies the rep as a received Soft Speedy in Lucky Dune attributed to Royal Factory.",
+      "The owner reports matching handle-glazing shade, gold hardware, interior pink, and the other charm, lock, and keys, with rep engraving described as clearer.",
+      "The comparison records useful, specific differences: rep canvas slightly lighter, LV marks slightly darker on the authentic, a small backside monogram alignment issue, a slightly larger rep handle toward the ends, and a longer authentic rope charm."
+    ],
+    "negative_observations": [
+      "The owner reports a possible plastic smell and had not carried the rep long enough to provide a wear result; the size and production batch are not stated.",
+      "The post is also a rehome and includes transaction or seller solicitation context, which is not normalized as offering evidence; payment, seller, and contact details are excluded.",
+      "Later comments about another user's vachetta are separate experiences and are not used to make a claim about this exact bag or Royal Factory generally."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1o3w0zy",
+    "title": "Speedy P9 25 in Turquoise",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1o3w0zy/speedy_p9_25_in_turquoise/",
+    "subreddit": "RepTherapy",
+    "author": "Initial_Source_7880",
+    "publication_date": "2025-10-11",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The post reports inquiry on 2025-09-10, PSPs on 2025-09-12, tracking on 2025-09-14, and delivery on 2025-10-01, a stated total of 20 days.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Received Louis Vuitton Speedy P9 25 in Turquoise attributed by the source to Royal Factory and purchased from the source-named Doris, which matches the normalized seller record. The owner reports squishy leather, an eye-catching turquoise color, compliments during a test run, a purse pillow for shaping, and a matching small coin purse. The owner found the 25 cm size too small for their needs and decided a larger P9 would suit them better. Material testing, long-term wear, batch, and a controlled authentic comparison are not established; contact and payment details are excluded.",
+    "paraphrase": "A received Royal Speedy P9 25 in Turquoise is reviewed with a dated 20-day inquiry-to-delivery timeline. The owner describes the leather as pleasantly squishy and the color as eye-catching, says the bag received compliments during a test run, and notes the included purse pillow and matching coin purse. The owner liked the bag but found the 25 cm size too small for their needs, so this record keeps the size-specific fit observation separate from the planned P9 40 purchase.",
+    "positive_observations": [
+      "The review identifies a received Speedy P9 25 in Turquoise, source-reported Royal Factory attribution, and a complete dated shipping timeline.",
+      "The owner reports pleasantly squishy leather, an eye-catching turquoise color, and compliments during a test run.",
+      "The package included a purse pillow to help maintain shape and a matching small coin purse."
+    ],
+    "negative_observations": [
+      "The owner found the 25 cm size too small for their needs; the review does not document long-term wear or controlled authentic measurements.",
+      "The seller and factory are source-reported, no factory-wide conclusion is inferred, and contact and payment details are excluded."
+    ]
   }
 ]

@@ -4292,10 +4292,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1mxyk2o": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1mxyk2o"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1myc7jl": {
       "disposition": "rejected",
@@ -6347,10 +6350,13 @@
       "reason": "above floor but outside the daily cap (priority 45)"
     },
     "t3_1o3w0zy": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1o3w0zy"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1o3wxl7": {
       "disposition": "rejected",
@@ -14185,10 +14191,13 @@
       "reason": "reviewed and not promoted: Ostrich Andiamo post is a pre-purchase material-authenticity question and contains payment/seller solicitation."
     },
     "t3_1ql3w6p": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1ql3w6p"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 74)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ql7061": {
       "disposition": "deferred",
@@ -15922,10 +15931,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qvo16d": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 74)"
+      "reason": "reviewed and not promoted: The received OF Chanel 25 Small post offers only generic praise and a casual-use/fit note; the one concrete leather comment says it felt a little dry and the strap had no squeeze sound. The thread is dominated by seller-contact solicitation and a generic claim that OF is best, so it does not provide enough specific public construction, material, factory-comparison, or wear evidence for normalization."
     },
     "t3_1qvo6tr": {
       "disposition": "rejected",
@@ -16435,10 +16444,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qy3dlq": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1qy3dlq"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 74)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qy53rd": {
       "disposition": "rejected",
