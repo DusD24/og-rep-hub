@@ -8069,5 +8069,230 @@
     "negative_observations": [
       "The color discrepancy is unresolved at PSP stage; no in-hand comparison or final seller decision is captured."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1qepw2p",
+    "title": "Please help QC this classic flap",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1qepw2p/please_help_qc_this_classic_flap/",
+    "subreddit": "RealRepLadies",
+    "author": "DrawingConsistent924",
+    "publication_date": "2026-01-16",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "Replacement PSPs for a medium black caviar Chanel Classic Flap with light-gold hardware from God factory show more aligned back stitching than the first rejected bag, but the author thinks the new bag looks warped and asks whether its diamond quilting is too puffy.",
+    "positive_observations": [
+      "The post identifies the medium black caviar Classic Flap, God attribution, and a concrete before-and-after QC context involving back-stitching alignment."
+    ],
+    "negative_observations": [
+      "The replacement remains an unresolved PSP concern because the author sees possible warping and overly puffy diamonds; no seller or in-hand follow-up is captured."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1qpe67e",
+    "title": "Chanel 25. Should I buy a new one? Need a sounding board! Unsure of Quality",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1qpe67e/chanel_25_should_i_buy_a_new_one_need_a_sounding/",
+    "subreddit": "RealRepLadies",
+    "author": "xoxoabir",
+    "publication_date": "2026-01-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand report of a Chanel 25 from God factory raises two specific comparison concerns: the black caviar looks grayer, duller, and less shiny than authentic examples the author has seen, and the quilt puffing is difficult to reconcile with conflicting expectations about the authentic.",
+    "positive_observations": [
+      "The author identifies a received Chanel 25 and records concrete material-color sheen and quilt-profile observations against authentic references."
+    ],
+    "negative_observations": [
+      "The color and quilt assessment remains the author's unresolved interpretation, with no seller attribution or direct in-person authentic comparison recorded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1qqqxfa",
+    "title": "Soft speedy 30",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qqqxfa/soft_speedy_30/",
+    "subreddit": "RepTherapy",
+    "author": "Emergency-Elk-4415",
+    "publication_date": "2026-01-30",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a Soft Speedy 30 from Doris/God reports very soft, slouchy leather, a slight chemical smell that is fading, canvas that looks nearly identical beside the author's twenty-year-old authentic pouch, consistent pebbling, and a few creases the author is trying to smooth.",
+    "positive_observations": [
+      "The author identifies the Soft Speedy 30, seller, factory attribution, direct authentic-pouch comparison, leather hand-feel, canvas similarity, pebbling, and smell progression."
+    ],
+    "negative_observations": [
+      "A slight chemical smell was still present when reported and a few creases remained; the comparison uses an older authentic pouch rather than a same-variant side-by-side."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1ri1jlh",
+    "title": "Please Help QC this Speedy 30 - customizing!",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ri1jlh/please_help_qc_this_speedy_30_customizing/",
+    "subreddit": "RepTherapy",
+    "author": "Remarkable_Diver9316",
+    "publication_date": "2026-03-01",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC request for a customized Louis Vuitton Speedy 30 from Doris/God says the color, vachetta, glazing, and stitching look good at first glance but asks whether the alignment looks off compared with authentic references.",
+    "positive_observations": [
+      "The post identifies the Speedy 30, seller, factory attribution, customization context, and separate positive observations about color, vachetta, glazing, and stitching."
+    ],
+    "negative_observations": [
+      "The alignment concern is unresolved at PSP stage and the customization may make the bag more visually conspicuous; no in-hand result is captured."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-puzzle-1vl9j13",
+    "title": "QC Loewe Mini Puzzle",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vl9j13/qc_loewe_mini_puzzle/",
+    "subreddit": "RealRepLadies",
+    "author": "themasteradrian101",
+    "publication_date": "2026-08-11",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-jipin"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC request for a Loewe Mini Puzzle from Mandy/Jipin flags a visibly poor-looking cut and an unusually steep slope on the back of the bag.",
+    "positive_observations": [
+      "The post identifies the Mini Puzzle, seller, factory attribution, and two concrete PSP construction concerns: the cut and the back slope."
+    ],
+    "negative_observations": [
+      "The concerns remain unresolved from PSPs only, with no seller response or in-hand follow-up in the capture."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-puzzle-1skblt7",
+    "title": "QC Loewe Puzzle from Jipin",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1skblt7/qc_loewe_puzzle_from_jipin/",
+    "subreddit": "RealRepLadies",
+    "author": "cheekymonkey75",
+    "publication_date": "2026-04-13",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-nina"
+    ],
+    "factory_ids": [
+      "factory-jipin"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC request for a small Loewe Puzzle from Nina/Jipin says the leather looks dry and asks whether there are other major red flags before approval; the author planned to condition the leather.",
+    "positive_observations": [
+      "The post identifies the small Puzzle, seller, factory attribution, and a specific material-hand concern rather than only requesting a general approval."
+    ],
+    "negative_observations": [
+      "The dry-leather concern and any other issues are unresolved at PSP stage, and the planned conditioning is not a documented outcome."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-neverfull-1usr7yj",
+    "title": "HyperPeter review of  L.V Neverfull MM Empreinte Black",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1usr7yj/hyperpeter_review_of_lv_neverfull_mm_empreinte/",
+    "subreddit": "RealRepLadies",
+    "author": "Grouchy-Escape-848",
+    "publication_date": "2026-07-10",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a black Louis Vuitton Neverfull MM Empreinte from Hyper Peter reports careful protective packaging, a blue interior color the author considers a perfect match, neat stitching, stamped buckles and zippers, and a shoulder strap that feels too short and wears more like a handbag than a shoulder bag.",
+    "positive_observations": [
+      "The post identifies the MM Empreinte variant and seller and records concrete interior-color, stitching, hardware-stamping, packaging, and carrying observations."
+    ],
+    "negative_observations": [
+      "The shoulder straps are too short for the author's preference, and no factory or direct authentic comparison is stated."
+    ]
   }
 ]
