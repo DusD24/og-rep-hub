@@ -41,7 +41,8 @@
       "ev-rt-neverfull-oc-auth",
       "ev-crawl-rlw-neverfull-damier-mm-2026",
       "ev-crawl-rrl-louis-vuitton-neverfull-1tqbwds",
-      "ev-crawl-rrl-louis-vuitton-neverfull-1qfj0am"
+      "ev-crawl-rrl-louis-vuitton-neverfull-1qfj0am",
+      "ev-crawl-rrl-louis-vuitton-neverfull-1vfbckz"
     ],
     "documented_sizes": [
       "GM",
@@ -55,7 +56,7 @@
       "not documented in current public sources"
     ],
     "evidence_coverage": {
-      "source_count": 19,
+      "source_count": 20,
       "independent_author_count": 17,
       "primary_subreddit_coverage": [
         "RealRepLadies",
@@ -452,7 +453,10 @@
       "ev-crawl-rlw-bottega-veneta-andiamos-1s03u2x",
       "ev-crawl-rrl-bottega-veneta-andiamos-1mswd56",
       "ev-crawl-bottomup-1r0tiei",
-      "ev-crawl-rrl-bottega-veneta-andiamos-1u0d8qv"
+      "ev-crawl-rrl-bottega-veneta-andiamos-1u0d8qv",
+      "ev-crawl-rt-bottega-veneta-andiamos-1qrd3vh",
+      "ev-crawl-rt-bottega-veneta-andiamos-1r07677",
+      "ev-crawl-rt-bottega-veneta-andiamos-1ruvyzm"
     ],
     "documented_sizes": [
       "medium",
@@ -465,8 +469,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 16,
-      "independent_author_count": 15,
+      "source_count": 19,
+      "independent_author_count": 18,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -670,7 +674,10 @@
       "ev-crawl-rrl-dior-lady-dior-1nr94x4",
       "ev-crawl-rrl-dior-lady-dior-1t9os0k",
       "ev-crawl-rrl-dior-lady-dior-1jwpxvs",
-      "ev-crawl-rrl-dior-lady-dior-1tmwpid"
+      "ev-crawl-rrl-dior-lady-dior-1tmwpid",
+      "ev-crawl-rcb-dior-lady-dior-1ub0wyo",
+      "ev-crawl-rcb-dior-lady-dior-1v40ylj",
+      "ev-crawl-rcb-dior-lady-dior-1v6c3s1"
     ],
     "documented_sizes": [
       "Small"
@@ -682,8 +689,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 16,
-      "independent_author_count": 16,
+      "source_count": 19,
+      "independent_author_count": 19,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -1015,7 +1022,8 @@
       "ev-crawl-rlw-balenciaga-rodeo-1stabp0",
       "ev-crawl-rt-balenciaga-rodeo-1pi697u",
       "ev-crawl-rt-balenciaga-rodeo-1v05pu5",
-      "ev-crawl-rcb-balenciaga-rodeo-1prfntt"
+      "ev-crawl-rcb-balenciaga-rodeo-1prfntt",
+      "ev-crawl-rrl-balenciaga-rodeo-1va1xj8"
     ],
     "documented_sizes": [
       "Medium"
@@ -1027,8 +1035,8 @@
       "aged silver"
     ],
     "evidence_coverage": {
-      "source_count": 7,
-      "independent_author_count": 7,
+      "source_count": 8,
+      "independent_author_count": 8,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -1185,7 +1193,8 @@
       "ev-crawl-rrl-chanel-25-1uef6sh",
       "ev-crawl-rlw-chanel-25-1sxv8fs",
       "ev-crawl-rt-louis-vuitton-speedy-1ucuuip",
-      "ev-crawl-rrl-chanel-25-1orr3f3"
+      "ev-crawl-rrl-chanel-25-1orr3f3",
+      "ev-crawl-rrl-chanel-25-1uzfspl"
     ],
     "documented_sizes": [
       "Small",
@@ -1201,8 +1210,8 @@
       "ruthenium hardware reported"
     ],
     "evidence_coverage": {
-      "source_count": 20,
-      "independent_author_count": 16,
+      "source_count": 21,
+      "independent_author_count": 17,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepLadiesWorld",
