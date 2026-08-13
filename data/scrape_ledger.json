@@ -30830,7 +30830,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-12",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "above floor but outside the daily cap (priority 73)"
     },
     "t3_1tdahby": {
       "disposition": "deferred",
@@ -34138,10 +34138,10 @@
       "reason": "triage score 9 below floor 30"
     },
     "t3_1tuba3u": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 60)"
+      "reason": "reviewed and not promoted: generic Hyper Peter Nano Speedy arrival and seller-service praise without feature-level bag observations or an authentic comparison"
     },
     "t3_1tubwvw": {
       "disposition": "rejected",
@@ -35749,10 +35749,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u26nkk": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: image-only Chanel 25 Mini PSP request with no sanitized text or concrete observation to preserve"
     },
     "t3_1u26u14": {
       "disposition": "deferred",
@@ -36463,10 +36463,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u5vnzo": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1u5vnzo"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 60)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1u5vrk5": {
       "disposition": "deferred",
@@ -39382,10 +39385,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ui4e7p": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: bare pre-shipment Chanel Classic Flap QC request that asks for expert feedback but reports no specific discrepancy or resolved finding"
     },
     "t3_1ui57z6": {
       "disposition": "rejected",
@@ -39847,10 +39850,10 @@
       "reason": "triage score 20 below floor 30"
     },
     "t3_1ukb2zf": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: bare Chanel 25 Mini QC request with generic feedback language and no concrete observation in the sanitized capture"
     },
     "t3_1ukbrt0": {
       "disposition": "rejected",
@@ -41941,10 +41944,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uwdgl4": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 60)"
+      "reason": "reviewed and not promoted: bare Nano Speedy PSP request dominated by seller contact/catalog promotion, with no concrete product observation in the sanitized capture"
     },
     "t3_1uwelav": {
       "disposition": "deferred",
