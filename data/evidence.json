@@ -23275,5 +23275,106 @@
     "negative_observations": [
       "The shine concern is unresolved at PSP stage, and the source does not state the exact color, material, hardware, seller, or delivery result."
     ]
+  },
+  {
+    "id": "ev-crawl-rt-chanel-25-1pcgzrf",
+    "title": "Medium Chanel 25 review: light beige OF factory vs black god factory",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1pcgzrf/medium_chanel_25_review_light_beige_of_factory_vs/",
+    "subreddit": "RepTherapy",
+    "author": "Organic-Ad-6761",
+    "publication_date": "2025-12-02",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Two received Medium Chanel 25 bags are compared: light beige attributed by the source to OF and black attributed to God Factory; the source names Doris for the God Factory bag, while the OF factory and its seller are not normalized. Payment amounts are excluded.",
+    "paraphrase": "A received comparison of a light-beige Medium Chanel 25 attributed to OF and a black Medium Chanel 25 attributed to God Factory reports the beige bag as slightly softer and more supple, while the black bag was initially stiffer but softened with several weeks of daily use; both have heavy hardware and matching measurements, with differences in caviar imprinting and adjustable-chain leather thickness.",
+    "positive_observations": [
+      "The post records two delivered Medium Chanel 25 variants, factory attributions, colors, same measurements, and a delivery timeline without retaining payment data.",
+      "It preserves concrete observations about leather hand, hardware weight, softening with use, sheen, handle caviar imprinting, and adjustable-chain leather thickness."
+    ],
+    "negative_observations": [
+      "The author has no Medium Chanel 25 authentic reference for a direct comparison, the OF attribution and seller are not normalized, and the difference in sheen on the black bag is left uncertain."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1tr1tyg",
+    "title": "Hyper Peter VS. authentic",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1tr1tyg/hyper_peter_vs_authentic/",
+    "subreddit": "RepTherapy",
+    "author": "Charming_Try8087",
+    "publication_date": "2026-05-29",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Nano Speedy attributed by the source to Hyper Peter; color, material, and factory are not stated.",
+    "paraphrase": "A Hyper Peter Nano Speedy is compared with an authentic Nano Speedy brought in by a client: the bags look very alike, while the rep canvas is thinner and initially more matte; polishing made the rep look shinier, and the thickness is mainly noticeable by touch.",
+    "positive_observations": [
+      "The post records a direct visual and tactile comparison between a received Nano Speedy and an authentic example.",
+      "It preserves the source-reported close visual similarity and distinguishes canvas thickness from surface sheen rather than collapsing them into a general quality claim."
+    ],
+    "negative_observations": [
+      "The rep canvas is reported as thinner and initially more matte than the authentic reference; the source does not state color, material, or factory details beyond the Hyper Peter attribution."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1u8067s",
+    "title": "HP nano speedy in backyard",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1u8067s/hp_nano_speedy_in_backyard/",
+    "subreddit": "RepTherapy",
+    "author": "Appropriate-Plate550",
+    "publication_date": "2026-06-17",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Nano Speedy attributed by the source to HP/Hyper Peter; color, material, and factory are not stated.",
+    "paraphrase": "A frequently carried HP Nano Speedy is praised for its canvas, shape, and structure; the owner clarifies that the glazing only appears redder in photographs and says the canvas is slightly thinner than expected.",
+    "positive_observations": [
+      "The post identifies a received Nano Speedy attributed to HP/Hyper Peter and records repeated everyday use.",
+      "It preserves concrete canvas, shape, structure, and photo-versus-in-person glazing observations rather than only a rating."
+    ],
+    "negative_observations": [
+      "The owner finds the canvas slightly thinner than expected, and the source does not state the exact color, material, or a direct authentic comparison."
+    ]
   }
 ]

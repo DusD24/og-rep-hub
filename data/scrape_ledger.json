@@ -4424,10 +4424,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1n0l60f": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 89)"
+      "reason": "reviewed and not promoted: pre-delivery color praise and reservation announcement without a received-bag or quality observation"
     },
     "t3_1n0lbcd": {
       "disposition": "rejected",
@@ -6359,10 +6359,10 @@
       "reason": "reviewed and not promoted: detailed review is for a Softbit model, not an explicitly identified catalogued Puzzle variant; do not misattribute it to Puzzle or add a new family in this pass"
     },
     "t3_1o59pqe": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 89)"
+      "reason": "reviewed and not promoted: bare God Factory Chanel 25 Small QC request containing only seller and factory details"
     },
     "t3_1o5ahde": {
       "disposition": "deferred",
@@ -9641,10 +9641,13 @@
       "reason": "triage score 15 below floor 30"
     },
     "t3_1pcgzrf": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-chanel-25-1pcgzrf"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 89)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1pch8cg": {
       "disposition": "deferred",
@@ -18229,10 +18232,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ravcd2": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 42)"
+      "reason": "reviewed and not promoted: payment-bearing seller/factory satisfaction statement with no concrete construction, wear, or comparison observation"
     },
     "t3_1ravi4q": {
       "disposition": "deferred",
@@ -26119,10 +26122,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1spa6my": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 43)"
+      "reason": "reviewed and not promoted: pre-purchase ISO and high-tier seller request without product evidence"
     },
     "t3_1spe6ps": {
       "disposition": "deferred",
@@ -33397,10 +33400,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tr1tyg": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1tr1tyg"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1tr2e3j": {
       "disposition": "deferred",
@@ -34987,10 +34993,10 @@
       "reason": "reviewed and not promoted: Birkin 30 ostrich post is outside the catalogued Kelly family and contains color praise without a permitted family match; defer catalog decision."
     },
     "t3_1tzh9ow": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: contact-bearing Nano Speedy QC post with no textual product observation beyond asking what others think"
     },
     "t3_1tzhbex": {
       "disposition": "deferred",
@@ -36889,10 +36895,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u8067s": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1u8067s"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1u80cie": {
       "disposition": "deferred",
@@ -39178,10 +39187,10 @@
       "reason": "backfilled from committed evidence"
     },
     "t3_1uhb34h": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 43)"
+      "reason": "reviewed and not promoted: accessory-finding request about converting a Flamenco to a shoulder bag, not evidence about the bag itself"
     },
     "t3_1uhejy2": {
       "disposition": "deferred",
@@ -39949,10 +39958,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1ulaclk": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 42)"
+      "reason": "reviewed and not promoted: payment-bearing bare Loewe Puzzle QC request that supplies seller and factory but no specific visible observation"
     },
     "t3_1ulergy": {
       "disposition": "deferred",
