@@ -11115,10 +11115,10 @@
       "reason": "reviewed and not promoted: pre-purchase Chanel Kelly solicitation using generic genuine-leather and 1:1 claims without a specific reviewable observation"
     },
     "t3_1ptfjdl": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "reviewed and not promoted: The post is a giveaway announcement and the comments are congratulations, entry discussion, and a prospective Speedy P9 color choice. No received bag or product-quality observation is documented."
     },
     "t3_1ptk7sx": {
       "disposition": "rejected",
@@ -15199,10 +15199,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qrd2v4": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "reviewed and not promoted: The post and comments are primarily a style choice between two Speedy Soft 30 colorways with generic praise and seller or factory requests. The tangential comments about other bags do not establish exact, feature-level evidence for the reviewed post."
     },
     "t3_1qrd3vh": {
       "disposition": "promoted",
@@ -26458,10 +26458,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sq52rv": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The post asks for travel-bag and evening-clutch recommendations. The comments provide styling and purchase advice, not public QC, in-hand, wear, factory-comparison, or authentic-comparison evidence."
     },
     "t3_1sq7fbw": {
       "disposition": "rejected",
@@ -27526,10 +27526,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1svfa59": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The post is a material preference and comparison discussion about lambskin, suede, and caviar for the Chanel 25, with no received-bag QC, wear, factory, or authentic-comparison observation. The comments are opinions rather than evidence."
     },
     "t3_1svfrqr": {
       "disposition": "deferred",
@@ -31873,10 +31873,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1thtlh6": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1thtlh6"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1thuh79": {
       "disposition": "deferred",
@@ -40144,7 +40147,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "reviewed and deferred: Keepall 45 remains an uncatalogued exact family; retain it as deferred for a separate catalog decision and do not attach it to the catalogued Louis Vuitton Speedy family."
+      "reason": "reviewed and deferred: Keepall 45 is not a catalogued family. The post is mostly seller praise and solicitation, so it remains deferred for a separate catalog decision and is not attached to Speedy."
     },
     "t3_1ukvx1z": {
       "disposition": "deferred",

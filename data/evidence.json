@@ -27007,5 +27007,37 @@
       "The review is strongly enthusiastic and does not state a seller, factory, material subtype, measurements, or longer-term wear outcome; the color/weight impressions are subjective.",
       "Vendor and factory solicitation dominates the comments and is excluded from the public record."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1thtlh6",
+    "title": "Wear your reps with confidence!",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1thtlh6/wear_your_reps_with_confidence/",
+    "subreddit": "RealRepLadies",
+    "author": "nostalgia_corp",
+    "publication_date": "2026-05-19",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "The post owner describes a Chanel 25 Small in black grained calfskin. A commenter who says they own authentic bags describes a separate Chanel 25 in caviar observed in person and reports a plasticky look and feel, crinkling when folded, and creases that do not flow like authentic leather. It is not established that the comment concerns the owner's same bag; seller, factory, batch, and controlled measurements are absent, and vendor/contact requests are excluded.",
+    "paraphrase": "In a discussion about wearing a Chanel 25 rep, a commenter who says they own authentic bags reports that a Chanel 25 caviar rep they handled had a plasticky look and feel, leather that crinkled when folded, and creases that did not flow like an authentic bag. The observation comes from an in-person anecdote, not a controlled side-by-side, and the thread does not identify the bag's seller or factory.",
+    "positive_observations": [
+      "The comment records concrete tactile and surface cues—plasticky caviar appearance or feel, fold crinkling, and crease behavior—rather than relying on compliments or distance-only impressions.",
+      "The record preserves the self-described authentic-owner context while keeping the separate Chanel 25 anecdote distinct from the original poster's exact variant."
+    ],
+    "negative_observations": [
+      "The comparison is an uncontrolled single-person account about a separate Chanel 25 caviar bag; it provides no standardized photos, measurements, seller, factory, batch, or long-term wear evidence.",
+      "The surrounding thread is mostly confidence advice, generic authenticity debate, and vendor requests; those claims and private-message exchanges are excluded."
+    ]
   }
 ]
