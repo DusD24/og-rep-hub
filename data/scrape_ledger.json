@@ -3191,10 +3191,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1m6bh2z": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 78)"
+      "reason": "reviewed and not promoted: PSP-video praise explicitly says a hands-on review will come after receipt; no feature-level independent observation beyond generic seller enthusiasm"
     },
     "t3_1m6dowp": {
       "disposition": "rejected",
@@ -27304,10 +27304,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1suah2j": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rcb-chanel-25-1suah2j"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 78)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1suaygt": {
       "disposition": "deferred",
@@ -29945,10 +29948,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t7vvub": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: general first-rep discussion with many unrelated anecdotes, not an exact product review or comparison"
     },
     "t3_1t7znkb": {
       "disposition": "deferred",
@@ -44800,10 +44803,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1vav5v0": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: pre-shipment timeline question for a Speedy P9 with no PSP or product-quality observation captured"
     },
     "t3_1vaw98b": {
       "disposition": "deferred",
@@ -46624,10 +46627,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1vjc5k8": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 78)"
+      "reason": "reviewed and not promoted: pre-purchase pricing and factory recommendation discussion; no owned Chanel 25 or Classic Flap observation"
     },
     "t3_1vjd67b": {
       "disposition": "deferred",

@@ -26707,5 +26707,41 @@
       "The source provides no color, factory, authentic reference, or longer-term wear report, and the strap-color comment is a cross-style comparison rather than a verified defect.",
       "The review is brief and broadly positive; contact details are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rcb-chanel-25-1suah2j",
+    "title": "[HELP] QC my Small Chanel 25 Bag, in White color <3",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1suah2j/help_qc_my_small_chanel_25_bag_in_white_color_3/",
+    "subreddit": "RepCulture_Bags",
+    "author": "artrocks123",
+    "publication_date": "2026-04-24",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "Paid April 20 and received PSPs by April 23, 2026, as reported; final delivery was not captured.",
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-emily"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25 Small in white at PSP/QC stage through normalized seller Emily, attributed by the source to 187 Factory. Material is not stated in the post; comments compare the structure with authentic grained-calfskin/caviar versions and discuss off-white versus creamy-white seasons and beige versus burgundy lining. The buyer reports stiff side wings and asks about color/quilting; payment/contact details are excluded.",
+    "paraphrase": "A buyer submits PSPs for a white Chanel 25 Small attributed to 187 and notes that the side wings look unusually stiff rather than soft and downward-pointing. Commenters comparing authentic C25s say the wings should become floppy with the leather's slouch and that stiffness can be a replica tell; another commenter notes seasonal off-white/creamy-white variants and a separate commenter praises the back-pocket diamond alignment. The final color and delivery outcome are not captured.",
+    "positive_observations": [
+      "The thread identifies the white Chanel 25 Small, normalized Emily seller, 187 attribution, dated PSP timing, side-wing structure, quilting alignment, and color/lining questions.",
+      "It preserves a specific authentic-structure comparison and the possibility that stiffness changes with use, rather than treating the PSP as a definitive factory verdict."
+    ],
+    "negative_observations": [
+      "The bag was not received in the captured thread, material and final color are not independently established, and commenters disagree only indirectly about how much stiffness is acceptable.",
+      "The 187 attribution is source-reported, no final seller response is documented, and payment/contact details are excluded."
+    ]
   }
 ]
