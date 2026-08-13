@@ -13275,5 +13275,300 @@
       "The review gives broad positive quality observations but does not itemize stitching, dimensions, shape, or wear performance.",
       "The source-named seller Mark and factory are not normalized to catalogued entities."
     ]
+  },
+  {
+    "id": "ev-crawl-rcb-chanel-25-1vf2n8k",
+    "title": "Review Dior D-Joy Small & Chanel 25 Mini",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1vf2n8k/review_dior_djoy_small_chanel_25_mini/",
+    "subreddit": "RepCulture_Bags",
+    "author": "Flashy_Database8559",
+    "publication_date": "2026-08-04",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-dior-lady-dior",
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-tiny-jenny"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of an OF-attributed order from Tiny Jenny covers a Dior D-Joy Small and a Chanel 25 Mini. The reviewer describes the D-Joy's soft leather, clean precise stitching, finished hardware, and strong craftsmanship; the Chanel 25 Mini has a beautiful leather texture, aligned quilting, solid hardware, and is reported much better than a prior version from another seller. OF is not a catalogued factory here.",
+    "positive_observations": [
+      "The post records separate physical observations for the D-Joy Small and Chanel 25 Mini rather than treating the mixed order as one unspecified bag.",
+      "The Chanel 25 observations include leather texture, quilting alignment, solid hardware, and a comparison with the author's earlier version; the D-Joy observations include leather, stitching, hardware, and craftsmanship."
+    ],
+    "negative_observations": [
+      "The OF factory label remains source wording because OF is not in the public factory roster.",
+      "No authentic comparison, exact colorway, dated delivery sequence, or detailed wear follow-up is provided."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1te1xae",
+    "title": "LV Speedy R (registered) logo placement",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1te1xae/lv_speedy_r_registeredlogo_placement/",
+    "subreddit": "RepTherapy",
+    "author": "Mindless-Repeat-1859",
+    "publication_date": "2026-05-15",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A comparison of a God-attributed Speedy 20 with an authentic Speedy 20 focuses on the placement of the registered-mark text: the rep and a newer authentic use different positions, while the author's roughly 20-year-old Speedy 25 has the registered mark positioned like the God bag. A close-up comparison is described as otherwise very similar by the authentic owner.",
+    "positive_observations": [
+      "The source identifies the God Speedy 20 and compares it with an authentic Speedy 20 using a specific logo-placement detail rather than a general quality claim.",
+      "The older authentic Speedy 25 provides a second real-world reference showing that registered-mark placement can vary by age or version."
+    ],
+    "negative_observations": [
+      "The post does not establish whether the placement difference is a production-date variation or a rep discrepancy.",
+      "No seller, factory batch, or wear outcome beyond the photo comparison is reported."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-hermes-kelly-1gof7fh",
+    "title": "Kelly 28 from Mark",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1gof7fh/kelly_28_from_mark/",
+    "subreddit": "RealRepLadies",
+    "author": "Inevitable-Zone-8915",
+    "publication_date": "2024-11-11",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "First inquiry and payment were on 2024-09-28; PSPs arrived 2024-10-29; the bag arrived 2024-11-05, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-hermes-kelly"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "paraphrase": "The title identifies a Kelly 28 from Mark, and the delivered-bag review reports customized colors, rose-gold hardware, supple leather, good shape and structure, precise measurements, a well-shaped handle, detailed engraving and pearling, and good-looking stitching. The opening also refers to a Birkin review, so only the title-named Kelly is normalized and the exact model remains uncertain.",
+    "positive_observations": [
+      "The review gives a dated inquiry-to-PSP-to-delivery sequence and reports direct handling of the bag.",
+      "It records specific observations about leather, structure, measurements, handle shape, hardware finish and engraving, pearling, and stitching."
+    ],
+    "negative_observations": [
+      "The source is internally inconsistent about Kelly versus Birkin in its opening, so it is not treated as an exact-match record and is not mapped to Birkin.",
+      "The author does not own an authentic comparison and does not identify a factory; seller Mark remains source wording without a catalogued seller entity."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-hermes-kelly-1ojhzrg",
+    "title": "Received my first Minion Kelly",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ojhzrg/received_my_first_minion_kelly/",
+    "subreddit": "RealRepLadies",
+    "author": "xxxibmz",
+    "publication_date": "2025-10-29",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The order took three months because the author rejected an earlier handle shape; shipping after approval was described as fast, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-hermes-kelly"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A received black Togo Sellier Kelly 35 from Minion has upgraded hardware and interior leather. The author rejected an earlier handle shape during the three-month order process, then reports being very happy with the revised bag; the lock arrived scratched.",
+    "positive_observations": [
+      "The source identifies the Kelly 35, black Togo leather, Sellier construction, upgraded hardware and interior leather.",
+      "The handle was revised before acceptance, and the author reports satisfaction with the final received shape."
+    ],
+    "negative_observations": [
+      "The lock arrived with scratches, and the post does not report whether that issue was remedied.",
+      "Minion is left as source wording because the seller and factory are not catalogued, and there is no authentic comparison."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-flamenco-1upaxlx",
+    "title": "QC help with Mini black Flamenco",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1upaxlx/qc_help_with_mini_black_flamenco/",
+    "subreddit": "RealRepLadies",
+    "author": "kittycat062",
+    "publication_date": "2026-07-06",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A Liusheng-attributed Mini black Flamenco PSP raises two concrete concerns: the logo appears thin and the bag lacks the expected slouch. The source identifies Mandy as the seller.",
+    "positive_observations": [
+      "The post identifies the Mini size, black colorway, Liusheng factory attribution, and Mandy seller attribution.",
+      "It separates two specific PSP concerns—logo weight and structure—from the general request for QC."
+    ],
+    "negative_observations": [
+      "The observations are limited to PSP photographs and the post does not report the received bag or a later resolution.",
+      "No authentic reference or measurement is provided for the logo or slouch assessment."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-puzzle-1vkausw",
+    "title": "An anti-Puzzle fan until I met Mini",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vkausw/an_antipuzzle_fan_until_i_met_mini/",
+    "subreddit": "RealRepLadies",
+    "author": "pandamonium234",
+    "publication_date": "2026-08-10",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "Paid and received PSPs 2026-06-11; requested tracking 2026-06-18; received 2026-06-30, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-garmen"
+    ],
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review covers a Liusheng Mini Puzzle Edge in soft-grained calfskin and Toffee. The author reports that it fits a slim card holder, bulky key fob, lip gloss, and iPhone 14 Pro; the leather arrived very dry and was conditioned with Honey Leather, while the strap feels thin and flimsy. PSPs were supplied, but tracking had to be requested after several days.",
+    "positive_observations": [
+      "The source identifies the Mini Puzzle Edge, soft-grained calfskin, Toffee colorway, Liusheng attribution, Garmen seller, dated receipt, and practical carrying capacity.",
+      "The author describes a specific conditioning response and reports secure packaging and willingness to provide additional PSP photos or videos."
+    ],
+    "negative_observations": [
+      "The leather is described as very dry on arrival and the strap as thin and flimsy.",
+      "Tracking was not supplied until the author followed up after three business days; the post is an early-use report rather than a long-term durability study."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1q7cw5n",
+    "title": "QC — color issue? Maybe wrong color",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1q7cw5n/qc_color_issue_maybe_wrong_color/",
+    "subreddit": "RepTherapy",
+    "author": "Upbeat_Passage888",
+    "publication_date": "2026-01-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-jipin"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A Jipin-attributed Loewe Puzzle PSP from Mandy raises a colorway concern: the author says the photographed bag does not appear to match the color requested and asks for feedback before accepting it.",
+    "positive_observations": [
+      "The source identifies a specific Loewe Puzzle order, Mandy, and Jipin and documents a concrete PSP color discrepancy concern."
+    ],
+    "negative_observations": [
+      "The post does not state the requested or photographed color, size, or the eventual resolution.",
+      "The claim is based on PSP photographs and the author reports limited seller responsiveness; no authentic reference is supplied."
+    ]
+  },
+  {
+    "id": "ev-crawl-rcb-louis-vuitton-neverfull-1s6anfk",
+    "title": "A Catogram batch with sharper prints",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1s6anfk/a_catogram_batch_that_doesnt_have_those_blurry/",
+    "subreddit": "RepCulture_Bags",
+    "author": "Specialist_Award_607",
+    "publication_date": "2026-03-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "paraphrase": "A factory-photo discussion of a 2018 Catogram run compares the source images with a retail Neverfull reference and reports muted bronze hardware, sharp cat details, and print placement the author considers accurate. The exact factory, size, and purchase status are not stated.",
+    "positive_observations": [
+      "The post records specific visual comparison points—hardware tone, cat-detail sharpness, and print placement—against a retail Neverfull reference.",
+      "The source distinguishes this run from other batches the author describes as having blurry prints or shiny yellow hardware."
+    ],
+    "negative_observations": [
+      "The exact Neverfull size, factory identity, seller, and purchase status are unresolved, so this is not treated as an exact-match owner review.",
+      "The post's claim about a strict minimum order quantity is not independently established and is excluded from the normalized evidence."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-bottega-veneta-andiamos-1msjo1c",
+    "title": "Small Andiamo",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1msjo1c/small_andiamo/",
+    "subreddit": "RepTherapy",
+    "author": "Important-Mouse6813",
+    "publication_date": "2025-08-17",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "PSPs arrived after three days and the bag arrived within a week, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a small dark-green Andiamo reports that the leather feels and smells excellent and that the weaving is not perfectly even but is difficult to notice without specific authentic or rep familiarity. An earlier suede choice was abandoned because its color was wrong; the final dark-green bag is the reviewed item.",
+    "positive_observations": [
+      "The review identifies the Small Andiamo, dark-green colorway, leather feel and smell, a fast PSP-to-delivery sequence, and the author's direct weaving assessment.",
+      "The author gives a qualified assessment by acknowledging an imperfect weave instead of presenting the bag as uniformly flawless."
+    ],
+    "negative_observations": [
+      "The author says the weaving is not 100% perfect, although they expect only experienced authentic or rep owners to notice.",
+      "The earlier suede selection had the wrong color and is not conflated with the final dark-green bag; seller Amy and factory attribution remain unnormalized."
+    ]
   }
 ]
