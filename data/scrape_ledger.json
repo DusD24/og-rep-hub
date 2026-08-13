@@ -389,10 +389,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1fni0d8": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1fni0d8"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 82)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1fnqy6j": {
       "disposition": "rejected",
@@ -2816,10 +2819,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1lrukgj": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: empty Nano Speedy post whose comments provide generic similarity praise and seller/factory requests but no original product observation"
     },
     "t3_1ls2608": {
       "disposition": "deferred",
@@ -2882,10 +2885,13 @@
       "reason": "reviewed and not promoted: group-buy/order-form promotion and color availability notice, not a buyer review or QC observation"
     },
     "t3_1luy60o": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1luy60o"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1lv6whe": {
       "disposition": "rejected",
@@ -5027,10 +5033,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ne6zek": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: empty Speedy Bandouliere 20 PSP post with only image comments and generic approval; no sanitized feature-level observation or resolved QC finding"
     },
     "t3_1ne6zvy": {
       "disposition": "promoted",
@@ -15988,10 +15994,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qwakl7": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1qwakl7"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 82)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qwamwt": {
       "disposition": "deferred",
@@ -37851,10 +37860,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ub8r93": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1ub8r93"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 82)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ubcatq": {
       "disposition": "deferred",
