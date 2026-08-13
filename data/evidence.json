@@ -24062,5 +24062,166 @@
     "negative_observations": [
       "The review is a short first impression without construction detail, authentic comparison, wear follow-up, or factory attribution; the source's seller praise and payment details are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1i87dqb",
+    "title": "Am I crazy? Classic flap PSP",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1i87dqb/am_i_crazy_classic_flap_psp/",
+    "subreddit": "RealRepLadies",
+    "author": "Wiintrr255",
+    "publication_date": "2025-01-23",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel Classic Flap at PSP stage; size, color, material, seller, and factory are not stated.",
+    "paraphrase": "A Chanel Classic Flap PSP is flagged because the leather around the CC stitching appears wrinkled and stressed before purchase.",
+    "positive_observations": [
+      "The post isolates a specific leather-and-stitching concern rather than asking only for a general green light.",
+      "It preserves that the concern was raised at PSP stage and before purchase."
+    ],
+    "negative_observations": [
+      "The concern is unresolved, the exact variant and provenance are not stated, and the author says they are not a Chanel expert."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1qvdc5m",
+    "title": "Review: My First Order with Jack",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qvdc5m/review_my_first_order_with_jack/",
+    "subreddit": "RepTherapy",
+    "author": "bliss_point601",
+    "publication_date": "2026-02-04",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "Contacted 1/19; PSPs 1/20; tracking 1/23; package received 2/3, as reported.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy P9 Green 25; seller Jack is source-reported but not normalized, and material and factory are not stated. The mixed LV x TM Speedy 25 and Loewe Biker Puzzle are excluded.",
+    "paraphrase": "In a mixed three-bag order, the received Louis Vuitton Speedy P9 Green 25 is singled out as having a pleasant smell and leather that melts into a relaxed puddle; the other Speedy and Puzzle are not assessed beyond the author's general satisfaction.",
+    "positive_observations": [
+      "The post identifies the Speedy P9 Green 25, received result, and a concrete leather-hand and slouch observation.",
+      "It isolates the P9 slice from the unrelated LV x TM Speedy 25 and Loewe Biker Puzzle."
+    ],
+    "negative_observations": [
+      "The report does not state material, factory, or an authentic comparison and gives only a short product observation for the P9."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1rtv736",
+    "title": "Small Puzzle Bag in Sahara from Doris",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1rtv736/small_puzzle_bag_in_sahara_from_doris/",
+    "subreddit": "RepTherapy",
+    "author": "Ok-Home9948",
+    "publication_date": "2026-03-14",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "Inquired 1/21; PSPs arrived 1/22; bag arrived 2/18, as reported.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Loewe Small Woven Puzzle Bag in Sahara (2024) in cowhide; seller Doris is source-reported and the source states factory N/A. External image/auth links, payment, and contact details are excluded.",
+    "paraphrase": "A received Small Woven Puzzle Bag in Sahara is compared with an authentic reference: the color is reported as matching, the cowhide smells like leather without a bad odor, zippers move smoothly, gold hardware is neither too bright nor flimsy, logos and stitching are clean, and the dimensions match the reference. The reviewer notes a missing internal serial number and a microfiber rather than suede-like interior, while the new leather remains slightly stiff and is expected to develop more slouch with conditioning and use.",
+    "positive_observations": [
+      "The post identifies the Small Woven Puzzle Bag, Sahara color, cowhide, seller, dimensions, delivery, and a direct authentic comparison.",
+      "It preserves specific observations about color, odor, zippers, hardware, logos, stitching, braided handle, dimensions, stiffness, and interior material."
+    ],
+    "negative_observations": [
+      "The reviewer reports a missing internal serial number and a microfiber-like interior rather than suede, and the new leather is still somewhat stiff; the factory is undisclosed and seller-service praise is excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-flamenco-1sr4mw4",
+    "title": "Wonderful experience with Aiden!! Loewe Flamenco Mini",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1sr4mw4/wonderful_experience_with_aiden_loewe_flamenco/",
+    "subreddit": "RepTherapy",
+    "author": "Either_Equipment_500",
+    "publication_date": "2026-04-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "Ordered April 2 and delivered April 16, as reported; a strap issue was identified and replaced before shipment.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-aiden"
+    ],
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Loewe Flamenco Mini in a color reported as Abyss? Blue; material is not stated. Aiden and Liusheng are source-reported. Payment and contact details are excluded.",
+    "paraphrase": "A received Loewe Flamenco Mini attributed to Aiden and Liusheng is described as having rich, well-finished soft leather, flawless-feeling hardware, a strong magnetic closure, retained structure with a relaxed scrunch, and construction that exceeded the buyer's expectations; a strap issue was caught and replaced before shipment.",
+    "positive_observations": [
+      "The post identifies the Flamenco Mini, uncertain blue color, seller, factory, PSP-to-delivery sequence, and a received result.",
+      "It records concrete leather, hardware, magnetic-closure, structure, and pre-shipment strap observations rather than only seller satisfaction."
+    ],
+    "negative_observations": [
+      "The color name is uncertain, exact material and long-term wear are not stated, and there is no authentic comparison; private contact, payment, and seller-service details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-flamenco-1viio12",
+    "title": "L*ewe Bag(s) review",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1viio12/lewe_bags_review/",
+    "subreddit": "RepTherapy",
+    "author": "SoberMuskrat",
+    "publication_date": "2026-08-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "Ordered 7/15; PSPs 7/21; shipped 7/30 after a replacement strap was ordered; received 8/7, as reported.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Loewe Flamenco in nubuck; size, color, and factory are not stated. Seller Mina is source-reported but not normalized. The separate Loewe elephant bag is excluded.",
+    "paraphrase": "In a mixed review, the received Loewe Flamenco in nubuck is described as exceptionally soft, with consistent stitching that feels strong; a strap issue was noticed before shipment and a replacement was ordered. The separate elephant bag is excluded.",
+    "positive_observations": [
+      "The post identifies a received nubuck Flamenco and preserves specific leather-hand, stitching, and replacement-strap observations.",
+      "It separates the Flamenco evidence from the unrelated elephant bag and keeps the source-reported seller unattributed."
+    ],
+    "negative_observations": [
+      "The exact Flamenco size, color, material details beyond nubuck, factory, authentic comparison, and wear duration are not stated; broad ratings and payment/contact details are excluded."
+    ]
   }
 ]

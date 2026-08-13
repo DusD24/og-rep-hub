@@ -1076,10 +1076,13 @@
       "reason": "reviewed and not promoted: duplicate weekly chat/seller-promotion post with no specific bag observation"
     },
     "t3_1i87dqb": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1i87dqb"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1i8y6gv": {
       "disposition": "rejected",
@@ -4355,10 +4358,10 @@
       "reason": "reviewed and not promoted: Empty Hermes model preference discussion."
     },
     "t3_1mzpeq2": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: bare Xiao C Chanel 25 authenticity/opinion request with no concrete observation in the sanitized capture"
     },
     "t3_1mzpra3": {
       "disposition": "deferred",
@@ -6545,10 +6548,10 @@
       "reason": "triage score 10 below floor 30"
     },
     "t3_1o7nwvs": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 62)"
+      "reason": "reviewed and not promoted: pre-purchase Birdcage-versus-Royal factory choice question for a pink P9 without received-bag or concrete comparison evidence"
     },
     "t3_1o7p4ji": {
       "disposition": "deferred",
@@ -15778,10 +15781,13 @@
       "reason": "reviewed and not promoted: Pre-purchase seller/factory recommendation request for Speedy Soft 30."
     },
     "t3_1qvdc5m": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1qvdc5m"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qvg0s4": {
       "disposition": "rejected",
@@ -19708,10 +19714,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rmvfk0": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 63)"
+      "reason": "reviewed and not promoted: pre-purchase question about whether a seller-recommended Ultimate factory Speedy is good, with no received or inspected product evidence"
     },
     "t3_1rmzqic": {
       "disposition": "rejected",
@@ -20083,10 +20089,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rpjeu1": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 63)"
+      "reason": "reviewed and not promoted: seller recommendation request without a specific bag, QC, wear, factory, or authentic-comparison observation"
     },
     "t3_1rpk31x": {
       "disposition": "deferred",
@@ -20800,10 +20806,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rtv736": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-loewe-puzzle-1rtv736"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1rtv9yw": {
       "disposition": "rejected",
@@ -20953,10 +20962,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1ruwbjr": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "reviewed and not promoted: mixed purchase arrival post with only broad quality praise for the Mango Featherlight Puzzle and no feature-level observation; unrelated products and seller/contact promotion are out of scope"
     },
     "t3_1ruytpv": {
       "disposition": "rejected",
@@ -26485,10 +26494,13 @@
       "reason": "reviewed and not promoted: pre-purchase Mini Chanel 25 factory-choice request without an owned, delivered, or PSP comparison"
     },
     "t3_1sr4mw4": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-loewe-flamenco-1sr4mw4"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sr6nu6": {
       "disposition": "promoted",
@@ -41482,10 +41494,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1utg0f0": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 86)"
+      "reason": "reviewed and not promoted: duplicate crosspost of the already reviewed Axin Chanel transaction at t3_1utfhhw and t3_1utg3cd; no second transaction"
     },
     "t3_1utg3cd": {
       "disposition": "rejected",
@@ -46234,10 +46246,13 @@
       "reason": "above floor but outside the daily cap (priority 35)"
     },
     "t3_1viio12": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-loewe-flamenco-1viio12"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1vijf83": {
       "disposition": "promoted",
