@@ -1763,10 +1763,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1jkqmel": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 43)"
+      "reason": "reviewed and not promoted: 187 King 570 Classic Flap PSP post lists the item but gives no specific QC concern or product observation."
     },
     "t3_1jl3dl9": {
       "disposition": "rejected",
@@ -21085,10 +21085,10 @@
       "reason": "above floor but outside the daily cap (priority 50)"
     },
     "t3_1qytylz": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: Pre-purchase request for Speedy 30 Dark seller recommendations; no owned-bag evidence."
     },
     "t3_1qyvl8f": {
       "disposition": "deferred",
@@ -24013,10 +24013,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rh7we2": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: Vintage Classic Flap PSP request asks for general QC feedback before approval but records no concrete product observation."
     },
     "t3_1rh8mz2": {
       "disposition": "deferred",
@@ -24583,10 +24583,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rk4ijn": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1rk4ijn"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1rk5e4e": {
       "disposition": "promoted",
@@ -27289,10 +27292,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rymanz": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 43)"
+      "reason": "reviewed and not promoted: Pre-purchase Chanel Classic Flap question about price, seller, and yellow hardware; no received-bag evidence."
     },
     "t3_1rymrbs": {
       "disposition": "promoted",
@@ -27601,7 +27604,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 34)"
+      "reason": "above floor but outside the daily cap (priority 42)"
     },
     "t3_1s0irn1": {
       "disposition": "deferred",
@@ -30376,7 +30379,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "reviewed and deferred: the received item is a Dior D-Joy, distinct from the existing Lady Dior family; preserve for a separate catalog decision"
+      "reason": "Exact item is a Dior D-Joy, distinct from the existing Lady Dior family; retain the QA-corrected private catalog deferral rather than re-promoting it."
     },
     "t3_1sdvfay": {
       "disposition": "rejected",
@@ -43753,10 +43756,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tyrbr9": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: Pre-purchase seller recommendation request for an early-2000s-style Epi Speedy; no received-product evidence."
     },
     "t3_1tyrxhm": {
       "disposition": "deferred",
@@ -48124,10 +48127,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1uekil4": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "reviewed and not promoted: Received Dior Saddle post asks whether it is an obvious fake and where to source another, but records no concrete construction, wear, or comparison observation."
     },
     "t3_1uekm6r": {
       "disposition": "rejected",
@@ -48178,10 +48181,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ueqmyn": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 43)"
+      "reason": "reviewed and not promoted: Pre-purchase Chanel 25 Caramel color question asks whether anyone has seen or owned the color; no product observation."
     },
     "t3_1uer51e": {
       "disposition": "deferred",
@@ -49771,7 +49774,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "Exact item is a Louis Vuitton Keepall 45, not the catalogued Speedy family; preserve as a separate uncatalogued Keepall lead."
     },
     "t3_1ukvx1z": {
       "disposition": "deferred",
@@ -50764,10 +50767,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1uptsgv": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1uptsgv"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1upup1d": {
       "disposition": "deferred",
