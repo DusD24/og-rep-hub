@@ -2387,10 +2387,10 @@
       "reason": "reviewed and not promoted: Kelly group-buy update is an empty sales promotion with no product evidence."
     },
     "t3_1l7rdq3": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The original Chanel 25 post is empty and pre-purchase; comments mix seller solicitations with multiple commenters' separate bags and unresolved photo opinions, so the exact product under review cannot be established safely."
     },
     "t3_1l82tqy": {
       "disposition": "deferred",
@@ -2711,10 +2711,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1lm1o08": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: This is an authentic Chanel 25 image and general praise/rep-shopping discussion, not a received replica or QC record. The thread supplies no qualifying rep product evidence to normalize."
     },
     "t3_1lm3qwf": {
       "disposition": "deferred",
@@ -8168,10 +8168,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ovnv1c": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1ovnv1c"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ovocu2": {
       "disposition": "deferred",
@@ -38271,10 +38274,13 @@
       "reason": "above floor but outside the daily cap (priority 53)"
     },
     "t3_1ucp20g": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1ucp20g"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ucp2ue": {
       "disposition": "promoted",
@@ -39520,10 +39526,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ui3cfg": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 77)"
+      "reason": "reviewed and not promoted: The post concerns a pre-delivery request for a positive seller review and discusses seller-process discomfort, not the Classic Flap's construction or QC. It contains no received-bag evidence and includes unverified seller interpretations that must not be published."
     },
     "t3_1ui3r1t": {
       "disposition": "deferred",
@@ -40129,7 +40135,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "reviewed and deferred: Keepall 45 is an uncatalogued exact family; retain as deferred for a separate catalog decision and do not attach it to the catalogued Louis Vuitton Speedy family."
+      "reason": "reviewed and deferred: Keepall 45 remains an uncatalogued exact family; retain it as deferred for a separate catalog decision and do not attach it to the catalogued Louis Vuitton Speedy family."
     },
     "t3_1ukvx1z": {
       "disposition": "deferred",
@@ -43975,10 +43981,10 @@
       "reason": "triage score 15 below floor 30"
     },
     "t3_1v70bih": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 77)"
+      "reason": "reviewed and not promoted: The roll-call post is a pre-purchase waiting list and solicitation thread. It contains no owned-bag inspection, PSP outcome, or product-quality observation for the author's Classic Flap; unrelated comment bags and seller chatter are not evidence for it."
     },
     "t3_1v72k0p": {
       "disposition": "rejected",
@@ -44521,10 +44527,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1v9n8n7": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "reviewed and not promoted: The thread is about choosing shoes and styling a denim-themed outfit; the Speedy mention is incidental and provides no bag-specific QC, wear, factory, or authentic-comparison observation."
     },
     "t3_1v9rbcx": {
       "disposition": "deferred",

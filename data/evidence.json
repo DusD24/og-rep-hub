@@ -26847,5 +26847,69 @@
       "The source does not name a factory or exact material subtype, and the authentic comparison is a broad boutique impression rather than a controlled feature-by-feature check.",
       "The owner reports slow communication and a delayed post-green-light shipment; the review was requested by the seller and the contact detail is excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1ovnv1c",
+    "title": "RL or GL? Chanel 25 small PSP",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ovnv1c/rl_or_gl_chanel_25_small_psp/",
+    "subreddit": "RealRepLadies",
+    "author": "jenhon",
+    "publication_date": "2025-11-13",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25 Small at PSP/QC stage; the author identifies the source as Xiao C, which is not a normalized public factory entity. Color, material, seller, final outcome, and factory photos are not captured. Public commenters say the hardware is not too yellow and discuss whether the quilting is too puffy, while noting that authentic Chanel 25 examples vary from flat to puffy; payment/contact details are excluded.",
+    "paraphrase": "A title-only PSP request for a Chanel 25 Small attributed by the author to Xiao C receives a mixed but generally green-light community assessment: commenters say the hardware does not look too yellow, while the discussion compares the bag's quilting puffiness with authentic examples and says authentic C25s vary, leaving the acceptable threshold unresolved. The capture contains no delivered-bag result or seller response.",
+    "positive_observations": [
+      "The title identifies the Chanel 25 Small and the discussion records specific hardware-tone and quilting-puffiness QC points rather than only a star rating.",
+      "The thread preserves the authentic-variation caveat and the commenters' qualified approval without turning Xiao C or the community opinion into a factory-wide verdict."
+    ],
+    "negative_observations": [
+      "The post body is empty, no factory photos or final seller response are captured, and color, material, seller, and delivery outcome are not stated.",
+      "Xiao C is source-reported and left unattributed because it is not a normalized factory entity; the hardware and puffiness assessments are community photo judgments."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1ucp20g",
+    "title": "Speedy Nano",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ucp20g/speedy_nano/",
+    "subreddit": "RealRepLadies",
+    "author": "MonaMuc8312",
+    "publication_date": "2026-06-22",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "The source identifies a received Speedy Nano Eden, an exact variant not represented by a normalized public bag ID in this catalog. The owner reports that the interior lining seems tight or short at the corners and limits usable space; color, material, seller, factory, measurements, and wear period are not stated.",
+    "paraphrase": "An owner of a Speedy Nano Eden reports that the interior lining appears too tight or short to reach the corners, making the available interior space difficult to use fully, and asks whether other owners see the same behavior. The thread does not provide measurements, a seller or factory attribution, or a follow-up resolution.",
+    "positive_observations": [
+      "The in-hand discussion identifies the Speedy Nano Eden and preserves a concrete functional observation about lining reach and usable capacity.",
+      "It frames the issue as an open owner-to-owner question rather than asserting that the lining behavior is universal or definitively defective."
+    ],
+    "negative_observations": [
+      "The exact Eden variant is not a normalized catalog bag ID, and no color, material, seller, factory, measurements, authentic comparison, or wear duration is stated.",
+      "The capture contains no community answer or seller response resolving whether the tight lining is expected."
+    ]
   }
 ]
