@@ -256,7 +256,9 @@
       "ev-crawl-rt-louis-vuitton-speedy-1v5e16u",
       "ev-crawl-rt-louis-vuitton-speedy-1u25dbc",
       "ev-crawl-rt-louis-vuitton-speedy-1umt49t",
-      "ev-crawl-rrl-louis-vuitton-speedy-1txk0w3"
+      "ev-crawl-rrl-louis-vuitton-speedy-1txk0w3",
+      "ev-crawl-rt-louis-vuitton-speedy-1usct4d",
+      "ev-crawl-rcb-louis-vuitton-speedy-1u5amkl"
     ],
     "documented_sizes": [
       "25",
@@ -269,7 +271,7 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 69,
+      "source_count": 71,
       "independent_author_count": 58,
       "primary_subreddit_coverage": [
         "RealRepLadies",
@@ -422,7 +424,9 @@
       "ev-crawl-rt-loewe-flamenco-1rewel8",
       "ev-crawl-rt-loewe-flamenco-1rp2hq4",
       "ev-crawl-rt-loewe-flamenco-1tbpjvw",
-      "ev-crawl-rrl-loewe-flamenco-1f8l09f"
+      "ev-crawl-rrl-loewe-flamenco-1f8l09f",
+      "ev-crawl-rrl-loewe-flamenco-1u2st77",
+      "ev-crawl-rrl-loewe-flamenco-1ux2p9e"
     ],
     "documented_sizes": [
       "30 cm",
@@ -436,8 +440,8 @@
       "yellow / shiny hardware noted in QC discussion"
     ],
     "evidence_coverage": {
-      "source_count": 45,
-      "independent_author_count": 38,
+      "source_count": 47,
+      "independent_author_count": 40,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -636,7 +640,10 @@
       "ev-crawl-rt-bottega-veneta-andiamos-1msjo1c",
       "ev-crawl-rrl-bottega-veneta-andiamos-1qyys8m",
       "ev-crawl-rrl-bottega-veneta-andiamos-1ty0svi",
-      "ev-crawl-rrl-bottega-veneta-andiamos-1ux16st"
+      "ev-crawl-rrl-bottega-veneta-andiamos-1ux16st",
+      "ev-crawl-rrl-bottega-veneta-andiamos-1veid1t",
+      "ev-crawl-rrl-bottega-veneta-andiamos-1v1zkj8",
+      "ev-crawl-rrl-bottega-veneta-andiamos-1vijf83"
     ],
     "documented_sizes": [
       "medium",
@@ -649,8 +656,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 43,
-      "independent_author_count": 38,
+      "source_count": 46,
+      "independent_author_count": 39,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -744,7 +751,8 @@
       "ev-crawl-bottomup-1vdajq0",
       "ev-crawl-bottomup-1hs83r7",
       "ev-crawl-bottomup-1fvrpbt",
-      "ev-crawl-rrl-hermes-birkin-1plkt2d"
+      "ev-crawl-rrl-hermes-birkin-1plkt2d",
+      "ev-crawl-rrl-hermes-birkin-1u5hnue"
     ],
     "documented_sizes": [
       "25"
@@ -758,7 +766,7 @@
       "brushed palladium"
     ],
     "evidence_coverage": {
-      "source_count": 7,
+      "source_count": 8,
       "independent_author_count": 7,
       "primary_subreddit_coverage": [
         "RealRepLadies",
@@ -1286,7 +1294,8 @@
       "ev-crawl-rll-chanel-vanity-slim-2026",
       "ev-crawl-rt-chanel-classic-flap-1pvhkxt",
       "ev-crawl-rt-chanel-vanity-slim-1tii2cp",
-      "ev-crawl-rt-chanel-vanity-slim-1un3exw"
+      "ev-crawl-rt-chanel-vanity-slim-1un3exw",
+      "ev-crawl-rlw-chanel-vanity-slim-1un2zin"
     ],
     "documented_sizes": [
       "not stated in selected source"
@@ -1298,10 +1307,11 @@
       "not stated in selected source"
     ],
     "evidence_coverage": {
-      "source_count": 4,
+      "source_count": 5,
       "independent_author_count": 4,
       "primary_subreddit_coverage": [
         "RealRepLadies",
+        "RepLadiesWorld",
         "RepTherapy"
       ],
       "image_ready": true,
@@ -1431,7 +1441,8 @@
       "ev-crawl-rrl-chanel-25-1uydjrc",
       "ev-crawl-rcb-chanel-25-1szrx66",
       "ev-crawl-rcb-chanel-25-1t5hgkw",
-      "ev-crawl-rlw-chanel-25-1sorjgg"
+      "ev-crawl-rlw-chanel-25-1sorjgg",
+      "ev-crawl-rlw-chanel-25-1ss1fu8"
     ],
     "documented_sizes": [
       "Small",
@@ -1447,7 +1458,7 @@
       "ruthenium hardware reported"
     ],
     "evidence_coverage": {
-      "source_count": 47,
+      "source_count": 48,
       "independent_author_count": 37,
       "primary_subreddit_coverage": [
         "RealRepLadies",

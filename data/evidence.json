@@ -14936,5 +14936,331 @@
       "The yellow hardware and bottom-stitching concerns are unresolved, with no seller response or in-hand outcome captured.",
       "The seller and exact material details are not stated."
     ]
+  },
+  {
+    "id": "ev-crawl-rlw-chanel-25-1ss1fu8",
+    "title": "QC would you rl this?",
+    "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1ss1fu8/qc_would_you_rl_this/",
+    "subreddit": "RepLadiesWorld",
+    "author": "Known_Sun9296",
+    "publication_date": "2026-04-21",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC post for a Chanel 25 attributed to 187 says the seal looks odd and not crisp, and asks whether the author is overthinking the issue.",
+    "positive_observations": [
+      "The post identifies a Chanel 25 and 187 attribution and isolates the seal as the QC subject.",
+      "The author records a specific finish or branding concern rather than only asking for a general quality rating."
+    ],
+    "negative_observations": [
+      "The seal concern is unresolved at PSP stage, with no seller response or received-bag result captured.",
+      "The exact size, material, colorway, seller, and authentic reference are not stated."
+    ]
+  },
+  {
+    "id": "ev-crawl-rlw-chanel-vanity-slim-1un2zin",
+    "title": "QC help my Chanel vanity please",
+    "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1un2zin/qc_help_my_chanel_vanity_please/",
+    "subreddit": "RepLadiesWorld",
+    "author": "InnerInitial9061",
+    "publication_date": "2026-07-04",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-vanity-slim"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": false,
+    "paraphrase": "A first-purchase PSP QC post for a Chanel Vanity attributed to 187 says the sides may not be even and asks whether the alignment should be approved.",
+    "positive_observations": [
+      "The post identifies a Chanel Vanity and 187 attribution and isolates side alignment as the specific PSP concern.",
+      "The author records a concrete symmetry question rather than a generic factory recommendation."
+    ],
+    "negative_observations": [
+      "The exact Vanity variant, seller, and resolution are not stated, and the alignment concern remains unresolved at PSP stage.",
+      "The family remains a research-queue entry; no new family or public schema is added here."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-hermes-birkin-1u5hnue",
+    "title": "Birkin 25 Bleu Jean Swift (Jack)",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1u5hnue/birkin_25_bleu_jean_swift_jack/",
+    "subreddit": "RealRepLadies",
+    "author": "eagerlift",
+    "publication_date": "2026-06-14",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The bag was completed in 20 days against a 30-day estimate and arrived after two weeks in transit, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-hermes-birkin-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a Bleu Jean Swift Birkin 25 from Jack reports smooth buttery leather, color close to the author's Love Luxury reference, tight accurate hand stitching, a pleasant smell, upgraded hardware with clear laser text, and a stamp that is not pressed too deeply.",
+    "positive_observations": [
+      "The source identifies the Birkin 25, Bleu Jean color, Swift leather, the seller's dated completion and delivery sequence, and direct observations after receipt.",
+      "The review covers leather, color comparison, stitching, smell, hardware, engraving, and stamp depth rather than only general satisfaction."
+    ],
+    "negative_observations": [
+      "The seller Jack remains source wording without a catalogued seller mapping, and no factory is stated.",
+      "The source notes that the PSP photos were unrefined and required additional images; private contact details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1usct4d",
+    "title": "My new speedy 20",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1usct4d/my_new_speedy_20/",
+    "subreddit": "RealRepLadies",
+    "author": "Mindless-Repeat-1859",
+    "publication_date": "2026-07-10",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "About 15 days from inquiry to receipt, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A Hyper Peter Speedy 20 is compared with an owned authentic Speedy 20 and described as having the correct house shape, canvas that is not thin, uncoated vachetta that can patina, and easy-opening zippers demonstrated by requested video. The author notes that the glazing is initially more reddish and the bag feels lighter, likely because of hardware.",
+    "positive_observations": [
+      "The source identifies the Speedy 20, Hyper Peter, direct authentic comparison, canvas, vachetta, glazing, hardware weight, zipper operation, and delivery timing.",
+      "The review preserves the distinction between visual similarity, material behavior, and functional zipper evidence."
+    ],
+    "negative_observations": [
+      "The glazing reads more reddish than the author's preference and the rep feels lighter than the authentic; the seller's prediction about future oxidation is source-reported and unverified.",
+      "No factory is stated, and seller-service praise is kept separate from the product observations."
+    ]
+  },
+  {
+    "id": "ev-crawl-rcb-louis-vuitton-speedy-1u5amkl",
+    "title": "New Lv Speedy Soft 30 Cognac",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1u5amkl/new_lv_speedy_soft_30_cognac/",
+    "subreddit": "RepCulture_Bags",
+    "author": "Popular-Shoe-4347",
+    "publication_date": "2026-06-14",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a Cognac Speedy Soft 30 says the received bag is soft as expected, while an attached authentic reference appears to have matching gold, interior, and leather smell; the seller and factory are not identified.",
+    "positive_observations": [
+      "The source identifies the Speedy Soft 30, Cognac colorway, direct receipt, authentic reference, leather softness, hardware, interior, and smell.",
+      "The author preserves the comparison with other PSPs that were rejected for being too stiff without importing those other sellers or factories."
+    ],
+    "negative_observations": [
+      "The seller's 'highest quality' description is not independently verified and the factory is expressly unknown.",
+      "The review is brief and does not state measurements, exact hardware details, or longer-term wear."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-bottega-veneta-andiamos-1veid1t",
+    "title": "It came!!",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1veid1t/it_came/",
+    "subreddit": "RealRepLadies",
+    "author": "Entrance-Glad",
+    "publication_date": "2026-08-03",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-jing"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A received Jing Mini Andiamo is described as buttery soft, with hardware that worried the author in photos but did not look bad in person.",
+    "positive_observations": [
+      "The source identifies the Mini Andiamo, Jing attribution, receipt, leather softness, and the in-hand hardware-color result.",
+      "The note functions as a follow-up to a PSP concern by distinguishing the photo impression from the delivered-bag appearance."
+    ],
+    "negative_observations": [
+      "The exact colorway, seller, delivery timing, and longer-term wear are not stated.",
+      "The report is brief and does not provide a controlled authentic comparison."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-flamenco-1u2st77",
+    "title": "Loewe Flamenco in Shell Gray",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1u2st77/loewe_flamenco_in_shell_gray/",
+    "subreddit": "RealRepLadies",
+    "author": "Ok-Bandicoot-6309",
+    "publication_date": "2026-06-11",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "Ordered 2026-05-22; PSPs received 2026-05-28; daylight photos were supplied before approval; delivered 2026-06-10, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand Shell Gray Flamenco from Doris is described as changing between greenish gray, light gray, and dark gray under different lighting. The author reports leather that is smooth and very slouchy but slightly thin and dry at the cinched top, and says the hardware looked much better in daylight than in the original PSP lighting.",
+    "positive_observations": [
+      "The source identifies Shell Gray, Doris, the dated PSP and delivery sequence, lighting-dependent color behavior, leather hand, slouch, and hardware appearance.",
+      "The author preserves the difference between yellow PSP lighting and the later daylight hardware impression rather than treating the first photos as final."
+    ],
+    "negative_observations": [
+      "The author has not handled the authentic Shell Gray, and the cinched leather is described as thin and dry.",
+      "No factory is stated; seller-service observations are kept separate from the bag evidence."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-flamenco-1ux2p9e",
+    "title": "Help QCing this Loewe Flamenco",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ux2p9e/help_qcing_this_loewe_flamenco/",
+    "subreddit": "RealRepLadies",
+    "author": "Ashamed_Picture5717",
+    "publication_date": "2026-07-15",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC post for a medium brown Flamenco says the front logo appears thicker and less crisp than expected and asks whether the difference is outside a normal Loewe range; the factory and seller are not identified.",
+    "positive_observations": [
+      "The post identifies the medium size and brown colorway and isolates front-logo weight and crispness as the QC subject.",
+      "The author frames the concern against an expected Loewe logo standard rather than making an unsupported factory attribution."
+    ],
+    "negative_observations": [
+      "The logo concern is unresolved at PSP stage, with no seller response or received-bag result.",
+      "The seller, factory, material, and authentic reference are not stated."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-bottega-veneta-andiamos-1v1zkj8",
+    "title": "Is this Jing BV andiamo okay to GL?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1v1zkj8/is_this_jing_bv_andiamo_okay_to_gl_have_a_couple/",
+    "subreddit": "RealRepLadies",
+    "author": "Designer_Good_5414",
+    "publication_date": "2026-07-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-jing"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A Jing Andiamo PSP compared with authentic reference images raises questions about a boxier silhouette, the way the side panels connect, loose-looking weave at the sides, and whether the bag will flatten and slouch after use.",
+    "positive_observations": [
+      "The post identifies a Jing Andiamo and uses authentic references while isolating shape, side construction, weave tension, and closure profile as separate QC points.",
+      "The author distinguishes possible unused-bag effects from unresolved construction concerns rather than declaring a factory-wide defect."
+    ],
+    "negative_observations": [
+      "The bag is at PSP stage and no seller response, approval result, exact size, colorway, or in-hand outcome is captured.",
+      "The author is uncertain whether wear will change the boxiness, so the comparison remains unresolved."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-bottega-veneta-andiamos-1vijf83",
+    "title": "Review: BV Leather/Denim Andiamo from Yuyu",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vijf83/review_bv_leatherdenim_andiamo_from_yuyu/",
+    "subreddit": "RealRepLadies",
+    "author": "calilav",
+    "publication_date": "2026-08-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "Messaged 2026-07-14; paid 2026-07-16; PSPs received and approved 2026-07-22; shipped 2026-07-23; delivered 2026-07-30, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-yuyu"
+    ],
+    "factory_ids": [
+      "factory-top"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a medium embellished intrecciato leather-and-denim Andiamo from Yuyu and Top Factory reports a work-appropriate size, soft leather, and denim that the author considers excellent after delivery.",
+    "positive_observations": [
+      "The source identifies the medium embellished leather-and-denim Andiamo, Yuyu, Top Factory, and a checkable order-to-delivery sequence.",
+      "The author gives direct material observations about leather softness and denim quality while keeping seller communication separate from the product assessment."
+    ],
+    "negative_observations": [
+      "The review does not itemize weave, hardware, dimensions, or authentic comparison, and the quality assessment remains one owner's report.",
+      "Payment details and private transaction context are excluded."
+    ]
   }
 ]
