@@ -104,7 +104,8 @@
       "ev-crawl-rrl-chanel-classic-flap-1utfhhw",
       "ev-crawl-rrl-chanel-classic-flap-1pht6us",
       "ev-crawl-rrl-chanel-classic-flap-1pd1b7f",
-      "ev-crawl-rrl-chanel-classic-flap-1s4tqpb"
+      "ev-crawl-rrl-chanel-classic-flap-1s4tqpb",
+      "ev-crawl-rt-chanel-classic-flap-1p8zhc5"
     ],
     "documented_sizes": [
       "not stated in selected sources"
@@ -116,8 +117,8 @@
       "gold-tone hardware reported or requested"
     ],
     "evidence_coverage": {
-      "source_count": 11,
-      "independent_author_count": 10,
+      "source_count": 12,
+      "independent_author_count": 11,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepLadiesWorld",
@@ -334,7 +335,8 @@
       "ev-rt-puzzle-biker-jipin-laomao-riyu28",
       "ev-rt-puzzle-biker-qiu-mandy-spiritatbay",
       "ev-rt-puzzle-edge-large-nina-2025",
-      "ev-rt-puzzle-braided-mandy-2026"
+      "ev-rt-puzzle-braided-mandy-2026",
+      "ev-crawl-rt-loewe-puzzle-1oezfzw"
     ],
     "documented_sizes": [
       "small",
@@ -349,8 +351,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 10,
-      "independent_author_count": 7,
+      "source_count": 11,
+      "independent_author_count": 8,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepTherapy"
@@ -363,7 +365,7 @@
         "long_term_wear"
       ]
     },
-    "last_updated": "2026-08-10",
+    "last_updated": "2026-08-12",
     "research_gaps": [
       "Keep small and large Puzzle evidence separate.",
       "Resolve material and hardware details only from exact-variant sources.",
@@ -596,7 +598,8 @@
       "ev-crawl-rrl-dior-lady-dior-1jjfmfo",
       "ev-crawl-rrl-dior-lady-dior-1uqo297",
       "ev-crawl-rcb-the-row-margaux-1tu83hi",
-      "ev-crawl-rt-dior-lady-dior-1tx7cvm"
+      "ev-crawl-rt-dior-lady-dior-1tx7cvm",
+      "ev-crawl-rrl-dior-lady-dior-1snk11p"
     ],
     "documented_sizes": [
       "Small"
@@ -608,8 +611,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 8,
-      "independent_author_count": 8,
+      "source_count": 9,
+      "independent_author_count": 9,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -619,7 +622,8 @@
       "evidence_types": [
         "factory_comparison",
         "in_hand_review",
-        "long_term_wear"
+        "long_term_wear",
+        "seller_context"
       ]
     },
     "last_updated": "2026-08-12",
@@ -741,7 +745,8 @@
     "documented_variant_ids": [],
     "evidence_ids": [
       "ev-crawl-rt-ferragamo-hug-2026",
-      "ev-crawl-rll-ferragamo-hug-2026"
+      "ev-crawl-rll-ferragamo-hug-2026",
+      "ev-crawl-rrl-ferragamo-hug-1ublsv2"
     ],
     "documented_sizes": [
       "large",
@@ -754,7 +759,7 @@
       "gold-tone accents"
     ],
     "evidence_coverage": {
-      "source_count": 2,
+      "source_count": 3,
       "independent_author_count": 2,
       "primary_subreddit_coverage": [
         "RealRepLadies",
@@ -766,7 +771,7 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-08",
+    "last_updated": "2026-08-12",
     "research_gaps": [
       "Confirm exact size and material across the two sources.",
       "Add a second in-hand or auth-comparison receipt if the queue is to become a published collection."
@@ -926,7 +931,8 @@
     "documented_variant_ids": [],
     "evidence_ids": [
       "ev-crawl-rll-balenciaga-rodeo-medium-2026",
-      "ev-rt-rodeo-mike-2026"
+      "ev-rt-rodeo-mike-2026",
+      "ev-crawl-rlw-balenciaga-rodeo-1qkhtm8"
     ],
     "documented_sizes": [
       "Medium"
@@ -938,19 +944,21 @@
       "aged silver"
     ],
     "evidence_coverage": {
-      "source_count": 2,
-      "independent_author_count": 2,
+      "source_count": 3,
+      "independent_author_count": 3,
       "primary_subreddit_coverage": [
         "RealRepLadies",
+        "RepLadiesWorld",
         "RepTherapy"
       ],
       "image_ready": true,
       "evidence_types": [
         "auth_comparison",
+        "factory_comparison",
         "in_hand_review"
       ]
     },
-    "last_updated": "2026-08-10",
+    "last_updated": "2026-08-12",
     "research_gaps": [
       "Keep medium, black, and aged-silver details from the first source separate from the second review, whose color and size are unstated.",
       "Neither the Garmen nor the Mike-sourced bag discloses a factory; do not infer one."
@@ -1068,7 +1076,9 @@
       "ev-crawl-rrl-chanel-25-1s95ped",
       "ev-crawl-rrl-chanel-25-1t3sfuv",
       "ev-crawl-rrl-chanel-25-1nz49xs",
-      "ev-crawl-rt-loewe-flamenco-1pnaslm"
+      "ev-crawl-rt-loewe-flamenco-1pnaslm",
+      "ev-crawl-rt-chanel-25-1p0yiru",
+      "ev-crawl-rrl-dior-lady-dior-1snk11p"
     ],
     "documented_sizes": [
       "Small",
@@ -1084,8 +1094,8 @@
       "ruthenium hardware reported"
     ],
     "evidence_coverage": {
-      "source_count": 6,
-      "independent_author_count": 6,
+      "source_count": 8,
+      "independent_author_count": 7,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepTherapy"

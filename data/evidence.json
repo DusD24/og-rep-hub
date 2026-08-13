@@ -3973,5 +3973,203 @@
       "No factory is named for either bag, so this cannot support factory-specific reliability signals.",
       "The final quality assessment (\"soft leather, no chemical smell\") is brief relative to the amount of seller-process detail."
     ]
+  },
+  {
+    "id": "ev-crawl-rt-chanel-25-1p0yiru",
+    "title": "Eeeek! 😍",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1p0yiru/eeeek/",
+    "subreddit": "RepTherapy",
+    "author": "BornLocal9767",
+    "publication_date": "2025-11-19",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A first-impressions in-hand post for a brown Chanel 25 bought from Doris and attributed to God factory, reporting the leather quality as excellent and a fresh new-leather smell on opening.",
+    "positive_observations": [
+      "Names seller and factory together with an in-hand sensory report (leather feel and smell), not a photo-only impression."
+    ],
+    "negative_observations": [
+      "Very brief; no stitching, hardware, or measurement detail, and no authentic comparison.",
+      "First-day impression only, with no durability information."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-chanel-classic-flap-1p8zhc5",
+    "title": "Chanel classic flap PSPs from Doris’ Black Friday sale - too pretty not to share",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1p8zhc5/chanel_classic_flap_psps_from_doris_black_friday/",
+    "subreddit": "RepTherapy",
+    "author": "RepTherapyIsMyCardio",
+    "publication_date": "2025-11-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A buyer reports PSP photos for a black Chanel Classic Flap in caviar leather with gold hardware, bought from Doris during a Black Friday sale and attributed to God factory specifically for its reputation for high quality, and calls the PSPs immaculate.",
+    "positive_observations": [
+      "Names seller and factory together with a specific leather/hardware combination and an explicit reason for choosing that factory."
+    ],
+    "negative_observations": [
+      "\"Immaculate\" is an unstructured, enthusiasm-driven assessment with no specific construction detail called out.",
+      "PSP stage only; no in-hand or post-delivery follow-up."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1snk11p",
+    "title": "Rant. Am I overreacting?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1snk11p/rant_am_i_overreacting/",
+    "subreddit": "RealRepLadies",
+    "author": "dansadgucci",
+    "publication_date": "2026-04-16",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "seller_context",
+    "family_ids": [
+      "bag-family-dior-lady-dior",
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "paraphrase": "A year-long customer of a seller they identify only as \"Annie\" (not in this catalog's roster) reports a pattern of poor packaging on a recent combined order: one Chanel 25 arrived without a box and was crushed, and a Lady Dior and a second Chanel 25 both arrived dented after being boxed together with jewelry in one shipment; the buyer attributes the damage to packaging and shipping choices rather than to the bags' construction, and asks whether ending the seller relationship over it would be an overreaction.",
+    "positive_observations": [
+      "A specific, dated complaint with photos referenced (not shown here) rather than a vague dissatisfaction.",
+      "Distinguishes packaging/shipping damage from a build-quality defect, which keeps the observation honest about what it does and does not show."
+    ],
+    "negative_observations": [
+      "The seller (\"Annie\") is not in this catalog's roster, so this cannot be attached to a tracked seller.",
+      "No factory is named for either bag, and the damage described is transit-related rather than evidence of the bags' own construction quality."
+    ]
+  },
+  {
+    "id": "ev-crawl-rlw-balenciaga-rodeo-1qkhtm8",
+    "title": "Women's Rodeo Sling Pochette Hardware Advice",
+    "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1qkhtm8/womens_rodeo_sling_pochette_hardware_advice/",
+    "subreddit": "RepLadiesWorld",
+    "author": "mini-eggie",
+    "publication_date": "2026-01-23",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-balenciaga-rodeo"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-reykay"
+    ],
+    "factory_ids": [
+      "factory-kata"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A prospective buyer compares seller-supplied Kata factory photos of a Balenciaga Rodeo Sling Pochette in gold hardware, sourced from ReyKay's album, against authentic reference photos, and reports the pochette's hardware reads as a lighter yellow than the authentic's more golden tone, while Kata's rendering of the full-size Rodeo handbag (not the pochette) matches the authentic tone more closely; they ask whether this is a meaningful concern.",
+    "positive_observations": [
+      "A specific, checkable attribute (hardware tone) compared directly against authentic reference photos, with a size/style distinction noted (pochette vs. full bag) rather than treating the whole line as identical.",
+      "Names both the factory and the specific seller's album the photos came from."
+    ],
+    "negative_observations": [
+      "Pre-purchase and photo-based only; nothing has been inspected in hand.",
+      "No verdict is reached in the source; the buyer asks the community rather than reporting a conclusion."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1oezfzw",
+    "title": "Aiden 11:11 Loewe Puzzle",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1oezfzw/aiden_1111_loewe_puzzle/",
+    "subreddit": "RepTherapy",
+    "author": "Dee5211",
+    "publication_date": "2025-10-24",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": "Inquired 12 October; PSP received 16 October; delivered 23 October, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-aiden"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A dated review of a small Loewe Puzzle bought from seller Aiden, reporting a smooth inquiry-to-delivery process and a positive impression of quality, without further construction detail.",
+    "positive_observations": [
+      "Gives a specific dated timeline from inquiry through PSP to delivery."
+    ],
+    "negative_observations": [
+      "\"Impressed by the quality\" is not accompanied by any specific construction, leather, or hardware detail.",
+      "A second order for an unrelated Balenciaga Rodeo is mentioned but not yet received, so it is excluded from this record's attribution."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-ferragamo-hug-1ublsv2",
+    "title": "Ferragamo Large Soft Hug Bag",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ublsv2/ferragamo_large_soft_hug_bag/",
+    "subreddit": "RealRepLadies",
+    "author": "soxsr",
+    "publication_date": "2026-06-21",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": "Ordered 12 June; PSPs received 13 June; delivered 21 June, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-ferragamo-hug"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A detailed in-hand review of a Ferragamo Hug Soft Large in black with an oxblood interior, bought from a seller identified as Vincent (not in this catalog's roster): the reviewer reports soft, thick-but-flexible leather with slightly more texture than what they believe the smooth authentic calfskin to be, functional turnlock hardware needing a light wipe after unpacking, no unusual smell, a correct Ferragamo wordmark rendered in a sans-serif rather than the authentic's serif font, and confirmation from the seller that a crossbody strap (available on smaller sizes) is not offered for the large, matching the authentic's own configuration.",
+    "positive_observations": [
+      "Unusually granular construction detail: hardware finish, interior lining, leather texture relative to a stated authentic comparison, and a specific logo-font discrepancy.",
+      "Reports a real, if minor, imperfection (the font variance and slightly textured leather) rather than uniform praise, and gives a full dated timeline."
+    ],
+    "negative_observations": [
+      "The seller (\"Vincent\") is not in this catalog's roster, so this cannot be attached to a tracked seller, and no factory is named.",
+      "Single reviewer; no independent corroboration of this colourway."
+    ]
   }
 ]
