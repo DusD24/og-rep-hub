@@ -19789,10 +19789,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rmswkg": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: Speedy P9 entry conflicts on exact size/model: title says Speedy 25 while item text says indigo 35; decline rather than normalize a misattributed variant"
     },
     "t3_1rmv95o": {
       "disposition": "deferred",
@@ -25594,10 +25594,13 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1sm2h7g": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1sm2h7g"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 78)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sm2qbz": {
       "disposition": "deferred",
@@ -28642,10 +28645,13 @@
       "reason": "backfilled from committed evidence"
     },
     "t3_1t0xs1f": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1t0xs1f"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1t0yb4e": {
       "disposition": "deferred",
@@ -28693,10 +28699,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1t1from": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1t1from"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 78)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1t1fx08": {
       "disposition": "deferred",
@@ -42082,10 +42091,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uwblq2": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 78)"
+      "reason": "reviewed and not promoted: buyer raises only a vague stitching concern, receives no concrete independent defect assessment, and ultimately cannot identify an issue beyond wanting general reassurance"
     },
     "t3_1uwc7l4": {
       "disposition": "deferred",
