@@ -24807,5 +24807,68 @@
     "negative_observations": [
       "The source does not state seller, factory, color, material, authentic reference, or whether the drawstring was replaced or corrected."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1tfuip6",
+    "title": "Just unboxed my chanel 25.",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1tfuip6/just_unboxed_my_chanel_25/",
+    "subreddit": "RealRepLadies",
+    "author": "Turbulent-Alfalfa136",
+    "publication_date": "2026-05-17",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25 as titled; size, color, material, seller, and factory are not stated.",
+    "paraphrase": "Immediately after unboxing a Chanel 25, the owner reports that the diamond quilting has the desired puffiness and that the hardware feels notably heavy and luxurious.",
+    "positive_observations": [
+      "The short in-hand note records two concrete physical observations: quilt puffiness and hardware weight/feel.",
+      "The post identifies the product as a Chanel 25 and describes the observations as made after unboxing."
+    ],
+    "negative_observations": [
+      "No size, color, material, seller, factory, wear period, authentic reference, or issue-resolution detail is provided."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1syh1yk",
+    "title": "QC? Speedy Soft 30 Lucky",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1syh1yk/qc_speedy_soft_30_lucky/",
+    "subreddit": "RealRepLadies",
+    "author": "Turtlebech",
+    "publication_date": "2026-04-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy Soft 30 Lucky; color, material, factory, and normalized seller attribution are not stated. The source names Rainbowbags on DHG, which is not attached as a public seller entity.",
+    "paraphrase": "After receiving a Speedy Soft 30 Lucky without the promised pre-shipment photos, the owner questions whether the lining is leather and whether the handles are correct, and compares the rep lock and keychain with an authentic Empreinte Speedy reference. The rep lock is described as visibly different, and the keychain has a white piece the owner considers a possible authenticity tell.",
+    "positive_observations": [
+      "The post makes a direct same-line comparison between the rep lock and an authentic Empreinte Speedy lock and records a specific visible difference.",
+      "It preserves concrete in-hand concerns about the lining, handles, and the keychain's white piece without assigning a factory or normalized seller entity."
+    ],
+    "negative_observations": [
+      "The lining and handle concerns are unresolved, the source does not identify the material or factory, and the author received no promised pre-shipment photos.",
+      "The keychain point is the owner's suspicion rather than a verified authenticity finding."
+    ]
   }
 ]
