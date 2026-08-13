@@ -9833,10 +9833,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1pdtx83": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: This is a pre-purchase request for opinions on cropped Instagram stock photos of a Chanel Classic Flap. The only comment asks about price, so it provides no received-bag QC, wear, factory, or authentic-comparison evidence."
     },
     "t3_1pdvfw2": {
       "disposition": "rejected",
@@ -20338,10 +20338,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rqchke": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrlw-chanel-25-1rqchke"
+      ],
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1rqhnbm": {
       "disposition": "deferred",
@@ -28714,10 +28717,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t183b3": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1t183b3"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1t1dywx": {
       "disposition": "promoted",
@@ -35839,10 +35845,13 @@
       "reason": "reviewed and not promoted: Same-author Puzzle tote PSP follow-up is a bare QC request and duplicate transaction context after the author's specific Puzzle tote PSP at t3_1u1wguy; it reports no new product observation."
     },
     "t3_1u1zrj1": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1u1zrj1"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1u20yaf": {
       "disposition": "deferred",
@@ -35920,10 +35929,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u27s5e": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The Chanel 25 Mini PSP post has no captured body text, comments, or resolved QC observations. Image-only evidence without a readable public claim is not promoted in this pass."
     },
     "t3_1u2aihs": {
       "disposition": "deferred",
