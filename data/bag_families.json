@@ -1687,7 +1687,8 @@
       "ev-crawl-rrl-chanel-25-1v2br7l",
       "ev-crawl-rlw-chanel-25-1p1ej75",
       "ev-crawl-rrl-chanel-25-1qx4qb3",
-      "ev-crawl-rrl-chanel-25-1vdrecm"
+      "ev-crawl-rrl-chanel-25-1vdrecm",
+      "ev-crawl-rcb-chanel-25-1tu83g2"
     ],
     "documented_sizes": [
       "Small",
@@ -1703,8 +1704,8 @@
       "ruthenium hardware reported"
     ],
     "evidence_coverage": {
-      "source_count": 77,
-      "independent_author_count": 64,
+      "source_count": 78,
+      "independent_author_count": 65,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",

@@ -23242,5 +23242,38 @@
     "negative_observations": [
       "The owner reports an off color, misaligned logo, and squeaky-feeling leather; there is no factory attribution or longer-term wear result, and the return discussion is excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rcb-chanel-25-1tu83g2",
+    "title": "QC Chanel 25 mini",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1tu83g2/qc_chanel_25_mini/",
+    "subreddit": "RepCulture_Bags",
+    "author": "WildAd9289",
+    "publication_date": "2026-06-01",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25 Mini PSP attributed by the source to 187; color, material, hardware, seller, and delivery status are not stated.",
+    "paraphrase": "A 187-attributed Chanel 25 Mini PSP is questioned as potentially too shiny, with the buyer unsure whether the appearance comes from lighting or the batch.",
+    "positive_observations": [
+      "The post identifies the Chanel 25 Mini and source-reported 187 attribution.",
+      "It isolates a concrete PSP finish concern and preserves the uncertainty between lighting and batch variation."
+    ],
+    "negative_observations": [
+      "The shine concern is unresolved at PSP stage, and the source does not state the exact color, material, hardware, seller, or delivery result."
+    ]
   }
 ]

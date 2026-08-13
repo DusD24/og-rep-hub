@@ -15526,10 +15526,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qu68zf": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 43)"
+      "reason": "reviewed and not promoted: image-only auth-shopping reference with no textual feature observation or identifiable owned rep evidence"
     },
     "t3_1qu8npr": {
       "disposition": "deferred",
@@ -18586,10 +18586,10 @@
       "reason": "reviewed and not promoted: pre-purchase comparison based on marketing and a YouTube video; no bag owned by either brand"
     },
     "t3_1rf01kd": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 43)"
+      "reason": "reviewed and not promoted: pre-purchase poll asking which additional bags to order, without evidence-specific observations"
     },
     "t3_1rf56jv": {
       "disposition": "rejected",
@@ -19486,10 +19486,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1rlcjo4": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 89)"
+      "reason": "reviewed and not promoted: bare Chanel 25 PSP request saying only that the bag seems off without a concrete observation"
     },
     "t3_1rldt9x": {
       "disposition": "deferred",
@@ -24574,10 +24574,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1shbxp0": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 43)"
+      "reason": "reviewed and not promoted: product-announcement and availability question about a new Flamenco Coil with no rep evidence"
     },
     "t3_1shc3du": {
       "disposition": "deferred",
@@ -25015,10 +25015,10 @@
       "reason": "reviewed and not promoted: Mixed-order enthusiasm and seller praise for two Speedys plus a Cappucines, with only broad craftsmanship language and redacted contact information; no sufficiently specific target-bag evidence."
     },
     "t3_1sjswsm": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: pre-purchase request asking whether a newly released Speedy 18 has been repped; no product evidence is reported"
     },
     "t3_1sjtfk1": {
       "disposition": "rejected",
@@ -25759,10 +25759,10 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1sna9ml": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: generic HP Speedy Soft 30 PSP praise focused on lush slouch and a green-light request without a concrete discrepancy"
     },
     "t3_1snc66s": {
       "disposition": "deferred",
@@ -29195,10 +29195,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t50a8g": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: pre-purchase best-factory request based on second-hand claims about neon color, with no owned or PSP comparison"
     },
     "t3_1t51a0f": {
       "disposition": "rejected",
@@ -31322,10 +31322,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tgak3s": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 89)"
+      "reason": "reviewed and not promoted: generic first-purchase QC request saying the 187 Chanel 25 looks good without a specific check or discrepancy"
     },
     "t3_1tgcak2": {
       "disposition": "deferred",
@@ -33997,10 +33997,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tu83g2": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rcb-chanel-25-1tu83g2"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 89)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1tu83hi": {
       "disposition": "promoted",
