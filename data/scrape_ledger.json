@@ -18523,10 +18523,13 @@
       "reason": "reviewed and not promoted: Generic Solferino praise with no material, construction, seller, or factory observation; Solferino is also not a catalogued family in this pass."
     },
     "t3_1rcqyq3": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1rcqyq3"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1rcvt3v": {
       "disposition": "rejected",
@@ -38280,10 +38283,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ucp1j1": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "reviewed and not promoted: This is an exact crosspost of the already-promoted Speedy Nano Eden post at the RealRepLadies URL, with the same author, date, title, and text. It adds no new comments or evidence and is declined as a duplicate crosspost."
     },
     "t3_1ucp20g": {
       "disposition": "promoted",
@@ -39874,10 +39877,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ujjbhj": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: This is a Chanel Classic Flap card-holder QC post, not a catalogued bag variant. The comments only give generic approval plus unresolved gloss and quilting-puffiness concerns, so attaching it to the bag family would misattribute SLG evidence."
     },
     "t3_1ujl574": {
       "disposition": "rejected",
@@ -40147,7 +40150,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "reviewed and deferred: Keepall 45 is not a catalogued family. The post is mostly seller praise and solicitation, so it remains deferred for a separate catalog decision and is not attached to Speedy."
+      "reason": "reviewed and deferred: Keepall 45 is not a catalogued family. The post remains seller praise and solicitation without product-quality detail, so it stays deferred for a separate catalog decision and is not attached to Speedy."
     },
     "t3_1ukvx1z": {
       "disposition": "deferred",
@@ -42841,10 +42844,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1v0gzj0": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The post discusses whether a new Chanel collection print might eventually be repped. The comments are wishful or aesthetic praise and do not document a received product, QC, wear, factory comparison, or authentic comparison."
     },
     "t3_1v0jn49": {
       "disposition": "rejected",
@@ -43336,10 +43339,13 @@
       "reason": "triage score 9 below floor 30"
     },
     "t3_1v344z7": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1v344z7"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1v34gkq": {
       "disposition": "rejected",

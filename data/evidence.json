@@ -27039,5 +27039,69 @@
       "The comparison is an uncontrolled single-person account about a separate Chanel 25 caviar bag; it provides no standardized photos, measurements, seller, factory, batch, or long-term wear evidence.",
       "The surrounding thread is mostly confidence advice, generic authenticity debate, and vendor requests; those claims and private-message exchanges are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1v344z7",
+    "title": "Change in chanel 25 pocket size",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1v344z7/change_in_chanel_25_pocket_size/",
+    "subreddit": "RealRepLadies",
+    "author": "allyrox321",
+    "publication_date": "2026-07-22",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "The post owner identifies a new Chanel 25 Small and asks about its shorter pocket and lack of interior pockets after comparing it with another C25. Comments from owners report early or first-version C25 Small construction with a shorter pocket and two top-stitch lines versus later longer pockets and one top-stitch line; other comments date the change as late-2024 25C to early-2025 25S. Material, color, seller, factory, batch, and controlled measurements for the post owner's bag are not established.",
+    "paraphrase": "An owner of a new Chanel 25 Small notices that its pockets differ from an older C25 and asks which versions used shorter pockets or no interior pockets. Other owners report that early C25 Small versions had shorter pockets and two lines of stitching at the top, while later versions used longer pockets and one line; one comment places the change around late-2024 25C and early-2025 25S. The thread presents version context without resolving the exact production details of the owner's bag.",
+    "positive_observations": [
+      "The discussion records concrete construction differences—pocket length, interior-pocket presence, and single-versus-double top stitching—for the Chanel 25 Small.",
+      "Multiple owner comments preserve a production-version explanation, including a source-reported 25C-to-25S timing, rather than automatically treating every pocket difference as a defect."
+    ],
+    "negative_observations": [
+      "The version timeline is an anecdotal owner report with no standardized measurements or controlled authentic comparison, and the post owner's material, color, seller, factory, and batch are not stated.",
+      "The thread does not establish which exact production version the received bag represents or whether the reported pocket construction is expected for that specific bag."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1rcqyq3",
+    "title": "A couple new attachments for both of us 🤪",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1rcqyq3/a_couple_new_attachments_for_both_of_us/",
+    "subreddit": "RepTherapy",
+    "author": "chokemeowt",
+    "publication_date": "2026-02-23",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "long_term_wear",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "The owner identifies a Louis Vuitton Speedy Soft 30 Eclipse and reports using it for several months; the bag has softened, become very slouched, and collapses inward from both sides. Seller and factory are not established; the owner calls the material canvas but does not state a material subtype, color beyond Eclipse, measurements, or batch. Personal recovery details, jewelry styling, and an unassessed canvas-conditioning method are excluded from the public record.",
+    "paraphrase": "After several months with a Speedy Soft 30 Eclipse, the owner says the bag has softened into a very slouched shape and now collapses toward the middle from both sides. The post is primarily a styling update, but the owner and a follow-up comment provide a concrete long-term wear observation. No seller, factory, measurements, or baseline-versus-current comparison is supplied.",
+    "positive_observations": [
+      "The post identifies the Speedy Soft 30 Eclipse and gives a multi-month use period for the reported change in hand and structure.",
+      "The owner describes a specific wear result—softening with inward collapse from both sides—rather than only expressing generic approval."
+    ],
+    "negative_observations": [
+      "The report is subjective and does not document measurements, load, baseline structure, seller, factory, batch, or other long-term condition outcomes.",
+      "The thread contains unrelated personal recovery and styling discussion; a separate, unverified canvas-conditioning method is not presented as a recommendation or quality finding."
+    ]
   }
 ]
