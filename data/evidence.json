@@ -30987,5 +30987,41 @@
       "Seller Mina is not normalized, and color, material, size, and batch are not stated; the post does not establish that Royal resolves the concerns."
     ],
     "exact_variant_note": "Louis Vuitton Soft Speedy Eden at PSP/QC stage with source-reported Royal Factory attribution; seller Mina is not normalized and color, material, size, and batch are not stated."
+  },
+  {
+    "id": "ev-crawl-rt-chanel-classic-flap-1u255hr",
+    "title": "Help QC",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1u255hr/help_qc/",
+    "subreddit": "RepTherapy",
+    "author": "Zealousideal-Bat1961",
+    "publication_date": "2026-06-10",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A 187-attributed Chanel Classic Flap PSP from Baobao asks for feedback because the diamond alignment looks less even than examples the author has seen.",
+    "positive_observations": [
+      "The post identifies a Chanel Classic Flap, source-reported 187 Factory attribution, and seller Baobao.",
+      "The author records a specific diamond-alignment concern rather than asking for a generic quality rating."
+    ],
+    "negative_observations": [
+      "The concern is photo-based and unresolved in the captured PSP post; there is no received-bag or wear follow-up.",
+      "Color, size, material, hardware variant, batch, and authentic comparison are not stated."
+    ],
+    "exact_variant_note": "Chanel Classic Flap at PSP/QC stage with source-reported 187 Factory attribution and seller Baobao; color, size, material, hardware variant, and batch are not stated."
   }
 ]
