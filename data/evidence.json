@@ -25845,5 +25845,73 @@
       "The bag was not received and no final seller response is documented; color, material, seller normalization, and factory are not established.",
       "The PE/AH24 and monogram observations come from public commenters and remain unresolved; payment details are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1iuyu78",
+    "title": "Help: Small Chanel QC Heidi 187",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1iuyu78/help_small_chanel_qc_heidi_187/",
+    "subreddit": "RealRepLadies",
+    "author": "prerichblkgirl",
+    "publication_date": "2025-02-21",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-heidi"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel small classic double flap in white caviar with light-gold hardware, attributed to 187 Factory through Heidi in the title. The received-bag thread compares PSP photos with another customer's bag: one commenter says the images appear reused, while others identify different shadows, string positions, stitching, and other details. The source does not resolve the concern; payment, contact, and external image links are excluded.",
+    "paraphrase": "A buyer reports receiving a white caviar small Chanel classic double flap attributed to 187 Factory through Heidi and describes it as nearly perfect. The discussion then examines whether the PSP photos for this bag were reused for another customer's bag: one commenter says the photos look identical, while other side-by-side comparisons point to different shadows, string positions, and stitching. The PSP-photo question remains unresolved.",
+    "positive_observations": [
+      "The thread identifies the small double-flap size, white caviar, light-gold hardware, normalized Heidi seller, and 187 attribution.",
+      "It preserves a concrete PSP-photo comparison and the competing visual observations instead of converting the discussion into a definitive reused-photo or authentic-quality claim."
+    ],
+    "negative_observations": [
+      "The author provides broad in-hand praise but no detailed wear report, and the public comments do not reach a consensus about whether the PSP images were reused.",
+      "The source does not provide an independent same-model physical authentic comparison; payment, contact, and external media are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1nex95j",
+    "title": "First rep Chanel 25 QC check",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1nex95j/first_rep_chanel_25_qc_check/",
+    "subreddit": "RealRepLadies",
+    "author": "RideWorried4881",
+    "publication_date": "2025-09-12",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25 Small in black caviar, with color and material described in the comments. The buyer says the source was an unnamed Vietnamese seller; one commenter attributes the visual issues to 187 while another disputes that attribution, so no public factory entity is attached. The thread includes an authentic Chanel 25 reference and explains that some bottom wrinkling came from storage; payment, private-message, and external media details are excluded.",
+    "paraphrase": "A buyer asks for QC on a black caviar Chanel 25 Small. Commenters raise specific concerns about bottom quilting alignment, rough grinding in the hardware groove, black color depth, caviar feel, bottom wrinkling, and covered side pockets; the owner explains that storage caused some wrinkles and removes the protective covers. Other comments compare the bag with an authentic Chanel 25 and disagree on overall quality, while factory attribution is disputed between 187 and an unknown source.",
+    "positive_observations": [
+      "The thread identifies the Chanel 25 Small and preserves feature-level observations about quilting, hardware finishing, caviar surface, color, and wrinkling.",
+      "It records the public authentic-reference comparison and distinguishes the resolved protective-cover issue and storage-related wrinkle explanation from unresolved construction concerns."
+    ],
+    "negative_observations": [
+      "The public comments conflict on the bag's overall quality and factory attribution; no final seller response or outcome is documented.",
+      "Storage is a stated confounder for the wrinkles, the seller is not normalized, and payment, private-message, and external media details are excluded."
+    ]
   }
 ]

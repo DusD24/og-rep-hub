@@ -1250,10 +1250,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1iuyu78": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1iuyu78"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 81)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1iv57w2": {
       "disposition": "deferred",
@@ -5087,10 +5090,13 @@
       "reason": "reviewed and not promoted: Rodeo work-bag post is a pre-purchase capacity and style question with no owned-product evidence."
     },
     "t3_1nex95j": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1nex95j"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1nf730o": {
       "disposition": "rejected",
@@ -13462,7 +13468,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-12",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 45)"
+      "reason": "above floor but outside the daily cap (priority 53)"
     },
     "t3_1qhdx2r": {
       "disposition": "deferred",
@@ -21541,10 +21547,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1rycean": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: bare Speedy Soft 30 PSP request with no described QC observation; the only comment asks about interior material"
     },
     "t3_1ryiv2d": {
       "disposition": "rejected",
@@ -23872,16 +23878,16 @@
       "reason": "reviewed and not promoted: pre-purchase candy-pink Speedy size and factory recommendation request without a received-bag observation"
     },
     "t3_1scg5nv": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: bare Speedy 40 PSP request followed only by generic stitching, smell, and recommendation praise without specific comparison detail"
     },
     "t3_1scg6d9": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: bare Speedy 30 PSP with one vague stitching comment and an unverified seller-owned-factory claim, not enough specific evidence to normalize"
     },
     "t3_1scg748": {
       "disposition": "rejected",
@@ -36076,10 +36082,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u3lp3a": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 82)"
+      "reason": "reviewed and not promoted: pre-purchase preorder question with no owned bag or product observation"
     },
     "t3_1u3nj53": {
       "disposition": "deferred",
@@ -37881,10 +37887,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1ubcatq": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 82)"
+      "reason": "reviewed and not promoted: received post contains generic praise and a seller/factory label but no feature-level construction, wear, or comparison observation"
     },
     "t3_1ube4pg": {
       "disposition": "deferred",
