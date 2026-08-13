@@ -9007,5 +9007,98 @@
     "negative_observations": [
       "Size, color, seller, and direct authentic comparison are not stated, so the close-to-auth assessment remains a single in-hand report."
     ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1ul8lna",
+    "title": "Loewe Puzzle bag large QC (Mandy(",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ul8lna/loewe_puzzle_bag_large_qc_mandy/",
+    "subreddit": "RepTherapy",
+    "author": "Vast-Oven",
+    "publication_date": "2026-07-02",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC request for a Loewe Puzzle Edge Large (33cm) from Mandy reports a not-very-clean interior ‘made in Spain’ stamp, a potentially uneven top-left stitch or larger stitch, faint marks on the straps, and no hardware photos; the author says the bag otherwise looks clean, the interior colour is correct, and the authentic reference has no feet.",
+    "positive_observations": [
+      "The post identifies the exact Puzzle Edge Large 33cm variant and reports a clean-looking bag, generally straight-looking stitching, correct interior colour, and no feet on the authentic reference."
+    ],
+    "negative_observations": [
+      "The interior ‘made in Spain’ stamp is described as not very clean.",
+      "The author sees possibly uneven stitching or a larger stitch at the top left, faint marks on the straps, and no hardware images; some of the stitching concern may be an image artifact, and Liu is left unattributed because it is not a catalogued factory."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-the-row-margaux-1tq14xa",
+    "title": "The row Margaux shoulder 12 from Kendall Factory",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1tq14xa/the_row_margaux_shoulder_12_from_kendall_factory/",
+    "subreddit": "RepTherapy",
+    "author": "acloud09",
+    "publication_date": "2026-05-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-the-row-margaux"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-kendall",
+      "factory-masoni"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand report of a The Row Margaux Shoulder 12 from Kendall says the bag otherwise looks perfect and the Masoni leather is on point, but one side arrived with noticeable grain that the author considers potentially problematic.",
+    "positive_observations": [
+      "The author reports that the Margaux Shoulder 12 arrived looking perfect overall and describes the Masoni leather as on point."
+    ],
+    "negative_observations": [
+      "One side of the leather has noticeable grain, and the author asks whether that variation is significant."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-neverfull-1vb78k4",
+    "title": "Is the color accurate?",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1vb78k4/is_the_color_accurate/",
+    "subreddit": "RepTherapy",
+    "author": "LeeLee_1891",
+    "publication_date": "2026-07-30",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand post about a Neverfull GM in Damier Azur from OC records excitement on unboxing, then notes that its colour looks very different from the author’s separate Speedy from Royal and asks whether the Neverfull colour is accurate.",
+    "positive_observations": [
+      "The post identifies the exact Neverfull GM Damier Azur variant and records the author’s in-hand color comparison after unboxing."
+    ],
+    "negative_observations": [
+      "The Neverfull’s colour appeared very different from a separate Speedy attributed to Royal; the post does not establish which colour is correct against an authentic reference, so the Royal attribution is not attached to the Neverfull."
+    ]
   }
 ]
