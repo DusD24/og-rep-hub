@@ -26303,5 +26303,69 @@
       "The post body is a generic QC request, the material description comes from comments, and the commenters do not document a final seller response or received-bag outcome.",
       "Color, seller, and factory are not stated; the dry-looking assessment is a separate subjective comment and payment/contact details are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rcb-chanel-25-1tbyqri",
+    "title": "Chanel 25",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1tbyqri/chanel_25/",
+    "subreddit": "RepCulture_Bags",
+    "author": "Human_Cake_5873",
+    "publication_date": "2026-05-13",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25, with no size, color, or material stated in the captured text. The post attributes the bag to Xiao C, which is not a normalized public factory entity; a commenter compares this bag's leather shine with their own 187 bag and says the 187 was too shiny. Seller Emma Miss Lee is source-reported but not normalized; contact, payment, and private-message details are excluded.",
+    "paraphrase": "A first-purchase Chanel 25 attributed by the source to Xiao C receives a public comparison in which another commenter says its leather has the right amount of shine, unlike their own 187 bag, which was too shiny. Other comments praise the hardware, but the owner does not provide a detailed material or wear report and the source/factory comparison remains anecdotal.",
+    "positive_observations": [
+      "The thread identifies the Chanel 25 and preserves a concrete leather-sheen comparison between a source-reported Xiao C bag and another user's 187 bag.",
+      "It records the separate hardware praise without converting general enthusiasm or the source-reported factory labels into a public quality verdict."
+    ],
+    "negative_observations": [
+      "The owner provides little feature detail beyond the purchase context, and the shine comparison comes from another commenter rather than a controlled same-model comparison.",
+      "Size, color, material, seller normalization, factory normalization, and wear outcome are not established; contact, payment, and private-message details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-chanel-25-1s9gcjz",
+    "title": "[AU] just trying to feel like a person again",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1s9gcjz/au_just_trying_to_feel_like_a_person_again/",
+    "subreddit": "RepTherapy",
+    "author": "Fluffy_Programmer_58",
+    "publication_date": "2026-04-01",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25 Medium, identified by the author in a follow-up comment; color, material, factory, and normalized seller are not stated. The author reports that a 16-inch laptop fits inside. General emotional support, seller contact, and an unverified comment about another buyer's transaction are excluded.",
+    "paraphrase": "A received Chanel 25 Medium is described as an easy-to-carry personal comfort and, in a follow-up, the owner says it fits a 16-inch laptop. The post otherwise focuses on emotional comfort and broad appearance praise; it does not state material, color, factory, or longer-term wear.",
+    "positive_observations": [
+      "The review identifies the Chanel 25 Medium and preserves a concrete in-hand capacity observation: a 16-inch laptop fits inside.",
+      "It distinguishes the useful size/capacity note from the post's personal narrative and generalized appearance praise."
+    ],
+    "negative_observations": [
+      "No dimensions, material, color, factory, authentic comparison, or wear period are stated, so the capacity note should not be generalized beyond this owner's bag.",
+      "The source-reported seller and later unverified seller allegation are excluded; no transaction or contact details are published."
+    ]
   }
 ]
