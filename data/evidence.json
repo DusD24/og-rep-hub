@@ -31253,5 +31253,106 @@
       "Seller Sky and factory status are source-reported/unknown and not normalized, and exact size, batch, and color code are not stated."
     ],
     "exact_variant_note": "White caviar Chanel Vanity Case with gold hardware at PSP/QC stage; seller Sky is not normalized, factory is unknown, and exact size/batch are not stated."
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1v8xsnw",
+    "title": "187 vs Unknown Factory Medium Classic Flap – Is the difference worth [payment amount redacted]? Warning: Extremely Long)",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1v8xsnw/187_vs_unknown_factory_medium_classic_flap_is_the/",
+    "subreddit": "RealRepLadies",
+    "author": "soxsr",
+    "publication_date": "2026-07-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187",
+      "factory-unknown"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An owner compares a received Medium Classic Flap attributed to 187 Factory with a received Small Classic Flap described as Unknown Factory after carrying both. The 187 is reported as drier and more structured, with a flatter flap, fuller quilting, and slightly sharper CC-turnlock machining; the Unknown has softer, glossier leather and warmer yellow hardware but is still described as very good after reshaping.",
+    "positive_observations": [
+      "The post records a direct received-bag comparison across Medium and Small Classic Flap variants, including leather feel, structure, flap shape, quilting, hardware color, chain weight, and interior finishing.",
+      "The author reports that both bags have substantial-feeling chains and clean stitching, while the 187 has a drier leather feel and the Unknown has a warmer hardware tone and softer leather.",
+      "The source explicitly attributes one bag to 187 Factory and describes the other as Unknown Factory; the latter is not upgraded to a named factory conclusion."
+    ],
+    "negative_observations": [
+      "The post is one owner's subjective side-by-side account and does not establish a batch, seller, colorway, or material specification beyond its reported leather and hardware comparisons.",
+      "Payment amounts and private seller-contact context are redacted or omitted; the Unknown Factory bag remains unattributed beyond the author's label."
+    ],
+    "exact_variant_note": "Two received Chanel Classic Flap variants are discussed: a Medium attributed to 187 Factory and a Small described as Unknown Factory. Colorway, exact material, batch, and normalized seller attribution are not stated."
+  },
+  {
+    "id": "ev-crawl-rt-chanel-25-1ql7061",
+    "title": "REVIEW: C25 in size small with RHW from OF",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ql7061/review_c25_in_size_small_with_rhw_from_of/",
+    "subreddit": "RepTherapy",
+    "author": "so-juju",
+    "publication_date": "2026-01-23",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "PSP received January 8; bag received January 21 after the January 6 order, as reported in the post.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An owner reviews a received Small Chanel 25 in black grained calfskin with ruthenium hardware, source-described as from OF. They report leather that feels close to an authentic comparison but thinner when pinched, good-weight hardware, a normal-to-them chain squeak, and one inner flap ear that is unusually thin and wrinkly.",
+    "positive_observations": [
+      "The post identifies the Small size, black grained calfskin, and ruthenium hardware and describes the bag after receipt rather than only from PSPs.",
+      "The author says the leather feels close to an authentic Chanel comparison and that the hardware has good weight.",
+      "The review preserves a specific negative observation: one inner flap ear is described as extremely thin and wrinkly, while the author says the other side is fine and the issue is not enough to deter another order."
+    ],
+    "negative_observations": [
+      "OF is a source-reported factory label and is not mapped to a normalized public factory ID here; seller, batch, and exact sourcing details are not normalized.",
+      "The observations come from one received bag and do not establish whether the thin inner flap area is batch-wide; the chain-squeak comment is the author's personal comparison with authentic bags."
+    ],
+    "exact_variant_note": "Received Small Chanel 25 in black grained calfskin with ruthenium hardware; the post source-describes the factory as OF, but no normalized factory, seller, or batch is assigned."
+  },
+  {
+    "id": "ev-crawl-rlw-chanel-25-1urdili",
+    "title": "First replica bag what do y’all think",
+    "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1urdili/first_replica_bag_what_do_yall_think/",
+    "subreddit": "RepLadiesWorld",
+    "author": "Elegant_Dot_3149",
+    "publication_date": "2026-07-09",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "After receiving a Chanel 25 Mini from a source-described OF Factory, a first-time owner asks whether the top-edge stitches look normal and whether the bag looks close to authentic; apart from that concern, they say it looks great.",
+    "positive_observations": [
+      "The post identifies a received Chanel 25 Mini and points to a concrete construction concern at the stitches along the top edges.",
+      "The author frames the question against an authentic comparison and records that the rest of the bag looked good to them."
+    ],
+    "negative_observations": [
+      "The post does not document an independent QC response, wear outcome, colorway, material, batch, or seller; the OF label remains source-reported and unnormalized.",
+      "This is a brief received-bag QC question rather than a detailed review, so the stitch concern is not treated as a confirmed defect."
+    ],
+    "exact_variant_note": "Received Chanel 25 Mini; source reports OF Factory, but colorway, material, batch, seller, and normalized factory attribution are not stated."
   }
 ]

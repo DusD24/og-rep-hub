@@ -779,7 +779,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "Exact item is a Bottega Veneta Teen Jodie, not the existing Andiamo family; preserve its specific seam PSP/QC concern for a separate Jodie catalog decision."
+      "reason": "Exact item is a Bottega Veneta Teen Jodie, not the existing Andiamo family; preserve its seam PSP/QC question for a separate Jodie catalog decision."
     },
     "t3_1glwgzv": {
       "disposition": "deferred",
@@ -9050,10 +9050,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1ojkmir": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "reviewed and not promoted: Post compares seller quotes for a Chanel 25 before purchase and asks how to choose; it contains no owned-bag, QC, construction, or wear evidence."
     },
     "t3_1ojkn38": {
       "disposition": "deferred",
@@ -16996,10 +16996,10 @@
       "reason": "reviewed and not promoted: model mismatch and same author/transaction as t3_1qg6g7p: Chanel Kelly is not the catalogued Hermès Kelly family, and the follow-up has no settled result"
     },
     "t3_1qgygoc": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 48)"
+      "reason": "reviewed and not promoted: Post is a pre-delivery size/order problem about a Classic Flap PSP and asks what to do; it does not document the received bag or a product-quality observation."
     },
     "t3_1qh2c8n": {
       "disposition": "deferred",
@@ -17965,10 +17965,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1ql7061": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-chanel-25-1ql7061"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ql81hy": {
       "disposition": "deferred",
@@ -21109,10 +21112,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1qyte3h": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 50)"
+      "reason": "reviewed and not promoted: First high-end replica post only records a Speedy purchase, seller, and price; it contains no concrete construction, material, wear, QC, or comparison observation to normalize as public evidence."
     },
     "t3_1qytylz": {
       "disposition": "rejected",
@@ -34300,10 +34303,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1su9ago": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 50)"
+      "reason": "reviewed and not promoted: Post asks for the best factory for an Empreinte Speedy 20 and requests comparison photos; it is a pre-purchase recommendation request rather than an owned-bag observation."
     },
     "t3_1su9eg2": {
       "disposition": "deferred",
@@ -44038,10 +44041,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tzrx29": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 49)"
+      "reason": "reviewed and not promoted: Multi-bag post is primarily generic seller praise and transaction context; despite naming Classic Flap bags and factories, it gives no specific product construction, material, wear, or QC observation suitable for public evidence."
     },
     "t3_1tzte1b": {
       "disposition": "deferred",
@@ -51214,10 +51217,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1urdili": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rlw-chanel-25-1urdili"
+      ],
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1urg2rl": {
       "disposition": "promoted",
@@ -55024,7 +55030,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "Exact item is a YSL Niki Medium with in-hand/auth-store feel, size, and use observations, not YSL Loulou; preserve for a separate Niki catalog decision."
+      "reason": "Exact item is a YSL Niki Medium with in-hand feel, size, and use observations, not YSL Loulou; preserve for a separate Niki catalog decision."
     },
     "t3_1v8kw8i": {
       "disposition": "deferred",
@@ -55135,10 +55141,13 @@
       "reason": "reviewed and not promoted: thin Dior Saddle QC request with no exact variant or concrete observation; the uncertain Queen-equals-God factory statement is not a normalized attribution"
     },
     "t3_1v8xsnw": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1v8xsnw"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1v8z61l": {
       "disposition": "promoted",
