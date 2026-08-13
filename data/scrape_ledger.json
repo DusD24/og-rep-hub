@@ -9149,10 +9149,10 @@
       "reason": "triage score 0 below floor 30"
     },
     "t3_1p68zct": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 79)"
+      "reason": "reviewed and not promoted: media-only rehome listing with no captured product details or quality observation"
     },
     "t3_1p6eyxb": {
       "disposition": "deferred",
@@ -17377,10 +17377,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1r3shyv": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: generic media-only Speedy Trunk 20 praise with only a seller-information request in comments"
     },
     "t3_1r3wxh0": {
       "disposition": "deferred",
@@ -27802,10 +27802,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1swzzpi": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: pre-purchase request for sellers using real vachetta with no owned bag; replies are sourcing advice and a patina guide"
     },
     "t3_1sx0ba7": {
       "disposition": "deferred",
@@ -29071,10 +29071,10 @@
       "reason": "backfilled from committed evidence"
     },
     "t3_1t3rg53": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 79)"
+      "reason": "reviewed and not promoted: seller-contact request for Doris/Heidi with no owned bag or product observation; replies are contact-seeking and scam-safety discussion"
     },
     "t3_1t3rhlh": {
       "disposition": "rejected",
@@ -38485,10 +38485,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1udxmxd": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rcb-chanel-25-1udxmxd"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 79)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1udxro8": {
       "disposition": "deferred",
@@ -39088,10 +39091,13 @@
       "reason": "triage score 29 below floor 30"
     },
     "t3_1ufvdfx": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rcb-chanel-25-1ufvdfx"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 79)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ufwj50": {
       "disposition": "deferred",
@@ -39541,10 +39547,13 @@
       "reason": "reviewed and not promoted: Satirical B30 Birkin QC post is outside the catalogued Birkin 25 family and contains no credible product evidence."
     },
     "t3_1uihb7k": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1uihb7k"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 79)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1uihsns": {
       "disposition": "rejected",

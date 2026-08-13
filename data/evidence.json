@@ -26367,5 +26367,107 @@
       "No dimensions, material, color, factory, authentic comparison, or wear period are stated, so the capacity note should not be generalized beyond this owner's bag.",
       "The source-reported seller and later unverified seller allegation are excluded; no transaction or contact details are published."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1uihb7k",
+    "title": "Baobao QC — CC God Factory",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1uihb7k/baobao_qc_cc_god_factory/",
+    "subreddit": "RealRepLadies",
+    "author": "NavyPumalanian_88",
+    "publication_date": "2026-06-29",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel Classic Flap at PSP/QC stage through normalized seller BaoBao. The headline initially says God Factory, but the author corrects the target to source-reported Xiao C after a white plastic tag and BaoBao clarification; Xiao C is not a normalized public factory entity. The author asks about wonky stitching and leather bubbling. A separate prior 187 order with misaligned stitching is not attached to this bag; payment and contact details are excluded.",
+    "paraphrase": "A BaoBao QC thread initially labels a Chanel Classic Flap as God Factory, then the buyer and seller clarify that the pictured bag is Xiao C after a commenter identifies the factory's white plastic tag. The buyer asks whether some stitching looks wonky or makes the leather bubble, and a commenter says the bag looks good. The separate 187 bag mentioned by the buyer had been rejected for misaligned stitching and is not treated as evidence about this target.",
+    "positive_observations": [
+      "The thread preserves a concrete factory-attribution correction from the initial God label to source-reported Xiao C and records the white-tag basis for that correction.",
+      "It isolates stitching alignment and leather bubbling as the target's feature-level QC questions while keeping the buyer's separate 187 transaction separate."
+    ],
+    "negative_observations": [
+      "Xiao C attribution is source-reported and the target's final seller response or replacement outcome is not documented; the initial headline was incorrect.",
+      "Color, material, size, and factory normalization are not established, and the separate 187-order complaint, payment, and contact details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rcb-chanel-25-1udxmxd",
+    "title": "Chanel 25 Silver Caviar SHW 187 PSP photos",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1udxmxd/chanel_25_silver_caviar_shw_187_psp_photos/",
+    "subreddit": "RepCulture_Bags",
+    "author": "Live-Put-8186",
+    "publication_date": "2026-06-23",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25 in silver caviar with silver hardware at PSP/QC stage, attributed to 187 Factory in the title. The post body is empty; a public commenter says the diamond quilting on the tiny side pocket lines up with the main side panel. Seller and final outcome are not stated, and external media/contact details are excluded.",
+    "paraphrase": "A PSP post titled for a silver caviar Chanel 25 with silver hardware and 187 Factory attribution has no captured body text. A commenter specifically reports that the diamond quilting on the tiny side pocket lines up with the main side panel. No broader QC conclusion or final outcome is documented.",
+    "positive_observations": [
+      "The title preserves the silver caviar, silver-hardware, Chanel 25 variant and source-reported 187 attribution.",
+      "The public comment records a specific side-pocket-to-side-panel quilting alignment observation rather than generic praise."
+    ],
+    "negative_observations": [
+      "The post body is empty and the single alignment observation is photo-based, with no seller response, received-bag outcome, or broader construction assessment.",
+      "The factory attribution is title-level source context only; seller, dimensions, and wear are not stated."
+    ]
+  },
+  {
+    "id": "ev-crawl-rcb-chanel-25-1ufvdfx",
+    "title": "Thoughts on Chanel 25 from Tina 187?",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1ufvdfx/thoughts_on_chanel_25_from_tina_187/",
+    "subreddit": "RepCulture_Bags",
+    "author": "Icy_Bodybuilder_2746",
+    "publication_date": "2026-06-26",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25 Mini at PSP/QC stage, attributed to Tina and 187 Factory in the title and identified as Mini by the author in comments. Color and material are not stated. One commenter questions whether the chain drapes tightly and recommends a video; another says the matte-gold hardware tone looks accurate. A separate buyer's wear report and all contact/payment details are excluded.",
+    "paraphrase": "A Chanel 25 Mini PSP attributed in the title to Tina and 187 receives a question about whether the chain is too tight or simply shown at an awkward angle, with a suggestion to request video of its drape. Another commenter says the matte-gold hardware tone looks accurate. The post body is empty and the chain concern remains unresolved.",
+    "positive_observations": [
+      "The thread identifies the Chanel 25 Mini, source-reported 187 attribution, and records specific chain-drape and matte-gold-hardware QC observations.",
+      "It preserves the request for video as a sensible way to resolve an angle-dependent chain concern without presenting the PSP as definitively authentic."
+    ],
+    "negative_observations": [
+      "The post body is empty, no video or seller response is captured, and color, material, and final outcome are not stated.",
+      "Another buyer's separate wear report is not applied to this bag; Tina is source-reported and not normalized, and contact/payment details are excluded."
+    ]
   }
 ]
