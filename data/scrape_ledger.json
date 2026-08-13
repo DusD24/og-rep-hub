@@ -2810,10 +2810,13 @@
       "reason": "above floor but outside the daily cap (priority 70)"
     },
     "t3_1lrs5ik": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1lrs5ik"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 74)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1lrs8aw": {
       "disposition": "deferred",
@@ -3134,10 +3137,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1m4pdve": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 74)"
+      "reason": "reviewed and not promoted: The 23 cm Classic Flap QC thread contains only an unsupported disagreement about the claimed 187 source and seller or private-message solicitation. It does not preserve a specific public construction, material, variant, or wear observation, so it is not enough for normalized evidence."
     },
     "t3_1m4sppi": {
       "disposition": "deferred",
@@ -5687,10 +5690,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1nq1d1x": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1nq1d1x"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 74)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1nq1g1u": {
       "disposition": "rejected",
@@ -42097,10 +42103,10 @@
       "reason": "above floor but outside the daily cap (priority 52)"
     },
     "t3_1uvmz6i": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "reviewed and not promoted: The Duty Free/Wood Floor P9 40 thread is primarily pre-purchase factory comparison and seller solicitation. The comments are generic or concern separate bags and do not document the author's received P9 40, a controlled comparison, or a specific attributable quality observation."
     },
     "t3_1uvnf9m": {
       "disposition": "deferred",
@@ -46123,10 +46129,13 @@
       "reason": "reviewed and not promoted: generic authentic-versus-God comparison praise with no specific feature, variant, or construction observation"
     },
     "t3_1vgkmk8": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rcb-louis-vuitton-speedy-1vgkmk8"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1vglyhu": {
       "disposition": "deferred",
