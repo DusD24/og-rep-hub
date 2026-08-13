@@ -223,7 +223,9 @@
       "ev-crawl-rrl-louis-vuitton-speedy-1qy8zkz",
       "ev-crawl-rrl-louis-vuitton-speedy-1r0ir3p",
       "ev-crawl-rt-louis-vuitton-speedy-1rv4fjv",
-      "ev-crawl-rrl-louis-vuitton-speedy-1sxwbc0"
+      "ev-crawl-rrl-louis-vuitton-speedy-1sxwbc0",
+      "ev-crawl-rrl-louis-vuitton-speedy-1tjju7t",
+      "ev-crawl-rrl-louis-vuitton-speedy-1uzj6zx"
     ],
     "documented_sizes": [
       "25",
@@ -236,8 +238,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 49,
-      "independent_author_count": 40,
+      "source_count": 51,
+      "independent_author_count": 42,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -291,7 +293,8 @@
       "ev-crawl-rrl-the-row-margaux-1usst71",
       "ev-crawl-rrl-the-row-margaux-1ve4lhh",
       "ev-crawl-rt-the-row-margaux-1sz4wap",
-      "ev-crawl-rrl-the-row-margaux-1s0u9xp"
+      "ev-crawl-rrl-the-row-margaux-1s0u9xp",
+      "ev-crawl-rt-the-row-margaux-1sx6sjj"
     ],
     "documented_sizes": [
       "15",
@@ -305,7 +308,7 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 19,
+      "source_count": 20,
       "independent_author_count": 16,
       "primary_subreddit_coverage": [
         "RealRepLadies",
@@ -470,7 +473,9 @@
       "ev-crawl-rt-loewe-puzzle-1ri2l8o",
       "ev-crawl-rt-louis-vuitton-speedy-1rv4fjv",
       "ev-crawl-rt-loewe-puzzle-1shhbyf",
-      "ev-crawl-rt-loewe-puzzle-1ueto2g"
+      "ev-crawl-rt-loewe-puzzle-1ueto2g",
+      "ev-crawl-rt-loewe-puzzle-1umt12w",
+      "ev-crawl-rt-loewe-puzzle-1uyj00q"
     ],
     "documented_sizes": [
       "small",
@@ -485,7 +490,7 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 45,
+      "source_count": 47,
       "independent_author_count": 38,
       "primary_subreddit_coverage": [
         "RealRepLadies",
@@ -500,7 +505,7 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-12",
+    "last_updated": "2026-08-13",
     "research_gaps": [
       "Keep small and large Puzzle evidence separate.",
       "Resolve material and hardware details only from exact-variant sources.",
@@ -1320,7 +1325,8 @@
       "ev-crawl-rrl-louis-vuitton-speedy-chanel-25-1ne6zvy",
       "ev-crawl-rrl-chanel-25-1u4f9ei",
       "ev-crawl-rrl-chanel-25-1ub2bnd",
-      "ev-crawl-rrl-chanel-25-1r77p0i"
+      "ev-crawl-rrl-chanel-25-1r77p0i",
+      "ev-crawl-rrl-chanel-25-1v0vl8u"
     ],
     "documented_sizes": [
       "Small",
@@ -1336,8 +1342,8 @@
       "ruthenium hardware reported"
     ],
     "evidence_coverage": {
-      "source_count": 31,
-      "independent_author_count": 26,
+      "source_count": 32,
+      "independent_author_count": 27,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepLadiesWorld",
@@ -1352,7 +1358,7 @@
         "seller_context"
       ]
     },
-    "last_updated": "2026-08-12",
+    "last_updated": "2026-08-13",
     "research_gaps": [
       "No tile image yet — this uses a category hero_icon instead; add a Reddit-sourced tile_media_id before publishing.",
       "reference_url intentionally left blank — add the official Chanel product page if one exists.",
