@@ -25204,5 +25204,36 @@
     "negative_observations": [
       "The bag was still at PSP stage, no seller or material is stated, and the capture does not provide an authoritative color reference or final resolution."
     ]
+  },
+  {
+    "id": "ev-crawl-rt-chanel-25-1ppw7b5",
+    "title": "Please help qc chanel 25",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ppw7b5/please_help_qc_chanel_25/",
+    "subreddit": "RepTherapy",
+    "author": "Advanced_Rub_4616",
+    "publication_date": "2025-12-18",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25 at PSP/QC stage, as titled; size, color, material, seller, and factory are not stated.",
+    "paraphrase": "In a Chanel 25 PSP/QC request, the buyer identifies a specific concern that the bag may look too light and asks whether the appearance could be explained by lighting.",
+    "positive_observations": [
+      "The post isolates color/lightness as the QC question rather than only asking for general approval.",
+      "It identifies the product as a Chanel 25 and preserves the author's uncertainty between lighting and the bag itself."
+    ],
+    "negative_observations": [
+      "The bag remains at PSP stage, no seller, factory, variant color, material, or authoritative reference is stated, and the concern is unresolved."
+    ]
   }
 ]

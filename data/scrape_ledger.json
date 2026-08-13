@@ -119,10 +119,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1f8tjx5": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 84)"
+      "reason": "reviewed and not promoted: image/reference post about outdoor photography for a Chanel 187 Classic Flap with no product observation beyond camera and lighting context"
     },
     "t3_1f9d8zq": {
       "disposition": "deferred",
@@ -10872,10 +10872,13 @@
       "reason": "triage score 20 below floor 30"
     },
     "t3_1ppw7b5": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-chanel-25-1ppw7b5"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1pq37ws": {
       "disposition": "deferred",
@@ -14890,10 +14893,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qppvyx": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: generic received Chanel 25 seller-service and satisfaction praise without any feature-level bag observation"
     },
     "t3_1qpqogj": {
       "disposition": "deferred",
@@ -22015,10 +22018,10 @@
       "reason": "reviewed and not promoted: Medium Flamenco QC request is bare and asks for help without recording a specific concern or observation."
     },
     "t3_1s1gbki": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "reviewed and not promoted: bare black Speedy P9 40 QC request that reports only seller, size, and an NFC claim without a concrete product observation"
     },
     "t3_1s1i0r9": {
       "disposition": "rejected",
@@ -34270,10 +34273,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tv2e33": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "reviewed and not promoted: bare MB-attributed Soft Speedy PSP post listing seller/factory and asking for feedback without a concrete observation"
     },
     "t3_1tv2fty": {
       "disposition": "deferred",
@@ -43837,10 +43840,10 @@
       "reason": "above floor but outside the daily cap (priority 77)"
     },
     "t3_1v72k0p": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "reviewed and not promoted: bare Hyper Peter Nano Speedy PSP request with generic monogram praise and no feature-level observation or resolved comparison"
     },
     "t3_1v72ms0": {
       "disposition": "deferred",
