@@ -8351,10 +8351,10 @@
       "reason": "reviewed and not promoted: pre-purchase poll asking owners to show bags so the author can choose between a Speedy Soft 30 and Side Trunk, without inspected-product evidence"
     },
     "t3_1ox3mkv": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: bare LV GL/RL request that supplies an authentic link and source-reported Gods Factory label but no specific QC observation"
     },
     "t3_1ox41x5": {
       "disposition": "rejected",
@@ -12850,10 +12850,10 @@
       "reason": "triage score 29 below floor 30"
     },
     "t3_1qdghux": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: media-only generic Speedy praise with no captured construction, wear, or comparison detail"
     },
     "t3_1qdhona": {
       "disposition": "deferred",
@@ -26770,10 +26770,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sru11i": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "reviewed and not promoted: seller-led group-buy solicitation with prices, minimum order, and contact details but no owned-product evidence"
     },
     "t3_1sryrl2": {
       "disposition": "promoted",
@@ -37051,10 +37051,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u7slal": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "reviewed and not promoted: media-only Chanel 25 Small beige QC post with no captured product text or observation"
     },
     "t3_1u7sne5": {
       "disposition": "deferred",
@@ -37317,10 +37317,13 @@
       "reason": "reviewed and not promoted: bare Small Chanel 25 QC request asking whether it is a good rep without a stated feature-level finding"
     },
     "t3_1u8sud9": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1u8sud9"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1u8u0il": {
       "disposition": "rejected",
@@ -40084,7 +40087,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "reviewed but the exact Louis Vuitton Keepall 45 family is not catalogued; preserve as a private lead for a separate catalog decision rather than attach it to Speedy"
+      "reason": "keep deferred: exact Louis Vuitton Keepall 45 family is not catalogued and remains for separate catalog review"
     },
     "t3_1ukvx1z": {
       "disposition": "deferred",

@@ -26271,5 +26271,37 @@
       "The assessment is brief and photo-based, with no authentic comparison, delivery outcome, or long-term wear report.",
       "Color, material, seller, and factory are not stated, and the comment thread's contact requests are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1u8sud9",
+    "title": "QC Small Chanel 25",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1u8sud9/qc_small_chanel_25/",
+    "subreddit": "RealRepLadies",
+    "author": "graceinashes",
+    "publication_date": "2026-06-18",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25 Small at PSP/QC stage; a comment describes the bag as caviar, but the post does not state color, seller, or factory. Public commenters say the small CC-chain leather should be smooth lambskin or calfskin even on a caviar bag, so the chain can glide through the grommets; another commenter says the pictured bag looks dry. Payment and contact details are excluded.",
+    "paraphrase": "A Chanel 25 Small QC request receives a feature-specific warning that the leather on the small chain attached to the CC should be smooth lambskin or smooth calfskin even when the bag body is caviar. Another commenter agrees and explains that the smooth finish lets the chain glide through the grommets; a separate comment says the bag looks somewhat dry. The thread does not establish the source or final outcome.",
+    "positive_observations": [
+      "The discussion preserves a concrete chain-leather construction criterion and the stated functional reason involving movement through the CC grommets.",
+      "It identifies the Chanel 25 Small and distinguishes the body material reference from the small chain's expected smooth finish without attaching a factory verdict."
+    ],
+    "negative_observations": [
+      "The post body is a generic QC request, the material description comes from comments, and the commenters do not document a final seller response or received-bag outcome.",
+      "Color, seller, and factory are not stated; the dry-looking assessment is a separate subjective comment and payment/contact details are excluded."
+    ]
   }
 ]
