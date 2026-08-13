@@ -141,6 +141,27 @@ class DataTests(unittest.TestCase):
             self.assertEqual(tile["subreddit"], receipt["subreddit"])
             self.assertIn(family["id"], receipt["family_ids"])
 
+    def test_missing_collection_heroes_are_receipt_linked(self):
+        families = {row["slug"]: row for row in load("bag_families")}
+        media = {row["id"]: row for row in load("media")}
+        evidence = {row["id"]: row for row in load("evidence")}
+        expected = {
+            "chanel-25": ("media-chanel-25-reddit", "ev-crawl-rrl-chanel-25-1qy3dlq"),
+            "hermes-kelly": ("media-hermes-kelly-28-reddit", "ev-crawl-rrl-hermes-kelly-1sl383j"),
+            "dior-saddle": ("media-dior-saddle-reddit", "ev-crawl-rrl-dior-saddle-1gqvspa"),
+        }
+        for slug, (media_id, evidence_id) in expected.items():
+            family = families[slug]
+            tile = media[media_id]
+            receipt = evidence[evidence_id]
+            self.assertEqual(family.get("tile_media_id"), media_id)
+            self.assertNotIn("hero_icon", family)
+            self.assertTrue(family["evidence_coverage"]["image_ready"])
+            self.assertEqual(tile["usage_scope"], "target_tile")
+            self.assertEqual(tile["evidence_id"], evidence_id)
+            self.assertEqual(receipt["media_ids"].count(media_id), 1)
+            self.assertIn(family["id"], receipt["family_ids"])
+
     def test_media_files_have_unique_paths_hashes_dimensions_and_removal_checks(self):
         rows = load("media")
         target_ids = {row["id"] for row in rows if row["usage_scope"] == "target_tile"}
