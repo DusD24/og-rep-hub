@@ -12602,5 +12602,454 @@
       "The steel-hardware and cowhide claims come from the seller and are not independently verified."
     ],
     "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rt-chanel-classic-flap-1q63psf",
+    "title": "Reference Photos: Chanel Leather",
+    "source_type": "reddit_discussion",
+    "evidence_type": "auth_comparison",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1q63psf/reference_photos_chanel_leather/",
+    "subreddit": "RepTherapy",
+    "author": "Serious-Individual10",
+    "publication_date": "2026-01-07",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": false,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A public authentic-reference discussion shares photographs of multiple Chanel caviar finishes and one lambskin example taken in authenticated luxury-resale stores, emphasizing that caviar texture and appearance vary substantially by season and release.",
+    "positive_observations": [
+      "The author states that the photos came from luxury secondhand stores with authentication requirements and uses them to document real caviar variation.",
+      "The reference is useful for comparing a rep against a range of authentic Chanel leather appearances rather than one assumed universal texture."
+    ],
+    "negative_observations": [
+      "The post does not identify exact Chanel model, season, size, or measurements for each photographed bag and contains no rep purchase or factory assessment.",
+      "The images are source material only; no public media record is imported into this evidence row."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rt-chanel-classic-flap-1sjwhi1",
+    "title": "Medium cf",
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1sjwhi1/medium_cf/",
+    "subreddit": "RepTherapy",
+    "author": "No-Individual-675",
+    "publication_date": "2026-04-13",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "An in-hand review of a medium caviar Chanel Classic Flap attributed to 187 and obtained through Mandy compares it with the author's authentic bag: the rep is described as grainy, structured, slightly dry rather than plasticky, with a shifting seasonal light-gold color, aligned diamonds, clean stamping, and softly toned light-gold hardware.",
+    "positive_observations": [
+      "The review records the medium size, caviar material, 187 attribution, seller, direct authentic comparison, leather hand-feel, color shift, structure, diamond alignment, stamping, and hardware tone.",
+      "The author reports handling the received bag rather than relying only on factory photographs."
+    ],
+    "negative_observations": [
+      "The positive assessment is one owner's comparison and does not establish consistency across 187 batches or seasonal colors.",
+      "Seller-service and shipping praise are not treated as separate quality evidence."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rt-chanel-vanity-slim-1un3exw",
+    "title": "QC help my Chanel vanity please 🖤",
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1un3exw/qc_help_my_chanel_vanity_please/",
+    "subreddit": "RepTherapy",
+    "author": "InnerInitial9061",
+    "publication_date": "2026-07-04",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": false,
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-chanel-vanity-slim"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A first-purchase PSP QC request for a Chanel Vanity attributed to 187 asks whether the side alignment looks wrong or is distorted by the camera angle; the author otherwise finds the photos promising.",
+    "positive_observations": [
+      "The post identifies the Chanel Vanity and source-reported 187 attribution and isolates side alignment as the specific PSP concern."
+    ],
+    "negative_observations": [
+      "The side-alignment concern is unresolved and the exact Vanity variant, seller, and in-hand result are not stated.",
+      "The author is a first-time buyer asking for community review rather than reporting a settled outcome."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rrl-hermes-kelly-1jm7yws",
+    "title": "Mark’s Kelly 20 Sellier - Bisquit & Nata Epsom Leather with UGHW",
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1jm7yws/marks_kelly_20_sellier_bisquit_nata_epsom_leather/",
+    "subreddit": "RealRepLadies",
+    "author": "Background-Paper4846",
+    "publication_date": "2025-03-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-hermes-kelly"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A PSP QC request for a Kelly 20 Sellier in Bisquit and Nata Epsom with UGHW asks for review of stitching, symmetry, hardware, and shape, with a specific concern about wonky stitching on the back loops.",
+    "positive_observations": [
+      "The post preserves the Kelly 20 Sellier construction, two color/material descriptions, hardware finish, and the back-loop stitching concern."
+    ],
+    "negative_observations": [
+      "The stitching concern and overall PSP assessment are unresolved, and the seller and factory are not attributed because the source does not establish catalogued entities.",
+      "No in-hand result or authentic side-by-side is captured."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rrl-hermes-kelly-1ju27tq",
+    "title": "Minion Mini Kelly QC of PSP's",
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ju27tq/minion_mini_kelly_qc_of_psps/",
+    "subreddit": "RealRepLadies",
+    "author": "Philosophy_Forward",
+    "publication_date": "2025-04-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-hermes-kelly"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A PSP QC request for a Mini Kelly identifies the requested Kelly Sellier 20 in black Epsom with palladium hardware and asks reviewers to assess padding, dimensions, shape, imported leather, hand stitching, interior, and hardware against comparison images.",
+    "positive_observations": [
+      "The post preserves the Kelly Sellier 20, black Epsom, palladium hardware, and the concrete PSP attributes under review.",
+      "The author provides comparison material and separates dimensions, padding, shape, leather, interior, and hardware rather than asking only for a general approval."
+    ],
+    "negative_observations": [
+      "No settled PSP conclusion, in-hand outcome, seller attribution, or factory attribution is captured.",
+      "The comparison images are not independently authenticated in the local capture."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rt-dior-saddle-1tiup96",
+    "title": "Alina - D**r small saddle men’s bags review",
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1tiup96/alina_dr_small_saddle_mens_bags_review/",
+    "subreddit": "RepTherapy",
+    "author": "yax29",
+    "publication_date": "2026-05-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": false,
+    "seller_ids": [
+      "seller-alina"
+    ],
+    "factory_ids": [],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-dior-saddle"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "An in-hand review of a small Dior Saddle Messenger for men, ordered through Alina, reports roughly fifteen days from first contact to delivery and says the author is happy with the feel after comparing the QC photos with retail images; the seller's LiLi factory and cowhide claims remain unresolved.",
+    "positive_observations": [
+      "The review identifies a small Saddle Messenger, reports a QC-to-delivery timeline, and records an in-hand feel assessment based on retail-photo comparison.",
+      "The public seller name Alina is mapped while the uncertain LiLi label is not turned into a factory entity."
+    ],
+    "negative_observations": [
+      "The capture provides little construction detail beyond feel and does not establish exact color, measurements, or hardware observations.",
+      "Private contact and payment information are excluded, and the seller's material/factory claims are not independently verified."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1qcc3gu",
+    "title": "QC for lady dior",
+    "source_type": "reddit_qc",
+    "evidence_type": "auth_comparison",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1qcc3gu/qc_for_lady_dior/",
+    "subreddit": "RealRepLadies",
+    "author": "Available-Lecture711",
+    "publication_date": "2026-01-14",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A pre-purchase QC post for a blush-beige Lady Dior compares the proposed rep photos with an authentic small Lady Dior reference and asks whether the color and overall presentation are acceptable.",
+    "positive_observations": [
+      "The post identifies the small authentic reference and a specific blush-beige color comparison rather than only asking which factory to use."
+    ],
+    "negative_observations": [
+      "The comparison is factory-photo/pre-purchase only, the source does not identify a seller or factory, and no final purchase or in-hand result is captured.",
+      "The source does not resolve whether the shade is an authentic seasonal match."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1r3i7ch",
+    "title": "Caramel Epi Speedy Soft 30 color check",
+    "source_type": "reddit_discussion",
+    "evidence_type": "factory_comparison",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1r3i7ch/caramel_epi_speedy_soft_30_color_check/",
+    "subreddit": "RepTherapy",
+    "author": "Friendly-Chemist-856",
+    "publication_date": "2026-02-13",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A factory-photo color comparison for the Royal Caramel Epi Speedy Soft 30 says the rep images appear more orange than the authentic reference, while noting that lighting could explain the difference.",
+    "positive_observations": [
+      "The post identifies the exact Speedy Soft 30 Epi colorway, Royal attribution, and a specific factory-photo-to-auth color concern."
+    ],
+    "negative_observations": [
+      "The comparison is pre-purchase and lighting-sensitive, with no received bag, seller, or in-hand confirmation.",
+      "The author has not found a second factory comparison, so the source cannot support a broader factory conclusion."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1rdzzm3",
+    "title": "MOQC vs ROYAL P9",
+    "source_type": "reddit_discussion",
+    "evidence_type": "factory_comparison",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1rdzzm3/moqc_vs_royal_p9/",
+    "subreddit": "RepTherapy",
+    "author": "ladii06",
+    "publication_date": "2026-02-25",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A factory-photo comparison of Indigo P9 Speedy 25 candidates says MOQC appears stronger on hardware, leather interior, and handle/chaps shape, while Royal appears stronger on slouch and stripe placement but uses fabric interior and has visible tab stitching; MOQC is left as source wording because it is not a catalogued factory entity.",
+    "positive_observations": [
+      "The post records separate hardware, structure, interior, stripes, stitching, handles, and chaps differences for the same Indigo P9 Speedy 25 variant.",
+      "Royal is mapped only where the source names it; the comparison does not invent an entity for MOQC."
+    ],
+    "negative_observations": [
+      "The comparison is based on stock photos and the author's interpretation, not an in-hand or controlled authentic comparison.",
+      "The author does not report owning either candidate, and subjective preferences are not treated as a quality ranking."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1s9bw4x",
+    "title": "Started with one Puzzle… now I’m emotionally invested (and Mandy is to blame) 🧩😂",
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1s9bw4x/started_with_one_puzzle_now_im_emotionally/",
+    "subreddit": "RepTherapy",
+    "author": "Sea-Fig-8886",
+    "publication_date": "2026-04-01",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-jipin"
+    ],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A three-week in-hand review of a medium tan Loewe Puzzle from Jipin via Mandy reports PSP-to-bag consistency, a leather smell similar to the author's authentic Loewe, a naturally slouchy shape, useful capacity, and leather that is slightly dry before the author's usual conditioning.",
+    "positive_observations": [
+      "The review identifies the medium size, tan color, Jipin attribution, seller, delivery interval, PSP consistency, smell, slouch, and capacity.",
+      "The author distinguishes the received-bag observations from the separate Goyard purchase and seller-service discussion."
+    ],
+    "negative_observations": [
+      "The leather is described as slightly dry before conditioning, and no detailed construction or measurement audit is provided.",
+      "The authentic-smell comparison and overall satisfaction are one owner's report and do not establish batch consistency."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1qijsta",
+    "title": "Puzzle Small From Juliet after a month",
+    "source_type": "reddit_review",
+    "evidence_type": "long_term_wear",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qijsta/puzzle_small_from_juliet_after_a_month/",
+    "subreddit": "RepTherapy",
+    "author": "OutsideNo4504",
+    "publication_date": "2026-01-21",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A month-of-daily-use follow-up for a small Loewe Puzzle attributed to Liusheng reports soft leather, no unusual smell, hardware that may feel lighter than authentic, a short triangle tip beyond the zipper, a handle that bends with use, and a zipper that does not scratch the author's hands; the companion Flamenco is not included in this record.",
+    "positive_observations": [
+      "The review preserves the small size, Liusheng attribution, month of daily use, leather, smell, zipper, hardware, handle, and triangle-tip observations.",
+      "The author reports a practical wear outcome rather than only repeating the initial PSP impression."
+    ],
+    "negative_observations": [
+      "The author considers the hardware possibly lighter than authentic and the triangle tip shorter than the authentic reference; no exact measurement is given.",
+      "Juliet is named in the source but is not mapped to a catalogued seller entity, and the follow-up remains one owner's report."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rt-loewe-flamenco-1sfmmg9",
+    "title": "QC help on this Loewe Flamenco in Burgundy. Am I dreaming or is the gold chain too yellow?",
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1sfmmg9/qc_help_on_this_loewe_flamenco_in_burgundy_am_i/",
+    "subreddit": "RepTherapy",
+    "author": "Brief-Win4062",
+    "publication_date": "2026-04-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A PSP QC request for a medium Burgundy Loewe Flamenco flags the gold donut chain as much too yellow and says the burgundy rep color already appears somewhat darker than expected; the source lists Qiu, Qiutian, and Autumn as possible factory labels without resolving which applies.",
+    "positive_observations": [
+      "The post identifies the medium size, Burgundy color, natural-light photos, and separate chain-tone and bag-color concerns."
+    ],
+    "negative_observations": [
+      "The chain and color concerns are unresolved at PSP stage, and the contradictory Qiu/Qiutian/Autumn labels are left unattributed.",
+      "The seller is named only as Juliet, which is not a catalogued seller entity."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1uekan6",
+    "title": "QC Speedy 30 Bandouliere",
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1uekan6/qc_speedy_30_bandouliere/",
+    "subreddit": "RealRepLadies",
+    "author": "innocx",
+    "publication_date": "2026-06-24",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A received Speedy 30 Bandouliere from Hyper Peter is flagged for very light vachetta, side-strap stitching placed below rather than above the rivet in comparison with current Louis Vuitton website photos, and a front crease the author hopes will relax with stuffing and use.",
+    "positive_observations": [
+      "The post identifies the Speedy 30 Bandouliere, seller, vachetta, rivet/stitch placement, front crease, and current official website reference.",
+      "The author separates a possible historical batch/design variation from the crease and color questions."
+    ],
+    "negative_observations": [
+      "The vachetta shade, rivet stitching, and crease are unresolved, with no factory attribution or later wear result captured.",
+      "The author is asking the community whether current and older authentic releases vary, so the post does not establish a universal defect."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1ujamig",
+    "title": "Summer bags!",
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ujamig/summer_bags/",
+    "subreddit": "RealRepLadies",
+    "author": "Noodle-Mama",
+    "publication_date": "2026-06-30",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "price": null,
+    "shipping_timeline": "Ordered 6-12, PSP 6-15, arrived 6-29, per the reviewer.",
+    "paraphrase": "The Speedy portion of a mixed summer-bag review covers a Speedy Soft 30 Neon Wave: the author praises its blue color, hardware, stitching, and leather, but says the hole punches look slightly smaller than authentic and the bag arrived with light creasing from being packed inside another item; the unrelated OnTheGo tote is excluded.",
+    "positive_observations": [
+      "The review preserves the Speedy Soft 30 Neon Wave variant, blue color, hole-punch authentic comparison, material/construction observations, and PSP-to-delivery timeline.",
+      "The mixed OnTheGo GM portion is deliberately not attached to the Speedy family."
+    ],
+    "negative_observations": [
+      "The hole punches are reported as slightly small and light creasing was present after packed shipping; no seller or factory is stated.",
+      "The author does not provide a full material or measurement audit beyond the specific hole-punch comparison."
+    ],
+    "media_ids": []
   }
 ]

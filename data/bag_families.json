@@ -127,7 +127,9 @@
       "ev-crawl-rrl-chanel-classic-flap-1rgbp26",
       "ev-crawl-rrl-chanel-classic-flap-1t7mstg",
       "ev-crawl-rrl-chanel-classic-flap-1ucp2ue",
-      "ev-crawl-rrl-chanel-classic-flap-1udswjk"
+      "ev-crawl-rrl-chanel-classic-flap-1udswjk",
+      "ev-crawl-rt-chanel-classic-flap-1q63psf",
+      "ev-crawl-rt-chanel-classic-flap-1sjwhi1"
     ],
     "documented_sizes": [
       "not stated in selected sources"
@@ -139,8 +141,8 @@
       "gold-tone hardware reported or requested"
     ],
     "evidence_coverage": {
-      "source_count": 19,
-      "independent_author_count": 17,
+      "source_count": 21,
+      "independent_author_count": 19,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepLadiesWorld",
@@ -155,7 +157,7 @@
         "seller_context"
       ]
     },
-    "last_updated": "2026-08-12",
+    "last_updated": "2026-08-13",
     "research_gaps": [
       "Resolve size and received-factory attribution across the two posts.",
       "Keep source-reported seller/factory names separate from site conclusions."
@@ -235,7 +237,11 @@
       "ev-crawl-rlw-louis-vuitton-speedy-1uehu6s",
       "ev-crawl-rt-louis-vuitton-speedy-1myd12f",
       "ev-crawl-rt-louis-vuitton-speedy-1qv99pi",
-      "ev-crawl-rrl-louis-vuitton-speedy-1rl7lru"
+      "ev-crawl-rrl-louis-vuitton-speedy-1rl7lru",
+      "ev-crawl-rt-louis-vuitton-speedy-1r3i7ch",
+      "ev-crawl-rt-louis-vuitton-speedy-1rdzzm3",
+      "ev-crawl-rrl-louis-vuitton-speedy-1uekan6",
+      "ev-crawl-rrl-louis-vuitton-speedy-1ujamig"
     ],
     "documented_sizes": [
       "25",
@@ -248,8 +254,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 58,
-      "independent_author_count": 48,
+      "source_count": 62,
+      "independent_author_count": 52,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -392,7 +398,8 @@
       "ev-crawl-rrl-loewe-flamenco-1t5wfbq",
       "ev-crawl-rt-loewe-flamenco-1qn8p6t",
       "ev-crawl-rrl-loewe-flamenco-1lgb5zo",
-      "ev-crawl-rt-loewe-puzzle-1pexymm"
+      "ev-crawl-rt-loewe-puzzle-1pexymm",
+      "ev-crawl-rt-loewe-flamenco-1sfmmg9"
     ],
     "documented_sizes": [
       "30 cm",
@@ -406,8 +413,8 @@
       "yellow / shiny hardware noted in QC discussion"
     ],
     "evidence_coverage": {
-      "source_count": 37,
-      "independent_author_count": 30,
+      "source_count": 38,
+      "independent_author_count": 31,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -496,7 +503,9 @@
       "ev-crawl-rrl-loewe-puzzle-1rsxrwu",
       "ev-crawl-rt-loewe-puzzle-1ph8go9",
       "ev-crawl-rt-loewe-puzzle-1oeperp",
-      "ev-crawl-rt-loewe-puzzle-1pexymm"
+      "ev-crawl-rt-loewe-puzzle-1pexymm",
+      "ev-crawl-rt-loewe-puzzle-1s9bw4x",
+      "ev-crawl-rt-loewe-puzzle-1qijsta"
     ],
     "documented_sizes": [
       "small",
@@ -511,7 +520,7 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 53,
+      "source_count": 55,
       "independent_author_count": 42,
       "primary_subreddit_coverage": [
         "RealRepLadies",
@@ -820,7 +829,8 @@
       "ev-crawl-rlw-dior-lady-dior-1rmavwv",
       "ev-crawl-rt-dior-lady-dior-1sk49wi",
       "ev-crawl-rrl-dior-lady-dior-1rymrbs",
-      "ev-crawl-rrl-dior-lady-dior-1ssthia"
+      "ev-crawl-rrl-dior-lady-dior-1ssthia",
+      "ev-crawl-rrl-dior-lady-dior-1qcc3gu"
     ],
     "documented_sizes": [
       "Small"
@@ -832,8 +842,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 32,
-      "independent_author_count": 30,
+      "source_count": 33,
+      "independent_author_count": 31,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -1228,7 +1238,8 @@
     "evidence_ids": [
       "ev-crawl-rll-chanel-vanity-slim-2026",
       "ev-crawl-rt-chanel-classic-flap-1pvhkxt",
-      "ev-crawl-rt-chanel-vanity-slim-1tii2cp"
+      "ev-crawl-rt-chanel-vanity-slim-1tii2cp",
+      "ev-crawl-rt-chanel-vanity-slim-1un3exw"
     ],
     "documented_sizes": [
       "not stated in selected source"
@@ -1240,8 +1251,8 @@
       "not stated in selected source"
     ],
     "evidence_coverage": {
-      "source_count": 3,
-      "independent_author_count": 3,
+      "source_count": 4,
+      "independent_author_count": 4,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepTherapy"
@@ -1252,7 +1263,7 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-12",
+    "last_updated": "2026-08-13",
     "research_gaps": [
       "Find a second independent public author and resolve exact size, color, and material.",
       "Keep the 187 attribution as a source-reported thread statement only."
@@ -1429,7 +1440,9 @@
       "ev-crawl-rt-hermes-kelly-1qxxbq6",
       "ev-crawl-rrl-hermes-kelly-1h98r3q",
       "ev-crawl-rrl-hermes-kelly-1ss85o6",
-      "ev-crawl-rt-hermes-kelly-1pdxero"
+      "ev-crawl-rt-hermes-kelly-1pdxero",
+      "ev-crawl-rrl-hermes-kelly-1jm7yws",
+      "ev-crawl-rrl-hermes-kelly-1ju27tq"
     ],
     "documented_sizes": [
       "28"
@@ -1441,8 +1454,8 @@
       "gold-tone hardware reported"
     ],
     "evidence_coverage": {
-      "source_count": 10,
-      "independent_author_count": 10,
+      "source_count": 12,
+      "independent_author_count": 12,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -1456,7 +1469,7 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-12",
+    "last_updated": "2026-08-13",
     "research_gaps": [
       "Opened from a single high-confidence post under the site's updated new-collection rule (one high-confidence post, not a comment, is enough to open a research_queue family); still needs a second independent author before it can approach publication.",
       "Source subreddit is RepCulture_Bags, not RealRepLadies/RepTherapy -- the publish gate requires at least one of those two, so a primary-subreddit source is also needed.",
@@ -1484,7 +1497,8 @@
       "ev-crawl-rrl-dior-saddle-1vfc0sa",
       "ev-crawl-rrl-dior-saddle-1ooerk2",
       "ev-crawl-rrl-dior-saddle-1lnhqc9",
-      "ev-crawl-rrl-dior-saddle-1ve8uyd"
+      "ev-crawl-rrl-dior-saddle-1ve8uyd",
+      "ev-crawl-rt-dior-saddle-1tiup96"
     ],
     "documented_sizes": [
       "Small"
@@ -1496,19 +1510,21 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 6,
+      "source_count": 7,
       "independent_author_count": 6,
       "primary_subreddit_coverage": [
         "RealRepLadies",
-        "RepCulture_Bags"
+        "RepCulture_Bags",
+        "RepTherapy"
       ],
       "image_ready": false,
       "evidence_types": [
         "factory_comparison",
+        "in_hand_review",
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-12",
+    "last_updated": "2026-08-13",
     "research_gaps": [
       "Opened from a single high-confidence post under the site's updated new-collection rule (one high-confidence post, not a comment, is enough to open a research_queue family); still needs a second independent author before it can approach publication.",
       "Source subreddit is RepCulture_Bags, not RealRepLadies/RepTherapy -- the publish gate requires at least one of those two, so a primary-subreddit source is also needed.",
