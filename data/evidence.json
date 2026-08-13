@@ -22065,5 +22065,133 @@
     "subreddit": "RealRepLadies",
     "title": "Neverfull From OC",
     "url": "https://www.reddit.com/r/RealRepLadies/comments/1ugkifv/neverfull_from_oc/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "OneRelationship9093",
+    "bag_ids": [],
+    "evidence_type": "factory_comparison",
+    "exact_product_match": false,
+    "exact_variant_note": "Chanel 25 in the small size; the source compares a factory image showing 28 cm width with a listing that states 30 cm, so the size/measurement match is unresolved. Seller, factory identity, color, and material are not stated.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "id": "ev-crawl-rrl-chanel-25-1sotgrp",
+    "media_ids": [],
+    "negative_observations": [
+      "The factory photo appears to show a 28 cm width while the listing states 30 cm, creating an unresolved size deviation for the small Chanel 25.",
+      "This is a pre-purchase factory-image comparison rather than an in-hand or authentic comparison; the seller, factory identity, color, and material are not established."
+    ],
+    "paraphrase": "A factory-image QC post for a small Chanel 25 flags a possible width mismatch: the listing states 30 cm, while the pictured factory measurement appears to be 28 cm.",
+    "positive_observations": [
+      "The post identifies the Chanel 25 small size and isolates a measurable dimension rather than asking only whether the bag looks good.",
+      "It preserves the source's distinction between the listing measurement and the factory-photo measurement without resolving the discrepancy as fact."
+    ],
+    "price": null,
+    "publication_date": "2026-04-18",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_qc",
+    "subreddit": "RealRepLadies",
+    "title": "Chanel 25 size deviation",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1sotgrp/chanel_25_size_deviation/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "General_Look7115",
+    "bag_ids": [],
+    "evidence_type": "psp_qc",
+    "exact_product_match": false,
+    "exact_variant_note": "Louis Vuitton Speedy; the post does not state the exact size, color, material, seller, or factory, and the PSP concern is isolated to visible strap, leather, and strap-joint details.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1vfhg5l",
+    "media_ids": [],
+    "negative_observations": [
+      "The PSP strap color appears possibly too orange, some leather appears wrinkled, and the lower leather-strap connection is described as visibly obvious and the main concern.",
+      "The exact Speedy variant and any later delivery or correction are not stated; this is unresolved PSP evidence without an independent authentic comparison."
+    ],
+    "paraphrase": "A Speedy PSP review flags a possibly too-orange strap, minor leather wrinkling, and a visibly obvious lower point where the leather straps connect, with the strap junction identified as the buyer's main concern.",
+    "positive_observations": [
+      "The post provides three concrete PSP checks rather than an undifferentiated quality question.",
+      "It distinguishes a minor wrinkle that does not bother the buyer from the more significant strap-junction concern."
+    ],
+    "price": null,
+    "publication_date": "2026-08-04",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_qc",
+    "subreddit": "RealRepLadies",
+    "title": "Can someone help me review my LV speedy plz",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vfhg5l/can_someone_help_me_review_my_lv_speedy_plz/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "AcceptableBrain1865",
+    "bag_ids": [],
+    "evidence_type": "in_hand_review",
+    "exact_product_match": false,
+    "exact_variant_note": "Loewe Flamenco bought through an 1688 store; exact size, color, material, seller, and factory are not established. The listing's 'first layer' cowhide description is retained only as a source claim.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "id": "ev-crawl-rrl-loewe-flamenco-1t1dywx",
+    "media_ids": [],
+    "negative_observations": [
+      "The product listing's first-layer cowhide claim is not independently verified, and the post does not provide an authentic comparison or exact variant details.",
+      "The purchase involved a random 1688 store and shipping agent; seller identity, payment, customs, and contact details are excluded from the public evidence record."
+    ],
+    "paraphrase": "After receiving an unspecified Loewe Flamenco bought through 1688, the owner reports a real-leather smell based on their own impression and surprisingly heavy, good-looking hardware, while describing the sourcing and shipping process as stressful and leaving the exact variant unattributed.",
+    "positive_observations": [
+      "The post records an in-hand Flamenco rather than a prospective recommendation.",
+      "It gives concrete physical observations about perceived leather smell and hardware weight/appearance while keeping the material claim explicitly source-reported."
+    ],
+    "price": null,
+    "publication_date": "2026-05-02",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_review",
+    "subreddit": "RealRepLadies",
+    "title": "Flamenco Loewe @1688",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1t1dywx/flamenco_loewe_1688/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "gold-and-pearls",
+    "bag_ids": [],
+    "evidence_type": "long_term_wear",
+    "exact_product_match": false,
+    "exact_variant_note": "Loewe Flamenco with unspecified size, color, material, seller, and factory; the report documents an early-use strap-screw failure.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "id": "ev-crawl-rrl-loewe-flamenco-1upp4is",
+    "media_ids": [],
+    "negative_observations": [
+      "The strap screw came off before the bag had been used three times, causing the Flamenco to fall from the author's shoulder.",
+      "The post does not establish the exact variant, cause, repair, or whether the screw later detached again; seller contact and transaction details are excluded."
+    ],
+    "paraphrase": "An owner reports that a Loewe Flamenco strap screw came off after fewer than three uses, causing the bag to fall from their shoulder, and asks whether to contact the seller because they fear losing the screw again.",
+    "positive_observations": [
+      "The post records a concrete early-use hardware failure rather than generic dissatisfaction.",
+      "It preserves the use count and the practical consequence—the bag falling from the shoulder—which makes the durability concern checkable."
+    ],
+    "price": null,
+    "publication_date": "2026-07-07",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_discussion",
+    "subreddit": "RealRepLadies",
+    "title": "L o E w ë Flamenco owners",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1upp4is/l_o_e_w_ë_flamenco_owners/"
   }
 ]
