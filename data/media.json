@@ -953,5 +953,24 @@
     "source_platform": "Reddit",
     "usage_scope": "target_tile",
     "evidence_id": "ev-catalog-toujours-1q5dgu7"
+  },
+  {
+    "id": "media-catalog-evelyne-hero",
+    "path": "media/evidence/hermes-evelyne-reddit.jpg",
+    "attribution": "u/Top_Flamingo4205 via r/RepCulture_Bags",
+    "source_url": "https://i.redd.it/l2lori6vqlih1.jpeg",
+    "post_url": "https://www.reddit.com/r/RepCulture_Bags/comments/1vkvbaw/i_received_an_hermes_evelyne_bag/",
+    "author": "Top_Flamingo4205",
+    "subreddit": "RepCulture_Bags",
+    "capture_date": "2026-08-13",
+    "removal_checked_at": "2026-08-13",
+    "sha256": "07edd59958c214f8923dc46d731b3fadacde596bd8c2299b56c4dcc85c5fcfb4",
+    "width": 3024,
+    "height": 4032,
+    "research_purpose": "Receipt-linked community collection-tile image for a newly opened catalog family.",
+    "alt": "Hermès Evelyne shown in a Reddit reviewer's personal photograph on a bed.",
+    "source_platform": "Reddit",
+    "usage_scope": "target_tile",
+    "evidence_id": "ev-catalog-evelyne-1vkvbaw"
   }
 ]

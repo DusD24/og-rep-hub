@@ -595,5 +595,41 @@
     "material": "not documented in source",
     "hardware": "not documented in source",
     "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags"
+  },
+  {
+    "id": "bag-evelyne-29",
+    "name": "Hermès Evelyne 29",
+    "size": "29",
+    "pattern": "Evelyne (source-reported)",
+    "colorway": "not documented in selected sources",
+    "priority": "primary",
+    "family_id": "bag-family-hermes-evelyne",
+    "material": "leather (source-reported)",
+    "hardware": "not consistently stated in selected sources",
+    "official_reference_url": "https://www.hermes.com/us/en/"
+  },
+  {
+    "id": "bag-evelyne-23",
+    "name": "Hermès Evelyne 23",
+    "size": "23",
+    "pattern": "Evelyne (source-reported)",
+    "colorway": "not documented in selected sources",
+    "priority": "primary",
+    "family_id": "bag-family-hermes-evelyne",
+    "material": "leather (source-reported)",
+    "hardware": "substantial (source-reported)",
+    "official_reference_url": "https://www.hermes.com/us/en/"
+  },
+  {
+    "id": "bag-evelyne-size-unknown",
+    "name": "Hermès Evelyne, size not documented",
+    "size": "unknown",
+    "pattern": "Evelyne (source-reported)",
+    "colorway": "not documented in source",
+    "priority": "research-lead",
+    "family_id": "bag-family-hermes-evelyne",
+    "material": "leather (source-reported)",
+    "hardware": "metal parts with protective plastic (source-reported)",
+    "official_reference_url": "https://www.hermes.com/us/en/"
   }
 ]

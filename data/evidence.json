@@ -32575,5 +32575,131 @@
     "media_ids": [
       "media-catalog-toujours-hero"
     ]
+  },
+  {
+    "id": "ev-catalog-evelyne-1qmoste",
+    "title": "Hermes Evelyne Strap Help!",
+    "source_type": "reddit_qc",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qmoste/hermes_evelyne_strap_help/",
+    "subreddit": "RepTherapy",
+    "author": "Luckylady94",
+    "publication_date": "2026-01-25",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-evelyne-29"
+    ],
+    "family_ids": [
+      "bag-family-hermes-evelyne"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "An owner of a received Hermès Evelyne 29 reports very soft leather with a strong leather scent and asks about strap-stamp orientation; both the included and custom strap stamps appear to face outward, while the author found mixed reference examples.",
+    "positive_observations": [
+      "The received 29-size bag is described from hand with specific leather feel and scent observations."
+    ],
+    "negative_observations": [
+      "The author reports a concrete strap-stamp orientation concern that remains unresolved in the post."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-catalog-evelyne-1sf3ra5",
+    "title": "First Rep Purchases!",
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1sf3ra5/first_rep_purchases/",
+    "subreddit": "RealRepLadies",
+    "author": "justagirlintheworld",
+    "publication_date": "2026-04-07",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-evelyne-23"
+    ],
+    "family_ids": [
+      "bag-family-hermes-evelyne"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A first-time rep buyer's received Hermès Evelyne 23 is described as high-tier, with good-smelling leather, strong-looking details, and substantial hardware; the buyer did not record a factory attribution.",
+    "positive_observations": [
+      "The source identifies the Evelyne 23 and gives an in-hand assessment of leather scent, details, and hardware substance."
+    ],
+    "negative_observations": [
+      "The source does not document a factory, colorway, or long-term wear result for this Evelyne 23."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-catalog-evelyne-1vkvbaw",
+    "title": "I received an hermes evelyne bag",
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1vkvbaw/i_received_an_hermes_evelyne_bag/",
+    "subreddit": "RepCulture_Bags",
+    "author": "Top_Flamingo4205",
+    "publication_date": "2026-08-10",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-evelyne-size-unknown"
+    ],
+    "family_ids": [
+      "bag-family-hermes-evelyne"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A gifted Hermès Evelyne of unspecified size is reported to smell like leather and look in good condition; the author questions its authenticity after finding the dust bag cheap-looking and the metal hardware still wrapped in plastic.",
+    "positive_observations": [
+      "The source supplies a personal received-bag observation and a policy-compliant hero photograph."
+    ],
+    "negative_observations": [
+      "The author records authenticity uncertainty, a cheap-looking dust bag, and no exact size or colorway."
+    ],
+    "media_ids": [
+      "media-catalog-evelyne-hero"
+    ]
+  },
+  {
+    "id": "ev-catalog-evelyne-1ttvd5m",
+    "title": "[REVIEW] Hermes Evelyne 29 from Mark - My experience and a detailed breakdown!",
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ttvd5m/review_hermes_evelyne_29_from_mark_my_experience/",
+    "subreddit": "RealRepLadies",
+    "author": "brighters7710",
+    "publication_date": "2026-06-01",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-evelyne-29"
+    ],
+    "family_ids": [
+      "bag-family-hermes-evelyne"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A received Hermès Evelyne 29 review reports supple leather with consistent grain, weighty and cleanly engraved hardware, straight stitching, and aligned H perforations; the post also notes protective plastic rings on strap hardware at arrival.",
+    "positive_observations": [
+      "The post gives feature-level in-hand observations across leather, hardware, stitching, and H-perforation alignment."
+    ],
+    "negative_observations": [
+      "No product defect is reported, and the exact colorway and leather subtype are not documented in the post."
+    ],
+    "media_ids": []
   }
 ]

@@ -18292,10 +18292,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qmoste": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-evelyne-1qmoste"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "Exact item is a Hermes Evelyne 29 with leather and strap-stamp observations, not Dior Saddle; preserve for a separate Evelyne catalog decision."
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1qmotkc": {
       "disposition": "deferred",
@@ -30712,10 +30715,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sf3ra5": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-evelyne-1sf3ra5"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1sf3wu6": {
       "disposition": "deferred",
@@ -42721,10 +42727,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ttvd5m": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-evelyne-1ttvd5m"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1ttwv3g": {
       "disposition": "deferred",
@@ -58489,10 +58498,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1vkvbaw": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-evelyne-1vkvbaw"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1vkw1a6": {
       "disposition": "deferred",

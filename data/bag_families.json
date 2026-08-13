@@ -2492,5 +2492,59 @@
       "The hero-linked post has thin text; two same-author Toujours purchases are kept as separate bags, while their same-content RealRepLadies crossposts are excluded."
     ],
     "reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags"
+  },
+  {
+    "id": "bag-family-hermes-evelyne",
+    "slug": "hermes-evelyne",
+    "brand": "Hermès",
+    "model": "Evelyne",
+    "aliases": [
+      "Hermès Evelyne",
+      "Evelyne crossbody"
+    ],
+    "category": "crossbody",
+    "summary": "Community evidence file covering Hermès Evelyne sizes, leather feel, strap construction, hardware, perforation alignment, and authenticity questions.",
+    "tile_media_id": "media-catalog-evelyne-hero",
+    "publication_status": "published",
+    "documented_variant_ids": [
+      "bag-evelyne-29",
+      "bag-evelyne-23",
+      "bag-evelyne-size-unknown"
+    ],
+    "evidence_ids": [
+      "ev-catalog-evelyne-1qmoste",
+      "ev-catalog-evelyne-1sf3ra5",
+      "ev-catalog-evelyne-1vkvbaw",
+      "ev-catalog-evelyne-1ttvd5m"
+    ],
+    "documented_materials": [
+      "leather (source-reported)",
+      "not consistently stated in selected sources"
+    ],
+    "documented_hardware": [
+      "substantial or weighty hardware (source-reported)",
+      "protective plastic on hardware (source-reported)",
+      "not consistently stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 4,
+      "independent_author_count": 4,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepCulture_Bags",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "in_hand_review"
+      ]
+    },
+    "last_updated": "2026-08-13",
+    "research_gaps": [
+      "Evelyne 29, Evelyne 23, and an unresolved-size Evelyne remain separate; selected sources do not establish consistent colorways or leather subtypes.",
+      "Source-reported seller names are not normalized into public seller or factory records; the rejected hardware-finish discussion remains excluded.",
+      "The hero-linked post includes authenticity uncertainty and thin text, so its image is used only as the family tile and its evidence remains narrowly described."
+    ],
+    "reference_url": "https://www.hermes.com/us/en/"
   }
 ]
