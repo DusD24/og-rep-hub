@@ -14829,10 +14829,10 @@
       "reason": "triage score 5 below floor 30"
     },
     "t3_1q2396j": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 50)"
+      "reason": "reviewed and not promoted: The Speedy Soft 30 teddy post is overwhelmingly generic praise, seller/timeline information, and compliments; it does not record a specific material, construction, or wear finding about the reviewed bag."
     },
     "t3_1q2afa0": {
       "disposition": "promoted",
@@ -23371,10 +23371,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rcc9s1": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "reviewed and not promoted: This is a multi-item haul with a coat, Mon Tresor, and pink Small Classic Flap; the only detailed bag observations concern the Mon Tresor, while the Classic Flap is mentioned without a checkable product finding."
     },
     "t3_1rcfm1s": {
       "disposition": "deferred",
@@ -32773,10 +32773,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sntwk9": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1sntwk9"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 50)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1snwj9o": {
       "disposition": "rejected",
@@ -36725,10 +36728,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t4e0w1": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1t4e0w1"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1t4ed74": {
       "disposition": "deferred",
@@ -40231,10 +40237,10 @@
       "reason": "reviewed and not promoted: duplicate pre-purchase seller solicitation from the same author and date as 1tj6bc2"
     },
     "t3_1tjblyl": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "reviewed and not promoted: The sanitized post body is empty and the comments are generic praise, passability reassurance, and seller/factory requests; no specific construction or material observation is available."
     },
     "t3_1tjdjeo": {
       "disposition": "deferred",
@@ -46234,10 +46240,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u7owlo": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 35)"
+      "reason": "reviewed and not promoted: The post is a seller-linked 10/10 promotional review with catalogue and payment details, generic luxury claims, and no authentic in-person comparison; it does not meet the evidence bar for a specific public observation."
     },
     "t3_1u7pyf4": {
       "disposition": "rejected",
@@ -53056,10 +53062,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uzn0m6": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1uzn0m6"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 35)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1uzqkq7": {
       "disposition": "promoted",
@@ -56743,10 +56752,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1veh1iy": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 35)"
+      "reason": "reviewed and not promoted: The post asks whether an unspecified-factory Chanel 25 can be worn confidently and the comments are mostly generic social reassurance; it does not document a specific inspectable feature or outcome."
     },
     "t3_1vei7s9": {
       "disposition": "deferred",

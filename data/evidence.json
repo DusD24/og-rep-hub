@@ -31714,5 +31714,101 @@
       "Factory references in the comments conflict and are not normalized; no seller, batch, or independent material verification is recorded."
     ],
     "exact_variant_note": "Received Chanel 25 Small; author reports caviar appearance and weighted, credible-color hardware, but factory and batch remain unattributed."
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1sntwk9",
+    "title": "review of my very old LV wild at heart speedy bandouliere",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1sntwk9/review_of_my_very_old_lv_wild_at_heart_speedy/",
+    "subreddit": "RepTherapy",
+    "author": "lostandbefuddled",
+    "publication_date": "2026-04-17",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "long_term_wear",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "After about four and a half years of rough use, an owner reports that a limited-edition Wild at Heart Speedy Bandouliere still has good-feeling leather and no unusual smell, while the leopard pattern's paint has worn off along the sides.",
+    "positive_observations": [
+      "The review identifies a Wild at Heart Speedy Bandouliere and gives a long-term use period of approximately four and a half years.",
+      "The owner reports that the bag held up well despite rough use and that the leather still feels good without conditioner."
+    ],
+    "negative_observations": [
+      "The leopard-pattern paint is reported to be coming off along the sides; the owner is unsure how to repair it.",
+      "Factory, material specification, colorway details beyond Wild at Heart, batch, and an authentic comparison are not documented; the seller reference is not normalized."
+    ],
+    "exact_variant_note": "Wild at Heart Speedy Bandouliere with approximately four and a half years of reported use; factory and batch are unattributed."
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1t4e0w1",
+    "title": "QC this classic flap",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1t4e0w1/qc_this_classic_flap/",
+    "subreddit": "RealRepLadies",
+    "author": "LongjumpingSeesaw693",
+    "publication_date": "2026-05-05",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP/QC thread for a Small Classic Flap with gold hardware records mixed feature-level comments: one commenter says the side profile and puffiness look right, while others flag front-quilt or interior alignment and possible left-side wrinkles; the author compares the gold concern with an authentic lambskin Mini and had not yet received the bag.",
+    "positive_observations": [
+      "The thread identifies a Small Classic Flap and preserves concrete comments about side profile, puffiness, interior appearance, and gold hardware.",
+      "The author references an authentic gold-hardware Mini as a comparison point for the hardware color concern."
+    ],
+    "negative_observations": [
+      "Comments disagree about alignment and wrinkles, and the author had not received the bag, so all PSP findings remain unresolved.",
+      "Factory, material, color beyond gold hardware, batch, and post-delivery wear are not documented; seller/contact discussion is excluded."
+    ],
+    "exact_variant_note": "Small Classic Flap at PSP/QC stage with gold hardware; factory, material, batch, and post-delivery outcome are not normalized."
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1uzn0m6",
+    "title": "Chanel 25",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1uzn0m6/chanel_25/",
+    "subreddit": "RealRepLadies",
+    "author": "NoPeak8615",
+    "publication_date": "2026-07-18",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "long_term_wear",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "After approximately three to four months of near-daily use, an owner reports that the leather on a Chanel 25 appears to be bubbling more than it did initially and asks whether that change is expected; comments offer conflicting views about normal creasing versus a possible material concern.",
+    "positive_observations": [
+      "The post identifies a Chanel 25 and documents an observed change after several months of near-daily use.",
+      "The author asks an explicit wear/durability question rather than giving only generic satisfaction or seller praise."
+    ],
+    "negative_observations": [
+      "The reported bubbling is unresolved; commenters disagree about whether the change is ordinary creasing/softening or a material problem.",
+      "Size, color, material specification, factory, batch, and any later resolution are not documented."
+    ],
+    "exact_variant_note": "Chanel 25 after approximately three to four months of near-daily reported use; variant details and attribution remain unspecified."
   }
 ]
