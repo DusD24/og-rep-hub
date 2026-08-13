@@ -3587,10 +3587,13 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1mi2suk": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1mi2suk"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 78)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1mih1y3": {
       "disposition": "deferred",
@@ -13465,10 +13468,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1qhbx45": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1qhbx45"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 78)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qhc64n": {
       "disposition": "deferred",
@@ -18079,10 +18085,13 @@
       "reason": "reviewed and not promoted: discussion of reversible Neverfull transformations and accessory ideas, not a product-quality observation"
     },
     "t3_1r92qqq": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1r92qqq"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1r92txv": {
       "disposition": "rejected",
@@ -18853,10 +18862,13 @@
       "reason": "reviewed and not promoted: This P9 Speedy 20 review duplicates the same author's promoted source at t3_1rgdwv2, so the second citation is not retained."
     },
     "t3_1rgmq9a": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1rgmq9a"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 78)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1rgonj7": {
       "disposition": "deferred",
@@ -41449,10 +41461,10 @@
       "reason": "triage score 24 below floor 30"
     },
     "t3_1usa2t5": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: pre-purchase factory recommendation request for a new LV Speedy 30 embleme variant; no owned product or observation"
     },
     "t3_1usbvvc": {
       "disposition": "deferred",
