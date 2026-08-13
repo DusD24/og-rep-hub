@@ -19225,10 +19225,13 @@
       "reason": "reviewed and not promoted: Bare Puzzle PSP request; the update only says the bag was returned and replaced from Liusheng, without concrete QC observations."
     },
     "t3_1riook1": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1riook1"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ripeuv": {
       "disposition": "deferred",
@@ -20812,10 +20815,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rtdbkr": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "reviewed and not promoted: received Chanel 25 QC request has only generic praise and one angle-dependent diamond-alignment concern that the owner says is balanced; no feature-level conclusion remains"
     },
     "t3_1rtdqyp": {
       "disposition": "deferred",
@@ -22246,10 +22249,10 @@
       "reason": "reviewed and not promoted: buyer states outright they have no basis to judge accuracy ('no way in telling'); no observation"
     },
     "t3_1s2gq7e": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "reviewed and not promoted: bare Chanel 25 Mini PSP with generic color praise and a source-reported Xiao factory label but no concrete quality or comparison observation"
     },
     "t3_1s2h08y": {
       "disposition": "rejected",
@@ -32557,10 +32560,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tlkpls": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: seller-information-only capture with no bag text or product observation"
     },
     "t3_1tlkx60": {
       "disposition": "deferred",
@@ -35176,10 +35179,13 @@
       "reason": "reviewed and not promoted: contact-bearing Nano Speedy QC post with no textual product observation beyond asking what others think"
     },
     "t3_1tzhbex": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1tzhbex"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1tzkf2l": {
       "disposition": "rejected",
@@ -38049,10 +38055,10 @@
       "reason": "reviewed and not promoted: mixed Neverfull and Speedy PSP request with payment and shipping details but no specific product observation"
     },
     "t3_1ubsuei": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: bare Speedy P9 Bandouliere 40 QC request with no specific observation, comparison, or documented factory outcome"
     },
     "t3_1ubt3eq": {
       "disposition": "deferred",

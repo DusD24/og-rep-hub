@@ -26011,5 +26011,71 @@
       "The bag was not yet received, no color, material, factory, authentic comparison, or long-term wear is stated, and the feature assessment is brief and subjective.",
       "Payment, shipping/insurance amounts, and the comment thread's contact requests are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1riook1",
+    "title": "PSP Chanel 25 small Caviar – Need honest QC before GL",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1riook1/psp_chanel_25_small_caviar_need_honest_qc_before/",
+    "subreddit": "RealRepLadies",
+    "author": "Aware_Travel_7760",
+    "publication_date": "2026-03-02",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25 Small in caviar at PSP/QC stage; the source does not state color or seller. The buyer flags a yellow-looking CC/logo and uncertain leather shine, while commenters say the overall image may be yellow from lighting and request natural-light photos. The buyer identifies the source as OF in a comment, but OF is not a normalized public factory entity; a separate comment contrasts 187 leather as too dry. Payment and contact details are excluded.",
+    "paraphrase": "Before approving a Chanel 25 Small caviar PSP, the buyer flags the CC/logo as too yellow and is unsure about the leather shine. A commenter says the whole image looks yellow and may be affected by lighting; the buyer requests a natural-light video. The buyer later identifies the source as OF, while another commenter says 187 leather for the same bag is too dry, leaving both the hardware-color and factory comparison unresolved.",
+    "positive_observations": [
+      "The thread identifies the Chanel 25 Small, caviar material, PSP stage, and concrete hardware-color and leather-shine questions.",
+      "It preserves the lighting confounder, natural-light follow-up, source-reported OF label, and 187 comparison without attaching either unnormalized factory label as a public entity."
+    ],
+    "negative_observations": [
+      "The bag was not received and the yellow appearance may be lighting; no final natural-light result or seller response is captured.",
+      "Color, seller, and factory are not independently established, and the 187 leather comment is a separate public comparison rather than a verified batch finding; payment/contact details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1tzhbex",
+    "title": "QC Check LV Speedy Nano",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1tzhbex/qc_check_lv_speedy_nano/",
+    "subreddit": "RealRepLadies",
+    "author": "tktran509",
+    "publication_date": "2026-06-07",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The seller said the bag was being sent out on the day of the follow-up, as reported; receipt was not captured.",
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Nano Speedy at PSP/QC stage through normalized seller Hyper Peter; color, material, and factory are not stated. A commenter says the canvas looks blurry and textured but also says the source gets the Nano Speedy shape correct and treats the texture difference as negligible. Payment and contact details are excluded.",
+    "paraphrase": "A buyer posts PSPs for a Nano Speedy from Hyper Peter and says the bag is being sent out. One commenter specifically criticizes the canvas as blurry and textured, while also saying the source is the only one they have seen that gets the Nano Speedy shape right and that the canvas texture is negligible. The bag was not yet received in the captured discussion.",
+    "positive_observations": [
+      "The thread identifies the Nano Speedy, normalized Hyper Peter seller, PSP stage, and a concrete tradeoff between reported shape accuracy and canvas texture.",
+      "It preserves the commenter's mixed assessment rather than turning a single opinion into a factory-wide conclusion."
+    ],
+    "negative_observations": [
+      "The bag was not received in the captured thread, and the canvas/shape assessment comes from one commenter without a direct authentic side-by-side or factory attribution.",
+      "Color and material are not stated; payment and contact details are excluded."
+    ]
   }
 ]
