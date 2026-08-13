@@ -8633,10 +8633,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1p0q9kf": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: pre-purchase factory and seller recommendation request for a Speedy 20 with no owned product or direct quality observation"
     },
     "t3_1p0rmag": {
       "disposition": "deferred",
@@ -9104,10 +9104,10 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1p5vjls": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 82)"
+      "reason": "reviewed and not promoted: seller-hosted Black Friday sale advertisement with contact, album, discount, and price references but no buyer evidence or product-quality observation"
     },
     "t3_1p5wqxs": {
       "disposition": "deferred",
@@ -13444,10 +13444,13 @@
       "reason": "backfilled from committed evidence"
     },
     "t3_1qhbsxq": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1qhbsxq"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qhbx45": {
       "disposition": "deferred",
@@ -16411,10 +16414,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qy67qc": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1qy67qc"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qy682y": {
       "disposition": "rejected",
@@ -17191,10 +17197,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1r2u9yg": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-chanel-vanity-1r2u9yg"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 82)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1r2voli": {
       "disposition": "rejected",
@@ -28720,10 +28729,13 @@
       "reason": "reviewed and not promoted: Pre-purchase Neverfull price/material solicitation contains seller quotes and requested features but no product evidence."
     },
     "t3_1t266l1": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rlw-chanel-25-1t266l1"
+      ],
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 82)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1t2b0yd": {
       "disposition": "rejected",
