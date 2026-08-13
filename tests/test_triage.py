@@ -147,6 +147,96 @@ class ScoringTests(unittest.TestCase):
         scored = self.score(candidate("a8", title="Neverfull-style Monogram GM arrived"))
         self.assertIn("bag-family-louis-vuitton-neverfull", scored["family_ids"])
 
+    def test_a_model_name_modifying_a_material_is_not_a_bag_match(self):
+        # Observed in a real draft: "Margaux 15 saddle leather" was attributed to the
+        # Dior Saddle collection, which would have published false evidence against it.
+        scored = self.score(candidate("m1", title="Margaux 15 saddle leather psp crooked?"))
+        self.assertIn("bag-family-the-row-margaux", scored["family_ids"])
+        self.assertNotIn("bag-family-dior-saddle", scored["family_ids"])
+
+    def test_a_model_name_modifying_a_non_bag_product_is_not_a_bag_match(self):
+        # "Miss Kelly's from Mandy" is a review of sandals, not of a Kelly bag.
+        scored = self.score(candidate("m2", title="Miss Kelly sandals from Mandy", excerpt="Wore the Kelly sandals to a party."))
+        self.assertNotIn("bag-family-hermes-kelly", scored["family_ids"])
+
+    def test_the_real_bag_still_matches_when_named_plainly(self):
+        self.assertIn(
+            "bag-family-dior-saddle",
+            self.score(candidate("m3", title="Dior Saddle bag in hand review"))["family_ids"],
+        )
+        self.assertIn(
+            "bag-family-hermes-kelly",
+            self.score(candidate("m4", title="Kelly 28 arrived today"))["family_ids"],
+        )
+
+    def test_a_brand_mention_never_becomes_an_attribution(self):
+        # "Dior" is carried as a weak term by every Dior family. It may raise the
+        # ranking, but attributing the post to Book Tote and Saddle would publish
+        # evidence against two collections the post never discusses.
+        scored = self.score(candidate(
+            "b3",
+            title="My new mini Lady Dior",
+            excerpt="Got this mini Lady Dior today and the leather smells right, no plastic. "
+            "The quilting is even and the hardware has held up so far after a week of wear.",
+        ))
+        self.assertIn("bag-family-dior-lady-dior", scored["strong_family_ids"])
+        self.assertNotIn("bag-family-dior-book-tote", scored["strong_family_ids"])
+        self.assertNotIn("bag-family-dior-saddle", scored["strong_family_ids"])
+        # Ranking still sees the brand signal.
+        self.assertIn("bag-family-dior-book-tote", scored["family_ids"])
+
+    def test_a_brand_only_post_is_never_shortlisted_undraftable(self):
+        # A brand-only match cannot become a draft (family_ids would be empty), so it
+        # must go to awaiting_catalog rather than occupying a shortlist slot.
+        rows = [candidate(
+            "b5",
+            title="PSP QC help - Celine Soft 16 Large",
+            excerpt="Would appreciate QC help on the Celine Large Soft 16 in tan. I own authentic "
+            "Chanel and Dior but no Celine, so I compared the PSPs against factory photos carefully.",
+        )]
+        ledger = empty_ledger()
+        digest = triage(rows, ledger, limit=25, floor=30, excerpt_chars=400)
+        self.assertEqual(digest["entries"], [])
+        self.assertEqual(digest["counts"]["awaiting_catalog"], 1)
+        self.assertEqual(ledger["seen"]["t3_b5"]["disposition"], "deferred")
+
+    def test_every_shortlisted_entry_can_become_a_draft(self):
+        rows = [candidate(f"d{i:03d}") for i in range(40)]
+        rows.append(candidate("dbrand", title="Some Dior thing", excerpt="A Dior bag arrived and I like it a lot after several days of steady use around town."))
+        digest = triage(rows, empty_ledger(), limit=25, floor=30, excerpt_chars=400, per_family_cap=0)
+        for entry in digest["entries"]:
+            self.assertTrue(
+                entry["matched"]["family_ids"] or entry["matched"]["bag_ids"],
+                f"{entry['candidate_id']} was shortlisted with nothing to attribute it to",
+            )
+
+    def test_digest_attribution_uses_only_strong_matches(self):
+        rows = [candidate("b4", title="My new mini Lady Dior", excerpt="The Lady Dior quilting is even and the leather smells right after a week of daily wear.")]
+        digest = triage(rows, empty_ledger(), limit=25, floor=30, excerpt_chars=400)
+        matched = digest["entries"][0]["matched"]
+        self.assertEqual(matched["family_ids"], ["bag-family-dior-lady-dior"])
+        self.assertIn("bag-family-dior-saddle", matched["brand_only_family_ids"])
+
+    def test_a_post_asking_for_a_seller_scores_below_a_post_reporting_on_a_bag(self):
+        review = self.score(candidate("s1"))
+        asking = self.score(candidate(
+            "s2",
+            title="First time buying reps",
+            excerpt="Want to buy a Neverfull and a classic flap. Don't know which seller to use! Any suggestions?",
+            lane="seller_context",
+        ))
+        self.assertLess(asking["score"], review["score"])
+        self.assertLess(asking["score"], 30, "a pure solicitation should fall below the default floor")
+
+    def test_a_review_that_ends_with_a_question_still_clears_the_floor(self):
+        scored = self.score(candidate(
+            "s3",
+            title="Neverfull arrived, thoughts?",
+            excerpt="The Monogram canvas is even and the leather has aged well over four months of daily "
+            "wear. Stitching is straight and the hardware still looks right. Anyone else have this one?",
+        ))
+        self.assertGreaterEqual(scored["score"], 30)
+
     def test_gap_boost_favours_under_covered_collections(self):
         # Both posts are equally good; only the coverage gap differs.
         busy = self.score(candidate("b1", title="Neverfull review in hand"))

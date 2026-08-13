@@ -67,6 +67,30 @@ GENERIC_ENTITY_WORDS = frozenset({
     "kata", "kendall", "lemon", "li", "moon", "spring", "summer", "sunny", "winter",
 })
 MIN_TERM_LENGTH = 3
+# Evidence is an observation of a bag someone has, saw, or is inspecting. A post
+# asking which seller to use, or hunting for a stockist, names all the same
+# collections, sellers, and factories while reporting nothing about any of them --
+# so it scores like a review without being one. These were most of one real
+# shortlist. The penalty is sized to drop a post that is purely a request below the
+# floor, while a review that happens to end with a question still clears it.
+SOLICITATION_PATTERNS = tuple(
+    re.compile(pattern, re.IGNORECASE)
+    for pattern in (
+        r"(?<!\w)ISO(?!\w)",
+        r"\bin search of\b",
+        r"\bwhich (?:seller|ts|factory|one) (?:should|do|would)\b",
+        r"\b(?:any|other) (?:suggestions|recommendations|recs)\b",
+        r"\b(?:can|could) (?:anyone|someone|you) recommend\b",
+        r"\brecommend(?:ed|ations?)? (?:ts|seller)\b",
+        r"\blooking for a (?:seller|ts|trusted seller)\b",
+        r"\bwhat should (?:my|i) (?:next )?\w+ be\b",
+        r"\bdon'?t know which seller\b",
+        r"\bdoes anyone (?:know|have) (?:a |any )?(?:seller|rec)\b",
+        r"\bwho (?:do you|should i) (?:use|buy from)\b",
+        r"\bwhere (?:can|do) i (?:buy|get)\b",
+    )
+)
+SOLICITATION_PENALTY = 30
 REDACTION_PENALTIES = {
     "private_message_present": 40,
     "secret_present": 40,
@@ -76,8 +100,27 @@ REDACTION_PENALTIES = {
 }
 
 
+# Several model names are also ordinary modifiers, and a bare word-boundary match
+# cannot tell "a Dior Saddle" from "Margaux 15 in saddle leather", or a Kelly bag
+# from Kelly sandals. Both misreadings were observed in real drafts. When one of
+# these nouns immediately follows the term, the term is describing that noun rather
+# than naming a bag: either a material/technique, or a product that is not a bag.
+NON_BAG_SUCCESSOR_PATTERN = re.compile(
+    r"\s+(?:leather|calfskin|suede|canvas|stitch(?:ing|es|ed)?|"
+    r"sandals?|mules?|slides?|shoes?|boots?|sneakers?|heels?|flats?|loafers?|"
+    r"scarf|scarves|belts?|sunglasses|glasses|rings?|bracelets?|necklaces?|"
+    r"earrings?|watch(?:es)?|perfumes?|fragrances?)(?!\w)",
+    re.IGNORECASE,
+)
+
+
 def _term_pattern(term: str) -> re.Pattern[str]:
     return re.compile(rf"(?<!\w){re.escape(term)}(?!\w)", re.IGNORECASE)
+
+
+def _is_bag_reference(text: str, match: re.Match[str]) -> bool:
+    """False when the matched term is modifying a non-bag noun rather than naming a bag."""
+    return NON_BAG_SUCCESSOR_PATTERN.match(text, match.end()) is None
 
 
 def build_vocabulary() -> dict[str, Any]:
@@ -149,16 +192,40 @@ def build_vocabulary() -> dict[str, Any]:
     }
 
 
-def _matches(text: str, terms: list[dict[str, Any]]) -> tuple[list[str], bool]:
-    """Return matched entity ids and whether any match was a strong signal."""
+def _matches(
+    text: str, terms: list[dict[str, Any]], *, require_bag_reference: bool = False
+) -> tuple[list[str], bool]:
+    """Return (all matched ids, whether any match was strong, strongly matched ids).
+
+    The two id lists exist because a match is used for two different things. Ranking
+    wants every match, including the weak brand terms every family of that brand
+    carries -- a post saying "Dior" really is more likely to be about a Dior bag.
+    Attribution must not: it would claim the post is evidence about the Book Tote and
+    the Saddle purely because the word "Dior" appeared. Only a strong match names a
+    specific model, so only strong ids may become a record's family_ids.
+
+    With require_bag_reference, a term only counts where it actually names a bag --
+    see NON_BAG_SUCCESSOR_PATTERN. Sellers and factories do not use this: "Kendall
+    factory" is a real attribution, and those rosters are already guarded by
+    GENERIC_ENTITY_WORDS.
+    """
     ids: list[str] = []
+    strong_ids: list[str] = []
     strong = False
     for item in terms:
-        if item["pattern"].search(text):
-            if item["id"] not in ids:
-                ids.append(item["id"])
-            strong = strong or item["strong"]
-    return ids, strong
+        found = None
+        for candidate_match in item["pattern"].finditer(text):
+            if not require_bag_reference or _is_bag_reference(text, candidate_match):
+                found = candidate_match
+                break
+        if found is None:
+            continue
+        if item["id"] not in ids:
+            ids.append(item["id"])
+        if item["strong"] and item["id"] not in strong_ids:
+            strong_ids.append(item["id"])
+        strong = strong or item["strong"]
+    return ids, strong, strong_ids
 
 
 def build_gap_index() -> dict[str, dict[str, Any]]:
@@ -209,10 +276,14 @@ def score_candidate(
 ) -> dict[str, Any]:
     """Deterministic 0-100 quality score plus an additive coverage-gap boost."""
     text = " ".join(str(candidate.get(field) or "") for field in ("title", "flair", "redacted_excerpt"))
-    family_ids, family_strong = _matches(text, vocabulary["families"])
-    bag_ids, bag_strong = _matches(text, vocabulary["bags"])
-    seller_ids, seller_strong = _matches(text, vocabulary["sellers"])
-    factory_ids, factory_strong = _matches(text, vocabulary["factories"])
+    family_ids, family_strong, strong_family_ids = _matches(
+        text, vocabulary["families"], require_bag_reference=True
+    )
+    bag_ids, bag_strong, strong_bag_ids = _matches(
+        text, vocabulary["bags"], require_bag_reference=True
+    )
+    seller_ids, seller_strong, _ = _matches(text, vocabulary["sellers"])
+    factory_ids, factory_strong, _ = _matches(text, vocabulary["factories"])
 
     # A bag variant implies its family even when the family name is not written out.
     for bag_id in bag_ids:
@@ -245,6 +316,9 @@ def score_candidate(
     if str(candidate.get("author") or "").casefold() in known_authors:
         score += 8
         signals.append("author already cited in the catalog")
+    if any(pattern.search(text) for pattern in SOLICITATION_PATTERNS):
+        score -= SOLICITATION_PENALTY
+        signals.append("asks for a seller rather than reporting on a bag")
     excerpt = str(candidate.get("redacted_excerpt") or "")
     if len(excerpt) >= 240:
         score += 10
@@ -279,6 +353,11 @@ def score_candidate(
         "gap_reason": gap_reasons[0] if gap_reasons else "",
         "family_ids": family_ids,
         "bag_ids": bag_ids,
+        # Attribution-safe subsets: only terms that named a specific model, never a
+        # brand term. A record's family_ids must come from these, or a post saying
+        # "Dior" becomes evidence about every Dior collection at once.
+        "strong_family_ids": strong_family_ids,
+        "strong_bag_ids": strong_bag_ids,
         "seller_ids": seller_ids,
         "factory_ids": factory_ids,
         "suggested_evidence_type": mapped_type,
@@ -333,8 +412,16 @@ def digest_entry(candidate: dict[str, Any], scored: dict[str, Any], excerpt_char
         "gap_reason": scored["gap_reason"],
         "signals": scored["signals"],
         "matched": {
-            "family_ids": scored["family_ids"],
-            "bag_ids": scored["bag_ids"],
+            # Attribution uses the strong subsets so a draft never claims a post is
+            # about every collection of a brand it merely mentioned. The full lists
+            # stay available for a reviewer weighing whether a match was missed.
+            "family_ids": scored["strong_family_ids"],
+            "bag_ids": scored["strong_bag_ids"],
+            "brand_only_family_ids": [
+                family_id
+                for family_id in scored["family_ids"]
+                if family_id not in scored["strong_family_ids"]
+            ],
             "seller_ids": scored["seller_ids"],
             "factory_ids": scored["factory_ids"],
         },
@@ -394,7 +481,12 @@ def triage(
         # still: naming a catalogued collection is worth 30 of 100 points, so an
         # unanchored post is docked for the very thing being tested and its low score
         # is not independent evidence of low quality.
-        if not scored["has_collection_anchor"]:
+        # The strong anchor, not the weak one: a post that only mentions a brand has
+        # no specific collection to attach a receipt to, so it is in exactly the same
+        # position as one naming a bag the catalog has never seen. detect_new_collections
+        # reads both. Using the weak anchor here also shortlisted posts that
+        # draft_evidence.py then refused, since a draft's family_ids are strong-only.
+        if not scored["has_strong_collection_anchor"]:
             unanchored.append((candidate, scored))
         elif scored["score"] < floor:
             rejected.append((candidate, scored))
