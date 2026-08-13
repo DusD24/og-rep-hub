@@ -21064,10 +21064,10 @@
       "reason": "reviewed and not promoted: Mixed Birkin 25 and Mini Kelly post gives generic color and style praise without product-specific observations."
     },
     "t3_1ruzae8": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "reviewed and not promoted: The Speedy 30 post is primarily a styling and charm-customization discussion. Its broad slouch praise does not provide enough construction, QC, wear, factory, or authentic-comparison detail for public evidence."
     },
     "t3_1rv4fjv": {
       "disposition": "promoted",
@@ -25234,10 +25234,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sjyoxf": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-chanel-25-1sjyoxf"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 78)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sjzjic": {
       "disposition": "deferred",
@@ -28795,10 +28798,10 @@
       "reason": "reviewed and not promoted: Duplicate crosspost of the already reviewed Mini Puzzle Edge PSP `t3_1t2b92c`; preserve one public evidence record."
     },
     "t3_1t2b5pl": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 78)"
+      "reason": "reviewed and not promoted: The received Classic Double Flap post is mostly generic seller and quality praise; the sister's reaction to an authentic bag is not a controlled feature-level comparison, and size, color, factory, and construction details are not established."
     },
     "t3_1t2b92c": {
       "disposition": "promoted",
@@ -40126,7 +40129,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "keep deferred: exact Louis Vuitton Keepall 45 family is not catalogued and remains for separate catalog review"
+      "reason": "reviewed and deferred: Keepall 45 is an uncatalogued exact family; retain as deferred for a separate catalog decision and do not attach it to the catalogued Louis Vuitton Speedy family."
     },
     "t3_1ukvx1z": {
       "disposition": "deferred",
@@ -41506,10 +41509,13 @@
       "reason": "reviewed and not promoted: Pre-purchase Puzzle Featherlight pricing question includes payment and seller context but no received-product evidence."
     },
     "t3_1ushosa": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-chanel-25-1ushosa"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 78)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1usi9wb": {
       "disposition": "deferred",
@@ -45046,10 +45052,13 @@
       "reason": "reviewed and not promoted: hasn't ordered yet ('finally saved up enough to order'); asks others about their own bags"
     },
     "t3_1vbprxf": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1vbprxf"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1vbpt9x": {
       "disposition": "rejected",
