@@ -19591,5 +19591,337 @@
       "The reviewer perceives the 12's leather as lower quality than the comparison 17, but provides no authentic reference, factory, or named seller.",
       "Payment details are excluded and the exact leather nomenclature is not independently resolved."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1srs1g8",
+    "title": "QC Chanel 25 White from 187 factory- thoughts?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1srs1g8/qc_chanel_25_white_from_187_factory_thoughts/",
+    "subreddit": "RealRepLadies",
+    "author": "zjredditt",
+    "publication_date": "2026-04-21",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25 in white attributed to 187 Factory; leather type, seller, and exact hardware finish are not stated.",
+    "paraphrase": "A white Chanel 25 PSP attributed to 187 raises two concrete concerns: some hardware areas look unusually dark or black, and the leather may appear too dry or flat.",
+    "positive_observations": [
+      "The source preserves the Chanel 25 model, white color, 187 attribution, and separate hardware and leather PSP checks.",
+      "It frames both concerns as questions for review rather than making an unsupported final conclusion."
+    ],
+    "negative_observations": [
+      "The dark hardware and dry/flat leather concerns are unresolved, and no authentic side-by-side or delivered result is captured.",
+      "Leather type, seller, and exact hardware finish are not stated."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1qw86l1",
+    "title": "A tale of two speedy bags",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qw86l1/a_tale_of_two_speedy_bags/",
+    "subreddit": "RepTherapy",
+    "author": "sk195689",
+    "publication_date": "2026-02-05",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-reykay"
+    ],
+    "factory_ids": [
+      "factory-huahui",
+      "factory-birdcage"
+    ],
+    "exact_product_match": false,
+    "exact_variant_note": "Side-by-side Speedy comparison attributed to Huahui and Birdcage; the post does not state the compared sizes, colors, or exact constructions.",
+    "paraphrase": "A side-by-side comparison of Speedy bags attributed to Huahui and Birdcage reports similar canvas quality with Huahui slightly sturdier, matte versus shiny leather, sturdy but somewhat orangey hardware, an LV zipper-tab engraving on the Huahui bag, different pocket sizes, and a mix of older and newer construction details; neither bag is described as perfect.",
+    "positive_observations": [
+      "The source preserves the Huahui/Birdcage comparison and records concrete differences in canvas hand, leather finish, hardware color and engraving, side-band construction, pockets, and weight.",
+      "It reports shortcomings on both bags instead of collapsing the comparison into a factory ranking."
+    ],
+    "negative_observations": [
+      "The exact Speedy sizes, colorways, and variants are not stated, and the author has not identified all differences against an authentic reference.",
+      "The source notes scratched zipper-tab engraving on the Huahui bag and orangey hardware on both; payment details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1tpwp4t",
+    "title": "QC Help - LV Speedy Soft 30 Dark",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1tpwp4t/qc_help_lv_speedy_soft_30_dark/",
+    "subreddit": "RepTherapy",
+    "author": "janyss",
+    "publication_date": "2026-05-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "LV Speedy Soft 30 in a dark colorway attributed to Royal Factory and seller Mandy.",
+    "paraphrase": "A Royal Factory Speedy Soft 30 PSP has interior lettering that appears barely legible, while the canvas and stitching look acceptable to the buyer; the buyer leans toward rejecting it and requests a closer tag photo.",
+    "positive_observations": [
+      "The post preserves the Speedy Soft 30 model, dark color description, Royal Factory attribution, seller, and separate lettering, canvas, stitching, and tag checks.",
+      "It records a concrete reject consideration rather than a generic factory assessment."
+    ],
+    "negative_observations": [
+      "Interior lettering is reported as barely legible and the close-up limitation remains unresolved in the capture.",
+      "Payment details are excluded; no in-hand result or authentic comparison is provided."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1qrevwj",
+    "title": "My first Loewe Puzzle",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qrevwj/my_first_loewe_puzzle/",
+    "subreddit": "RepTherapy",
+    "author": "Practical_Parking246",
+    "publication_date": "2026-01-30",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "Received Loewe Puzzle; size, material, color, seller, and factory are not stated.",
+    "paraphrase": "A received first Loewe Puzzle is described as looking like the authentic version to the buyer, who specifically questions whether its stitching color is darker than the color shown on the brand website.",
+    "positive_observations": [
+      "The post records an in-hand comparison with an official website reference and isolates stitching color as the checkable point.",
+      "It distinguishes a construction/color question from general excitement about the first purchase."
+    ],
+    "negative_observations": [
+      "The stitching-color difference is unresolved and the source provides no exact Puzzle variant, measurements, seller, factory, or physical authentic comparison.",
+      "The post does not report longer-term wear."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1qxdvjl",
+    "title": "QC Loewe Puzzle Featherlight 🧩😍",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qxdvjl/qc_loewe_puzzle_featherlight/",
+    "subreddit": "RepTherapy",
+    "author": "No_Nerve_7490",
+    "publication_date": "2026-02-06",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "Loewe Puzzle Featherlight attributed by the source to a Luisheng label; size, color, and exact material are unresolved, although the seller described it as sheepskin.",
+    "paraphrase": "A Puzzle Featherlight PSP and received-bag review flags a top triangular panel that appears slightly too short, reports that two or three light conditioner applications produced only a slight slouch, and compares the bag's material and feel with an authentic example the buyer handled.",
+    "positive_observations": [
+      "The source preserves the Featherlight construction, top-panel alignment concern, conditioning result, seller attribution, and the buyer's direct authentic tactile reference.",
+      "It records both a specific geometry issue and a material/softening observation rather than only a general quality rating."
+    ],
+    "negative_observations": [
+      "The top panel appears slightly short, and the bag remained only slightly slouchy after conditioning; the author notes artificial lighting limits the comparison.",
+      "The source-reported Luisheng label is not mapped to a catalogued factory; payment details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-neverfull-1vkwo2o",
+    "title": "Monogram neverfull interior",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vkwo2o/monogram_neverfull_interior/",
+    "subreddit": "RealRepLadies",
+    "author": "Atomicpinupdoll",
+    "publication_date": "2026-08-10",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "Received Monogram Neverfull with a pink/Ballerine-style interior; size, seller, and factory are not stated.",
+    "paraphrase": "A received Monogram Neverfull has a pink interior without the darker strips the buyer has seen on many Ballerine-rose interiors, prompting a question about whether this interior treatment has been produced.",
+    "positive_observations": [
+      "The source records the Monogram family and isolates the interior color and missing darker-strip detail as a concrete variant observation.",
+      "It is a received-bag report rather than a seller or pre-purchase question."
+    ],
+    "negative_observations": [
+      "The post does not establish whether the interior is an authentic production variation and gives no size, seller, factory, or wear details.",
+      "The exact pink color name remains unresolved."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1nm7zq7",
+    "title": "LV Speedy review",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1nm7zq7/lv_speedy_review/",
+    "subreddit": "RealRepLadies",
+    "author": "KristinaHartsuck",
+    "publication_date": "2025-09-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "shipping_timeline": "Ordered September 5, received PSPs September 9, and the bag arrived September 17, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-miss-yu"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy Bandouliere 30; color, material, and factory are not stated.",
+    "paraphrase": "A received Speedy Bandouliere 30 review reports neat consistent stitching, aligned canvas print, solid heavy hardware, accurate-looking red edge glazing, and a lightweight but well-made everyday bag; the factory is undisclosed.",
+    "positive_observations": [
+      "The review preserves the Speedy Bandouliere 30 size and records concrete stitching, canvas alignment/print, hardware, glazing, weight, and construction observations.",
+      "It includes a dated PSP-to-delivery timeline and leaves the factory undisclosed rather than inferring one."
+    ],
+    "negative_observations": [
+      "The reviewer provides no authentic side-by-side and no longer-term wear result; color and material are not stated.",
+      "Seller-service and contact details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-bottega-veneta-andiamos-1ugv7vx",
+    "title": "Way too gold?",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ugv7vx/way_too_gold/",
+    "subreddit": "RepTherapy",
+    "author": "Ok_Commercial_4614",
+    "publication_date": "2026-06-27",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "Bottega Veneta Andiamo PSP ordered from Doris; size, color, material, and factory are not stated.",
+    "paraphrase": "An Andiamo PSP ordered from Doris raises a specific hardware concern: the buckle appears much too gold to the buyer.",
+    "positive_observations": [
+      "The post isolates hardware tone as a concrete QC point and identifies the Andiamo family and seller.",
+      "It is a product-focused PSP question rather than a general seller review."
+    ],
+    "negative_observations": [
+      "The hardware concern is unresolved and no exact variant, factory, in-hand outcome, or authentic comparison is provided.",
+      "Payment details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-bottega-veneta-andiamos-1g2nt05",
+    "title": "Bottega Venetta medium Andiamo in fondant from Jing via Baobao",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1g2nt05/bottega_venetta_medium_andiamo_in_fondant_from/",
+    "subreddit": "RealRepLadies",
+    "author": "roselalala",
+    "publication_date": "2024-10-13",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "shipping_timeline": "Contacted September 20, received PSPs September 26, tracking September 30, and the bag arrived October 7, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-jing"
+    ],
+    "exact_product_match": false,
+    "exact_variant_note": "Medium Andiamo attributed to Jing and bought through Baobao; the title says Fondant, while the body describes a final dark-brown/gold-hardware change from an initially selected olive-green/silver combination.",
+    "paraphrase": "A received medium Andiamo attributed to Jing is compared with an authentic boutique example: the rep has supple structured leather, neat symmetrical weaving, visible grain, satin sheen, clean stitching and glazing, weighty hardware, and close color, sheen, weave spacing, and overall proportions; the rep is slightly squishier, the bow warmer, stamps less crisp, the divider zipper hardware less substantial, and the magnetic closure less powerful.",
+    "positive_observations": [
+      "The review records direct authentic comparison of leather hand, structure, grain, sheen, weave geometry, stitching, glazing, hardware, bow, stamps, closure, divider, and capacity.",
+      "It preserves the medium size, Jing factory attribution, and the color/hardware change history instead of silently collapsing the variant."
+    ],
+    "negative_observations": [
+      "The rep is slightly squishier than the authentic, its bow is a touch warmer, stamps are less crisp, divider zipper hardware is less substantial, and the magnetic closure is not especially strong.",
+      "The final color naming is internally inconsistent between the title and body, so exact match is false; payment, contact, and seller-service details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-neverfull-1tnorvm",
+    "title": "Marakami haul from Darren, plus mini anjou.",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1tnorvm/marakami_haul_from_darren_plus_mini_anjou/",
+    "subreddit": "RealRepLadies",
+    "author": "Dreadlock_Princess_X",
+    "publication_date": "2026-05-25",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "shipping_timeline": "Initial contact April 12, PSPs took longer after a late-added item, postage reference May 5, and the order arrived May 24, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "Cherry-patterned Monogram Neverfull from a mixed haul; size, seller, and factory are not stated. Wallets, phone holder, and Goyard Mini Anjou are excluded from this record.",
+    "paraphrase": "A received Cherry Monogram Neverfull is described as sturdy with attractive vachetta, clearly printed cherries, aligned sides, and handle attachments slightly larger than on the author's earlier Neverfull; the reviewer says the difference is minor and the bag arrived without an unusual smell.",
+    "positive_observations": [
+      "The source preserves the Cherry Monogram variant and records vachetta, print clarity, side alignment, handle attachment size, sturdiness, and arrival odor.",
+      "It explicitly compares the handle construction with the author's earlier Neverfull while keeping unrelated mixed-haul items out of scope."
+    ],
+    "negative_observations": [
+      "The handle attachment is slightly larger than on the comparison bag, though the reviewer considers the difference minor; exact size, seller, factory, and wear duration are not stated.",
+      "Payment, seller-service, and contact details are excluded."
+    ]
   }
 ]
