@@ -219,11 +219,58 @@ def apply_drafts(drafts: list[dict[str, Any]], *, ledger: dict[str, Any] | None 
     }
 
 
+def decline_candidates(
+    declines: list[dict[str, Any]], *, ledger: dict[str, Any]
+) -> dict[str, Any]:
+    """Record shortlisted posts a reviewer read and chose not to promote.
+
+    Without this, a declined post stays `pending`, which is not settled, so it
+    returns at the top of every later shortlist and the queue cannot advance. The
+    disposition is `rejected` because the judgment is about the post itself -- it
+    is a request for recommendations, a sales listing, or not about a bag -- and
+    unlike a missing collection that is not a condition the catalog can grow out of.
+    """
+    problems: list[str] = []
+    settled: list[str] = []
+    for index, row in enumerate(declines):
+        where = f"decline[{index}]"
+        if not isinstance(row, dict):
+            problems.append(f"{where}: expected an object")
+            continue
+        thing_id = row.get("thing_id") or reddit_thing_id(row.get("url"))
+        if not thing_id:
+            problems.append(f"{where}: needs a resolvable thing_id or url")
+            continue
+        reason = str(row.get("reason") or "").strip()
+        if not reason:
+            problems.append(f"{where} {thing_id}: a reason is required")
+            continue
+        settled.append(thing_id)
+    if problems:
+        return {"declined": 0, "problems": problems, "thing_ids": []}
+
+    for row in declines:
+        thing_id = row.get("thing_id") or reddit_thing_id(row.get("url"))
+        record(
+            ledger,
+            thing_id,
+            "rejected",
+            subreddit=str(row.get("subreddit") or ""),
+            reason=f"reviewed and not promoted: {row['reason']}",
+        )
+    return {"declined": len(settled), "problems": [], "thing_ids": settled}
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--from-digest", type=Path, help="triage-digest.json to build drafts from")
     group.add_argument("--apply", type=Path, help="completed drafts file to merge into data/")
+    group.add_argument(
+        "--decline",
+        type=Path,
+        help="JSON array of {url|thing_id, reason} for shortlisted posts a reviewer read and did not promote",
+    )
     parser.add_argument("--out", type=Path, default=None, help="draft output path (defaults next to the digest)")
     parser.add_argument("--ledger", type=Path, default=None)
     parser.add_argument("--dry-run", action="store_true", help="with --apply, report problems without writing")
@@ -236,6 +283,22 @@ def main() -> int:
         out.write_text(json.dumps(drafts, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"wrote {len(drafts)} draft(s) to {out}")
         print(f"fill in: {', '.join(JUDGMENT_FIELDS)}")
+        return 0
+
+    if args.decline:
+        declines = json.loads(args.decline.read_text(encoding="utf-8"))
+        if not isinstance(declines, list):
+            print("decline file must be a JSON array")
+            return 1
+        ledger = load_ledger(args.ledger)
+        result = decline_candidates(declines, ledger=ledger)
+        if result["problems"]:
+            print("Nothing declined. Fix these first:")
+            for problem in result["problems"]:
+                print(f"- {problem}")
+            return 1
+        save_ledger(ledger, args.ledger)
+        print(json.dumps(result, indent=2))
         return 0
 
     drafts = json.loads(args.apply.read_text(encoding="utf-8"))

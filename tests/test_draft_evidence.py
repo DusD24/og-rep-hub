@@ -8,7 +8,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import draft_evidence  # noqa: E402
-from draft_evidence import (  # noqa: E402
+from draft_evidence import (
+    decline_candidates,  # noqa: E402
     JUDGMENT_FIELDS,
     PLACEHOLDER,
     _incomplete,
@@ -18,7 +19,7 @@ from draft_evidence import (  # noqa: E402
     evidence_id_for,
     recompute_coverage,
 )
-from ledger import empty_ledger  # noqa: E402
+from ledger import empty_ledger, is_settled  # noqa: E402
 
 
 def digest_entry(post_id="abc123", subreddit="RepTherapy", families=("bag-family-ysl-loulou",)):
@@ -199,3 +200,43 @@ class ApplyTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class DeclineTests(unittest.TestCase):
+    def test_declining_settles_a_post_so_it_leaves_the_queue(self):
+        ledger = empty_ledger()
+        result = decline_candidates(
+            [{
+                "url": "https://www.reddit.com/r/RepTherapy/comments/abc123/slug/",
+                "subreddit": "RepTherapy",
+                "reason": "asks for a seller recommendation; reports nothing about a bag",
+            }],
+            ledger=ledger,
+        )
+        self.assertEqual(result["declined"], 1)
+        self.assertEqual(result["problems"], [])
+        self.assertEqual(ledger["seen"]["t3_abc123"]["disposition"], "rejected")
+        self.assertIn("reviewed and not promoted", ledger["seen"]["t3_abc123"]["reason"])
+        # Settled means it never returns to a later shortlist.
+        self.assertTrue(is_settled(ledger, "t3_abc123"))
+
+    def test_a_decline_without_a_reason_is_refused_and_writes_nothing(self):
+        ledger = empty_ledger()
+        result = decline_candidates(
+            [{"url": "https://www.reddit.com/r/RepTherapy/comments/abc123/slug/"}], ledger=ledger
+        )
+        self.assertEqual(result["declined"], 0)
+        self.assertTrue(result["problems"])
+        self.assertEqual(ledger["seen"], {})
+
+    def test_one_bad_row_blocks_the_whole_batch(self):
+        ledger = empty_ledger()
+        result = decline_candidates(
+            [
+                {"url": "https://www.reddit.com/r/RepTherapy/comments/good01/s/", "reason": "not a bag"},
+                {"reason": "no identifier at all"},
+            ],
+            ledger=ledger,
+        )
+        self.assertEqual(result["declined"], 0)
+        self.assertEqual(ledger["seen"], {}, "a partial batch must not be written")
