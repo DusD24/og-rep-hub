@@ -33160,10 +33160,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tp6evx": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: bare Chanel Slim Vanity QC request with no concrete observation or resolved discrepancy"
     },
     "t3_1tp72ck": {
       "disposition": "rejected",
@@ -33184,10 +33184,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tpcbbm": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1tpcbbm"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 60)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1tpcfc0": {
       "disposition": "deferred",
@@ -34900,10 +34903,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tyedlw": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1tyedlw"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 60)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1tyeofj": {
       "disposition": "promoted",
@@ -36832,10 +36838,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u72boc": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 60)"
+      "reason": "reviewed and not promoted: pre-purchase inquiry asking whether Royal's new Speedy Soft 30 has a true master version, with no received-product evidence"
     },
     "t3_1u737zo": {
       "disposition": "rejected",
@@ -37218,10 +37224,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u8sqjy": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: bare Small Chanel 25 QC request asking whether it is a good rep without a stated feature-level finding"
     },
     "t3_1u8sud9": {
       "disposition": "deferred",
@@ -37632,10 +37638,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uacbqs": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: pre-purchase request for owners to share OF Chanel 25 photos, without an inspected bag or comparison observation"
     },
     "t3_1uacd5x": {
       "disposition": "deferred",
