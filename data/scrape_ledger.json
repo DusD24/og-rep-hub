@@ -13226,10 +13226,10 @@
       "reason": "reviewed and not promoted: recurring weekly chat and seller-promotion post; it does not describe a specific bag or checkable evidence observation"
     },
     "t3_1pjzv5s": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 35)"
+      "reason": "reviewed and not promoted: The post asks whether silver hardware on a Chanel 25 is part of the retail collection or a fantasy colorway; it is a generic product discussion with no rep evidence to normalize."
     },
     "t3_1pk0aks": {
       "disposition": "deferred",
@@ -18652,10 +18652,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qognqr": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 43)"
+      "reason": "reviewed and not promoted: The post is a generic pre-purchase size and diaper-bag discussion about a Maxi Classic Flap and a newer style; it contains no owned-bag observation or QC finding."
     },
     "t3_1qogzpp": {
       "disposition": "deferred",
@@ -23557,10 +23557,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rdy0ky": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-chanel-classic-flap-1rdy0ky"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 44)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1rdyqfl": {
       "disposition": "deferred",
@@ -33958,10 +33961,10 @@
       "reason": "reviewed and not promoted: The post is a pre-purchase choice between a YSL Niki and Chanel 25 Small and ends with a Niki purchase. Comments are subjective functionality and styling opinions, with seller/factory solicitation and no normalized Chanel 25 evidence."
     },
     "t3_1sszqxa": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 39)"
+      "reason": "reviewed and not promoted: The post asks where to source a Chanel Maxi Flapbag SS26 and requests suggestions; it is a solicitation/discussion rather than evidence about a received or inspected bag."
     },
     "t3_1st0j5g": {
       "disposition": "deferred",
@@ -36980,10 +36983,10 @@
       "reason": "reviewed and not promoted: generic PSP request for a Royal Speedy that reports no specific feature finding beyond asking for additional opinions"
     },
     "t3_1t5ato1": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 50)"
+      "reason": "reviewed and not promoted: This is a substantially identical same-author crosspost of t3_1t5a5vr's Speedy 30 PSP post, which is already represented by the promoted evidence record; do not count the same transaction twice."
     },
     "t3_1t5c5m9": {
       "disposition": "promoted",
@@ -38573,10 +38576,10 @@
       "reason": "reviewed and not promoted: thin QC request that only says the buyer is concerned about hardware; no actual hardware observation is captured"
     },
     "t3_1tcse8t": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 38)"
+      "reason": "reviewed and not promoted: The post asks which Chanel 25 hardware color people prefer and which looks more authentic; it provides no specific bag, inspection, or owned-bag observation."
     },
     "t3_1tcupn2": {
       "disposition": "deferred",
@@ -51259,10 +51262,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1urjsxg": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rcb-louis-vuitton-speedy-1urjsxg"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 50)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1urlnuk": {
       "disposition": "deferred",
@@ -55042,7 +55048,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "Exact item is a YSL Niki Medium with in-hand feel, size, and use observations, not YSL Loulou; preserve for a separate Niki catalog decision."
+      "reason": "Exact item is a YSL Niki Medium with in-hand material, feel, size, and satisfaction observations, not an existing catalog family; preserve for a separate Niki catalog decision."
     },
     "t3_1v8kw8i": {
       "disposition": "deferred",
@@ -55417,10 +55423,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1v9u0xk": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1v9u0xk"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 44)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1v9uzks": {
       "disposition": "deferred",
