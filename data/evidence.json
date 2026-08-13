@@ -3534,7 +3534,9 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": "Ordered 2 February, PSP photographs received 20 March, delivered 13 April, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-hermes-kelly-28-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "factory_comparison",
     "family_ids": [
@@ -15498,7 +15500,9 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "PSP received October 24, shipment was reported October 31, and the combined order was received November 13.",
-    "media_ids": [],
+    "media_ids": [
+      "media-dior-saddle-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
@@ -27628,7 +27632,9 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "The post reports payment on 2026-01-18, PSPs on 2026-01-24, tracking on 2026-01-27, and delivery on 2026-01-31.",
-    "media_ids": [],
+    "media_ids": [
+      "media-chanel-25-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
