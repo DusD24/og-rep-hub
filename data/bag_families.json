@@ -206,7 +206,8 @@
     "documented_variant_ids": [],
     "evidence_ids": [
       "ev-rll-margaux-17",
-      "ev-rt-margaux-15"
+      "ev-rt-margaux-15",
+      "ev-crawl-rcb-the-row-margaux-1tu83hi"
     ],
     "documented_sizes": [
       "15",
@@ -220,10 +221,11 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 2,
-      "independent_author_count": 2,
+      "source_count": 3,
+      "independent_author_count": 3,
       "primary_subreddit_coverage": [
         "RealRepLadies",
+        "RepCulture_Bags",
         "RepTherapy"
       ],
       "image_ready": true,
@@ -232,7 +234,7 @@
         "in_hand_review"
       ]
     },
-    "last_updated": "2026-08-08",
+    "last_updated": "2026-08-12",
     "research_gaps": [
       "Keep Margaux 15 and 17 evidence separate from Shoulder Bag reports.",
       "Do not turn seller-reported leather language into a site conclusion."
@@ -380,7 +382,9 @@
       "ev-rt-andiamos-east-west",
       "ev-crawl-rt-andiamos-jing-auth-2026",
       "ev-crawl-repculture-andiamos-small-2026",
-      "ev-crawl-repculture-andiamos-denim-2026"
+      "ev-crawl-repculture-andiamos-denim-2026",
+      "ev-crawl-rrl-bottega-veneta-andiamos-1vfcklk",
+      "ev-crawl-rt-bottega-veneta-andiamos-1rlfiwh"
     ],
     "documented_sizes": [
       "medium",
@@ -393,8 +397,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 5,
-      "independent_author_count": 4,
+      "source_count": 7,
+      "independent_author_count": 6,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -403,10 +407,11 @@
       "image_ready": true,
       "evidence_types": [
         "auth_comparison",
-        "in_hand_review"
+        "in_hand_review",
+        "psp_qc"
       ]
     },
-    "last_updated": "2026-08-08",
+    "last_updated": "2026-08-12",
     "research_gaps": [
       "Keep Medium and East West evidence separate.",
       "Do not infer leather or hardware where the source is silent."
@@ -577,7 +582,11 @@
     "evidence_ids": [
       "ev-rll-lady-dior-auth",
       "ev-rt-lady-dior",
-      "ev-crawl-rt-ladydior-reykey-2026"
+      "ev-crawl-rt-ladydior-reykey-2026",
+      "ev-crawl-rrl-dior-lady-dior-1j3jp0a",
+      "ev-crawl-rrl-dior-lady-dior-1jjfmfo",
+      "ev-crawl-rrl-dior-lady-dior-1uqo297",
+      "ev-crawl-rcb-the-row-margaux-1tu83hi"
     ],
     "documented_sizes": [
       "Small"
@@ -589,19 +598,21 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 3,
-      "independent_author_count": 3,
+      "source_count": 7,
+      "independent_author_count": 7,
       "primary_subreddit_coverage": [
         "RealRepLadies",
+        "RepCulture_Bags",
         "RepTherapy"
       ],
       "image_ready": true,
       "evidence_types": [
+        "factory_comparison",
         "in_hand_review",
         "long_term_wear"
       ]
     },
-    "last_updated": "2026-08-08",
+    "last_updated": "2026-08-12",
     "research_gaps": [
       "Resolve size, leather, color, and hardware across the comparison and in-hand sources.",
       "Keep God Factory as a source-reported label only."
@@ -1091,7 +1102,8 @@
     "publication_status": "research_queue",
     "documented_variant_ids": [],
     "evidence_ids": [
-      "ev-crawl-repculture-hermes-kelly-2026"
+      "ev-crawl-repculture-hermes-kelly-2026",
+      "ev-crawl-rrl-hermes-kelly-1sl383j"
     ],
     "documented_sizes": [
       "28"
@@ -1103,11 +1115,15 @@
       "gold-tone hardware reported"
     ],
     "evidence_coverage": {
-      "source_count": 1,
-      "independent_author_count": 1,
-      "primary_subreddit_coverage": [],
+      "source_count": 2,
+      "independent_author_count": 2,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepCulture_Bags"
+      ],
       "image_ready": false,
       "evidence_types": [
+        "factory_comparison",
         "in_hand_review"
       ]
     },
@@ -1134,7 +1150,8 @@
     "publication_status": "research_queue",
     "documented_variant_ids": [],
     "evidence_ids": [
-      "ev-crawl-repculture-dior-saddle-2026"
+      "ev-crawl-repculture-dior-saddle-2026",
+      "ev-crawl-rrl-dior-saddle-1u2vwkk"
     ],
     "documented_sizes": [
       "Small"
@@ -1146,9 +1163,12 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 1,
-      "independent_author_count": 1,
-      "primary_subreddit_coverage": [],
+      "source_count": 2,
+      "independent_author_count": 2,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepCulture_Bags"
+      ],
       "image_ready": false,
       "evidence_types": [
         "psp_qc"

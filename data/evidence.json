@@ -3337,5 +3337,299 @@
       "Factory is source-reported as \"LiLi,\" which is not a factory this catalog otherwise tracks, so it cannot be cross-checked.",
       "No independent corroborating source yet for this exact size/leather/colour combination."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1j3jp0a",
+    "title": "Help to save this Lady Dior",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1j3jp0a/help_to_save_this_lady_dior/",
+    "subreddit": "RealRepLadies",
+    "author": "clinresearchernj",
+    "publication_date": "2025-03-04",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "long_term_wear",
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-reykay"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An owner reports buying a mini Lady Dior attributed to God factory from seller Reykay in January, finding the leather too dry, and conditioning it with Collonil cream and Saphir Renovateur; the leather softened but the stitching then discoloured with a red residue, and the owner asks whether the conditioning was overdone.",
+    "positive_observations": [
+      "Names seller, factory, and purchase month, and describes a specific post-purchase leather condition rather than first impressions.",
+      "Identifies the exact conditioning products used, so the outcome is attributable to a known treatment."
+    ],
+    "negative_observations": [
+      "The stitching discolouration follows owner-applied conditioner, so it cannot be separated from a factory defect on this evidence alone.",
+      "Single owner, no photographs assessed here and no authentic comparison.",
+      "The post asks a question rather than reaching a conclusion, so the cause is left unresolved in the source."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1jjfmfo",
+    "title": "Angel or God factory?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1jjfmfo/angel_or_god_factory/",
+    "subreddit": "RealRepLadies",
+    "author": "Witchiiee",
+    "publication_date": "2025-03-25",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-reykay"
+    ],
+    "factory_ids": [
+      "factory-god",
+      "factory-angel"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A buyer working with seller Reykay compares Angel factory and God factory versions of the ultra-matte mini Lady Dior, offered at the same price, against photographs of an authentic bag: Angel's quilting is described as puffing out more than the authentic, while God's quilting reads flatter but with an overall shape closer to the authentic.",
+    "positive_observations": [
+      "Direct side-by-side of two named factories for the same model at the same price, with an authentic reference in the same post.",
+      "Cites specific, checkable attributes (quilt relief and overall silhouette) rather than a general quality impression."
+    ],
+    "negative_observations": [
+      "Based on pre-purchase seller photographs only; nothing was assessed in hand.",
+      "The buyer is asking for help deciding rather than reporting a conclusion, so neither factory is endorsed by the source.",
+      "No independent corroboration of either factory's rendering of this variant."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-saddle-1u2vwkk",
+    "title": "First QC help - D Saddle in Plum from Heidy",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1u2vwkk/first_qc_help_d_saddle_in_plum_from_heidy/",
+    "subreddit": "RealRepLadies",
+    "author": "Comfortable_Tale_114",
+    "publication_date": "2026-06-11",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": {
+      "amount_usd": 357,
+      "qualifier": "plus shipping, as stated by the buyer"
+    },
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-dior-saddle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-heidy"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A first-time buyer posts QC photographs for a Dior Saddle in plum bought from seller Heidy and attributed to God factory at USD 357 plus shipping, asking the community to assess the bag and the hardware in particular.",
+    "positive_observations": [
+      "States seller, factory, and price paid together, which is uncommon in QC posts.",
+      "QC photographs were put to the community before approval rather than approved unconditionally."
+    ],
+    "negative_observations": [
+      "The buyer identifies this as their first purchase and defers to others, so their own assessment is a weak signal.",
+      "Pre-delivery QC stage only; the post carries no in-hand or post-delivery follow-up.",
+      "No verdict is recorded in the post itself, so it evidences the transaction rather than the outcome."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1uqo297",
+    "title": "My new mini lady Dior",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1uqo297/my_new_mini_lady_dior/",
+    "subreddit": "RealRepLadies",
+    "author": "Mindless-Repeat-1859",
+    "publication_date": "2026-07-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": "About 14 days from first enquiry to delivery in Malaysia, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a mini Lady Dior from seller Baobao, attributed to God factory on the seller's recommendation that God's stitching is tighter; the reviewer reports a leather rather than plastic smell on opening, that the bag stands unsupported with its handles up, and about 14 days from enquiry to delivery including customs clearance into Malaysia.",
+    "positive_observations": [
+      "In-hand rather than photographic, and applies a specific structural check the community uses for this model (standing unsupported with handles raised).",
+      "Documents an end-to-end timeline including customs clearance, and names both seller and factory."
+    ],
+    "negative_observations": [
+      "The reviewer states this is their first rep bag, so they have no comparison basis.",
+      "The factory attribution is seller-reported and not independently established.",
+      "No authentic side-by-side, measurements, or hardware detail."
+    ]
+  },
+  {
+    "id": "ev-crawl-rcb-the-row-margaux-1tu83hi",
+    "title": "My babies have arrived 😍!!",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1tu83hi/my_babies_have_arrived/",
+    "subreddit": "RepCulture_Bags",
+    "author": "Any-Evening2023",
+    "publication_date": "2026-06-01",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-the-row-margaux",
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of two bags received together from seller Baobao: a mini Lady Dior attributed to God factory, and a Margaux 12 attributed to a factory the buyer spells \"Kyndal.\" The reviewer reports the Lady Dior's strap chain appears slightly crookedly glued though not visible when worn, and that the Margaux looked ashy on arrival but softened considerably after conditioning with mink oil.",
+    "positive_observations": [
+      "Covers two collections from one order with a factory attributed to each, and reports a specific cosmetic defect rather than only praise.",
+      "Describes the Margaux's condition both on arrival and after treatment, which separates finish from underlying leather quality."
+    ],
+    "negative_observations": [
+      "The Margaux factory is given as \"Kyndal,\" which is not a factory this catalog tracks, so it cannot be cross-checked.",
+      "No authentic comparison, measurements, or hardware inspection.",
+      "Single buyer reporting first impressions on arrival; no durability information."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-hermes-kelly-1sl383j",
+    "title": "Hermes Kelly 28 Togo leather Etoupe from Mark",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1sl383j/hermes_kelly_28_togo_leather_etoupe_from_mark/",
+    "subreddit": "RealRepLadies",
+    "author": "pawelbag",
+    "publication_date": "2026-04-14",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": "Ordered 2 February, PSP photographs received 20 March, delivered 13 April, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-hermes-kelly"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A repeat Hermes rep buyer reviews a Kelly 28 in Etoupe Togo obtained from a seller they call \"Mark,\" who is not in this catalog's roster. Having previously owned reps attributed to H factory, God factory, and a source they call \"daxjong,\" the reviewer rates this the best of them, reports seeing no flaws, and states the size is correct against a known report that this seller's bags run 0.5-1 cm small.",
+    "positive_observations": [
+      "A cross-source comparison by a buyer with prior Hermes reps rather than a first purchase.",
+      "Gives a fully dated timeline from order through PSP to delivery.",
+      "Directly addresses a specific circulating concern about undersizing rather than offering only a general impression."
+    ],
+    "negative_observations": [
+      "The seller (\"Mark\") and one compared source (\"daxjong\") are not tracked in this catalog, so neither attribution can be cross-checked; no seller or factory is recorded on this record as a result.",
+      "\"I can't see any flaws\" is an unstructured assessment with no measurements or authentic side-by-side.",
+      "Single source for this exact leather and colour combination."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-bottega-veneta-andiamos-1vfcklk",
+    "title": "Mini Haul!! ✨",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vfcklk/mini_haul/",
+    "subreddit": "RealRepLadies",
+    "author": "Iyala_",
+    "publication_date": "2026-08-04",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-187",
+      "factory-jing"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a two-piece order from seller Baobao covering a Bottega Veneta Andiamo clutch attributed to Jing factory, alongside a Chanel vanity attributed to 187 factory whose exact variant the post does not specify. The buyer reports buttery-soft leather and hardware with a noticeable weight, and a month-long wait after the originally ordered bag could not be completed.",
+    "positive_observations": [
+      "In-hand, with a factory attributed to each item and a repeat customer's comment on seller reliability.",
+      "Reports a concrete production failure and the month it cost, not only the successful substitution."
+    ],
+    "negative_observations": [
+      "The buyer states they have never seen the authentic, so the review cannot speak to accuracy against it.",
+      "The Chanel item is described only as a \"vanity\" without a variant, so it is not attributed to a collection here.",
+      "No measurements, stamps, or hardware detail beyond perceived weight."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-bottega-veneta-andiamos-1rlfiwh",
+    "title": "Bottega Veneta Small Andiamo and Prada Bonnie mini",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1rlfiwh/bottega_veneta_small_andiamo_and_prada_bonnie_mini/",
+    "subreddit": "RepTherapy",
+    "author": "Miserable-Broccoli98",
+    "publication_date": "2026-03-05",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": {
+      "amount_usd": 227,
+      "qualifier": "before shipping, for the Andiamo only"
+    },
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-alina"
+    ],
+    "factory_ids": [
+      "factory-jing"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A QC photo post for a Bottega Veneta small Andiamo attributed to Jing factory, bought from seller Alina at USD 227 before shipping, posted alongside a Prada Bonnie mini attributed to a \"Yipin\" factory not tracked here. The buyer says the stitching looks good but is unsure whether the shiny leather finish is correct, and asks for assessment.",
+    "positive_observations": [
+      "States seller, factory, and price for the Andiamo, and shares QC photographs before approving.",
+      "Raises a specific, checkable concern about the leather finish rather than a general impression."
+    ],
+    "negative_observations": [
+      "The buyer explicitly self-identifies as inexperienced and is buying as a gift, so their assessment carries little weight.",
+      "Pre-delivery QC only, with no in-hand follow-up recorded.",
+      "The leather-finish question is left unresolved in the source."
+    ]
   }
 ]
