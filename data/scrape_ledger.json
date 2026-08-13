@@ -563,10 +563,13 @@
       "reason": "reviewed and not promoted: Small Andiamo post is a pre-purchase request for recommendations and contains no received-product evidence."
     },
     "t3_1g4p45n": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1g4p45n"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1g4wbpj": {
       "disposition": "rejected",
@@ -5819,10 +5822,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ns5yn5": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 84)"
+      "reason": "reviewed and not promoted: pre-purchase sale-timing and seller/factory sourcing discussion with no owned bag or product-quality observation; comments are generic sale advice"
     },
     "t3_1ns8aw1": {
       "disposition": "promoted",
@@ -18322,10 +18325,13 @@
       "reason": "reviewed and not promoted: generic celebratory Mini Lady Dior gift post with no checkable construction, wear, or authentic-comparison observation"
     },
     "t3_1raxlih": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1raxlih"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 57)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1rb780o": {
       "disposition": "rejected",
@@ -24997,10 +25003,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sj4pmk": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 83)"
+      "reason": "reviewed and not promoted: pre-purchase request for successful-rep photos while still deciding size, color, and hardware, with no owned product or evidence"
     },
     "t3_1sj4r9z": {
       "disposition": "deferred",
@@ -33976,10 +33982,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1ttov7n": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-chanel-classic-flap-1ttov7n"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 84)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ttq3cd": {
       "disposition": "deferred",
@@ -40870,10 +40879,13 @@
       "reason": "reviewed and not promoted: pre-purchase Hermès leather and factory/seller recommendation discussion; no owned bag or direct quality observation"
     },
     "t3_1uptdhr": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1uptdhr"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 58)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1uptsgv": {
       "disposition": "deferred",
@@ -41425,10 +41437,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uslkyw": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 83)"
+      "reason": "reviewed and not promoted: wishlist and image-led discussion of an unowned new Chanel leather/color and hardware variation, including an Instagram image, with no received or PSP evidence"
     },
     "t3_1usnkte": {
       "disposition": "deferred",
