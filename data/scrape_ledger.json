@@ -6305,10 +6305,13 @@
       "reason": "above floor but outside the daily cap (priority 80)"
     },
     "t3_1o3kvv2": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1o3kvv2"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1o3ul3l": {
       "disposition": "deferred",
@@ -9869,10 +9872,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1pecokb": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "reviewed and not promoted: the reviewed product is a Chanel quilted flap cardholder/SLG rather than an exact catalogued bag family; separate catalog consideration is out of scope for this pass"
     },
     "t3_1pecshx": {
       "disposition": "deferred",
@@ -12250,10 +12253,13 @@
       "reason": "triage score 0 below floor 30"
     },
     "t3_1q96b5u": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1q96b5u"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1q98xvb": {
       "disposition": "promoted",
@@ -27130,10 +27136,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1stoe3o": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: bare Nano Speedy QC request with generic comments and only an image-only, unspecified difference from an authentic bag"
     },
     "t3_1stpo5t": {
       "disposition": "deferred",
@@ -27733,10 +27739,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1swwsum": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: pre-purchase request for factories making a soft P9; the poster owns no product and provides no received or PSP observation"
     },
     "t3_1swwyz6": {
       "disposition": "deferred",
@@ -28831,10 +28837,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t2qxb3": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1t2qxb3"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1t2r6w5": {
       "disposition": "deferred",
