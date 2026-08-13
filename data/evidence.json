@@ -24646,5 +24646,69 @@
     "negative_observations": [
       "Color, authentic comparison, and long-term wear are not stated, and seller, destination, payment, packaging, and future chain plans are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1ssmdsi",
+    "title": "More Speedys? Don’t mind if I do",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ssmdsi/more_speedys_dont_mind_if_i_do/",
+    "subreddit": "RepTherapy",
+    "author": "RepTherapyIsMyCardio",
+    "publication_date": "2026-04-22",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The source reports two days from order to PSP/green light and shipment the following day; exact receipt timing is not stated.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mike"
+    ],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "Mixed Speedy order including a black scribble piece and a white-out piece; exact models, sizes, colors, materials, and factory attributions are not stated. The source mentions a Royal promotion but does not map it to an individual bag. Seller Mike is source-reported. Contact and payment details are excluded.",
+    "paraphrase": "A mixed Speedy order is described from straight-out-of-box photos: the black scribble piece is a statement bag, while the white-out piece looks cooler in person and shows its monogram at certain angles; the white monogram also glows in the dark.",
+    "positive_observations": [
+      "The post records received Speedy pieces and a concrete light/monogram behavior for the white-out variant.",
+      "It preserves the black-scribble and white-out descriptions without inventing exact model, size, material, or factory mappings."
+    ],
+    "negative_observations": [
+      "The mixed post does not provide construction, material, size, factory, or authentic-comparison details, and the glow observation is limited to the white-out variant."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1khri1t",
+    "title": "Which Bag Is The Rep?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1khri1t/which_bag_is_the_rep/",
+    "subreddit": "RealRepLadies",
+    "author": "Weary_Low_6296",
+    "publication_date": "2025-05-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy Soft Crafty; size, color, material, and seller are not stated. The source calls the factory Orange Couch, which is not normalized as a public factory entity here. The rep is a never-used rehome and is compared with an authentic Paris purchase.",
+    "paraphrase": "A never-used Soft Crafty Speedy attributed by the source to Orange Couch is compared directly with an authentic Speedy bought in Paris: the author and coworkers find colors and texture effectively identical at close inspection, while the authentic has heavier gold charm/lock hardware, a more pronounced interior heat stamp, and a more flexible flight-ticket charm.",
+    "positive_observations": [
+      "The post documents a direct in-person authentic comparison with repeated observers and preserves the exact Soft Crafty Speedy variant.",
+      "It records both close matches and specific accessory/heat-stamp differences rather than reducing the comparison to a general authenticity claim."
+    ],
+    "negative_observations": [
+      "The rep's size, color, material, seller, and factory are not independently normalized, and the comparison concerns a never-used rehome rather than long-term wear."
+    ]
   }
 ]
