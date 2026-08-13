@@ -30919,5 +30919,73 @@
       "Seller Mia is source-reported but not normalized, and the report is one owner's early assessment without a longer-term durability result; payment, packaging, and unrelated details are excluded."
     ],
     "exact_variant_note": "Chanel 25 Small in khaki with gold-tone hardware; God attribution is source-reported and normalized, while seller Mia is not normalized. The owner compares it with an authentic burgundy bag and had not yet worn it outside."
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1o6eekj",
+    "title": "Does the stitch alignment seem off?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1o6eekj/does_the_stitch_alignment_seem_off/",
+    "subreddit": "RealRepLadies",
+    "author": "Ace-d55",
+    "publication_date": "2025-10-14",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A PSP/QC post for a small Chanel Classic Flap attributed to God Factory asks whether the stitch alignment looks off.",
+    "positive_observations": [
+      "The post identifies a small Classic Flap and a source-reported God Factory attribution.",
+      "The author raises a specific stitch-alignment concern rather than asking for a generic quality rating."
+    ],
+    "negative_observations": [
+      "The captured post contains no follow-up resolving the alignment question and no received-bag or wear observation.",
+      "Color, material, seller, batch, and exact hardware variant are not stated."
+    ],
+    "exact_variant_note": "Small Chanel Classic Flap at PSP/QC stage with source-reported God Factory attribution; color, material, seller, batch, and exact hardware variant are not stated."
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1so5xzg",
+    "title": "Help QC please - have they finally gotten the Eden correct? Are my concerns too picky?",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1so5xzg/help_qc_please_have_they_finally_gotten_the_eden/",
+    "subreddit": "RepTherapy",
+    "author": "The-Housewitch",
+    "publication_date": "2026-04-17",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A Royal-attributed Louis Vuitton Soft Speedy Eden PSP asks about an uneven left end, corner pattern alignment, and a copyright-stamp discrepancy; the author later says they greenlit the bag after feedback.",
+    "positive_observations": [
+      "The post names the Soft Speedy Eden variant and source-reported Royal Factory attribution.",
+      "It records concrete shape, corner-pattern, and stamp-detail questions and includes a later green-light outcome."
+    ],
+    "negative_observations": [
+      "The observations are photo-based and pre-delivery; there is no long-term wear or received-bag report.",
+      "Seller Mina is not normalized, and color, material, size, and batch are not stated; the post does not establish that Royal resolves the concerns."
+    ],
+    "exact_variant_note": "Louis Vuitton Soft Speedy Eden at PSP/QC stage with source-reported Royal Factory attribution; seller Mina is not normalized and color, material, size, and batch are not stated."
   }
 ]

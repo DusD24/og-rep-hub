@@ -3761,10 +3761,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1m5pxyb": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "reviewed and not promoted: PSP/QC post contains only a request to review a 187 23 cm Classic Flap and no concrete product observation."
     },
     "t3_1m5pyz5": {
       "disposition": "rejected",
@@ -7997,10 +7997,13 @@
       "reason": "normalized from a scoped ad-hoc request for Balenciaga Le City Small in leather"
     },
     "t3_1o6eekj": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1o6eekj"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1o6evgb": {
       "disposition": "deferred",
@@ -8228,10 +8231,10 @@
       "reason": "triage score 5 below floor 30"
     },
     "t3_1o90pn8": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "reviewed and not promoted: Update says the replacement Classic Flap is worse but records no specific construction, material, wear, or comparison observation."
     },
     "t3_1o94tx7": {
       "disposition": "rejected",
@@ -32788,10 +32791,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1so5xzg": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1so5xzg"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1so78f5": {
       "disposition": "deferred",
@@ -35899,10 +35905,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t0exae": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "reviewed and not promoted: Multi-item PSP request says the Chanel 25 and Classic Flap look good but records no concrete product observation; factory names and exact item mappings are unresolved."
     },
     "t3_1t0hzu2": {
       "disposition": "deferred",
@@ -37397,10 +37403,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t7h2fd": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "reviewed and not promoted: Pre-purchase request for a Burgundy caviar Chanel 25 asks for factory identification and opinion on seller photos; no received-bag evidence or specific observation."
     },
     "t3_1t7hezg": {
       "disposition": "rejected",
@@ -39380,10 +39386,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tg6bfp": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "reviewed and not promoted: Chanel 25 Mini PSP QA post contains no substantive sanitized text or concrete product observation."
     },
     "t3_1tg7bjs": {
       "disposition": "deferred",
@@ -52183,10 +52189,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uvmxb5": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "reviewed and not promoted: Pre-purchase Duty Free/Wood Floor versus Royal price and quality question; no owned-bag observation."
     },
     "t3_1uvmz6i": {
       "disposition": "rejected",
