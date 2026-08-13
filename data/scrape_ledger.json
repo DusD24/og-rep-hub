@@ -14971,10 +14971,10 @@
       "reason": "reviewed and not promoted: bare Lady Dior PSP request containing only God factory, Heidi, and an approximate size; no concrete observation or concern"
     },
     "t3_1qq0ybe": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: raffle-win P9 post contains generic color and appearance praise with no construction, wear, or comparison observation"
     },
     "t3_1qq1aq8": {
       "disposition": "deferred",
@@ -27166,10 +27166,13 @@
       "reason": "reviewed and not promoted: pre-purchase sourcing and seller-reliability request for a burgundy small Classic Flap with no owned bag or feature-level evidence"
     },
     "t3_1stsqtd": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1stsqtd"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sttn9e": {
       "disposition": "deferred",
@@ -27808,10 +27811,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sx19od": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1sx19od"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sx34zr": {
       "disposition": "rejected",
@@ -29318,10 +29324,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t4wna9": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: pre-purchase request for a denim Speedy 30; the only concrete defects are another commenter's separate gate-app bag, not the submitted product"
     },
     "t3_1t4wq1c": {
       "disposition": "deferred",
@@ -30416,10 +30422,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1taiab8": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1taiab8"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 80)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1talyt5": {
       "disposition": "deferred",
@@ -33922,10 +33931,13 @@
       "reason": "above floor but outside the daily cap (priority 50)"
     },
     "t3_1tsxfs8": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rcb-louis-vuitton-speedy-1tsxfs8"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1tt0orb": {
       "disposition": "deferred",
