@@ -16151,5 +16151,190 @@
     "negative_observations": [
       "One handle is reported as longer than the other and the bag appears slanted; the capture does not state the exact variant, seller response, or replacement outcome."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1r42n1h",
+    "title": "Chanel 25 small size",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1r42n1h/chanel_25_small_size/",
+    "subreddit": "RealRepLadies",
+    "author": "No_Pianist_9718",
+    "publication_date": "2026-02-13",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A received small Chanel 25 attributed by the source to OF was measured at about 10.2 inches along the bottom, while the author compares that result with an official 11.8-inch length and asks whether the factory supplied the wrong size.",
+    "positive_observations": [
+      "The post identifies the small Chanel 25 and records a concrete measured dimension against an official product specification.",
+      "The source-reported OF label is preserved only in the source context because no matching normalized factory entity is established here."
+    ],
+    "negative_observations": [
+      "The measured bottom length is approximately 10.2 inches versus the cited official 11.8-inch length, but the capture does not establish whether the measurement points are comparable or whether the size was ultimately wrong.",
+      "Seller, color, material, and final resolution are not stated."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1tccxqj",
+    "title": "🧪 Speedy Monogram (OC/HP/Auth)",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1tccxqj/speedy_monogram_ochpauth/",
+    "subreddit": "RepTherapy",
+    "author": "Puzzleheaded_Half378",
+    "publication_date": "2026-05-13",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "The post compares an OC Speedy B25 and an HP Speedy B25 with a vintage authentic Speedy 30; OC/HP are source labels and are not normalized to invented factory entities.",
+    "paraphrase": "A side-by-side comparison of an OC Speedy B25, an HP Speedy B25, and a 1991 authentic Speedy 30 reports that the OC has preferred handle details, stitching, and patina behavior but a noticeable hardware-color difference and slight size difference, while the HP canvas matches the authentic slightly better and feels smoother but has glazing on some vachetta and stitching the author finds less convincing.",
+    "positive_observations": [
+      "The author preserves two separate B25 sources and a vintage authentic reference and records canvas, vachetta, patina, handle, stitching, hardware, and size observations.",
+      "OC and HP remain source labels; no factory or seller entity is invented from the abbreviations."
+    ],
+    "negative_observations": [
+      "The HP bag has glazing on portions of the vachetta and stitching the author finds somewhat off; the OC bag's hardware color differs from the reference and its size is slightly different from HP.",
+      "The authentic comparator is a Speedy 30 while both reps are B25s, so the comparison is directional rather than an exact-size authentication."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1u5aljd",
+    "title": "New LV Speedy 😍😍",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1u5aljd/new_lv_speedy/",
+    "subreddit": "RepTherapy",
+    "author": "Popular-Shoe-4347",
+    "publication_date": "2026-06-14",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The author says the bag arrived the prior Thursday after ordering the previous week; exact dates and seller/factory are not stated.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "The capture describes a Speedy Soft but does not state the size, color, seller, or factory.",
+    "paraphrase": "A received Speedy Soft report says the author rejected earlier PSPs because the bags looked stiff, then accepted a softer version; the received bag's gold, interior, and leather smell are described as matching an attached authentic reference, while the factory remains undisclosed.",
+    "positive_observations": [
+      "The post records a concrete PSP-selection difference in softness and compares the received Speedy Soft's gold, interior, and leather smell with an authentic reference.",
+      "The author explicitly leaves the factory unidentified rather than making an unsupported attribution."
+    ],
+    "negative_observations": [
+      "Earlier candidate bags were described as stiff, but the exact variant and the final bag's size, color, seller, and factory are not stated; the comparison is a short first impression."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1qc5bpx",
+    "title": "[QC] Quitian vs Mango Loewe Small Featherlight",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qc5bpx/qc_quitian_vs_mango_loewe_small_featherlight/",
+    "subreddit": "RepTherapy",
+    "author": "Dear_Kindness",
+    "publication_date": "2026-01-13",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP/factory-photo comparison of Loewe Small Featherlight bags labeled Quitian and Mango reports that the Quitian leather looks excellent, while the author wonders whether Mango feels more authentic for this bag and flags differences in the gold Loewe stamping and top-handle stitching; the source labels are retained without invented factory entities.",
+    "positive_observations": [
+      "The post identifies the Small Featherlight variant and records separate leather, hardware color/sturdiness, stamping, and handle-stitching comparison subjects for two source-labeled options.",
+      "Quitian and Mango remain source-reported labels because neither is a catalogued factory entity here."
+    ],
+    "negative_observations": [
+      "The author is uncertain whether Mango's leather is more authentic-feeling and raises concerns about the gold stamping and top-handle stitching; the comparison remains PSP/factory-photo stage without a final receipt."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-flamenco-1rgs72y",
+    "title": "Loewe Flamenco Medium Shoulder Strap Faults",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1rgs72y/loewe_flamenco_medium_shoulder_strap_faults/",
+    "subreddit": "RepTherapy",
+    "author": "OkYou6007",
+    "publication_date": "2026-02-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The author received the medium Flamenco three weeks before posting and used it for two weeks.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "long_term_wear",
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A two-week wear report for a medium Loewe Flamenco says one strap toggle came unglued, stitching on part of the strap has started to come apart and may unravel, and the leather already has a tear or cut; the author asks whether a replacement strap should be requested.",
+    "positive_observations": [
+      "The report identifies the medium Flamenco and records post-arrival use duration plus three specific strap failures rather than a general durability impression."
+    ],
+    "negative_observations": [
+      "After two weeks of use, one toggle is loose, strap stitching is separating, and the leather has a tear or cut; the capture does not record the seller's response or replacement outcome.",
+      "Seller, factory, color, and material details are not stated."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-neverfull-1tfzpj9",
+    "title": "Rainbow LV Neverfull MM Conparison to Genuine",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1tfzpj9/rainbow_lv_neverfull_mm_conparison_to_genuine/",
+    "subreddit": "RealRepLadies",
+    "author": "Fair_Golf_7342",
+    "publication_date": "2026-05-17",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A received Rainbow Neverfull MM comparison with a genuine reference reports excellent materials, strap dimensions that match, hardware the author finds an exact match, genuine-feeling leather trim, and strong stitching; the inner black print is lighter than the original, the seam-logo font differs slightly, and a chemical smell was present on opening.",
+    "positive_observations": [
+      "The author identifies the Neverfull MM and provides a direct genuine comparison across materials, strap dimensions, hardware, leather trim, and stitching.",
+      "The report records concrete interior-print and seam-font differences rather than relying only on a numeric rating."
+    ],
+    "negative_observations": [
+      "The inner black print is lighter, the seam-logo font differs slightly, and the bag arrived with a chemical smell rather than the expected leather smell.",
+      "Rainbow is left unattributed because no normalized seller or factory entity is established in the catalog."
+    ]
   }
 ]
