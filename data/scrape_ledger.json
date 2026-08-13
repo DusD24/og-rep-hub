@@ -13022,10 +13022,13 @@
       "reason": "triage score 0 below floor 30"
     },
     "t3_1pid1n3": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1pid1n3"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 39)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1pidcx1": {
       "disposition": "deferred",
@@ -17077,10 +17080,13 @@
       "reason": "reviewed and not promoted: The post capture is completely empty despite a generic Nano Speedy review title, so it supplies no public product, QC, wear, factory, or authentic-comparison observation."
     },
     "t3_1qhdx2r": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-chanel-classic-flap-1qhdx2r"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 45)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qhdzzj": {
       "disposition": "deferred",
@@ -19003,10 +19009,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qpz3ph": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "reviewed and not promoted: Post asks which factory to choose for a white Chanel 25 Mini and compares seller quotes; mentioning an owned black XiaoC Mini without observations does not make it product evidence."
     },
     "t3_1qpzhws": {
       "disposition": "rejected",
@@ -31060,10 +31066,10 @@
       "reason": "reviewed and not promoted: pre-purchase Hermès Kelly 35 seller and factory recommendation question; no owned-bag observation"
     },
     "t3_1sgsyod": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 48)"
+      "reason": "reviewed and not promoted: Pre-purchase Classic Flap QC and price discussion asks whether an unknown-factory pink bag is high tier and whether its color and leather are fantasy; it does not document an owned-bag observation."
     },
     "t3_1sgu4ax": {
       "disposition": "deferred",
@@ -36959,10 +36965,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t5a5vr": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1t5a5vr"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 50)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1t5apoj": {
       "disposition": "rejected",
@@ -37361,10 +37370,13 @@
       "reason": "reviewed and not promoted: Puzzle Tote versus Saint Louis post is a pre-purchase bag-choice question and capacity wish list."
     },
     "t3_1t6zqk9": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1t6zqk9"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 39)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1t72myd": {
       "disposition": "rejected",
@@ -50920,10 +50932,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uq40kt": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 45)"
+      "reason": "reviewed and not promoted: Dream-bag and acquisition discussion is a wishlist conversation about several Classic Flap and WOC purchases, not a specific public evidence report."
     },
     "t3_1uq7287": {
       "disposition": "rejected",
@@ -53263,10 +53275,10 @@
       "reason": "reviewed and not promoted: model attribution is unclear (generic CC bag) and the triage Flamenco match is unsupported; generic first-order praise is not normalized"
     },
     "t3_1v11i0v": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 50)"
+      "reason": "reviewed and not promoted: The Speedy 20 factory-choice post has an empty sanitized body and supplies no product, QC, wear, or comparison observation to review."
     },
     "t3_1v1222o": {
       "disposition": "deferred",

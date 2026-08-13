@@ -31354,5 +31354,139 @@
       "This is a brief received-bag QC question rather than a detailed review, so the stitch concern is not treated as a confirmed defect."
     ],
     "exact_variant_note": "Received Chanel 25 Mini; source reports OF Factory, but colorway, material, batch, seller, and normalized factory attribution are not stated."
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1t5a5vr",
+    "title": "QC on LVee Speedy 30",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1t5a5vr/qc_on_lvee_speedy_30/",
+    "subreddit": "RealRepLadies",
+    "author": "PhotographNew631",
+    "publication_date": "2026-05-06",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "Before receipt, an owner requests QC on a Speedy 30 source-described as from Duty Free Factory and flags possible silver scratches or gold discoloration in the PSP hardware after comparing it with their experience of authentic Louis Vuitton pieces.",
+    "positive_observations": [
+      "The post identifies the Speedy 30 and records a specific hardware concern in the supplied PSPs rather than generic approval language.",
+      "The author distinguishes the suspected hardware issue from vachetta aging and notes that the concern is based on visual comparison with authentic items they have owned."
+    ],
+    "negative_observations": [
+      "This is a pre-receipt PSP question, so the hardware concern is unresolved and is not treated as a confirmed defect.",
+      "Duty Free Factory and the seller are source-reported and not normalized here; colorway, material, batch, and post-delivery outcome are not documented."
+    ],
+    "exact_variant_note": "Speedy 30 at PSP/QC stage; source reports Duty Free Factory, but no normalized factory, seller, colorway, material, or batch is assigned."
+  },
+  {
+    "id": "ev-crawl-rt-chanel-classic-flap-1qhdx2r",
+    "title": "What do we think of my canal classic flap?",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qhdx2r/what_do_we_think_of_my_canal_classic_flap/",
+    "subreddit": "RepTherapy",
+    "author": "Dependent-Pickle2744",
+    "publication_date": "2026-01-19",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An owner reports that a received Classic Flap bought as a cheap rep was claimed to be leather but feels definitely non-leather to them, and asks whether the material mismatch makes the bag awful or passable.",
+    "positive_observations": [
+      "The post is about a received Classic Flap and records a concrete material concern rather than only a general rating.",
+      "The author preserves the distinction between the seller's claimed material and their own in-hand impression, leaving the material conclusion attributed to the owner."
+    ],
+    "negative_observations": [
+      "The post does not identify the seller, factory, colorway, size, batch, or any later wear outcome; the non-leather assessment is not independently verified.",
+      "The source uses an informal discussion format and gives limited construction detail beyond the material concern."
+    ],
+    "exact_variant_note": "Received Chanel Classic Flap; size, colorway, material specification, seller, factory, and batch are not stated, and the material mismatch remains the owner's report."
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1pid1n3",
+    "title": "Chanel 25 Review!",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1pid1n3/chanel_25_review/",
+    "subreddit": "RealRepLadies",
+    "author": "Nad_a_a",
+    "publication_date": "2025-12-09",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An owner reviews a received Small Chanel 25 in black caviar attributed to 187 Factory, describing the leather as soft and buttery, the gold hardware as not too yellow or shiny, and the bag's smell as strong enough to stand out on opening.",
+    "positive_observations": [
+      "The post identifies a received Small Chanel 25 in black caviar and preserves the source-reported 187 Factory attribution.",
+      "The review records concrete in-hand impressions of leather softness, hardware tone and shine, and opening smell rather than relying only on a general recommendation."
+    ],
+    "negative_observations": [
+      "The review is overwhelmingly positive and does not include long-term wear, defects, batch information, or a detailed authentic side-by-side; seller praise and payment details are not normalized.",
+      "The factory attribution is source-reported for this individual bag and does not establish a universal 187 result."
+    ],
+    "exact_variant_note": "Received Small Chanel 25 in black caviar; source reports 187 Factory, while seller, batch, and any further color or hardware specification are not normalized."
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1t6zqk9",
+    "title": "Please help me GL/RL my Chanel 25",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1t6zqk9/please_help_me_glrl_my_chanel_25/",
+    "subreddit": "RealRepLadies",
+    "author": "Dry_Lawfulness_5665",
+    "publication_date": "2026-05-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A pre-receipt Chanel 25 PSP/QC post source-reports 187 Factory and asks whether the quilt looks too puffy, the hardware shade is correct, and the bottom of the side pocket is turning up or only appears that way from the camera angle.",
+    "positive_observations": [
+      "The post isolates three concrete construction and appearance questions—quilt puffiness, hardware shade, and side-pocket shape—and supplies source-linked PSP media.",
+      "The source-reported 187 attribution is preserved without turning the author's questions into confirmed defects."
+    ],
+    "negative_observations": [
+      "The bag is still at PSP/QC stage, so no community resolution, receipt, wear outcome, colorway, material, size, seller, or batch is documented.",
+      "The side-pocket concern may be a camera-angle effect according to the author and remains unresolved."
+    ],
+    "exact_variant_note": "Chanel 25 at pre-receipt PSP/QC stage with source-reported 187 Factory attribution; size, colorway, material, seller, and batch are not stated."
   }
 ]
