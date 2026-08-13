@@ -5363,10 +5363,10 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1nl3k5y": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 84)"
+      "reason": "reviewed and not promoted: bare God Factory Chanel 25 PSP request asking whether to proceed without stating a concrete discrepancy"
     },
     "t3_1nl4q46": {
       "disposition": "rejected",
@@ -8219,10 +8219,10 @@
       "reason": "reviewed and not promoted: Bare Andiamo clutch QC request asks what tells to look for and reports no concrete product observation."
     },
     "t3_1owhftc": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 84)"
+      "reason": "reviewed and not promoted: bare 187-attributed Chanel Classic Flap QC request with no concrete observation or resolved finding"
     },
     "t3_1owjtdq": {
       "disposition": "rejected",
@@ -11929,10 +11929,10 @@
       "reason": "backfilled from committed evidence"
     },
     "t3_1q537vb": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 84)"
+      "reason": "reviewed and not promoted: generic God Factory Chanel 25 photo-evaluation request that asks about expected quality but identifies no specific feature or discrepancy"
     },
     "t3_1q57dgv": {
       "disposition": "rejected",
@@ -27229,10 +27229,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sua6cp": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1sua6cp"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1suah2j": {
       "disposition": "deferred",
@@ -29165,10 +29168,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t4fj1a": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "reviewed and not promoted: bare God Factory Speedy Soft 30 inspection request with no concrete observation in the sanitized capture"
     },
     "t3_1t4foks": {
       "disposition": "deferred",
@@ -29603,10 +29606,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t6cia9": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "reviewed and not promoted: Speedy Soft 30 Monogram Denim PSP post with seller/factory and payment context but no specific concern beyond a tentative question about a bottom line"
     },
     "t3_1t6eytz": {
       "disposition": "rejected",

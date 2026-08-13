@@ -25235,5 +25235,39 @@
     "negative_observations": [
       "The bag remains at PSP stage, no seller, factory, variant color, material, or authoritative reference is stated, and the concern is unresolved."
     ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1sua6cp",
+    "title": "Need QC help-speedy 25 from TS",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1sua6cp/need_qc_helpspeedy_25_from_ts/",
+    "subreddit": "RepTherapy",
+    "author": "OkActivity750",
+    "publication_date": "2026-04-24",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-aiden"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy 25; seller Aiden is source-reported and normalized. The source says the bag is supposed to be from God Factory, but that attribution is uncertain because the PSP does not match the cited God Factory photos, so no public factory entity is attached. Payment and private factory-photo URLs are excluded.",
+    "paraphrase": "A Speedy 25 buyer compares PSPs from Aiden with God Factory and Royal factory photos and reports that the PSP color is off. More importantly, the monogram along the bottom seam appears materially different from the more accurate alignment shown in the God Factory photos, leading the buyer to question whether the bag can be rejected.",
+    "positive_observations": [
+      "The post identifies the Speedy 25, normalized seller, and the exact comparison basis: PSPs versus God and Royal factory photos.",
+      "It preserves concrete color and bottom-seam monogram/alignment discrepancies and distinguishes the uncertain source attribution from the observed PSP evidence."
+    ],
+    "negative_observations": [
+      "The source says the God Factory attribution is only supposed, the buyer has not established a final resolution, and no exact color/material or authentic reference is stated.",
+      "The comparison is against factory photos rather than a received authentic side-by-side, and payment details are excluded."
+    ]
   }
 ]
