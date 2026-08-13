@@ -9905,5 +9905,314 @@
     "negative_observations": [
       "The post does not state a size, seller, factory, or direct authentic comparison, so those entities and variants remain unattributed or unspecified."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1t7mstg",
+    "title": "My first Chanel from Heidi is here!",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1t7mstg/my_first_chanel_from_heidi_is_here/",
+    "subreddit": "RealRepLadies",
+    "author": "thedesignsourcerer",
+    "publication_date": "2026-05-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-heidi"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a Chanel Classic Flap from Heidi reports ten stitches across the diamond shapes, well-finished caviar graining and stamping, aligned puffy diamonds, side CCs that lean toward the front as on the author’s reference, and gold hardware the author considers close to an aunt’s authentic bag; the inside zipper lacks an EP marking, though the author is unsure whether that varies by version.",
+    "positive_observations": [
+      "The author records specific stitch count, caviar texture, diamond puffiness and alignment, stamping, side-CC orientation, and hardware comparison observations."
+    ],
+    "negative_observations": [
+      "The inside zipper does not show an EP marking, but the author cannot determine whether that is a defect or a version difference; the authentic comparison is to an aunt’s lambskin Classic Flap rather than the exact purchased variant."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1oi1nca",
+    "title": "Please help me QC this Lady Dior",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1oi1nca/please_help_me_qc_this_lady_dior/",
+    "subreddit": "RealRepLadies",
+    "author": "Extreme-Lifeguard889",
+    "publication_date": "2025-10-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A Lady Dior PSP QC request reports that the received color looks darker than the color the author ordered and asks whether anything else appears off.",
+    "positive_observations": [
+      "The post identifies a Lady Dior PSP set and isolates color accuracy as the specific QC concern."
+    ],
+    "negative_observations": [
+      "The received bag appears darker than the ordered color, but the post does not specify the size, seller, factory, or an authentic reference."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1sxj7kk",
+    "title": "LV Monogram…not that anyone asked but …",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1sxj7kk/lv_monogramnot_that_anyone_asked_but/",
+    "subreddit": "RepTherapy",
+    "author": "VRoseL43",
+    "publication_date": "2026-04-27",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-reykay"
+    ],
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand comparison of a Monogram Speedy Soft Boho attributed to Royal via Reykay with other LV monogram pieces reports a slightly stronger sheen and softer feel on the Soft Speedy; the author says the Royal pieces look similar overall and has been wearing them continuously.",
+    "positive_observations": [
+      "The post identifies the Speedy Soft Boho and reports concrete differences in sheen and softness against the author’s other LV monogram pieces."
+    ],
+    "negative_observations": [
+      "The comparison is between several rep pieces rather than an authentic side-by-side; the separate awaited Damier Azur Speedy and unrelated Bumbag/Key Pouch are not normalized into this record."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1td5u3f",
+    "title": "Quality question",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1td5u3f/quality_question/",
+    "subreddit": "RepTherapy",
+    "author": "fashionshowhomme",
+    "publication_date": "2026-05-14",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand quality question about a newly received Loewe Puzzle reports a surface that feels smooth with almost no texture and asks whether the material may be PU rather than leather; the author’s concern is unconfirmed and the post does not identify the seller or exact variant.",
+    "positive_observations": [
+      "The author records a concrete material-surface observation and supplies public photos for the Puzzle under review."
+    ],
+    "negative_observations": [
+      "The surface is described as unusually smooth and textureless, leading the author to question whether it is PU; no material verification or seller attribution is provided."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1tq111t",
+    "title": "PSP for my puzzle, please help",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1tq111t/psp_for_my_puzzle_please_help/",
+    "subreddit": "RepTherapy",
+    "author": "2cute2",
+    "publication_date": "2026-05-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC request for a Loewe Puzzle Medium from Baobao reports that the bag looks unusually hard, asks whether conditioner is needed to develop the expected slouch, and says the tag differs from other Puzzle examples; Jinpin is left unattributed.",
+    "positive_observations": [
+      "The post identifies the Puzzle Medium and records the bag’s initial structure and tag as the specific QC subjects."
+    ],
+    "negative_observations": [
+      "The bag looks too hard to the author, the expected slouch is not present at PSP stage, and the tag looks different from other Puzzle examples; Jinpin is a source-reported label without a catalogued factory entity."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-chanel-25-1ne6zvy",
+    "title": "QC: God Factory Speedy 20 and Chanel 25 small",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ne6zvy/qc_god_factory_speedy_20_and_chanel_25_small/",
+    "subreddit": "RealRepLadies",
+    "author": "rememo889",
+    "publication_date": "2025-09-11",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy",
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mike"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A combined PSP QC post from Mike separately reviews a God-attributed monogram Speedy 20 with beige strap and black caviar Chanel 25 Small: the Chanel diamonds align, stitching looks good, and hardware is close to the authentic color, while the Speedy canvas may look dark from lighting, its handles already show patina, and the author plans to replace the guitar strap.",
+    "positive_observations": [
+      "The post keeps the two exact products distinct and records concrete Chanel 25 stitching, diamond, and hardware observations plus Speedy canvas, handle-patina, and strap observations."
+    ],
+    "negative_observations": [
+      "The Chanel hardware color is not an exact authentic match, the Speedy canvas appears dark in some lighting, and the handles already have patina; the guitar strap is intentionally not evaluated."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-puzzle-1tw714g",
+    "title": "Loewe featherlight puzzle small in black PSP, does this look off to you?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1tw714g/loewe_featherlight_puzzle_small_in_black_psp_does/",
+    "subreddit": "RealRepLadies",
+    "author": "Mindless-Wait-2225",
+    "publication_date": "2026-06-03",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC request for a black small Featherlight Puzzle attributed to Luisheng flags puckering in the leather on the back near the zipper start, where the author has seen smoother examples.",
+    "positive_observations": [
+      "The post identifies the black small Featherlight Puzzle and compares the zipper-area leather against other public PSP examples."
+    ],
+    "negative_observations": [
+      "The leather puckers on the back near the zipper start; the author is unsure whether it is a legitimate reason to reject the PSP, and no seller is named."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-flamenco-1v8z61l",
+    "title": "Help me QC this Lowe Flamenco",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1v8z61l/help_me_qc_this_lowe_flamenco/",
+    "subreddit": "RealRepLadies",
+    "author": "mamamia2222",
+    "publication_date": "2026-07-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-jipin"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC request for a Loewe Flamenco attributed to Jipin flags a brand stamp that appears too high and drawstrings that do not seem to close effectively and look too long; the author compares the PSPs with factory photos.",
+    "positive_observations": [
+      "The post identifies the Flamenco and source-reported Jipin attribution and compares the stamp and drawstring behavior with factory photos."
+    ],
+    "negative_observations": [
+      "The brand stamp may be too high, and the drawstrings appear too long or ineffective when tightened; the post does not state a size, seller, or final resolution."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1q3ykpp",
+    "title": "Quick Rep vs Auth Review ✨ (Loewe Puzzle)",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1q3ykpp/quick_rep_vs_auth_review_loewe_puzzle/",
+    "subreddit": "RepTherapy",
+    "author": "V_Dub_On_Wheels",
+    "publication_date": "2026-01-04",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A direct in-person comparison of a Loewe Puzzle replica with an authentic bag reports that the rep’s shape, stitching, and overall visual look are close, while the authentic leather is softer and the authentic bag develops a more effortless slouch; the author says their rep does not slouch as much.",
+    "positive_observations": [
+      "The author handled the authentic and rep bags side by side and records specific shape, stitching, leather-feel, and slouch comparisons."
+    ],
+    "negative_observations": [
+      "The rep leather feels less buttery and the bag does not slouch as much as the authentic reference; no seller, factory, or exact size is stated."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-neverfull-1usrc2g",
+    "title": "Review of Hyper Peter  Louis Vuitton Neverfull MM Empreinte Black",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1usrc2g/review_of_hyper_peter_louis_vuitton_neverfull_mm/",
+    "subreddit": "RepTherapy",
+    "author": "Grouchy-Escape-848",
+    "publication_date": "2026-07-10",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a black Louis Vuitton Neverfull MM Empreinte from Hyper Peter reports careful protective packaging, a matching blue interior, clean stitching, and stamped buckles and zippers, while noting that the shoulder straps feel too short and carry more like handbag handles.",
+    "positive_observations": [
+      "The post identifies the Neverfull MM Empreinte Black and records interior color, stitching, buckle and zipper stamping, packaging protection, and carry behavior."
+    ],
+    "negative_observations": [
+      "The shoulder straps feel too short for the author’s preference, making the bag carry more like a handbag than a shoulder bag; no factory attribution is stated."
+    ]
   }
 ]
