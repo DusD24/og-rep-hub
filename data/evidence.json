@@ -22914,5 +22914,133 @@
     "negative_observations": [
       "The concern remains unresolved at PSP stage, and the post does not state the exact color, material, seller, factory, or delivery result."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1tdlgl7",
+    "title": "Qc - 187 medium cf",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1tdlgl7/qc_187_medium_cf/",
+    "subreddit": "RealRepLadies",
+    "author": "Character-Weight-892",
+    "publication_date": "2026-05-15",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel Medium Classic Flap with light-gold hardware, attributed by the source to 187; color, material, seller, and final delivery status are not stated.",
+    "paraphrase": "A 187-attributed Chanel Medium Classic Flap PSP is flagged for crooked stitching at the back before delivery.",
+    "positive_observations": [
+      "The post identifies the Medium Classic Flap, light-gold hardware, and source-reported 187 attribution.",
+      "It preserves a specific visible PSP concern about the back stitching rather than asking only for a general factory recommendation."
+    ],
+    "negative_observations": [
+      "The post does not document a delivered result, exact color or material, seller, or resolution of the stitching concern."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1qjwohr",
+    "title": "QC Speedy Soft 30 Dark",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qjwohr/qc_speedy_soft_30_dark/",
+    "subreddit": "RepTherapy",
+    "author": "-BONNY88-",
+    "publication_date": "2026-01-22",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy Soft 30 in a source-described dark color from Hyper Peter; factory, material, and final delivery status are not stated.",
+    "paraphrase": "A Hyper Peter PSP for a dark Speedy Soft 30 is described as having acceptable monogram and alignment, while the buyer questions whether the external tag is longer than in official photos.",
+    "positive_observations": [
+      "The post identifies the Speedy Soft 30 variant and records positive monogram and alignment checks at PSP stage.",
+      "It isolates a concrete external-tag length difference against official photos for review."
+    ],
+    "negative_observations": [
+      "The tag discrepancy is unresolved at PSP stage, and the source does not state a factory, material, or delivered-bag result."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1qkqeqn",
+    "title": "Speedy 30 Soft Celebration",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qkqeqn/speedy_30_soft_celebration/",
+    "subreddit": "RepTherapy",
+    "author": "-BONNY88-",
+    "publication_date": "2026-01-23",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy 30 Soft Celebration; the source compares handle color with genuine examples and mentions an Ultimate factory source without a normalized factory attribution. Seller, material, and delivery status are not stated.",
+    "paraphrase": "A pre-purchase discussion of the Speedy 30 Soft Celebration says the handles appear lighter or darker than genuine examples and that the version being considered does not yet have a leather lining.",
+    "positive_observations": [
+      "The post identifies the Speedy 30 Soft Celebration and preserves two concrete variant checks: handle color and lining material.",
+      "It frames the observations as a comparison with genuine examples and a source-reported factory offering without turning the ambiguous factory mention into a normalized attribution."
+    ],
+    "negative_observations": [
+      "This is a pre-purchase comparison with no PSP or in-hand result, and the source does not identify a seller or confirm the factory attribution."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1qycbkk",
+    "title": "PSA / Heads up on Speedy from Aku (group buy)",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qycbkk/psa_heads_up_on_speedy_from_aku_group_buy/",
+    "subreddit": "RepTherapy",
+    "author": "Significant-Rest8965",
+    "publication_date": "2026-02-07",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "A source-described Lucky Speedy from an Aku group buy; size, color, material composition, seller, and factory are not normalized. The post separately discusses vachetta and a pink lining.",
+    "paraphrase": "After beginning to use a Lucky Speedy from an Aku group buy, the owner reports soft smooshy canvas, generally good construction, and canvas that looks close to OG reference photos; a water test initially suggested the vachetta was coated or synthetic, but an edit says the authentic behaves the same, while the pink lining is questioned as potentially non-leather.",
+    "positive_observations": [
+      "The post records an in-hand bag and specific canvas, construction, and comparison observations.",
+      "It preserves the author's later correction that the water-beading behavior also occurs on the authentic reference, preventing the initial vachetta concern from being presented as a confirmed defect."
+    ],
+    "negative_observations": [
+      "The pink lining's material and long-term durability concern remain unverified, and the post does not identify the exact size, seller, or factory."
+    ]
   }
 ]
