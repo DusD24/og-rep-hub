@@ -2132,5 +2132,311 @@
       "Small and Medium sizes are documented; the original opening post was a men's messenger variant, and later sources add the women's-line small and medium silhouettes -- confirm whether future sources should be split into separate bag records by silhouette.",
       "Source-reported factories (\"LiLi\", Angel, God) are left unlinked where not in this catalog's factory roster; do not infer a match to an existing factory id."
     ]
+  },
+  {
+    "id": "bag-family-louis-vuitton-keepall",
+    "slug": "louis-vuitton-keepall",
+    "brand": "Louis Vuitton",
+    "model": "Keepall",
+    "aliases": [
+      "Keepall Bandoulière",
+      "LV Keepall"
+    ],
+    "category": "travel",
+    "summary": "Community evidence file covering exact Keepall sizes, coated-canvas colorways, hardware, and PSP or in-hand observations.",
+    "tile_media_id": "media-catalog-keepall-hero",
+    "publication_status": "published",
+    "documented_variant_ids": [
+      "bag-keepall-gradient-blue-denim",
+      "bag-keepall-25-monogram-midnight",
+      "bag-keepall-45-monogram-eclipse"
+    ],
+    "evidence_ids": [
+      "ev-catalog-keepall-1musi0i",
+      "ev-catalog-keepall-1s7tzw4",
+      "ev-catalog-keepall-1tc5lh6"
+    ],
+    "documented_materials": [
+      "coated canvas",
+      "denim fabric"
+    ],
+    "documented_hardware": [
+      "matte hardware",
+      "not consistently stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 3,
+      "independent_author_count": 3,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
+    "last_updated": "2026-08-13",
+    "research_gaps": [
+      "Keepall sizes and colorways remain separate; source-reported factory labels are not independently verified."
+    ],
+    "reference_url": "https://us.louisvuitton.com/eng-us/homepage"
+  },
+  {
+    "id": "bag-family-ysl-niki",
+    "slug": "ysl-niki",
+    "brand": "Saint Laurent",
+    "model": "Niki",
+    "aliases": [
+      "YSL Niki",
+      "Niki Baby"
+    ],
+    "category": "shoulder-bag",
+    "summary": "Community evidence file covering YSL Niki size clusters, leather feel, hardware, color PSP questions, and in-hand comparisons.",
+    "tile_media_id": "media-catalog-niki-hero",
+    "publication_status": "published",
+    "documented_variant_ids": [
+      "bag-niki-medium-vintage-leather",
+      "bag-niki-medium-gold-hardware",
+      "bag-niki-red-wine-unknown-size"
+    ],
+    "evidence_ids": [
+      "ev-catalog-niki-1uulmns",
+      "ev-catalog-niki-1v8jul0",
+      "ev-catalog-niki-1svo9tc"
+    ],
+    "documented_materials": [
+      "Vintage Leather (source-reported)",
+      "not consistently stated in selected sources"
+    ],
+    "documented_hardware": [
+      "gold-tone hardware",
+      "chain strap"
+    ],
+    "evidence_coverage": {
+      "source_count": 3,
+      "independent_author_count": 3,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "auth_comparison",
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
+    "last_updated": "2026-08-13",
+    "research_gaps": [
+      "Medium, Baby, and color-specific evidence remain separate; source-reported Black Frame labels are not independently verified."
+    ],
+    "reference_url": "https://www.ysl.com/en-us/women/handbags"
+  },
+  {
+    "id": "bag-family-bottega-veneta-jodie",
+    "slug": "bottega-veneta-jodie",
+    "brand": "Bottega Veneta",
+    "model": "Jodie",
+    "aliases": [
+      "Bottega Veneta Jodie",
+      "Mini Jodie",
+      "Teen Jodie"
+    ],
+    "category": "shoulder-bag",
+    "summary": "Community evidence file covering Mini, Teen, and measured Jodie variants with weave, seam, color, hardware, and in-hand observations.",
+    "tile_media_id": "media-catalog-jodie-hero",
+    "publication_status": "published",
+    "documented_variant_ids": [
+      "bag-jodie-mini-unknown",
+      "bag-jodie-off-white-cream-unknown",
+      "bag-jodie-48cm-fondant-sheepskin",
+      "bag-jodie-teen-unknown"
+    ],
+    "evidence_ids": [
+      "ev-catalog-jodie-1ubpsuj",
+      "ev-catalog-jodie-1v29svm",
+      "ev-catalog-jodie-1tvnd4h",
+      "ev-catalog-jodie-1gkyogy"
+    ],
+    "documented_materials": [
+      "sheepskin",
+      "not consistently stated in selected sources"
+    ],
+    "documented_hardware": [
+      "not consistently stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 4,
+      "independent_author_count": 4,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepLadiesWorld",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
+    "last_updated": "2026-08-13",
+    "research_gaps": [
+      "Mini, Teen, and measured Classic Jodie sources remain separate; source-reported factory labels are not independently verified."
+    ],
+    "reference_url": "https://www.bottegaveneta.com/en-us/women/handbags"
+  },
+  {
+    "id": "bag-family-dior-d-joy",
+    "slug": "dior-d-joy",
+    "brand": "Dior",
+    "model": "D-Joy",
+    "aliases": [
+      "Lady D-Joy",
+      "Dior D-Joy"
+    ],
+    "category": "shoulder-bag",
+    "summary": "Community evidence file covering D-Joy size, leather, Cannage, hardware, color, and authentic-comparison observations.",
+    "tile_media_id": "media-catalog-djoy-hero",
+    "publication_status": "published",
+    "documented_variant_ids": [
+      "bag-djoy-red-patent-unknown",
+      "bag-djoy-26cm-black-lambskin-lghw",
+      "bag-djoy-micro-cloud-blue"
+    ],
+    "evidence_ids": [
+      "ev-catalog-djoy-1s86bi3",
+      "ev-catalog-djoy-1s09woa",
+      "ev-catalog-djoy-1su9eg2"
+    ],
+    "documented_materials": [
+      "patent leather",
+      "lambskin"
+    ],
+    "documented_hardware": [
+      "light-gold hardware",
+      "not consistently stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 3,
+      "independent_author_count": 3,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "auth_comparison",
+        "in_hand_review"
+      ]
+    },
+    "last_updated": "2026-08-13",
+    "research_gaps": [
+      "Micro, 26cm, and unresolved-size variants remain separate; source-reported factory labels are not independently verified."
+    ],
+    "reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags"
+  },
+  {
+    "id": "bag-family-gucci-jackie",
+    "slug": "gucci-jackie",
+    "brand": "Gucci",
+    "model": "Jackie",
+    "aliases": [
+      "Gucci Jackie 1961",
+      "Jackie 1961"
+    ],
+    "category": "shoulder-bag",
+    "summary": "Community evidence file covering Jackie 1961 size, canvas, hardware, PSP construction concerns, and received-bag observations.",
+    "tile_media_id": "media-catalog-jackie-hero",
+    "publication_status": "published",
+    "documented_variant_ids": [
+      "bag-jackie-medium-unknown",
+      "bag-jackie-medium-brown-canvas",
+      "bag-jackie-mini-unknown"
+    ],
+    "evidence_ids": [
+      "ev-catalog-jackie-1u55t13",
+      "ev-catalog-jackie-1u6btjq",
+      "ev-catalog-jackie-1ufacyb"
+    ],
+    "documented_materials": [
+      "canvas"
+    ],
+    "documented_hardware": [
+      "not consistently stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 3,
+      "independent_author_count": 3,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepCulture_Bags",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
+    "last_updated": "2026-08-13",
+    "research_gaps": [
+      "Medium and Mini evidence remain separate; the Joseph6291 JS versus Orange Couch crosspost pair is excluded and no factory claim is independently verified."
+    ],
+    "reference_url": "https://www.gucci.com/us/en/ca/women/handbags-c-women-handbags"
+  },
+  {
+    "id": "bag-family-chanel-woc",
+    "slug": "chanel-woc",
+    "brand": "Chanel",
+    "model": "WOC",
+    "aliases": [
+      "Chanel WOC",
+      "Chanel Wallet on Chain"
+    ],
+    "category": "wallet-on-chain",
+    "summary": "Community evidence file covering Chanel WOC quilting, caviar or lambskin texture, hardware, logo placement, and PSP observations.",
+    "tile_media_id": "media-catalog-woc-hero",
+    "publication_status": "published",
+    "documented_variant_ids": [
+      "bag-chanel-woc-unknown",
+      "bag-chanel-woc-black-caviar-silver",
+      "bag-chanel-woc-black-187-unknown"
+    ],
+    "evidence_ids": [
+      "ev-catalog-woc-1pfyhsm",
+      "ev-catalog-woc-1rgi7lg",
+      "ev-catalog-woc-1vlk895",
+      "ev-catalog-woc-1uwu1in"
+    ],
+    "documented_materials": [
+      "caviar",
+      "lambskin",
+      "not consistently stated in selected sources"
+    ],
+    "documented_hardware": [
+      "gold-tone hardware",
+      "silver hardware",
+      "not consistently stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 4,
+      "independent_author_count": 4,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
+    "last_updated": "2026-08-13",
+    "research_gaps": [
+      "The public name is intentionally Chanel WOC to avoid YSL and Louis Vuitton WOC collisions; size and material remain source-specific."
+    ],
+    "reference_url": "https://www.chanel.com/us/fashion/handbags/"
   }
 ]

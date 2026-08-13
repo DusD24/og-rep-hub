@@ -776,10 +776,13 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1gkyogy": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-jodie-1gkyogy"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "Exact item is a Bottega Veneta Teen Jodie, not the existing Andiamo family; preserve its seam PSP/QC question for a separate Jodie catalog decision."
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1glwgzv": {
       "disposition": "deferred",
@@ -4967,10 +4970,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1musi0i": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-keepall-1musi0i"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1mutri0": {
       "disposition": "deferred",
@@ -12764,10 +12770,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1pfyhsm": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-woc-1pfyhsm"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1pg0r30": {
       "disposition": "rejected",
@@ -23896,10 +23905,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rgi7lg": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-woc-1rgi7lg"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "Exact item is a Chanel WOC with Xiao C source-reported attribution, not Balenciaga Le City; preserve its PSP/QC observations for a separate brand-qualified WOC catalog decision."
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1rgkrzm": {
       "disposition": "deferred",
@@ -27616,10 +27628,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1s09woa": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-djoy-1s09woa"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1s0atih": {
       "disposition": "deferred",
@@ -29302,10 +29317,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1s7tzw4": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-keepall-1s7tzw4"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1s7uyzg": {
       "disposition": "deferred",
@@ -29386,10 +29404,13 @@
       "reason": "reviewed and not promoted: pre-purchase auth-versus-rep question about Chanel 25 and Hermès Constance Elan; the author owns neither bag in this post and reports no direct observation"
     },
     "t3_1s86bi3": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-djoy-1s86bi3"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1s89rl0": {
       "disposition": "deferred",
@@ -34330,10 +34351,13 @@
       "reason": "reviewed and not promoted: Post asks for the best factory for an Empreinte Speedy 20 and requests comparison photos; it is a pre-purchase recommendation request rather than an owned-bag observation."
     },
     "t3_1su9eg2": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-djoy-1su9eg2"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1sua2le": {
       "disposition": "deferred",
@@ -34672,10 +34696,13 @@
       "reason": "reviewed and not promoted: pre-purchase braided Puzzle quality question based on seller comments, with no received-bag observation"
     },
     "t3_1svo9tc": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-niki-1svo9tc"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1svqrqy": {
       "disposition": "rejected",
@@ -38453,10 +38480,13 @@
       "reason": "triage score 0 below floor 30"
     },
     "t3_1tc5lh6": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-keepall-1tc5lh6"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1tc7v79": {
       "disposition": "deferred",
@@ -43075,10 +43105,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tvnd4h": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-jodie-1tvnd4h"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1tvnfqa": {
       "disposition": "deferred",
@@ -45460,10 +45493,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u55t13": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-jackie-1u55t13"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1u560h0": {
       "disposition": "rejected",
@@ -45790,10 +45826,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u6btjq": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-jackie-1u6btjq"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1u6crdv": {
       "disposition": "rejected",
@@ -47427,10 +47466,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ubpsuj": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-jodie-1ubpsuj"
+      ],
       "subreddit": "RepLadiesWorld",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1ubqi7n": {
       "disposition": "deferred",
@@ -48457,10 +48499,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ufacyb": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-jackie-1ufacyb"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1ufaiio": {
       "disposition": "deferred",
@@ -52015,10 +52060,13 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1uulmns": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-niki-1uulmns"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1uumpep": {
       "disposition": "deferred",
@@ -52444,10 +52492,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uwu1in": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-woc-1uwu1in"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1uww1uf": {
       "disposition": "deferred",
@@ -53611,10 +53662,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1v29svm": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-jodie-1v29svm"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1v2adcd": {
       "disposition": "deferred",
@@ -55066,10 +55120,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1v8jul0": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-niki-1v8jul0"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "Exact item is a YSL Niki Medium with in-hand material, feel, size, and satisfaction observations, not an existing catalog family; preserve for a separate Niki catalog decision."
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1v8kw8i": {
       "disposition": "deferred",
@@ -58618,10 +58675,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1vlk895": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-woc-1vlk895"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1vlkags": {
       "disposition": "promoted",
