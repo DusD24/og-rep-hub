@@ -15262,5 +15262,198 @@
       "The review does not itemize weave, hardware, dimensions, or authentic comparison, and the quality assessment remains one owner's report.",
       "Payment details and private transaction context are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1n72uy7",
+    "title": "Help! Am I overreacting?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1n72uy7/help_am_i_overreacting/",
+    "subreddit": "RealRepLadies",
+    "author": "Objective-History280",
+    "publication_date": "2025-09-03",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand Chanel Classic Flap report says the received bag has white threads throughout the quilted exterior; the seller suggested they may be stuffing from shipping, but the author was concerned that pulling them could worsen the bag.",
+    "positive_observations": [
+      "The source identifies a received Chanel Classic Flap and records a concrete visible construction concern rather than a generic approval request."
+    ],
+    "negative_observations": [
+      "White threads are reported across the bag, but the source does not establish whether they are quilt stuffing, shipping damage, or a construction defect.",
+      "Size, material, factory, seller identity, and any final resolution are not stated in the sanitized capture."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-dior-lady-dior-1qla9qh",
+    "title": "Review mini lady Dior",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qla9qh/review_mini_lady_dior/",
+    "subreddit": "RepTherapy",
+    "author": "Frosty-Row7292",
+    "publication_date": "2026-01-24",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "PSP received June 30 and shipped July 2; the author opened the package later after being out of the country and says delivery took no more than about 10 days.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a God-attributed Iris Pink Mini Lady Dior from Baobao reports very soft leather, champagne-gold hardware, and a chain weight the author finds similar to authentic; after roughly ten wears, the O charm became dull, a faint factory smell took several days to dissipate, and the dust bag was an obvious mismatch.",
+    "positive_observations": [
+      "The review identifies the Mini Lady Dior colorway, seller, and source-reported factory and records leather feel, hardware color, chain weight, authentic touchpoint, and practical capacity.",
+      "The author reports using the received bag and distinguishes the rep's softer-than-basic feel from an authentic bag that felt even softer."
+    ],
+    "negative_observations": [
+      "The author reports the authentic leather felt softer, the O charm dulled after about ten wears, and a faint factory smell persisted for several days.",
+      "The dust bag is described as giving away that it is a replica; the leather composition is not independently established."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1s4ax0f",
+    "title": "Speedy b25 different 🏭 review",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1s4ax0f/speedy_b25_different_review/",
+    "subreddit": "RealRepLadies",
+    "author": "Alarming_Scientist31",
+    "publication_date": "2026-03-26",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-mb"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A side-by-side review of two Louis Vuitton Speedy B25 Damier Ebene bags compares a Duty Free 225 against an MB 266: both are described as well made, while the Duty Free has a more peanut-butter undertone, a more house-like shape and leather, and a slightly smaller side stamp; the MB has a more chocolate undertone, rounder shape, larger side stamp, and a heat stamp the author prefers against authentic reference.",
+    "positive_observations": [
+      "The author preserves the shared Speedy B25 Damier Ebene variant and records separate shape, leather, color-undertone, stamp, and heat-stamp observations for the two source-labeled versions.",
+      "The MB attribution is mapped only to the existing public factory entity; the Duty Free label remains source wording without an invented normalized factory ID."
+    ],
+    "negative_observations": [
+      "The Duty Free version is described as having a slightly smaller side stamp, while the MB version has a slightly rounder house shape, a larger side stamp, and a more chocolate undertone.",
+      "The comparison is one owner's report and does not establish a general factory ranking or a controlled in-person authentic result."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-puzzle-1viowh9",
+    "title": "QC Loewe Puzzle Bag",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1viowh9/qc_loewe_puzzle_bag/",
+    "subreddit": "RealRepLadies",
+    "author": "novaxana",
+    "publication_date": "2026-08-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A Loewe Puzzle PSP/QC post focuses on the hardware: the author rejected an earlier bag with old hardware because recent alloy hardware made the bag look and feel cheap, and says the current PSP appears to use stainless steel although the seller's confirmation has not resolved the author's uncertainty.",
+    "positive_observations": [
+      "The post distinguishes a previously rejected PSP from the current Loewe Puzzle PSP and isolates stainless steel versus alloy hardware as the specific quality subject."
+    ],
+    "negative_observations": [
+      "The current hardware material is not independently verified in the capture; the author remains unsure despite the seller saying it is steel.",
+      "Size, material, factory, seller identity, and an in-hand result are not stated in the sanitized capture."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1qsboqg",
+    "title": "Chanel 25 from Shunyang and The Row 90's Bag from Su Weiwei / Seller W",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1qsboqg/chanel_25_from_shunyang_and_the_row_90s_bag_from/",
+    "subreddit": "RealRepLadies",
+    "author": "h2opleasee",
+    "publication_date": "2026-01-31",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "PSPs were received December 15, shipment was reported December 19, and arrival was reported around December 27; the separate The Row 90s bag is excluded from this Chanel 25 record.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a small black Chanel 25 with gold hardware compares the bag with authentic references: the author reports neat stitching, smooth chains, a sturdy drawstring clasp, sturdy exterior leather, a soft interior, accurate diamond layout and bottom screw, but thicker top rings and a thicker overlap in the drawstring CC logo than the authentic.",
+    "positive_observations": [
+      "The review identifies the small black Chanel 25 and records concrete in-hand construction observations plus several named authentic-reference details, including the diamond layout and bottom screw.",
+      "The author reports smooth chain movement, a sturdy drawstring clasp, sturdy exterior leather, and a soft interior."
+    ],
+    "negative_observations": [
+      "The top rings appear thicker than the authentic reference and the overlapping lines of the drawstring CC logo appear thicker, with the lower C lacking the authentic's puffiness at the overlap.",
+      "The separate The Row 90s bag, seller/contact/payment details, and any unconfirmed factory label are excluded from this record."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-balenciaga-rodeo-1qk2mxn",
+    "title": "Ban Island, Rep Therapy, and My Beloved Rodeos 🏝️",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qk2mxn/ban_island_rep_therapy_and_my_beloved_rodeos/",
+    "subreddit": "RepTherapy",
+    "author": "JunK2022",
+    "publication_date": "2026-01-22",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-balenciaga-rodeo"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-garmen"
+    ],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "The post covers a large black Rodeo, a medium grey Rodeo, and a Rodeo camera bag; exact catalogued variant details are not fully stated for every bag.",
+    "paraphrase": "An in-hand tribute to three Balenciaga Rodeos purchased through seller Garmen reports that the large black bag carries a 15.6-inch laptop and other work items, the medium grey bag worked well for travel, and the leather on the Rodeos is very soft and supple; the outer back pockets were useful for a phone and passport, and a Rodeo camera bag was used daily by the author's fiancé.",
+    "positive_observations": [
+      "The author reports post-arrival use across multiple Rodeo variants and records leather feel, work capacity, travel utility, and the practical value of the outer back pockets.",
+      "The seller attribution is mapped to the existing Garmen seller entity; no factory attribution is inferred."
+    ],
+    "negative_observations": [
+      "The post is a retrospective tribute rather than a full review, and the size/color/material details are not complete for every Rodeo mentioned.",
+      "Unrelated Speedy comments and private payment context are excluded; no long-term construction or authentic comparison is reported for the Rodeos."
+    ]
   }
 ]
