@@ -23376,5 +23376,239 @@
     "negative_observations": [
       "The owner finds the canvas slightly thinner than expected, and the source does not state the exact color, material, or a direct authentic comparison."
     ]
+  },
+  {
+    "id": "ev-crawl-rt-chanel-25-1sqvyeq",
+    "title": "First high tier bag purchase",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1sqvyeq/first_high_tier_bag_purchase/",
+    "subreddit": "RepTherapy",
+    "author": "shizbriz",
+    "publication_date": "2026-04-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "Inquiry and deposit on 2026-04-06; PSPs on 2026-04-12; payment and shipment on 2026-04-14; arrival on 2026-04-15, as reported.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-heidi",
+      "seller-baobao",
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25 Small attributed by the source to 187; color, material, and hardware are not stated. The source compares seller options and names Heidi as the selected seller; payment amounts and seller-contact details are excluded.",
+    "paraphrase": "A received Chanel 25 Small attributed to 187 is described as having very soft, high-quality-feeling leather, while the chain feels somewhat artificial to the buyer who has not handled an authentic bag; the buyer also reports slower PSP/QC responses than inquiry responses.",
+    "positive_observations": [
+      "The post identifies the Chanel 25 Small, source-reported 187 attribution, received result, and PSP-to-arrival sequence.",
+      "It records specific leather and chain observations and separates seller-response timing from product quality."
+    ],
+    "negative_observations": [
+      "The buyer has no in-person authentic reference, the chain concern is subjective, and the source includes payment and seller-process details that are excluded from the public evidence."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1ufe0hq",
+    "title": "Nano Speedy from Hyper Peter",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ufe0hq/nano_speedy_from_hyper_peter/",
+    "subreddit": "RepTherapy",
+    "author": "Javiol",
+    "publication_date": "2026-06-25",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Nano Speedy PSP from Hyper Peter; color, material, and production factory are not stated. The source-reported price is excluded.",
+    "paraphrase": "A Hyper Peter Nano Speedy PSP is compared with other QC photos, and the buyer flags that the inside label places the letter R on the right rather than at the top.",
+    "positive_observations": [
+      "The post identifies the Nano Speedy, seller, and PSP stage.",
+      "It isolates a concrete interior-label placement difference against other QC examples."
+    ],
+    "negative_observations": [
+      "The label-placement concern is unresolved before delivery, and the source does not state color, material, or factory beyond the seller's source-reported factory field."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1uqdygv",
+    "title": "Rep Science for Azur Canvas",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1uqdygv/rep_science_for_azur_canvas/",
+    "subreddit": "RepTherapy",
+    "author": "mamabear-22",
+    "publication_date": "2026-07-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy",
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-old-cobbler"
+    ],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "The post compares an authentic Louis Vuitton Speedy 25 in Damier Azur with an Old Cobbler Damier Azur Neverfull MM and also references other Neverfulls; the Speedy and Neverfull observations are retained together because the post explicitly uses them as comparative references.",
+    "paraphrase": "A rep-science comparison says an Old Cobbler Damier Azur Neverfull MM has a canvas print very close to the author's authentic Damier Azur Speedy 25, though slightly crisper and sharper; the author notes a shorter A in Paris and says the glazing looks good after a Copic-marker treatment, with fading expected through use.",
+    "positive_observations": [
+      "The post provides a direct authentic-versus-rep canvas comparison and identifies both the authentic Speedy 25 reference and OC Damier Azur Neverfull MM.",
+      "It records specific print crispness, lettering, glazing, and use-related fading observations and names the Copic treatment as an intervention rather than a factory property."
+    ],
+    "negative_observations": [
+      "The rep bag is a Neverfull MM rather than the authentic Speedy 25, so the records preserve the cross-model comparison without treating it as an exact same-model match; the strap treatment is user-applied."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1uqy8oj",
+    "title": "QC Question about P9s",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1uqy8oj/qc_question_about_p9s/",
+    "subreddit": "RepTherapy",
+    "author": "trixstix96",
+    "publication_date": "2026-07-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy P9 25 in Summer Peach at QC-video stage; seller, factory, and material are not stated.",
+    "paraphrase": "A Summer Peach Speedy 25 QC video shows an interior plate marked 26 FR rather than 25 FR, leading the buyer to question whether the code varies by production timing despite the official-site example showing 25 FR.",
+    "positive_observations": [
+      "The post identifies the P9 Speedy 25 Summer Peach variant and preserves the exact plate-code discrepancy.",
+      "It compares the QC video with an official website reference and leaves open the possibility of production-date variation rather than asserting a defect."
+    ],
+    "negative_observations": [
+      "The plate-code concern is unresolved at QC stage, and the source does not identify the seller, factory, or final delivery result."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-flamenco-1fn8c0e",
+    "title": "[REVIEW] Loewe Flamenco Mini Clutch vs. Auth Loewe Flamenco Medium Bag",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1fn8c0e/review_loewe_flamenco_mini_clutch_vs_auth_loewe/",
+    "subreddit": "RealRepLadies",
+    "author": "HuckleberrySue",
+    "publication_date": "2024-09-23",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "Ordered 2024-09-04; tracking 2024-09-13; received 2024-09-17, as reported.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "Loewe Flamenco Mini Clutch from Hyper Peter compared with an authentic Loewe Flamenco Medium reference; factory is undisclosed, and the cross-size comparison is intentional. Payment/contact details are excluded.",
+    "paraphrase": "A received Hyper Peter Flamenco Mini Clutch is compared with an authentic Flamenco Medium and is described as having soft scented leather, accurate color and stitching, a sharp stamp, close shape, clean knots, and an identical magnetic closure; the rep's hidden hardware is slightly yellower and lighter, its inner suede pile is marginally lower, and the hardware-letter spacing is slightly wider.",
+    "positive_observations": [
+      "The post documents a direct in-person/authentic-reference comparison across leather, color, stamp, logo, suede, stitching, shape, knots, hardware, and closure.",
+      "It preserves the exact Mini-versus-Medium size mismatch and the source-reported seller while excluding contact and payment data."
+    ],
+    "negative_observations": [
+      "The rep is a Mini and the authentic reference is a Medium, so size-sensitive shape and hardware conclusions are not an exact same-variant match; the factory is undisclosed and the rep hardware is reported as yellower, lighter, and slightly wider-spaced in lettering."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-puzzle-1pwou38",
+    "title": "Hyper Peter - Loewe Medium Puzzle Fold Tote (Black)",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1pwou38/hyper_peter_loewe_medium_puzzle_fold_tote_black/",
+    "subreddit": "RealRepLadies",
+    "author": "M01stCucumber",
+    "publication_date": "2025-12-27",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "shipping_timeline": "Paid 2025-12-08; tracking 2025-12-18; arrived 2025-12-23, as reported.",
+    "price": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Black Loewe Medium Puzzle Fold Tote from Hyper Peter; factory is not stated. Payment, contact, and external catalog details are excluded.",
+    "paraphrase": "A received black Medium Puzzle Fold Tote is described as having durable-feeling construction, clean stitching, soft suede, and a pleasant leather smell; the reviewer says the form looks close to the authentic reference but notes that folded suede shows at the fold, the soft suede base bulges without support, and a larger laptop protrudes.",
+    "positive_observations": [
+      "The post identifies the Medium Puzzle Fold Tote in black and records a delivered result with a source-reported seller.",
+      "It preserves concrete observations about stitching, durability, leather smell, suede, fold appearance, laptop fit, and unsupported-base behavior."
+    ],
+    "negative_observations": [
+      "The reviewer did not obtain PSPs and has not recently handled the authentic bag in store, so the accuracy comparison is limited; the factory is undisclosed and the soft base can bulge without a support insert."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-puzzle-1rk196s",
+    "title": "👜 Loewe Small Puzzle (Featherlight) & 🧣 Burberry Reversible Cashmere Scarf (EKD)",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1rk196s/loewe_small_puzzle_featherlight_burberry/",
+    "subreddit": "RealRepLadies",
+    "author": "OkBison1776",
+    "publication_date": "2026-03-03",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-jipin"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Loewe Small Puzzle Featherlight attributed by the source to Jipin and Sophia; color and material are not stated. The separate Burberry scarf is excluded, and payment details are excluded.",
+    "paraphrase": "A received Small Puzzle Featherlight attributed to Jipin is described as having good shape and panel geometry, clean stitching, correct-looking hardware tone and logo placement, and good everyday wearability; the reviewer is uncertain whether the leather matches authentic buttery liquid nappa and notes softer panel edges and less-crisp engraving.",
+    "positive_observations": [
+      "The post identifies the Small Puzzle Featherlight, Jipin attribution, and separate shape, panel, stitching, hardware, and logo observations.",
+      "It isolates the Puzzle review from the unrelated Burberry scarf and preserves uncertainty about the leather without inventing an authentic in-hand comparison."
+    ],
+    "negative_observations": [
+      "The reviewer has not held the authentic Puzzle in hand, and the source notes softer panel edges and engraving that could be crisper; seller Sophia is not normalized."
+    ]
   }
 ]
