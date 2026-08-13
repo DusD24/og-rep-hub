@@ -15740,5 +15740,162 @@
     "negative_observations": [
       "The post reports no specific defect or authentic comparison and is an individual first-impression account; its seller-service praise is not used as product evidence."
     ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1qa0ii3",
+    "title": "Quick question! - Nano Speedy",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qa0ii3/quick_question_nano_speedy/",
+    "subreddit": "RepTherapy",
+    "author": "JunK2022",
+    "publication_date": "2026-01-11",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC post for a Nano Speedy attributed in the source to GF compares the side shape with authentic photos and says the rep looks noticeably different, asking whether the difference could be normal variation among authentic examples.",
+    "positive_observations": [
+      "The post identifies the Nano Speedy and isolates side-profile shape as a specific PSP-to-authentic comparison subject.",
+      "The source's GF abbreviation is left unattributed because it is ambiguous in this catalog."
+    ],
+    "negative_observations": [
+      "The author reports a noticeable side-shape difference from the authentic reference, but the capture contains no answer or in-hand follow-up."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1st6rxc",
+    "title": "Soft Pink, Hard Consequences",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1st6rxc/soft_pink_hard_consequences/",
+    "subreddit": "RealRepLadies",
+    "author": "Upset-Law3802",
+    "publication_date": "2026-04-23",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The author reports receiving the Small Lady Dior on March 28; payment details are excluded.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a Small Lady Dior in Rouge Powder attributed by the source to WS reports plush Cannage stitching and heavy gold hardware after receipt; the post is humorous and does not provide a detailed construction inspection.",
+    "positive_observations": [
+      "The review identifies the Small Lady Dior colorway and records two product-specific in-hand observations: plush Cannage stitching and substantial gold hardware.",
+      "The source-reported WS label is left unattributed because no matching public factory entity is established in this catalog."
+    ],
+    "negative_observations": [
+      "The capture offers no specific construction defect, authentic side-by-side comparison, or wear follow-up; its overall rating is a personal impression in a humorous review."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1tmx75w",
+    "title": "Lady Dior Small 20cm Review My First Rep and Still a Favorite",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1tmx75w/lady_dior_small_20cm_review_my_first_rep_and/",
+    "subreddit": "RealRepLadies",
+    "author": "Ok-Can1103",
+    "publication_date": "2026-05-25",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A review of a received 20cm Small Lady Dior reports soft leather, clean stitching, and pleasantly weighted hardware, describing the bag as a strong first rep even though the source does not identify a factory or precise color.",
+    "positive_observations": [
+      "The post identifies the 20cm Small Lady Dior and records separate leather, stitching, and hardware-weight observations after receipt."
+    ],
+    "negative_observations": [
+      "The source gives no detailed authentic comparison, wear follow-up, color, factory, or construction defect; seller/contact/payment details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-balenciaga-rodeo-1pkdcp8",
+    "title": "O B S E S S E D with this mini-haul from TS Mike 🤩 Balenciaga & LV",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1pkdcp8/o_b_s_e_s_s_e_d_with_this_minihaul_from_ts_mike/",
+    "subreddit": "RepTherapy",
+    "author": "Hold_The_Tomato",
+    "publication_date": "2025-12-12",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The Mini Rodeo was purchased November 25, PSPs were received November 27, and the order arrived December 11; payment and contact details are excluded.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-balenciaga-rodeo"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mike"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "The Balenciaga portion of a mixed-haul review covers a received red Mini Rodeo with gold hardware: the author says it is petite but spacious for daily essentials, can be carried crossbody or by the top handle, has a long crossbody strap that may need shortening, and includes two small rear pockets; the unrelated Le City and LV pochette are excluded.",
+    "positive_observations": [
+      "The review identifies a red Mini Rodeo with gold hardware and records capacity, carry modes, strap length, and rear-pocket utility after receipt.",
+      "The seller is mapped to the existing Mike entity without importing contact or payment details."
+    ],
+    "negative_observations": [
+      "The crossbody strap is described as unusually long for the author's preferred wear, and the post does not disclose a factory or provide an authentic comparison."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-the-row-margaux-1qycezj",
+    "title": "[Review][Kendall Factory] - Margaux 15 Saddle leather Black",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1qycezj/reviewkendall_factory_margaux_15_saddle_leather/",
+    "subreddit": "RealRepLadies",
+    "author": "Wild-Grand-4483",
+    "publication_date": "2026-02-07",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The author reports first contact June 3, PSPs June 6, and delivery June 7; payment and contact details are excluded.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-the-row-margaux"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-kendall",
+      "factory-masoni"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A detailed in-hand review of a black saddle-leather Margaux 15 from Baobao, attributed to Kendall and source-described as Masoni leather, compares it with authentic saddle leather and a Kata Margaux 17: the Kendall leather is described as buttery, smooth, slightly springy, and close to authentic, with clean stitching, accurate gold tone, secure feet, correctly differing strap lengths at the second hole, and a more luxurious canvas-and-leather interior; the buckle feels slightly light.",
+    "positive_observations": [
+      "The author records exact size, color, saddle-leather material, seller, Kendall attribution, and a direct authentic touchpoint, then separates leather, stitching, hardware, strap, feet, and interior observations.",
+      "The source-reported Kendall/Masoni relationship is preserved as attribution rather than treated as a general factory conclusion."
+    ],
+    "negative_observations": [
+      "The buckle feels somewhat light to the author, who has not handled enough authentic buckles to establish whether that is abnormal.",
+      "The assessment is one owner's comparison and does not establish that Kendall is universally superior; private seller claims and payment/contact details are excluded."
+    ]
   }
 ]
