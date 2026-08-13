@@ -22,16 +22,18 @@ explicitly rejected never resurfaces as a candidate.
 from __future__ import annotations
 
 import argparse
+import base64
 import json
 import os
 import re
+import sys
 import time
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
-from urllib.parse import parse_qs, quote, urlencode, urlparse
+from urllib.parse import parse_qs, quote, urlencode, urlparse, urlunparse
 from urllib.request import Request, urlopen
 
 from ledger import empty_ledger, is_settled, load_ledger, save_ledger, set_watermark, watermark
@@ -73,10 +75,13 @@ SECRET_PATTERN = re.compile(
 )
 KNOWN_BAG_TERMS = (
     "Neverfull", "Speedy", "Alma", "Classic Flap", "Chanel 25", "Chanel 19",
-    "Andiamo", "Puzzle", "Flamenco", "Margaux", "Birkin", "Kelly", "Lady Dior",
-    "Book Tote", "Saint Louis", "Arcadie", "Saddle", "Dionysus", "Jackie",
-    "Prada", "Miu Miu", "Loewe", "Chanel", "Louis Vuitton", "Dior", "Hermes",
-    "Bottega", "Goyard", "YSL", "Saint Laurent", "Balenciaga", "Le City",
+    "Chanel 26S", "Shopping Tote", "Andiamo", "Puzzle", "Flamenco", "Margaux",
+    "Birkin", "Kelly", "Lady Dior", "Book Tote", "Saint Louis", "Arcadie",
+    "Saddle", "Dionysus", "Jackie", "Prada", "Miu Miu", "Loewe", "Chanel",
+    "Louis Vuitton", "Dior", "Hermes", "Bottega", "Goyard", "YSL",
+    "Saint Laurent", "Balenciaga", "Le City", "Pochette Accessories",
+    "Side Trunk", "Barbara", "Mini Loop", "Luggage Tote", "Celine Soft",
+    "Ferragamo Hug", "Neo Garden", "Le Click", "Marcie", "Marlo",
 )
 KNOWN_FACTORY_TERMS = (
     "Birdcage", "Huahui", "Orange Sofa", "Royal", "187", "God", "P9", "Xiao C",
@@ -665,7 +670,29 @@ def candidate_from_post(post: dict[str, Any], subreddit: str, captured_at: str) 
 
 
 class RedditClient:
-    """Small stdlib-only client for public Reddit endpoints."""
+    """Small stdlib-only client for public Reddit endpoints.
+
+    Anonymous www.reddit.com JSON is the most aggressively throttled way to read
+    Reddit, which is what pushes a long sweep down into the HTML and billable
+    Firecrawl tiers. When REDDIT_CLIENT_ID is present the client authenticates as
+    a registered app and reads oauth.reddit.com instead, which is both sanctioned
+    and far higher throughput. Credentials are optional: with none set the client
+    behaves exactly as it did before.
+
+    Reddit issues app-only tokens under two different grants, and which one applies
+    is decided by the app type rather than by preference:
+
+      script / web app  (confidential, has a secret) -> client_credentials
+      installed app     (public, no secret)          -> installed_client + device_id
+
+    Supporting both matters because Reddit now gates new app registration, so an
+    older installed app may be the only client available to a given account.
+    """
+
+    TOKEN_URL = "https://www.reddit.com/api/v1/access_token"
+    OAUTH_HOST = "oauth.reddit.com"
+    PUBLIC_HOSTS = frozenset({"www.reddit.com", "reddit.com"})
+    INSTALLED_CLIENT_GRANT = "https://oauth.reddit.com/grants/installed_client"
 
     def __init__(
         self,
@@ -674,12 +701,98 @@ class RedditClient:
         retries: int = 3,
         delay: float = 1.5,
         user_agent: str = "OG-Rep-Hub-Research/1.0 (public-source catalog)",
+        client_id: str | None = None,
+        client_secret: str | None = None,
+        device_id: str | None = None,
     ) -> None:
         self.timeout = timeout
         self.retries = max(1, retries)
         self.delay = max(0.0, delay)
         self.user_agent = user_agent
+        self.client_id = (client_id if client_id is not None else os.environ.get("REDDIT_CLIENT_ID", "")).strip()
+        self.client_secret = (
+            client_secret if client_secret is not None else os.environ.get("REDDIT_CLIENT_SECRET", "")
+        ).strip()
+        # Reddit requires a 20-30 char device id for the installed-app grant and
+        # documents this literal as the opt-out value, which is what a research
+        # crawler wants: no per-device profile is needed or desired.
+        self.device_id = (
+            device_id if device_id is not None else os.environ.get("REDDIT_DEVICE_ID", "")
+        ).strip() or "DO_NOT_TRACK_THIS_DEVICE"
         self._last_request_at = 0.0
+        self._token: str | None = None
+        self._token_expires_at = 0.0
+
+    @property
+    def authenticated(self) -> bool:
+        # An installed app authenticates with an id alone, so a secret is not required.
+        return bool(self.client_id)
+
+    @property
+    def grant_type(self) -> str | None:
+        if not self.authenticated:
+            return None
+        return "client_credentials" if self.client_secret else "installed_client"
+
+    def _access_token(self) -> str | None:
+        """Return a cached app-only bearer token, fetching one when needed.
+
+        A failure here is not fatal: the caller falls back to the anonymous
+        endpoint, so a bad key degrades throughput rather than stopping a crawl.
+        """
+        if not self.authenticated:
+            return None
+        if self._token and time.monotonic() < self._token_expires_at:
+            return self._token
+        if self.client_secret:
+            grant: dict[str, str] = {"grant_type": "client_credentials"}
+        else:
+            grant = {"grant_type": self.INSTALLED_CLIENT_GRANT, "device_id": self.device_id}
+        # An installed app authenticates as "<client_id>:" -- id with an empty password.
+        basic = base64.b64encode(f"{self.client_id}:{self.client_secret}".encode()).decode()
+        request = Request(
+            self.TOKEN_URL,
+            data=urlencode(grant).encode(),
+            headers={
+                "Authorization": f"Basic {basic}",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "User-Agent": self.user_agent,
+            },
+        )
+        try:
+            with urlopen(request, timeout=self.timeout) as response:
+                payload = json.loads(response.read().decode("utf-8", errors="replace"))
+        except (HTTPError, URLError, ValueError):
+            self._token = None
+            # Do not retry the token endpoint on every request while it is failing.
+            self._token_expires_at = time.monotonic() + 60.0
+            return None
+        token = payload.get("access_token") if isinstance(payload, dict) else None
+        if not token:
+            self._token = None
+            self._token_expires_at = time.monotonic() + 60.0
+            return None
+        try:
+            expires_in = float(payload.get("expires_in") or 3600)
+        except (TypeError, ValueError):
+            expires_in = 3600.0
+        self._token = str(token)
+        # Refresh a minute early so a token never expires mid-page-loop.
+        self._token_expires_at = time.monotonic() + max(60.0, expires_in - 60.0)
+        return self._token
+
+    def _authorized_url(self, url: str) -> str:
+        """Point a public reddit.com URL at the OAuth host.
+
+        Only www.reddit.com/reddit.com are swapped. old.reddit.com is left alone
+        because the HTML fallback tier depends on it and oauth.reddit.com serves
+        JSON only. The URL builders keep emitting canonical public URLs so that
+        candidate ids, ledger keys, and evidence URLs are unaffected by auth.
+        """
+        parsed = urlparse(url)
+        if parsed.netloc.casefold() not in self.PUBLIC_HOSTS:
+            return url
+        return urlunparse(parsed._replace(netloc=self.OAUTH_HOST))
 
     def _get(self, url: str, accept: str) -> bytes:
         last_error: Exception | None = None
@@ -689,12 +802,25 @@ class RedditClient:
                 if remaining > 0:
                     time.sleep(remaining)
             self._last_request_at = time.monotonic()
-            request = Request(url, headers={"Accept": accept, "User-Agent": self.user_agent})
+            headers = {"Accept": accept, "User-Agent": self.user_agent}
+            target = url
+            token = self._access_token()
+            if token:
+                target = self._authorized_url(url)
+                if target != url:
+                    headers["Authorization"] = f"Bearer {token}"
+            request = Request(target, headers=headers)
             try:
                 with urlopen(request, timeout=self.timeout) as response:
                     return response.read()
             except HTTPError as error:
                 last_error = error
+                if error.code in {401, 403} and "Authorization" in headers:
+                    # Token rejected or revoked mid-run: drop it and let the next
+                    # attempt re-mint one, falling back to anonymous if that fails.
+                    self._token = None
+                    self._token_expires_at = 0.0
+                    continue
                 if error.code not in {429, 500, 502, 503, 504}:
                     raise
             except URLError as error:
@@ -1055,6 +1181,16 @@ class RedditScraper:
     def _within_budget(self) -> bool:
         return self.deadline is None or time.monotonic() < self.deadline
 
+    @staticmethod
+    def _progress(message: str) -> None:
+        """Live status to stderr. stdout carries only the final JSON summary,
+        so this is safe to print freely without breaking that contract.
+
+        Local time, unlike the UTC used for captured data: this line exists to be
+        read against a wall clock by whoever is watching the run.
+        """
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] {message}", file=sys.stderr, flush=True)
+
     def _html_fallback(self, url: str, method: str) -> tuple[bool, Any, str | None]:
         """Use old Reddit HTML when modern JSON is blocked by the public endpoint."""
         if not hasattr(self.client, "get_text"):
@@ -1329,9 +1465,29 @@ class RedditScraper:
             return discovered
 
         queries = list(dict.fromkeys(self.ad_hoc_queries or self.registry.get("search_terms", [])))
-        for query in queries:
-            after = None
-            for _page in range(self.max_pages):
+        # Breadth before depth: page 1 of every term, then page 2 of every term, and so
+        # on -- rather than draining one term to its last page before starting the next.
+        #
+        # The per-subreddit post budget is finite and spent in the order requests are
+        # made, so a depth-first pass lets a handful of high-volume terms consume it
+        # entirely and the remaining terms never issue a single request. Reordering the
+        # term list only moves which ones get starved. Since Reddit sorts search results
+        # by relevance, page 1 of a term is also its best page, so this spends the budget
+        # on the strongest results for every term before any term's weaker pages.
+        cursors: dict[str, str | None] = {query: None for query in queries}
+        exhausted: set[str] = set()
+        for page_index in range(self.max_pages):
+            if (
+                not self._within_budget()
+                or summary["post_count"] >= self.max_posts
+                or source_post_count >= post_limit
+                or summary["consecutive_failure_count"] >= 3
+                or len(exhausted) >= len(queries)
+            ):
+                break
+            for query_index, query in enumerate(queries, start=1):
+                if query in exhausted:
+                    continue
                 if (
                     not self._within_budget()
                     or summary["post_count"] >= self.max_posts
@@ -1339,10 +1495,15 @@ class RedditScraper:
                     or summary["consecutive_failure_count"] >= 3
                 ):
                     break
-                endpoint = search_url(subreddit, query, after)
+                self._progress(
+                    f"r/{subreddit}: page {page_index + 1}/{self.max_pages} "
+                    f"query {query_index}/{len(queries)} \"{query}\""
+                )
+                endpoint = search_url(subreddit, query, cursors[query])
                 payload = self._fetch(endpoint, "json", summary)
                 if not isinstance(payload, dict):
-                    break
+                    exhausted.add(query)
+                    continue
                 listing = payload.get("data", {})
                 children = listing.get("children", []) if isinstance(listing, dict) else []
                 summary["query_counts"].setdefault(f"r/{subreddit}:{query}", 0)
@@ -1360,25 +1521,27 @@ class RedditScraper:
                             subreddit,
                             post,
                             summary,
-                            include_comments=bool(
-                                source.get(
-                                    "include_comments",
-                                    self.registry.get("include_comments_by_default", True),
-                                )
-                            ),
+                            include_comments=include_comments,
                         )
                         if captured:
                             source_post_count += 1
                         summary["query_counts"][f"r/{subreddit}:{query}"] += 1
                 after = listing.get("after") if isinstance(listing, dict) else None
                 if not after or not children:
-                    break
+                    exhausted.add(query)
+                else:
+                    cursors[query] = after
         summary["source_post_counts"][f"r/{subreddit}"] = source_post_count
         return discovered
 
     def run(self) -> dict[str, Any]:
         run_started_monotonic = time.monotonic()
         started_at = self._timestamp()
+        self._progress(
+            f"auth: OAuth app-only via {getattr(self.client, 'grant_type', 'unknown')} (oauth.reddit.com)"
+            if getattr(self.client, "authenticated", False)
+            else "auth: anonymous public JSON -- set REDDIT_CLIENT_ID for higher limits"
+        )
         self.store.manifest.setdefault("started_at", started_at)
         self.store.manifest["updated_at"] = started_at
         self.store.save_manifest()
@@ -1415,7 +1578,13 @@ class RedditScraper:
                 continue
             summary["sources_requested"] += 1
             summary["subreddits_checked"].append(subreddit)
+            self._progress(f"r/{subreddit}: starting ({self.mode} mode)")
             discovered = self._source(source, summary, self.source_post_limit)
+            self._progress(
+                f"r/{subreddit}: done, "
+                f"{summary['source_post_counts'].get(f'r/{subreddit}', 0)} posts captured this source "
+                f"({summary['post_count']} total, {summary['new_candidate_count']} new candidates)"
+            )
             for name in discovered:
                 if (
                     name.casefold() in {item.casefold() for item in summary["known_subreddits"]}
@@ -1434,6 +1603,7 @@ class RedditScraper:
             for name in summary["subreddits_checked"]:
                 set_watermark(self.ledger, name, watermark(self.ledger, name), full_sweep=True)
         summary["mode"] = self.mode
+        summary["auth_mode"] = getattr(self.client, "grant_type", None) or "anonymous"
         summary["finished_at"] = self._timestamp()
         summary["capture_count"] = len(self.store.capture_keys)
         summary["candidate_count"] = len(self.store.candidates)

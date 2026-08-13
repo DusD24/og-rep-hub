@@ -180,13 +180,45 @@ class TriageRunTests(unittest.TestCase):
         self.assertEqual(digest["entries"][0]["candidate_id"], "candidate-RepTherapy-thin1")
 
     def test_below_floor_candidates_are_rejected_in_the_ledger(self):
-        noise = candidate("noise1", title="Anyone awake?", excerpt="Just saying hi.", lane="discussion", flair="")
+        # Anchored (names Neverfull) but thin: rejection here is a judgment about the
+        # post, which is the only case that is allowed to be terminal.
+        noise = candidate("noise1", title="Neverfull", excerpt="Got one.", lane="discussion", flair="")
         ledger = empty_ledger()
         digest = triage([noise], ledger, limit=25, floor=30, excerpt_chars=400)
         self.assertEqual(digest["counts"]["auto_rejected"], 1)
         self.assertEqual(digest["entries"], [])
         self.assertTrue(is_settled(ledger, "t3_noise1"))
         self.assertEqual(ledger["seen"]["t3_noise1"]["disposition"], "rejected")
+        self.assertIn("below floor", ledger["seen"]["t3_noise1"]["reason"])
+
+    def test_uncatalogued_collection_is_deferred_not_rejected(self):
+        # A bag the catalog has never seen. Rejecting this terminally would discard the
+        # only signal for what to catalogue next.
+        unknown = candidate(
+            "newbag1",
+            title="Prada Galleria review in hand",
+            excerpt="Saffiano leather is crisp and the hardware has held up over three months of daily use. "
+            "Stitching is even throughout and the lining shows no wear worth reporting.",
+        )
+        ledger = empty_ledger()
+        digest = triage([unknown], ledger, limit=25, floor=30, excerpt_chars=400)
+        self.assertEqual(digest["counts"]["auto_rejected"], 0)
+        self.assertEqual(digest["counts"]["awaiting_catalog"], 1)
+        self.assertEqual(ledger["seen"]["t3_newbag1"]["disposition"], "deferred")
+        self.assertIn("catalog", ledger["seen"]["t3_newbag1"]["reason"])
+        # Eligible again once the collection exists.
+        self.assertFalse(is_settled(ledger, "t3_newbag1"))
+
+    def test_unanchored_defers_even_when_it_also_scores_below_the_floor(self):
+        # Naming a catalogued collection is worth 30 of 100 points, so an unanchored
+        # post is penalised for the very thing under test. Its low score must not be
+        # read as an independent quality judgment and made terminal.
+        thin_unknown = candidate("newbag2", title="Prada Galleria", excerpt="Got one.", lane="discussion", flair="")
+        ledger = empty_ledger()
+        digest = triage([thin_unknown], ledger, limit=25, floor=30, excerpt_chars=400)
+        self.assertEqual(digest["counts"]["auto_rejected"], 0)
+        self.assertEqual(digest["counts"]["awaiting_catalog"], 1)
+        self.assertFalse(is_settled(ledger, "t3_newbag2"))
 
     def test_overflow_is_deferred_not_rejected(self):
         rows = [candidate(f"q{index:03d}") for index in range(30)]

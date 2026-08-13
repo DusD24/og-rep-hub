@@ -15,6 +15,11 @@ Two outputs:
 
 Candidates scoring below the floor are written back to the ledger as `rejected`
 and are never presented again.
+
+A candidate that references no catalogued collection is instead written back as
+`deferred`. That is a fact about the catalog rather than about the post, and it stops
+being true the moment the collection is added -- so it stays eligible, and
+detect_new_collections.py reads exactly these posts to decide what to catalogue next.
 """
 
 from __future__ import annotations
@@ -373,6 +378,7 @@ def triage(
 
     reviewed: list[tuple[dict[str, Any], dict[str, Any]]] = []
     rejected: list[tuple[dict[str, Any], dict[str, Any]]] = []
+    unanchored: list[tuple[dict[str, Any], dict[str, Any]]] = []
     settled = 0
     for candidate in candidates:
         thing_id = reddit_thing_id(candidate.get("url")) or f"t3_{candidate.get('source_id', '').split(':')[-1]}"
@@ -380,7 +386,17 @@ def triage(
             settled += 1
             continue
         scored = score_candidate(candidate, vocabulary, gap_index, known_authors, bag_to_family)
-        if scored["score"] < floor or not scored["has_collection_anchor"]:
+        # Anchoring is checked before the floor, and the two get different
+        # dispositions, because they are different kinds of statement. A score below
+        # the floor judges the post. A missing anchor judges the *catalog* -- the post
+        # names a bag data/ has never heard of -- and that is a condition which
+        # changes as collections are added. Scoring makes the distinction sharper
+        # still: naming a catalogued collection is worth 30 of 100 points, so an
+        # unanchored post is docked for the very thing being tested and its low score
+        # is not independent evidence of low quality.
+        if not scored["has_collection_anchor"]:
+            unanchored.append((candidate, scored))
+        elif scored["score"] < floor:
             rejected.append((candidate, scored))
         else:
             reviewed.append((candidate, scored))
@@ -413,11 +429,19 @@ def triage(
             reddit_thing_id(candidate.get("url")),
             "rejected",
             subreddit=str(candidate.get("subreddit") or ""),
-            reason=(
-                "no catalogued collection referenced"
-                if not scored["has_collection_anchor"]
-                else f"triage score {scored['score']} below floor {floor}"
-            ),
+            reason=f"triage score {scored['score']} below floor {floor}",
+        )
+    # Deferred, never rejected: cataloguing the collection this post names is exactly
+    # what makes it reviewable, and detect_new_collections.py reads these posts to
+    # decide what to catalogue next. Rejecting them terminally would let the pipeline
+    # discard its own roadmap -- and permanently, since a rejection never resurfaces.
+    for candidate, _ in unanchored:
+        record(
+            ledger,
+            reddit_thing_id(candidate.get("url")),
+            "deferred",
+            subreddit=str(candidate.get("subreddit") or ""),
+            reason="no catalogued collection referenced; revisit as the catalog grows",
         )
     for candidate, scored in deferred:
         record(
@@ -442,6 +466,7 @@ def triage(
             "candidates_in": len(candidates),
             "already_settled": settled,
             "auto_rejected": len(rejected),
+            "awaiting_catalog": len(unanchored),
             "deferred": len(deferred),
             "shortlisted": len(shortlist),
         },

@@ -1,8 +1,12 @@
+import base64
 import json
 import sys
 import tempfile
 import unittest
+import unittest.mock
 from pathlib import Path
+from urllib.error import HTTPError
+from urllib.parse import parse_qs, quote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -22,6 +26,8 @@ from scrape_reddit import (  # noqa: E402
     parse_old_comments_html,
     parse_old_listing_html,
     parse_old_search_html,
+    public_post_url,
+    RedditClient,
     RedditScraper,
     RunStore,
     sanitize_text,
@@ -196,6 +202,178 @@ class ScraperContractTests(unittest.TestCase):
         self.assertTrue(candidate["redaction_flags"]["private_message_present"])
 
 
+class FakeResponse:
+    def __init__(self, body: bytes):
+        self._body = body
+
+    def read(self):
+        return self._body
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *exc):
+        return False
+
+
+class RecordingUrlopen:
+    """Stand in for urlopen, recording every Request the client builds."""
+
+    def __init__(self, *, token_body=None, data_body=b'{"ok":true}', token_error=None):
+        self.token_body = token_body if token_body is not None else {
+            "access_token": "tok-1",
+            "expires_in": 3600,
+        }
+        self.data_body = data_body
+        self.token_error = token_error
+        self.requests = []
+
+    def __call__(self, request, timeout=None):
+        self.requests.append(request)
+        if request.full_url == RedditClient.TOKEN_URL:
+            if self.token_error is not None:
+                raise self.token_error
+            return FakeResponse(json.dumps(self.token_body).encode())
+        return FakeResponse(self.data_body)
+
+    @property
+    def data_requests(self):
+        return [r for r in self.requests if r.full_url != RedditClient.TOKEN_URL]
+
+    @property
+    def token_requests(self):
+        return [r for r in self.requests if r.full_url == RedditClient.TOKEN_URL]
+
+
+class OAuthClientTests(unittest.TestCase):
+    """The OAuth tier must raise throughput without changing any canonical URL.
+
+    Candidate ids, ledger keys, and committed evidence URLs are all derived from
+    the public www.reddit.com form, so authentication has to be invisible to them.
+    """
+
+    def _client(self, **kwargs):
+        kwargs.setdefault("client_id", "id-1")
+        kwargs.setdefault("client_secret", "secret-1")
+        return RedditClient(delay=0, **kwargs)
+
+    def test_without_credentials_requests_stay_anonymous_and_public(self):
+        client = RedditClient(delay=0, client_id="", client_secret="")
+        fake = RecordingUrlopen()
+        with unittest.mock.patch("scrape_reddit.urlopen", fake):
+            client.get_json(search_url("RepTherapy", "review"))
+        self.assertFalse(client.authenticated)
+        self.assertEqual(fake.token_requests, [])
+        request = fake.data_requests[0]
+        self.assertIn("www.reddit.com", request.full_url)
+        self.assertIsNone(request.get_header("Authorization"))
+
+    def test_credentials_mint_a_token_and_read_the_oauth_host(self):
+        client = self._client()
+        fake = RecordingUrlopen()
+        with unittest.mock.patch("scrape_reddit.urlopen", fake):
+            client.get_json(search_url("RepTherapy", "review"))
+        self.assertTrue(client.authenticated)
+        self.assertEqual(len(fake.token_requests), 1)
+        request = fake.data_requests[0]
+        self.assertIn("oauth.reddit.com", request.full_url)
+        self.assertNotIn("www.reddit.com", request.full_url)
+        self.assertEqual(request.get_header("Authorization"), "Bearer tok-1")
+
+    def test_query_and_pagination_survive_the_host_swap(self):
+        client = self._client()
+        fake = RecordingUrlopen()
+        url = search_url("RepTherapy", "Chanel 26S", after="t3_abc")
+        with unittest.mock.patch("scrape_reddit.urlopen", fake):
+            client.get_json(url)
+        swapped = fake.data_requests[0].full_url
+        self.assertIn("q=Chanel%2026S", swapped)
+        self.assertIn("after=t3_abc", swapped)
+        self.assertIn("t=all", swapped)
+        # Everything but the host is untouched.
+        self.assertEqual(swapped.replace("oauth.reddit.com", "www.reddit.com"), url)
+
+    def test_old_reddit_html_fallback_is_never_swapped(self):
+        client = self._client()
+        fake = RecordingUrlopen(data_body=b"<html></html>")
+        with unittest.mock.patch("scrape_reddit.urlopen", fake):
+            client.get_text("https://old.reddit.com/r/RepTherapy/new/")
+        request = fake.data_requests[0]
+        self.assertIn("old.reddit.com", request.full_url)
+        self.assertIsNone(request.get_header("Authorization"))
+
+    def test_token_is_cached_across_requests(self):
+        client = self._client()
+        fake = RecordingUrlopen()
+        with unittest.mock.patch("scrape_reddit.urlopen", fake):
+            for _ in range(3):
+                client.get_json(search_url("RepTherapy", "review"))
+        self.assertEqual(len(fake.token_requests), 1)
+        self.assertEqual(len(fake.data_requests), 3)
+
+    def test_token_failure_degrades_to_anonymous_instead_of_raising(self):
+        client = self._client()
+        fake = RecordingUrlopen(
+            token_error=HTTPError("url", 401, "Unauthorized", {}, None)
+        )
+        with unittest.mock.patch("scrape_reddit.urlopen", fake):
+            payload = client.get_json(search_url("RepTherapy", "review"))
+        self.assertEqual(payload, {"ok": True})
+        request = fake.data_requests[0]
+        self.assertIn("www.reddit.com", request.full_url)
+        self.assertIsNone(request.get_header("Authorization"))
+
+    def test_script_app_uses_the_client_credentials_grant(self):
+        client = self._client()
+        fake = RecordingUrlopen()
+        with unittest.mock.patch("scrape_reddit.urlopen", fake):
+            client.get_json(search_url("RepTherapy", "review"))
+        self.assertEqual(client.grant_type, "client_credentials")
+        body = fake.token_requests[0].data.decode()
+        self.assertIn("grant_type=client_credentials", body)
+        self.assertNotIn("device_id", body)
+
+    def test_installed_app_without_secret_uses_the_installed_client_grant(self):
+        client = RedditClient(delay=0, client_id="id-only", client_secret="")
+        fake = RecordingUrlopen()
+        with unittest.mock.patch("scrape_reddit.urlopen", fake):
+            client.get_json(search_url("RepTherapy", "review"))
+        self.assertTrue(client.authenticated)
+        self.assertEqual(client.grant_type, "installed_client")
+        body = fake.token_requests[0].data.decode()
+        self.assertIn(quote(RedditClient.INSTALLED_CLIENT_GRANT, safe=""), body)
+        self.assertIn("device_id=DO_NOT_TRACK_THIS_DEVICE", body)
+        # Still reaches the OAuth host with a bearer token, exactly like a script app.
+        request = fake.data_requests[0]
+        self.assertIn("oauth.reddit.com", request.full_url)
+        self.assertEqual(request.get_header("Authorization"), "Bearer tok-1")
+
+    def test_installed_app_sends_id_with_an_empty_password(self):
+        client = RedditClient(delay=0, client_id="id-only", client_secret="")
+        fake = RecordingUrlopen()
+        with unittest.mock.patch("scrape_reddit.urlopen", fake):
+            client.get_json(search_url("RepTherapy", "review"))
+        header = fake.token_requests[0].get_header("Authorization")
+        decoded = base64.b64decode(header.removeprefix("Basic ")).decode()
+        self.assertEqual(decoded, "id-only:")
+
+    def test_device_id_is_overridable(self):
+        client = RedditClient(delay=0, client_id="id-only", client_secret="", device_id="fixed-device-id-123456")
+        fake = RecordingUrlopen()
+        with unittest.mock.patch("scrape_reddit.urlopen", fake):
+            client.get_json(search_url("RepTherapy", "review"))
+        self.assertIn("device_id=fixed-device-id-123456", fake.token_requests[0].data.decode())
+
+    def test_no_credentials_reports_no_grant(self):
+        client = RedditClient(delay=0, client_id="", client_secret="")
+        self.assertIsNone(client.grant_type)
+
+    def test_canonical_post_url_is_unaffected_by_authentication(self):
+        post = {"id": "abc123", "permalink": "/r/RepTherapy/comments/abc123/title/"}
+        self.assertIn("www.reddit.com", public_post_url("RepTherapy", post))
+        self.assertNotIn("oauth", public_post_url("RepTherapy", post))
+
+
 class FakeClient:
     def __init__(self, fail_urls=None, posts=None):
         self.fail_urls = set(fail_urls or ())
@@ -217,6 +395,44 @@ class FakeClient:
         if "search.json" in url:
             return {"data": {"children": [{"kind": "t3", "data": post} for post in self.posts], "after": None}}
         return {"data": {}}
+
+
+class PagedSearchClient(FakeClient):
+    """Every search term has unlimited pages, so depth-first would never move on."""
+
+    def __init__(self, per_page=5):
+        super().__init__()
+        self.per_page = per_page
+        self._serial = 0
+
+    def get_json(self, url):
+        self.calls.append(("json", url))
+        if "/comments/" in url:
+            return [{"kind": "Listing", "data": {"children": []}}]
+        if "search.json" in url:
+            children = []
+            for _ in range(self.per_page):
+                self._serial += 1
+                children.append({
+                    "kind": "t3",
+                    "data": {
+                        "id": f"p{self._serial}",
+                        "title": f"Neverfull review {self._serial}",
+                        "author": f"author{self._serial}",
+                        "created_utc": 1_760_000_000 + self._serial,
+                        "permalink": f"/r/RepTherapy/comments/p{self._serial}/slug/",
+                        "selftext": "Long enough body text to be captured by the scraper fixture.",
+                    },
+                })
+            return {"data": {"children": children, "after": f"t3_cursor{self._serial}"}}
+        return {"data": {}}
+
+    def searched_terms(self):
+        terms = []
+        for method, url in self.calls:
+            if method == "json" and "search.json" in url:
+                terms.append(parse_qs(urlparse(url).query).get("q", [""])[0])
+        return terms
 
 
 class FailFirstSourceClient(FakeClient):
@@ -543,6 +759,89 @@ class CrawlerRunTests(unittest.TestCase):
         self.assertIn("restrict_sr=1", endpoint)
         self.assertIn("after=t3_after", endpoint)
         self.assertIn("receipt%20review", endpoint)
+
+    def _single_source_registry(self, terms):
+        registry = dict(self.registry)
+        registry["search_terms"] = list(terms)
+        registry["sources"] = [self.registry["sources"][0]]
+        # Auto-discovery would add a second subreddit and double every search.
+        registry["max_discovered_subreddits"] = 0
+        return registry
+
+    @staticmethod
+    def _searches(client):
+        """(term, cursor) for each search request, in the order they were made."""
+        rows = []
+        for method, url in client.calls:
+            if method == "json" and "search.json" in url:
+                params = parse_qs(urlparse(url).query)
+                rows.append((params.get("q", [""])[0], params.get("after", [None])[0]))
+        return rows
+
+    def test_a_tight_budget_is_spread_across_terms_not_drained_by_the_first(self):
+        # The regression this guards: depth-first drains one term to its last page before
+        # starting the next, so a finite post budget is spent entirely on the earliest
+        # terms and the rest never issue a single request. With this budget only some
+        # terms are affordable at all -- what matters is that the spend buys one page
+        # each of many terms rather than many pages of one.
+        registry = self._single_source_registry(f"term{index:02d}" for index in range(20))
+        client = PagedSearchClient(per_page=5)
+        RedditScraper(
+            registry,
+            RunStore(self.run_dir),
+            client=client,
+            max_pages=10,
+            max_posts=40,
+        ).run()
+        searches = self._searches(client)
+        terms = [term for term, _ in searches]
+        self.assertGreater(len(terms), 1, "budget bought only a single search")
+        self.assertEqual(len(terms), len(set(terms)), "a term was paged twice before others were tried")
+        self.assertTrue(all(cursor is None for _, cursor in searches), "a second page preceded a first")
+        # Terms are taken in registry order, so ordering the list is a real priority lever.
+        self.assertEqual(terms, registry["search_terms"][: len(terms)])
+
+    def test_ample_budget_reaches_every_term_before_paging_deeper(self):
+        registry = self._single_source_registry(f"term{index:02d}" for index in range(20))
+        client = PagedSearchClient(per_page=5)
+        RedditScraper(
+            registry,
+            RunStore(self.run_dir),
+            client=client,
+            max_pages=3,
+            max_posts=5000,
+        ).run()
+        searches = self._searches(client)
+        terms = [term for term, _ in searches]
+        self.assertEqual(set(terms), set(registry["search_terms"]))
+        # The entire first pass lands before any term's second page.
+        first_pass = searches[: len(registry["search_terms"])]
+        self.assertEqual([term for term, _ in first_pass], registry["search_terms"])
+        self.assertTrue(all(cursor is None for _, cursor in first_pass))
+
+    def test_each_term_paginates_with_its_own_cursor(self):
+        registry = self._single_source_registry(["alpha", "beta"])
+        client = PagedSearchClient(per_page=2)
+        RedditScraper(
+            registry,
+            RunStore(self.run_dir),
+            client=client,
+            max_pages=3,
+            max_posts=5000,
+        ).run()
+        by_term = {}
+        for term, cursor in self._searches(client):
+            by_term.setdefault(term, []).append(cursor)
+        self.assertEqual(set(by_term), {"alpha", "beta"})
+        for term, cursors in by_term.items():
+            self.assertEqual(len(cursors), 3, f"{term} should have paged {3} times")
+            self.assertIsNone(cursors[0], f"{term} should start without a cursor")
+            # Each term keeps its own cursor; none is reused or leaked between terms.
+            self.assertEqual(len(cursors), len(set(cursors)), f"{term} repeated a cursor")
+        self.assertFalse(
+            set(by_term["alpha"]) & {c for c in by_term["beta"] if c is not None},
+            "a cursor leaked between terms",
+        )
 
     def test_matches_scope_requires_include_term_and_rejects_exclude_term(self):
         self.assertTrue(matches_scope("Le City Small in leather", ["leather"], ["suede"]))
