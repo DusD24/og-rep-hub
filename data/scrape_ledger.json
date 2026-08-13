@@ -16144,10 +16144,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qx1gi6": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 84)"
+      "reason": "reviewed and not promoted: bare God Factory Chanel 25 mini PSP request with no concrete discrepancy in the original post; the comments are mostly generic praise, other buyers' observations, and seller/contact requests"
     },
     "t3_1qx1i34": {
       "disposition": "rejected",
@@ -17851,10 +17851,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1r7kg9f": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1r7kg9f"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 58)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1r7ndeu": {
       "disposition": "rejected",
@@ -27115,10 +27118,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1stspmy": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 84)"
+      "reason": "reviewed and not promoted: pre-purchase sourcing and seller-reliability request for a burgundy small Classic Flap with no owned bag or feature-level evidence"
     },
     "t3_1stsqtd": {
       "disposition": "deferred",
@@ -28837,10 +28840,10 @@
       "reason": "reviewed and not promoted: Bare Nano Speedy PSP request includes payment context and asks for general feedback without a product observation; payment data is excluded."
     },
     "t3_1t2xd9e": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 84)"
+      "reason": "reviewed and not promoted: God Factory medium caviar Classic Flap PSP request that asks for general opinions and hypothetical leather-softener advice without identifying a concrete feature discrepancy"
     },
     "t3_1t2zl5i": {
       "disposition": "deferred",
@@ -36289,10 +36292,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u4vgo1": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 58)"
+      "reason": "reviewed and not promoted: received Hyper Peter Nano Speedy post consisting of broad confidence and transaction praise without feature-level construction, material, capacity, wear, or authentic-comparison observations; contact and catalog details are present"
     },
     "t3_1u4wauz": {
       "disposition": "deferred",
@@ -38740,10 +38743,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uexf1q": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1uexf1q"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 84)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1uexoi0": {
       "disposition": "deferred",
@@ -40612,10 +40618,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uo5n9e": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1uo5n9e"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1uo5vi7": {
       "disposition": "deferred",
