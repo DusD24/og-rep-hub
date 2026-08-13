@@ -26911,5 +26911,101 @@
       "The exact Eden variant is not a normalized catalog bag ID, and no color, material, seller, factory, measurements, authentic comparison, or wear duration is stated.",
       "The capture contains no community answer or seller response resolving whether the tight lining is expected."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1r1c74j",
+    "title": "Guess game: can you tell which is faux?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1r1c74j/guess_game_can_you_tell_which_is_faux/",
+    "subreddit": "RealRepLadies",
+    "author": "FauxCollective",
+    "publication_date": "2026-02-10",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "The owner presents three Chanel Classic Flaps and identifies the replica as the Jumbo with silver hardware; two other bags are source-described authentics, including a 1990s vintage bag. Color, material, seller, factory, batch, and controlled measurements are not established. The discussion mentions authentic gold plating and a possible chain-length distinction, while private-message/vendor requests are excluded.",
+    "paraphrase": "An owner who says they have three Chanel Classic Flaps invites readers to identify the replica and later confirms that the Jumbo with silver hardware is the rep. The other two bags are described as authentic, including one from the 1990s. The owner says gold hardware is harder to mimic, and comments discuss chain length on smaller flaps, but the thread does not provide a controlled feature-by-feature measurement or factory attribution.",
+    "positive_observations": [
+      "The thread preserves direct comparison context between a received Classic Flap rep and owner-held authentic bags, with the rep's Jumbo/silver-hardware variant identified.",
+      "It records hardware plating and chain-length as the specific comparison topics rather than treating a guessing-game result as authentication."
+    ],
+    "negative_observations": [
+      "The record is a visual guessing game with no standardized photos, measurements, color/material details, seller, factory, or production batch; the hardware conclusions are subjective and version-dependent.",
+      "Vendor/contact requests and private-message exchanges are excluded, and no long-term wear or construction inspection is documented."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1sdmug1",
+    "title": "Chanel 25 mini chain",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1sdmug1/chanel_25_mini_chain/",
+    "subreddit": "RealRepLadies",
+    "author": "foxyrocketnextdoor",
+    "publication_date": "2026-04-06",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Received baby-pink Chanel 25 Mini attributed by the source to OF; OF is not a normalized public factory entity, and material and seller are not stated. The owner asks whether the horizontal chain that cinches the bag should be small, thin, and light; a commenter says their OF chain looks the same and compares it with a Chanel website image, not an in-person authentic bag.",
+    "paraphrase": "An owner asks whether the horizontal cinching chain on a received baby-pink Chanel 25 Mini should be small, thin, and light. A commenter posts another OF example and says the chain looks the same, then compares it with a Chanel website photograph; the thread does not provide measurements or an in-person authentic inspection.",
+    "positive_observations": [
+      "The post identifies the Chanel 25 Mini, baby-pink color, received-bag stage, and a specific chain construction question.",
+      "The discussion preserves a source-reported OF-to-official-website comparison without converting the abbreviation into a normalized factory or claiming that a web image settles the issue."
+    ],
+    "negative_observations": [
+      "The chain's expected dimensions and weight remain unresolved, no in-person authentic comparison or seller response is captured, and material, seller, and production details are absent.",
+      "OF is left unattributed because it is not a normalized public factory entity."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1n4gzzh",
+    "title": "✨Her First Day out, Took all the Spotlight😏",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1n4gzzh/her_first_day_out_took_all_the_spotlight/",
+    "subreddit": "RepTherapy",
+    "author": "Frosty_Flipper",
+    "publication_date": "2025-08-31",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Received Louis Vuitton Speedy Bandoulière 25 in a source-described burgundy color; seller, factory, material subtype, and production details are not stated. The owner reports structure when stuffed, soft slouch, crossbody/shoulder usability, polished-gold hardware, color shifts toward chocolate in dim light, and side-opening zippers; vendor/contact requests and private-message replies are excluded.",
+    "paraphrase": "After taking a received burgundy Speedy Bandoulière 25 out for lunch, the owner reports that it keeps its silhouette when stuffed while retaining a soft slouch, works crossbody or on the shoulder, and has polished gold hardware. The owner says the burgundy can look chocolate brown in dim indoor light and values the side-opening zippers for wider access; an authentic Speedy 25 owner comments that an older 2016 version did not have the same zipper opening.",
+    "positive_observations": [
+      "The in-hand review identifies the Speedy Bandoulière 25 and records concrete structure, slouch, strap usability, hardware tone, lighting-dependent color, and zipper-access observations.",
+      "The comment from an authentic 2016 Speedy 25 owner is kept as version context for the zipper design rather than generalized as a universal authenticity rule."
+    ],
+    "negative_observations": [
+      "The review is strongly enthusiastic and does not state a seller, factory, material subtype, measurements, or longer-term wear outcome; the color/weight impressions are subjective.",
+      "Vendor and factory solicitation dominates the comments and is excluded from the public record."
+    ]
   }
 ]

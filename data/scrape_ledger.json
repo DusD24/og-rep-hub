@@ -3818,10 +3818,10 @@
       "reason": "reviewed and not promoted: image-only Chanel 25 seller-choice solicitation with no sanitized text or product observation"
     },
     "t3_1mobze6": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "reviewed and not promoted: The thread is exclusively about decorating a Soft Speedy with a bandeau and dog charm, with generic praise and seller/contact requests; it contains no construction, QC, wear, factory, or authentic-comparison observation."
     },
     "t3_1monxvj": {
       "disposition": "rejected",
@@ -4676,10 +4676,13 @@
       "reason": "triage score 5 below floor 30"
     },
     "t3_1n4gzzh": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1n4gzzh"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1n4pfwi": {
       "disposition": "rejected",
@@ -15295,10 +15298,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qrt29w": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: The post is a first-outing lifestyle story and the comments are mostly generic compliments, charms, and vendor requests. It does not provide enough bag-specific QC, wear, factory, or authentic-comparison detail for public evidence."
     },
     "t3_1qrwx5g": {
       "disposition": "deferred",
@@ -17047,10 +17050,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1r1c74j": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1r1c74j"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1r1ce7l": {
       "disposition": "rejected",
@@ -24079,10 +24085,13 @@
       "reason": "triage score 20 below floor 30"
     },
     "t3_1sdmug1": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1sdmug1"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sdpr9t": {
       "disposition": "rejected",
