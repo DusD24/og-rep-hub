@@ -3821,10 +3821,10 @@
       "reason": "above floor but outside the daily cap (priority 85)"
     },
     "t3_1mp3jko": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 60)"
+      "reason": "reviewed and not promoted: flash-sale solicitation with order, contact, payment, and factory-promotion content rather than a received-product observation"
     },
     "t3_1mp7stf": {
       "disposition": "deferred",
@@ -11160,10 +11160,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1pue4c2": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1pue4c2"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 60)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1puh2cp": {
       "disposition": "rejected",
@@ -19030,10 +19033,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rhx9q9": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rcb-louis-vuitton-speedy-1rhx9q9"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 60)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1rhyoo8": {
       "disposition": "promoted",
@@ -28486,10 +28492,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t058yo": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: bare Chanel 25 QC request that only says the seller sent QC photos and gives no concrete observation"
     },
     "t3_1t0ar8k": {
       "disposition": "rejected",
@@ -30470,10 +30476,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tbaf1o": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rcb-chanel-25-1tbaf1o"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1tbcp3v": {
       "disposition": "deferred",
@@ -33073,10 +33082,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tori93": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: bare Chanel 25 Small black-caviar GL or RL request with no stated discrepancy or resolved finding"
     },
     "t3_1torpkk": {
       "disposition": "deferred",
