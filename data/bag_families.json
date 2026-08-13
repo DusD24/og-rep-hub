@@ -167,7 +167,11 @@
       "ev-crawl-rrl-louis-vuitton-speedy-1gol51m",
       "ev-crawl-rrl-louis-vuitton-speedy-1sx3ac1",
       "ev-crawl-rrl-louis-vuitton-speedy-1sykgxn",
-      "ev-crawl-rrl-louis-vuitton-speedy-1vbjapr"
+      "ev-crawl-rrl-louis-vuitton-speedy-1vbjapr",
+      "ev-crawl-bottomup-1phvuja",
+      "ev-crawl-bottomup-1q9li3w",
+      "ev-crawl-bottomup-1q98xvb",
+      "ev-crawl-bottomup-1ur2ax5"
     ],
     "documented_sizes": [
       "25",
@@ -180,8 +184,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 12,
-      "independent_author_count": 11,
+      "source_count": 16,
+      "independent_author_count": 13,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -283,7 +287,9 @@
       "ev-rt-flamenco-first-order-mandy-2025",
       "ev-crawl-rrl-loewe-flamenco-1rpqirm",
       "ev-crawl-rt-loewe-flamenco-1pnaslm",
-      "ev-crawl-rt-loewe-flamenco-1m7q37n"
+      "ev-crawl-rt-loewe-flamenco-1m7q37n",
+      "ev-crawl-bottomup-1rk0vub",
+      "ev-crawl-bottomup-1psj45t"
     ],
     "documented_sizes": [
       "30 cm",
@@ -297,10 +303,11 @@
       "yellow / shiny hardware noted in QC discussion"
     ],
     "evidence_coverage": {
-      "source_count": 15,
-      "independent_author_count": 10,
+      "source_count": 17,
+      "independent_author_count": 12,
       "primary_subreddit_coverage": [
         "RealRepLadies",
+        "RepCulture_Bags",
         "RepTherapy"
       ],
       "image_ready": true,
@@ -347,7 +354,8 @@
       "ev-crawl-rt-loewe-puzzle-1oezfzw",
       "ev-crawl-rt-loewe-puzzle-1ux98h3",
       "ev-crawl-rrl-loewe-puzzle-1sryrl2",
-      "ev-crawl-rrl-loewe-puzzle-1tsiilj"
+      "ev-crawl-rrl-loewe-puzzle-1tsiilj",
+      "ev-crawl-bottomup-1p4v173"
     ],
     "documented_sizes": [
       "small",
@@ -362,8 +370,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 14,
-      "independent_author_count": 11,
+      "source_count": 15,
+      "independent_author_count": 12,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepTherapy"
@@ -412,7 +420,8 @@
       "ev-crawl-rrl-bottega-veneta-andiamos-1v1s215",
       "ev-crawl-rrl-bottega-veneta-andiamos-1rz4n65",
       "ev-crawl-rlw-bottega-veneta-andiamos-1s03u2x",
-      "ev-crawl-rrl-bottega-veneta-andiamos-1mswd56"
+      "ev-crawl-rrl-bottega-veneta-andiamos-1mswd56",
+      "ev-crawl-bottomup-1r0tiei"
     ],
     "documented_sizes": [
       "medium",
@@ -425,8 +434,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 14,
-      "independent_author_count": 13,
+      "source_count": 15,
+      "independent_author_count": 14,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -515,7 +524,9 @@
     "evidence_ids": [
       "ev-rll-birkin-25",
       "ev-rt-birkin-25-wear",
-      "ev-crawl-rrl-hermes-birkin-25-1hikhxm"
+      "ev-crawl-rrl-hermes-birkin-25-1hikhxm",
+      "ev-crawl-bottomup-1vdajq0",
+      "ev-crawl-bottomup-1hs83r7"
     ],
     "documented_sizes": [
       "25"
@@ -529,10 +540,11 @@
       "brushed palladium"
     ],
     "evidence_coverage": {
-      "source_count": 3,
-      "independent_author_count": 3,
+      "source_count": 5,
+      "independent_author_count": 5,
       "primary_subreddit_coverage": [
         "RealRepLadies",
+        "RepLadiesWorld",
         "RepTherapy"
       ],
       "image_ready": true,

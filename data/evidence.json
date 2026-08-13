@@ -5483,5 +5483,310 @@
       "The factory attribution is contradictory and is left unattributed here; the post contains no confirmed resolution.",
       "PSP/listing stage only with no in-hand colour comparison."
     ]
+  },
+  {
+    "id": "ev-crawl-bottomup-1vdajq0",
+    "title": "QC Birkin 30 Togo",
+    "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1vdajq0/qc_birkin_30_togo/",
+    "subreddit": "RepLadiesWorld",
+    "author": "JBartlett73",
+    "publication_date": "2026-08-02",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "media_ids": [],
+    "family_ids": [
+      "bag-family-hermes-birkin-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "exact_product_match": true,
+    "price": null,
+    "paraphrase": "A first-purchase QC post for a Birkin 30 in Togo leather from a seller identified as Minion (not in this catalog's roster), with the upgraded interior leather option; the buyer's only stated concern is whether the interior corners look odd, and asks for callouts.",
+    "positive_observations": [
+      "One specific, checkable construction concern (interior corner shape) rather than a general request for approval."
+    ],
+    "negative_observations": [
+      "The seller is not in this catalog's roster, so this cannot support a seller-specific reliability signal.",
+      "No resolution or further detail is recorded."
+    ]
+  },
+  {
+    "id": "ev-crawl-bottomup-1rk0vub",
+    "title": "I blame RT for my new favorite bag 💙🪩",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1rk0vub/i_blame_rt_for_my_new_favorite_bag/",
+    "subreddit": "RepTherapy",
+    "author": "ExpensiveSeat1315",
+    "publication_date": "2026-03-03",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "media_ids": [],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mia"
+    ],
+    "factory_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a mini Loewe Flamenco in deep inky dark blue from seller Mia, describing the size as versatile despite limited capacity, and praising how a silver chain accessory (styled after another buyer's post) pairs with the colour.",
+    "positive_observations": [
+      "Names the seller with specific colour and capacity detail rather than a general impression."
+    ],
+    "negative_observations": [
+      "No factory named, and no construction detail beyond size and colour."
+    ]
+  },
+  {
+    "id": "ev-crawl-bottomup-1phvuja",
+    "title": "LV Black out: Goth girl season part 2 ✨🖤",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1phvuja/lv_black_out_goth_girl_season_part_2/",
+    "subreddit": "RealRepLadies",
+    "author": "chokemeowt",
+    "publication_date": "2025-12-09",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "media_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-ming"
+    ],
+    "factory_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "shipping_timeline": "Inquired and paid 18 November; PSPs sent 21 November; delivered 1 December, per the reviewer.",
+    "paraphrase": "A dated review of an LV Speedy Soft 30 in Dark Monogram Eclipse from seller Ming, who does not disclose factory for most orders; the reviewer gives exact dimensions and hardware colour, recommends the model for high-capacity daily use, and discloses no compensation was received for the review.",
+    "positive_observations": [
+      "A complete dated timeline with exact bag dimensions and an explicit no-compensation disclosure."
+    ],
+    "negative_observations": [
+      "Factory is explicitly undisclosed by the seller, so it is left unattributed here.",
+      "Mostly positive impression without itemised construction detail (stitching, hardware finish)."
+    ]
+  },
+  {
+    "id": "ev-crawl-bottomup-1q9li3w",
+    "title": "Louis Vuitton Soft Speedy 30 Black Empreinte God Factory",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1q9li3w/louis_vuitton_soft_speedy_30_black_empreinte_god/",
+    "subreddit": "RealRepLadies",
+    "author": "Low-Psychology-4533",
+    "publication_date": "2026-01-11",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "media_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-axin"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "shipping_timeline": "Reached out 4 December; purchased 11 December; PSPs 21 December; mailed 22 December; delivered 30 December, per the reviewer.",
+    "paraphrase": "A detailed, dated review of an LV Speedy Soft 30 Black Empreinte from Axin, attributed to God factory: the reviewer describes a strong genuine-leather scent that lingered in a closet overnight, leather and construction they call sturdy, grained, and refined rather than soft or squishy (contrasting community descriptions of this factory), and zipper quality they compare favourably to their authentic LV. The reviewer states this is their second God-factory purchase and reports high satisfaction with both the bag and the seller's responsiveness.",
+    "positive_observations": [
+      "Specific sensory and tactile detail (leather scent persistence, zipper feel, structural sturdiness) rather than a general impression, including a point where the reviewer's own experience diverges from other community reports about this factory.",
+      "A repeat God-factory customer, giving this some comparative weight against a single first purchase."
+    ],
+    "negative_observations": [
+      "The reviewer states they judge by overall wearability rather than close construction inspection (stitch counting, logo alignment), so this is not a forensic QC pass.",
+      "No authentic side-by-side was done before posting, only planned for later."
+    ]
+  },
+  {
+    "id": "ev-crawl-bottomup-1r0tiei",
+    "title": "small andiamo in fondant review ⭐️",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1r0tiei/small_andiamo_in_fondant_review/",
+    "subreddit": "RealRepLadies",
+    "author": "Ecstatic_Cycle1831",
+    "publication_date": "2026-02-10",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "media_ids": [],
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-emily"
+    ],
+    "factory_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "exact_product_match": true,
+    "paraphrase": "A first-rep review of a small Bottega Veneta Andiamo from Emily, sourced to a factory the buyer calls Bibi (not in this catalog's roster, chosen over Jing for being less expensive) after viewing the authentic in person: the buyer reports the colour as accurate and the leather as similarly lightweight with a comparable feel to the authentic, with tight-enough weaving to keep the bag's structure firm while the leather itself stays soft.",
+    "positive_observations": [
+      "A same-visit authentic comparison (not from memory or photos) reaching a specific, favourable construction verdict on weave and structure.",
+      "Names the seller and reports a factory choice explicitly made over a cheaper alternative to a catalogued one (Jing), useful context even though the fulfilling factory itself is not catalogued."
+    ],
+    "negative_observations": [
+      "The fulfilling factory (\"Bibi\") is not in this catalog's roster, so it is left unattributed here rather than the Jing factory the buyer explicitly did not choose.",
+      "First rep purchase, so the buyer has no other rep comparison basis."
+    ]
+  },
+  {
+    "id": "ev-crawl-bottomup-1psj45t",
+    "title": "Loewe Flamenco in deerskin leather: The bag I was carrying when he proposed 🦌💍",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1psj45t/loewe_flamenco_in_deerskin_leather_the_bag_i_was/",
+    "subreddit": "RepCulture_Bags",
+    "author": "chokemeowt",
+    "publication_date": "2025-12-21",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "media_ids": [],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "paraphrase": "A detailed review of a medium Loewe Flamenco in black deerskin (a variant the reviewer had to specifically request, taking about a week for the factory to produce), giving exact dimensions and describing the leather's softness, slouch, and \"melt\" as matching community descriptions closely; seller and factory are not stated.",
+    "positive_observations": [
+      "Documents a made-to-order variant (deerskin, not the standard smooth leather) with exact dimensions, which is useful documentation of an uncommon configuration.",
+      "Corroborates prior community reports about this leather's feel rather than only offering a first impression."
+    ],
+    "negative_observations": [
+      "Neither seller nor factory is named, so this cannot support seller- or factory-specific reliability signals.",
+      "Highly enthusiasm-driven throughout; no defect or construction concern is raised."
+    ]
+  },
+  {
+    "id": "ev-crawl-bottomup-1hs83r7",
+    "title": "Birkin 30 Noir Togo w/ GHW from PETER! ",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1hs83r7/birkin_30_noir_togo_w_ghw_from_peter/",
+    "subreddit": "RepTherapy",
+    "author": "Hold_The_Tomato",
+    "publication_date": "2025-01-02",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "media_ids": [],
+    "family_ids": [
+      "bag-family-hermes-birkin-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "shipping_timeline": "Ordered 11 December; QC photos 26 December; delivered 2 January, per the reviewer.",
+    "paraphrase": "A detailed, dated review of a Hermes Birkin 30 in black Togo leather with upgraded GHW from a seller identified as Peter (not in this catalog's roster, self-production, no third-party factory), requested with extra veining: the reviewer reports leather matching the requested veiny look, correct dimensions checked against research though the reviewer does not own an authentic B30, and packaging detail (rain jacket, ribbon) matching expectations. This is the reviewer's fourth Birkin from this seller.",
+    "positive_observations": [
+      "A repeat customer's fourth purchase from the same seller, giving unusual weight to the seller-reliability signal even without a catalogued factory.",
+      "A specific, checkable customization request (leather veining) confirmed as met, plus a full dated timeline."
+    ],
+    "negative_observations": [
+      "The reviewer does not own an authentic B30 for direct comparison, relying on published dimensions and their own collection instead.",
+      "The seller is not in this catalog's roster and the bag is explicitly self-produced rather than factory-sourced, so no factory can be attached."
+    ]
+  },
+  {
+    "id": "ev-crawl-bottomup-1p4v173",
+    "title": "(Review) Brownie in a bag 🌰 Meet my latest Puzzle!",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1p4v173/review_brownie_in_a_bag_meet_my_latest_puzzle/",
+    "subreddit": "RepTherapy",
+    "author": "puzzlefev3r",
+    "publication_date": "2025-11-23",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "media_ids": [],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-jipin"
+    ],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "shipping_timeline": "Paid 2 November; PSP video 4 November; delivered 20 November, per the reviewer.",
+    "paraphrase": "A dated review of a small (24cm) Loewe Puzzle Featherlight in shade \"Brownie\" from a seller identified as Luna (not in this catalog's roster), attributed by the reviewer's own uncertain guess to Jipin factory: the reviewer compares this Featherlight leather favourably against Edge-version Puzzles seen from other sellers at the same price, describing it as notably softer, plusher, and more malleable.",
+    "positive_observations": [
+      "A specific comparative claim against a named alternative leather grade (Edge vs. Featherlight) at the same price point, rather than an isolated impression.",
+      "A full dated timeline including a video PSP rather than photos only."
+    ],
+    "negative_observations": [
+      "The factory attribution is the reviewer's own admitted guess (\"not 100% sure\"), not confirmed by the seller.",
+      "The seller is not in this catalog's roster."
+    ]
+  },
+  {
+    "id": "ev-crawl-bottomup-1q98xvb",
+    "title": "LV Speedy 20: Goth girl luxury 🖤",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1q98xvb/lv_speedy_20_goth_girl_luxury/",
+    "subreddit": "RepTherapy",
+    "author": "chokemeowt",
+    "publication_date": "2026-01-10",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "media_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "exact_product_match": false,
+    "paraphrase": "A Speedy 20 review from a seller identified as Mina (not in this catalog's roster, factory undisclosed) in black Monogram calfskin with silver hardware, where the reviewer explicitly states their assessment is still undecided because they have never handled an authentic Speedy 20 in person, so the judgment is photo-based only despite otherwise being confident in their bag knowledge from owning authentics of other models.",
+    "positive_observations": [
+      "An unusually honest disclosure of the limits of the reviewer's own assessment (photo-only judgment, no authentic comparison for this specific model) rather than presenting an unqualified verdict.",
+      "Full size, colour, and hardware detail given."
+    ],
+    "negative_observations": [
+      "No factory is named, and the seller is not in this catalog's roster.",
+      "The reviewer's own uncertainty means this cannot be read as a confident QC pass."
+    ]
+  },
+  {
+    "id": "ev-crawl-bottomup-1ur2ax5",
+    "title": "I'm impressed - and I don't say that often.",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ur2ax5/im_impressed_and_i_dont_say_that_often/",
+    "subreddit": "RepTherapy",
+    "author": "Hold_The_Tomato",
+    "publication_date": "2026-07-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "media_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "paraphrase": "A dual-item review from Hyper Peter covering a Nano Speedy and a Pochette Accessories, where the reviewer explicitly discloses messaging the seller only to let him know a review was posted, not for any incentive, and reports the factory as likely an informal family/friend production rather than a named factory.",
+    "positive_observations": [
+      "An explicit no-incentive disclosure stated proactively rather than only on request.",
+      "Names both items purchased in one order from a repeat-customer relationship with this seller."
+    ],
+    "negative_observations": [
+      "No factory can be attached given the seller's own description of informal production.",
+      "This record only covers the Nano Speedy; the Pochette Accessories is not a catalogued collection here and is mentioned for context only."
+    ]
   }
 ]
