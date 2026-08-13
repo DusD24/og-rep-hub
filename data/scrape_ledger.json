@@ -4655,10 +4655,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1mpetnx": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 50)"
+      "reason": "reviewed and not promoted: Speedy Lucky arrival post only says the bag looks pretty good and asks for opinions; it records no concrete product observation."
     },
     "t3_1mpfmt8": {
       "disposition": "deferred",
@@ -8096,10 +8096,10 @@
       "reason": "reviewed and not promoted: Pre-purchase Puzzle QC request with no concrete observation; the unrelated Chanel shoe item is excluded."
     },
     "t3_1o7fog1": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 50)"
+      "reason": "reviewed and not promoted: Post asks whether a Speedy seen in a Facebook sale group is decent; it is a pre-purchase/third-party listing question with no owned-bag evidence."
     },
     "t3_1o7h4j2": {
       "disposition": "promoted",
@@ -10553,10 +10553,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1oxq8ib": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "reviewed and not promoted: Same-author duplicate of the previously reviewed light-gold versus gold Classic Flap discussion (`t3_1oxqa8a`); it asks for preference photos and records no owned-bag observation."
     },
     "t3_1oxqa8a": {
       "disposition": "rejected",
@@ -12827,10 +12827,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1pgu8de": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1pgu8de"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 34)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1pgv8id": {
       "disposition": "deferred",
@@ -26194,10 +26197,13 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1rsrqm1": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1rsrqm1"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1rssaol": {
       "disposition": "deferred",
@@ -40780,10 +40786,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1tlzs6o": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rcb-chanel-classic-flap-1tlzs6o"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1tlzx90": {
       "disposition": "rejected",
@@ -49807,10 +49816,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ukriw9": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-chanel-classic-flap-1ukriw9"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1uksry0": {
       "disposition": "deferred",
@@ -50836,10 +50848,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1upuwrt": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rlw-chanel-vanity-slim-1upuwrt"
+      ],
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1upvzr3": {
       "disposition": "deferred",
