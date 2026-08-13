@@ -23042,5 +23042,205 @@
     "negative_observations": [
       "The pink lining's material and long-term durability concern remain unverified, and the post does not identify the exact size, seller, or factory."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1uka6hn",
+    "title": "Chanel Small CF Black Caviar LGHW - Why does 187 seem to only have a black interior?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1uka6hn/chanel_small_cf_black_caviar_lghw_why_does_187/",
+    "subreddit": "RealRepLadies",
+    "author": "LuLuLALAAA",
+    "publication_date": "2026-07-01",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao",
+      "seller-heidi"
+    ],
+    "factory_ids": [
+      "factory-187",
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel Small Classic Flap in black caviar with light-gold/champagne-gold hardware; the source compares 187 and God Factory interior-color examples obtained through Heidi and BaoBao. Payment amounts and delivery status are excluded.",
+    "paraphrase": "A pre-purchase comparison of black caviar Chanel Small Classic Flap examples says the 187 factory photos show a black interior while a God Factory example shows burgundy, prompting a question about whether interior color varies by hardware configuration or production season.",
+    "positive_observations": [
+      "The post identifies the Small Classic Flap variant, black caviar, light-gold/champagne-gold hardware, and separate 187 and God Factory source examples.",
+      "It preserves a concrete interior-color difference between factory-photo examples instead of making only a general factory recommendation."
+    ],
+    "negative_observations": [
+      "This is a pre-purchase factory-photo comparison with no delivered-bag result or authentic reference, and the source does not resolve whether the interior difference reflects a season or hardware configuration."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-vanity-slim-1vdas8b",
+    "title": "Am I crazy? Factory vs Psp caviar",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vdas8b/am_i_crazy_factory_vs_psp_caviar/",
+    "subreddit": "RealRepLadies",
+    "author": "Wooden_Spread_5687",
+    "publication_date": "2026-08-02",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-vanity-slim"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel Slim Vanity in caviar attributed by the source to 187; color, hardware, seller, and delivery status are not stated. The source's third photo is identified as a different bag and excluded.",
+    "paraphrase": "A 187-attributed Chanel Slim Vanity PSP is compared with factory photos: the caviar grains appear flatter than the more structured, puffy grains in the factory image, and the buyer also sees a possible CC-logo difference.",
+    "positive_observations": [
+      "The post identifies the Slim Vanity and 187 attribution and separates factory-photo images from the PSP.",
+      "It records concrete grain-structure and logo checks rather than asking only whether the bag is good enough."
+    ],
+    "negative_observations": [
+      "The grain and logo differences remain unresolved at PSP stage, and the source corrects that one of the displayed photos is a different bag."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1vdrecm",
+    "title": "PSP on Chanel 25 mini from 187",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vdrecm/psp_on_chanel_25_mini_from_187/",
+    "subreddit": "RealRepLadies",
+    "author": "graceju1",
+    "publication_date": "2026-08-02",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Black caviar Chanel 25 Mini with silver hardware, attributed by the source to 187; seller and final delivery status are not stated.",
+    "paraphrase": "A black caviar Chanel 25 Mini PSP attributed to 187 raises a specific question about whether the silver hardware appears unusually dark or chrome-like.",
+    "positive_observations": [
+      "The post identifies the Chanel 25 Mini, black caviar, silver hardware, and source-reported 187 attribution.",
+      "It isolates a concrete hardware-finish concern for PSP review."
+    ],
+    "negative_observations": [
+      "The hardware concern is unresolved at PSP stage, and the post does not document delivery, seller, or an authentic comparison."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1rs98kq",
+    "title": "Speedy dark soft 30 - yet another QC but I have checked all other posts and just want someone to check my first bag pls!",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1rs98kq/speedy_dark_soft_30_yet_another_qc_but_i_have/",
+    "subreddit": "RepTherapy",
+    "author": "DefinatelyAlwaysLost",
+    "publication_date": "2026-03-13",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy Dark Soft 30 from Mina; the source does not state a factory, exact material, or delivery result, and Mina is not normalized in the public seller roster.",
+    "paraphrase": "A first-bag PSP for a Speedy Dark Soft 30 asks about lettering on the D-ring flap: the buyer did not see the ‘Louis VXxx’ marking in other QC posts, then received a close-up showing it on the D-ring and asks whether it is on the hidden side.",
+    "positive_observations": [
+      "The post identifies the Speedy Dark Soft 30 and records a specific D-ring lettering check against prior QC examples.",
+      "It preserves the seller's follow-up close-up as part of the PSP question without inventing a factory attribution."
+    ],
+    "negative_observations": [
+      "The lettering placement question is unresolved before delivery, and the source does not state a factory, material, or final received-bag result."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1rpxsjm",
+    "title": "Plz help - first time purchase",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1rpxsjm/plz_help_first_time_purchase/",
+    "subreddit": "RepTherapy",
+    "author": "lidgd",
+    "publication_date": "2026-03-10",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mike"
+    ],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "Loewe Puzzle PSP with size, color, material, factory, and delivery status not stated; the same mixed post also discusses a Prada tote, which is excluded from this record.",
+    "paraphrase": "A mixed first-purchase QC post asks whether the bottom of an unspecified Loewe Puzzle looks lopsided; the separate Prada tote concern is excluded.",
+    "positive_observations": [
+      "The post preserves a specific Puzzle-shape concern at PSP stage and identifies the source-reported seller Mike.",
+      "The record isolates the relevant Puzzle observation without carrying the unrelated Prada tote into the bag evidence."
+    ],
+    "negative_observations": [
+      "The Puzzle's lopsided-bottom concern is unresolved, and the source does not state an exact variant, factory, or delivered-bag result."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-flamenco-1uo1cib",
+    "title": "Help, i received my bag - not happy",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1uo1cib/help_i_received_my_bag_not_happy/",
+    "subreddit": "RepTherapy",
+    "author": "soonmae",
+    "publication_date": "2026-07-05",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mia"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Loewe Medium Flamenco in dark burgundy leather from Mia; factory is not stated. The post separately discusses whether to return the bag, which is excluded from the evidence summary.",
+    "paraphrase": "A received dark-burgundy Medium Flamenco is reported to have a color that looks off versus the author's reference, a misaligned logo, and leather that feels almost squeaky; the buyer also says the bag's fit and appearance may keep them from using it.",
+    "positive_observations": [
+      "The post identifies a received Medium Flamenco, dark burgundy color, leather material, and source-reported seller.",
+      "It records distinct in-hand observations about color, logo alignment, leather feel, and how the bag looks when worn."
+    ],
+    "negative_observations": [
+      "The owner reports an off color, misaligned logo, and squeaky-feeling leather; there is no factory attribution or longer-term wear result, and the return discussion is excluded."
+    ]
   }
 ]

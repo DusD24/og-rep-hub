@@ -19156,10 +19156,10 @@
       "reason": "triage score 20 below floor 30"
     },
     "t3_1rj2577": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 43)"
+      "reason": "reviewed and not promoted: auth purchase announcement with a rep comparison deferred until a future delivery; no current rep evidence"
     },
     "t3_1rj2f1i": {
       "disposition": "rejected",
@@ -19999,10 +19999,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rpce5p": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: pre-purchase request for opinions about the unverified Jinbo factory with no received-bag evidence"
     },
     "t3_1rpdxcj": {
       "disposition": "promoted",
@@ -20122,10 +20122,13 @@
       "reason": "reviewed and not promoted: duplicate of the already-declined t3_1rpxnuj Chanel 25 QC request: same author, date, title, and substantive text, with no stated observation"
     },
     "t3_1rpxsjm": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-loewe-puzzle-1rpxsjm"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 44)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1rq0egv": {
       "disposition": "deferred",
@@ -20455,10 +20458,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rs98kq": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1rs98kq"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1rsahzx": {
       "disposition": "rejected",
@@ -23728,10 +23734,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1scedu4": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: pre-purchase candy-pink Speedy size and factory recommendation request without a specific received or PSP observation"
     },
     "t3_1sceka1": {
       "disposition": "deferred",
@@ -39679,10 +39685,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uka6hn": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1uka6hn"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 89)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1uka7bb": {
       "disposition": "rejected",
@@ -40402,10 +40411,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uo1cib": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-loewe-flamenco-1uo1cib"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 44)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1uo1flv": {
       "disposition": "rejected",
@@ -41494,10 +41506,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uu3b8d": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 89)"
+      "reason": "reviewed and not promoted: pre-purchase best-factory request for Chanel 25 that reports no specific bag observation or comparison"
     },
     "t3_1uu3f4b": {
       "disposition": "deferred",
@@ -45004,10 +45016,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1vdas8b": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-vanity-slim-1vdas8b"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 89)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1vde437": {
       "disposition": "deferred",
@@ -45115,10 +45130,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1vdrecm": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1vdrecm"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 89)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1vdrxzh": {
       "disposition": "rejected",
