@@ -25369,5 +25369,71 @@
       "The author reports that the interior plaque is not quite right, the animal stamp can be off, and the red color is slightly off from authentic.",
       "The source does not state a material subtype or long-term wear period, and the reported MOQC factory and Sophia seller are not normalized publicly."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1uvpghi",
+    "title": "Chanel 25 small 187",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1uvpghi/chanel_25_small_187/",
+    "subreddit": "RealRepLadies",
+    "author": "blondieexo_",
+    "publication_date": "2026-07-13",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel 25 Small with aged-gold hardware; the source reports 187 Factory. Material and color are not stated. TinyJenny is source-reported but not normalized. Seller contact and unrelated discussion details are excluded.",
+    "paraphrase": "After receiving a Chanel 25 Small attributed to 187 Factory, the owner says its aged-gold hardware matches the aged-gold hardware on an authentic Chanel 19. They specifically question whether the CC slide and chain look smaller than authentic based on photos; a public reference comparison says the size appears correct, but the owner had not yet verified it in a boutique.",
+    "positive_observations": [
+      "The post identifies the Chanel 25 Small, normalized 187 Factory attribution, and a concrete aged-gold hardware comparison with an authentic Chanel 19.",
+      "It isolates the CC-slide and chain dimensions as the specific comparison question and preserves the owner's uncertainty instead of claiming an authenticity result."
+    ],
+    "negative_observations": [
+      "The owner initially perceived the CC slide and chain as smaller than expected from photos, and the original poster does not report a completed boutique verification.",
+      "Color, material, seller normalization, and a longer wear period are not stated; contact, payment, and unrelated color/hardware discussion are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1ttwzsg",
+    "title": "Review: P9,20cm & P9,40cm from Huahai factory. Chnl quilted/black flats from Happy factory. Chnl WOC & Rucksack from Shungyang factory",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ttwzsg/review_p920cm_p940cm_from_huahai_factory_chnl/",
+    "subreddit": "RepTherapy",
+    "author": "DefinatelyAlwaysLost",
+    "publication_date": "2026-06-01",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "PSPs arrived two days after ordering, as reported; the post does not state the delivery interval.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "Louis Vuitton Speedy P9 20 and P9 40, both Ultra Black with black leather and black hardware; the source attributes them to HH/Huahai, but no public factory entity is attached. Seller Andy W is source-reported but not normalized. The separate Soft Speedy Dark 30, Chanel flats, WOC, rucksack, shoes, prices, payment, and contact details are excluded.",
+    "paraphrase": "A received Ultra Black Speedy P9 20 and P9 40 are described as very soft, slouchy, discreet, and practical. The P9 20 reportedly carries two phones plus money, medicines, makeup, cards, tickets, and small personal items; the P9 40 carries clothing and work items. The adjustable strap supports crossbody wear, and the P9 20's lock and key are reported as functional rather than decorative.",
+    "positive_observations": [
+      "The review preserves both exact P9 sizes, Ultra Black color/variant language, black leather and hardware, and concrete capacity observations for each size.",
+      "It records in-hand softness, slouch, discreet monogram, adjustable-strap use, and a functional lock/key observation without mixing in the separate Chanel products."
+    ],
+    "negative_observations": [
+      "The source does not provide an independent authentic side-by-side or a long-term wear period, and its preference for HH/Huahai over a Royal option is an individual comparison rather than a controlled test.",
+      "Huahai/HH and Andy W remain source-reported and unattributed publicly; the separate accessory and footwear reviews are excluded."
+    ]
   }
 ]

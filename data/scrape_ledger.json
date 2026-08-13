@@ -20809,10 +20809,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rthkqj": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 84)"
+      "reason": "reviewed and not promoted: received 187-attributed Chanel 25 post asks for a general QC/authenticity judgment but the sanitized capture contains no feature-level observation"
     },
     "t3_1rtk24u": {
       "disposition": "deferred",
@@ -22354,10 +22354,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1s3abwr": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 58)"
+      "reason": "reviewed and not promoted: generic seller-promotional Murakami Speedy praise makes a broad looks-like-authentic claim without feature-level observations, exact size/material/factory attribution, or a resolved model mapping"
     },
     "t3_1s3aepe": {
       "disposition": "deferred",
@@ -34069,10 +34069,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ttwzsg": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1ttwzsg"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 58)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ttxte5": {
       "disposition": "deferred",
@@ -34147,10 +34150,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1tu8lau": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 84)"
+      "reason": "reviewed and not promoted: pre-shipment Chanel Classic Flap QC request says the author does not know what to inspect and contains only generic approval plus an unresolved broad back-flap comment"
     },
     "t3_1tuad58": {
       "disposition": "rejected",
@@ -35491,10 +35494,10 @@
       "reason": "reviewed and not promoted: pre-purchase Hermès Kelly seller and variant-choice question; no owned bag or direct quality observation"
     },
     "t3_1u1erge": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 58)"
+      "reason": "reviewed and not promoted: duplicate/crossposted Nano Speedy transaction post from the same author as the prior declined candidate, repeating broad praise and seller/contact/catalog context without product observations"
     },
     "t3_1u1f7bo": {
       "disposition": "deferred",
@@ -41935,10 +41938,13 @@
       "reason": "triage score 24 below floor 30"
     },
     "t3_1uvpghi": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1uvpghi"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 84)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1uvpk4z": {
       "disposition": "deferred",
