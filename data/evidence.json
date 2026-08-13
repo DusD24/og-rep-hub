@@ -17445,5 +17445,162 @@
     "negative_observations": [
       "The stamp concern is unresolved, the post is pre-delivery PSP evidence rather than an in-hand review, and no seller or factory is normalized."
     ]
+  },
+  {
+    "id": "ev-crawl-rlw-loewe-puzzle-1qfzsh4",
+    "title": "Please Help QC Loewe Mini featherlight puzzle",
+    "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1qfzsh4/please_help_qc_loewe_mini_featherlight_puzzle/",
+    "subreddit": "RepLadiesWorld",
+    "author": "Maleficent_Yam7624",
+    "publication_date": "2026-01-18",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Mini Featherlight Puzzle; color and material are not stated in the capture.",
+    "paraphrase": "A PSP QC post for a Loewe Mini Featherlight Puzzle raises two concrete concerns: the bag appears stiff rather than slouchy, and the top-logo spacing appears equidistant from the right and bottom where the author's non-rep reference shows a larger right gap; the author requested another photo without filling but had not received it.",
+    "positive_observations": [
+      "The source names the Mini Featherlight variant and records separate shape and logo-spacing checks rather than only asking whether the bag looks good."
+    ],
+    "negative_observations": [
+      "Both concerns remain unresolved in the PSP post, and the source does not identify a seller, factory, color, material, or in-hand result."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-neverfull-1syink7",
+    "title": "First rep! How did I do? Neverfull LV from old cobbler",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1syink7/first_rep_how_did_i_do_neverfull_lv_from_old/",
+    "subreddit": "RealRepLadies",
+    "author": "AshamedMemory7641",
+    "publication_date": "2026-04-29",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-old-cobbler"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Medium Damier Azur Neverfull; the source does not state a factory.",
+    "paraphrase": "An owner of a medium Damier Azur Neverfull from Old Cobbler reports that the interior trim bears logos they cannot reconcile with online references and that the metal parts look light or plastic-like, then asks for comparison from people familiar with the authentic.",
+    "positive_observations": [
+      "The post preserves the medium Damier Azur variant and records concrete interior-trim and hardware observations after purchase."
+    ],
+    "negative_observations": [
+      "The trim interpretation and hardware comparison are unresolved, the author does not provide an authenticated reference in the capture, and payment details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-puzzle-1um7s95",
+    "title": "Loewe Puzzle Edge - bumbag (mini) in Dark Gray. JUICIEST PSPs  👀",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1um7s95/loewe_puzzle_edge_bumbag_mini_in_dark_gray/",
+    "subreddit": "RealRepLadies",
+    "author": "therichbff",
+    "publication_date": "2026-07-03",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "Mini Dark Gray Puzzle Edge bumbag; the focused catalog family is Puzzle, but the capture does not establish an exact catalogued sub-variant or seller/factory mapping.",
+    "paraphrase": "A PSP QC post for a mini Dark Gray Loewe Puzzle Edge bumbag asks whether zipper inconsistencies would be noticeable from a short distance; the author says they do not otherwise mind the zipper variation and has not yet received the bag for an in-hand review.",
+    "positive_observations": [
+      "The source preserves the Edge bumbag form, mini size, Dark Gray color, and a specific zipper-consistency check."
+    ],
+    "negative_observations": [
+      "The zipper concern is unresolved, the author has no authentic Puzzle for comparison, and the exact catalogued sub-variant, seller, and factory are not normalized."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-bottega-veneta-andiamos-1uosl5q",
+    "title": "QC BV Andiamo Mini",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1uosl5q/qc_bv_andiamo_mini/",
+    "subreddit": "RealRepLadies",
+    "author": "Kryziee",
+    "publication_date": "2026-07-06",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-tiny-jenny"
+    ],
+    "factory_ids": [
+      "factory-jing"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Bottega Veneta Andiamo Mini; color is not stated in the capture. Seller and factory remain source-reported.",
+    "paraphrase": "A PSP QC post for a Bottega Veneta Andiamo Mini attributed by the source to Jing and bought from Tiny Jenny says the intrecciato and leather look good but questions whether the shiny hardware is too yellow; the accompanying video shows the hardware lighter than the still images.",
+    "positive_observations": [
+      "The post identifies the Mini model and records separate intrecciato, leather, hardware-tone, and still-versus-video observations.",
+      "The source-reported Jing attribution and Tiny Jenny seller are retained as public entity mappings without including payment details."
+    ],
+    "negative_observations": [
+      "The hardware-tone concern is unresolved and there is no authentic comparison or delivery result; seller and factory roles remain source-reported."
+    ]
+  },
+  {
+    "id": "ev-crawl-rcb-bottega-veneta-andiamos-1tfutey",
+    "title": "Thinking about using this BV Andiamo as my new work bag...",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1tfutey/thinking_about_using_this_bv_andiamo_as_my_new/",
+    "subreddit": "RepCulture_Bags",
+    "author": "BirthdayMaleficent28",
+    "publication_date": "2026-05-17",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "Bottega Veneta Andiamo; size, color, material, seller, and factory are not stated in the capture.",
+    "paraphrase": "After receiving a Bottega Veneta Andiamo, the author describes the leather as very soft yet sturdy and asks whether there are calloutable flaws in the weaving before using it as a work bag.",
+    "positive_observations": [
+      "The post provides a concrete post-arrival leather-hand observation and identifies the intrecciato weaving as the specific construction feature under review."
+    ],
+    "negative_observations": [
+      "No size, color, material composition, seller, factory, authentic comparison, or later wear outcome is stated, and the weaving question remains unresolved."
+    ]
   }
 ]
