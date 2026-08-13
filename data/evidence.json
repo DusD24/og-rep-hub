@@ -5119,5 +5119,369 @@
       "First purchase, so the buyer has no comparison basis of their own.",
       "No answer or resolution is recorded in the captured text."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1teee6j",
+    "title": "Chanel 25 from TS Mandy",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1teee6j/chanel_25_from_ts_mandy/",
+    "subreddit": "RealRepLadies",
+    "author": "ProfessionIll2853",
+    "publication_date": "2026-05-16",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": "Ordered 4/26; PSPs 4/30; tracking 5/4; received 5/15, as reported by the buyer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand first-order review of a Chanel 25 from Mandy: the buyer reports receiving the bag after PSPs and a dated delivery sequence, and describes the leather as soft with hardware and chain that have noticeable weight.",
+    "positive_observations": [
+      "Confirms a delivered bag and gives a specific PSP-to-delivery timeline (PSPs 4/30, tracking 5/4, received 5/15).",
+      "Reports two concrete in-hand attributes—soft leather and weighted hardware/chain—rather than only a star rating."
+    ],
+    "negative_observations": [
+      "Short first-impression review with no authentic comparison or itemised construction inspection.",
+      "The post does not name a factory or specify a colour/material subtype beyond the Chanel 25 title."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1nr94x4",
+    "title": "Lady Dior Hardware QC Help",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1nr94x4/lady_dior_hardware_qc_help/",
+    "subreddit": "RealRepLadies",
+    "author": "Necessary_Picture_11",
+    "publication_date": "2025-09-26",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC post for a Lady Dior attributed to God factory: the buyer compares PSP hardware with factory and seller reference photographs, reports the PSP hardware as almost silver while the factory images look yellow-gold, and asks whether lighting explains the difference.",
+    "positive_observations": [
+      "Separates PSP, factory, and seller reference images and identifies a specific hardware-tone discrepancy.",
+      "Uses the gold lettering on the tag beside the hardware as a second visual comparison point."
+    ],
+    "negative_observations": [
+      "The lighting explanation is unresolved; no in-hand follow-up or final QC decision is recorded.",
+      "PSP stage only, with no seller attribution normalized from the post."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-saddle-1ooerk2",
+    "title": "First God Factory - Dior Saddle",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ooerk2/first_god_factory_dior_saddle/",
+    "subreddit": "RealRepLadies",
+    "author": "MissA27",
+    "publication_date": "2025-11-04",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-dior-saddle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A God-factory Dior Saddle QC request in which the buyer flags what appears to be a white spot on the front of the PSPs and says they are waiting for a video before deciding whether the bag is acceptable.",
+    "positive_observations": [
+      "Raises one specific, checkable possible defect on the front of the bag rather than asking for a completely open-ended QC.",
+      "Records that the buyer requested video before making a final decision."
+    ],
+    "negative_observations": [
+      "The possible white spot is not resolved in the captured post, and no in-hand follow-up is recorded.",
+      "Very short QC post with no seller named and no additional construction detail."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-hermes-kelly-1qxxbq6",
+    "title": "Mini Kelly Blue Celeste Epsom Gold Hardware from Jim",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qxxbq6/mini_kelly_blue_celeste_epsom_gold_hardware_from/",
+    "subreddit": "RepTherapy",
+    "author": "EmeraldWaters0",
+    "publication_date": "2026-02-06",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-hermes-kelly"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-jim"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a Mini Kelly in Blue Celeste Epsom with gold hardware from Jim: the buyer reports crisp, even Epsom texture, clean stitching, neat glazing, straight sangles, balanced hardware, a firm structure, and a warm rather than brassy gold tone after approving the PSPs and receiving the bag.",
+    "positive_observations": [
+      "Provides multiple itemised construction observations—Epsom texture, stitching, glazing, sangles, structure, and hardware—instead of only an overall rating.",
+      "Checks the PSP impressions against the delivered bag and records the exact colour, leather, size, and hardware combination."
+    ],
+    "negative_observations": [
+      "The reviewer does not provide measurements or a side-by-side authentic comparison and frames the accuracy assessment as personal visual judgment.",
+      "No factory is named."
+    ]
+  },
+  {
+    "id": "ev-crawl-rlw-bottega-veneta-andiamos-1s03u2x",
+    "title": "Bottega Veneta Andiamo clutch",
+    "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1s03u2x/bottega_veneta_andiamo_clutch/",
+    "subreddit": "RepLadiesWorld",
+    "author": "Empty_Nectarine625",
+    "publication_date": "2026-03-21",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand first impression of a Bottega Veneta Andiamo clutch in deep green from a seller the author identifies as Navy Blue: the buyer reports soft leather, a clean and consistent woven pattern, and solid-feeling gold hardware, with no obvious flaws noted.",
+    "positive_observations": [
+      "Reports distinct in-hand observations about leather hand-feel, weave consistency, colour, and hardware rather than only saying the bag is good.",
+      "Identifies the exact Andiamo shape as a clutch and records the deep-green colour and gold hardware."
+    ],
+    "negative_observations": [
+      "First-impression review with no authentic comparison, measurements, or factory attribution.",
+      "The seller name appears in the post but is not normalized to a catalogued seller entity here."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-bottega-veneta-andiamos-1mswd56",
+    "title": "(REVIEW) Bottega Veneta Andiamo Clutch Black and Gold | Ajing Factory | Seller: Jenny",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1mswd56/review_bottega_veneta_andiamo_clutch_black_and/",
+    "subreddit": "RealRepLadies",
+    "author": "Loverofnicetings",
+    "publication_date": "2025-08-17",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": "Inquired 7/17; paid 7/18; PSP 7/20; shipped 7/23; arrived 7/31, as reported by the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-tiny-jenny"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A photo- and video-based review of a Bottega Veneta Andiamo clutch from Tiny Jenny: the author reports soft smooth material, even stitching, a sturdy slightly plush handle, a heavy gold knot, correct knot direction and pattern, and the expected card-slot count, while noting that the top handle looks smaller and less circular than the authentic reference and that the corner stitching differs.",
+    "positive_observations": [
+      "Itemises material hand, stitching, handle construction, hardware weight, weave/pattern, and interior card slots instead of relying on a general quality claim.",
+      "Includes PSP, factory, own-photo, and authentic-reference links and gives a dated inquiry-to-delivery sequence."
+    ],
+    "negative_observations": [
+      "The author explicitly says the assessment is based on photos and videos and that they have not felt the authentic, so this is not a physical authentic comparison.",
+      "Ajing is named in the title but is not a catalogued factory and is therefore left unattributed here; the post is also a sister’s purchase rather than the author’s own order."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1sx3ac1",
+    "title": "QC of LV Speedy P9 Bandoulière 30 - Green Croc",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1sx3ac1/qc_of_lv_speedy_p9_bandoulière_30_green_croc/",
+    "subreddit": "RealRepLadies",
+    "author": "Beginning-Persimmon",
+    "publication_date": "2026-04-27",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC post for an LV Speedy P9 Bandoulière 30 in green crocodile attributed to Royal factory and bought from Baobao: the buyer notes that the rivets are visibly larger than the authentic reference as shown in the catalogue, and reports that stitching on one side appears pulled inward and uneven.",
+    "positive_observations": [
+      "Names the specific size and material treatment and separates a known rivet-size difference from the buyer’s separate stitching concern.",
+      "Records a concrete construction observation (one-sided inward/uneven stitching) rather than a general request for approval."
+    ],
+    "negative_observations": [
+      "PSP stage only; the stitching concern is left as an open question with no final decision or in-hand follow-up.",
+      "The buyer identifies this as their first Speedy and supplies no independent authentic examination beyond the catalogue reference."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1sykgxn",
+    "title": "Speedy 30 Lucky from Royal?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1sykgxn/speedy_30_lucky_from_royal/",
+    "subreddit": "RealRepLadies",
+    "author": "artistecw",
+    "publication_date": "2026-04-29",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP/RL decision post for an LV Speedy 30 bought through Mandy: the buyer rejected the original bag after handle tabs appeared off-centre and one seemed to pull outward, and reports that Mandy said three bags from the abbreviated \"GF\" source had shown the same issue before offering a Royal replacement.",
+    "positive_observations": [
+      "Documents a specific handle-tab alignment concern and distinguishes it from the buyer’s broader comparison of canvas texture and gold tone.",
+      "Records a seller-reported repeat pattern across three bags, clearly attributed to the seller rather than presented as independently verified."
+    ],
+    "negative_observations": [
+      "The post uses the unresolved shorthand \"GF\", so no factory ID is assigned; the offered Royal replacement had not been received when posted.",
+      "PSP/RL stage only, with no final comparison or resolution for the replacement bag."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-ysl-loulou-1t5wh2w",
+    "title": "Small YSL LOULOU",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1t5wh2w/small_ysl_loulou/",
+    "subreddit": "RealRepLadies",
+    "author": "Short_Importance_230",
+    "publication_date": "2026-05-07",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-ysl-loulou"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-black-frame"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A just-received QC request for a small YSL LouLou from Black Frame: the buyer reports that the chain feels heavy but makes substantial noise and asks whether that is normal, while saying they have not yet checked the bag against an authentic in store.",
+    "positive_observations": [
+      "Names the exact small LouLou and factory and records one concrete hardware observation (weight and chain noise)."
+    ],
+    "negative_observations": [
+      "No seller is named, no authentic comparison or response is captured, and the question remains unresolved.",
+      "Very short post; it adds a narrow QC signal rather than a complete review."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-puzzle-1tsiilj",
+    "title": "QC help for Loewe Puzzle Medium PSPs from Liusheng",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1tsiilj/qc_help_for_loewe_puzzle_medium_psps_from_liusheng/",
+    "subreddit": "RealRepLadies",
+    "author": "woohooalo",
+    "publication_date": "2026-05-31",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A first-purchase PSP QC post for a Loewe Puzzle Medium in black from Baobao, attributed to Liusheng factory: the buyer asks whether the shape reads too boxy and whether the engraving and stitching are accurate.",
+    "positive_observations": [
+      "Names seller, factory, colour, and size and raises three specific, checkable QC points—shape, engraving, and stitching.",
+      "The post is clearly limited to PSP review and does not present the buyer’s questions as settled conclusions."
+    ],
+    "negative_observations": [
+      "First purchase with no independent authentic comparison or answer recorded in the captured text.",
+      "PSP stage only and no in-hand follow-up."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1vbjapr",
+    "title": "PSP from Mandy Speedy 30 darker than expected?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vbjapr/psp_from_mandy_speedy_30_darker_than_expected/",
+    "subreddit": "RealRepLadies",
+    "author": "swanvalkyrie",
+    "publication_date": "2026-07-31",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC post for an LV Speedy 30 in denim from Mandy: the buyer says the denim looks darker than expected, reports that the stitching and overall house shape otherwise look acceptable, and notes that Mandy described the listing as Birdcage while the listing itself identified Royal.",
+    "positive_observations": [
+      "Separates a specific colour concern from the buyer’s positive observations about stitching and silhouette.",
+      "Documents a concrete provenance problem—Birdcage versus Royal factory wording—rather than silently choosing one attribution."
+    ],
+    "negative_observations": [
+      "The factory attribution is contradictory and is left unattributed here; the post contains no confirmed resolution.",
+      "PSP/listing stage only with no in-hand colour comparison."
+    ]
   }
 ]

@@ -983,10 +983,10 @@
       "reason": "triage score 0 below floor 30"
     },
     "t3_1hxfrhp": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: weekly chat and seller-promotion post; it does not describe a specific bag, variant, factory, or QC observation"
     },
     "t3_1i0iehl": {
       "disposition": "deferred",
@@ -3830,16 +3830,19 @@
       "reason": "above floor but outside the daily cap (priority 65)"
     },
     "t3_1msw8sl": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: duplicate crosspost of the fuller RealRepLadies Andiamo review by the same author; keeping both would inflate one transaction and author’s evidence"
     },
     "t3_1mswd56": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-12",
+      "evidence_ids": [
+        "ev-crawl-rrl-bottega-veneta-andiamos-1mswd56"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1mt9vk0": {
       "disposition": "rejected",
@@ -4064,10 +4067,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1mx6ko6": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: haul and shipping list with seller/factory names but no construction, condition, or QC observations for the bags listed"
     },
     "t3_1mx70xz": {
       "disposition": "deferred",
@@ -5561,10 +5564,13 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1nr94x4": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-12",
+      "evidence_ids": [
+        "ev-crawl-rrl-dior-lady-dior-1nr94x4"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1nrbqks": {
       "disposition": "deferred",
@@ -7301,10 +7307,13 @@
       "reason": "triage score 5 below floor 30"
     },
     "t3_1ooerk2": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-12",
+      "evidence_ids": [
+        "ev-crawl-rrl-dior-saddle-1ooerk2"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ooh4tc": {
       "disposition": "rejected",
@@ -8411,10 +8420,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1p1efkz": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: PSP haul only; the author says a future XC-versus-God comparison will follow but gives no current QC or in-hand observation for the bags shown"
     },
     "t3_1p1ej75": {
       "disposition": "deferred",
@@ -8783,10 +8792,10 @@
       "reason": "triage score 15 below floor 30"
     },
     "t3_1p5mbkf": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: pre-purchase seller comparison for an unowned Birkin 30; the author asks for other people’s experiences and reports no bag-specific observation"
     },
     "t3_1p5mcux": {
       "disposition": "rejected",
@@ -15772,10 +15781,13 @@
       "reason": "triage score 10 below floor 30"
     },
     "t3_1qxxbq6": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-12",
+      "evidence_ids": [
+        "ev-crawl-rt-hermes-kelly-1qxxbq6"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qxz2dp": {
       "disposition": "deferred",
@@ -18994,10 +19006,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rmjjny": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RepCulture_Bags",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: generic in-hand praise of a red caviar Classic Double Flap; aside from the colour, no specific construction, wear, or comparison observation is recorded"
     },
     "t3_1rmmucl": {
       "disposition": "deferred",
@@ -20911,10 +20923,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1s03u2x": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-12",
+      "evidence_ids": [
+        "ev-crawl-rlw-bottega-veneta-andiamos-1s03u2x"
+      ],
       "subreddit": "RepLadiesWorld",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1s06vsb": {
       "disposition": "deferred",
@@ -26722,10 +26737,13 @@
       "reason": "above floor but outside the daily cap (priority 90)"
     },
     "t3_1sx3ac1": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-12",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1sx3ac1"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sx4mwz": {
       "disposition": "deferred",
@@ -27088,10 +27106,13 @@
       "reason": "above floor but outside the daily cap (priority 92)"
     },
     "t3_1sykgxn": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-12",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1sykgxn"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sykkjl": {
       "disposition": "deferred",
@@ -27898,10 +27919,10 @@
       "reason": "above floor but outside the daily cap (priority 79)"
     },
     "t3_1t3rhlh": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: QC request contains only the Black Frame factory name and no observation to evaluate"
     },
     "t3_1t3rnk9": {
       "disposition": "rejected",
@@ -28346,10 +28367,13 @@
       "reason": "above floor but outside the daily cap (priority 67)"
     },
     "t3_1t5wh2w": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-12",
+      "evidence_ids": [
+        "ev-crawl-rrl-ysl-loulou-1t5wh2w"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1t5x9nn": {
       "disposition": "deferred",
@@ -28850,10 +28874,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t8t9ja": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RepLadiesWorld",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: generic first-purchase praise for two different bags; the author says both look decent but gives no per-item construction, wear, or comparison detail"
     },
     "t3_1t8tprh": {
       "disposition": "deferred",
@@ -29810,10 +29834,13 @@
       "reason": "backfilled from committed evidence"
     },
     "t3_1teee6j": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-12",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1teee6j"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1teefaw": {
       "disposition": "deferred",
@@ -30961,10 +30988,10 @@
       "reason": "triage score 5 below floor 30"
     },
     "t3_1tjvb03": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RepLadiesWorld",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: thin QC request with no specific observation beyond the author being a novice and asking whether to GL or RL"
     },
     "t3_1tjvdeu": {
       "disposition": "deferred",
@@ -30985,10 +31012,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tjwc5m": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RepTherapy",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: duplicate crosspost of the same thin mini Kelly QC request as the RepLadiesWorld entry; the text gives no additional observation or resolution"
     },
     "t3_1tk3rip": {
       "disposition": "deferred",
@@ -32473,10 +32500,13 @@
       "reason": "above floor but outside the daily cap (priority 92)"
     },
     "t3_1tsiilj": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-12",
+      "evidence_ids": [
+        "ev-crawl-rrl-loewe-puzzle-1tsiilj"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1tsjdog": {
       "disposition": "rejected",
@@ -35194,10 +35224,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u6epd3": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RepLadiesWorld",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: pre-purchase seller and factory selection request based on catalogue photos; no owned or received Puzzle is evaluated"
     },
     "t3_1u6f5re": {
       "disposition": "deferred",
@@ -37939,10 +37969,10 @@
       "reason": "above floor but outside the daily cap (priority 79)"
     },
     "t3_1uihsns": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: pre-purchase questions about lambskin versus caviar, factories, and sellers; the author owns no bag in this post and reports no direct QC or in-hand observation"
     },
     "t3_1uihv3q": {
       "disposition": "deferred",
@@ -40753,10 +40783,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uywi59": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: pre-purchase factory comparison between Jipin and Liusheng; no Flamenco is owned, received, or directly inspected in the post"
     },
     "t3_1uywluy": {
       "disposition": "deferred",
@@ -42676,10 +42706,10 @@
       "reason": "above floor but outside the daily cap (priority 44)"
     },
     "t3_1v9vej7": {
-      "disposition": "pending",
+      "disposition": "rejected",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "reviewed and not promoted: the author names front leather panel and back stitching as concerns but does not describe what is wrong; too vague to carry a checkable observation"
     },
     "t3_1v9wps2": {
       "disposition": "deferred",
@@ -43114,10 +43144,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1vbjapr": {
-      "disposition": "pending",
+      "disposition": "promoted",
       "decided_on": "2026-08-12",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1vbjapr"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "on the review shortlist"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1vbjw3g": {
       "disposition": "deferred",
