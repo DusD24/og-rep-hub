@@ -3359,10 +3359,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1maet9n": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "reviewed and not promoted: pre-purchase God Factory Soft Speedy sourcing question asking for intel or recommendations without owned-product evidence"
     },
     "t3_1magfzs": {
       "disposition": "rejected",
@@ -16606,10 +16606,13 @@
       "reason": "reviewed and not promoted: General leather-conditioner advice post covering several bags, not product-specific evidence."
     },
     "t3_1qyscjh": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1qyscjh"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qyte3h": {
       "disposition": "deferred",
@@ -25420,10 +25423,10 @@
       "reason": "reviewed and not promoted: Birkin/ Picotin model-mixed comparison is not an exact catalogued product match and contains only broad visual similarity praise."
     },
     "t3_1sldg1m": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "reviewed and not promoted: generic Hyper Peter Nano Speedy praise and broad claim that its monogram looks better than God Factory, without feature-level detail or a resolved comparison"
     },
     "t3_1sle54q": {
       "disposition": "rejected",
@@ -38779,10 +38782,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uf697u": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: bare Chanel Classic Flap Mini QC request that mentions a prior bad experience but gives no concrete observation about the new bag"
     },
     "t3_1uf88lk": {
       "disposition": "deferred",
@@ -41260,10 +41263,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1urz5m9": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: received Chanel 25 Mini post that only asks for thoughts and reports no feature-level observation in the sanitized capture"
     },
     "t3_1us0v62": {
       "disposition": "rejected",
@@ -43393,10 +43396,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1v4a7al": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 85)"
+      "reason": "reviewed and not promoted: image-only Chanel 25 Small tier question with no sanitized text or concrete observation"
     },
     "t3_1v4adj1": {
       "disposition": "rejected",

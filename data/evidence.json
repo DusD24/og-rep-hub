@@ -25101,5 +25101,41 @@
       "The author explicitly says they have no experience with the model, so this is a photo-based pre-purchase comparison rather than an in-hand review.",
       "The color impression is unresolved and does not establish that either factory's received product matches the photos."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1qyscjh",
+    "title": "God Factory Speedy 30 😍 from Doris",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1qyscjh/god_factory_speedy_30_from_doris/",
+    "subreddit": "RealRepLadies",
+    "author": "JiaJungle",
+    "publication_date": "2026-02-07",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "Shipped January 28 and arrived February 7 in Canada, as reported.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy 30 in canvas from God Factory through Doris; color and material subtype are not stated. Payment details, packaging logistics beyond the reported shipping dates, and unrelated accessories are excluded.",
+    "paraphrase": "A received God Factory Speedy 30 is described as having a well-shaped side profile, clean canvas, handles, edge piping, and near-spot-on alignment. The author says the bag arrived without creased canvas or an objectionable smell and notes that the Louis Vuitton stamping and hardware engraving could be deeper, while acknowledging that authentic examples can also have shallow engraving.",
+    "positive_observations": [
+      "The review identifies the Speedy 30, normalized seller and factory, delivery interval, and concrete observations about side shape, canvas, handles, piping, and alignment.",
+      "It compares the stamping/engraving concern with authentic examples and preserves the author's limited concern rather than presenting it as a definitive flaw."
+    ],
+    "negative_observations": [
+      "The source does not state color, material subtype, or a long-term wear period; the author did not inspect every detail and does not consider the shallow engraving a significant issue.",
+      "Seller service and packaging observations are source-reported context, not a guarantee about other transactions."
+    ]
   }
 ]
