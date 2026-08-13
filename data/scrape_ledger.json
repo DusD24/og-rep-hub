@@ -782,10 +782,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1gqvspa": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-dior-saddle-1gqvspa"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 70)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1gscxp0": {
       "disposition": "deferred",
@@ -3050,10 +3053,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1m3q1sz": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 73)"
+      "reason": "reviewed and not promoted: Moderator Speedy group-buy PSP collection post contains no product evidence itself."
     },
     "t3_1m3vnhj": {
       "disposition": "deferred",
@@ -3863,10 +3866,13 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1mrgrpk": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-loewe-flamenco-1mrgrpk"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1mrni6v": {
       "disposition": "deferred",
@@ -4154,10 +4160,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1mxihyc": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 73)"
+      "reason": "reviewed and not promoted: Brief Speedy flash-sale first impression is generic praise and promises a later detailed review; it does not provide sufficient exact-variant or construction observations."
     },
     "t3_1mxlci5": {
       "disposition": "rejected",
@@ -4472,10 +4478,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1n23p8h": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 73)"
+      "reason": "reviewed and not promoted: Brief received Speedy post reports only generic softness and enthusiasm, with no exact variant, factory, or specific construction comparison; the author indicates a fuller review may follow."
     },
     "t3_1n248h8": {
       "disposition": "rejected",
@@ -5084,10 +5090,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1ngex0y": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-ysl-loulou-1ngex0y"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 62)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ngnjc8": {
       "disposition": "deferred",
@@ -5339,10 +5348,13 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1nlz73x": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-ysl-loulou-1nlz73x"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 62)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1nlzaqp": {
       "disposition": "deferred",
@@ -6599,10 +6611,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1oaele8": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1oaele8"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 95)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1oag1io": {
       "disposition": "deferred",
@@ -7124,10 +7139,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ojag3g": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 62)"
+      "reason": "reviewed and not promoted: Detailed Gucci Jackie factory comparison was mis-mapped to the YSL Loulou family and no Gucci Jackie family may be added in this pass; source-labeled JS and Orange Couch cannot be normalized here."
     },
     "t3_1ojczjq": {
       "disposition": "deferred",
@@ -7934,10 +7949,10 @@
       "reason": "above floor but outside the daily cap (priority 62)"
     },
     "t3_1oumzlb": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 95)"
+      "reason": "reviewed and not promoted: General missing-stitches advice based on a PSP and external boutique videos, without an exact variant or a sufficiently bounded authentic comparison; it reads as a guide rather than normalized product evidence."
     },
     "t3_1ouq0to": {
       "disposition": "rejected",
@@ -9617,10 +9632,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1pd99hn": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 95)"
+      "reason": "reviewed and not promoted: Pre-purchase single-versus-double-flap discussion and rehome request with no received-product evidence."
     },
     "t3_1pdarwr": {
       "disposition": "deferred",
@@ -12301,10 +12316,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qc2q32": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 84)"
+      "reason": "reviewed and not promoted: Bare Chanel Kelly QC request is a model mismatch for the catalogued Hermes Kelly family and contains no concrete product observation."
     },
     "t3_1qc3wwb": {
       "disposition": "rejected",
@@ -12355,10 +12370,13 @@
       "reason": "above floor but outside the daily cap (priority 70)"
     },
     "t3_1qcb508": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rlw-loewe-flamenco-1qcb508"
+      ],
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qcbcr1": {
       "disposition": "deferred",
@@ -14347,10 +14365,10 @@
       "reason": "triage score 0 below floor 30"
     },
     "t3_1qo3295": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 83)"
+      "reason": "reviewed and not promoted: Received Chanel Kelly post has specific defects but is a model mismatch for the catalogued Hermes Kelly family; no Chanel Kelly family may be added in this pass."
     },
     "t3_1qo3c48": {
       "disposition": "rejected",
@@ -19936,10 +19954,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rqt4pv": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 70)"
+      "reason": "reviewed and not promoted: Lady D-Joy post is primarily generic quality and seller praise and does not state a precise variant, factory, or concrete construction/wear observation."
     },
     "t3_1rqvhhj": {
       "disposition": "deferred",
@@ -20113,10 +20131,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rs279j": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-the-row-margaux-1rs279j"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 62)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1rs2vc3": {
       "disposition": "deferred",
@@ -21790,10 +21811,10 @@
       "reason": "above floor but outside the daily cap (priority 80)"
     },
     "t3_1s2h08y": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 70)"
+      "reason": "reviewed and not promoted: Mini Lady Dior post is seller/contact praise and packaging discussion without product-specific quality observations; private contact/payment context is excluded."
     },
     "t3_1s2k8do": {
       "disposition": "deferred",
@@ -22159,10 +22180,13 @@
       "reason": "reviewed and not promoted: thin QC request with no specific observation beyond asking what may be off; buyer has never seen an authentic in person"
     },
     "t3_1s4dgxl": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1s4dgxl"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 62)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1s4fh58": {
       "disposition": "deferred",
@@ -28183,10 +28207,13 @@
       "reason": "above floor but outside the daily cap (priority 70)"
     },
     "t3_1t2b92c": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rlw-loewe-puzzle-1t2b92c"
+      ],
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1t2bbny": {
       "disposition": "rejected",
@@ -38569,10 +38596,10 @@
       "reason": "reviewed and not promoted: seller/factory naming context and generic beginner commentary with no bag-specific QC or quality observation"
     },
     "t3_1uhamli": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: Pre-purchase request for a custom no-logo Hermes lookalike and seller recommendation, not received-bag evidence."
     },
     "t3_1uhb08r": {
       "disposition": "promoted",
@@ -38704,10 +38731,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uierto": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: Satirical B30 Birkin QC post is outside the catalogued Birkin 25 family and contains no credible product evidence."
     },
     "t3_1uihb7k": {
       "disposition": "deferred",
@@ -43477,10 +43504,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1v9d8sl": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: Kelly 35 accessory-styling discussion is not a product-quality evidence record and the size is outside the catalogued Kelly 28 family."
     },
     "t3_1v9der8": {
       "disposition": "deferred",
@@ -45472,10 +45499,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1vik8ns": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 63)"
+      "reason": "reviewed and not promoted: Combined YSL/LV transaction is mostly seller praise; the specific Utility Crossbody is uncatalogued and the Neverfull flaw is not described, so no bounded public product observation can be normalized in this pass."
     },
     "t3_1vikc6w": {
       "disposition": "deferred",
@@ -45541,10 +45568,10 @@
       "reason": "above floor but outside the daily cap (priority 40)"
     },
     "t3_1vivkve": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: Duplicate crosspost of the already reviewed Loewe Puzzle hardware PSP `t3_1viowh9`; preserve one public evidence record."
     },
     "t3_1viwqbj": {
       "disposition": "deferred",
@@ -45925,10 +45952,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1vl7c0x": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 84)"
+      "reason": "reviewed and not promoted: Chanel Kelly Raffia QC is a model mismatch for the catalogued Hermes Kelly family and offers only generic negative reaction with no specific product observation."
     },
     "t3_1vl7cer": {
       "disposition": "deferred",
