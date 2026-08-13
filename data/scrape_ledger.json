@@ -3455,10 +3455,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1mdggyj": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1mdggyj"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 63)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1mdm4kb": {
       "disposition": "rejected",
@@ -4148,10 +4151,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1mwnbuw": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 87)"
+      "reason": "reviewed and not promoted: outfit/inspiration post with no concrete Chanel bag observation; the Dior heels and charm are unrelated"
     },
     "t3_1mwr0ma": {
       "disposition": "deferred",
@@ -8492,10 +8495,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1oynne6": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-loewe-puzzle-1oynne6"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1oyrjbk": {
       "disposition": "deferred",
@@ -8876,10 +8882,10 @@
       "reason": "reviewed and not promoted: seller appreciation and ordering-process post without bag-specific product observations"
     },
     "t3_1p3grqz": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 87)"
+      "reason": "reviewed and not promoted: fresh-out-of-box Chanel 25 tweed arrival post with color preference and seller praise but no specific construction, QC, wear, or comparison observation"
     },
     "t3_1p3h0eg": {
       "disposition": "rejected",
@@ -11472,10 +11478,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1pz0s11": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-loewe-flamenco-1pz0s11"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1pz1fvj": {
       "disposition": "rejected",
@@ -12391,10 +12400,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qbeq83": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "reviewed and not promoted: mixed Large Flamenco and LV CarryAll purchase post containing seller/shipping praise but no specific bag observation beyond matching QC photos"
     },
     "t3_1qbfa4j": {
       "disposition": "rejected",
@@ -27871,10 +27880,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sxu3l1": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 63)"
+      "reason": "reviewed and not promoted: one-line Speedy 35 canvas praise and general request for opinions without a concrete QC, wear, or comparison observation"
     },
     "t3_1sxv8fs": {
       "disposition": "promoted",
@@ -41479,10 +41488,10 @@
       "reason": "above floor but outside the daily cap (priority 86)"
     },
     "t3_1utg3cd": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 86)"
+      "reason": "reviewed and not promoted: duplicate crosspost of the already promoted Axin Chanel QC review at t3_1utfhhw; the allegations and transaction dispute are already represented by the existing record"
     },
     "t3_1utgrlk": {
       "disposition": "deferred",
@@ -46798,10 +46807,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1vlkags": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-louis-vuitton-speedy-1vlkags"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 63)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1vlogqj": {
       "disposition": "deferred",

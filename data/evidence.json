@@ -23936,5 +23936,131 @@
     "negative_observations": [
       "No authentic comparison or longer-term wear result is provided, the Jinpin factory label is source-reported and not normalized, and seller praise, tariff/payment data, and contact details are excluded."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1vlkags",
+    "title": "LV Nano Speedy from HyperPeter",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vlkags/lv_nano_speedy_from_hyperpeter/",
+    "subreddit": "RealRepLadies",
+    "author": "XMikkix",
+    "publication_date": "2026-08-11",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "Inquiry 7/9; first PSPs 7/15; second PSPs 7/20; third replacement PSPs 7/21; delivered 8/7, as reported.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-hyper-peter"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Nano Speedy from Hyper Peter; color, material, and factory are not stated. Payment and contact details are excluded.",
+    "paraphrase": "A Hyper Peter Nano Speedy order went through three PSP rounds: the first showed a concern about a crooked logo on the front studs, the second raised uneven alignment and a possible zipper issue, and the third replacement was described as perfect before shipment; the bag was later delivered.",
+    "positive_observations": [
+      "The post identifies the Nano Speedy, seller, PSP-to-replacement sequence, delivery, and three concrete QC subjects.",
+      "It preserves the distinction between the first and second PSP concerns and the author's reported resolution in the third set rather than treating the seller process as product quality."
+    ],
+    "negative_observations": [
+      "The post does not state color, material, factory, or an authentic comparison, and the final 'perfect' assessment is the buyer's own unresolved visual judgment."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1mdggyj",
+    "title": "PSPs on Speedy P9",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1mdggyj/psps_on_speedy_p9/",
+    "subreddit": "RepTherapy",
+    "author": "nm0812",
+    "publication_date": "2025-07-30",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy P9; size, color, material, seller, and factory are not stated. The specific concern is about the bag's strap accessory.",
+    "paraphrase": "An owner reports that their Speedy P9 strap accessory lacks the LV logo while other PSP examples show mixed results, with some straps carrying the logo and others not; the owner has asked for a replacement.",
+    "positive_observations": [
+      "The post identifies the Speedy P9 and isolates a concrete accessory-level logo discrepancy from mixed PSP examples.",
+      "It preserves the requested replacement as unresolved rather than asserting whether the variation is a defect or a production change."
+    ],
+    "negative_observations": [
+      "The post does not state the P9 size, color, material, seller, factory, or final replacement result, and the logo variation is limited to the strap accessory."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1oynne6",
+    "title": "Early Xmas Begins - Thanks George!",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1oynne6/early_xmas_begins_thanks_george/",
+    "subreddit": "RepTherapy",
+    "author": "Shostakovich34",
+    "publication_date": "2025-11-16",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "Payment and PSP dates are excluded; the source reports receipt on 2025-11-15.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "Loewe Puzzle tote; size, color, material, seller, and exact tote sub-variant are not stated. The post also discusses a separate Loewe strap and a prior Featherlight Puzzle, and the source-reported Jing label is not mapped unambiguously to this tote. Payment and contact details are excluded.",
+    "paraphrase": "A received Loewe Puzzle tote is described as having a floral leather scent and solid hardware and stitching, with PSPs reported as accurate; the separate strap and prior Featherlight Puzzle are not treated as part of this tote record.",
+    "positive_observations": [
+      "The review records a received Puzzle tote and concrete in-hand observations about hardware, stitching, and the delivered result.",
+      "It keeps the tote separate from the unrelated strap and prior Puzzle purchase and does not force an uncertain factory label into the public roster."
+    ],
+    "negative_observations": [
+      "The exact tote variant, size, color, material, seller, factory, authentic comparison, and wear duration are not stated; generic seller praise and payment details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-flamenco-1pz0s11",
+    "title": "Juliet crushed it",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1pz0s11/juliet_crushed_it/",
+    "subreddit": "RepTherapy",
+    "author": "Mydogisc00lerthanme",
+    "publication_date": "2025-12-29",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The source reports an order on 12/9, PSPs on 12/10, and arrival on 12/24 during the holiday period.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Loewe Medium Flamenco in Abyss Blue; the linked official reference identifies nappa calfskin. Seller Juliet is source-reported but not normalized, and the factory is not stated. Payment and contact details are excluded.",
+    "paraphrase": "A received Medium Flamenco in Abyss Blue is described as having soft leather, a vivid blue hue, and an overall well-made feel; the source says the bag arrived safely and intact after the holiday shipment.",
+    "positive_observations": [
+      "The post identifies the Medium Flamenco, Abyss Blue color, linked nappa-calfskin reference, PSP stage, and received result.",
+      "It records specific in-hand observations about leather hand, color, and intact delivery while excluding the seller's name from normalization."
+    ],
+    "negative_observations": [
+      "The review is a short first impression without construction detail, authentic comparison, wear follow-up, or factory attribution; the source's seller praise and payment details are excluded."
+    ]
   }
 ]
