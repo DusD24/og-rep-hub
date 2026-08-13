@@ -1547,10 +1547,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1j20vrn": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1j20vrn"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1j2kz59": {
       "disposition": "rejected",
@@ -2639,10 +2642,13 @@
       "reason": "triage score 9 below floor 30"
     },
     "t3_1l12wub": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1l12wub"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 59)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1l17al7": {
       "disposition": "rejected",
@@ -22291,7 +22297,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 35)"
+      "reason": "Exact item is a Mini Lady D-Joy, a distinct uncatalogued Dior model; preserve the lead for a separate D-Joy catalog decision rather than attaching it to Lady Dior."
     },
     "t3_1r5kig2": {
       "disposition": "rejected",
@@ -27613,10 +27619,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1s0ffw0": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1s0ffw0"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1s0iqn8": {
       "disposition": "rejected",
@@ -28957,10 +28966,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1s68af5": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1s68af5"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1s68d2e": {
       "disposition": "promoted",
@@ -29794,10 +29806,13 @@
       "reason": "reviewed and not promoted: asks for a factory recommendation before ordering; no bag in hand"
     },
     "t3_1san8tu": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1san8tu"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sar2h9": {
       "disposition": "deferred",
@@ -32827,10 +32842,13 @@
       "reason": "reviewed and not promoted: generic in-hand praise of a Margaux 15 with no construction, material, hardware, or comparison observation"
     },
     "t3_1sod7rs": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1sod7rs"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sodezm": {
       "disposition": "deferred",
@@ -34321,10 +34339,10 @@
       "reason": "triage score 14 below floor 30"
     },
     "t3_1sudhzn": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "reviewed and not promoted: Short post is primarily generic praise and an unresolved dark-brown color question without enough variant, reference, or construction detail for public evidence."
     },
     "t3_1sudmp4": {
       "disposition": "deferred",
@@ -36088,10 +36106,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t1xf8p": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 64)"
+      "reason": "reviewed and not promoted: Pre-purchase factory-stock and seller-availability question for a Medium Classic Flap; no owned-bag observation."
     },
     "t3_1t1yixs": {
       "disposition": "deferred",
@@ -46728,10 +46746,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u9kbjh": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 35)"
+      "reason": "reviewed and not promoted: Pre-purchase request for the highest-quality Dior Tote source; no owned-bag evidence or concrete product observation."
     },
     "t3_1u9lmug": {
       "disposition": "rejected",
