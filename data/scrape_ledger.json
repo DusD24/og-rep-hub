@@ -1496,10 +1496,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1iv7j2d": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1iv7j2d"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1iw1hjm": {
       "disposition": "rejected",
@@ -17239,10 +17242,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qi4uh9": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 50)"
+      "reason": "reviewed and not promoted: The post is a seller solicitation advertising a catalogue and directing readers to WhatsApp; it contains no specific bag inspection or evidence observation."
     },
     "t3_1qi4x82": {
       "disposition": "deferred",
@@ -17464,10 +17467,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qiuhy5": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1qiuhy5"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 35)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qivk6p": {
       "disposition": "deferred",
@@ -19630,10 +19636,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qt23mw": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 50)"
+      "reason": "reviewed and not promoted: The post is a seller solicitation advertising a catalogue and directing readers to WhatsApp; it contains no specific Speedy 25 observation or review evidence."
     },
     "t3_1qt2q1o": {
       "disposition": "deferred",
@@ -28384,10 +28390,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1s3jpxl": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 43)"
+      "reason": "reviewed and not promoted: The post asks where to source a pink vintage Classic Flap and names a seller's availability; it is a sourcing request, not evidence about a received or inspected bag."
     },
     "t3_1s3kopr": {
       "disposition": "deferred",
@@ -29950,10 +29956,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sb9xuq": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1sb9xuq"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 35)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sbag9z": {
       "disposition": "deferred",
@@ -35680,10 +35689,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sz77v8": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1sz77v8"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 35)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sz7sso": {
       "disposition": "deferred",
@@ -44467,10 +44479,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u1h5w9": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 43)"
+      "reason": "reviewed and not promoted: The sanitized post body is empty and the comments are only generic excitement about a future haul; there is no product observation, QC finding, or review to normalize."
     },
     "t3_1u1ltbg": {
       "disposition": "rejected",
