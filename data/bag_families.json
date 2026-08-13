@@ -744,7 +744,8 @@
       "ev-rll-goyard-gm",
       "ev-rt-goyard-gm",
       "ev-crawl-rll-goyard-stlouis-green-2026",
-      "ev-crawl-rlw-saint-louis-navy-2026"
+      "ev-crawl-rlw-saint-louis-navy-2026",
+      "ev-crawl-rrl-goyard-saint-louis-1syxx05"
     ],
     "documented_sizes": [
       "GM"
@@ -756,8 +757,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 4,
-      "independent_author_count": 4,
+      "source_count": 5,
+      "independent_author_count": 5,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepLadiesWorld",
@@ -770,7 +771,7 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-08",
+    "last_updated": "2026-08-13",
     "research_gaps": [
       "Keep grey and Burgundy GM reports separate.",
       "Treat the tentative Lemon name and absent Griffin factory as unresolved."
@@ -799,7 +800,8 @@
       "ev-crawl-bottomup-1hs83r7",
       "ev-crawl-bottomup-1fvrpbt",
       "ev-crawl-rrl-hermes-birkin-1plkt2d",
-      "ev-crawl-rrl-hermes-birkin-1u5hnue"
+      "ev-crawl-rrl-hermes-birkin-1u5hnue",
+      "ev-crawl-rrl-hermes-birkin-25-1ug877t"
     ],
     "documented_sizes": [
       "25"
@@ -813,8 +815,8 @@
       "brushed palladium"
     ],
     "evidence_coverage": {
-      "source_count": 8,
-      "independent_author_count": 7,
+      "source_count": 9,
+      "independent_author_count": 8,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepLadiesWorld",
@@ -849,7 +851,8 @@
     "documented_variant_ids": [],
     "evidence_ids": [
       "ev-rll-arcadie",
-      "ev-rt-arcadie"
+      "ev-rt-arcadie",
+      "ev-crawl-rrl-miu-miu-arcadie-1sb6q18"
     ],
     "documented_sizes": [
       "27 cm",
@@ -862,8 +865,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 2,
-      "independent_author_count": 2,
+      "source_count": 3,
+      "independent_author_count": 3,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepTherapy"
@@ -871,10 +874,11 @@
       "image_ready": true,
       "evidence_types": [
         "auth_comparison",
-        "in_hand_review"
+        "in_hand_review",
+        "long_term_wear"
       ]
     },
-    "last_updated": "2026-08-08",
+    "last_updated": "2026-08-13",
     "research_gaps": [
       "Keep 27 cm cognac and matelassé reports separate.",
       "Resolve hardware details from exact-variant source material."
@@ -1299,7 +1303,8 @@
       "ev-crawl-rt-balenciaga-rodeo-1ovkc38",
       "ev-crawl-rt-balenciaga-rodeo-1qk2mxn",
       "ev-crawl-rt-balenciaga-rodeo-1pkdcp8",
-      "ev-crawl-rlw-balenciaga-rodeo-1qvkouy"
+      "ev-crawl-rlw-balenciaga-rodeo-1qvkouy",
+      "ev-crawl-rrl-balenciaga-rodeo-1semiu4"
     ],
     "documented_sizes": [
       "Medium"
@@ -1311,8 +1316,8 @@
       "aged silver"
     ],
     "evidence_coverage": {
-      "source_count": 17,
-      "independent_author_count": 17,
+      "source_count": 18,
+      "independent_author_count": 18,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -1576,7 +1581,8 @@
       "ev-crawl-rrl-hermes-kelly-1ju27tq",
       "ev-crawl-rrl-hermes-kelly-1giq3ld",
       "ev-crawl-rrl-hermes-kelly-1gof7fh",
-      "ev-crawl-rrl-hermes-kelly-1ojhzrg"
+      "ev-crawl-rrl-hermes-kelly-1ojhzrg",
+      "ev-crawl-rrl-hermes-kelly-1vaxqsd"
     ],
     "documented_sizes": [
       "28"
@@ -1588,8 +1594,8 @@
       "gold-tone hardware reported"
     ],
     "evidence_coverage": {
-      "source_count": 15,
-      "independent_author_count": 15,
+      "source_count": 16,
+      "independent_author_count": 16,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
