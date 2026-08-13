@@ -206,7 +206,8 @@
       "ev-crawl-rrl-chanel-classic-flap-1j20vrn",
       "ev-crawl-rrl-chanel-classic-flap-1l12wub",
       "ev-crawl-rrl-chanel-classic-flap-1o6eekj",
-      "ev-crawl-rt-chanel-classic-flap-1u255hr"
+      "ev-crawl-rt-chanel-classic-flap-1u255hr",
+      "ev-crawl-rt-chanel-classic-flap-1tsig4i"
     ],
     "documented_sizes": [
       "not stated in selected sources"
@@ -218,8 +219,8 @@
       "gold-tone hardware reported or requested"
     ],
     "evidence_coverage": {
-      "source_count": 64,
-      "independent_author_count": 57,
+      "source_count": 65,
+      "independent_author_count": 58,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -1700,7 +1701,8 @@
       "ev-crawl-rrl-chanel-vanity-slim-1v5mz5x",
       "ev-crawl-rrl-chanel-vanity-slim-1vdas8b",
       "ev-crawl-rt-chanel-vanity-1r2u9yg",
-      "ev-crawl-rt-chanel-vanity-slim-1uh3v6p"
+      "ev-crawl-rt-chanel-vanity-slim-1uh3v6p",
+      "ev-crawl-rcb-chanel-vanity-slim-1sdqva9"
     ],
     "documented_sizes": [
       "not stated in selected source"
@@ -1712,10 +1714,11 @@
       "not stated in selected source"
     ],
     "evidence_coverage": {
-      "source_count": 9,
-      "independent_author_count": 9,
+      "source_count": 10,
+      "independent_author_count": 10,
       "primary_subreddit_coverage": [
         "RealRepLadies",
+        "RepCulture_Bags",
         "RepTherapy"
       ],
       "image_ready": true,

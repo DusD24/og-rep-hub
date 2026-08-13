@@ -31023,5 +31023,69 @@
       "Color, size, material, hardware variant, batch, and authentic comparison are not stated."
     ],
     "exact_variant_note": "Chanel Classic Flap at PSP/QC stage with source-reported 187 Factory attribution and seller Baobao; color, size, material, hardware variant, and batch are not stated."
+  },
+  {
+    "id": "ev-crawl-rt-chanel-classic-flap-1tsig4i",
+    "title": "Auth vs Rep: Mini Classic flap vs Large Classic Flap",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1tsig4i/auth_vs_rep_mini_classic_flap_vs_large_classic/",
+    "subreddit": "RepTherapy",
+    "author": "Safe-Animator1771",
+    "publication_date": "2026-05-31",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An auth Mini Chanel Classic Flap versus a rep Large Classic Flap comparison says the authentic leather is somewhat softer while the rep has more puff, with only a small perceived difference.",
+    "positive_observations": [
+      "The author explicitly identifies the auth Mini and rep Large Classic Flap and compares material feel and quilting puff.",
+      "The comparison records a concrete difference rather than generic praise or a seller recommendation."
+    ],
+    "negative_observations": [
+      "The comparison is not like-for-like because the auth and rep are different sizes, and seller, factory, color, hardware, and batch are not stated.",
+      "The short post gives an early personal comparison with no long-term wear observation or additional construction detail."
+    ],
+    "exact_variant_note": "Auth Mini versus rep Large Chanel Classic Flap; the comparison reports softer auth leather and more puff on the rep, while seller, factory, color, hardware, and batch are not stated."
+  },
+  {
+    "id": "ev-crawl-rcb-chanel-vanity-slim-1sdqva9",
+    "title": "Chanel vanity mini 2026 QC",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1sdqva9/chanel_vanity_mini_2026_qc/",
+    "subreddit": "RepCulture_Bags",
+    "author": "Doctorcutiepatootie",
+    "publication_date": "2026-04-06",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-vanity-slim"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A Chanel Vanity Mini in lambskin with gold-tone hardware is submitted for PSP/QC against an authentic reference; the author flags color, raised or thick CC details, and excess zipper fabric.",
+    "positive_observations": [
+      "The post identifies a small Chanel vanity with chain, lambskin, and gold-tone hardware and includes an authentic product reference.",
+      "It records specific color, CC hardware/font, and zipper-construction concerns rather than a generic quality request."
+    ],
+    "negative_observations": [
+      "The observations are photo-based and pre-delivery; factory is unknown and there is no received-bag or wear follow-up.",
+      "Seller Lulu is source-reported but not normalized, and exact color, size beyond the product reference, batch, and final QC outcome are not established."
+    ],
+    "exact_variant_note": "Chanel small Vanity with Chain in lambskin and gold-tone hardware at PSP/QC stage against an authentic reference; factory is unknown and seller Lulu is not normalized."
   }
 ]

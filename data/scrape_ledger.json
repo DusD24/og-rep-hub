@@ -2861,10 +2861,10 @@
       "reason": "triage score 28 below floor 30"
     },
     "t3_1l9h5xk": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 50)"
+      "reason": "reviewed and not promoted: Pre-purchase request for a high-quality Nano Speedy and Alma seller; no owned-bag evidence or concrete product observation."
     },
     "t3_1l9n8sr": {
       "disposition": "rejected",
@@ -7808,10 +7808,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1o3vlk9": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "reviewed and not promoted: Classic Flap QC post has no substantive sanitized text or concrete product observation."
     },
     "t3_1o3vof6": {
       "disposition": "deferred",
@@ -10559,10 +10559,10 @@
       "reason": "above floor but outside the daily cap (priority 53)"
     },
     "t3_1oxqa8a": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "reviewed and not promoted: Pre-purchase light-gold versus gold hardware/color discussion asks for community photos and preference help; no owned-bag observation."
     },
     "t3_1oxto9e": {
       "disposition": "deferred",
@@ -30388,10 +30388,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sdqva9": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rcb-chanel-vanity-slim-1sdqva9"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sdr23j": {
       "disposition": "deferred",
@@ -42322,10 +42325,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tsig4i": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-chanel-classic-flap-1tsig4i"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1tsihch": {
       "disposition": "rejected",
@@ -46689,10 +46695,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u9crml": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "reviewed and not promoted: Pre-purchase request for a taupe/greige Chanel Classic Flap asks for the best version, seller, and factory; no owned-bag evidence or concrete observation."
     },
     "t3_1u9efp2": {
       "disposition": "deferred",
@@ -56881,10 +56887,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1vf7yl1": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 52)"
+      "reason": "reviewed and not promoted: Speedy P9 Firefly post is generic praise and says the glow feature has not yet been tested; it records no concrete construction, wear, or comparison observation."
     },
     "t3_1vf8jsw": {
       "disposition": "deferred",
@@ -58120,10 +58126,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1vjw2om": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "reviewed and not promoted: Pre-purchase discussion compares buying a rep with vintage Chanel and asks whether reps are worthwhile; no owned-bag observation."
     },
     "t3_1vjw6pv": {
       "disposition": "deferred",
