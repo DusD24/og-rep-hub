@@ -16336,5 +16336,297 @@
       "The inner black print is lighter, the seam-logo font differs slightly, and the bag arrived with a chemical smell rather than the expected leather smell.",
       "Rainbow is left unattributed because no normalized seller or factory entity is established in the catalog."
     ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1us1gae",
+    "title": "LV Low Key Speedy 30 (MB Factory) 🖤",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1us1gae/lv_low_key_speedy_30_mb_factory/",
+    "subreddit": "RepTherapy",
+    "author": "Fast-Calligrapher-98",
+    "publication_date": "2026-07-09",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-mb"
+    ],
+    "exact_product_match": false,
+    "exact_variant_note": "The source explicitly identifies a Low Key Speedy 30, but the current family documentation does not otherwise enumerate this variant.",
+    "paraphrase": "An in-hand LV Low Key Speedy 30 attributed by the source to MB Factory is described as very supple with a relaxed slouch. Compared with an earlier version that felt stiffer and drier and had a black interior, this version has a brown interior the author says resembles the brown suede interior of an authentic reference; the author also reports direct in-person exposure to authentic bags.",
+    "positive_observations": [
+      "The report records a concrete difference in leather softness and slouch between two versions of the explicitly identified Low Key Speedy 30.",
+      "The author compares the brown interior and generally good hardware with an authentic reference and leaves the source-reported MB attribution visible without adding a seller."
+    ],
+    "negative_observations": [
+      "The exact variant is not otherwise enumerated in the current Speedy family documentation, and the seller, color, and material are not stated.",
+      "The observations are one owner's comparison and the factory attribution remains source-reported."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1tch7zd",
+    "title": "Mini lady Dior from Heidy QC check",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1tch7zd/mini_lady_dior_from_heidy_qc_check/",
+    "subreddit": "RealRepLadies",
+    "author": "neptuneglider",
+    "publication_date": "2026-05-13",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-heidy"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A follow-up PSP review for a red Mini Lady Dior attributed by the source to Heidy and God records specific concerns raised after an earlier post: the hardware appears too yellow compared with the author's authentic Dior reference, the handles look too loose, and the stitching color looks too bright. The follow-up includes the bag in different lighting.",
+    "positive_observations": [
+      "The post identifies the Mini Lady Dior and isolates hardware tone, handle tension, and stitching color as separate QC observations against an authentic Dior reference.",
+      "The source reports a God attribution and supplies a follow-up set of photos rather than only a generic approval request."
+    ],
+    "negative_observations": [
+      "The hardware, handle, and stitching concerns are unresolved in the capture; this is PSP evidence and does not establish how the received bag performed.",
+      "Seller and factory roles remain source-reported."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-flamenco-1rtfdob",
+    "title": "QC for Medium Flamenco",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1rtfdob/qc_for_medium_flamenco/",
+    "subreddit": "RepTherapy",
+    "author": "sadp0tatoe",
+    "publication_date": "2026-03-14",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC post for a medium brown Loewe Flamenco flags a perceived difference in the strap stitching when the bag is compared with the factory photos and asks for review of that specific detail.",
+    "positive_observations": [
+      "The post identifies the medium brown Flamenco and narrows the QC question to strap stitching rather than making only a general quality claim."
+    ],
+    "negative_observations": [
+      "The author is unsure whether the difference is meaningful because the factory photos vary, and the capture does not record a final decision or an in-hand result.",
+      "Seller, factory, material, and final resolution are not stated."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1ry8mhq",
+    "title": "First rep received",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ry8mhq/first_rep_received/",
+    "subreddit": "RepTherapy",
+    "author": "Mother-Sector3085",
+    "publication_date": "2026-03-19",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand report for a small Loewe Puzzle says the received bag has a non-leathery smell, a handle that sits tightly against the top and makes the flap difficult to lift, and a more rigid feel than the author's reference.",
+    "positive_observations": [
+      "The first-rep report records specific smell, handle clearance, flap operation, and structure observations for a small Puzzle after receipt."
+    ],
+    "negative_observations": [
+      "The author describes a non-leathery smell, restricted flap access, and greater rigidity than the reference; no wear period, seller, factory, color, or material attribution is stated."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1rz5p2v",
+    "title": "Qc Loewe biker puzzle bag",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1rz5p2v/qc_loewe_biker_puzzle_bag/",
+    "subreddit": "RepTherapy",
+    "author": "Harambae4eva",
+    "publication_date": "2026-03-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC post for a black Loewe Biker Puzzle compares the back-panel geometry and angles with authentic reference photos. The author says the lines look less crisp or otherwise off and asks whether the zipper and construction are concerning.",
+    "positive_observations": [
+      "The post identifies the Biker Puzzle and records a concrete geometry comparison involving the back panels, angles, zipper, and construction."
+    ],
+    "negative_observations": [
+      "The author is inexperienced and the geometry concern is unresolved in the capture; the bag was still at PSP stage.",
+      "Seller, factory, material, and final outcome are not stated."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1ta71ux",
+    "title": "Review: Speedy B25 DE Royal Factory and seller LeLe",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ta71ux/review_speedy_b25_de_royal_factory_and_seller_lele/",
+    "subreddit": "RealRepLadies",
+    "author": "rosieleo1218",
+    "publication_date": "2026-05-11",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a Speedy B25 in Damier Ebene attributed by the source to Royal reports updated shiny gold hardware, crisp canvas that is slightly darker than the author's other Damier Ebene pieces, and a low-maintenance, high-style result.",
+    "positive_observations": [
+      "The report preserves the B25 size, Damier Ebene variant, and source-reported Royal attribution while recording hardware finish and canvas appearance after receipt.",
+      "The author reports the bag as practical to maintain and stylish, alongside the more specific hardware and canvas observations."
+    ],
+    "negative_observations": [
+      "The favorable styling and maintenance comments are subjective and no direct authentic comparison or wear duration is stated.",
+      "The seller named in the title is not normalized here; the factory attribution remains source-reported."
+    ]
+  },
+  {
+    "id": "ev-crawl-rcb-louis-vuitton-neverfull-1tehwcl",
+    "title": "QC photos for neverfull",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1tehwcl/qc_photos_for_neverfull/",
+    "subreddit": "RepCulture_Bags",
+    "author": "nicobiggie",
+    "publication_date": "2026-05-16",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "The capture identifies a Neverfull but does not state the size, material, color, seller, or factory.",
+    "paraphrase": "A Neverfull PSP QC post says the side alignment looks completely off and asks whether the mismatch is a factory issue; the capture also records that the seller said the factory would not replace a bag for that reason.",
+    "positive_observations": [
+      "The post isolates a specific side-alignment concern in the PSPs instead of offering only a general approval request."
+    ],
+    "negative_observations": [
+      "The alignment issue is unresolved, and the seller's replacement position is not independent evidence about the bag's construction.",
+      "The exact Neverfull size, material, color, seller, factory, and final outcome are not stated."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-the-row-margaux-1t3a7qn",
+    "title": "Margaux shoulder 12 bag",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1t3a7qn/margaux_shoulder_12_bag/",
+    "subreddit": "RealRepLadies",
+    "author": "pizzaunlimited",
+    "publication_date": "2026-05-04",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The author says the second Margaux Shoulder 12 arrived on April 29 after a first bag was rejected for poor logo stamping and a replacement PSP was approved; exact order details are not normalized.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-the-row-margaux"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-kendall"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A received The Row Margaux Shoulder 12 in soft, supple leather attributed by the source to Baobao and Kendall is reported to develop side wrinkling or creasing. The author worries that the logo stamp may wear off and compares it with deeper, shinier examples in authentic videos; a first bag was rejected for poor stamping and a replacement PSP was approved.",
+    "positive_observations": [
+      "The report identifies the Margaux Shoulder 12 and records leather feel, side creasing, logo-stamp appearance, and a concrete replacement-PSP sequence.",
+      "The author uses authentic comparison videos for the stamp assessment, while seller and factory remain source-reported catalog entities."
+    ],
+    "negative_observations": [
+      "The source raises a concern that the logo stamp may wear but does not document actual stamp loss or a long-term outcome.",
+      "The side creasing and source-reported Kendall attribution are one owner's observations and do not establish a general result."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-the-row-margaux-1tj0xd9",
+    "title": "BaoBao Margaux 12",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1tj0xd9/baobao_margaux_12/",
+    "subreddit": "RealRepLadies",
+    "author": "ZottZottZott",
+    "publication_date": "2026-05-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "The author records inquiry on April 27, payment on May 8, PSPs on May 10, shipment on May 12, and arrival on May 20; the payment amount is excluded.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-the-row-margaux"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-kendall"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a crocodile-embossed dusty-pink Margaux 12 attributed by the source to Baobao and Kendall reports a leather smell on arrival, a body that holds its shape without feeling rigid, crocodile embossing that looks neither shiny nor plasticky in natural light, and hardware in a good gold tone.",
+    "positive_observations": [
+      "The report preserves the Margaux 12 size, dusty-pink color, crocodile-embossed finish, and concrete observations about smell, structure, embossing, and hardware after receipt.",
+      "The source gives a dated inquiry-to-arrival timeline and a source-reported Kendall attribution without adding private payment information."
+    ],
+    "negative_observations": [
+      "The report does not include an authentic comparison or a longer-term wear result, and the favorable assessments are one owner's observations.",
+      "Seller and factory roles remain source-reported."
+    ]
   }
 ]
