@@ -230,7 +230,7 @@ class DataTests(unittest.TestCase):
             if row["publication_status"] == "research_queue"
         }
         self.assertIn("balmain-anthem", queued)
-        self.assertIn("ferragamo-hug", queued)
+        self.assertIn("celine-new-luggage", queued)
         families = load("bag_families")
         self.assertTrue(all(bool(row.get("tile_media_id")) ^ bool(row.get("hero_icon")) for row in families))
         self.assertTrue(all(row["publication_status"] == "research_queue" for row in queued.values()))

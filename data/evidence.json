@@ -1991,39 +1991,6 @@
     ]
   },
   {
-    "id": "ev-crawl-rt-ferragamo-hug-2026",
-    "title": "Ferragamo Hug Soft Large in-hand review",
-    "source_type": "reddit_review",
-    "evidence_type": "in_hand_review",
-    "url": "https://www.reddit.com/r/RepTherapy/comments/1ublml6/ferragamo_hug_soft_large_review_my_quiet_luxury_work_bag_of_my_dreams_lol/",
-    "subreddit": "RepTherapy",
-    "author": "soxsr",
-    "publication_date": "2026-06-21",
-    "publication_date_precision": "month_estimate",
-    "access_date": "2026-08-08",
-    "exact_product_match": true,
-    "seller_ids": [],
-    "factory_ids": [],
-    "bag_ids": [],
-    "family_ids": [
-      "bag-family-ferragamo-hug"
-    ],
-    "price": null,
-    "shipping_timeline": null,
-    "paraphrase": "An in-hand review covers a large black-and-oxblood Ferragamo Hug Soft work bag, describing soft leather, interior capacity, and use as a laptop-friendly everyday tote.",
-    "positive_observations": [
-      "Independent public author from r/RepTherapy.",
-      "Exact model and large work-bag use case are described with practical capacity observations."
-    ],
-    "negative_observations": [
-      "Seller and factory are not disclosed in the normalized record.",
-      "This is an early impression rather than long-term wear evidence."
-    ],
-    "media_ids": [
-      "media-ferragamo-hug-soft-reddit"
-    ]
-  },
-  {
     "id": "ev-crawl-rll-ferragamo-hug-2026",
     "title": "Ferragamo Soft Hug PSP/QC",
     "source_type": "reddit_qc",
@@ -4154,7 +4121,9 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": "Ordered 12 June; PSPs received 13 June; delivered 21 June, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-ferragamo-hug-soft-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
@@ -4581,8 +4550,7 @@
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
-      "bag-family-hermes-birkin-25",
-      "bag-family-hermes-kelly"
+      "bag-family-hermes-birkin-25"
     ],
     "bag_ids": [],
     "seller_ids": [],
@@ -4851,7 +4819,7 @@
     "bag_ids": [],
     "seller_ids": [],
     "factory_ids": [],
-    "exact_product_match": true,
+    "exact_product_match": false,
     "paraphrase": "An in-hand review of a Kelly Elan in Bamboo from a seller identified as Peter (not in this catalog's roster), reporting imported chèvre-exterior, swift-interior leather, fully hand-stitched construction, and that the buyer chose not to add upgraded brass hardware.",
     "positive_observations": [
       "Specifies the exact leather combination and stitching method rather than a general leather-quality claim."
@@ -4948,7 +4916,7 @@
       "seller-andy"
     ],
     "factory_ids": [],
-    "exact_product_match": true,
+    "exact_product_match": false,
     "paraphrase": "A QC request for a mini Kelly from a seller identified as Andy, contacted via Instagram, comparing a seller-provided video screenshot of the bag's blind-stamp imprint against a reference authentic imprint sourced from Fashionphile; the buyer says the screenshot detail is hard to make out and asks for help assessing it.",
     "positive_observations": [
       "Uses a specific, checkable authentication point (the blind-stamp imprint) against a named third-party authentic reference rather than a general impression."
@@ -5010,7 +4978,7 @@
     "bag_ids": [],
     "seller_ids": [],
     "factory_ids": [],
-    "exact_product_match": true,
+    "exact_product_match": false,
     "paraphrase": "A QC post for a Kelly 25 in Togo leather (chosen over Swift to avoid a longer custom lead time), where the buyer notes the seller-provided video shows a noticeably lighter colour than the still photos and was told to trust the video as more accurate; the buyer, new to both Hermès and reps, asks for general guidance on what to look for.",
     "positive_observations": [
       "Documents a specific, recurring evidentiary limitation directly: video and photo colour capture disagreeing for the same bag, with the seller's own guidance on which to trust.",
@@ -5243,7 +5211,7 @@
       "seller-jim"
     ],
     "factory_ids": [],
-    "exact_product_match": true,
+    "exact_product_match": false,
     "paraphrase": "An in-hand review of a Mini Kelly in Blue Celeste Epsom with gold hardware from Jim: the buyer reports crisp, even Epsom texture, clean stitching, neat glazing, straight sangles, balanced hardware, a firm structure, and a warm rather than brassy gold tone after approving the PSPs and receiving the bag.",
     "positive_observations": [
       "Provides multiple itemised construction observations—Epsom texture, stitching, glazing, sangles, structure, and hardware—instead of only an overall rating.",
@@ -6029,7 +5997,7 @@
     "bag_ids": [],
     "seller_ids": [],
     "factory_ids": [],
-    "exact_product_match": true,
+    "exact_product_match": false,
     "paraphrase": "An in-hand Mini Kelly review comparing a rep from an Instagram seller the author calls elite_.q with the author’s own authentic Mini Kelly: the author reports close dimensions, luxurious chèvre leather, clean precise stitching, and hardware that feels close to the authentic, while preferring this bag’s leather to a separate Mini Kelly from UB.",
     "positive_observations": [
       "Uses the author’s own authentic Mini Kelly as a comparison basis and names dimensions, chèvre leather, stitching, and hardware.",
@@ -6648,7 +6616,7 @@
     "bag_ids": [],
     "seller_ids": [],
     "factory_ids": [],
-    "exact_product_match": true,
+    "exact_product_match": false,
     "paraphrase": "A Kelly 25 PSP QC post says the metal appears too yellow when compared with a third-party article used as an “original inspiration” reference and asks whether the author is overthinking it.",
     "positive_observations": [
       "The author identifies a Kelly 25 and isolates hardware color as a checkable QC point rather than offering only a general approval request."
@@ -9343,7 +9311,7 @@
     "bag_ids": [],
     "seller_ids": [],
     "factory_ids": [],
-    "exact_product_match": true,
+    "exact_product_match": false,
     "paraphrase": "An auth-comparison review of a Mini Kelly in Epsom Rose Extreme with palladium-tone hardware reports clean consistent grain, a firm Epsom feel, saddle stitching with minor hand-stitching imperfections, clean hardware text, and a correctly placed readable stamp; the author says they own several authentics and considers the leather and hardware close to their standard.",
     "positive_observations": [
       "The post identifies the Mini Kelly Epsom Rose Extreme PHW variant and records leather grain and feel, saddle stitching, hardware lettering, and stamp placement against the author’s experience with authentic bags."
@@ -9571,68 +9539,6 @@
     ],
     "negative_observations": [
       "The handles look a little uneven in the PSPs, but the author cannot determine whether this is a defect or an effect of soft leather."
-    ]
-  },
-  {
-    "id": "ev-crawl-rrl-chanel-25-1sorb74",
-    "title": "Help QC chanel 25 mini",
-    "url": "https://www.reddit.com/r/RealRepLadies/comments/1sorb74/help_qc_chanel_25_mini/",
-    "subreddit": "RealRepLadies",
-    "author": "Known_Sun9296",
-    "publication_date": "2026-04-18",
-    "publication_date_precision": "exact",
-    "access_date": "2026-08-12",
-    "price": null,
-    "shipping_timeline": null,
-    "media_ids": [],
-    "source_type": "reddit_qc",
-    "evidence_type": "psp_qc",
-    "family_ids": [
-      "bag-family-chanel-25"
-    ],
-    "bag_ids": [],
-    "seller_ids": [],
-    "factory_ids": [
-      "factory-187"
-    ],
-    "exact_product_match": true,
-    "paraphrase": "A PSP QC request for a Chanel 25 Mini attributed to 187 flags a pocket logo that looks split and a possible scratch or cut on the same pocket.",
-    "positive_observations": [
-      "The post identifies a Chanel 25 Mini and a source-reported 187 attribution, with the pocket as the specific QC area."
-    ],
-    "negative_observations": [
-      "The pocket logo appears split and the pocket may have a scratch or cut in the PSPs; the author asks for review rather than reporting a resolved defect."
-    ]
-  },
-  {
-    "id": "ev-crawl-rrl-chanel-25-1t1vyo9",
-    "title": "Chanel 25 mini silver - from Amelia - 187 factory",
-    "url": "https://www.reddit.com/r/RealRepLadies/comments/1t1vyo9/chanel_25_mini_silver_from_amelia_187_factory/",
-    "subreddit": "RealRepLadies",
-    "author": "Impressive-Gene-411",
-    "publication_date": "2026-05-02",
-    "publication_date_precision": "exact",
-    "access_date": "2026-08-12",
-    "price": null,
-    "shipping_timeline": null,
-    "media_ids": [],
-    "source_type": "reddit_review",
-    "evidence_type": "in_hand_review",
-    "family_ids": [
-      "bag-family-chanel-25"
-    ],
-    "bag_ids": [],
-    "seller_ids": [],
-    "factory_ids": [
-      "factory-187"
-    ],
-    "exact_product_match": true,
-    "paraphrase": "An in-hand review of a silver Chanel 25 Mini attributed to 187 reports that the chain and logo have the heft the author expects from a Chanel bag after arrival.",
-    "positive_observations": [
-      "The author identifies the silver Chanel 25 Mini and records a specific in-hand weight and hardware impression for the chain and logo."
-    ],
-    "negative_observations": [
-      "The review does not provide a detailed construction audit or direct authentic side-by-side; most additional text concerns ordering speed and seller experience."
     ]
   },
   {
@@ -12714,7 +12620,7 @@
     "publication_date": "2025-03-28",
     "publication_date_precision": "exact",
     "access_date": "2026-08-13",
-    "exact_product_match": true,
+    "exact_product_match": false,
     "seller_ids": [],
     "factory_ids": [],
     "bag_ids": [],
@@ -12744,7 +12650,7 @@
     "publication_date": "2025-04-08",
     "publication_date_precision": "exact",
     "access_date": "2026-08-13",
-    "exact_product_match": true,
+    "exact_product_match": false,
     "seller_ids": [],
     "factory_ids": [],
     "bag_ids": [],
@@ -12761,39 +12667,6 @@
     "negative_observations": [
       "No settled PSP conclusion, in-hand outcome, seller attribution, or factory attribution is captured.",
       "The comparison images are not independently authenticated in the local capture."
-    ],
-    "media_ids": []
-  },
-  {
-    "id": "ev-crawl-rt-dior-saddle-1tiup96",
-    "title": "Alina - D**r small saddle men’s bags review",
-    "source_type": "reddit_review",
-    "evidence_type": "in_hand_review",
-    "url": "https://www.reddit.com/r/RepTherapy/comments/1tiup96/alina_dr_small_saddle_mens_bags_review/",
-    "subreddit": "RepTherapy",
-    "author": "yax29",
-    "publication_date": "2026-05-20",
-    "publication_date_precision": "exact",
-    "access_date": "2026-08-13",
-    "exact_product_match": false,
-    "seller_ids": [
-      "seller-alina"
-    ],
-    "factory_ids": [],
-    "bag_ids": [],
-    "family_ids": [
-      "bag-family-dior-saddle"
-    ],
-    "price": null,
-    "shipping_timeline": null,
-    "paraphrase": "An in-hand review of a small Dior Saddle Messenger for men, ordered through Alina, reports roughly fifteen days from first contact to delivery and says the author is happy with the feel after comparing the QC photos with retail images; the seller's LiLi factory and cowhide claims remain unresolved.",
-    "positive_observations": [
-      "The review identifies a small Saddle Messenger, reports a QC-to-delivery timeline, and records an in-hand feel assessment based on retail-photo comparison.",
-      "The public seller name Alina is mapped while the uncertain LiLi label is not turned into a factory entity."
-    ],
-    "negative_observations": [
-      "The capture provides little construction detail beyond feel and does not establish exact color, measurements, or hardware observations.",
-      "Private contact and payment information are excluded, and the seller's material/factory claims are not independently verified."
     ],
     "media_ids": []
   },
@@ -13267,7 +13140,7 @@
     "bag_ids": [],
     "seller_ids": [],
     "factory_ids": [],
-    "exact_product_match": true,
+    "exact_product_match": false,
     "paraphrase": "An in-hand review reports a black Kelly 25 Sellier in Epsom with upgraded hardware from Mark, describing the leather as excellent, the hardware as very shiny like the author's authentic bags, and the craftsmanship as impressive. The source does not identify a factory.",
     "positive_observations": [
       "The source identifies the Kelly 25 Sellier format, black colorway, Epsom leather, and upgraded hardware and reports direct handling of the received bag.",
@@ -13396,7 +13269,7 @@
     "bag_ids": [],
     "seller_ids": [],
     "factory_ids": [],
-    "exact_product_match": true,
+    "exact_product_match": false,
     "paraphrase": "A received black Togo Sellier Kelly 35 from Minion has upgraded hardware and interior leather. The author rejected an earlier handle shape during the three-month order process, then reports being very happy with the revised bag; the lock arrived scratched.",
     "positive_observations": [
       "The source identifies the Kelly 35, black Togo leather, Sellier construction, upgraded hardware and interior leather.",
@@ -14970,39 +14843,6 @@
     "negative_observations": [
       "The seal concern is unresolved at PSP stage, with no seller response or received-bag result captured.",
       "The exact size, material, colorway, seller, and authentic reference are not stated."
-    ]
-  },
-  {
-    "id": "ev-crawl-rlw-chanel-vanity-slim-1un2zin",
-    "title": "QC help my Chanel vanity please",
-    "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1un2zin/qc_help_my_chanel_vanity_please/",
-    "subreddit": "RepLadiesWorld",
-    "author": "InnerInitial9061",
-    "publication_date": "2026-07-04",
-    "publication_date_precision": "exact",
-    "access_date": "2026-08-13",
-    "price": null,
-    "shipping_timeline": null,
-    "media_ids": [],
-    "source_type": "reddit_qc",
-    "evidence_type": "psp_qc",
-    "family_ids": [
-      "bag-family-chanel-vanity-slim"
-    ],
-    "bag_ids": [],
-    "seller_ids": [],
-    "factory_ids": [
-      "factory-187"
-    ],
-    "exact_product_match": false,
-    "paraphrase": "A first-purchase PSP QC post for a Chanel Vanity attributed to 187 says the sides may not be even and asks whether the alignment should be approved.",
-    "positive_observations": [
-      "The post identifies a Chanel Vanity and 187 attribution and isolates side alignment as the specific PSP concern.",
-      "The author records a concrete symmetry question rather than a generic factory recommendation."
-    ],
-    "negative_observations": [
-      "The exact Vanity variant, seller, and resolution are not stated, and the alignment concern remains unresolved at PSP stage.",
-      "The family remains a research-queue entry; no new family or public schema is added here."
     ]
   },
   {
@@ -17313,7 +17153,7 @@
     "bag_ids": [],
     "seller_ids": [],
     "factory_ids": [],
-    "exact_product_match": true,
+    "exact_product_match": false,
     "exact_variant_note": "Mini Kelly II in Epsom leather, Rose Lipstick, with gold hardware; the source does not identify a seller or factory.",
     "paraphrase": "The post presents a Mini Kelly II in Epsom leather in Rose Lipstick with gold hardware; the author says the hardware works with the vibrant pink color and reports a serial number and double stitching where expected.",
     "positive_observations": [
@@ -18520,7 +18360,7 @@
     "bag_ids": [],
     "seller_ids": [],
     "factory_ids": [],
-    "exact_product_match": true,
+    "exact_product_match": false,
     "exact_variant_note": "Mini Kelly in Epsom leather in a gold colorway; hardware finish, seller, and factory are not normalized from the source.",
     "paraphrase": "A received Mini Kelly in gold Epsom is compared with the author's earlier purchase: this bag is less structured, has less-clean stitching, and a less-perfect stamp, although the reviewer still says it looks good and loves it.",
     "positive_observations": [
@@ -19222,7 +19062,7 @@
     "bag_ids": [],
     "seller_ids": [],
     "factory_ids": [],
-    "exact_product_match": true,
+    "exact_product_match": false,
     "exact_variant_note": "Hermès Kelly 25 in Blue Nuit Epsom leather with palladium-tone hardware; seller and factory are not stated.",
     "paraphrase": "A public in-person inspection of a Kelly 25 in Blue Nuit Epsom with palladium hardware reports that the quality was very poor and the smell synthetic.",
     "positive_observations": [
@@ -20173,9 +20013,7 @@
     "media_ids": [],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
-    "family_ids": [
-      "bag-family-hermes-kelly"
-    ],
+    "family_ids": [],
     "bag_ids": [],
     "seller_ids": [],
     "factory_ids": [],
@@ -20626,7 +20464,7 @@
     "factory_ids": [
       "factory-h"
     ],
-    "exact_product_match": true,
+    "exact_product_match": false,
     "exact_variant_note": "Hermes Kelly 25 in Swift leather, Gold color, and gold hardware attributed by the source to H Factory; seller is not mapped because Aku is not in the cataloged roster.",
     "paraphrase": "A received H Factory Kelly 25 in Swift leather with gold hardware is described as soft and supple with a natural drape, clean stitching and glazing, a thick structured handle, well-proportioned turnlock/sangles/clochette/feet, and solid functioning hardware; the hardware is less premium in weight and finish than authentic references.",
     "positive_observations": [

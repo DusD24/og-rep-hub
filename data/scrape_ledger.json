@@ -26230,13 +26230,10 @@
       "reason": "reviewed and not promoted: duplicate crosspost of the already-declined/promoted-source decision for t3_1sorb74: same author, date, and substantive Chanel 25 Mini pocket-logo/scratch text; do not count the transaction twice"
     },
     "t3_1sorb74": {
-      "disposition": "promoted",
-      "decided_on": "2026-08-12",
-      "evidence_ids": [
-        "ev-crawl-rrl-chanel-25-1sorb74"
-      ],
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "normalized from a triage shortlist"
+      "reason": "reviewed and not promoted: duplicate crosspost of ev-crawl-rlw-chanel-25-1sorjgg, same author/event"
     },
     "t3_1sorf8a": {
       "disposition": "deferred",
@@ -28801,13 +28798,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t1vyo9": {
-      "disposition": "promoted",
-      "decided_on": "2026-08-12",
-      "evidence_ids": [
-        "ev-crawl-rrl-chanel-25-1t1vyo9"
-      ],
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "normalized from a triage shortlist"
+      "reason": "reviewed and not promoted: duplicate crosspost of ev-crawl-rlw-chanel-25-1t266l1, same author/event, less detailed"
     },
     "t3_1t1xe6s": {
       "disposition": "deferred",
@@ -32173,13 +32167,10 @@
       "reason": "reviewed and not promoted: generic first Lady Dior praise with broad “quality,” shape, and details claims but no checkable feature-level observation"
     },
     "t3_1tiup96": {
-      "disposition": "promoted",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
-      "evidence_ids": [
-        "ev-crawl-rt-dior-saddle-1tiup96"
-      ],
       "subreddit": "RepTherapy",
-      "reason": "normalized from a triage shortlist"
+      "reason": "reviewed and not promoted: duplicate crosspost of ev-crawl-repculture-dior-saddle-2026, same author/event"
     },
     "t3_1tizaq6": {
       "disposition": "deferred",
@@ -38067,13 +38058,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ublml6": {
-      "disposition": "promoted",
-      "decided_on": "2026-08-10",
-      "evidence_ids": [
-        "ev-crawl-rt-ferragamo-hug-2026"
-      ],
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "backfilled from committed evidence"
+      "reason": "reviewed and not promoted: duplicate crosspost of ev-crawl-rrl-ferragamo-hug-1ublsv2, same author/event, less detailed"
     },
     "t3_1ublsv2": {
       "disposition": "promoted",
@@ -40570,13 +40558,10 @@
       "reason": "reviewed and not promoted: generic product-suggestion request; no purchased item or checkable observation"
     },
     "t3_1un2zin": {
-      "disposition": "promoted",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
-      "evidence_ids": [
-        "ev-crawl-rlw-chanel-vanity-slim-1un2zin"
-      ],
       "subreddit": "RepLadiesWorld",
-      "reason": "normalized from a triage shortlist"
+      "reason": "reviewed and not promoted: duplicate crosspost of ev-crawl-rt-chanel-vanity-slim-1un3exw, same author/event, RepLadiesWorld vs RepTherapy"
     },
     "t3_1un3exw": {
       "disposition": "promoted",

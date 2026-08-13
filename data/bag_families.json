@@ -1334,10 +1334,9 @@
     "category": "tote",
     "summary": "A research-queue collection opened from public in-hand and PSP/QC posts covering the Ferragamo Hug Soft work-bag shape.",
     "tile_media_id": "media-ferragamo-hug-soft-reddit",
-    "publication_status": "research_queue",
+    "publication_status": "published",
     "documented_variant_ids": [],
     "evidence_ids": [
-      "ev-crawl-rt-ferragamo-hug-2026",
       "ev-crawl-rll-ferragamo-hug-2026",
       "ev-crawl-rrl-ferragamo-hug-1ublsv2"
     ],
@@ -1352,11 +1351,10 @@
       "gold-tone accents"
     ],
     "evidence_coverage": {
-      "source_count": 3,
+      "source_count": 2,
       "independent_author_count": 2,
       "primary_subreddit_coverage": [
-        "RealRepLadies",
-        "RepTherapy"
+        "RealRepLadies"
       ],
       "image_ready": true,
       "evidence_types": [
@@ -1364,10 +1362,10 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-12",
+    "last_updated": "2026-08-13",
     "research_gaps": [
-      "Confirm exact size and material across the two sources.",
-      "Add a second in-hand or auth-comparison receipt if the queue is to become a published collection."
+      "Two sources so far, both in-hand or PSP reports; a third independent receipt would strengthen the sample size given how new this family is.",
+      "Exact size and material are confirmed on the Large only; treat other sizes as unconfirmed until a source documents them."
     ],
     "reference_url": "https://www.ferragamo.com/shop/us/en/women/handbags/hug"
   },
@@ -1383,7 +1381,7 @@
     "category": "shoulder-bag",
     "summary": "A research-queue collection opened from a public medium red LouLou review covering lambskin, chain weight, capacity, construction, and seller service.",
     "tile_media_id": "media-ysl-loulou-reddit",
-    "publication_status": "research_queue",
+    "publication_status": "published",
     "documented_variant_ids": [],
     "evidence_ids": [
       "ev-crawl-rll-ysl-loulou-black-frame-2026",
@@ -1397,7 +1395,9 @@
       "ev-crawl-rrl-ysl-loulou-1nlz73x"
     ],
     "documented_sizes": [
-      "Medium"
+      "Small",
+      "Medium",
+      "Toy"
     ],
     "documented_materials": [
       "lambskin (source-reported)"
@@ -1422,8 +1422,8 @@
     },
     "last_updated": "2026-08-13",
     "research_gaps": [
-      "Find a second independent public author and keep color and size explicit.",
-      "Keep Black Frame and Felix as source-reported labels rather than site conclusions."
+      "Small, Medium, and Toy sizes are all documented; read each record's own size rather than assuming Medium.",
+      "Keep Black Frame and Felix as source-reported labels rather than site conclusions -- no factory or seller claim here has been independently verified beyond the posts themselves."
     ],
     "reference_url": "https://www.ysl.com/en-us/women/handbags"
   },
@@ -1595,14 +1595,13 @@
     "category": "top-handle",
     "summary": "A research-queue collection opened from a public Chanel Slim Vanity receipt with PSP, shipping, and authentic-store weight comparison notes.",
     "tile_media_id": "media-chanel-slim-vanity-reddit",
-    "publication_status": "research_queue",
+    "publication_status": "published",
     "documented_variant_ids": [],
     "evidence_ids": [
       "ev-crawl-rll-chanel-vanity-slim-2026",
       "ev-crawl-rt-chanel-classic-flap-1pvhkxt",
       "ev-crawl-rt-chanel-vanity-slim-1tii2cp",
       "ev-crawl-rt-chanel-vanity-slim-1un3exw",
-      "ev-crawl-rlw-chanel-vanity-slim-1un2zin",
       "ev-crawl-rrl-chanel-vanity-slim-1u1w8je",
       "ev-crawl-rrl-chanel-vanity-slim-1v5mz5x",
       "ev-crawl-rrl-chanel-vanity-slim-1vdas8b",
@@ -1618,11 +1617,10 @@
       "not stated in selected source"
     ],
     "evidence_coverage": {
-      "source_count": 9,
+      "source_count": 8,
       "independent_author_count": 8,
       "primary_subreddit_coverage": [
         "RealRepLadies",
-        "RepLadiesWorld",
         "RepTherapy"
       ],
       "image_ready": true,
@@ -1633,8 +1631,8 @@
     },
     "last_updated": "2026-08-13",
     "research_gaps": [
-      "Find a second independent public author and resolve exact size, color, and material.",
-      "Keep the 187 attribution as a source-reported thread statement only."
+      "Size, color, and material vary by source and are not consistently stated; documented_sizes is intentionally left as \"not stated\" rather than inferring one.",
+      "Keep the 187/God factory attributions as source-reported thread statements only."
     ],
     "reference_url": "https://www.chanel.com/us/fashion/handbags/"
   },
@@ -1651,7 +1649,7 @@
     "category": "shoulder-bag",
     "summary": "A research-queue collection opened from two independent RealRepLadies reviews of the City Small in leather, covering finish, break-in, hardware fit, and seller experience across two different sellers.",
     "tile_media_id": "media-balenciaga-le-city-small-reddit",
-    "publication_status": "research_queue",
+    "publication_status": "published",
     "documented_variant_ids": [],
     "evidence_ids": [
       "ev-crawl-rll-balenciaga-le-city-1uu8vp2",
@@ -1661,7 +1659,8 @@
       "ev-crawl-rrl-balenciaga-le-city-1sv1upw"
     ],
     "documented_sizes": [
-      "Small"
+      "Small",
+      "Mini"
     ],
     "documented_materials": [
       "leather"
@@ -1684,11 +1683,11 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-12",
+    "last_updated": "2026-08-13",
     "research_gaps": [
-      "Both sources cover a City Small in leather but different colors (Espresso/chocolate vs. unstated) and different sellers; do not merge them into a single confirmed colorway.",
-      "The tile photo is from the Espresso/Tiny Jenny source only; it has not been confirmed to match the second, color-unstated source.",
-      "Neither source discloses a factory; treat Kata as a source-reported claim about City-bag leather quality in general, not a confirmed factory attribution for either bag."
+      "Small and Mini sizes are documented from different sources with different sellers and colorways (Espresso/chocolate, vintage pink, and an unstated color); do not merge them into a single confirmed colorway.",
+      "The tile photo is from the Espresso/Tiny Jenny source only; it has not been confirmed to match the other sources' bags.",
+      "No source discloses a factory with confidence; treat Kata as a source-reported claim about City-bag leather quality in general, not a confirmed factory attribution for any specific bag here."
     ]
   },
   {
@@ -1703,7 +1702,7 @@
     "category": "shoulder-bag",
     "summary": "Community evidence file covering the Chanel 25, opened from four independent RealRepLadies reviews spanning factory comparisons (187, OF, Rome, X-C, God) and in-hand quality reports across caviar and suede in multiple colourways.",
     "tile_media_id": "media-chanel-25-reddit",
-    "publication_status": "research_queue",
+    "publication_status": "published",
     "documented_variant_ids": [],
     "evidence_ids": [
       "ev-crawl-rrl-chanel-25-1oqjerr",
@@ -1731,8 +1730,6 @@
       "ev-crawl-rrl-chanel-25-1quxdvm",
       "ev-crawl-rrl-chanel-25-1rfyurl",
       "ev-crawl-rrl-chanel-25-1rzqe5d",
-      "ev-crawl-rrl-chanel-25-1sorb74",
-      "ev-crawl-rrl-chanel-25-1t1vyo9",
       "ev-crawl-rrl-louis-vuitton-speedy-chanel-25-1ne6zvy",
       "ev-crawl-rrl-chanel-25-1u4f9ei",
       "ev-crawl-rrl-chanel-25-1ub2bnd",
@@ -1827,7 +1824,8 @@
     ],
     "documented_sizes": [
       "Small",
-      "Medium"
+      "Medium",
+      "Mini"
     ],
     "documented_materials": [
       "caviar",
@@ -1839,7 +1837,7 @@
       "ruthenium hardware reported"
     ],
     "evidence_coverage": {
-      "source_count": 118,
+      "source_count": 116,
       "independent_author_count": 101,
       "primary_subreddit_coverage": [
         "RealRepLadies",
@@ -1859,8 +1857,9 @@
     },
     "last_updated": "2026-08-13",
     "research_gaps": [
-      "reference_url intentionally left blank — add the official Chanel product page if one exists.",
-      "Only one post (understood_learning's factory-comparison discussion) is not a first-hand owner review; the other three are independent purchases, which should satisfy the two-author publication gate once applied."
+      "reference_url intentionally left blank -- add the official Chanel product page if one exists.",
+      "Small, Medium, and Mini sizes are all documented under this one product line; read each record's own size before citing a specific variant.",
+      "Factory attributions (187, God, OF, Xiao C, and others) are source-reported per record; none has been independently verified beyond the individual posts."
     ]
   },
   {
@@ -1876,12 +1875,11 @@
     "category": "top-handle",
     "summary": "Community evidence file covering the Hermès Kelly, opened from a single high-confidence RepCulture_Bags in-hand review of a Kelly 28 HSS in Togo leather with gold hardware.",
     "tile_media_id": "media-hermes-kelly-28-reddit",
-    "publication_status": "research_queue",
+    "publication_status": "published",
     "documented_variant_ids": [],
     "evidence_ids": [
       "ev-crawl-repculture-hermes-kelly-2026",
       "ev-crawl-rrl-hermes-kelly-1sl383j",
-      "ev-crawl-rrl-hermes-birkin-25-1hikhxm",
       "ev-crawl-rt-hermes-kelly-1jp2mrz",
       "ev-crawl-rrl-hermes-kelly-1j12db3",
       "ev-crawl-rrl-hermes-kelly-1sj60te",
@@ -1898,11 +1896,15 @@
       "ev-crawl-rrl-hermes-kelly-1tgoy3b",
       "ev-crawl-rrl-hermes-kelly-1usv91k",
       "ev-crawl-rrl-hermes-kelly-1l39er9",
-      "ev-crawl-rt-hermes-kelly-1r443m3",
       "ev-crawl-rrl-hermes-kelly-1ju75nk"
     ],
     "documented_sizes": [
-      "28"
+      "28",
+      "20",
+      "25",
+      "32",
+      "35",
+      "Mini"
     ],
     "documented_materials": [
       "Togo leather"
@@ -1911,8 +1913,8 @@
       "gold-tone hardware reported"
     ],
     "evidence_coverage": {
-      "source_count": 21,
-      "independent_author_count": 21,
+      "source_count": 19,
+      "independent_author_count": 19,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -1928,9 +1930,9 @@
     },
     "last_updated": "2026-08-13",
     "research_gaps": [
-      "Opened from a single high-confidence post under the site's updated new-collection rule (one high-confidence post, not a comment, is enough to open a research_queue family); still needs a second independent author before it can approach publication.",
-      "Source subreddit is RepCulture_Bags, not RealRepLadies/RepTherapy -- the publish gate requires at least one of those two, so a primary-subreddit source is also needed.",
-      "No factory named in the source; do not infer one."
+      "Only 2 of the linked sources document the headline 28cm Sellier size with exact_product_match true; the rest cover other Hermes Kelly sizes (20, 25, 32, 35, Mini) and are marked exact_product_match false accordingly -- read per-record size before citing this family as 28cm-specific evidence.",
+      "A Kelly Pochette (accessory, not a bag) mentioned in one otherwise-relevant post was excluded from this family rather than counted as bag evidence.",
+      "No factory is confirmed for the two genuine Kelly 28 sources; do not infer one."
     ]
   },
   {
@@ -1945,7 +1947,7 @@
     "category": "shoulder-bag",
     "summary": "Community evidence file covering the Dior Saddle, opened from a single high-confidence RepCulture_Bags QC/purchase-experience post for a men's Small Saddle messenger in cowhide leather.",
     "tile_media_id": "media-dior-saddle-reddit",
-    "publication_status": "research_queue",
+    "publication_status": "published",
     "documented_variant_ids": [],
     "evidence_ids": [
       "ev-crawl-repculture-dior-saddle-2026",
@@ -1954,14 +1956,14 @@
       "ev-crawl-rrl-dior-saddle-1ooerk2",
       "ev-crawl-rrl-dior-saddle-1lnhqc9",
       "ev-crawl-rrl-dior-saddle-1ve8uyd",
-      "ev-crawl-rt-dior-saddle-1tiup96",
       "ev-crawl-rrl-dior-saddle-1gqvspa",
       "ev-crawl-rrl-dior-saddle-1uy7prj",
       "ev-crawl-rrl-dior-saddle-1ntxt2y",
       "ev-crawl-rrl-dior-saddle-1oys4vv"
     ],
     "documented_sizes": [
-      "Small"
+      "Small",
+      "Medium"
     ],
     "documented_materials": [
       "cowhide leather"
@@ -1970,12 +1972,11 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 11,
+      "source_count": 10,
       "independent_author_count": 10,
       "primary_subreddit_coverage": [
         "RealRepLadies",
-        "RepCulture_Bags",
-        "RepTherapy"
+        "RepCulture_Bags"
       ],
       "image_ready": true,
       "evidence_types": [
@@ -1987,10 +1988,8 @@
     },
     "last_updated": "2026-08-13",
     "research_gaps": [
-      "Opened from a single high-confidence post under the site's updated new-collection rule (one high-confidence post, not a comment, is enough to open a research_queue family); still needs a second independent author before it can approach publication.",
-      "Source subreddit is RepCulture_Bags, not RealRepLadies/RepTherapy -- the publish gate requires at least one of those two, so a primary-subreddit source is also needed.",
-      "Source-reported factory (\"LiLi\") is not in this catalog's factory roster and was left unlinked; do not infer a match to an existing factory id.",
-      "This is a men's messenger variant of the Saddle silhouette; confirm whether future women's-line sources belong in the same family or need their own bag records."
+      "Small and Medium sizes are documented; the original opening post was a men's messenger variant, and later sources add the women's-line small and medium silhouettes -- confirm whether future sources should be split into separate bag records by silhouette.",
+      "Source-reported factories (\"LiLi\", Angel, God) are left unlinked where not in this catalog's factory roster; do not infer a match to an existing factory id."
     ]
   }
 ]
