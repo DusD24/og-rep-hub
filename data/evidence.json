@@ -152,7 +152,9 @@
       "Wrong pattern for the target.",
       "Reviewer reports finish and stitching details they disliked and uncertainty about ordering again."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-neverfull-damier-azur-gm-reddit"
+    ]
   },
   {
     "id": "ev-hp-gm-ebene",
@@ -300,7 +302,9 @@
       "Wrong pattern and unresolved size for the target.",
       "A commenter says some vachetta may need stripping and mentions older untreated versions."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-neverfull-damier-azur-size-unknown-reddit"
+    ]
   },
   {
     "id": "ev-doris-birdcage-review",
@@ -340,7 +344,9 @@
       "Exact MM size and brown colorway are not stated.",
       "Reviewer reports a warm/orange Monogram tone."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-neverfull-eden-size-unknown-color-unknown-reddit"
+    ]
   },
   {
     "id": "ev-doris-birdcage-qc",
