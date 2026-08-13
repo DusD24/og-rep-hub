@@ -4171,5 +4171,530 @@
       "The seller (\"Vincent\") is not in this catalog's roster, so this cannot be attached to a tracked seller, and no factory is named.",
       "Single reviewer; no independent corroboration of this colourway."
     ]
+  },
+  {
+    "id": "ev-crawl-rt-chanel-classic-flap-1pvhkxt",
+    "title": "Merry Christmas to me!!! I gifted myself two God factory Chanel bags (via TS Doris)",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1pvhkxt/merry_christmas_to_me_i_gifted_myself_two_god/",
+    "subreddit": "RepTherapy",
+    "author": "RepTherapyIsMyCardio",
+    "publication_date": "2025-12-25",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-chanel-classic-flap",
+      "bag-family-chanel-vanity-slim"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An owner reports receiving two bags bought from Doris during a Black Friday sale and attributed to God factory: a Chanel Classic Flap they call flawless, and a suede Slim Vanity they say they may love even more, though poor lighting in their own photos is noted as a caveat.",
+    "positive_observations": [
+      "In-hand receipt confirmation (not just PSP) for two distinct collections from the same seller and factory in one order.",
+      "Adds a second data point for the Slim Vanity, which has very little coverage in this catalog."
+    ],
+    "negative_observations": [
+      "\"Immaculate\"/\"no notes\" is enthusiasm-driven with no specific construction detail for either bag.",
+      "The reviewer's own photos are described as poor quality, so nothing here can be visually cross-checked."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-chanel-vanity-slim-1tii2cp",
+    "title": "Qc help chanel slim vanity no",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1tii2cp/qc_help_chanel_slim_vanity_no/",
+    "subreddit": "RepTherapy",
+    "author": "Dazzling_Pool6610",
+    "publication_date": "2026-05-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": {
+      "amount_usd": 300,
+      "qualifier": "as stated by the buyer"
+    },
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-vanity-slim"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-187",
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A second-purchase QC post for a Chanel Slim Vanity from Baobao, switched to 187 factory after the buyer's preferred God factory version was out of stock; the buyer raises three specific concerns about the PSP photos: whether the quilting has enough puff, whether the hardware tone is correct, and whether the leather reads as too shiny.",
+    "positive_observations": [
+      "Names seller, factory, and price together with three specific, checkable construction concerns rather than a general impression.",
+      "The buyer explicitly states this is a second purchase after a factory switch, which is useful context for comparing 187 against God on this model."
+    ],
+    "negative_observations": [
+      "PSP stage only; no in-hand follow-up or resolution recorded.",
+      "All three concerns are left open in the source with no verdict reached."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1nqex2o",
+    "title": "Chanel 25 from God Factory",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1nqex2o/chanel_25_from_god_factory/",
+    "subreddit": "RealRepLadies",
+    "author": "BornLocal9767",
+    "publication_date": "2025-09-25",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A buyer requests additional PSP photos for a Chanel 25 from Doris attributed to God factory, reporting that something about the bag seems off without being able to pinpoint it, while allowing that the flagged alignment issue could be an artifact of how the bag was positioned for the photo rather than a defect.",
+    "positive_observations": [
+      "A specific, unresolved concern raised and investigated (requesting more photos) rather than approved on sight.",
+      "The buyer explicitly separates a possible defect from a possible photography artifact, which is a more careful read than most PSP posts."
+    ],
+    "negative_observations": [
+      "Very brief, and the concern is never resolved one way or the other in the captured text.",
+      "PSP stage only."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-bottega-veneta-andiamos-1p25twq",
+    "title": "QC help 🙏🏻, bottega veneta andiamo small ✨",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1p25twq/qc_help_bottega_veneta_andiamo_small/",
+    "subreddit": "RealRepLadies",
+    "author": "OkCompetition6392",
+    "publication_date": "2025-11-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-jing"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC post for a Bottega Veneta Andiamo Small attributed to Jing factory, where the buyer reports the bag looks good overall at first glance but flags what appears to be dents on the bottom of the bag as a specific concern.",
+    "positive_observations": [
+      "Names the factory and raises one specific, checkable concern (base dents) rather than approving unconditionally."
+    ],
+    "negative_observations": [
+      "PSP stage only, and the dent concern is left open with no follow-up recorded.",
+      "No seller named."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1on3uzn",
+    "title": "I never thought I'd have a bad experience with Baobao - but here we are",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1on3uzn/i_never_thought_id_have_a_bad_experience_with/",
+    "subreddit": "RealRepLadies",
+    "author": "InformationOk6161",
+    "publication_date": "2025-11-03",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "seller_context",
+    "family_ids": [
+      "bag-family-dior-lady-dior",
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A repeat Baobao customer orders a small Chanel 25 and a Lady Dior, both attributed to God factory: the Chanel 25's PSPs show minor flaws the buyer accepts as consistent with the model's intended slouchy look, but the Lady Dior's PSPs show a structure the buyer describes as noticeably off compared to factory photos and other buyers' PSPs, and the bag lacks the God factory tag on the handle that other buyers' bags reportedly have. The seller attributed this to an unspecified \"factory transportation problem,\" communication stalled for several days, and the buyer ultimately received a refund after declining the bag; a later edit reports the refund was issued and that other buyers have described similarly slow resolution timelines with this seller.",
+    "positive_observations": [
+      "A specific, checkable red flag (a missing factory tag other buyers' bags have) rather than a vague dissatisfaction.",
+      "Documents both the problem and its eventual resolution (refund), with a same-buyer follow-up edit rather than a single unverified claim.",
+      "The buyer explicitly separates the acceptable Chanel 25 flaws from the more serious Lady Dior structural concern."
+    ],
+    "negative_observations": [
+      "Single buyer's account of the seller's explanation (\"transportation problem\"), which is not independently verified.",
+      "The Chanel 25's \"minor flaws\" are not itemized, so that half of the order adds little specific detail."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-bottega-veneta-andiamos-1vdl6pc",
+    "title": "My first Bottega Veneta Andiamo",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vdl6pc/my_first_bottega_veneta_andiamo/",
+    "subreddit": "RealRepLadies",
+    "author": "riceecrispy",
+    "publication_date": "2026-08-02",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-tiny-jenny"
+    ],
+    "factory_ids": [
+      "factory-jing"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A QC request for a Bottega Veneta Andiamo from Tiny Jenny, attributed to Jing factory, in which the buyer reports no outstanding flaws found in their own review of the PSPs and asks for a second opinion.",
+    "positive_observations": [
+      "Names seller, factory, and price together."
+    ],
+    "negative_observations": [
+      "No specific construction detail is given beyond \"no outstanding flaws\"; the assessment is essentially an absence of complaint rather than a positive finding.",
+      "PSP stage only."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-saddle-1vfc0sa",
+    "title": "Help me QC Saddle from Angel",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vfc0sa/help_me_qc_saddle_from_angel/",
+    "subreddit": "RealRepLadies",
+    "author": "outdooradventurez99",
+    "publication_date": "2026-08-04",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-dior-saddle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-god",
+      "factory-angel"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC post for a Dior Saddle from Doris, sourced to Angel factory on the strength of community comments that Angel's hardware reads as more vintage than God's; the buyer raises two specific concerns of their own: the leather appearing plastic-like in photos, and a dent visible on the flap.",
+    "positive_observations": [
+      "Names the factory choice and the specific reasoning behind it (a hardware-finish comparison to God factory), plus two independent, checkable concerns of the buyer's own."
+    ],
+    "negative_observations": [
+      "The Angel-vs-God hardware comparison is relayed secondhand from other community members, not the buyer's own side-by-side.",
+      "PSP stage only; both concerns are left open with no resolution recorded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1qefkdi",
+    "title": "Help me QC Mini Lady Dior Bag God Factory Heidi",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1qefkdi/help_me_qc_mini_lady_dior_bag_god_factory_heidi/",
+    "subreddit": "RealRepLadies",
+    "author": "prerichblkgirl",
+    "publication_date": "2026-01-16",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-heidi"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A detailed QC self-assessment of a mini Lady Dior in Latte from Heidi, attributed to God factory: the buyer reports good stitching, adequate quilting puff, correctly aligned diamond quilting, and light champagne-toned hardware matching what they understand to be an authentic colourway, while flagging the charm hardware as thinner than the original as a possible callout, and asks for input using a linked comparison video.",
+    "positive_observations": [
+      "An unusually structured self-QC covering stitching, quilting alignment, hardware tone, and a specific accessory-level detail (charm thickness) rather than a single overall impression.",
+      "Provides a comparison reference (video) rather than asserting authenticity closeness unsupported."
+    ],
+    "negative_observations": [
+      "PSP stage only; no in-hand or delivery follow-up.",
+      "The charm-thickness concern is raised but not resolved in the captured text."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-flamenco-1m7q37n",
+    "title": "Review: Loewe Flamenco💃🏻 ~ Doris / Jipin! 🤗😍",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1m7q37n/review_loewe_flamenco_doris_jipin/",
+    "subreddit": "RepTherapy",
+    "author": "Hold_The_Tomato",
+    "publication_date": "2025-07-24",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": {
+      "amount_usd": 260,
+      "qualifier": "bag plus a separately purchased metal donut chain, before shipping, per the reviewer"
+    },
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-jipin"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a Loewe Flamenco (30cm x 24.5cm x 10cm) from Doris, attributed to Jipin factory, describing the leather quality as excellent with a suede lining, and noting the separately purchased chain accessory is versatile enough to also pair with an existing Puzzle bag.",
+    "positive_observations": [
+      "Gives exact dimensions and a specific leather/lining assessment, with seller and factory both named."
+    ],
+    "negative_observations": [
+      "\"Excellent\" quality is not broken down into stitching, hardware, or construction specifics.",
+      "The Puzzle bag mentioned is a prior purchase being reused with a new accessory, not a bag being reviewed here, so this record is scoped to the Flamenco only."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1s8qgpn",
+    "title": "BOTD! Let’s see yours! ☕️ spill the tea!",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1s8qgpn/botd_lets_see_yours_spill_the_tea/",
+    "subreddit": "RepTherapy",
+    "author": "Hold_The_Tomato",
+    "publication_date": "2026-03-31",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-royal"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An owner comparing two LV Speedy P9 25s from different sources, one via Mandy under a tier the seller labels \"MOQC\" (not a catalogued factory name and left unattributed here) and one from Royal factory: the reviewer calls it a toss-up, judging MOQC's leather trim as slightly better while Royal's LV-logo leather panel is judged slightly better, without a stated preference between the two overall.",
+    "positive_observations": [
+      "A direct side-by-side of two sources on the same model and size, with the comparison split into specific named components (trim leather vs. logo-panel leather) rather than a single verdict.",
+      "The reviewer explicitly notes they have not seen enough colourways to generalise the comparison, which is an honest scope limitation stated up front."
+    ],
+    "negative_observations": [
+      "\"MOQC\" cannot be resolved to a specific catalogued factory from this post, so half of the comparison is unattributed.",
+      "No measurements or authentic side-by-side; the assessment is a personal preference call between two reps."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1ux98h3",
+    "title": "my favorite 6.18 purchase",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ux98h3/my_favorite_618_purchase/",
+    "subreddit": "RepTherapy",
+    "author": "lzycmt",
+    "publication_date": "2026-07-15",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-loewe-puzzle",
+      "bag-family-balenciaga-le-city"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mike"
+    ],
+    "factory_ids": [
+      "factory-kata"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A one-month update on a Loewe Puzzle Featherlight (medium, 30cm) from Mike's Kata-factory sale: the reviewer demonstrates the leather's slouch by loading the bag with cans overnight, reports no flaws found in the leather, color, strap drop, or size, and separately reports a mini Balenciaga City bag from the same order and seller (factory not stated) that they judge a close match to an authentic they compared it against in store for shade, leather, and hardware; packaging and delivery speed for the order are both called out positively.",
+    "positive_observations": [
+      "A concrete, repeatable durability test for the Puzzle (weighted overnight to demonstrate slouch) rather than a first-day-only impression.",
+      "The Balenciaga City comparison references an explicit in-store authentic check, not just photos.",
+      "Notes this factory had not previously been reported for Loewe, so it adds a genuinely new data point rather than corroborating an existing one."
+    ],
+    "negative_observations": [
+      "No factory is stated for the Balenciaga City half of the order.",
+      "Single reviewer; no independent corroboration of Kata factory for either model."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-hermes-birkin-25-1hikhxm",
+    "title": "Birkin 25 & Mini Kelly From HMS/ZM Mode ❤️ (And A Kelly 18 Belt)",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1hikhxm/birkin_25_mini_kelly_from_hmszm_mode_and_a_kelly/",
+    "subreddit": "RealRepLadies",
+    "author": "Rizolicious",
+    "publication_date": "2024-12-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": "About 7-10 days from shipping to delivery for both bags, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-hermes-birkin-25",
+      "bag-family-hermes-kelly"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A repeat buyer (previously purchased a Birkin 30 from the same seller, not named here) reports receiving a Birkin 25 in Rouge de Coeur Togo leather with upgraded gold hardware, and a Mini Kelly in Rose Azalea Chèvre leather also with upgraded gold hardware, describing the stitching and colours on both as excellent and the bags as feeling good in hand; a shipping issue on their previous order was resolved with a complimentary belt.",
+    "positive_observations": [
+      "A repeat customer with a prior order to compare against, reporting on two distinct Hermès models with specific leather and hardware details for each.",
+      "Reports how a prior fulfillment issue was resolved, which is a data point on the seller's handling of problems, not just the bags themselves."
+    ],
+    "negative_observations": [
+      "Neither seller nor factory is named, so this cannot support seller- or factory-specific reliability signals.",
+      "\"Stitching and colours are wonderful\" is a general impression without itemised construction detail."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-bottega-veneta-andiamos-1v1s215",
+    "title": "Thoughts after seeing authentic Bottega, Loewe, and Chanel",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1v1s215/thoughts_after_seeing_authentic_bottega_loewe_and/",
+    "subreddit": "RealRepLadies",
+    "author": "Freedom2425",
+    "publication_date": "2026-07-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": {
+      "amount_usd": 245,
+      "qualifier": "as stated by the buyer for the Andiamo clutch"
+    },
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-jing"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A buyer with several other authentic brands but no prior authentic Bottega Veneta visited a store to handle authentic Bottega Lauren and Madison bags, then compared that in-hand impression to their own rep Andiamo clutch (bought from a seller for USD 245, sourced as Jing factory) and concluded the rep's leather reads as fake and low quality by comparison, while judging their separately obtained rep Lauren as decent but not as soft as the authentic they handled.",
+    "positive_observations": [
+      "A same-day, same-visit authentic comparison rather than a comparison to memory or photos, and it reaches a negative rather than a confirmatory conclusion.",
+      "Distinguishes between two separate rep purchases (Andiamo vs. Lauren) rather than judging the brand's reps as a single undifferentiated group."
+    ],
+    "negative_observations": [
+      "The Jing-factory attribution for the Andiamo is \"supposedly\" per the buyer, i.e. seller-reported rather than confirmed.",
+      "\"Fake leather and low quality\" is a strong conclusion given without specifics on what about the leather read as wrong (grain, smell, flex, etc.)."
+    ]
+  },
+  {
+    "id": "ev-crawl-rlw-balenciaga-le-city-1noitgu",
+    "title": "✨Their first photo together and it's already stunning🥰",
+    "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1noitgu/their_first_photo_together_and_its_already/",
+    "subreddit": "RepLadiesWorld",
+    "author": "WarOk5987",
+    "publication_date": "2025-09-23",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-balenciaga-le-city"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-autumn"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a Balenciaga Le City in suede, bought on a seller's recommendation and reviewed alongside a matching order in a different colour for a friend: the reviewer reports a brushed-texture hardware finish contributing to a vintage feel, reinforced handles, strong interior capacity, and specifically notes this suede edition omits the base studs present on older City bag versions.",
+    "positive_observations": [
+      "Identifies a specific generational construction difference (missing base studs versus older releases) rather than treating the bag as generic.",
+      "Covers hardware finish, handle construction, and capacity as distinct points rather than one overall impression."
+    ],
+    "negative_observations": [
+      "No factory is named in the source; an apparent \"Autumn\" factory match in the raw text is the season \"autumn-winter,\" not a factory reference, so no factory is recorded here.",
+      "The named seller is not in this catalog's roster, so this cannot support a seller-specific reliability signal."
+    ]
+  },
+  {
+    "id": "ev-crawl-rlw-balenciaga-rodeo-1stabp0",
+    "title": "Need help",
+    "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1stabp0/need_help/",
+    "subreddit": "RepLadiesWorld",
+    "author": "FlashyGate9849",
+    "publication_date": "2026-04-23",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-balenciaga-rodeo"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-kata"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC post for a Balenciaga Rodeo Mini, sourced to Kata factory on the strength of the factory's reputation for this model; the buyer raises two specific concerns: whether the strap should be finished in leather rather than suede, and a mark visible on the bag in one photo alongside hardware in another photo that looks slightly worn.",
+    "positive_observations": [
+      "Names the factory and its specific reputation basis, with two independent, checkable concerns (strap material and a hardware mark) rather than a general impression."
+    ],
+    "negative_observations": [
+      "PSP stage only; both concerns are left open with no resolution recorded.",
+      "No seller named."
+    ]
   }
 ]
