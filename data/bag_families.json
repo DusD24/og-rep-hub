@@ -50,7 +50,9 @@
       "ev-crawl-rt-louis-vuitton-neverfull-1ununma",
       "ev-crawl-rrl-louis-vuitton-neverfull-1ulu1zm",
       "ev-crawl-rt-louis-vuitton-neverfull-1usrc2g",
-      "ev-crawl-rrl-louis-vuitton-neverfull-1u9xzne"
+      "ev-crawl-rrl-louis-vuitton-neverfull-1u9xzne",
+      "ev-crawl-rlw-louis-vuitton-neverfull-1t5c5m9",
+      "ev-crawl-rlw-louis-vuitton-neverfull-1t84vb7"
     ],
     "documented_sizes": [
       "GM",
@@ -64,8 +66,8 @@
       "not documented in current public sources"
     ],
     "evidence_coverage": {
-      "source_count": 28,
-      "independent_author_count": 23,
+      "source_count": 30,
+      "independent_author_count": 25,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepLadiesWorld",
@@ -81,7 +83,7 @@
         "seller_context"
       ]
     },
-    "last_updated": "2026-08-12",
+    "last_updated": "2026-08-13",
     "research_gaps": [
       "Keep exact brown Monogram GM evidence separate from MM and Damier comparisons.",
       "Keep Eden MM size, colorway, dimensions, and batch attribution separate where sources conflict.",
@@ -220,7 +222,8 @@
       "ev-crawl-rrl-louis-vuitton-speedy-1mgw9n7",
       "ev-crawl-rrl-louis-vuitton-speedy-1qy8zkz",
       "ev-crawl-rrl-louis-vuitton-speedy-1r0ir3p",
-      "ev-crawl-rt-louis-vuitton-speedy-1rv4fjv"
+      "ev-crawl-rt-louis-vuitton-speedy-1rv4fjv",
+      "ev-crawl-rrl-louis-vuitton-speedy-1sxwbc0"
     ],
     "documented_sizes": [
       "25",
@@ -233,8 +236,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 48,
-      "independent_author_count": 39,
+      "source_count": 49,
+      "independent_author_count": 40,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -249,7 +252,7 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-12",
+    "last_updated": "2026-08-13",
     "research_gaps": [
       "Keep 25 and 30 size evidence separate.",
       "Resolve factory and hardware details only when the source states them."
@@ -286,7 +289,9 @@
       "ev-crawl-rrl-the-row-margaux-1qxaii5",
       "ev-crawl-rrl-the-row-margaux-1twphe2",
       "ev-crawl-rrl-the-row-margaux-1usst71",
-      "ev-crawl-rrl-the-row-margaux-1ve4lhh"
+      "ev-crawl-rrl-the-row-margaux-1ve4lhh",
+      "ev-crawl-rt-the-row-margaux-1sz4wap",
+      "ev-crawl-rrl-the-row-margaux-1s0u9xp"
     ],
     "documented_sizes": [
       "15",
@@ -300,8 +305,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 17,
-      "independent_author_count": 14,
+      "source_count": 19,
+      "independent_author_count": 16,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -315,7 +320,7 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-12",
+    "last_updated": "2026-08-13",
     "research_gaps": [
       "Keep Margaux 15 and 17 evidence separate from Shoulder Bag reports.",
       "Do not turn seller-reported leather language into a site conclusion."
@@ -368,7 +373,8 @@
       "ev-crawl-rt-loewe-flamenco-1qd8qhg",
       "ev-crawl-rrl-loewe-flamenco-1v8z61l",
       "ev-crawl-rt-loewe-puzzle-1shhbyf",
-      "ev-crawl-rt-loewe-flamenco-1unb1g0"
+      "ev-crawl-rt-loewe-flamenco-1unb1g0",
+      "ev-crawl-rrl-loewe-flamenco-1rhyoo8"
     ],
     "documented_sizes": [
       "30 cm",
@@ -382,8 +388,8 @@
       "yellow / shiny hardware noted in QC discussion"
     ],
     "evidence_coverage": {
-      "source_count": 32,
-      "independent_author_count": 25,
+      "source_count": 33,
+      "independent_author_count": 26,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -397,7 +403,7 @@
         "seller_context"
       ]
     },
-    "last_updated": "2026-08-12",
+    "last_updated": "2026-08-13",
     "research_gaps": [
       "Keep 30 cm Sand and large black deerskin reports separate.",
       "Resolve stamp and hardware questions from source-linked QC context.",
@@ -547,7 +553,9 @@
       "ev-crawl-rt-bottega-veneta-andiamos-1o7h4j2",
       "ev-crawl-rrl-bottega-veneta-andiamos-1vbkl29",
       "ev-crawl-rrl-bottega-veneta-andiamos-1vlt7zr",
-      "ev-crawl-rcb-bottega-veneta-andiamos-1tyksmo"
+      "ev-crawl-rcb-bottega-veneta-andiamos-1tyksmo",
+      "ev-crawl-rlw-bottega-veneta-andiamos-1s17ig2",
+      "ev-crawl-rlw-bottega-veneta-andiamos-1vdaam3"
     ],
     "documented_sizes": [
       "medium",
@@ -560,8 +568,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 32,
-      "independent_author_count": 29,
+      "source_count": 34,
+      "independent_author_count": 31,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -572,10 +580,11 @@
       "evidence_types": [
         "auth_comparison",
         "in_hand_review",
+        "long_term_wear",
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-12",
+    "last_updated": "2026-08-13",
     "research_gaps": [
       "Keep Medium and East West evidence separate.",
       "Do not infer leather or hardware where the source is silent."
