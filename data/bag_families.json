@@ -273,7 +273,8 @@
       "ev-crawl-rt-louis-vuitton-speedy-1u5aljd",
       "ev-crawl-rt-louis-vuitton-speedy-1us1gae",
       "ev-crawl-rrl-louis-vuitton-speedy-1ta71ux",
-      "ev-crawl-rrl-louis-vuitton-speedy-1tk426g"
+      "ev-crawl-rrl-louis-vuitton-speedy-1tk426g",
+      "ev-crawl-rt-louis-vuitton-speedy-1pandsw"
     ],
     "documented_sizes": [
       "25",
@@ -286,8 +287,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 79,
-      "independent_author_count": 63,
+      "source_count": 80,
+      "independent_author_count": 64,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -581,7 +582,8 @@
       "ev-crawl-rt-loewe-puzzle-1u1wguy",
       "ev-crawl-rt-loewe-puzzle-1v2e3fz",
       "ev-crawl-rt-loewe-puzzle-1nhsq49",
-      "ev-crawl-rt-loewe-puzzle-1nlzaqp"
+      "ev-crawl-rt-loewe-puzzle-1nlzaqp",
+      "ev-crawl-rt-loewe-puzzle-1qe884r"
     ],
     "documented_sizes": [
       "small",
@@ -596,7 +598,7 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 78,
+      "source_count": 79,
       "independent_author_count": 60,
       "primary_subreddit_coverage": [
         "RealRepLadies",
@@ -985,7 +987,8 @@
       "ev-crawl-rt-book-tote-qc-2025",
       "ev-crawl-rt-book-tote-medium-qc-2026",
       "ev-crawl-rrl-dior-book-tote-1sgwfy9",
-      "ev-crawl-rlw-dior-book-tote-1tahbzq"
+      "ev-crawl-rlw-dior-book-tote-1tahbzq",
+      "ev-crawl-rt-dior-book-tote-1tkt6hh"
     ],
     "documented_sizes": [
       "Small",
@@ -999,8 +1002,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 6,
-      "independent_author_count": 6,
+      "source_count": 7,
+      "independent_author_count": 7,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepLadiesWorld",
@@ -1013,7 +1016,7 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-12",
+    "last_updated": "2026-08-13",
     "research_gaps": [
       "Keep Small and size 36 reports separate.",
       "Do not infer hardware or a factory from comment-only claims."

@@ -299,10 +299,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1fhgwdm": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: Empty Hermes Kelly 25 post has no sanitized text or product observation."
     },
     "t3_1fhnr9x": {
       "disposition": "rejected",
@@ -797,10 +797,10 @@
       "reason": "above floor but outside the daily cap (priority 48)"
     },
     "t3_1guxzjb": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: Pre-purchase Birkin 25 seller recommendation question has no product evidence."
     },
     "t3_1gwdxku": {
       "disposition": "rejected",
@@ -1454,10 +1454,10 @@
       "reason": "above floor but outside the daily cap (priority 65)"
     },
     "t3_1jj61lo": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: Bare Birkin 25 QC request asks for general opinions without a concrete product observation."
     },
     "t3_1jjfmfo": {
       "disposition": "promoted",
@@ -3923,10 +3923,10 @@
       "reason": "reviewed and not promoted: Replacement Puzzle PSP post asks for general approval and describes a prior size/zipper correction, but records no concrete observation about the current bag or resolved outcome."
     },
     "t3_1mtegjk": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: Birkin 30 is outside the catalogued Birkin 25 family, and the post is a group-buy QC request without concrete product observations."
     },
     "t3_1mtifzu": {
       "disposition": "deferred",
@@ -4841,10 +4841,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1naftnu": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 64)"
+      "reason": "reviewed and not promoted: Bare Dior Saddle GL/RL request supplies seller, factory, and payment context but reports no product observation; payment details are excluded."
     },
     "t3_1nag9bn": {
       "disposition": "deferred",
@@ -6152,10 +6152,10 @@
       "reason": "reviewed and not promoted: recurring weekly chat and seller-promotion post; it does not describe a specific bag or checkable evidence observation"
     },
     "t3_1o2awnz": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: Empty Kelly 25 QC post has no sanitized text or product observation."
     },
     "t3_1o2ddn1": {
       "disposition": "deferred",
@@ -9215,10 +9215,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1p8y6r3": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 58)"
+      "reason": "reviewed and not promoted: PSP sale post promotes an upcoming BV purchase, includes contact information, and reports no received-product observation; private contact data is excluded."
     },
     "t3_1p8zhc5": {
       "disposition": "promoted",
@@ -9389,10 +9389,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1pandsw": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1pandsw"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 56)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1pap51y": {
       "disposition": "deferred",
@@ -11310,10 +11313,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1pyu01i": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 55)"
+      "reason": "reviewed and not promoted: Bare Neverfull MM QC request asks for general help without a product observation."
     },
     "t3_1pyx8y6": {
       "disposition": "deferred",
@@ -12703,10 +12706,13 @@
       "reason": "triage score 25 below floor 30"
     },
     "t3_1qe884r": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-loewe-puzzle-1qe884r"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 63)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1qe8rxs": {
       "disposition": "deferred",
@@ -13453,10 +13459,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qiipqq": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: Pre-purchase white Dior Saddle seller recommendation request has no product evidence."
     },
     "t3_1qij4xb": {
       "disposition": "deferred",
@@ -16435,10 +16441,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qza5by": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 56)"
+      "reason": "reviewed and not promoted: Same author, small Barolo Andiamo, Jing attribution, Adon seller, and review text are already normalized at t3_1qzada1; this is a duplicate crosspost/transaction."
     },
     "t3_1qzada1": {
       "disposition": "promoted",
@@ -18454,10 +18460,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rfvgbn": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 75)"
+      "reason": "reviewed and not promoted: Bare Kelly 28 QC request lists size and leather but reports no actual product observation."
     },
     "t3_1rfyurl": {
       "disposition": "promoted",
@@ -25627,10 +25633,10 @@
       "reason": "reviewed and not promoted: generic enthusiasm ('perfect office bag') with no construction detail"
     },
     "t3_1so9x1s": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 70)"
+      "reason": "reviewed and not promoted: Bare Speedy 25 PSP request supplies seller, factory label, and variant but reports no concrete product observation."
     },
     "t3_1sobxiq": {
       "disposition": "deferred",
@@ -28387,10 +28393,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t2xc56": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 70)"
+      "reason": "reviewed and not promoted: Bare Nano Speedy PSP request includes payment context and asks for general feedback without a product observation; payment data is excluded."
     },
     "t3_1t2xd9e": {
       "disposition": "deferred",
@@ -29585,10 +29591,10 @@
       "reason": "above floor but outside the daily cap (priority 69)"
     },
     "t3_1t8zs11": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 62)"
+      "reason": "reviewed and not promoted: Pre-purchase Puzzle post asks whether an unseen purchase is good and gives a seller/factory attribution without product observations."
     },
     "t3_1t921ok": {
       "disposition": "deferred",
@@ -31315,10 +31321,10 @@
       "reason": "above floor but outside the daily cap (priority 60)"
     },
     "t3_1ti7isu": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 70)"
+      "reason": "reviewed and not promoted: Nano Speedy post offers generic canvas praise and asks others to assess authenticity but contains no specific comparison or construction observation."
     },
     "t3_1ti8gnv": {
       "disposition": "deferred",
@@ -31900,10 +31906,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tkt6hh": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-dior-book-tote-1tkt6hh"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1tkxsxz": {
       "disposition": "deferred",
@@ -36112,10 +36121,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1u6ixan": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 63)"
+      "reason": "reviewed and not promoted: Primary item is an uncatalogued YSL Le 5 à 7 and the post is mixed with a Flamenco chain; seller praise and payment details are not normalized."
     },
     "t3_1u6j16d": {
       "disposition": "rejected",
@@ -40162,10 +40171,10 @@
       "reason": "reviewed and not promoted: general rep and fashion opinion thread; it does not provide evidence about a specific owned bag, variant, factory, or seller"
     },
     "t3_1upgzfc": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 95)"
+      "reason": "reviewed and not promoted: Auth-informed Chanel 25 Pony Hair post is a general QC guide rather than evidence about a specific received or PSP bag; guides remain out of scope for this curation pass."
     },
     "t3_1upj6ac": {
       "disposition": "deferred",
@@ -40180,10 +40189,10 @@
       "reason": "reviewed and not promoted: Bare Mini Kelly PSP request asks for general thoughts and withholds seller information but reports no concrete product observation."
     },
     "t3_1upl95n": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 95)"
+      "reason": "reviewed and not promoted: Chanel 25 Small PSP request asks about seasonal pink color and photo comparison but reports no concrete product observation."
     },
     "t3_1uplvnc": {
       "disposition": "deferred",
@@ -40603,10 +40612,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1urwxhh": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 95)"
+      "reason": "reviewed and not promoted: Pre-purchase Classic Flap seller and factory recommendation question has no product evidence."
     },
     "t3_1urwzhx": {
       "disposition": "deferred",
@@ -40729,10 +40738,10 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1usgaox": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 62)"
+      "reason": "reviewed and not promoted: Pre-purchase Puzzle Featherlight pricing question includes payment and seller context but no received-product evidence."
     },
     "t3_1ushosa": {
       "disposition": "deferred",
@@ -40783,10 +40792,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1usq7g6": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: Pre-purchase Dior Saddle seller and recommendation question has no received-product evidence."
     },
     "t3_1usr5x2": {
       "disposition": "deferred",
@@ -43438,10 +43447,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1v8l0t5": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 58)"
+      "reason": "reviewed and not promoted: Empty Andiamo QC post has no sanitized text or product observation."
     },
     "t3_1v8lfb5": {
       "disposition": "deferred",

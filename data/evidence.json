@@ -16982,5 +16982,106 @@
       "The stitching and puckering concerns are unresolved at PSP stage, and the exact variant and final outcome are not stated.",
       "HP is retained only as a source label because no normalized factory entity is established here."
     ]
+  },
+  {
+    "id": "ev-crawl-rt-dior-book-tote-1tkt6hh",
+    "title": "Tell me what to do!!! - PSP/QC check - Dl0R Book Tote LEATHER",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1tkt6hh/tell_me_what_to_do_pspqc_check_dl0r_book_tote/",
+    "subreddit": "RepTherapy",
+    "author": "scooter7426",
+    "publication_date": "2026-05-22",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-dior-book-tote"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "The PSP post explicitly identifies a large all-leather Dior Book Tote, but the current family documentation does not enumerate that size/material combination.",
+    "paraphrase": "A PSP QC post for a large all-leather Dior Book Tote flags a leather surface that looks shiny, although the author says lighting may explain it, an interior tag the author considers poorly executed, and a logo alignment that sits slightly off the author's authentic website reference.",
+    "positive_observations": [
+      "The post preserves the large all-leather variant and isolates surface finish, interior tag, and logo alignment as separate PSP checks against an authentic reference."
+    ],
+    "negative_observations": [
+      "The shine may be a lighting artifact, while the tag and alignment concerns are unresolved and the bag remains at PSP stage.",
+      "Seller, factory, color, and final outcome are not stated."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-puzzle-1qe884r",
+    "title": "Loewe PSP Check ✨",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qe884r/loewe_psp_check/",
+    "subreddit": "RepTherapy",
+    "author": "AcaciaFlowers",
+    "publication_date": "2026-01-16",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A PSP QC request for a Small Loewe Puzzle attributed by the source to Mandy and Liu Sheng compares the factory photos with the PSPs and says the leather in the received photos looks stiffer and less slouchy than the very soft, buttery factory-photo reference.",
+    "positive_observations": [
+      "The post identifies the Small Puzzle and source-reported Mandy/Liu Sheng attribution while isolating leather hand and slouch as the QC subject."
+    ],
+    "negative_observations": [
+      "The leather difference is unresolved at PSP stage, and the capture does not record the final decision or an in-hand result.",
+      "Seller and factory roles remain source-reported; payment and the external album link are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-louis-vuitton-speedy-1pandsw",
+    "title": "Review: Louis Vuitton Speedy 20 Hard Trunk",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1pandsw/review_louis_vuitton_speedy_20_hard_trunk/",
+    "subreddit": "RepTherapy",
+    "author": "Any_Win_7788",
+    "publication_date": "2025-11-30",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-nina"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": false,
+    "exact_variant_note": "The source explicitly identifies a Speedy 20 Hard Trunk, while the current family documentation separately lists Speedy 25 and 30 variants rather than this trunk construction.",
+    "paraphrase": "An in-hand review of a Louis Vuitton Speedy 20 Hard Trunk attributed by the source to Nina and God reports a heavy, structured bag with saturated canvas, light vachetta, thin red edge glazing, aligned trunk rivets, weighty gold hardware, quilted cream lining, clean tight stitching, and no rough edges.",
+    "positive_observations": [
+      "The report records concrete in-hand observations across the Trunk Speedy's canvas, vachetta, glazing, rivets, hardware, lining, structure, and stitching.",
+      "The source-reported seller and God attribution are preserved as existing catalog entities without importing payment or delivery details."
+    ],
+    "negative_observations": [
+      "The Hard Trunk 20 is not separately documented in the current Speedy family, and the favorable judgments are one owner's review without a direct authentic side-by-side in the capture.",
+      "Seller and factory roles remain source-reported."
+    ]
   }
 ]
