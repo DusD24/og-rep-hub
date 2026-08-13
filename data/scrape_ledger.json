@@ -1040,10 +1040,10 @@
       "reason": "reviewed and not promoted: pre-purchase Speedy and SLG wishlist/seller discussion with no owned-product evidence; comments are mostly future-order and catalog requests"
     },
     "t3_1hqg0vn": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "reviewed and not promoted: Pre-purchase discussion asks whether an unreleased LV x Murakami Speedy is worth buying; no received-product evidence."
     },
     "t3_1hqj7s1": {
       "disposition": "deferred",
@@ -2474,10 +2474,13 @@
       "reason": "reviewed and not promoted: Instagram image identification request for Birkin color and size, not a locally captured review or QC observation"
     },
     "t3_1kvrc0u": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1kvrc0u"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 41)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1kvys2k": {
       "disposition": "deferred",
@@ -9008,7 +9011,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "Exact items are two Gucci Jackie bags from JS and Orange Couch factories, not YSL Loulou; preserve the detailed comparison for a separate Gucci Jackie catalog decision."
+      "reason": "Detailed comparison covers two Gucci Jackie bags from JS and Orange Couch, not YSL Loulou; preserve for a separate Jackie catalog decision."
     },
     "t3_1ojag3g": {
       "disposition": "rejected",
@@ -26170,7 +26173,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 44)"
+      "reason": "above floor but outside the daily cap (priority 52)"
     },
     "t3_1rssaol": {
       "disposition": "deferred",
@@ -27601,10 +27604,10 @@
       "reason": "above floor but outside the daily cap (priority 52)"
     },
     "t3_1s0iqn8": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 42)"
+      "reason": "reviewed and not promoted: PSP post says the bag looks good and asks for general hardware thoughts without recording a concrete hardware observation or concern."
     },
     "t3_1s0irn1": {
       "disposition": "deferred",
@@ -28339,7 +28342,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 35)"
+      "reason": "above floor but outside the daily cap (priority 43)"
     },
     "t3_1s3kopr": {
       "disposition": "deferred",
@@ -29971,10 +29974,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sbi0o5": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 37)"
+      "reason": "reviewed and not promoted: Generic first-purchase Lady Dior QC request says the bag looks good and asks for a green-light opinion without a concrete product observation."
     },
     "t3_1sbkv3c": {
       "disposition": "deferred",
@@ -30379,7 +30382,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "Exact item is a Dior D-Joy, distinct from the existing Lady Dior family; retain the QA-corrected private catalog deferral rather than re-promoting it."
+      "reason": "QA correction identifies D-Joy as distinct from the existing Lady Dior family; preserve privately for a separate catalog decision."
     },
     "t3_1sdvfay": {
       "disposition": "rejected",
@@ -30766,10 +30769,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1sfth2i": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rcb-chanel-classic-flap-1sfth2i"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sftjx8": {
       "disposition": "rejected",
@@ -31012,7 +31018,7 @@
       "disposition": "deferred",
       "decided_on": "2026-08-12",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "above floor but outside the daily cap (priority 48)"
     },
     "t3_1sgu4ax": {
       "disposition": "deferred",
@@ -50824,10 +50830,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1uq2yqj": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: Substantially identical cross-post by the same author as already-promoted t3_1uptsgv; retain one public source URL rather than duplicate the same review."
     },
     "t3_1uq33fd": {
       "disposition": "deferred",
@@ -51310,10 +51316,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ury18q": {
-      "disposition": "deferred",
+      "disposition": "rejected",
       "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 53)"
+      "reason": "reviewed and not promoted: Wishlist discussion names bags the author plans to buy but records no owned-bag evidence or concrete product observation."
     },
     "t3_1urz3uq": {
       "disposition": "deferred",
@@ -52795,10 +52801,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1uyya5i": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-classic-flap-1uyya5i"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1uz06m1": {
       "disposition": "promoted",
@@ -53119,10 +53128,13 @@
       "reason": "reviewed and not promoted: Neverfull DA post is a pre-purchase Old Cobbler versus God Factory price and recommendation question; payment details are excluded."
     },
     "t3_1v0ra4r": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1v0ra4r"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 43)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1v0rdtc": {
       "disposition": "deferred",

@@ -30407,5 +30407,141 @@
       "The seller and factory are local/unknown and are not asserted as public attributions; no controlled authentic comparison or long-term wear result is reported."
     ],
     "exact_variant_note": "Tiffany Blue Chanel Classic Flap; the title says 22C Medium while the body refers to a 20C bag, leaving season and size unresolved. Seller and factory are unknown and unattributed."
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1uyya5i",
+    "title": "First purchase: Ch*ne1 Flap",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1uyya5i/first_purchase_chne1_flap/",
+    "subreddit": "RealRepLadies",
+    "author": "New_Combination_9341",
+    "publication_date": "2026-07-17",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A first-purchase PSP/QC post for a medium black caviar Chanel Classic Flap with gold-tone hardware reports a specific concern that the inner CC-stitched area looks wrinkled, while the author notes that similar wrinkling may occur on other examples.",
+    "positive_observations": [
+      "The post identifies the medium black caviar and gold-tone-hardware variant.",
+      "The author records a specific surface/stitching concern in the inner CC-stitched area rather than giving only a general quality rating."
+    ],
+    "negative_observations": [
+      "The inner CC-stitched area is described as somewhat wrinkled, but the author has seen similar examples and the thread does not resolve whether it is a defect.",
+      "This is pre-delivery PSP/QC evidence; seller, factory, and later wear outcome are not stated."
+    ],
+    "exact_variant_note": "Medium black caviar Chanel Classic Flap with gold-tone hardware at PSP/QC stage; seller and factory are not stated."
+  },
+  {
+    "id": "ev-crawl-rcb-chanel-classic-flap-1sfth2i",
+    "title": "CF just landed and I get the hype now",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1sfth2i/cf_just_landed_and_i_get_the_hype_now/",
+    "subreddit": "RepCulture_Bags",
+    "author": "Heavy_Necessary_3300",
+    "publication_date": "2026-04-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A just-unboxed Chanel Classic Flap first impression reports a soft leather sheen, good structure, and quilting that feels fairly even in person.",
+    "positive_observations": [
+      "The owner records concrete received-bag observations about leather sheen, structure, and quilting evenness.",
+      "The post clearly separates a delivered bag from general wishlist or seller discussion."
+    ],
+    "negative_observations": [
+      "The owner had just unboxed the bag and had not yet taken it out, so this is an early impression rather than wear evidence.",
+      "Size, color, material subtype, seller, factory, and authentic comparison are not stated beyond the general Classic Flap identification."
+    ],
+    "exact_variant_note": "Chanel Classic Flap first impression; size, color, seller, factory, and material subtype are not stated."
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1v0ra4r",
+    "title": "Chanel 25 Medium brown suede",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1v0ra4r/chanel_25_medium_brown_suede/",
+    "subreddit": "RealRepLadies",
+    "author": "boooger_butt",
+    "publication_date": "2026-07-19",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-heidi"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A received Chanel 25 Medium described as brown suede is compared with the author's authentic suede Chanel: the delivered material is reported to feel like microfiber rather than real suede or leather, creating a specific material mismatch.",
+    "positive_observations": [
+      "The post identifies the received Chanel 25 Medium and records an in-hand material comparison against an authentic suede Chanel owned by the author.",
+      "The report isolates a concrete material concern rather than relying on a general dissatisfaction statement."
+    ],
+    "negative_observations": [
+      "The delivered material is reported as microfiber/faux leather rather than the expected suede and leather, according to the author's tactile comparison.",
+      "The post says the bag was supposed to be from 187, but the received-factory attribution is not independently established and is left unattributed; no later resolution or long-term wear result is captured."
+    ],
+    "exact_variant_note": "Chanel 25 Medium in a brown suede-described colorway; seller Heidi is source-reported and normalized. The post says it was supposed to be from 187, but the received factory is uncertain and is not attached."
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1kvrc0u",
+    "title": "Chanel Classic Double Flap small- black caviar leather",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1kvrc0u/chanel_classic_double_flap_small_black_caviar/",
+    "subreddit": "RealRepLadies",
+    "author": "Blonde_popcorn",
+    "publication_date": "2025-05-26",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "factory_comparison",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-emily"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A received small black caviar Chanel Classic Double Flap attributed by the source to 187 King quality reports careful packaging, a natural leather smell, soft but structured caviar with a close-to-authentic grain, accurate shape with seven quilted diamonds, even stitching, burgundy lining, and a solid chain; the owner notes bright or somewhat yellow gold hardware and one chain loop that was not completely closed.",
+    "positive_observations": [
+      "The owner preserves the exact small black caviar double-flap variant and source-reported 187 King quality attribution through normalized seller Emily.",
+      "The received-bag review records specific observations about leather feel and smell, caviar grain, shape, seven-diamond quilting, stitching, burgundy lining, stamp placement, chain, and measurements: 596 g weight, 14 cm height, 23 cm width, 6 cm depth, and 47/25 cm maximum/minimum strap drops.",
+      "The owner reports that the bag's construction and measurements are close to the cited authentic reference, while documenting the one chain-loop issue rather than omitting it."
+    ],
+    "negative_observations": [
+      "The gold hardware is described as bright and possibly more yellow than the usual Chanel tone, and one chain loop was not completely closed.",
+      "The 187 King attribution is source-reported and not independently established as the received batch; the authentic measurements may have been taken using different measuring points, and no longer-term wear result is recorded.",
+      "Contact, payment, and external image-host details are excluded."
+    ],
+    "exact_variant_note": "Small black caviar Chanel Classic Double Flap; seller Emily is source-reported and normalized. The source calls the factory '187 King quality'; this is mapped to the normalized 187 entity as a source-reported attribution, not an independently verified batch claim."
   }
 ]
