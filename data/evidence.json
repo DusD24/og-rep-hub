@@ -18725,5 +18725,173 @@
       "The source does not state size, color, material, wear duration, seller, or factory, so the report remains family-level evidence only.",
       "No authentic comparison or construction inspection is provided."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1ttooqn",
+    "title": "Help me QC!! 187 Chanel",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ttooqn/help_me_qc_187_chanel/",
+    "subreddit": "RealRepLadies",
+    "author": "CartographerGood552",
+    "publication_date": "2026-06-01",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-heidi"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Classic Flap 25 cm/medium in black lambskin with light-gold hardware, attributed by the source to 187 and bought from Heidi.",
+    "paraphrase": "A PSP QC post for a black lambskin Classic Flap 25 cm/medium with light-gold hardware asks whether the bag's puffiness is appropriate; the buyer says the stitching looks good.",
+    "positive_observations": [
+      "The source preserves the 25 cm/medium size, black lambskin, light-gold hardware, Heidi seller label, and 187 factory label.",
+      "It isolates puffiness and stitching as concrete PSP checks rather than asking only for a general seller recommendation."
+    ],
+    "negative_observations": [
+      "The puffiness question is unresolved in the captured post and there is no authentic side-by-side comparison or in-hand result.",
+      "The seller and factory are source-reported attributions; no additional seller-service or private details are included."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-chanel-classic-flap-1szwkst",
+    "title": "Chanel QC help me pleaseeee",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1szwkst/chanel_qc_help_me_pleaseeee/",
+    "subreddit": "RepTherapy",
+    "author": "CartographerGood552",
+    "publication_date": "2026-04-30",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-heidi"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel Classic Flap in caviar leather with light-gold hardware, attributed by the source to 187 and bought from Heidi; size is not stated.",
+    "paraphrase": "A PSP QC post for a caviar Classic Flap with light-gold hardware from Heidi and 187 flags the back alignment as the main concern and says the buyer is leaning toward rejecting it.",
+    "positive_observations": [
+      "The source records the caviar material, light-gold hardware, Heidi seller label, 187 factory label, and a specific back-alignment check.",
+      "The buyer states a concrete disposition concern rather than offering generic factory praise."
+    ],
+    "negative_observations": [
+      "The alignment concern is unresolved in the captured post and no delivery result or authentic comparison is given.",
+      "The size is not stated; payment details are excluded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1rgdwv2",
+    "title": "Bag Review - The beautiful SPEEDY 20 P9",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1rgdwv2/bag_review_the_beautiful_speedy_20_p9/",
+    "subreddit": "RealRepLadies",
+    "author": "Salt_Razzmatazz4981",
+    "publication_date": "2026-02-27",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": "Ordered February 5, received a detailed quality video February 7, tracking February 10, and the bag February 15, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Speedy 20 labeled P9, with an 8.7 x 5.5 x 6.9 inch size, cowhide exterior, lambskin interior, and pumpkin-orange color described by the reviewer; P9 is not normalized to a catalogued factory.",
+    "paraphrase": "An in-hand Speedy 20 P9 review reports an 8.7 x 5.5 x 6.9 inch bag with cowhide exterior, lambskin interior, soft flexible leather handles, a pronounced slouch, and a true pumpkin-orange color; the reviewer says it works well for daily use and smells like leather.",
+    "positive_observations": [
+      "The review preserves exact dimensions, exterior and interior materials, handle hand, slouch, color description, and daily-use assessment.",
+      "It includes a dated order-to-delivery sequence and compares the Speedy 20's size with a Speedy 25 in the source images."
+    ],
+    "negative_observations": [
+      "The account is subjective and does not include an authentic side-by-side or longer-term wear result.",
+      "The seller and source-reported P9 label are not normalized to catalogued entities."
+    ]
+  },
+  {
+    "id": "ev-crawl-rcb-louis-vuitton-speedy-1ou0p1q",
+    "title": "LV Speedy 25 Denim Patchwork",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1ou0p1q/lv_speedy_25_denim_patchwork/",
+    "subreddit": "RepCulture_Bags",
+    "author": "Salt_Razzmatazz4981",
+    "publication_date": "2025-11-11",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "exact_variant_note": "Speedy 25 Denim Patchwork delivered in a denim/leather construction; colorway, seller, and factory are not stated.",
+    "paraphrase": "A delivered Speedy 25 Denim Patchwork review calls out the bag's alignment and reports soft real leather with a strong leather smell; the reviewer notes that the pictured chain was their own accessory rather than included with the bag.",
+    "positive_observations": [
+      "The source identifies the Speedy 25 Denim Patchwork variant and records alignment, leather hand, and smell observations after delivery.",
+      "It distinguishes the bag from the styling accessory by stating that the chain was not included."
+    ],
+    "negative_observations": [
+      "The post is brief and does not give a factory, seller, authentic comparison, or longer-term wear result.",
+      "The missing chain is a package-content note from the buyer, not evidence that the bag's construction failed."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-bottega-veneta-andiamos-1rwtckq",
+    "title": "Andiamo QC help! Am I crazy?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1rwtckq/andiamo_qc_help_am_i_crazy/",
+    "subreddit": "RealRepLadies",
+    "author": "poeticrae13",
+    "publication_date": "2026-03-18",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "exact_variant_note": "Bottega Veneta Andiamo PSP with a reported side-view weaving concern; size, color, material, seller, and factory are not stated.",
+    "paraphrase": "An Andiamo PSP QC request says the weaving looks visibly off, especially from the side, and that the buyer is leaning toward rejecting the bag.",
+    "positive_observations": [
+      "The source isolates a specific construction concern—side-view weaving—rather than asking for general approval.",
+      "It records the buyer's intended QC disposition while leaving the exact Andiamo variant unresolved."
+    ],
+    "negative_observations": [
+      "The concern is unresolved in the captured post and no in-hand result or authentic comparison is provided.",
+      "Size, color, material, seller, and factory are not stated."
+    ]
   }
 ]
