@@ -692,7 +692,9 @@
     "factory_ids": [
       "factory-god"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-monogram"
+    ],
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
@@ -730,7 +732,9 @@
       "factory-royal",
       "factory-birdcage"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-damier-ebene"
+    ],
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
@@ -1494,7 +1498,9 @@
     "exact_product_match": true,
     "seller_ids": [],
     "factory_ids": [],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
@@ -1527,7 +1533,9 @@
       "seller-hyper-peter"
     ],
     "factory_ids": [],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-unresolved"
+    ],
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
@@ -2070,7 +2078,9 @@
     "factory_ids": [
       "factory-royal"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-damier-ebene"
+    ],
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
@@ -2388,7 +2398,9 @@
     "factory_ids": [
       "factory-royal"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
@@ -3895,7 +3907,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -4480,7 +4494,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -5039,7 +5055,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-monogram"
+    ],
     "seller_ids": [
       "seller-alisa"
     ],
@@ -5303,7 +5321,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -5338,7 +5358,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -5438,7 +5460,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -5525,7 +5549,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-monogram"
+    ],
     "seller_ids": [
       "seller-ming"
     ],
@@ -5556,7 +5582,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-empreinte"
+    ],
     "seller_ids": [
       "seller-axin"
     ],
@@ -5712,7 +5740,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-monogram"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "source_type": "reddit_review",
@@ -5741,7 +5771,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -5865,7 +5897,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "source_type": "reddit_review",
@@ -5893,7 +5927,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-unresolved"
+    ],
     "seller_ids": [
       "seller-reykay"
     ],
@@ -5958,7 +5994,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -6095,7 +6133,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -6365,7 +6405,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -6398,7 +6440,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-damier-azur"
+    ],
     "seller_ids": [
       "seller-old-cobbler"
     ],
@@ -6431,7 +6475,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -6741,7 +6787,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-monogram"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -6894,7 +6942,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-nano-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -7027,7 +7077,9 @@
       "bag-family-chanel-25",
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -7607,7 +7659,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -7638,7 +7692,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -7894,7 +7950,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-monogram"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -7927,7 +7985,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -8119,7 +8179,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -8152,7 +8214,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -8404,7 +8468,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -8435,7 +8501,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-nano-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-huahui"
@@ -9153,7 +9221,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -9184,7 +9254,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -9215,7 +9287,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-monogram"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -9337,7 +9411,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-25-unresolved"
+    ],
     "seller_ids": [
       "seller-laomao"
     ],
@@ -9368,7 +9444,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-40-unresolved"
+    ],
     "seller_ids": [
       "seller-laomao"
     ],
@@ -9399,7 +9477,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-laomao"
     ],
@@ -9558,7 +9638,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-empreinte"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -9620,7 +9702,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -9891,7 +9975,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [
       "seller-reykay"
     ],
@@ -9985,7 +10071,9 @@
       "bag-family-louis-vuitton-speedy",
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-monogram"
+    ],
     "seller_ids": [
       "seller-mike"
     ],
@@ -10140,7 +10228,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-huahui"
@@ -10360,7 +10450,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -10391,7 +10483,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -10454,7 +10548,9 @@
       "bag-family-louis-vuitton-speedy",
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal",
@@ -10957,7 +11053,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -11241,7 +11339,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -11272,7 +11372,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -11431,7 +11533,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -11619,7 +11723,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -11683,7 +11789,9 @@
       "factory-mb",
       "factory-royal"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
@@ -12042,7 +12150,9 @@
     "factory_ids": [
       "factory-royal"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-unresolved"
+    ],
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
@@ -12074,7 +12184,9 @@
     "factory_ids": [
       "factory-royal"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
@@ -12299,7 +12411,9 @@
     "factory_ids": [
       "factory-royal"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-unresolved"
+    ],
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
@@ -12432,7 +12546,9 @@
       "seller-hyper-peter"
     ],
     "factory_ids": [],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
@@ -12716,7 +12832,9 @@
     "factory_ids": [
       "factory-royal"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
@@ -12748,7 +12866,9 @@
     "factory_ids": [
       "factory-royal"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
@@ -12879,7 +12999,9 @@
       "seller-hyper-peter"
     ],
     "factory_ids": [],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
@@ -12910,7 +13032,9 @@
     "exact_product_match": true,
     "seller_ids": [],
     "factory_ids": [],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
@@ -13007,7 +13131,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -13040,7 +13166,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -13202,7 +13330,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-god"
@@ -13494,7 +13624,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -14032,7 +14164,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -14373,7 +14507,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -14635,7 +14771,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": false,
@@ -14893,7 +15031,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -14926,7 +15066,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -15187,7 +15329,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-mb"
@@ -15569,7 +15713,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-felix"
     ],
@@ -15602,7 +15748,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -16044,7 +16192,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-monogram"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": false,
@@ -16076,7 +16226,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": false,
@@ -16198,7 +16350,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-mb"
@@ -16356,7 +16510,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -16521,7 +16677,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-monogram"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -16909,7 +17067,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-unresolved"
+    ],
     "seller_ids": [
       "seller-nina"
     ],
@@ -17524,7 +17684,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -17846,7 +18008,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -18069,7 +18233,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -18099,7 +18265,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -18421,7 +18589,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -18659,7 +18829,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-20-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -18691,7 +18863,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -18823,7 +18997,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -19091,7 +19267,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [
       "seller-mr-canvas"
     ],
@@ -19323,7 +19501,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -19486,7 +19666,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [
       "seller-reykay"
     ],
@@ -19522,7 +19704,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -19652,7 +19836,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "seller_ids": [
       "seller-miss-yu"
     ],
@@ -20046,7 +20232,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -20186,7 +20374,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -20493,7 +20683,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -20661,7 +20853,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -20749,7 +20943,9 @@
   {
     "access_date": "2026-08-13",
     "author": "Educational-You-9902",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "evidence_type": "auth_comparison",
     "exact_product_match": true,
     "exact_variant_note": "LV x TM Speedy 30 photo comparison; the post does not attribute the compared rep examples to a seller or factory.",
@@ -20911,7 +21107,9 @@
   {
     "access_date": "2026-08-13",
     "author": "KuromiFan0202",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "evidence_type": "in_hand_review",
     "exact_product_match": true,
     "exact_variant_note": "Speedy Dark 30; the post does not state the exact material, colorway details, seller, or factory.",
@@ -20943,7 +21141,9 @@
   {
     "access_date": "2026-08-13",
     "author": "Acrobatic-Test4006",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "evidence_type": "auth_comparison",
     "exact_product_match": true,
     "exact_variant_note": "Speedy B 30 described by the source as a GF bag, with a separate Murakami Cherry bandeau; the GF abbreviation is left unattributed because its factory identity is not established in the post.",
@@ -21281,7 +21481,9 @@
   {
     "access_date": "2026-08-13",
     "author": "EyeHeartRamen",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "evidence_type": "in_hand_review",
     "exact_product_match": true,
     "exact_variant_note": "Speedy 30 in Damier Azur attributed by the source to Royal; seller and exact hardware/material details are not stated in the public record.",
@@ -21513,7 +21715,9 @@
   {
     "access_date": "2026-08-13",
     "author": "hastypeanut",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "evidence_type": "auth_comparison",
     "exact_product_match": true,
     "exact_variant_note": "Louis Vuitton Damier Azur Nano Speedy; the compared rep examples are identified only through factory photos and no factory or seller is named.",
@@ -21545,7 +21749,9 @@
   {
     "access_date": "2026-08-13",
     "author": "dareal03x",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "evidence_type": "in_hand_review",
     "exact_product_match": true,
     "exact_variant_note": "Louis Vuitton Nano Speedy with monogram canvas, attributed to Hyper Peter as seller; factory is explicitly undisclosed.",
@@ -21613,7 +21819,9 @@
   {
     "access_date": "2026-08-13",
     "author": "YoimiyaMain",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-monogram"
+    ],
     "evidence_type": "auth_comparison",
     "exact_product_match": true,
     "exact_variant_note": "Louis Vuitton Monogram Speedy Bandouliere 25 identified through the title and authentic reference; attributed to Hyper Peter as seller, with factory undisclosed.",
@@ -21679,7 +21887,9 @@
   {
     "access_date": "2026-08-13",
     "author": "RealisticCod3264",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-monogram"
+    ],
     "evidence_type": "in_hand_review",
     "exact_product_match": true,
     "exact_variant_note": "Coffee Bean Speedy P9, 30 cm; the post states the factory is unknown and does not identify a normalized seller.",
@@ -21711,7 +21921,9 @@
   {
     "access_date": "2026-08-13",
     "author": "Lucky-Possibility527",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "evidence_type": "in_hand_review",
     "exact_product_match": true,
     "exact_variant_note": "Louis Vuitton x Murakami Speedy 30; the same post includes sandals and jewelry, which are excluded from this bag record, and does not name a normalized seller or factory.",
@@ -21743,7 +21955,9 @@
   {
     "access_date": "2026-08-13",
     "author": "jmomaha",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-40-unresolved"
+    ],
     "evidence_type": "in_hand_review",
     "exact_product_match": true,
     "exact_variant_note": "Louis Vuitton Speedy P9 40; the post identifies the 40 size and oversized Monogram but does not state the factory, and the named seller Mark is not normalized in the public roster.",
@@ -21943,7 +22157,9 @@
   {
     "access_date": "2026-08-13",
     "author": "General_Look7115",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "evidence_type": "psp_qc",
     "exact_product_match": false,
     "exact_variant_note": "Louis Vuitton Speedy; the post does not state the exact size, color, material, seller, or factory, and the PSP concern is isolated to visible strap, leather, and strap-joint details.",
@@ -22435,7 +22651,9 @@
   {
     "access_date": "2026-08-13",
     "author": "Cute_Adeptness7301",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "evidence_type": "in_hand_review",
     "exact_product_match": true,
     "exact_variant_note": "Louis Vuitton Speedy P9 25 in Amethyst; seller and factory are not stated.",
@@ -22533,7 +22751,9 @@
   {
     "access_date": "2026-08-13",
     "author": "Training-Address-408",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "evidence_type": "in_hand_review",
     "exact_product_match": true,
     "exact_variant_note": "Louis Vuitton Speedy P9 25 in Peach; seller and factory are not stated.",
@@ -22565,7 +22785,9 @@
   {
     "access_date": "2026-08-13",
     "author": "cowriespells",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-monogram"
+    ],
     "evidence_type": "psp_qc",
     "exact_product_match": true,
     "exact_variant_note": "Louis Vuitton Speedy Soft 30 in Monogram Denim from Hyper Peter; the PSP compares the rep with official Louis Vuitton and Fashionphile references, and no factory is stated.",
@@ -22599,7 +22821,9 @@
   {
     "access_date": "2026-08-13",
     "author": "SadCaribbeanPrince",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "evidence_type": "factory_comparison",
     "exact_product_match": true,
     "exact_variant_note": "Black Louis Vuitton x Murakami Nano Speedy attributed by the source to MB factory; seller and exact material details are not stated.",
@@ -22681,7 +22905,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -22712,7 +22938,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -22743,7 +22971,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -22807,7 +23037,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-monogram"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -22840,7 +23072,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -22871,7 +23105,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": false,
@@ -23005,7 +23241,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -23170,7 +23408,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -23203,7 +23443,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -23273,7 +23515,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -23307,7 +23551,9 @@
       "bag-family-louis-vuitton-speedy",
       "bag-family-louis-vuitton-neverfull"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-damier-azur"
+    ],
     "seller_ids": [
       "seller-old-cobbler"
     ],
@@ -23340,7 +23586,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -23505,7 +23753,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -23536,7 +23786,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -23633,7 +23885,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -23796,7 +24050,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -23829,7 +24085,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -23953,7 +24211,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -24145,7 +24405,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -24341,7 +24603,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-monogram"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -24372,7 +24636,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -24506,7 +24772,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [
       "seller-mike"
     ],
@@ -24539,7 +24807,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -24570,7 +24840,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": false,
@@ -24601,7 +24873,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-20-unresolved"
+    ],
     "seller_ids": [
       "seller-tiny-jenny"
     ],
@@ -24698,7 +24972,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-empreinte"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -24730,7 +25006,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-monogram"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -24762,7 +25040,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -24827,7 +25107,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -24858,7 +25140,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-empreinte"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -24894,7 +25178,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -24927,7 +25213,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-monogram"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -24961,7 +25249,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-30-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -24997,7 +25287,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -25031,7 +25323,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-god"
@@ -25095,7 +25389,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-monogram"
+    ],
     "seller_ids": [
       "seller-aiden"
     ],
@@ -25129,7 +25425,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -25197,7 +25495,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -25263,7 +25563,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-20-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": false,
@@ -25331,7 +25633,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -25365,7 +25669,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": false,
@@ -25397,7 +25703,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [
       "seller-emily-lunghon"
     ],
@@ -25535,7 +25843,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -25639,7 +25949,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -25673,7 +25985,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-monogram"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -25837,7 +26151,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -25903,7 +26219,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -25969,7 +26287,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -26099,7 +26419,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -26429,7 +26751,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -26533,7 +26857,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -26673,7 +26999,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-monogram"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -26739,7 +27067,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-nano-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": false,
@@ -26835,7 +27165,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -26931,7 +27263,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -26963,7 +27297,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-monogram"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -26999,7 +27335,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-30-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -27033,7 +27371,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-birdcage"
@@ -27099,7 +27439,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -27133,7 +27475,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -27167,7 +27511,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-25-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -27269,7 +27615,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-20-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -27301,7 +27649,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-40-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -27406,7 +27756,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-soft-20-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-huahui"
@@ -27515,7 +27867,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-royal"
@@ -27551,7 +27905,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-speedy-25-unresolved"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
