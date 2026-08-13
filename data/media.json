@@ -934,5 +934,24 @@
     "source_platform": "Reddit",
     "usage_scope": "target_tile",
     "evidence_id": "ev-catalog-woc-1pfyhsm"
+  },
+  {
+    "id": "media-catalog-toujours-hero",
+    "path": "media/evidence/dior-toujours-car-reddit.jpg",
+    "attribution": "u/BlackberryBubbly6775 via r/RepCulture_Bags",
+    "source_url": "https://preview.redd.it/gvlkis790pbg1.jpg?width=669&format=pjpg&auto=webp&s=6410f9e3d81af254c0684db7f29bc1d6e55ef638",
+    "post_url": "https://www.reddit.com/r/RepCulture_Bags/comments/1q5dgu7/finally_received_my_toujours_it_just_as_beautiful/",
+    "author": "BlackberryBubbly6775",
+    "subreddit": "RepCulture_Bags",
+    "capture_date": "2026-08-13",
+    "removal_checked_at": "2026-08-13",
+    "sha256": "68233db57cb310fce153fc1f502774fb45d52f53af897a63fcec902a3d8b37d3",
+    "width": 669,
+    "height": 855,
+    "research_purpose": "Receipt-linked community collection-tile image for a newly opened catalog family.",
+    "alt": "Dior Toujours shown on a car seat in a Reddit reviewer's personal photograph.",
+    "source_platform": "Reddit",
+    "usage_scope": "target_tile",
+    "evidence_id": "ev-catalog-toujours-1q5dgu7"
   }
 ]

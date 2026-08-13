@@ -2438,5 +2438,59 @@
       "The public name is intentionally Chanel WOC to avoid YSL and Louis Vuitton WOC collisions; size and material remain source-specific."
     ],
     "reference_url": "https://www.chanel.com/us/fashion/handbags/"
+  },
+  {
+    "id": "bag-family-dior-toujours",
+    "slug": "dior-toujours",
+    "brand": "Dior",
+    "model": "Toujours",
+    "aliases": [
+      "Dior Toujours",
+      "Toujours tote"
+    ],
+    "category": "tote",
+    "summary": "Community evidence file covering Dior Toujours vertical size, calfskin, macrocannage, hardware, PSP, in-hand, and authentic-comparison observations.",
+    "tile_media_id": "media-catalog-toujours-hero",
+    "publication_status": "published",
+    "documented_variant_ids": [
+      "bag-toujours-vertical-medium",
+      "bag-toujours-vertical-large-24cm",
+      "bag-toujours-vertical-calfskin",
+      "bag-toujours-unknown"
+    ],
+    "evidence_ids": [
+      "ev-catalog-toujours-1udj2y4",
+      "ev-catalog-toujours-1twt8c5",
+      "ev-catalog-toujours-1qazo8v",
+      "ev-catalog-toujours-1q5dgu7"
+    ],
+    "documented_materials": [
+      "calfskin",
+      "not consistently stated in selected sources"
+    ],
+    "documented_hardware": [
+      "hardware tone (source-reported)",
+      "not consistently stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 4,
+      "independent_author_count": 3,
+      "primary_subreddit_coverage": [
+        "RepCulture_Bags",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "auth_comparison",
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
+    "last_updated": "2026-08-13",
+    "research_gaps": [
+      "Vertical Medium, Vertical Large 24cm, source-reported calfskin tote, and unresolved-size/colorway evidence remain separate; source-reported factory names are not independently normalized.",
+      "The hero-linked post has thin text; two same-author Toujours purchases are kept as separate bags, while their same-content RealRepLadies crossposts are excluded."
+    ],
+    "reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags"
   }
 ]

@@ -15142,10 +15142,13 @@
       "reason": "reviewed and not promoted: Kelly 25 post is a catalog/customization advertisement with contact information and no independent product evidence."
     },
     "t3_1q5dgu7": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-toujours-1q5dgu7"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1q5h5jx": {
       "disposition": "deferred",
@@ -15790,10 +15793,13 @@
       "reason": "triage score 20 below floor 30"
     },
     "t3_1qazo8v": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-toujours-1qazo8v"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1qb1ddz": {
       "disposition": "deferred",
@@ -43381,10 +43387,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1twt8c5": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-toujours-1twt8c5"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1twu67v": {
       "disposition": "rejected",
@@ -47920,10 +47929,13 @@
       "reason": "reviewed and not promoted: crosspost of t3_1ucuuip by the same author with the same two-bag review; retain one source URL rather than counting the rehome transactions twice"
     },
     "t3_1udj2y4": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-catalog-toujours-1udj2y4"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "Exact item is a Dior Toujours Vertical Medium with in-hand leather, shape, hardware, and stitching observations, not an existing Lady Dior variant; preserve for a separate Toujours catalog decision."
+      "reason": "catalog family opened from reviewed full-capture evidence"
     },
     "t3_1udkd8d": {
       "disposition": "rejected",

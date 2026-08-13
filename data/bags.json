@@ -547,5 +547,53 @@
     "material": "not documented in source",
     "hardware": "not documented in source",
     "official_reference_url": "https://www.chanel.com/us/fashion/handbags/"
+  },
+  {
+    "id": "bag-toujours-vertical-medium",
+    "name": "Dior Toujours Vertical Medium",
+    "size": "Medium",
+    "pattern": "Vertical silhouette (source-reported)",
+    "colorway": "not documented in source",
+    "priority": "primary",
+    "family_id": "bag-family-dior-toujours",
+    "material": "not documented in source",
+    "hardware": "not documented in source",
+    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags"
+  },
+  {
+    "id": "bag-toujours-vertical-large-24cm",
+    "name": "Dior Toujours Vertical Large 24cm",
+    "size": "Large (24cm source-reported)",
+    "pattern": "Vertical silhouette (source-reported)",
+    "colorway": "not documented in source",
+    "priority": "secondary-priority",
+    "family_id": "bag-family-dior-toujours",
+    "material": "not documented in source",
+    "hardware": "not documented in source",
+    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags"
+  },
+  {
+    "id": "bag-toujours-vertical-calfskin",
+    "name": "Dior Toujours Vertical Calfskin Tote",
+    "size": "not documented in source",
+    "pattern": "Vertical silhouette (calfskin tote)",
+    "colorway": "not documented in source",
+    "priority": "primary",
+    "family_id": "bag-family-dior-toujours",
+    "material": "calfskin (source-reported)",
+    "hardware": "hardware tone (source-reported)",
+    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags"
+  },
+  {
+    "id": "bag-toujours-unknown",
+    "name": "Dior Toujours, size and colorway not documented",
+    "size": "not documented in source",
+    "pattern": "not documented in source",
+    "colorway": "not documented in source",
+    "priority": "research-lead",
+    "family_id": "bag-family-dior-toujours",
+    "material": "not documented in source",
+    "hardware": "not documented in source",
+    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags"
   }
 ]

@@ -32449,5 +32449,131 @@
       "The logo placement and stitch-detail questions remain unresolved at the time of the post."
     ],
     "media_ids": []
+  },
+  {
+    "id": "ev-catalog-toujours-1udj2y4",
+    "title": "Dior Toujours from God Factory ReyKey",
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1udj2y4/dior_toujours_from_god_factory_reykey/",
+    "subreddit": "RepTherapy",
+    "author": "AliceOyster",
+    "publication_date": "2026-06-23",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-toujours-vertical-medium"
+    ],
+    "family_ids": [
+      "bag-family-dior-toujours"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A received Dior Toujours Vertical Medium is described as the author's second Dior purchase and a satisfactory replacement for an earlier unsatisfactory Dior item; the source reports a God Factory attribution.",
+    "positive_observations": [
+      "The owner reports satisfaction with this specific received Vertical Medium."
+    ],
+    "negative_observations": [
+      "The post does not record a long-term wear result or a specific construction defect."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-catalog-toujours-1twt8c5",
+    "title": "QC Dior Toujours Vertical Large",
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1twt8c5/qc_di_toujours_from_reykey/",
+    "subreddit": "RepTherapy",
+    "author": "AliceOyster",
+    "publication_date": "2026-06-04",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-toujours-vertical-large-24cm"
+    ],
+    "family_ids": [
+      "bag-family-dior-toujours"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A pre-receipt PSP for a Dior Toujours Vertical Large measuring 24cm records acceptable-looking stitching and hardware color while asking whether the bottom stitching pattern and puffiness indicate a real issue.",
+    "positive_observations": [
+      "The exact Vertical Large and source-reported 24cm size are preserved, along with concrete PSP review areas."
+    ],
+    "negative_observations": [
+      "The bottom stitching and puffiness questions remain unresolved at the pre-receipt stage."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-catalog-toujours-1qazo8v",
+    "title": "Dior Toujours Vertical Tote",
+    "source_type": "reddit_review",
+    "evidence_type": "auth_comparison",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1qazo8v/dior_toujours_vertical_tote_god_factory_ts_aku/",
+    "subreddit": "RepTherapy",
+    "author": "Joseph6291",
+    "publication_date": "2026-01-12",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-toujours-vertical-calfskin"
+    ],
+    "family_ids": [
+      "bag-family-dior-toujours"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A received Dior Toujours Vertical calfskin tote is compared with an authentic reference; the author reports close macrocannage texture, hardware tone, and stitching, while noting a thinner CD-Paris strap font and some slanted exterior stitching versus the reference.",
+    "positive_observations": [
+      "The post gives an explicit authentic-reference comparison with itemized texture, hardware-tone, and stitching observations."
+    ],
+    "negative_observations": [
+      "The author reports a thinner CD-Paris strap font and some slanted exterior stitching relative to the authentic reference."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-catalog-toujours-1q5dgu7",
+    "title": "Finally received my Toujours",
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1q5dgu7/finally_received_my_toujours_it_just_as_beautiful/",
+    "subreddit": "RepCulture_Bags",
+    "author": "BlackberryBubbly6775",
+    "publication_date": "2026-01-06",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-toujours-unknown"
+    ],
+    "family_ids": [
+      "bag-family-dior-toujours"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A received Dior Toujours is shown in a casual car-interior photo; the author reports it was as beautiful as expected after about a 15-day wait.",
+    "positive_observations": [
+      "The source supplies a receipt-linked personal photograph and an in-hand satisfaction observation."
+    ],
+    "negative_observations": [
+      "The exact size, colorway, material, and long-term wear result are not documented in the post."
+    ],
+    "media_ids": [
+      "media-catalog-toujours-hero"
+    ]
   }
 ]
