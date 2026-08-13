@@ -4696,5 +4696,428 @@
       "PSP stage only; both concerns are left open with no resolution recorded.",
       "No seller named."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-bottega-veneta-andiamos-1rz4n65",
+    "title": "PLEASE HELP QC",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1rz4n65/please_help_qc/",
+    "subreddit": "RealRepLadies",
+    "author": "SupermarketMiddle349",
+    "publication_date": "2026-03-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-jing"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A QC post for a Bottega Veneta Andiamo Small in Citrus attributed to Jing factory, where the buyer reports a good colour match to an authentic reference but raises a specific concern that the intrecciato weaving is not as evenly spaced as other Jing-factory bags they have seen.",
+    "positive_observations": [
+      "A specific, checkable comparison point (weave evenness against other known Jing-factory output) rather than a general impression."
+    ],
+    "negative_observations": [
+      "The comparison basis (\"other bags from Jing Factory\") is not itemised, so it cannot be independently checked.",
+      "No verdict is reached; the post ends on the buyer's discomfort rather than a conclusion."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1nqyo19",
+    "title": "Update on Chanel 25 from God Factory",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1nqyo19/update_on_chanel_25_from_god_factory/",
+    "subreddit": "RealRepLadies",
+    "author": "BornLocal9767",
+    "publication_date": "2025-09-26",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A short follow-up to an earlier alignment concern on a Chanel 25 from Doris (God factory): the buyer reports the apparent misalignment was a photo-angle artifact, confirmed once Doris sent video, and the bag was approved (GL'd).",
+    "positive_observations": [
+      "Resolves a specific, previously open QC concern with a stated cause (camera angle) rather than leaving it unanswered.",
+      "Documents the seller providing video on request to address the concern."
+    ],
+    "negative_observations": [
+      "Very brief; the resolution is reported secondhand from the seller's video, not independently re-examined by anyone else."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1ryvauy",
+    "title": "PSP QC Small black Chanel 25 OF new batch",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ryvauy/psp_qc_small_black_chanel_25_of_new_batch/",
+    "subreddit": "RealRepLadies",
+    "author": "Devil_wearsprada",
+    "publication_date": "2026-03-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-tiny-jenny"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A QC post for a small black Chanel 25 from seller Tiny Jenny, delayed several weeks and fulfilled from a new production batch after the size sold out; the buyer, unfamiliar with this model, asks specifically whether the leather reads as too dry and whether the quilting has enough puff, and asks whether owners of the earlier batch would say quality is comparable.",
+    "positive_observations": [
+      "Raises the batch-to-batch consistency question explicitly, which is a useful signal type distinct from a single-bag QC check.",
+      "Names two specific, checkable attributes (leather dryness, quilt puff) rather than a general impression."
+    ],
+    "negative_observations": [
+      "The buyer states they are not familiar with this model, so their own assessment carries little weight.",
+      "The factory is described only as \"OF\" by the seller and is not in this catalog's factory roster, so it is left unattributed here."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1swkkik",
+    "title": "Tiny Jenny Review",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1swkkik/tiny_jenny_review/",
+    "subreddit": "RealRepLadies",
+    "author": "anonygoats",
+    "publication_date": "2026-04-26",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": "Ordered 9 April (second bag added 11 April); PSPs 16 April; shipped 19 April; delivered 25 April -- 16 days start to finish, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-tiny-jenny"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A dated two-bag order from Tiny Jenny -- a Chanel 25 Mini in Denim and a Chanel 25 Small in Black Caviar with gold hardware -- both sourced by the seller as OF factory (not in this catalog's roster). The reviewer calls the denim bag's quality nearly perfect but notes the pockets sit slightly lower than in authentic reference photos, praises the seller's responsiveness and turnaround, and notes the PSP photo lighting/quality could be better.",
+    "positive_observations": [
+      "A complete dated timeline covering two bags in one order, with a specific, checkable construction detail (pocket placement vs. authentic photos) rather than uniform praise.",
+      "States both a positive (turnaround speed) and a minor negative (PSP photo quality) rather than one-sided enthusiasm."
+    ],
+    "negative_observations": [
+      "The factory (\"OF\") is not in this catalog's roster, so it is left unattributed here.",
+      "The pocket-placement discrepancy is noted but not resolved or further investigated in the source."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-hermes-kelly-1jp2mrz",
+    "title": "She has arrived.",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1jp2mrz/she_has_arrived/",
+    "subreddit": "RepTherapy",
+    "author": "Hold_The_Tomato",
+    "publication_date": "2025-04-01",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-hermes-kelly"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of a Kelly Elan in Bamboo from a seller identified as Peter (not in this catalog's roster), reporting imported chèvre-exterior, swift-interior leather, fully hand-stitched construction, and that the buyer chose not to add upgraded brass hardware.",
+    "positive_observations": [
+      "Specifies the exact leather combination and stitching method rather than a general leather-quality claim."
+    ],
+    "negative_observations": [
+      "No factory is named, and the seller is not in this catalog's roster, so this cannot support seller- or factory-specific signals.",
+      "Enthusiasm-driven overall (\"I'm in love\") with no defect or concern raised."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-ysl-loulou-1qw29gr",
+    "title": "How is the inside stitching on your YSL Loulou bags? (Old version)",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1qw29gr/how_is_the_inside_stitching_on_your_ysl_loulou/",
+    "subreddit": "RealRepLadies",
+    "author": "Jija_jija",
+    "publication_date": "2026-02-04",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-ysl-loulou"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-black-frame"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A PSP-stage QC post for a small YSL LouLou from Black Frame factory reporting the interior stitching as wobbly and uneven rather than clean and straight, asking other owners to compare against their own bags; the seller has offered a refund, and the buyer is weighing whether to accept the bag, request a refund, or wait to try a different factory after the holidays.",
+    "positive_observations": [
+      "A specific, photographed construction defect (interior stitching) reported at the PSP stage, with the seller's own refund offer documented as part of the record.",
+      "Provides a genuine negative data point for Black Frame factory, balancing this catalog's otherwise positive LouLou reports from the same factory."
+    ],
+    "negative_observations": [
+      "No resolution is recorded in the source; the buyer had not decided at time of posting.",
+      "Single report; no independent corroboration that this is a recurring Black Frame issue rather than a one-off."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-ysl-loulou-1v84yc9",
+    "title": "Finally here! Ysl loulou small in suede",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1v84yc9/finally_here_ysl_loulou_small_in_suede/",
+    "subreddit": "RealRepLadies",
+    "author": "Prior-Classroom-8449",
+    "publication_date": "2026-07-27",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": "Delivered in under 10 days after shipping, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-ysl-loulou"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-felix"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A small YSL LouLou in suede, sourced by seller Felix from a factory the buyer calls \"pomegranate\" (not in this catalog's roster) after the buyer's preferred Black Frame factory did not have the wanted colour in stock; the buyer reports a smooth process and quick delivery once shipped.",
+    "positive_observations": [
+      "Documents a seller sourcing outside their default factory to match a specific colour request, which is a useful data point on seller flexibility."
+    ],
+    "negative_observations": [
+      "The fulfilling factory (\"pomegranate\") is not in this catalog's roster, so it is left unattributed here.",
+      "No construction detail beyond the buying process; nothing is said about leather, stitching, or hardware."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-hermes-kelly-1j12db3",
+    "title": "Need help with Hermes QC",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1j12db3/need_help_with_hermes_qc/",
+    "subreddit": "RealRepLadies",
+    "author": "Successful_Line_3064",
+    "publication_date": "2025-03-01",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "auth_comparison",
+    "family_ids": [
+      "bag-family-hermes-kelly"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-andy"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A QC request for a mini Kelly from a seller identified as Andy, contacted via Instagram, comparing a seller-provided video screenshot of the bag's blind-stamp imprint against a reference authentic imprint sourced from Fashionphile; the buyer says the screenshot detail is hard to make out and asks for help assessing it.",
+    "positive_observations": [
+      "Uses a specific, checkable authentication point (the blind-stamp imprint) against a named third-party authentic reference rather than a general impression."
+    ],
+    "negative_observations": [
+      "The comparison image is a screenshot from video and described by the buyer as hard to read, limiting how much can be concluded from it.",
+      "No factory is named, and the seller is not in this catalog's roster."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-dior-lady-dior-1k4i04r",
+    "title": "Lady Dior QC, thoughts please?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1k4i04r/lady_dior_qc_thoughts_please/",
+    "subreddit": "RealRepLadies",
+    "author": "Lopsided_Delivery390",
+    "publication_date": "2025-04-21",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A first-purchase QC post for a Lady Dior from God factory, where the buyer reports the bag looks good overall but raises a specific, unresolved concern that something about the hardware seems off, comparing against three authentic reference photos included for comparison.",
+    "positive_observations": [
+      "A specific, checkable concern (hardware) backed by an authentic-photo comparison rather than a vague first impression."
+    ],
+    "negative_observations": [
+      "First purchase, so the buyer has no prior comparison basis of their own.",
+      "The concern is left open with no resolution recorded."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-hermes-kelly-1sj60te",
+    "title": "QC on a Kelly 25? (No idea what I’m looking for 🙏🏼)",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1sj60te/qc_on_a_kelly_25_no_idea_what_im_looking_for/",
+    "subreddit": "RealRepLadies",
+    "author": "ne_worry_pas",
+    "publication_date": "2026-04-12",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-hermes-kelly"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A QC post for a Kelly 25 in Togo leather (chosen over Swift to avoid a longer custom lead time), where the buyer notes the seller-provided video shows a noticeably lighter colour than the still photos and was told to trust the video as more accurate; the buyer, new to both Hermès and reps, asks for general guidance on what to look for.",
+    "positive_observations": [
+      "Documents a specific, recurring evidentiary limitation directly: video and photo colour capture disagreeing for the same bag, with the seller's own guidance on which to trust.",
+      "States the leather choice and the reasoning behind it (lead time) rather than leaving it unspecified."
+    ],
+    "negative_observations": [
+      "The buyer states they do not know what to look for, so their own assessment carries little independent weight.",
+      "Neither seller nor factory is named."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-balenciaga-rodeo-1pi697u",
+    "title": "Help me QC - am I crazy?",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1pi697u/help_me_qc_am_i_crazy/",
+    "subreddit": "RepTherapy",
+    "author": "Any-Put5056",
+    "publication_date": "2025-12-09",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-balenciaga-rodeo"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-kata"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A detailed negative PSP QC report for a high-tier large Balenciaga Rodeo in espresso suede from Kata factory: the buyer reports the bag lacks structure and is noticeably more slouchy than an authentic, the side-button folds are unclean and appear to have excess material where the two characteristic folds should be, the hardware reads as too shiny with shallow engraving, and the interior stamping also appears shallow; the buyer says they are struggling to approve (GL) the bag and asks whether others have seen similar issues.",
+    "positive_observations": [
+      "An unusually detailed, itemised list of specific construction defects (structure, fold cleanliness, hardware finish, stamping depth) rather than a single overall impression.",
+      "A genuine negative data point for Kata factory's large Rodeo specifically, balancing this catalog's more positive Kata reports for other Rodeo sizes."
+    ],
+    "negative_observations": [
+      "PSP stage only; no resolution or seller response is recorded.",
+      "Single report; not yet corroborated by another buyer of this exact size/leather combination."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1gol51m",
+    "title": "Review of LV Speedy B 30 Classic Monogram",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1gol51m/review_of_lv_speedy_b_30_classic_monogram/",
+    "subreddit": "RealRepLadies",
+    "author": "8fishoftheday8",
+    "publication_date": "2024-11-11",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-alisa"
+    ],
+    "factory_ids": [
+      "factory-huahui"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A first-rep buyer reviews an LV Speedy Bandoulière 30 in classic Monogram from seller Alisa, priced at 980 CNY plus 300 CNY shipping (1280 CNY total, not converted here), and attributed by the buyer's own uncertain guess to Huahui factory, reporting a smooth buying experience: quick, considerate communication, practical shipping advice on combining orders, and no upselling.",
+    "positive_observations": [
+      "Specific praise for buying-process conduct (responsiveness, no upselling, shipment-combining advice) rather than only the bag itself."
+    ],
+    "negative_observations": [
+      "The factory attribution is the buyer's own guess (\"I'm pretty sure\"), not confirmed by the seller or independently verified.",
+      "No construction detail is given for the bag itself -- leather, stitching, or hardware are not described."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-loewe-puzzle-1sryrl2",
+    "title": "Loewe Puzzle QC",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1sryrl2/loewe_puzzle_qc/",
+    "subreddit": "RealRepLadies",
+    "author": "Puzzleheaded_End6284",
+    "publication_date": "2026-04-21",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-aiden"
+    ],
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A first-purchase QC post for a Loewe Puzzle in dark chestnut from seller Aiden, attributed to Liusheng factory, where the buyer asks specifically whether the bag reads as too boxy, whether the engraving and lettering are accurate, and whether the colour is accurate.",
+    "positive_observations": [
+      "Three specific, checkable questions (shape, engraving/lettering, colour) rather than a general request for approval."
+    ],
+    "negative_observations": [
+      "First purchase, so the buyer has no comparison basis of their own.",
+      "No answer or resolution is recorded in the captured text."
+    ]
   }
 ]
