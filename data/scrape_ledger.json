@@ -15841,10 +15841,10 @@
       "reason": "reviewed and not promoted: generic QC approval request with no stated concern or observation in the captured text"
     },
     "t3_1qvwz43": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: pre-purchase MOQC Speedy factory-quality question without a received-bag observation or specific comparison"
     },
     "t3_1qvzvpo": {
       "disposition": "rejected",
@@ -16636,10 +16636,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1qzkdvn": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 35)"
+      "reason": "reviewed and not promoted: generic Nano Speedy and seller praise with no authentic comparison or concrete product observation"
     },
     "t3_1qzki3g": {
       "disposition": "deferred",
@@ -18064,10 +18064,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1r9mtab": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 35)"
+      "reason": "reviewed and not promoted: Neverfull seller recommendation request whose update only says the ordered bag is beautiful"
     },
     "t3_1r9pi59": {
       "disposition": "rejected",
@@ -20122,10 +20122,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1rq4t9r": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 45)"
+      "reason": "reviewed and not promoted: pre-purchase comparison and recommendation request between a CarryAll and Flamenco without an owned-bag quality observation"
     },
     "t3_1rq64y4": {
       "disposition": "promoted",
@@ -29399,10 +29399,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t681q8": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: seller and contact recommendation request for a Nano Speedy before purchase"
     },
     "t3_1t68b2r": {
       "disposition": "deferred",
@@ -29495,10 +29495,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t6m1yd": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepLadiesWorld",
-      "reason": "above floor but outside the daily cap (priority 65)"
+      "reason": "reviewed and not promoted: generic denim Speedy arrival praise centered on appearance, without construction, comparison, or wear evidence"
     },
     "t3_1t6m47p": {
       "disposition": "rejected",
@@ -29645,10 +29645,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t7ma3t": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 47)"
+      "reason": "reviewed and not promoted: pre-purchase factory recommendation for an uncatalogued Loewe pouch based on other products, not evidence about the pouch"
     },
     "t3_1t7mh4l": {
       "disposition": "deferred",
@@ -29837,10 +29837,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1t8evnv": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-loewe-puzzle-1t8evnv"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 45)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1t8iamn": {
       "disposition": "rejected",
@@ -33916,10 +33919,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1tu25tj": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 47)"
+      "reason": "reviewed and not promoted: catalog/product announcement for a new Kata medium Puzzle configuration, not a received-bag review"
     },
     "t3_1tu2wxe": {
       "disposition": "deferred",
@@ -35446,10 +35449,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u1w8je": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-vanity-slim-1u1w8je"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 90)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1u1wguy": {
       "disposition": "promoted",
@@ -36850,10 +36856,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1u841w5": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 90)"
+      "reason": "reviewed and not promoted: seller-service praise for Tiny Jenny with only PSP-to-receipt matching and no product-specific quality, comparison, or wear observations"
     },
     "t3_1u843i5": {
       "disposition": "rejected",
@@ -41629,10 +41635,10 @@
       "reason": "reviewed and not promoted: asks sellers whether an authentic-store Andiamo color can be sourced; no rep bag is owned or observed"
     },
     "t3_1uvdg9i": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 90)"
+      "reason": "reviewed and not promoted: bare Chanel vanity PSP approval request asking for general authenticity and wearability opinions without a concrete discrepancy"
     },
     "t3_1uvfh5t": {
       "disposition": "deferred",
@@ -42808,10 +42814,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1v2br7l": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-chanel-25-1v2br7l"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 90)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1v2dthf": {
       "disposition": "deferred",
@@ -46360,10 +46369,10 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1vk27qo": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "rejected",
+      "decided_on": "2026-08-13",
       "subreddit": "RealRepLadies",
-      "reason": "above floor but outside the daily cap (priority 35)"
+      "reason": "reviewed and not promoted: seller/factory/budget recommendation request for the best Nano Speedy without a specific received-bag report"
     },
     "t3_1vk3r2v": {
       "disposition": "deferred",
