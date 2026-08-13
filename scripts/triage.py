@@ -66,6 +66,13 @@ GENERIC_ENTITY_WORDS = frozenset({
     "angel", "autumn", "baker", "booker", "captain", "emily", "god", "heidi", "jing",
     "kata", "kendall", "lemon", "li", "moon", "spring", "summer", "sunny", "winter",
 })
+# Some catalogued model names are also ordinary words in another language present
+# in this corpus. A bare word-boundary match cannot distinguish Dior Toujours from
+# French prose such as "elle a toujours ete reactive" ("she has always been
+# responsive"), so these exact bare terms need nearby brand context. Explicit
+# multi-word aliases remain available for recall.
+AMBIGUOUS_ORDINARY_WORD_TERMS = frozenset({"toujours"})
+BRAND_PROXIMITY_WINDOW = 60
 MIN_TERM_LENGTH = 3
 # Evidence is an observation of a bag someone has, saw, or is inspecting. A post
 # asking which seller to use, or hunting for a stockist, names all the same
@@ -118,9 +125,18 @@ def _term_pattern(term: str) -> re.Pattern[str]:
     return re.compile(rf"(?<!\w){re.escape(term)}(?!\w)", re.IGNORECASE)
 
 
-def _is_bag_reference(text: str, match: re.Match[str]) -> bool:
+def _is_bag_reference(text: str, match: re.Match[str], *, term: str = "", brand: str = "") -> bool:
     """False when the matched term is modifying a non-bag noun rather than naming a bag."""
-    return NON_BAG_SUCCESSOR_PATTERN.match(text, match.end()) is None
+    if NON_BAG_SUCCESSOR_PATTERN.match(text, match.end()) is not None:
+        return False
+    if term.casefold() in AMBIGUOUS_ORDINARY_WORD_TERMS and brand:
+        window = text[
+            max(0, match.start() - BRAND_PROXIMITY_WINDOW):
+            match.end() + BRAND_PROXIMITY_WINDOW
+        ]
+        if not re.search(rf"(?<!\w){re.escape(brand)}(?!\w)", window, re.IGNORECASE):
+            return False
+    return True
 
 
 def build_vocabulary() -> dict[str, Any]:
@@ -168,6 +184,9 @@ def build_vocabulary() -> dict[str, Any]:
         return out
 
     family_terms = collect(families, ("model", "aliases"), strong=True)
+    family_brands = {row["id"]: str(row.get("brand") or "") for row in families}
+    for item in family_terms:
+        item["brand"] = family_brands.get(item["id"], "")
     for row in families:
         # Brand alone is weak: half the catalog is Louis Vuitton.
         built = entry(row.get("brand", ""), row["id"], strong=False)
@@ -205,9 +224,9 @@ def _matches(
     specific model, so only strong ids may become a record's family_ids.
 
     With require_bag_reference, a term only counts where it actually names a bag --
-    see NON_BAG_SUCCESSOR_PATTERN. Sellers and factories do not use this: "Kendall
-    factory" is a real attribution, and those rosters are already guarded by
-    GENERIC_ENTITY_WORDS.
+    see NON_BAG_SUCCESSOR_PATTERN and the narrow ordinary-word brand guard. Sellers
+    and factories do not use this: "Kendall factory" is a real attribution, and
+    those rosters are already guarded by GENERIC_ENTITY_WORDS.
     """
     ids: list[str] = []
     strong_ids: list[str] = []
@@ -215,7 +234,12 @@ def _matches(
     for item in terms:
         found = None
         for candidate_match in item["pattern"].finditer(text):
-            if not require_bag_reference or _is_bag_reference(text, candidate_match):
+            if not require_bag_reference or _is_bag_reference(
+                text,
+                candidate_match,
+                term=str(item.get("term") or ""),
+                brand=str(item.get("brand") or ""),
+            ):
                 found = candidate_match
                 break
         if found is None:

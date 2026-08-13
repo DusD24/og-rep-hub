@@ -170,6 +170,32 @@ class ScoringTests(unittest.TestCase):
             self.score(candidate("m4", title="Kelly 28 arrived today"))["family_ids"],
         )
 
+    def test_ordinary_word_model_name_requires_brand_proximity(self):
+        # "toujours" means "always" in this unrelated French-language Chanel
+        # review; it must not become a strong Dior Toujours attribution.
+        scored = self.score(candidate(
+            "m5",
+            title="Review: Chanel 25 petite taille",
+            excerpt="Elle a toujours ete reactive et patiente.",
+        ))
+        self.assertNotIn("bag-family-dior-toujours", scored["strong_family_ids"])
+
+    def test_real_toujours_still_matches_with_brand_nearby(self):
+        scored = self.score(candidate(
+            "m6",
+            title="Dior Toujours from God Factory",
+            excerpt="Received Dior Toujours in hand with specific stitching observations.",
+        ))
+        self.assertIn("bag-family-dior-toujours", scored["strong_family_ids"])
+
+    def test_toujours_alias_terms_are_unaffected(self):
+        scored = self.score(candidate(
+            "m7",
+            title="My new Toujours tote arrived",
+            excerpt="The Toujours tote is in hand and the construction looks consistent.",
+        ))
+        self.assertIn("bag-family-dior-toujours", scored["strong_family_ids"])
+
     def test_a_brand_mention_never_becomes_an_attribution(self):
         # "Dior" is carried as a weak term by every Dior family. It may raise the
         # ranking, but attributing the post to Book Tote and Saddle would publish
