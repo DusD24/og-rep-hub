@@ -20903,5 +20903,135 @@
       "The capture does not state the Flamenco's exact color or material type, provide an authentic side-by-side, or report longer-term wear.",
       "Factory attribution is source-reported; seller promotion, contact, and payment details are excluded."
     ]
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "Educational-You-9902",
+    "bag_ids": [],
+    "evidence_type": "auth_comparison",
+    "exact_product_match": true,
+    "exact_variant_note": "LV x TM Speedy 30 photo comparison; the post does not attribute the compared rep examples to a seller or factory.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1s21a8i",
+    "media_ids": [],
+    "negative_observations": [
+      "The author reports that the flowers on the ridges do not align like the authentic reference when the bag is folded, with flowers poking out around the gold corners on the rep examples.",
+      "This is a public photo comparison and purchase-seeking discussion, not an in-hand review; no seller, factory, materials, or long-term wear are established."
+    ],
+    "paraphrase": "A public photo comparison of an LV x TM Speedy 30 says the authentic reference examples keep the flowers aligned on the ridges when folded, while the rep examples show the flowers protruding around the gold corners.",
+    "positive_observations": [
+      "The post identifies the exact LV x TM Speedy 30 variant and distinguishes the first two authentic reference photos from the remaining rep examples.",
+      "It records a concrete monogram-placement comparison rather than a generic request for the best seller or factory."
+    ],
+    "price": null,
+    "publication_date": "2026-03-24",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_discussion",
+    "subreddit": "RealRepLadies",
+    "title": "LV x TM Speedy 30",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1s21a8i/lv_x_tm_speedy_30/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "squilar23",
+    "bag_ids": [],
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "exact_variant_note": "Small Featherlight Puzzle; color and material are not stated. Seller identity is intentionally not normalized.",
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "id": "ev-crawl-rrl-loewe-puzzle-1rkkycs",
+    "media_ids": [],
+    "negative_observations": [
+      "The capture records a recent first review without long-term wear data or an authentic comparison.",
+      "The source's seller-service and payment details are excluded from the public evidence record."
+    ],
+    "paraphrase": "A received Small Featherlight Puzzle attributed to Liusheng is described as exceeding the buyer's expectations, with the leather, structure, slouch, color accuracy, and hardware all feeling thoughtfully done after a replacement PSP was requested for minor details.",
+    "positive_observations": [
+      "The post identifies a received Small Featherlight Puzzle and attributes it to Liusheng.",
+      "The owner specifically reports on leather, structure, slouch, color accuracy, hardware, and the replacement-PSP process rather than offering only generic praise."
+    ],
+    "price": null,
+    "publication_date": "2026-03-04",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_review",
+    "subreddit": "RepLadiesWorld",
+    "title": "Loewe featherlite puzzle (small)",
+    "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1rkkycs/loewe_featherlite_puzzle_small/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "TeeleeG",
+    "bag_ids": [],
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "exact_variant_note": "Red Epi Neverfull; size, seller, factory, and hardware are not stated.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "id": "ev-crawl-rt-louis-vuitton-neverfull-1neifhi",
+    "media_ids": [],
+    "negative_observations": [
+      "The owner says the bag is somewhat stiff and that the side strings are noisy, so they clipped them together with heart-shaped carabiners.",
+      "The source does not provide an authentic comparison, exact size, seller or factory attribution, or longer-term wear result."
+    ],
+    "paraphrase": "A recently received red Epi Neverfull is being used for commuting and is praised for its red color, understated Epi pattern, and lack of large logos; the owner reports that it is a little stiff and that the side strings are noisy.",
+    "positive_observations": [
+      "The post describes a received red Epi Neverfull and intended work-bag use rather than a pre-purchase request.",
+      "The owner specifically comments on the Epi pattern, understated branding, color, and day-to-day carry context."
+    ],
+    "price": null,
+    "publication_date": "2025-09-11",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_review",
+    "subreddit": "RepTherapy",
+    "title": "First time post, wanted to share my new red Epi Neverfull 😍",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1neifhi/first_time_post_wanted_to_share_my_new_red_epi/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "Outrageous_Let5495",
+    "bag_ids": [],
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "exact_variant_note": "Birkin 25 in Etoupe (the source title spells this as Etope), Retourne, with palladium hardware; seller and factory are not normalized.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-hermes-birkin-25"
+    ],
+    "id": "ev-crawl-rrl-hermes-birkin-25-1r7oko0",
+    "media_ids": [],
+    "negative_observations": [
+      "The report is from a first-time rep buyer and does not include an authentic comparison, factory attribution, or long-term wear observation.",
+      "Seller praise, payment information, and the offer to share PSPs are excluded; only the bag-specific observations are retained."
+    ],
+    "paraphrase": "A received Birkin 25 in Etoupe Retourne with palladium hardware is described as having a leather smell the buyer liked, a sturdy feel, good structure, and hardware that was upgraded at the buyer's request.",
+    "positive_observations": [
+      "The post identifies a received Birkin 25 with Etoupe color, Retourne construction, and palladium hardware.",
+      "The owner reports concrete in-hand impressions of leather smell, sturdiness, structure, and hardware rather than only asking for a seller recommendation."
+    ],
+    "price": null,
+    "publication_date": "2026-02-18",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_review",
+    "subreddit": "RealRepLadies",
+    "title": "First Rep - B25 by Frank in Etope Retourne with Palladium Hardware",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1r7oko0/first_rep_b25_by_frank_in_etope_retourne_with/"
   }
 ]
