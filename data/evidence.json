@@ -21801,5 +21801,269 @@
     "subreddit": "RealRepLadies",
     "title": "Newbie buys a basic bag! HyperPeter Louis Vuitton Speedy 25",
     "url": "https://www.reddit.com/r/RealRepLadies/comments/1sja38f/newbie_buys_a_basic_bag_hyperpeter_louis_vuitton/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "Visual_Try1832",
+    "bag_ids": [],
+    "evidence_type": "psp_qc",
+    "exact_product_match": true,
+    "exact_variant_note": "Chanel Small Classic Double Flap; the PSP concern is about back-pocket placement, while the seller Savebullet, factory, material, and delivered result are not normalized.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "id": "ev-crawl-rrl-chanel-classic-flap-1smvatt",
+    "media_ids": [],
+    "negative_observations": [
+      "The reviewer thinks the back pocket sits too low, but the post does not establish whether that is outside normal variation or record a later resolution.",
+      "The post is pre-purchase PSP discussion without an independent authentic reference, factory attribution, or delivered-bag result; seller and contact details are excluded."
+    ],
+    "paraphrase": "A pre-purchase PSP discussion for a Chanel Small Classic Double Flap from Savebullet flags the back pocket as appearing unusually low and asks whether the placement differs from authentic or high-tier small-size examples.",
+    "positive_observations": [
+      "The post identifies the Small Classic Double Flap size rather than only naming Chanel.",
+      "It records one concrete QC point—back-pocket height and placement—instead of making only a general quality request."
+    ],
+    "price": null,
+    "publication_date": "2026-04-16",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_qc",
+    "subreddit": "RealRepLadies",
+    "title": "QC Help! First timer – Chanel Small CF Master Quality from Savebullet",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1smvatt/qc_help_first_timer_chanel_small_cf_master/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "RealisticCod3264",
+    "bag_ids": [],
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "exact_variant_note": "Coffee Bean Speedy P9, 30 cm; the post states the factory is unknown and does not identify a normalized seller.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1v093t2",
+    "media_ids": [],
+    "negative_observations": [
+      "The owner is uncertain whether the accessories are leather.",
+      "The factory is stated as unknown, no album or authentic comparison is provided, and the seller is not normalized."
+    ],
+    "paraphrase": "After receiving a Coffee Bean Speedy P9 30 cm, the owner describes it as very slouchy with apparently symmetrical Monogram, good piping, and otherwise well-placed details, while leaving the accessory material unresolved.",
+    "positive_observations": [
+      "The post records an in-hand Speedy P9 with an exact 30 cm size and Coffee Bean variant.",
+      "It gives concrete observations about slouch, Monogram symmetry, piping, and the placement of visible details."
+    ],
+    "price": null,
+    "publication_date": "2026-07-18",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_qc",
+    "subreddit": "RealRepLadies",
+    "title": "QC P9 Coffee",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1v093t2/qc_p9_coffee/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "Lucky-Possibility527",
+    "bag_ids": [],
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton x Murakami Speedy 30; the same post includes sandals and jewelry, which are excluded from this bag record, and does not name a normalized seller or factory.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1vb6708",
+    "media_ids": [],
+    "negative_observations": [
+      "The owner says the Speedy's lock looks poor and reports being uncomfortable wearing the bag because of how it looks.",
+      "The post does not provide a detailed authentic comparison, factory attribution, or a longer-term wear result; the later reorder discussion is not treated as a seller endorsement."
+    ],
+    "paraphrase": "In a mixed haul post, the owner reports receiving an LV Murakami Speedy 30 but flags the lock as visibly poor, says the bag is difficult to feel comfortable wearing, and later decides to reorder after considering other options.",
+    "positive_observations": [
+      "The post identifies the Murakami Speedy 30 and describes a received bag rather than a purely prospective purchase.",
+      "It records a specific hardware concern—the lock—while keeping the unrelated sandals and jewelry out of the evidence record."
+    ],
+    "price": null,
+    "publication_date": "2026-07-30",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_review",
+    "subreddit": "RealRepLadies",
+    "title": "LV Murakami Speedy 30 and Sandals w/ some jewelry haul",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vb6708/lv_murakami_speedy_30_and_sandals_w_some_jewelry/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "jmomaha",
+    "bag_ids": [],
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Speedy P9 40; the post identifies the 40 size and oversized Monogram but does not state the factory, and the named seller Mark is not normalized in the public roster.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "id": "ev-crawl-rrl-louis-vuitton-speedy-1vc6qm0",
+    "media_ids": [],
+    "negative_observations": [
+      "The report is strongly positive but does not provide an independent authentic comparison or longer-term wear result.",
+      "Factory information is not stated; seller-service praise and the author's 10/10 rating are not treated as product verification."
+    ],
+    "paraphrase": "A received Louis Vuitton Speedy P9 40 is described as having soft leather that retains structure, an oversized Monogram, clean stitching and hardware, and useful work-to-weekend capacity; the post also notes a hot-stamped luggage tag.",
+    "positive_observations": [
+      "The post identifies the Speedy P9 40 size and describes the owner's received bag.",
+      "It records concrete product observations about leather feel and structure, Monogram scale, stitching, hardware, capacity, and the included luggage tag."
+    ],
+    "price": null,
+    "publication_date": "2026-07-31",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_review",
+    "subreddit": "RealRepLadies",
+    "title": "New LV Speedy 40 P9 from Mark",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1vc6qm0/new_lv_speedy_40_p9_from_mark/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "Az_dreaming90",
+    "bag_ids": [],
+    "evidence_type": "factory_comparison",
+    "exact_product_match": false,
+    "exact_variant_note": "Loewe Flamenco; the post compares a factory image with an authentic reference but does not state the exact size, color, material, seller, or factory identity.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "id": "ev-crawl-rrl-loewe-flamenco-1t6m8ze",
+    "media_ids": [],
+    "negative_observations": [
+      "The inside logo appears not to be centered in the factory-photo example relative to the authentic reference.",
+      "This is a pre-purchase factory-selection question rather than an in-hand result, and the exact variant and factory identity remain unresolved."
+    ],
+    "paraphrase": "A factory-photo versus authentic comparison for an unspecified Loewe Flamenco flags the inside logo as off-center while the author asks which factory to choose.",
+    "positive_observations": [
+      "The post names the Flamenco and provides a specific interior-logo placement comparison.",
+      "It separates a concrete factory-photo discrepancy from the broader factory recommendation request."
+    ],
+    "price": null,
+    "publication_date": "2026-05-07",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": null,
+    "source_type": "reddit_discussion",
+    "subreddit": "RealRepLadies",
+    "title": "Best factory for Loeweee?",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1t6m8ze/best_factory_for_loeweee/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "Bass-Practical",
+    "bag_ids": [],
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "exact_variant_note": "Loewe Featherlight Puzzle received through Sophia; Liusheng is explicitly reported as the factory, while exact size, color, and material are not stated and the seller is not normalized.",
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "family_ids": [
+      "bag-family-loewe-puzzle"
+    ],
+    "id": "ev-crawl-rt-loewe-puzzle-1px3joi",
+    "media_ids": [],
+    "negative_observations": [
+      "The post gives no independent authentic comparison or longer-term wear result, and exact dimensions, color, and material are not stated.",
+      "Seller contact information and service promotion are excluded; the public record keeps only the product and delivery observations."
+    ],
+    "paraphrase": "After receiving a Liusheng Featherlight Puzzle, the owner reports clean stitching, soft but structured leather, and a bag that looked better in person than in the PSP photos, with the item described as matching the PSPs.",
+    "positive_observations": [
+      "The post records a delivered Featherlight Puzzle and explicitly attributes it to Liusheng.",
+      "It provides concrete in-hand observations about stitching, leather hand, structure, PSP-to-receipt consistency, and delivery."
+    ],
+    "price": null,
+    "publication_date": "2025-12-27",
+    "publication_date_precision": "exact",
+    "seller_ids": [],
+    "shipping_timeline": "The source reports inquiry on 07.12, PSP photos on 09.12, approval on 10.12, and arrival on 15.12; the year is not stated in the post.",
+    "source_type": "reddit_review",
+    "subreddit": "RepTherapy",
+    "title": "Loewe Featherlight Puzzle from Sophia",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1px3joi/loewe_featherlight_puzzle_from_sophia/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "h2opleasee",
+    "bag_ids": [],
+    "evidence_type": "auth_comparison",
+    "exact_product_match": true,
+    "exact_variant_note": "Loewe Small Flamenco used as a clutch; Liusheng factory and Nina seller are explicitly reported, while the color and material are not named in the post text.",
+    "factory_ids": [
+      "factory-liusheng"
+    ],
+    "family_ids": [
+      "bag-family-loewe-flamenco"
+    ],
+    "id": "ev-crawl-rrl-loewe-flamenco-1k7pjaz",
+    "media_ids": [],
+    "negative_observations": [
+      "Against the authentic references, the interior label appears larger and the interior color appears slightly different, although the author says lighting may explain the color difference.",
+      "The review does not name the exact color or material and does not provide independent verification beyond the author's factory, PSP, and authentic comparisons; contact and payment details are excluded."
+    ],
+    "paraphrase": "A received Liusheng Small Flamenco from Nina is compared with factory, PSP, and authentic references: the owner reports a durable but squishy feel, vibrant color, appropriately weighted chain, restrained gold hardware, and accurate chain, logo, and leather coordination, while noting a larger authentic interior label and possible interior-color variation.",
+    "positive_observations": [
+      "The review identifies a Small Flamenco, Liusheng factory, Nina seller, and a received-bag result.",
+      "It records specific feel, chain, hardware, logo, and chain-to-leather comparison points rather than only giving a satisfaction score."
+    ],
+    "price": null,
+    "publication_date": "2025-04-25",
+    "publication_date_precision": "exact",
+    "seller_ids": [
+      "seller-nina"
+    ],
+    "shipping_timeline": "The source reports ordering on 4/9, PSPs on 4/11, shipment on 4/13, and arrival on 4/17.",
+    "source_type": "reddit_review",
+    "subreddit": "RealRepLadies",
+    "title": "Loewe Flamenco from Nina | Liusheng Factory",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1k7pjaz/loewe_flamenco_from_nina_liusheng_factory/"
+  },
+  {
+    "access_date": "2026-08-13",
+    "author": "Street-Benefit-3889",
+    "bag_ids": [],
+    "evidence_type": "in_hand_review",
+    "exact_product_match": true,
+    "exact_variant_note": "Louis Vuitton Neverfull MM received from Old Cobbler; the color, material, and factory are not stated, and the review preserves a one-sided slouch observation.",
+    "factory_ids": [],
+    "family_ids": [
+      "bag-family-louis-vuitton-neverfull"
+    ],
+    "id": "ev-crawl-rrl-louis-vuitton-neverfull-1ugkifv",
+    "media_ids": [],
+    "negative_observations": [
+      "The owner reports that the Neverfull is slouching on one side.",
+      "No authentic comparison, factory attribution, exact color or material, or longer-term wear result is provided; price and contact details are excluded."
+    ],
+    "paraphrase": "After receiving a Neverfull MM from Old Cobbler in about 15 days, the owner reports overall satisfaction with the quality and value but asks about a one-sided slouch in the delivered bag.",
+    "positive_observations": [
+      "The post identifies the Neverfull MM, a mapped seller, and a delivered-bag result.",
+      "It records a concrete shape/structure observation instead of only praising the purchase."
+    ],
+    "price": null,
+    "publication_date": "2026-06-26",
+    "publication_date_precision": "exact",
+    "seller_ids": [
+      "seller-old-cobbler"
+    ],
+    "shipping_timeline": "The source reports approximately 15 days from order to final delivery.",
+    "source_type": "reddit_review",
+    "subreddit": "RealRepLadies",
+    "title": "Neverfull From OC",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ugkifv/neverfull_from_oc/"
   }
 ]
