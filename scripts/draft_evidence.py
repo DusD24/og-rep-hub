@@ -297,7 +297,8 @@ def main() -> int:
             for problem in result["problems"]:
                 print(f"- {problem}")
             return 1
-        save_ledger(ledger, args.ledger)
+        if not args.dry_run:
+            save_ledger(ledger, args.ledger)
         print(json.dumps(result, indent=2))
         return 0
 

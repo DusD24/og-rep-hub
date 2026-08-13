@@ -203,6 +203,35 @@ if __name__ == "__main__":
 
 
 class DeclineTests(unittest.TestCase):
+    def test_dry_run_decline_does_not_write_the_ledger(self):
+        with self.subTest("validate without persisting"):
+            tmp = Path(self.enterContext(__import__("tempfile").TemporaryDirectory()))
+            decline_path = tmp / "declines.json"
+            ledger_path = tmp / "scrape_ledger.json"
+            decline_path.write_text(
+                json.dumps([{
+                    "url": "https://www.reddit.com/r/RepTherapy/comments/abc123/slug/",
+                    "subreddit": "RepTherapy",
+                    "reason": "asks for a seller recommendation; reports nothing about a bag",
+                }]),
+                encoding="utf-8",
+            )
+            ledger_path.write_text(json.dumps(empty_ledger()), encoding="utf-8")
+            with mock.patch.object(
+                sys,
+                "argv",
+                [
+                    "draft_evidence.py",
+                    "--decline",
+                    str(decline_path),
+                    "--ledger",
+                    str(ledger_path),
+                    "--dry-run",
+                ],
+            ):
+                self.assertEqual(draft_evidence.main(), 0)
+            self.assertEqual(json.loads(ledger_path.read_text()), empty_ledger())
+
     def test_declining_settles_a_post_so_it_leaves_the_queue(self):
         ledger = empty_ledger()
         result = decline_candidates(
