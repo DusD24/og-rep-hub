@@ -102,7 +102,9 @@
       "ev-crawl-rll-classic-flap-auth-jumbo-2026",
       "ev-crawl-rlw-classic-flap-187-medium-2026",
       "ev-crawl-rrl-chanel-classic-flap-1utfhhw",
-      "ev-crawl-rrl-chanel-classic-flap-1pht6us"
+      "ev-crawl-rrl-chanel-classic-flap-1pht6us",
+      "ev-crawl-rrl-chanel-classic-flap-1pd1b7f",
+      "ev-crawl-rrl-chanel-classic-flap-1s4tqpb"
     ],
     "documented_sizes": [
       "not stated in selected sources"
@@ -114,8 +116,8 @@
       "gold-tone hardware reported or requested"
     ],
     "evidence_coverage": {
-      "source_count": 9,
-      "independent_author_count": 8,
+      "source_count": 11,
+      "independent_author_count": 10,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepLadiesWorld",
@@ -157,7 +159,8 @@
       "ev-crawl-rlw-speedy-rehome-2026",
       "ev-crawl-rll-speedy20-hp-auth-2026",
       "ev-crawl-rll-speedy25-royal-2026",
-      "ev-crawl-rlw-speedy25-royal-2026"
+      "ev-crawl-rlw-speedy25-royal-2026",
+      "ev-crawl-rcb-louis-vuitton-speedy-1scrkcz"
     ],
     "documented_sizes": [
       "25",
@@ -170,10 +173,11 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 6,
-      "independent_author_count": 5,
+      "source_count": 7,
+      "independent_author_count": 6,
       "primary_subreddit_coverage": [
         "RealRepLadies",
+        "RepCulture_Bags",
         "RepLadiesWorld",
         "RepTherapy"
       ],
@@ -184,7 +188,7 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-08",
+    "last_updated": "2026-08-12",
     "research_gaps": [
       "Keep 25 and 30 size evidence separate.",
       "Resolve factory and hardware details only when the source states them."
@@ -207,7 +211,8 @@
     "evidence_ids": [
       "ev-rll-margaux-17",
       "ev-rt-margaux-15",
-      "ev-crawl-rcb-the-row-margaux-1tu83hi"
+      "ev-crawl-rcb-the-row-margaux-1tu83hi",
+      "ev-crawl-rrl-the-row-margaux-1rh4d8h"
     ],
     "documented_sizes": [
       "15",
@@ -221,8 +226,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 3,
-      "independent_author_count": 3,
+      "source_count": 4,
+      "independent_author_count": 4,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -268,7 +273,8 @@
       "ev-rt-flamenco-fever-green-jipin-mike",
       "ev-rt-flamenco-fever-futurist-cat-vivi-baker",
       "ev-rt-flamenco-first-order-mandy-2025",
-      "ev-crawl-rrl-loewe-flamenco-1rpqirm"
+      "ev-crawl-rrl-loewe-flamenco-1rpqirm",
+      "ev-crawl-rt-loewe-flamenco-1pnaslm"
     ],
     "documented_sizes": [
       "30 cm",
@@ -282,8 +288,8 @@
       "yellow / shiny hardware noted in QC discussion"
     ],
     "evidence_coverage": {
-      "source_count": 13,
-      "independent_author_count": 8,
+      "source_count": 14,
+      "independent_author_count": 9,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepTherapy"
@@ -292,7 +298,8 @@
       "evidence_types": [
         "auth_comparison",
         "in_hand_review",
-        "psp_qc"
+        "psp_qc",
+        "seller_context"
       ]
     },
     "last_updated": "2026-08-12",
@@ -384,7 +391,8 @@
       "ev-crawl-repculture-andiamos-small-2026",
       "ev-crawl-repculture-andiamos-denim-2026",
       "ev-crawl-rrl-bottega-veneta-andiamos-1vfcklk",
-      "ev-crawl-rt-bottega-veneta-andiamos-1rlfiwh"
+      "ev-crawl-rt-bottega-veneta-andiamos-1rlfiwh",
+      "ev-crawl-rlw-bottega-veneta-andiamos-1qovcq4"
     ],
     "documented_sizes": [
       "medium",
@@ -397,11 +405,12 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 7,
-      "independent_author_count": 6,
+      "source_count": 8,
+      "independent_author_count": 7,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
+        "RepLadiesWorld",
         "RepTherapy"
       ],
       "image_ready": true,
@@ -586,7 +595,8 @@
       "ev-crawl-rrl-dior-lady-dior-1j3jp0a",
       "ev-crawl-rrl-dior-lady-dior-1jjfmfo",
       "ev-crawl-rrl-dior-lady-dior-1uqo297",
-      "ev-crawl-rcb-the-row-margaux-1tu83hi"
+      "ev-crawl-rcb-the-row-margaux-1tu83hi",
+      "ev-crawl-rt-dior-lady-dior-1tx7cvm"
     ],
     "documented_sizes": [
       "Small"
@@ -598,8 +608,8 @@
       "not stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 7,
-      "independent_author_count": 7,
+      "source_count": 8,
+      "independent_author_count": 8,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -778,7 +788,9 @@
     "publication_status": "research_queue",
     "documented_variant_ids": [],
     "evidence_ids": [
-      "ev-crawl-rll-ysl-loulou-black-frame-2026"
+      "ev-crawl-rll-ysl-loulou-black-frame-2026",
+      "ev-crawl-rt-ysl-loulou-1uobhrd",
+      "ev-crawl-rcb-ysl-loulou-1mxiae6"
     ],
     "documented_sizes": [
       "Medium"
@@ -790,17 +802,20 @@
       "substantial chain"
     ],
     "evidence_coverage": {
-      "source_count": 1,
-      "independent_author_count": 1,
+      "source_count": 3,
+      "independent_author_count": 3,
       "primary_subreddit_coverage": [
-        "RealRepLadies"
+        "RealRepLadies",
+        "RepCulture_Bags",
+        "RepTherapy"
       ],
       "image_ready": true,
       "evidence_types": [
-        "in_hand_review"
+        "in_hand_review",
+        "psp_qc"
       ]
     },
-    "last_updated": "2026-08-08",
+    "last_updated": "2026-08-12",
     "research_gaps": [
       "Find a second independent public author and keep color and size explicit.",
       "Keep Black Frame and Felix as source-reported labels rather than site conclusions."
@@ -1051,7 +1066,9 @@
       "ev-crawl-rrl-chanel-25-1oqjerr",
       "ev-crawl-rrl-chanel-25-1u6wek0",
       "ev-crawl-rrl-chanel-25-1s95ped",
-      "ev-crawl-rrl-chanel-25-1t3sfuv"
+      "ev-crawl-rrl-chanel-25-1t3sfuv",
+      "ev-crawl-rrl-chanel-25-1nz49xs",
+      "ev-crawl-rt-loewe-flamenco-1pnaslm"
     ],
     "documented_sizes": [
       "Small",
@@ -1067,16 +1084,18 @@
       "ruthenium hardware reported"
     ],
     "evidence_coverage": {
-      "source_count": 4,
-      "independent_author_count": 4,
+      "source_count": 6,
+      "independent_author_count": 6,
       "primary_subreddit_coverage": [
-        "RealRepLadies"
+        "RealRepLadies",
+        "RepTherapy"
       ],
       "image_ready": false,
       "evidence_types": [
         "factory_comparison",
         "in_hand_review",
-        "psp_qc"
+        "psp_qc",
+        "seller_context"
       ]
     },
     "last_updated": "2026-08-12",

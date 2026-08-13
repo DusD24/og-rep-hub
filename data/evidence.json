@@ -3631,5 +3631,347 @@
       "Pre-delivery QC only, with no in-hand follow-up recorded.",
       "The leather-finish question is left unresolved in the source."
     ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1pd1b7f",
+    "title": "PSP Chanel CF Medium Caviar GF",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1pd1b7f/psp_chanel_cf_medium_caviar_gf/",
+    "subreddit": "RealRepLadies",
+    "author": "hawkeyedude",
+    "publication_date": "2025-12-03",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-doris"
+    ],
+    "factory_ids": [
+      "factory-god"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A buyer posts PSP photographs of a Chanel Classic Flap Medium in black caviar leather, bought through Doris and attributed to God factory, and reports the proportions look correct with uniform caviar grain and even quilting/puffiness, while noting they own only an authentic lambskin flap and caviar wallet so have limited authentic-caviar comparison basis, and asks whether to approve.",
+    "positive_observations": [
+      "Names seller and factory together with a specific leather and hardware combination.",
+      "The buyer discloses the limits of their own comparison basis rather than presenting the assessment as authoritative."
+    ],
+    "negative_observations": [
+      "PSP stage only; no in-hand or post-delivery follow-up.",
+      "No verdict is recorded in the post itself; it ends on an open question to the community."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-classic-flap-1s4tqpb",
+    "title": "PSP’s - Chanel Classic Flap 25 CM",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1s4tqpb/psps_chanel_classic_flap_25_cm/",
+    "subreddit": "RealRepLadies",
+    "author": "Direct-Rate-1548",
+    "publication_date": "2026-03-27",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-chanel-classic-flap"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-187"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A buyer shares PSP photographs of a Chanel Medium Classic Flap, 25cm, in black caviar leather with silver hardware from 187 factory (described as the supreme/highest-quality tier), bought from Baobao, and asks whether black rather than burgundy interior lining is a concern given a belief that black lining is associated with older bags.",
+    "positive_observations": [
+      "Names seller, factory, and a specific quality tier claimed for that factory.",
+      "Raises a specific, checkable construction detail (lining colour) rather than a general impression."
+    ],
+    "negative_observations": [
+      "The lining concern is left unresolved in the source; no answer or follow-up is recorded.",
+      "PSP stage only, and the \"supreme/highest quality\" tier claim is the seller's framing, not independently verified here."
+    ]
+  },
+  {
+    "id": "ev-crawl-rlw-bottega-veneta-andiamos-1qovcq4",
+    "title": "🏠 Rehome: 👜 Bottega Veneta Medium Andiamo Black SHW | 🇦🇺 to 🌏",
+    "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1qovcq4/rehome_bottega_veneta_medium_andiamo_black_shw_to/",
+    "subreddit": "RepLadiesWorld",
+    "author": "umarsyaroni",
+    "publication_date": "2026-01-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": {
+      "amount_usd": 370,
+      "qualifier": "purchase price plus $39 shipping, per the reviewer; posted as a resale listing"
+    },
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-bottega-veneta-andiamos"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-jing"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A reviewer selling their own Bottega Veneta Medium Andiamo in black SHW, attributed to Jing factory in grained calfskin, reports no unusual smell on unpacking, leather they describe as supple, buttery, and soft, and hardware and handle quality they call very similar to an authentic version they tried in store three times.",
+    "positive_observations": [
+      "In-hand assessment with an explicit authentic comparison basis (tried in store three times), not a first exposure.",
+      "Names the factory and reports on smell, leather hand-feel, and hardware specifically."
+    ],
+    "negative_observations": [
+      "Posted as a resale listing, which may bias the description toward the positive; no defects are reported.",
+      "Single source; no independent corroboration for this exact colourway and hardware combination."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-dior-lady-dior-1tx7cvm",
+    "title": "Bags from ReyKey: 3 Months Later (Lady Dior vs. Chanel Coco Handle)",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1tx7cvm/bags_from_reykey_3_months_later_lady_dior_vs/",
+    "subreddit": "RepTherapy",
+    "author": "MoWilldo",
+    "publication_date": "2026-06-05",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "long_term_wear",
+    "family_ids": [
+      "bag-family-dior-lady-dior"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [
+      "factory-angel"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A three-month owner update on a small Lady Dior attributed to Angel factory, bought from ReyKey: the structure is reported as holding up well and the piece remains a strong statement bag, but the reviewer finds it impractical for daily use, citing effort to open the top flap and the need to keep the hardware charms from scratching the leather, so it has become an occasion piece rather than a daily bag.",
+    "positive_observations": [
+      "A genuine long-term (three-month) follow-up rather than an unboxing, from an owner with a second bag for direct daily-use comparison.",
+      "Reports a specific durability point (structure holding up) alongside a specific practicality complaint, rather than only praise."
+    ],
+    "negative_observations": [
+      "Single owner; no independent corroboration of Angel factory's Lady Dior at this age.",
+      "No photographs assessed here and no measurements or hardware detail."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-the-row-margaux-1rh4d8h",
+    "title": "A tale of two bags…from BaoBao",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1rh4d8h/a_tale_of_two_bagsfrom_baobao/",
+    "subreddit": "RealRepLadies",
+    "author": "imanchats",
+    "publication_date": "2026-02-28",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-the-row-margaux"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-baobao"
+    ],
+    "factory_ids": [
+      "factory-black-frame"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "An owner reviews a The Row Margaux 15 in Massoni imported leather, attributed to Black Frame factory and bought from Baobao alongside an (uncatalogued) Celine Soft 16 from a different factory, describing the Margaux's leather quality as very good and drawing frequent compliments, and states a preference for Baobao over other sellers she has also used, based on price and quality.",
+    "positive_observations": [
+      "A repeat customer directly comparing this seller to others she has tried, rather than a first-time impression.",
+      "Names the specific factory and leather treatment for the Margaux."
+    ],
+    "negative_observations": [
+      "The quality description is largely aesthetic and enthusiasm-driven (\"gorgeous\") rather than a structured inspection of stitching, hardware, or lining.",
+      "No authentic side-by-side or measurements."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-ysl-loulou-1uobhrd",
+    "title": "Review: Felix, YSL LouLou Small, Black Frame",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1uobhrd/review_felix_ysl_loulou_small_black_frame/",
+    "subreddit": "RepTherapy",
+    "author": "Luminous_0",
+    "publication_date": "2026-07-05",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": {
+      "amount_usd": 205,
+      "qualifier": "plus $35 shipping to Germany, per the reviewer"
+    },
+    "shipping_timeline": "Requested 12 June; QC received and GL'd 16 June; tracking sent 20 June; delivered 30 June, per the reviewer's own dated log.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "psp_qc",
+    "family_ids": [
+      "bag-family-ysl-loulou"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-felix"
+    ],
+    "factory_ids": [
+      "factory-black-frame"
+    ],
+    "exact_product_match": true,
+    "paraphrase": "A dated, PSP-to-delivery review of a small black YSL LouLou bought from Felix: size and factory were confirmed against a reference photo before ordering, QC photos and video of the exterior, interior, hardware, and logo were reviewed before approval, and the delivered bag is reported to match the QC photos, arriving well packed with a small extra gift included.",
+    "positive_observations": [
+      "A complete dated timeline from request through delivery, which is unusually well documented.",
+      "QC was reviewed against photos and video covering hardware and logo specifically, not approved sight-unseen.",
+      "The reviewer discloses they were asked by the seller to write the review and states they received no compensation for it, which is a relevant disclosure rather than an omission."
+    ],
+    "negative_observations": [
+      "The bag was purchased as a gift, so the reviewer is not the end-user and cannot speak to fit or long-term wear.",
+      "Size and factory were confirmed by the seller rather than independently verified against an authentic."
+    ]
+  },
+  {
+    "id": "ev-crawl-rrl-chanel-25-1nz49xs",
+    "title": "GF Chanel 25 has entered the chat",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1nz49xs/gf_chanel_25_has_entered_the_chat/",
+    "subreddit": "RealRepLadies",
+    "author": "BornLocal9767",
+    "publication_date": "2025-10-06",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand first-impressions review of a Chanel 25, sourced by the reviewer's shorthand as \"GF\" (left unattributed here, as that abbreviation is not in this catalog's factory roster and could denote more than one factory): the reviewer reports soft leather with a good sheen, flawless stitching and alignment, and no chemical odour, while noting the bag's high recognizability makes it a less subtle daily choice than their previous Loewe Puzzle and Flamenco bags, which are not otherwise assessed in this post.",
+    "positive_observations": [
+      "In-hand assessment covering leather feel, stitching, alignment, and smell together rather than a single attribute.",
+      "The hesitation expressed is about the bag's style fit for the owner, not about a quality defect, and is stated as such."
+    ],
+    "negative_observations": [
+      "The sourcing abbreviation (\"GF\") cannot be resolved to a specific catalogued factory from this post alone.",
+      "Single reviewer; no measurements or authentic comparison."
+    ]
+  },
+  {
+    "id": "ev-crawl-rcb-ysl-loulou-1mxiae6",
+    "title": "My new bag just arrived! 😍",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1mxiae6/my_new_bag_just_arrived/",
+    "subreddit": "RepCulture_Bags",
+    "author": "KristinaHartsuck",
+    "publication_date": "2025-08-22",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": "Ordered 12 August; PSPs received 15 August; delivered 21 August, per the reviewer.",
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-ysl-loulou"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-miss-yu"
+    ],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "A dated review of a YSL LouLou Medium in Rouge Cabernet bought from Miss Yu, reporting a smooth order-to-delivery process, a bag that arrived well packaged and in pristine condition, soft leather, gold hardware, and a front-pocket mirror detail the reviewer had not expected.",
+    "positive_observations": [
+      "Gives a specific dated timeline from order through PSP to delivery.",
+      "Notes a specific interior-pocket detail (a small mirror) rather than only exterior impressions."
+    ],
+    "negative_observations": [
+      "This is the reviewer's first YSL bag, so there is no authentic-comparison basis stated.",
+      "Written in a promotional, star-rating tone throughout, which reads closer to marketing copy than a structured inspection."
+    ]
+  },
+  {
+    "id": "ev-crawl-rcb-louis-vuitton-speedy-1scrkcz",
+    "title": "Reinfluence mode 😝- She’s finally here and she’s perfect. 🖤",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1scrkcz/reinfluence_mode_shes_finally_here_and_shes/",
+    "subreddit": "RepCulture_Bags",
+    "author": "Popular-Shoe-4347",
+    "publication_date": "2026-04-05",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "family_ids": [
+      "bag-family-louis-vuitton-speedy"
+    ],
+    "bag_ids": [],
+    "seller_ids": [],
+    "factory_ids": [],
+    "exact_product_match": true,
+    "paraphrase": "An in-hand review of an LV Speedy Soft 30 in Dark leather (seller and factory not stated) reports the chain and hardware produce a dense, sharp sound the reviewer reads as consistent with solid, palladium-finished brass hardware weight, alongside a specific negative: the luggage tag accessory is slightly thicker and stiffer than an authentic they compare it to.",
+    "positive_observations": [
+      "Reports a specific negative alongside the positives (the luggage tag) rather than uniform praise.",
+      "Uses a concrete, repeatable test (hardware sound when moved) rather than only a visual impression."
+    ],
+    "negative_observations": [
+      "Neither seller nor factory is stated, so this cannot support seller- or factory-specific reliability signals.",
+      "The reviewer qualifies their own luggage-tag observation as needing rechecking against the authentic in store."
+    ]
+  },
+  {
+    "id": "ev-crawl-rt-loewe-flamenco-1pnaslm",
+    "title": "Shout Out to Mandy!!",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1pnaslm/shout_out_to_mandy/",
+    "subreddit": "RepTherapy",
+    "author": "Material_Minute_5731",
+    "publication_date": "2025-12-15",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-12",
+    "price": null,
+    "shipping_timeline": null,
+    "media_ids": [],
+    "source_type": "reddit_discussion",
+    "evidence_type": "seller_context",
+    "family_ids": [
+      "bag-family-loewe-flamenco",
+      "bag-family-chanel-25"
+    ],
+    "bag_ids": [],
+    "seller_ids": [
+      "seller-mandy"
+    ],
+    "factory_ids": [],
+    "exact_product_match": false,
+    "paraphrase": "A buyer reports a two-bag order from Mandy placed 3 November: PSPs for a Loewe Flamenco arrived 5 November and were approved, and PSPs for a Chanel 25 arrived the next day in the wrong colourway (caviar instead of the ordered shiny black), which Mandy corrected without issue; the corrected order shipped 2 December and was delivered 13 December, and the buyer reports soft leather with no chemical smell and describes packing as careful, after having read unfavourable seller reviews before ordering.",
+    "positive_observations": [
+      "Documents a specific fulfillment error (wrong colourway shipped for QC) and how the seller resolved it, which is more informative than an error-free account would be.",
+      "Gives dated milestones across a five-week order-to-delivery span for two different collections in one order."
+    ],
+    "negative_observations": [
+      "No factory is named for either bag, so this cannot support factory-specific reliability signals.",
+      "The final quality assessment (\"soft leather, no chemical smell\") is brief relative to the amount of seller-process detail."
+    ]
   }
 ]
