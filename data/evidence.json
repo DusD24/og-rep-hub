@@ -32532,7 +32532,9 @@
     "negative_observations": [
       "This is a positive single-owner account; it does not document a later wear problem."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-keepall-25-monogram-midnight-reddit"
+    ]
   },
   {
     "id": "ev-catalog-keepall-1tc5lh6",
@@ -32629,7 +32631,9 @@
     "negative_observations": [
       "The post is a brief first-impression account and does not document long-term wear."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-niki-medium-gold-hardware-reddit"
+    ]
   },
   {
     "id": "ev-catalog-niki-1svo9tc",
@@ -32724,7 +32728,9 @@
     "negative_observations": [
       "The post does not state a precise size for the reviewed bag and includes no extended wear result."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-jodie-off-white-cream-unknown-reddit"
+    ]
   },
   {
     "id": "ev-catalog-jodie-1tvnd4h",
@@ -32787,7 +32793,9 @@
     "negative_observations": [
       "The seam concern is unresolved and the post does not state a color, material, or delivery outcome."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-jodie-teen-unknown-reddit"
+    ]
   },
   {
     "id": "ev-catalog-djoy-1s86bi3",
@@ -32883,7 +32891,9 @@
     "negative_observations": [
       "One handle notch is reported as slightly lopsided and the strap hardware as lighter-weight than expected."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-d-joy-djoy-micro-cloud-blue-reddit"
+    ]
   },
   {
     "id": "ev-catalog-jackie-1u55t13",

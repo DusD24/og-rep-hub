@@ -342,7 +342,8 @@
     "family_id": "bag-family-louis-vuitton-keepall",
     "material": "coated canvas (source-reported)",
     "hardware": "matte finish (source-reported)",
-    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage",
+    "tile_media_id": "media-keepall-25-monogram-midnight-reddit"
   },
   {
     "id": "bag-keepall-45-monogram-eclipse",
@@ -378,7 +379,8 @@
     "family_id": "bag-family-ysl-niki",
     "material": "not documented in source",
     "hardware": "gold-tone hardware (source-reported)",
-    "official_reference_url": "https://www.ysl.com/en-us/women/handbags"
+    "official_reference_url": "https://www.ysl.com/en-us/women/handbags",
+    "tile_media_id": "media-niki-medium-gold-hardware-reddit"
   },
   {
     "id": "bag-niki-red-wine-unknown-size",
@@ -414,7 +416,8 @@
     "family_id": "bag-family-bottega-veneta-jodie",
     "material": "not documented in source",
     "hardware": "not documented in source",
-    "official_reference_url": "https://www.bottegaveneta.com/en-us/women/handbags"
+    "official_reference_url": "https://www.bottegaveneta.com/en-us/women/handbags",
+    "tile_media_id": "media-jodie-off-white-cream-unknown-reddit"
   },
   {
     "id": "bag-jodie-48cm-fondant-sheepskin",
@@ -438,7 +441,8 @@
     "family_id": "bag-family-bottega-veneta-jodie",
     "material": "not documented in source",
     "hardware": "not documented in source",
-    "official_reference_url": "https://www.bottegaveneta.com/en-us/women/handbags"
+    "official_reference_url": "https://www.bottegaveneta.com/en-us/women/handbags",
+    "tile_media_id": "media-jodie-teen-unknown-reddit"
   },
   {
     "id": "bag-djoy-red-patent-unknown",
@@ -474,7 +478,8 @@
     "family_id": "bag-family-dior-d-joy",
     "material": "lambskin (source-reported)",
     "hardware": "light-gold hardware (source-reported)",
-    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags"
+    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags",
+    "tile_media_id": "media-d-joy-djoy-micro-cloud-blue-reddit"
   },
   {
     "id": "bag-jackie-medium-unknown",
