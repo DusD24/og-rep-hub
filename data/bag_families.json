@@ -1599,7 +1599,15 @@
     "summary": "A research-queue collection opened from a public medium red LouLou review covering lambskin, chain weight, capacity, construction, and seller service.",
     "tile_media_id": "media-ysl-loulou-reddit",
     "publication_status": "published",
-    "documented_variant_ids": [],
+    "documented_variant_ids": [
+      "bag-loulou-medium-red-lambskin-black-frame",
+      "bag-loulou-small-black-black-frame",
+      "bag-loulou-small-suede-color-unknown",
+      "bag-loulou-small-caramel",
+      "bag-loulou-toy-black-gold",
+      "bag-loulou-medium-burgundy",
+      "bag-loulou-puffer-black-silver-lambskin"
+    ],
     "evidence_ids": [
       "ev-crawl-rll-ysl-loulou-black-frame-2026",
       "ev-crawl-rt-ysl-loulou-1uobhrd",
@@ -1624,13 +1632,20 @@
     "documented_sizes": [
       "Small",
       "Medium",
-      "Toy"
+      "Toy",
+      "Large",
+      "not documented in current public sources"
     ],
     "documented_materials": [
-      "lambskin (source-reported)"
+      "lambskin (source-reported)",
+      "suede (source-reported)",
+      "not documented in current public sources"
     ],
     "documented_hardware": [
-      "substantial chain"
+      "substantial chain",
+      "gold (source-reported)",
+      "silver (source-reported)",
+      "not documented in current public sources"
     ],
     "evidence_coverage": {
       "source_count": 19,
@@ -2177,7 +2192,9 @@
     "summary": "Community evidence file covering the Hermès Kelly, opened from a single high-confidence RepCulture_Bags in-hand review of a Kelly 28 HSS in Togo leather with gold hardware.",
     "tile_media_id": "media-hermes-kelly-28-reddit",
     "publication_status": "published",
-    "documented_variant_ids": [],
+    "documented_variant_ids": [
+      "bag-kelly-28-hss-gris-meyer-rose-mexico-togo-gold"
+    ],
     "evidence_ids": [
       "ev-crawl-repculture-hermes-kelly-2026",
       "ev-crawl-rrl-hermes-kelly-1sl383j",
@@ -2208,7 +2225,8 @@
       "Mini"
     ],
     "documented_materials": [
-      "Togo leather"
+      "Togo leather",
+      "not documented in current public sources"
     ],
     "documented_hardware": [
       "gold-tone hardware reported"

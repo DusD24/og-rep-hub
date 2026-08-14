@@ -2224,7 +2224,9 @@
     "factory_ids": [
       "factory-black-frame"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-loulou-medium-red-lambskin-black-frame"
+    ],
     "family_ids": [
       "bag-family-ysl-loulou"
     ],
@@ -2240,7 +2242,8 @@
       "Factory and seller names remain source-reported; private contact requests in comments are excluded."
     ],
     "media_ids": [
-      "media-ysl-loulou-reddit"
+      "media-ysl-loulou-reddit",
+      "media-loulou-medium-red-lambskin-black-frame-reddit"
     ]
   },
   {
@@ -3330,13 +3333,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-kelly-28-hss-alt-2"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-hermes-kelly"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-kelly-28-hss-gris-meyer-rose-mexico-togo-gold"
+    ],
     "seller_ids": [
       "seller-jim"
     ],
@@ -3893,13 +3900,17 @@
       "qualifier": "plus $35 shipping to Germany, per the reviewer"
     },
     "shipping_timeline": "Requested 12 June; QC received and GL'd 16 June; tracking sent 20 June; delivered 30 June, per the reviewer's own dated log.",
-    "media_ids": [],
+    "media_ids": [
+      "media-loulou-small-black-black-frame-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-ysl-loulou"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-loulou-small-black-black-frame"
+    ],
     "seller_ids": [
       "seller-felix"
     ],
@@ -5002,13 +5013,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": "Delivered in under 10 days after shipping, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-loulou-small-suede-color-unknown-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-ysl-loulou"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-loulou-small-suede-color-unknown"
+    ],
     "seller_ids": [
       "seller-felix"
     ],
@@ -7247,13 +7262,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-loulou-small-caramel-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-ysl-loulou"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-loulou-small-caramel"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -15936,13 +15955,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Paid August 21, PSP received August 31, shipped September 1, and received September 12; payment details are excluded.",
-    "media_ids": [],
+    "media_ids": [
+      "media-loulou-toy-black-gold-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-ysl-loulou"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-loulou-toy-black-gold"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-black-frame"
@@ -28983,13 +29006,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-loulou-medium-burgundy-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-ysl-loulou"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-loulou-medium-burgundy"
+    ],
     "seller_ids": [
       "seller-laomao"
     ],
@@ -30038,13 +30065,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-loulou-puffer-black-silver-lambskin-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-ysl-loulou"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-loulou-puffer-black-silver-lambskin"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-black-frame"
