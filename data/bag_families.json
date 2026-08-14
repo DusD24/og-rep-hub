@@ -216,7 +216,8 @@
       "ev-crawl-rrl-chanel-classic-flap-1v9u0xk",
       "ev-crawl-rt-chanel-classic-flap-1rdy0ky",
       "ev-crawl-rrl-chanel-classic-flap-1iv7j2d",
-      "ev-crawl-rrl-chanel-classic-flap-1t4e0w1"
+      "ev-crawl-rrl-chanel-classic-flap-1t4e0w1",
+      "ev-crawl-rt-chanel-classic-flap-1sjzjic"
     ],
     "documented_sizes": [
       "not stated in selected sources"
@@ -228,8 +229,8 @@
       "gold-tone hardware reported or requested"
     ],
     "evidence_coverage": {
-      "source_count": 74,
-      "independent_author_count": 66,
+      "source_count": 75,
+      "independent_author_count": 67,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -481,7 +482,8 @@
       "ev-crawl-rt-louis-vuitton-speedy-1so5xzg",
       "ev-crawl-rrl-louis-vuitton-speedy-1t5a5vr",
       "ev-crawl-rcb-louis-vuitton-speedy-1urjsxg",
-      "ev-crawl-rt-louis-vuitton-speedy-1sntwk9"
+      "ev-crawl-rt-louis-vuitton-speedy-1sntwk9",
+      "ev-crawl-rt-louis-vuitton-speedy-1szzsnq"
     ],
     "documented_sizes": [
       "25",
@@ -494,8 +496,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 195,
-      "independent_author_count": 158,
+      "source_count": 196,
+      "independent_author_count": 159,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -1959,7 +1961,8 @@
       "ev-crawl-rrl-chanel-25-1qiuhy5",
       "ev-crawl-rrl-chanel-25-1sb9xuq",
       "ev-crawl-rrl-chanel-25-1sz77v8",
-      "ev-crawl-rrl-chanel-25-1uzn0m6"
+      "ev-crawl-rrl-chanel-25-1uzn0m6",
+      "ev-crawl-rcb-chanel-25-1r2y18k"
     ],
     "documented_sizes": [
       "Small",
@@ -1976,8 +1979,8 @@
       "ruthenium hardware reported"
     ],
     "evidence_coverage": {
-      "source_count": 139,
-      "independent_author_count": 123,
+      "source_count": 140,
+      "independent_author_count": 124,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepCulture_Bags",
@@ -2154,7 +2157,8 @@
     "evidence_ids": [
       "ev-catalog-keepall-1musi0i",
       "ev-catalog-keepall-1s7tzw4",
-      "ev-catalog-keepall-1tc5lh6"
+      "ev-catalog-keepall-1tc5lh6",
+      "ev-crawl-rlw-louis-vuitton-keepall-1ugjm5r"
     ],
     "documented_materials": [
       "coated canvas",
@@ -2165,14 +2169,16 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 3,
-      "independent_author_count": 3,
+      "source_count": 4,
+      "independent_author_count": 4,
       "primary_subreddit_coverage": [
         "RealRepLadies",
+        "RepLadiesWorld",
         "RepTherapy"
       ],
       "image_ready": true,
       "evidence_types": [
+        "auth_comparison",
         "in_hand_review",
         "psp_qc"
       ]
@@ -2258,7 +2264,8 @@
       "ev-catalog-jodie-1ubpsuj",
       "ev-catalog-jodie-1v29svm",
       "ev-catalog-jodie-1tvnd4h",
-      "ev-catalog-jodie-1gkyogy"
+      "ev-catalog-jodie-1gkyogy",
+      "ev-crawl-rt-bottega-veneta-jodie-1ro0d79"
     ],
     "documented_materials": [
       "sheepskin",
@@ -2268,8 +2275,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 4,
-      "independent_author_count": 4,
+      "source_count": 5,
+      "independent_author_count": 5,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepLadiesWorld",
@@ -2277,6 +2284,7 @@
       ],
       "image_ready": true,
       "evidence_types": [
+        "factory_comparison",
         "in_hand_review",
         "psp_qc"
       ]
@@ -2308,7 +2316,8 @@
     "evidence_ids": [
       "ev-catalog-djoy-1s86bi3",
       "ev-catalog-djoy-1s09woa",
-      "ev-catalog-djoy-1su9eg2"
+      "ev-catalog-djoy-1su9eg2",
+      "ev-crawl-rt-dior-d-joy-1ub1pjo"
     ],
     "documented_materials": [
       "patent leather",
@@ -2319,8 +2328,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 3,
-      "independent_author_count": 3,
+      "source_count": 4,
+      "independent_author_count": 4,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepTherapy"
@@ -2328,6 +2337,7 @@
       "image_ready": true,
       "evidence_types": [
         "auth_comparison",
+        "factory_comparison",
         "in_hand_review"
       ]
     },
@@ -2462,7 +2472,8 @@
       "ev-catalog-toujours-1udj2y4",
       "ev-catalog-toujours-1twt8c5",
       "ev-catalog-toujours-1qazo8v",
-      "ev-catalog-toujours-1q5dgu7"
+      "ev-catalog-toujours-1q5dgu7",
+      "ev-crawl-rrl-dior-toujours-1txep8d"
     ],
     "documented_materials": [
       "calfskin",
@@ -2473,9 +2484,10 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 4,
+      "source_count": 5,
       "independent_author_count": 3,
       "primary_subreddit_coverage": [
+        "RealRepLadies",
         "RepCulture_Bags",
         "RepTherapy"
       ],
@@ -2575,7 +2587,9 @@
       "ev-catalog-marlo-1txhutf",
       "ev-catalog-marlo-1uf3533",
       "ev-catalog-marlo-1ryp9wm",
-      "ev-catalog-marlo-1ro4jgb"
+      "ev-catalog-marlo-1ro4jgb",
+      "ev-crawl-rt-the-row-marlo-1udwulv",
+      "ev-crawl-rrl-the-row-marlo-1v8a8jr"
     ],
     "documented_materials": [
       "imported masoni leather (source-reported)",
@@ -2585,8 +2599,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 4,
-      "independent_author_count": 4,
+      "source_count": 6,
+      "independent_author_count": 6,
       "primary_subreddit_coverage": [
         "RealRepLadies",
         "RepTherapy"
@@ -2680,7 +2694,8 @@
     "evidence_ids": [
       "ev-catalog-sidetrunk-1uuy1fi",
       "ev-catalog-sidetrunk-1t144yv",
-      "ev-catalog-sidetrunk-1qzcqhl"
+      "ev-catalog-sidetrunk-1qzcqhl",
+      "ev-crawl-rt-louis-vuitton-side-trunk-1ibpqkt"
     ],
     "documented_materials": [
       "canvas (source-reported)",
@@ -2690,8 +2705,8 @@
       "not consistently stated in selected sources"
     ],
     "evidence_coverage": {
-      "source_count": 3,
-      "independent_author_count": 3,
+      "source_count": 4,
+      "independent_author_count": 4,
       "primary_subreddit_coverage": [
         "RepCulture_Bags",
         "RepLadiesWorld",
@@ -2699,6 +2714,7 @@
       ],
       "image_ready": true,
       "evidence_types": [
+        "factory_comparison",
         "in_hand_review"
       ]
     },

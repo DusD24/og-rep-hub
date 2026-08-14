@@ -1280,10 +1280,13 @@
       "reason": "above floor but outside the daily cap (priority 45)"
     },
     "t3_1ibpqkt": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-side-trunk-1ibpqkt"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ic53xu": {
       "disposition": "rejected",
@@ -21895,10 +21898,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1r2y18k": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rcb-chanel-25-1r2y18k"
+      ],
       "subreddit": "RepCulture_Bags",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1r2yvhq": {
       "disposition": "rejected",
@@ -25294,10 +25300,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ro0d79": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-bottega-veneta-jodie-1ro0d79"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ro2368": {
       "disposition": "deferred",
@@ -31840,10 +31849,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1sjzjic": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-chanel-classic-flap-1sjzjic"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1sjzw57": {
       "disposition": "rejected",
@@ -35947,10 +35959,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1szzsnq": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-louis-vuitton-speedy-1szzsnq"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "above floor but outside the daily cap (priority 40)"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1t00a72": {
       "disposition": "deferred",
@@ -43588,10 +43603,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1txep8d": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-dior-toujours-1txep8d"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1txh4my": {
       "disposition": "deferred",
@@ -47316,10 +47334,13 @@
       "reason": "reviewed and not promoted: Neverfull post is an empty best-factory, seller, and rehome solicitation."
     },
     "t3_1ub1pjo": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-dior-d-joy-1ub1pjo"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ub25yj": {
       "disposition": "deferred",
@@ -48043,10 +48064,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1udwulv": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rt-the-row-marlo-1udwulv"
+      ],
       "subreddit": "RepTherapy",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1udxmxd": {
       "disposition": "promoted",
@@ -48958,10 +48982,13 @@
       "reason": "no catalogued collection referenced; revisit as the catalog grows"
     },
     "t3_1ugjm5r": {
-      "disposition": "deferred",
+      "disposition": "promoted",
       "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rlw-louis-vuitton-keepall-1ugjm5r"
+      ],
       "subreddit": "RepLadiesWorld",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1ugkifv": {
       "disposition": "promoted",
@@ -55108,10 +55135,13 @@
       "reason": "normalized from a triage shortlist"
     },
     "t3_1v8a8jr": {
-      "disposition": "deferred",
-      "decided_on": "2026-08-12",
+      "disposition": "promoted",
+      "decided_on": "2026-08-13",
+      "evidence_ids": [
+        "ev-crawl-rrl-the-row-marlo-1v8a8jr"
+      ],
       "subreddit": "RealRepLadies",
-      "reason": "no catalogued collection referenced; revisit as the catalog grows"
+      "reason": "normalized from a triage shortlist"
     },
     "t3_1v8acd7": {
       "disposition": "deferred",
