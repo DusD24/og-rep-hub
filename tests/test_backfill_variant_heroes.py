@@ -62,6 +62,16 @@ class ExtractImageUrlTests(unittest.TestCase):
         self.assertEqual(url, "https://preview.redd.it/self-post-preview.jpg&s=abc")
         self.assertEqual((w, h), (10, 20))
 
+    def test_self_post_with_inline_media_metadata_uses_upload_source(self):
+        post = {
+            "media_metadata": {
+                "inline": {"s": {"u": "https://preview.redd.it/inline.jpg", "x": 1200, "y": 900}},
+            },
+        }
+        url, w, h = extract_image_url(post)
+        self.assertEqual(url, "https://preview.redd.it/inline.jpg")
+        self.assertEqual((w, h), (1200, 900))
+
     def test_external_preview_host_is_rejected(self):
         # A third-party link (e.g. a seller catalog page) reflected through Reddit's
         # proxy, not an upload -- explicitly out of the sourcing contract.

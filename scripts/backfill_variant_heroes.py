@@ -119,6 +119,17 @@ def extract_image_url(post: dict[str, Any]) -> tuple[str | None, int | None, int
                 return url.replace("&amp;", "&"), source.get("x"), source.get("y")
         return None, None, None
 
+    # Text/self posts can still contain a genuine inline Reddit upload in
+    # media_metadata even when Reddit does not mark the post as a gallery.
+    # Check it before the preview fallback so the fetch pass does not discard
+    # an otherwise valid owner photo.
+    if post.get("media_metadata"):
+        for metadata in post["media_metadata"].values():
+            source = (metadata or {}).get("s", {})
+            url = source.get("u")
+            if url and _is_allowed_image_url(url):
+                return url.replace("&amp;", "&"), source.get("x"), source.get("y")
+
     if post.get("post_hint") == "image" and post.get("url"):
         url = post["url"]
         if _is_allowed_image_url(url):
