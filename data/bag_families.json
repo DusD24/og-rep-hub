@@ -13,13 +13,9 @@
     "tile_media_id": "media-neverfull-monogram-reddit",
     "publication_status": "published",
     "documented_variant_ids": [
-      "bag-monogram-gm-brown",
-      "bag-eden-mm-brown",
       "bag-eden-size-unknown-color-unknown",
       "bag-monogram-mm-brown",
-      "bag-monogram-size-unknown-brown",
       "bag-damier-azur-gm",
-      "bag-damier-ebene-gm",
       "bag-damier-ebene-mm-brown",
       "bag-damier-azur-size-unknown",
       "bag-neverfull-empreinte-mm-black",
@@ -2392,8 +2388,7 @@
     "publication_status": "published",
     "documented_variant_ids": [
       "bag-keepall-gradient-blue-denim",
-      "bag-keepall-25-monogram-midnight",
-      "bag-keepall-45-monogram-eclipse"
+      "bag-keepall-25-monogram-midnight"
     ],
     "evidence_ids": [
       "ev-catalog-keepall-1musi0i",
@@ -2445,8 +2440,7 @@
     "publication_status": "published",
     "documented_variant_ids": [
       "bag-niki-medium-vintage-leather",
-      "bag-niki-medium-gold-hardware",
-      "bag-niki-red-wine-unknown-size"
+      "bag-niki-medium-gold-hardware"
     ],
     "evidence_ids": [
       "ev-catalog-niki-1uulmns",
@@ -2498,7 +2492,6 @@
     "documented_variant_ids": [
       "bag-jodie-mini-unknown",
       "bag-jodie-off-white-cream-unknown",
-      "bag-jodie-48cm-fondant-sheepskin",
       "bag-jodie-teen-unknown"
     ],
     "evidence_ids": [
@@ -2550,8 +2543,6 @@
     "tile_media_id": "media-catalog-djoy-hero",
     "publication_status": "published",
     "documented_variant_ids": [
-      "bag-djoy-red-patent-unknown",
-      "bag-djoy-26cm-black-lambskin-lghw",
       "bag-djoy-micro-cloud-blue"
     ],
     "evidence_ids": [
@@ -2603,7 +2594,6 @@
     "publication_status": "published",
     "documented_variant_ids": [
       "bag-jackie-medium-unknown",
-      "bag-jackie-medium-brown-canvas",
       "bag-jackie-mini-unknown"
     ],
     "evidence_ids": [
@@ -2651,9 +2641,7 @@
     "tile_media_id": "media-catalog-woc-hero",
     "publication_status": "published",
     "documented_variant_ids": [
-      "bag-chanel-woc-unknown",
-      "bag-chanel-woc-black-caviar-silver",
-      "bag-chanel-woc-black-187-unknown"
+      "bag-chanel-woc-unknown"
     ],
     "evidence_ids": [
       "ev-catalog-woc-1pfyhsm",
@@ -2705,7 +2693,6 @@
     "publication_status": "published",
     "documented_variant_ids": [
       "bag-toujours-vertical-medium",
-      "bag-toujours-vertical-large-24cm",
       "bag-toujours-vertical-calfskin",
       "bag-toujours-unknown"
     ],
@@ -2760,9 +2747,7 @@
     "tile_media_id": "media-catalog-evelyne-hero",
     "publication_status": "published",
     "documented_variant_ids": [
-      "bag-evelyne-29",
-      "bag-evelyne-23",
-      "bag-evelyne-size-unknown"
+      "bag-evelyne-29"
     ],
     "evidence_ids": [
       "ev-catalog-evelyne-1qmoste",
@@ -2819,9 +2804,6 @@
     "tile_media_id": "media-catalog-marlo-hero",
     "publication_status": "published",
     "documented_variant_ids": [
-      "bag-marlo-14-masoni-leather",
-      "bag-marlo-14-unknown",
-      "bag-marlo-17-chestnut-smooth-leather",
       "bag-marlo-17-unknown"
     ],
     "evidence_ids": [
@@ -2875,9 +2857,7 @@
     "publication_status": "published",
     "documented_variant_ids": [
       "bag-chanel19-black-goatskin",
-      "bag-chanel19-black-lambskin",
-      "bag-chanel19-pink-unknown",
-      "bag-chanel19-black-upgraded-leather"
+      "bag-chanel19-pink-unknown"
     ],
     "evidence_ids": [
       "ev-catalog-chanel19-1lfz0zr",

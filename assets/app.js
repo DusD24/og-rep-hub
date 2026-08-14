@@ -148,10 +148,7 @@ function fillRecordSelect(selector, records, textForRecord) {
 }
 
 function familyVariants(family) {
-  const ids = unique([
-    ...(family.documented_variant_ids || []),
-    ...(state.bags || []).filter(item => item.family_id === family.id).map(item => item.id)
-  ]);
+  const ids = unique(family.documented_variant_ids || []);
   return ids.map(id => state.maps.bags.get(id)).filter(Boolean)
     .sort((a, b) => variantEvidenceCount(b) - variantEvidenceCount(a) || ids.indexOf(a.id) - ids.indexOf(b.id));
 }
@@ -493,6 +490,7 @@ function renderBagDetail(familyId) {
   const evidence = familyEvidence(family).sort((a, b) => String(b.publication_date).localeCompare(String(a.publication_date)) || String(a.id).localeCompare(String(b.id)));
   const newest = evidence.slice(0, 6);
   const variants = familyVariants(family);
+  const unillustratedLeads = (state.bags || []).filter(item => item.family_id === family.id && !item.tile_media_id);
   const researchNotes = collectionResearchNotes(family);
   const hasCommunitySignal = familyOfferings(family).some(offering => {
     const ranking = state.maps.rankings.get(offering.id);
@@ -509,7 +507,7 @@ function renderBagDetail(familyId) {
   container.innerHTML = `<a class="back-link" href="#bags" data-route>← Back to the Catalog</a>
     <div class="family-hero"><div>${renderFamilyTile(family, true)}</div><div><p class="eyebrow">${escapeHtml(family.brand)} · ${escapeHtml(label(family.category))}</p><h1 id="bag-detail-title" tabindex="-1">${escapeHtml(family.model)}</h1><p class="detail-summary">${escapeHtml(family.summary)}</p><div class="badge-row">${familyBadges(family).map(badge => `<span class="badge">${escapeHtml(badge)}</span>`).join("")}</div><p class="metadata">Updated ${escapeHtml(family.last_updated)} · ${plural(coverage.sourceCount, "receipt")} · ${plural(coverage.authorCount, "independent author")}</p></div></div>
     <section class="family-section family-receipts" aria-labelledby="family-receipts-title"><div class="subsection-heading"><div><p class="eyebrow">Newest source trail</p><h2 id="family-receipts-title">Reviews &amp; receipts</h2></div><a class="card-action" href="#evidence?family=${encodeURIComponent(family.id)}" data-route><span class="visually-hidden">See reviews &amp; receipts: </span>View all ${evidence.length} receipts <span aria-hidden="true">→</span></a></div>${newest.length ? `<div class="receipt-grid">${newest.map(renderReceiptCard).join("")}</div>` : '<p class="empty">No collection-linked public sources yet.</p>'}</section>
-    <section class="family-section variants-section" aria-labelledby="variants-title"><div class="subsection-heading"><div><p class="eyebrow">Source-documented identities</p><h2 id="variants-title">Exact Variants</h2></div><p>${plural(variants.length, "variant")}</p></div>${renderVariantCards(family)}</section>
+    <section class="family-section variants-section" aria-labelledby="variants-title"><div class="subsection-heading"><div><p class="eyebrow">Hero-backed source-documented identities</p><h2 id="variants-title">Exact Variants</h2></div><p>${plural(variants.length, "variant")}${unillustratedLeads.length ? ` · ${plural(unillustratedLeads.length, "unillustrated lead")} retained in Reviews &amp; receipts` : ""}</p></div>${renderVariantCards(family)}${unillustratedLeads.length ? '<p class="fineprint variant-lead-note">Unillustrated leads stay in the receipt trail until a distinct, policy-compliant community hero is available.</p>' : ""}</section>
     <div class="support-grid"><section class="support-card"><p class="eyebrow">Useful collection facts</p><h2>At a glance</h2>${facts ? `<dl class="at-a-glance">${facts}</dl>` : '<p class="fineprint">No non-placeholder collection facts are available yet.</p>'}</section><section class="support-card"><p class="eyebrow">QC &amp; open questions</p><h2>Research notes</h2>${researchNotes.summary ? `<p class="research-note-summary">${escapeHtml(researchNotes.summary)}</p>` : '<p class="fineprint">No collection summary is recorded.</p>'}${researchNotes.watchouts.length ? `<p class="eyebrow research-note-label">Watch-outs</p>${list(researchNotes.watchouts.slice(0, 3), "research-note-preview")}` : ""}${researchNotes.watchouts.length > 3 ? `<button class="card-action dialog-trigger" type="button" data-dialog-kind="notes" data-dialog-id="${escapeHtml(family.id)}">Read all ${researchNotes.watchouts.length}</button>` : ""}<p class="signal-status"><strong>${hasCommunitySignal ? "Community signal available in the underlying research." : "Community signal unavailable."}</strong> ${hasCommunitySignal ? "Open the linked receipts to review the qualifying evidence." : "Current evidence does not meet the detail-level scoring gates."}</p></section></div>
     <section class="family-section contribution-section bag-contribution" aria-labelledby="bag-contribution-title"><p class="eyebrow">Community contributions</p><h2 id="bag-contribution-title">Help improve this bag’s research</h2><p>Bring a public receipt, flag a correction, or request review of attributed media.</p>${renderContributionCards(["submit-source", "correction-media-removal"], "two")}</section>`;
 }

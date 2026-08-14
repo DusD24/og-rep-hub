@@ -344,6 +344,24 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn("variantEvidenceCount(b) - variantEvidenceCount(a)", variants)
         self.assertIn("ids.indexOf(a.id) - ids.indexOf(b.id)", variants)
 
+    def test_published_variant_ids_are_hero_backed(self):
+        bags_by_id = {row["id"]: row for row in self.bags}
+        for family in self.families:
+            for variant_id in family.get("documented_variant_ids", []):
+                self.assertTrue(
+                    bags_by_id[variant_id].get("tile_media_id"),
+                    f"{family['id']} exposes a variant without a hero: {variant_id}",
+                )
+        variants = self.js[self.js.index("function familyVariants"):self.js.index("function variantEvidenceCount")]
+        self.assertIn("const ids = unique(family.documented_variant_ids || []);", variants)
+        self.assertNotIn("state.bags || []", variants)
+
+    def test_variant_section_labels_hero_backed_rows_and_retained_leads(self):
+        detail = self.js[self.js.index("function renderBagDetail"):self.js.index("const CONTRIBUTION_LINKS")]
+        self.assertIn("Hero-backed source-documented identities", detail)
+        self.assertIn("unillustrated lead", detail)
+        self.assertIn("state.bags || []", detail)
+
     def test_collection_research_notes_are_one_summary_and_watchouts(self):
         notes = self.research.get("collection_notes", [])
         by_family = {row.get("family_id"): row for row in notes}
