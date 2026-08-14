@@ -7047,7 +7047,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-neverfull"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-damier-ebene-mm-brown"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -20671,7 +20673,9 @@
     "family_ids": [
       "bag-family-louis-vuitton-neverfull"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-damier-ebene-mm-brown"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -21802,7 +21806,9 @@
   {
     "access_date": "2026-08-13",
     "author": "IslandFrosty8441",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-damier-ebene-mm-brown"
+    ],
     "evidence_type": "in_hand_review",
     "exact_product_match": true,
     "exact_variant_note": "Louis Vuitton Neverfull MM in Damier Ebene with Rose Ballerine interior and a yellow-foil hot stamp; the source identifies Hyper Peter as seller and does not state a factory.",
@@ -22994,7 +23000,9 @@
   {
     "access_date": "2026-08-13",
     "author": "b_avo",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-damier-ebene-mm-brown"
+    ],
     "evidence_type": "in_hand_review",
     "exact_product_match": true,
     "exact_variant_note": "Louis Vuitton Neverfull MM in Damier Ebene from Hyper Peter; the factory is explicitly undisclosed.",
@@ -23003,7 +23011,9 @@
       "bag-family-louis-vuitton-neverfull"
     ],
     "id": "ev-crawl-rt-louis-vuitton-neverfull-1uz06m1",
-    "media_ids": [],
+    "media_ids": [
+      "media-1uz06m1-01"
+    ],
     "negative_observations": [
       "The review is strongly positive but does not provide a direct in-person authentic comparison; the author reports only that the bag seems similar to authentic references.",
       "The factory is undisclosed, and the source's insurance, payment, shipping, and service details are excluded."

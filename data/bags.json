@@ -87,6 +87,19 @@
     "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
   },
   {
+    "id": "bag-damier-ebene-mm-brown",
+    "name": "Neverfull-style Damier Ebene MM",
+    "size": "MM",
+    "pattern": "Damier Ebene",
+    "colorway": "brown",
+    "priority": "secondary-priority",
+    "family_id": "bag-family-louis-vuitton-neverfull",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/products/neverfull-mm-damier-ebene-nvprod5350100v/N41358",
+    "tile_media_id": "media-1uz06m1-01"
+  },
+  {
     "id": "bag-damier-azur-size-unknown",
     "name": "Neverfull-style Damier Azur (size unresolved)",
     "size": "unknown",

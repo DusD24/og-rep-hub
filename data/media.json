@@ -4487,5 +4487,24 @@
     "source_platform": "Reddit",
     "usage_scope": "variant_tile",
     "evidence_id": "ev-crawl-rcb-chanel-25-1ud0mej"
+  },
+  {
+    "id": "media-1uz06m1-01",
+    "path": "media/evidence/1uz06m1-01.jpg",
+    "attribution": "u/b_avo via r/RepTherapy",
+    "source_url": "https://preview.redd.it/uv7z9yusnsdh1.jpg?width=3072&format=pjpg&auto=webp&s=08bb07b86f276f2465959853e3bea0131c307b73",
+    "post_url": "https://www.reddit.com/r/RepTherapy/comments/1uz06m1/neverfull_mm_damier_ebene_from_hyper_peter/",
+    "author": "b_avo",
+    "subreddit": "RepTherapy",
+    "capture_date": "2026-08-14",
+    "removal_checked_at": "2026-08-14",
+    "sha256": "200afa3bf6f92d684aac36836df138700e846ecdc680bcf266c8e11f5e5f240b",
+    "width": 3072,
+    "height": 4080,
+    "research_purpose": "Receipt-linked community variant-tile image for the Neverfull-style Damier Ebene MM variant.",
+    "alt": "Neverfull-style Damier Ebene MM shown in a Reddit reviewer's owner photograph.",
+    "source_platform": "Reddit",
+    "usage_scope": "variant_tile",
+    "evidence_id": "ev-crawl-rt-louis-vuitton-neverfull-1uz06m1"
   }
 ]
