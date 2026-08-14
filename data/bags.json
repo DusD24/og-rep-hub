@@ -1436,6 +1436,19 @@
     "tile_media_id": "media-1rk0vub"
   },
   {
+    "id": "bag-flamenco-flamenco-mini-material-nd-abyss-blue",
+    "name": "Loewe Flamenco Mini Abyss? Blue",
+    "size": "Mini",
+    "pattern": "Flamenco",
+    "colorway": "Abyss? Blue",
+    "priority": "primary",
+    "family_id": "bag-family-loewe-flamenco",
+    "material": "not documented in source",
+    "hardware": "not documented in source",
+    "official_reference_url": "https://www.loewe.com/usa/en/women/bags/flamenco/",
+    "tile_media_id": "media-flamenco-mini-abyss-blue-1sr4mw4"
+  },
+  {
     "id": "bag-flamenco-flamenco-mini-material-nd-sand",
     "name": "Loewe Flamenco Mini Sand",
     "size": "Mini",

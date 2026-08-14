@@ -24879,13 +24879,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Ordered April 2 and delivered April 16, as reported; a strap issue was identified and replaced before shipment.",
-    "media_ids": [],
+    "media_ids": [
+      "media-flamenco-mini-abyss-blue-1sr4mw4"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-mini-material-nd-abyss-blue"
+    ],
     "seller_ids": [
       "seller-aiden"
     ],
