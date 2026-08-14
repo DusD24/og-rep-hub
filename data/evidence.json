@@ -3372,13 +3372,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-saddle-dior-saddle-small-messenger-cowhide-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-dior-saddle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-dior-saddle-small-messenger-cowhide"
+    ],
     "seller_ids": [
       "seller-alina"
     ],
@@ -6784,13 +6788,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-saddle-dior-saddle-medium-navy-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-dior-saddle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-dior-saddle-medium-navy"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -7367,13 +7375,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-saddle-dior-saddle-medium-black-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-dior-saddle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-dior-saddle-medium-black"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -15856,7 +15868,9 @@
     "family_ids": [
       "bag-family-dior-saddle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-dior-saddle-matte-black"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -26458,13 +26472,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Sent February 3 and arrived February 12, 2026, as reported.",
-    "media_ids": [],
+    "media_ids": [
+      "media-slim-vanity-chanel-vanity-in-chain-chocolate-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-chanel-vanity-slim"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-chanel-vanity-in-chain-chocolate"
+    ],
     "seller_ids": [
       "seller-nina"
     ],
@@ -31822,13 +31840,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-slim-vanity-chanel-vanity-case-white-caviar-gold-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-chanel-vanity-slim"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-chanel-vanity-case-white-caviar-gold"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,

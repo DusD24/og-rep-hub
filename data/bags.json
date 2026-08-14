@@ -2544,5 +2544,83 @@
     "hardware": "Palladium (source-reported)",
     "official_reference_url": "https://www.hermes.com/us/en/product/birkin-25-bag-H056289CKAD/",
     "tile_media_id": "media-birkin-25-etoupe-retourne-palladium-reddit"
+  },
+  {
+    "id": "bag-chanel-vanity-in-chain-chocolate",
+    "name": "Chanel Vanity in Chain Chocolate Champagne Gold",
+    "size": "not documented in current public sources",
+    "pattern": "Vanity in Chain",
+    "colorway": "Chocolate",
+    "priority": "primary",
+    "family_id": "bag-family-chanel-vanity-slim",
+    "material": "not documented in current public sources",
+    "hardware": "Champagne gold (source-reported)",
+    "official_reference_url": "https://www.chanel.com/us/fashion/handbags/",
+    "tile_media_id": "media-slim-vanity-chanel-vanity-in-chain-chocolate-reddit"
+  },
+  {
+    "id": "bag-chanel-vanity-case-white-caviar-gold",
+    "name": "Chanel Vanity Case White Caviar Gold Hardware",
+    "size": "not documented in current public sources",
+    "pattern": "Slim Vanity",
+    "colorway": "White",
+    "priority": "secondary-priority",
+    "family_id": "bag-family-chanel-vanity-slim",
+    "material": "Caviar leather (source-reported)",
+    "hardware": "Gold (source-reported)",
+    "official_reference_url": "https://www.chanel.com/us/fashion/handbags/",
+    "tile_media_id": "media-slim-vanity-chanel-vanity-case-white-caviar-gold-reddit"
+  },
+  {
+    "id": "bag-dior-saddle-small-messenger-cowhide",
+    "name": "Dior Saddle Small Messenger Cowhide",
+    "size": "Small",
+    "pattern": "Saddle Messenger",
+    "colorway": "not documented in current public sources",
+    "priority": "primary",
+    "family_id": "bag-family-dior-saddle",
+    "material": "Cowhide leather (source-reported)",
+    "hardware": "not documented in current public sources",
+    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags/saddle",
+    "tile_media_id": "media-saddle-dior-saddle-small-messenger-cowhide-reddit"
+  },
+  {
+    "id": "bag-dior-saddle-medium-navy",
+    "name": "Dior Saddle Medium Navy",
+    "size": "Medium",
+    "pattern": "Saddle",
+    "colorway": "Navy",
+    "priority": "secondary-priority",
+    "family_id": "bag-family-dior-saddle",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
+    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags/saddle",
+    "tile_media_id": "media-saddle-dior-saddle-medium-navy-reddit"
+  },
+  {
+    "id": "bag-dior-saddle-medium-black",
+    "name": "Dior Saddle Medium Black",
+    "size": "Medium",
+    "pattern": "Saddle",
+    "colorway": "Black",
+    "priority": "secondary-priority",
+    "family_id": "bag-family-dior-saddle",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
+    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags/saddle",
+    "tile_media_id": "media-saddle-dior-saddle-medium-black-reddit"
+  },
+  {
+    "id": "bag-dior-saddle-matte-black",
+    "name": "Dior Saddle Matte Black",
+    "size": "not documented in current public sources",
+    "pattern": "Saddle (matte-black hardware)",
+    "colorway": "Black",
+    "priority": "primary",
+    "family_id": "bag-family-dior-saddle",
+    "material": "Cowhide leather (source-reported)",
+    "hardware": "Matte black (source-reported)",
+    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags/saddle",
+    "tile_media_id": "media-dior-saddle-reddit"
   }
 ]

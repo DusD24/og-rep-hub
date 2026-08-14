@@ -1871,7 +1871,10 @@
     "summary": "A research-queue collection opened from a public Chanel Slim Vanity receipt with PSP, shipping, and authentic-store weight comparison notes.",
     "tile_media_id": "media-chanel-slim-vanity-reddit",
     "publication_status": "published",
-    "documented_variant_ids": [],
+    "documented_variant_ids": [
+      "bag-chanel-vanity-in-chain-chocolate",
+      "bag-chanel-vanity-case-white-caviar-gold"
+    ],
     "evidence_ids": [
       "ev-crawl-rll-chanel-vanity-slim-2026",
       "ev-crawl-rt-chanel-classic-flap-1pvhkxt",
@@ -1889,10 +1892,13 @@
       "not stated in selected source"
     ],
     "documented_materials": [
-      "not stated in selected source"
+      "not stated in selected source",
+      "Caviar leather (source-reported)"
     ],
     "documented_hardware": [
-      "not stated in selected source"
+      "not stated in selected source",
+      "Champagne gold (source-reported)",
+      "Gold (source-reported)"
     ],
     "evidence_coverage": {
       "source_count": 11,
@@ -2280,7 +2286,12 @@
     "summary": "Community evidence file covering the Dior Saddle, opened from a single high-confidence RepCulture_Bags QC/purchase-experience post for a men's Small Saddle messenger in cowhide leather.",
     "tile_media_id": "media-dior-saddle-reddit",
     "publication_status": "published",
-    "documented_variant_ids": [],
+    "documented_variant_ids": [
+      "bag-dior-saddle-small-messenger-cowhide",
+      "bag-dior-saddle-medium-navy",
+      "bag-dior-saddle-medium-black",
+      "bag-dior-saddle-matte-black"
+    ],
     "evidence_ids": [
       "ev-crawl-repculture-dior-saddle-2026",
       "ev-crawl-rrl-dior-saddle-1u2vwkk",
@@ -2299,10 +2310,13 @@
       "Medium"
     ],
     "documented_materials": [
-      "cowhide leather"
+      "cowhide leather",
+      "Cowhide leather (source-reported)",
+      "not documented in current public sources"
     ],
     "documented_hardware": [
-      "not stated in selected sources"
+      "not stated in selected sources",
+      "Matte black (source-reported)"
     ],
     "evidence_coverage": {
       "source_count": 11,
