@@ -4088,5 +4088,24 @@
     "source_platform": "Reddit",
     "usage_scope": "variant_tile",
     "evidence_id": "ev-catalog-sidetrunk-1qzcqhl"
+  },
+  {
+    "id": "media-side-trunk-east-west-gallery-reddit",
+    "path": "media/evidence/side-trunk-east-west-gallery-reddit.jpg",
+    "attribution": "u/Salt_Razzmatazz4981 via r/RepCulture_Bags",
+    "source_url": "https://preview.redd.it/tip6wk04kwch1.jpg?width=1920&format=pjpg&auto=webp&s=4945abd96fd05b9274fe26b279f7bb4dd04a6d28",
+    "post_url": "https://www.reddit.com/r/RepCulture_Bags/comments/1uuy1fi/side_trunk_comparsion_and_review/",
+    "author": "Salt_Razzmatazz4981",
+    "subreddit": "RepCulture_Bags",
+    "capture_date": "2026-08-14",
+    "removal_checked_at": "2026-08-14",
+    "sha256": "6ced5611acd80330860b9ceac0d2e48521e502672a9f41f2d3a66a839e4dbc30",
+    "width": 1280,
+    "height": 960,
+    "research_purpose": "Receipt-linked community variant-tile image for the Louis Vuitton Side Trunk East West variant.",
+    "alt": "Louis Vuitton Side Trunk East West shown in a Reddit reviewer's photograph.",
+    "source_platform": "Reddit",
+    "usage_scope": "variant_tile",
+    "evidence_id": "ev-catalog-sidetrunk-1uuy1fi"
   }
 ]
