@@ -330,7 +330,8 @@
     "family_id": "bag-family-louis-vuitton-keepall",
     "material": "denim fabric (source-reported)",
     "hardware": "not documented in source",
-    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage",
+    "tile_media_id": "media-keepall-gradient-g2"
   },
   {
     "id": "bag-keepall-25-monogram-midnight",
@@ -404,7 +405,8 @@
     "family_id": "bag-family-bottega-veneta-jodie",
     "material": "not documented in source",
     "hardware": "not documented in source",
-    "official_reference_url": "https://www.bottegaveneta.com/en-us/women/handbags"
+    "official_reference_url": "https://www.bottegaveneta.com/en-us/women/handbags",
+    "tile_media_id": "media-jodie-mini-g4"
   },
   {
     "id": "bag-jodie-off-white-cream-unknown",
@@ -491,7 +493,8 @@
     "family_id": "bag-family-gucci-jackie",
     "material": "not documented in source",
     "hardware": "not documented in source",
-    "official_reference_url": "https://www.gucci.com/us/en/ca/women/handbags-c-women-handbags"
+    "official_reference_url": "https://www.gucci.com/us/en/ca/women/handbags-c-women-handbags",
+    "tile_media_id": "media-jackie-medium-g2"
   },
   {
     "id": "bag-jackie-medium-brown-canvas",
@@ -527,7 +530,8 @@
     "family_id": "bag-family-chanel-woc",
     "material": "not documented in source",
     "hardware": "not documented in source",
-    "official_reference_url": "https://www.chanel.com/us/fashion/handbags/"
+    "official_reference_url": "https://www.chanel.com/us/fashion/handbags/",
+    "tile_media_id": "media-woc-unknown-g2"
   },
   {
     "id": "bag-chanel-woc-black-caviar-silver",
@@ -601,7 +605,8 @@
     "family_id": "bag-family-dior-toujours",
     "material": "not documented in source",
     "hardware": "not documented in source",
-    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags"
+    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags",
+    "tile_media_id": "media-toujours-unknown-g2"
   },
   {
     "id": "bag-evelyne-29",
@@ -724,7 +729,8 @@
     "family_id": "bag-family-chanel-19",
     "material": "not documented in source",
     "hardware": "not documented in source",
-    "official_reference_url": "https://www.chanel.com/us/fashion/handbags/"
+    "official_reference_url": "https://www.chanel.com/us/fashion/handbags/",
+    "tile_media_id": "media-chanel19-pink-g2"
   },
   {
     "id": "bag-chanel19-black-upgraded-leather",
