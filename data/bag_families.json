@@ -1211,7 +1211,15 @@
     "summary": "Community evidence file covering leather, stamp, stitching, hardware, and comparison details.",
     "tile_media_id": "media-birkin-25-reddit",
     "publication_status": "published",
-    "documented_variant_ids": [],
+    "documented_variant_ids": [
+      "bag-birkin-25-rouge-de-coeur-togo-gold",
+      "bag-birkin-25-biscuit-togo",
+      "bag-birkin-25-bleu-jean-togo-palladium",
+      "bag-birkin-25-bleu-jean-swift",
+      "bag-birkin-25-cargo-gris-misty-swift",
+      "bag-birkin-25-gold-togo-gold",
+      "bag-birkin-25-etoupe-retourne-palladium"
+    ],
     "evidence_ids": [
       "ev-rll-birkin-25",
       "ev-rt-birkin-25-wear",
@@ -1233,11 +1241,16 @@
     ],
     "documented_materials": [
       "Togo",
-      "leather"
+      "leather",
+      "Swift leather",
+      "not documented in current public sources"
     ],
     "documented_hardware": [
       "palladium",
-      "brushed palladium"
+      "brushed palladium",
+      "gold",
+      "upgraded hardware (source-reported)",
+      "not documented in current public sources"
     ],
     "evidence_coverage": {
       "source_count": 14,
