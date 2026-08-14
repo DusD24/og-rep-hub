@@ -152,7 +152,12 @@ function familyVariants(family) {
     ...(family.documented_variant_ids || []),
     ...(state.bags || []).filter(item => item.family_id === family.id).map(item => item.id)
   ]);
-  return ids.map(id => state.maps.bags.get(id)).filter(Boolean);
+  return ids.map(id => state.maps.bags.get(id)).filter(Boolean)
+    .sort((a, b) => variantEvidenceCount(b) - variantEvidenceCount(a) || ids.indexOf(a.id) - ids.indexOf(b.id));
+}
+
+function variantEvidenceCount(variant) {
+  return (state.evidence || []).filter(item => (item.bag_ids || []).includes(variant.id)).length;
 }
 
 function familyEvidence(family) {
@@ -460,7 +465,7 @@ function renderVariantCards(family) {
   const variants = familyVariants(family);
   if (!variants.length) return '<p class="empty compact-empty">No source-documented exact variants yet.</p>';
   return `<div class="variant-grid">${variants.map(variant => {
-    const evidenceCount = state.evidence.filter(item => (item.bag_ids || []).includes(variant.id)).length;
+    const evidenceCount = variantEvidenceCount(variant);
     const media = variantMedia(variant);
     return `<article class="variant-card">${media ? `<div class="variant-thumb">${mediaImage(media)}</div>` : '<div class="variant-thumb variant-thumb-empty" aria-hidden="true"><span>Photo pending</span></div>'}<div class="variant-card-copy"><p class="eyebrow">Exact variant</p><h3>${escapeHtml(variant.name)}</h3><dl><div><dt>Size</dt><dd>${escapeHtml(variant.size || "Unresolved")}</dd></div><div><dt>Pattern</dt><dd>${escapeHtml(variant.pattern || "Unresolved")}</dd></div><div><dt>Colorway</dt><dd>${escapeHtml(variant.colorway || "Unresolved")}</dd></div></dl>${evidenceCount ? `<a class="receipt-count" href="#evidence?variant=${encodeURIComponent(variant.id)}" data-route>${plural(evidenceCount, "receipt")} <span aria-hidden="true">→</span></a>` : '<span class="receipt-count zero">0 receipts</span>'}</div></article>`;
   }).join("")}</div>`;

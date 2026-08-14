@@ -479,15 +479,12 @@ def digest_entry(candidate: dict[str, Any], scored: dict[str, Any], excerpt_char
 def build_context() -> dict[str, Any]:
     """The slim catalog reference a reviewer needs, instead of re-reading all of data/."""
     return {
-        "note": "Ids and enums for writing evidence records. Judgment fields are never pre-filled.",
         "evidence_types": sorted({value for value in LANE_TO_EVIDENCE_TYPE.values() if value}),
         "source_types": ["reddit_review", "reddit_qc", "reddit_discussion", "catalog", "official_reference"],
         "publication_date_precision": ["exact", "month_estimate", "relative_day_estimate"],
-        "families": [
-            {"id": row["id"], "brand": row.get("brand"), "model": row.get("model"), "status": row.get("publication_status")}
-            for row in load("bag_families")
-        ],
-        "bags": [{"id": row["id"], "name": row.get("name"), "family_id": row.get("family_id")} for row in load("bags")],
+        "field_legend": {"bags.f": "family_id"},
+        "families": [{"id": row["id"]} for row in load("bag_families")],
+        "bags": [{"id": row["id"], "name": row.get("name"), "f": row.get("family_id")} for row in load("bags")],
         "sellers": [{"id": row["id"], "name": row.get("display_name")} for row in load("sellers")],
         "factories": [{"id": row["id"], "name": row.get("display_name")} for row in load("factories")],
     }

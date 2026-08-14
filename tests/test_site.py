@@ -338,6 +338,12 @@ class SiteContractTests(unittest.TestCase):
         self.assertRegex(variants, r"evidenceCount \? .*href=\"#evidence\?variant=")
         self.assertIn('<span class="receipt-count zero">0 receipts</span>', variants)
 
+    def test_variant_cards_are_ordered_by_receipt_count(self):
+        variants = self.js[self.js.index("function familyVariants"):self.js.index("function reportedPartyNames")]
+        self.assertIn("function variantEvidenceCount(variant)", variants)
+        self.assertIn("variantEvidenceCount(b) - variantEvidenceCount(a)", variants)
+        self.assertIn("ids.indexOf(a.id) - ids.indexOf(b.id)", variants)
+
     def test_collection_research_notes_are_one_summary_and_watchouts(self):
         notes = self.research.get("collection_notes", [])
         by_family = {row.get("family_id"): row for row in notes}

@@ -847,7 +847,9 @@
     "factory_ids": [
       "factory-liusheng"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-30-cm-material-nd-sand"
+    ],
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
@@ -862,7 +864,9 @@
       "Material and hardware specifics are incomplete.",
       "The partial seller identifier is preserved without private contact data."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-1nfk2vq"
+    ]
   },
   {
     "id": "ev-rt-flamenco-deerskin",
@@ -882,7 +886,9 @@
     "factory_ids": [
       "factory-autumn"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-large-deerskin-black"
+    ],
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
@@ -898,7 +904,8 @@
       "Hardware is not fully stated."
     ],
     "media_ids": [
-      "media-flamenco-reddit"
+      "media-flamenco-reddit",
+      "media-1qintjh"
     ]
   },
   {
@@ -1680,7 +1687,9 @@
       "seller-mandy"
     ],
     "factory_ids": [],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-size-nd-material-nd-black-on-black"
+    ],
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
@@ -1695,7 +1704,9 @@
       "The factory is not identified.",
       "The author describes being new to reps, so this is not an experienced comparative review."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-1pu2o4x"
+    ]
   },
   {
     "id": "ev-crawl-rt-flamenco-medium-liusheng-2026",
@@ -1715,7 +1726,9 @@
     "factory_ids": [
       "factory-liusheng"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-medium-material-nd-dark-khaki"
+    ],
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
@@ -1730,7 +1743,9 @@
       "The review discloses a group-buy context and a partial resolution; this is not a general seller or factory verdict.",
       "Edge-paint defects were visible after receipt even though PSP did not make them obvious."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-1s2thbk"
+    ]
   },
   {
     "id": "ev-crawl-rll-goyard-stlouis-green-2026",
@@ -2581,7 +2596,9 @@
     "factory_ids": [
       "factory-jipin"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-size-nd-material-nd-orange"
+    ],
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
@@ -2596,7 +2613,9 @@
       "Same author as other Flamenco evidence already on file; does not add independent corroboration.",
       "No construction or QC detail beyond general collection commentary."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-1t3vy72-g5"
+    ]
   },
   {
     "id": "ev-rt-flamenco-fever-green-jipin-mike",
@@ -2651,7 +2670,9 @@
     "factory_ids": [
       "factory-vivi"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-size-nd-material-nd-futurist-cat"
+    ],
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
@@ -2666,7 +2687,9 @@
       "Same author as other Flamenco evidence already on file; does not add independent corroboration.",
       "Author describes it primarily as a collector piece, not a functional pick, so no durability read is given."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-1t3vy72-g6"
+    ]
   },
   {
     "id": "ev-rt-rodeo-mike-2026",
@@ -2718,7 +2741,10 @@
       "seller-mandy"
     ],
     "factory_ids": [],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-large-material-nd-black",
+      "bag-flamenco-flamenco-medium-material-nd-homage-to-the-square-red"
+    ],
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
@@ -2733,7 +2759,10 @@
       "Same author as other Flamenco evidence in this batch; does not add independent corroboration.",
       "Factory is not disclosed."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-1ooksmv-g7",
+      "media-1ooksmv-g4"
+    ]
   },
   {
     "id": "ev-rt-puzzle-conditioning-portrait-2026",
@@ -4478,13 +4507,17 @@
       "qualifier": "bag plus a separately purchased metal donut chain, before shipping, per the reviewer"
     },
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-1m7q37n"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-30cm-x-24-5cm-x-10cm-material-nd-colorway-nd"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -5545,11 +5578,15 @@
     "publication_date": "2026-03-03",
     "publication_date_precision": "exact",
     "access_date": "2026-08-12",
-    "media_ids": [],
+    "media_ids": [
+      "media-1rk0vub"
+    ],
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-mini-material-nd-deep-inky-dark-blue"
+    ],
     "seller_ids": [
       "seller-mia"
     ],
@@ -5829,11 +5866,15 @@
     "publication_date": "2026-04-19",
     "publication_date_precision": "exact",
     "access_date": "2026-08-12",
-    "media_ids": [],
+    "media_ids": [
+      "media-1sq30yo"
+    ],
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-size-nd-material-nd-yellow"
+    ],
     "seller_ids": [
       "seller-mia"
     ],
@@ -11120,13 +11161,20 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-1rhyoo8-g4",
+      "media-1rhyoo8-g7"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-purse-clutch-medium-calfskin-brown",
+      "bag-flamenco-flamenco-purse-clutch-mini-calfskin-black",
+      "bag-flamenco-flamenco-purse-medium-lambskin-sea-salt"
+    ],
     "seller_ids": [
       "seller-aiden"
     ],
@@ -13239,13 +13287,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Ordered 2025-05-25; PSPs 2025-06-01; shipped 2025-06-05; received 2025-06-18, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-1lh6wzl"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-medium-material-nd-green"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-jipin"
@@ -14364,13 +14416,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Ordered 2026-05-02; PSPs received 2026-05-05; tracking received 2026-05-06; delivered 2026-05-12, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-1tbpjvw"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-mini-material-nd-sand"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -14604,13 +14660,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-1f8l09f"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-purse-medium-lambskin-sea-salt"
+    ],
     "seller_ids": [
       "seller-reykay"
     ],
@@ -15194,13 +15254,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Ordered 2026-05-22; PSPs received 2026-05-28; daylight photos were supplied before approval; delivered 2026-06-10, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-1u2st77"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-size-nd-material-nd-shell-gray"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -17243,13 +17307,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-1nrbqks"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-purse-30-cm-material-nd-dark-burgundy"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-liusheng"
@@ -18697,13 +18765,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-1r4x9be"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-mini-material-nd-dark-chocolate-brown"
+    ],
     "seller_ids": [
       "seller-mia"
     ],
@@ -21267,7 +21339,9 @@
   {
     "access_date": "2026-08-13",
     "author": "spiritatbay",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-backpack-40-cm-calfskin-colorway-nd"
+    ],
     "evidence_type": "auth_comparison",
     "exact_product_match": true,
     "exact_variant_note": "Loewe Flamenco Backpack in calfskin, approximately 40 cm; attributed by the source to Qiu and bought through Mandy. Other color details are not stated.",
@@ -21278,7 +21352,9 @@
       "bag-family-loewe-flamenco"
     ],
     "id": "ev-crawl-rt-loewe-flamenco-1pjdxaa",
-    "media_ids": [],
+    "media_ids": [
+      "media-1pjdxaa"
+    ],
     "negative_observations": [
       "The drawstring initially felt difficult to pull and made the owner worry it might break; after about a week of use, that problem was no longer occurring.",
       "The report is one owner's comparison and does not establish factory-wide performance; seller contact, payment, and unrelated purchase details are excluded."
@@ -21883,7 +21959,9 @@
   {
     "access_date": "2026-08-13",
     "author": "mucca13",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-purse-clutch-large-material-nd-colorway-nd"
+    ],
     "evidence_type": "in_hand_review",
     "exact_product_match": true,
     "exact_variant_note": "Large Loewe Flamenco Clutch received through Reykay; color, material, and factory are not stated.",
@@ -21892,7 +21970,9 @@
       "bag-family-loewe-flamenco"
     ],
     "id": "ev-crawl-rrl-loewe-flamenco-1s68d2e",
-    "media_ids": [],
+    "media_ids": [
+      "media-1s68d2e"
+    ],
     "negative_observations": [
       "The owner was unsure whether the logo sat too high in the PSPs and says they have not seen the authentic version, so the placement is not independently verified.",
       "The report is from the day after receipt and does not establish the factory, material, or longer-term wear."
@@ -22153,7 +22233,9 @@
   {
     "access_date": "2026-08-13",
     "author": "h2opleasee",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-small-material-nd-colorway-nd"
+    ],
     "evidence_type": "auth_comparison",
     "exact_product_match": true,
     "exact_variant_note": "Loewe Small Flamenco used as a clutch; Liusheng factory and Nina seller are explicitly reported, while the color and material are not named in the post text.",
@@ -22164,7 +22246,9 @@
       "bag-family-loewe-flamenco"
     ],
     "id": "ev-crawl-rrl-loewe-flamenco-1k7pjaz",
-    "media_ids": [],
+    "media_ids": [
+      "media-1k7pjaz-converted"
+    ],
     "negative_observations": [
       "Against the authentic references, the interior label appears larger and the interior color appears slightly different, although the author says lighting may explain the color difference.",
       "The review does not name the exact color or material and does not provide independent verification beyond the author's factory, PSP, and authentic comparisons; contact and payment details are excluded."
@@ -24260,13 +24344,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "The source reports an order on 12/9, PSPs on 12/10, and arrival on 12/24 during the holiday period.",
-    "media_ids": [],
+    "media_ids": [
+      "media-1pz0s11"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-medium-nappa-calfskin-linked-reference-abyss-blue"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -24592,13 +24680,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "17 days from tracking number to arrival, as reported.",
-    "media_ids": [],
+    "media_ids": [
+      "media-1rrud11"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-purse-clutch-medium-nappa-squirrel-brown"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-liusheng"
@@ -24862,13 +24954,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Shipped July 8 and delivered July 16, 2026, as reported.",
-    "media_ids": [],
+    "media_ids": [
+      "media-1vjigzi"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-flamenco"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-flamenco-flamenco-23-cm-mini-napa-lambskin-colorway-nd"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-liusheng"
