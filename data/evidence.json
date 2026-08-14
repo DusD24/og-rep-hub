@@ -8561,13 +8561,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-empreinte-black-13"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-louis-vuitton-neverfull"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-neverfull-empreinte-mm-black"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -14394,13 +14398,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-white-checkered-06"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-louis-vuitton-neverfull"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-neverfull-white-checkered-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -16466,13 +16474,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-damier-azur-mm-01"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-louis-vuitton-neverfull"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-neverfull-damier-azur-mm"
+    ],
     "seller_ids": [
       "seller-hyper-peter"
     ],
@@ -18505,13 +18517,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-neverfull-bb-01"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-louis-vuitton-neverfull"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-neverfull-bb-unresolved"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -21536,7 +21552,9 @@
   {
     "access_date": "2026-08-13",
     "author": "TeeleeG",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-neverfull-red-epi-unresolved"
+    ],
     "evidence_type": "in_hand_review",
     "exact_product_match": true,
     "exact_variant_note": "Red Epi Neverfull; size, seller, factory, and hardware are not stated.",
@@ -21545,7 +21563,9 @@
       "bag-family-louis-vuitton-neverfull"
     ],
     "id": "ev-crawl-rt-louis-vuitton-neverfull-1neifhi",
-    "media_ids": [],
+    "media_ids": [
+      "media-red-epi-01"
+    ],
     "negative_observations": [
       "The owner says the bag is somewhat stiff and that the side strings are noisy, so they clipped them together with heart-shaped carabiners.",
       "The source does not provide an authentic comparison, exact size, seller or factory attribution, or longer-term wear result."

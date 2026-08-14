@@ -21,7 +21,12 @@
       "bag-damier-azur-gm",
       "bag-damier-ebene-gm",
       "bag-damier-ebene-mm-brown",
-      "bag-damier-azur-size-unknown"
+      "bag-damier-azur-size-unknown",
+      "bag-neverfull-empreinte-mm-black",
+      "bag-neverfull-bb-unresolved",
+      "bag-neverfull-white-checkered-unresolved",
+      "bag-neverfull-red-epi-unresolved",
+      "bag-neverfull-damier-azur-mm"
     ],
     "evidence_ids": [
       "ev-hp-monogram-gm-comment",
@@ -94,6 +99,7 @@
     "documented_sizes": [
       "GM",
       "MM",
+      "BB",
       "unknown"
     ],
     "documented_materials": [
@@ -121,7 +127,7 @@
         "seller_context"
       ]
     },
-    "last_updated": "2026-08-13",
+    "last_updated": "2026-08-14",
     "research_gaps": [
       "Keep exact brown Monogram GM evidence separate from MM and Damier comparisons.",
       "Keep Eden MM size, colorway, dimensions, and batch attribution separate where sources conflict.",

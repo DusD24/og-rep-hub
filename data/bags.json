@@ -2877,5 +2877,70 @@
     "hardware": "Gold-tone turnlock hardware",
     "official_reference_url": "https://www.ferragamo.com/shop/us/en/women/handbags/hug",
     "tile_media_id": "media-ferragamo-hug-soft-large-black-oxblood-reddit"
+  },
+  {
+    "id": "bag-neverfull-empreinte-mm-black",
+    "name": "Neverfull-style MM Empreinte Black",
+    "size": "MM",
+    "pattern": "Empreinte",
+    "colorway": "black",
+    "priority": "secondary-priority",
+    "family_id": "bag-family-louis-vuitton-neverfull",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage",
+    "tile_media_id": "media-empreinte-black-13"
+  },
+  {
+    "id": "bag-neverfull-bb-unresolved",
+    "name": "Neverfull-style BB (color/material unresolved)",
+    "size": "BB",
+    "pattern": "not documented in current public sources",
+    "colorway": "not documented in current public sources",
+    "priority": "research-lead",
+    "family_id": "bag-family-louis-vuitton-neverfull",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage",
+    "tile_media_id": "media-neverfull-bb-01"
+  },
+  {
+    "id": "bag-neverfull-white-checkered-unresolved",
+    "name": "Neverfull-style White Checkered (size unresolved)",
+    "size": "unknown",
+    "pattern": "white checkered (source-reported)",
+    "colorway": "white (source-reported)",
+    "priority": "research-lead",
+    "family_id": "bag-family-louis-vuitton-neverfull",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage",
+    "tile_media_id": "media-white-checkered-06"
+  },
+  {
+    "id": "bag-neverfull-red-epi-unresolved",
+    "name": "Neverfull-style Red Epi (size unresolved)",
+    "size": "unknown",
+    "pattern": "Epi",
+    "colorway": "red",
+    "priority": "research-lead",
+    "family_id": "bag-family-louis-vuitton-neverfull",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage",
+    "tile_media_id": "media-red-epi-01"
+  },
+  {
+    "id": "bag-neverfull-damier-azur-mm",
+    "name": "Neverfull-style Damier Azur MM",
+    "size": "MM",
+    "pattern": "Damier Azur",
+    "colorway": "light",
+    "priority": "secondary-priority",
+    "family_id": "bag-family-louis-vuitton-neverfull",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage",
+    "tile_media_id": "media-damier-azur-mm-01"
   }
 ]
