@@ -12663,11 +12663,13 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-13",
     "exact_product_match": true,
+    "bag_ids": [
+      "bag-c25-small-mixed-metal-crumpled-calfskin"
+    ],
     "seller_ids": [
       "seller-mike"
     ],
     "factory_ids": [],
-    "bag_ids": [],
     "family_ids": [
       "bag-family-chanel-25"
     ],
@@ -12682,7 +12684,9 @@
       "No factory attribution or authentic side-by-side is stated, and the review is primarily positive without detailed hardware or construction measurements.",
       "Seller-service observations are kept separate from the bag-quality observations."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-1pr4rzl-01"
+    ]
   },
   {
     "id": "ev-crawl-rrl-dior-lady-dior-1ssthia",

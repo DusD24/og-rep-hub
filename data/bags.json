@@ -1007,6 +1007,19 @@
     "tile_media_id": "media-1ud0mej-04"
   },
   {
+    "id": "bag-c25-small-mixed-metal-crumpled-calfskin",
+    "name": "Chanel 25 Small Mixed-Metal Crumpled Calfskin",
+    "size": "Small",
+    "pattern": "quilted crumpled calfskin",
+    "colorway": "not documented in current public sources",
+    "priority": "secondary-priority",
+    "family_id": "bag-family-chanel-25",
+    "material": "crumpled calfskin (source-reported)",
+    "hardware": "mixed-metal hardware (source-reported)",
+    "official_reference_url": "https://www.chanel.com/us/fashion/handbags/",
+    "tile_media_id": "media-1pr4rzl-01"
+  },
+  {
     "id": "bag-puzzle-edge-large-33cm-grained-calfskin-black",
     "name": "Loewe Puzzle Edge Large 33 cm Grained Calfskin Black",
     "size": "Large (33cm, current version)",

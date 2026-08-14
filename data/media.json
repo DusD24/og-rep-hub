@@ -4506,5 +4506,24 @@
     "source_platform": "Reddit",
     "usage_scope": "variant_tile",
     "evidence_id": "ev-crawl-rt-louis-vuitton-neverfull-1uz06m1"
+  },
+  {
+    "id": "media-1pr4rzl-01",
+    "path": "media/evidence/1pr4rzl-01.jpg",
+    "attribution": "u/the_snow_queen_ via r/RepTherapy",
+    "source_url": "https://i.redd.it/f9q5ay867a8g1.jpeg",
+    "post_url": "https://www.reddit.com/r/RepTherapy/comments/1pr4rzl/chanel_25_mixed_metal/",
+    "author": "the_snow_queen_",
+    "subreddit": "RepTherapy",
+    "capture_date": "2026-08-14",
+    "removal_checked_at": "2026-08-14",
+    "sha256": "863d859a844f73f94e0879633ce33ea1a18fad22f5031ffa0d0837d346b51dac",
+    "width": 4284,
+    "height": 5712,
+    "research_purpose": "Receipt-linked community variant-tile image for the Chanel 25 Small Mixed-Metal Crumpled Calfskin variant.",
+    "alt": "Chanel 25 Small mixed-metal crumpled calfskin shown in a Reddit reviewer's owner photograph.",
+    "source_platform": "Reddit",
+    "usage_scope": "variant_tile",
+    "evidence_id": "ev-crawl-rt-chanel-25-1pr4rzl"
   }
 ]
