@@ -346,11 +346,19 @@ class SiteContractTests(unittest.TestCase):
 
     def test_published_variant_ids_are_hero_backed(self):
         bags_by_id = {row["id"]: row for row in self.bags}
+        media_by_id = {row["id"]: row for row in json.loads((ROOT / "data" / "media.json").read_text(encoding="utf-8"))}
+        evidence_by_id = {row["id"]: row for row in self.evidence}
         for family in self.families:
             for variant_id in family.get("documented_variant_ids", []):
+                bag = bags_by_id[variant_id]
                 self.assertTrue(
-                    bags_by_id[variant_id].get("tile_media_id"),
+                    bag.get("tile_media_id"),
                     f"{family['id']} exposes a variant without a hero: {variant_id}",
+                )
+                media = media_by_id[bag["tile_media_id"]]
+                self.assertTrue(
+                    evidence_by_id[media["evidence_id"]].get("exact_product_match") is True,
+                    f"{family['id']} exposes a non-exact variant: {variant_id}",
                 )
         variants = self.js[self.js.index("function familyVariants"):self.js.index("function variantEvidenceCount")]
         self.assertIn("const ids = unique(family.documented_variant_ids || []);", variants)
@@ -359,7 +367,7 @@ class SiteContractTests(unittest.TestCase):
     def test_variant_section_labels_hero_backed_rows_and_retained_leads(self):
         detail = self.js[self.js.index("function renderBagDetail"):self.js.index("const CONTRIBUTION_LINKS")]
         self.assertIn("Hero-backed source-documented identities", detail)
-        self.assertIn("unillustrated lead", detail)
+        self.assertIn("unpublished lead", detail)
         self.assertIn("state.bags || []", detail)
 
     def test_collection_research_notes_are_one_summary_and_watchouts(self):
