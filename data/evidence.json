@@ -33525,7 +33525,9 @@
     "negative_observations": [
       "Lighting differences limit direct visual comparison, and no later receipt outcome is recorded."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-chanel-19-chanel19-black-goatskin-reddit"
+    ]
   },
   {
     "id": "ev-catalog-chanel19-1mjv13t",
@@ -33653,7 +33655,9 @@
     "negative_observations": [
       "The East West canvas is described as less textured than another bag, and the MM opening is reported as inconvenient for larger items."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-side-trunk-mm-black-reddit"
+    ]
   },
   {
     "id": "ev-catalog-sidetrunk-1t144yv",
@@ -33717,7 +33721,9 @@
     "negative_observations": [
       "The author has no in-person authentic comparison, so the positive assessment remains a single-owner account."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-side-trunk-mm-sequins-reddit"
+    ]
   },
   {
     "id": "ev-crawl-rt-chanel-classic-flap-1sjzjic",
@@ -33826,7 +33832,9 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "ordered 2026-05-31, PSPs 2026-06-03, delivered 2026-06-16",
-    "media_ids": [],
+    "media_ids": [
+      "media-marlo-17-unknown-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [

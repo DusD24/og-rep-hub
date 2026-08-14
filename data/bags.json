@@ -683,7 +683,8 @@
     "family_id": "bag-family-the-row-marlo",
     "material": "not documented in source",
     "hardware": "not documented in source",
-    "official_reference_url": "https://www.therow.com/"
+    "official_reference_url": "https://www.therow.com/",
+    "tile_media_id": "media-marlo-17-unknown-reddit"
   },
   {
     "id": "bag-chanel19-black-goatskin",
@@ -695,7 +696,8 @@
     "family_id": "bag-family-chanel-19",
     "material": "goatskin (source-reported)",
     "hardware": "not documented in source",
-    "official_reference_url": "https://www.chanel.com/us/fashion/handbags/"
+    "official_reference_url": "https://www.chanel.com/us/fashion/handbags/",
+    "tile_media_id": "media-chanel-19-chanel19-black-goatskin-reddit"
   },
   {
     "id": "bag-chanel19-black-lambskin",
@@ -743,7 +745,8 @@
     "family_id": "bag-family-louis-vuitton-side-trunk",
     "material": "leather (source-reported)",
     "hardware": "not documented in source",
-    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage",
+    "tile_media_id": "media-side-trunk-mm-black-reddit"
   },
   {
     "id": "bag-side-trunk-mm-sequins",
@@ -755,7 +758,8 @@
     "family_id": "bag-family-louis-vuitton-side-trunk",
     "material": "not documented in source",
     "hardware": "not documented in source",
-    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage"
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage",
+    "tile_media_id": "media-side-trunk-mm-sequins-reddit"
   },
   {
     "id": "bag-side-trunk-east-west",
