@@ -15732,7 +15732,7 @@
       "bag-family-louis-vuitton-speedy"
     ],
     "bag_ids": [
-      "bag-speedy-unresolved"
+      "bag-speedy-25-damier-ebene"
     ],
     "seller_ids": [],
     "factory_ids": [
@@ -16934,14 +16934,16 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-speedy-b25-de-1ta71ux"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-louis-vuitton-speedy"
     ],
     "bag_ids": [
-      "bag-speedy-unresolved"
+      "bag-speedy-25-damier-ebene"
     ],
     "seller_ids": [],
     "factory_ids": [
@@ -31487,7 +31489,7 @@
       "bag-family-louis-vuitton-speedy"
     ],
     "bag_ids": [
-      "bag-speedy-25-unresolved"
+      "bag-speedy-25-damier-ebene"
     ],
     "seller_ids": [
       "seller-mike"

@@ -4316,5 +4316,24 @@
     "source_platform": "Reddit",
     "usage_scope": "variant_tile",
     "evidence_id": "ev-catalog-toujours-1q5dgu7"
+  },
+  {
+    "id": "media-speedy-b25-de-1ta71ux",
+    "path": "media/evidence/speedy-b25-de-1ta71ux.jpg",
+    "attribution": "u/rosieleo1218 via r/RealRepLadies",
+    "source_url": "https://i.redd.it/zz5e7poh3j0h1.jpeg",
+    "post_url": "https://www.reddit.com/r/RealRepLadies/comments/1ta71ux/review_speedy_b25_de_royal_factory_and_seller_lele/",
+    "author": "rosieleo1218",
+    "subreddit": "RealRepLadies",
+    "capture_date": "2026-08-14",
+    "removal_checked_at": "2026-08-14",
+    "sha256": "f7c82dfe1b9182c41fecdc67aed2b623ca0cad3aba97196368a60d010affb72e",
+    "width": 4107,
+    "height": 3648,
+    "research_purpose": "Receipt-linked community variant-tile image for the Speedy 25 Damier Ebene variant.",
+    "alt": "Louis Vuitton Speedy 25 Damier Ebene shown in a Reddit reviewer's photograph.",
+    "source_platform": "Reddit",
+    "usage_scope": "variant_tile",
+    "evidence_id": "ev-crawl-rrl-louis-vuitton-speedy-1ta71ux"
   }
 ]
