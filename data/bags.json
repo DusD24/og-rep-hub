@@ -35,7 +35,7 @@
     "material": "not documented in current public sources",
     "hardware": "not documented in current public sources",
     "official_reference_url": "https://us.louisvuitton.com/eng-us/homepage",
-    "tile_media_id": "media-eden-neverfull-reddit"
+    "tile_media_id": "media-neverfull-eden-size-unknown-color-unknown-reddit"
   },
   {
     "id": "bag-monogram-mm-brown",
@@ -47,7 +47,6 @@
     "family_id": "bag-family-louis-vuitton-neverfull",
     "material": "not documented in current public sources",
     "hardware": "not documented in current public sources",
-    "tile_media_id": "media-neverfull-monogram-reddit",
     "official_reference_url": "https://us.louisvuitton.com/eng-us/products/neverfull-mm-monogram-nvprod5350100v/M46975"
   },
   {
@@ -563,7 +562,8 @@
     "family_id": "bag-family-dior-toujours",
     "material": "not documented in source",
     "hardware": "not documented in source",
-    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags"
+    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags",
+    "tile_media_id": "media-dior-toujours-vertical-medium-reddit"
   },
   {
     "id": "bag-toujours-vertical-large-24cm",
@@ -587,7 +587,8 @@
     "family_id": "bag-family-dior-toujours",
     "material": "calfskin (source-reported)",
     "hardware": "hardware tone (source-reported)",
-    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags"
+    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags",
+    "tile_media_id": "media-dior-toujours-vertical-calfskin-reddit"
   },
   {
     "id": "bag-toujours-unknown",
@@ -611,7 +612,8 @@
     "family_id": "bag-family-hermes-evelyne",
     "material": "leather (source-reported)",
     "hardware": "not consistently stated in selected sources",
-    "official_reference_url": "https://www.hermes.com/us/en/"
+    "official_reference_url": "https://www.hermes.com/us/en/",
+    "tile_media_id": "media-hermes-evelyne-29-reddit"
   },
   {
     "id": "bag-evelyne-23",
@@ -2630,8 +2632,7 @@
     "family_id": "bag-family-dior-saddle",
     "material": "Cowhide leather (source-reported)",
     "hardware": "Matte black (source-reported)",
-    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags/saddle",
-    "tile_media_id": "media-dior-saddle-reddit"
+    "official_reference_url": "https://www.dior.com/en_us/fashion/womens-fashion/bags/saddle"
   },
   {
     "id": "bag-le-city-small-espresso",
