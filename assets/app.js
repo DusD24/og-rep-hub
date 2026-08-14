@@ -165,6 +165,14 @@ function familyOfferings(family) {
   return state.offerings.filter(item => item.family_id === family.id || variantIds.has(item.variant_id || item.bag_id));
 }
 
+function collectionResearchNotes(family) {
+  const authored = (state.research.collection_notes || []).find(item => item.family_id === family.id);
+  return {
+    summary: authored?.summary || family.summary || "",
+    watchouts: cleanList(authored?.watchouts || family.research_gaps || [])
+  };
+}
+
 function familyCoverage(family) {
   const evidence = familyEvidence(family);
   const authors = unique(evidence.map(item => item.author).filter(Boolean).map(author => author.toLowerCase()));
@@ -480,7 +488,7 @@ function renderBagDetail(familyId) {
   const evidence = familyEvidence(family).sort((a, b) => String(b.publication_date).localeCompare(String(a.publication_date)) || String(a.id).localeCompare(String(b.id)));
   const newest = evidence.slice(0, 6);
   const variants = familyVariants(family);
-  const qcNotes = cleanList([...evidence.flatMap(item => item.negative_observations || []), ...(family.research_gaps || [])]);
+  const researchNotes = collectionResearchNotes(family);
   const hasCommunitySignal = familyOfferings(family).some(offering => {
     const ranking = state.maps.rankings.get(offering.id);
     return ranking?.rank_status === "ranked" && ranking.recommendation_score != null;
@@ -497,7 +505,7 @@ function renderBagDetail(familyId) {
     <div class="family-hero"><div>${renderFamilyTile(family, true)}</div><div><p class="eyebrow">${escapeHtml(family.brand)} · ${escapeHtml(label(family.category))}</p><h1 id="bag-detail-title" tabindex="-1">${escapeHtml(family.model)}</h1><p class="detail-summary">${escapeHtml(family.summary)}</p><div class="badge-row">${familyBadges(family).map(badge => `<span class="badge">${escapeHtml(badge)}</span>`).join("")}</div><p class="metadata">Updated ${escapeHtml(family.last_updated)} · ${plural(coverage.sourceCount, "receipt")} · ${plural(coverage.authorCount, "independent author")}</p></div></div>
     <section class="family-section family-receipts" aria-labelledby="family-receipts-title"><div class="subsection-heading"><div><p class="eyebrow">Newest source trail</p><h2 id="family-receipts-title">Reviews &amp; receipts</h2></div><a class="card-action" href="#evidence?family=${encodeURIComponent(family.id)}" data-route><span class="visually-hidden">See reviews &amp; receipts: </span>View all ${evidence.length} receipts <span aria-hidden="true">→</span></a></div>${newest.length ? `<div class="receipt-grid">${newest.map(renderReceiptCard).join("")}</div>` : '<p class="empty">No collection-linked public sources yet.</p>'}</section>
     <section class="family-section variants-section" aria-labelledby="variants-title"><div class="subsection-heading"><div><p class="eyebrow">Source-documented identities</p><h2 id="variants-title">Exact Variants</h2></div><p>${plural(variants.length, "variant")}</p></div>${renderVariantCards(family)}</section>
-    <div class="support-grid"><section class="support-card"><p class="eyebrow">Useful collection facts</p><h2>At a glance</h2>${facts ? `<dl class="at-a-glance">${facts}</dl>` : '<p class="fineprint">No non-placeholder collection facts are available yet.</p>'}</section><section class="support-card"><p class="eyebrow">QC &amp; open questions</p><h2>Research notes</h2>${qcNotes.length ? list(qcNotes.slice(0, 3), "research-note-preview") : '<p class="fineprint">No research gaps are recorded.</p>'}${qcNotes.length > 3 ? `<button class="card-action dialog-trigger" type="button" data-dialog-kind="notes" data-dialog-id="${escapeHtml(family.id)}">Read all ${qcNotes.length}</button>` : ""}<p class="signal-status"><strong>${hasCommunitySignal ? "Community signal available in the underlying research." : "Community signal unavailable."}</strong> ${hasCommunitySignal ? "Open the linked receipts to review the qualifying evidence." : "Current evidence does not meet the detail-level scoring gates."}</p></section></div>
+    <div class="support-grid"><section class="support-card"><p class="eyebrow">Useful collection facts</p><h2>At a glance</h2>${facts ? `<dl class="at-a-glance">${facts}</dl>` : '<p class="fineprint">No non-placeholder collection facts are available yet.</p>'}</section><section class="support-card"><p class="eyebrow">QC &amp; open questions</p><h2>Research notes</h2>${researchNotes.summary ? `<p class="research-note-summary">${escapeHtml(researchNotes.summary)}</p>` : '<p class="fineprint">No collection summary is recorded.</p>'}${researchNotes.watchouts.length ? `<p class="eyebrow research-note-label">Watch-outs</p>${list(researchNotes.watchouts.slice(0, 3), "research-note-preview")}` : ""}${researchNotes.watchouts.length > 3 ? `<button class="card-action dialog-trigger" type="button" data-dialog-kind="notes" data-dialog-id="${escapeHtml(family.id)}">Read all ${researchNotes.watchouts.length}</button>` : ""}<p class="signal-status"><strong>${hasCommunitySignal ? "Community signal available in the underlying research." : "Community signal unavailable."}</strong> ${hasCommunitySignal ? "Open the linked receipts to review the qualifying evidence." : "Current evidence does not meet the detail-level scoring gates."}</p></section></div>
     <section class="family-section contribution-section bag-contribution" aria-labelledby="bag-contribution-title"><p class="eyebrow">Community contributions</p><h2 id="bag-contribution-title">Help improve this bag’s research</h2><p>Bring a public receipt, flag a correction, or request review of attributed media.</p>${renderContributionCards(["submit-source", "correction-media-removal"], "two")}</section>`;
 }
 
@@ -576,8 +584,9 @@ function researchDialog(kind, id) {
 }
 
 function notesDialog(family) {
-  const notes = cleanList([...familyEvidence(family).flatMap(item => item.negative_observations || []), ...(family.research_gaps || [])]);
-  return { kicker: "QC & research gaps", title: `${family.brand} ${family.model}`, body: list(notes, "dialog-note-list") };
+  const notes = collectionResearchNotes(family);
+  const body = `${notes.summary ? `<p class="research-note-summary">${escapeHtml(notes.summary)}</p>` : ""}${notes.watchouts.length ? `<h3>Watch-outs</h3>${list(notes.watchouts, "dialog-note-list")}` : '<p class="media-fallback">No watch-outs are recorded.</p>'}`;
+  return { kicker: "QC & research notes", title: `${family.brand} ${family.model}`, body };
 }
 
 function dialogContent(kind, id) {

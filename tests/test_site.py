@@ -325,8 +325,10 @@ class SiteContractTests(unittest.TestCase):
         self.assertIn("At a glance", detail)
         self.assertIn("Useful collection facts", detail)
         self.assertIn("Research notes", detail)
-        self.assertIn("slice(0, 3)", detail)
-        self.assertIn("Read all ${qcNotes.length}", detail)
+        self.assertIn("collectionResearchNotes", detail)
+        self.assertIn("researchNotes.summary", detail)
+        self.assertIn("researchNotes.watchouts", detail)
+        self.assertIn("Read all ${researchNotes.watchouts.length}", detail)
 
         variants = self.js[self.js.index("function renderVariantCards"):self.js.index("function reportedPartyNames")]
         for label_text in (">Material<", ">Hardware<"):
@@ -335,6 +337,15 @@ class SiteContractTests(unittest.TestCase):
             self.assertIn(label_text, variants)
         self.assertRegex(variants, r"evidenceCount \? .*href=\"#evidence\?variant=")
         self.assertIn('<span class="receipt-count zero">0 receipts</span>', variants)
+
+    def test_collection_research_notes_are_one_summary_and_watchouts(self):
+        notes = self.research.get("collection_notes", [])
+        by_family = {row.get("family_id"): row for row in notes}
+        self.assertEqual(set(by_family), {family["id"] for family in self.families})
+        for row in notes:
+            self.assertTrue(row.get("summary"), row.get("family_id"))
+            self.assertGreaterEqual(len(row.get("watchouts", [])), 1, row.get("family_id"))
+            self.assertNotRegex(json.dumps(row), r"(?i)(whatsapp|\bpayment\b|\baddress\b|\bcredentials?\b)")
 
     def test_compact_grid_layout_contracts(self):
         self.assertIsNotNone(re.search(r"\.receipt-grid\s*\{[^}]*repeat\(2", self.css, re.DOTALL))

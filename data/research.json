@@ -1,5 +1,351 @@
 {
   "access_date": "2026-08-08",
+  "collection_notes": [
+  {
+    "family_id": "bag-family-balenciaga-le-city",
+    "source_count": 8,
+    "summary": "8 evidence records from 8 distinct authors across RealRepLadies, RepLadiesWorld, and RepTherapy. The most-repeated signal is a source-reported 'Kata' factory attribution (appears in at least 3 independent records spanning Small, Medium/38cm, and unspecified sizes), alongside recurring leather-softening/slouch-test observations from multiple independent owners. Coverage is thin-to-moderate: 8 authors is a reasonable independent spread for a niche model, but no single seller name repeats, and one record (Kata Loewe Puzzle post) only mentions a City bag as a secondary item in the same order.",
+    "watchouts": [
+      "'Kata' is source-reported by more than one independent author for this family, which is a stronger signal than a single mention, but it still traces to individual buyers' own claims, not verification.",
+      "One supporting record (ev-crawl-rt-loewe-puzzle-1ux98h3) is primarily about a Loewe Puzzle; its Balenciaga City content is a secondary aside from the same order and doesn't name a factory for the City half.",
+      "At least one record documents a disputed authentic comparison (strap length/half-moon piece debated in the thread itself), so don't present that comparison as a settled match."
+    ]
+  },
+  {
+    "family_id": "bag-family-balenciaga-rodeo",
+    "source_count": 28,
+    "summary": "28 evidence records from 26 distinct authors, concentrated on the Medium size in calfskin with aged-silver hardware; 'Kata' is the only factory named in the corpus (13 mentions, no competing attribution), and seller Baobao recurs most often (5 mentions) alongside Garmen, Mike, Reykay, Mandy, and Mia each appearing 1-2 times. Coverage is moderate-to-thin relative to the Chanel 25/Andiamos families: 25 of 28 records are exact_product_match=true, and evidence types skew toward auth/factory comparison and PSP/QC rather than long-term wear.",
+    "watchouts": [
+      "The corpus names only one factory ('Kata'); this could reflect genuine market concentration or simply that this collection has been searched/crawled less broadly than Chanel 25 or Andiamos -- do not read the absence of competing factory names as proof no other factory makes this bag.",
+      "No seller in this family has more than 5 corroborating posts, so seller-level claims remain thin corroboration.",
+      "3 of 28 records are exact_product_match=false and should be treated as adjacent/comparison context, not direct QC evidence."
+    ]
+  },
+  {
+    "family_id": "bag-family-balmain-anthem",
+    "source_count": 2,
+    "summary": "Only 2 evidence records, and both are cross-posts by the same author ('chokemeowt') to two different subreddits (RepCulture_Bags and RepTherapy) about the same medium black calfskin Balmain Anthem — so this is effectively one corroborating source, not two independent ones, matching the catalog's own independent_author_count of 1. The source describes soft leather, a heavy buckle, smooth suede lining, and clean stitching, with an ambiguous 'Kata // Boutique' factory attribution the source itself does not resolve.",
+    "watchouts": [
+      "Both records are the same author's account of the same bag cross-posted to two subreddits — this is one data point, not two, despite source_count listing 2; do not present it as multi-author corroboration.",
+      "The factory attribution ('Kata // Boutique') is explicitly ambiguous in the source itself and should not be normalized to a single factory name.",
+      "The source discloses the seller knew about the review being written, which is a relevant disclosure for readers weighing how representative the account is."
+    ]
+  },
+  {
+    "family_id": "bag-family-bottega-veneta-andiamos",
+    "source_count": 62,
+    "summary": "62 evidence records from 53 distinct authors cover medium and East-West sizes in leather, with source-reported factory attribution concentrated on 'Jing' (30 mentions, over triple the next factory) and a secondary cluster around 'Top' (4 mentions, tied to author calilav's denim-variant posts); seller Baobao is the most frequently named (9 mentions) with Tiny Jenny, Mandy, and Emily each appearing 2-4 times. Coverage is moderate: no author contributes more than 3 posts, and 54 of 62 records are exact_product_match=true, so the bulk is on-model rather than adjacent comparisons.",
+    "watchouts": [
+      "The 'Jing' factory attribution is heavily source-reported and repeated by many different authors, but each is an individual buyer's claim rather than a verified provenance chain -- treat the frequency as recurring buyer belief, not confirmation.",
+      "One record (ev-crawl-rt-loewe-flamenco-1sxepga) is cross-listed from a Loewe Flamenco-titled thread that also names Andiamos factories; it is a multi-bag/comparison post, not a dedicated Andiamos review.",
+      "8 of 62 records are exact_product_match=false and should be read as adjacent or comparison context rather than direct QC evidence for this specific bag.",
+      "Documented hardware is explicitly 'not consistently stated in selected sources' per the family record, so hardware-finish claims in individual posts are thinner and less cross-corroborated than the factory/seller signal."
+    ]
+  },
+  {
+    "family_id": "bag-family-bottega-veneta-barbara",
+    "source_count": 1,
+    "summary": "Only 1 evidence record from 1 author -- this family's coverage is a single post and does not support any cross-source generalization. It describes a medium Barbara Tote in soft dark-brown leather, bought from seller Yuyu, with a 'Top/Taitai' factory label preserved as source-reported, through PSP review and delivery.",
+    "watchouts": [
+      "This is sparse coverage: exactly one post exists for this family. Every detail (seller, factory, material, size) rests on a single uncorroborated source -- treat nothing here as a pattern.",
+      "The factory label ('Top/Taitai') is explicitly source-reported and unverified per the record's own negative_observations; it should not be repeated as a confirmed attribution.",
+      "No authentic comparison or long-term wear evidence exists for this family at all."
+    ]
+  },
+  {
+    "family_id": "bag-family-bottega-veneta-jodie",
+    "source_count": 5,
+    "summary": "Sparse coverage: 5 records from 5 distinct authors, none naming a catalogued seller or factory. Coverage spans Mini, Teen, and Classic (48cm) Jodie sizes in unnamed, off-white/cream, and Fondant sheepskin colorways, plus one pre-purchase comparison of two uncatalogued factory-photo sets (source-named \"Jing\" vs \"Bibi\") in Travertine against an in-store authentic reference. As reported, in-hand posts describe stitching, hardware, and material positively, but no seller or factory attribution is corroborated across more than one record.",
+    "watchouts": [
+      "No seller_ids or factory_ids are populated on any of these 5 records, so this family currently has essentially no seller/factory-level signal despite the source_count — only bag-model and colorway details are corroborated.",
+      "Only 5 records with no author overlap: each individual claim (color accuracy, seam quality, factory-photo comparison) rests on a single source.",
+      "The Jing-vs-Bibi comparison record (ev-crawl-rt-bottega-veneta-jodie-1ro0d79) is a pre-purchase photo comparison, not an owned-bag review, and its two factory labels are not mapped to catalogued factory entities — treat any preference stated there as one author's pre-purchase judgment, not a verdict."
+    ]
+  },
+  {
+    "family_id": "bag-family-celine-new-luggage",
+    "source_count": 1,
+    "summary": "Only 1 evidence record from 1 author (RealRepLadies) — the minimum possible coverage. The single post covers a medium brick-colored Celine New Luggage, source-reporting a 'BaoBao' seller and 'Captain/CZ Factory' attribution, with the author describing supple sheepskin, weight, zippers, hardware, and stitching positively, alongside a shallow logo stamp observation.",
+    "watchouts": [
+      "This family has exactly one source and one author — it does not support any claim beyond 'a single post exists reporting these observations.' There is no independent corroboration of the seller, factory, size, or color.",
+      "The author explicitly states they have not compared the bag against an authentic side by side, so even the positive construction observations are unverified against a reference.",
+      "The factory ('Captain/CZ Factory') and seller ('BaoBao') names are source-reported by this one post only and should not be treated as an established pattern for this family."
+    ]
+  },
+  {
+    "family_id": "bag-family-chanel-19",
+    "source_count": 4,
+    "summary": "Sparse coverage: only 4 records, each from a different author (Capital_Tradition766, Bobobella28, Important-Ad-4899, welovea), so there is no defensible summary beyond noting a few posts exist. Coverage touches black goatskin, black lambskin, pink (unnamed leather), and a black upgraded-leather variant source-attributed to \"Xiao C factory\" in one PSP post; no seller is named in any record. As reported, the posts describe general construction impressions (soft/plush leather, clean stitching, puffy quilting) but three of the four are pre-receipt PSP threads with unresolved questions rather than confirmed in-hand outcomes.",
+    "watchouts": [
+      "Checked specifically for the flagged same-author duplicate-corroboration risk: all 4 records have distinct authors and clearly distinct dates/titles/wording, so no duplicate-crosspost risk was found within this set of 4 evidence ids as currently catalogued.",
+      "Only 1 of 4 records (the pink Chanel 19 in-hand review) is a confirmed in-hand review; the other 3 are pre-receipt PSP/QC posts with open questions (lighting mismatch, unresolved wrinkle/quilting questions, unconfirmed lining shade), so treat quality claims here as provisional.",
+      "\"Xiao C factory\" is a single source-reported factory label appearing once, with no second source to corroborate it — do not read this as an established factory association for the family."
+    ]
+  },
+  {
+    "family_id": "bag-family-chanel-25",
+    "source_count": 140,
+    "summary": "This is the deepest corpus in the batch: 140 evidence records from 124 distinct authors (only a handful of authors, e.g. BornLocal9767 and saltyames, contribute more than one post), spanning small/medium/mini sizes and mainly caviar and grained-calfskin colorways with recurring gold, ruthenium, and silver hardware call-outs. Two factories dominate the source-reported attributions -- '187' (52 mentions) and 'God' (15 mentions) -- and a small cluster of sellers (Heidi, Mandy, Tiny Jenny, Doris, Baobao) recur across multiple independent posts, mostly in auth-comparison, factory-comparison, PSP/QC, and in-hand/long-term-wear formats. 126 of 140 records are flagged exact_product_match=true, so most of the corpus is judged on-model rather than only collection-adjacent.",
+    "watchouts": [
+      "The '187' vs 'God' factory split is source-reported per-post, not a catalog-verified attribution; treat any single post's factory label as one buyer's claim, not confirmed provenance.",
+      "Some evidence ids are cross-listed with other collections (e.g. Louis Vuitton Speedy, Dior Lady Dior, Loewe Flamenco threads that also mention a Chanel 25) -- these are comparison or multi-bag posts, not dedicated 25 reviews, so weight them accordingly.",
+      "Seller mentions are fragmented across ~10 different sellers with none appearing more than 8 times, so no single seller has corroboration deep enough to generalize beyond 'multiple posts named this seller.'",
+      "14 of 140 records are exact_product_match=false; these are adjacent/comparison posts and should not be read as direct 25 QC evidence."
+    ]
+  },
+  {
+    "family_id": "bag-family-chanel-classic-flap",
+    "source_count": 75,
+    "summary": "75 evidence records across 67 distinct authors (deep coverage) recur most around two source-reported factories, 187 Factory (27 records) and God Factory (16 records), and one seller, Heidi (11 records, with Baobao and Doris also recurring at 5 and 4). Evidence types skew toward PSP/QC threads (31) and in-hand reviews (22), with 12 auth-comparison and 7 factory-comparison posts, covering multiple sizes (mini, small, medium, jumbo) and leather types (lambskin, caviar). As reported, several factory-comparison posts set 187 Factory and God Factory bags against each other or against authentic references, but these remain source-reported comparisons rather than an independent authentication.",
+    "watchouts": [
+      "One author, Blonde_popcorn, supplies 4 of the 75 records across different bag sizes/colors on different dates (mini pearl crush, medium burgundy, jumbo 187 factory, small black caviar) — these appear to be distinct bags rather than a single crosspost, but still count as one author's cumulative view rather than four fully independent corroborations.",
+      "187 Factory and God Factory together account for 43 of the ~75 records; other source-named factories are comparatively thin, so factory-level conclusions should not be extended beyond these two.",
+      "Given the large record count, this note relied on evidence.json's paraphrase/observation fields and author/factory/seller frequency counts rather than reading every full paraphrase verbatim; a reviewer wanting exhaustive quote-level detail should re-pull the full evidence.json filter for this family."
+    ]
+  },
+  {
+    "family_id": "bag-family-chanel-vanity-slim",
+    "source_count": 11,
+    "summary": "Thin-to-moderate corpus (11 records, 11 distinct authors — no repeat authors — across RepTherapy, RealRepLadies, RepCulture_Bags, and RepLadiesWorld), split between two source-reported factories, 187 and God, with one post directly comparing the two after the buyer switched from God (out of stock) to 187 for a second purchase. Most records are pre-receipt PSP/QC threads raising unresolved construction questions (quilting puff, hardware tone, caviar grain flatness vs. factory photos, microchip applied as a sticker) rather than settled in-hand reviews, so the corpus leans toward open QC questions more than confirmed outcomes.",
+    "watchouts": [
+      "Most posts are PSP-stage with no recorded delivery outcome or resolution — treat open QC questions (grain, hardware tone, shape) as unresolved, not as confirmed defects.",
+      "No author appears more than once, so no individual claim in this family has same-author repeat corroboration; each post is a single independent data point.",
+      "One evidence record explicitly notes the source corrected that a displayed comparison photo was of a different bag — a reminder that PSP-vs-factory-photo comparisons in this corpus can be error-prone."
+    ]
+  },
+  {
+    "family_id": "bag-family-chanel-woc",
+    "source_count": 4,
+    "summary": "Only 4 evidence records from 4 distinct authors -- sparse coverage. One post reports a received WOC with squishy quilting and no smell; the other three are pre-receipt PSP/QC threads (one naming black caviar with silver hardware and '187' factory in its title, one flagging an off-center CC logo and a missing corner-stitch detail) whose concerns are left unresolved in the captured text. This is a few posts, not a corroborated pattern.",
+    "watchouts": [
+      "This is sparse coverage: a few posts exist and mostly describe open PSP questions rather than confirmed in-hand outcomes -- don't treat the '187' factory mention in one title as a settled attribution.",
+      "Matcher-confusion check: all four titles and paraphrases here specifically reference 'WOC' (wallet on chain) content -- stitching, quilting, CC hardware, flap edges -- with no indication any post is actually about a Classic Flap or a different Chanel bag; no confusion found in this sample, but the corpus is small enough that this should be re-checked if more WOC evidence is added later.",
+      "Three of four records are unresolved PSP questions (logo placement, stitch detail, symmetry) with no follow-up captured, so they document concerns raised, not confirmed defects."
+    ]
+  },
+  {
+    "family_id": "bag-family-dior-book-tote",
+    "source_count": 8,
+    "summary": "8 evidence records from 8 distinct authors across RealRepLadies, RepLadiesWorld, and RepTherapy — thin but each record is a distinct author, so there is no single-source dominance. Sizes recur across Small, Medium (36), and Large variants, with 'God Factory' and seller names 'Mr Canvas' and 'Baker' each appearing once; several records are unresolved PSP/QC threads (font, stitching, or logo-placement questions) rather than completed in-hand reviews. Coverage should be described as thin-to-moderate: broad in author spread but shallow in per-record depth, with no repeated seller/factory pairing strong enough to call a dominant signal.",
+    "watchouts": [
+      "No factory or seller name repeats across more than one independent author, so there is no corroborated seller/factory signal for this family yet — treat any single mention as a one-off report.",
+      "Several records (the two 'PSP QC' font/stitching threads) are open questions in the source threads, not resolved conclusions; don't present them as settled quality findings.",
+      "One record (ev-crawl-rt-dior-book-tote-1s6dsu1) is from a mixed Dior haul and explicitly excludes unrelated items — its Book Tote-specific claims (embroidery, handle structure) are narrow."
+    ]
+  },
+  {
+    "family_id": "bag-family-dior-d-joy",
+    "source_count": 4,
+    "summary": "Only 4 evidence records from 4 distinct authors (RepTherapy x2, RealRepLadies x2) — sparse coverage. 'God Factory' appears as a source-reported attribution in one record; other records don't name a factory. Sizes/colors mentioned span 26cm black lambskin, Micro Cloud Blue, and an unspecified red patent variant, so the four records span different configurations rather than corroborating one specific size/color. Two records include direct authentic comparisons, both reporting generally positive leather/stitching with minor Cannage-shape or hardware-weight differences noted.",
+    "watchouts": [
+      "This is sparse coverage: four posts exist, each a different author and largely a different size/colorway, so there isn't a corroborated recurring signal to point to beyond 'a few generally positive individual accounts.'",
+      "Only one record names a factory (God Factory); it should not be treated as representative of the other three records' unnamed sources.",
+      "One record (red patent D-Joy) is a brief mention inside a multi-item haul, not a dedicated review."
+    ]
+  },
+  {
+    "family_id": "bag-family-dior-lady-dior",
+    "source_count": 52,
+    "summary": "52 evidence records from ~44 distinct authors, concentrated in RealRepLadies and RepTherapy with smaller RepCulture_Bags/RepLadiesWorld representation. The recurring source-reported signal is a 'God Factory' attribution (appears roughly a dozen times across records), most often paired with Mini or Small size variants and Cannage-quilting observations; 'Reykay'/'Reykey' and 'Baobao' recur as source-named sellers. Coverage is moderate: enough independent authors to see a repeated factory/size pattern, but far thinner than Speedy and with only a handful of factory_comparison or long_term_wear records (3 each) versus a majority of in-hand and PSP/QC snapshots.",
+    "watchouts": [
+      "Coverage skews toward Mini and Small sizes; Medium/Large Lady Dior variants have comparatively little independent evidence in this corpus.",
+      "Some Lady Dior records surface inside mixed-haul posts that also mention D-Joy, Chanel, or Margaux — cross-check that any given observation is actually about the Lady Dior item before reusing it.",
+      "'God Factory' is the most repeated attribution but, as with other families, each mention is an individual buyer's source-reported claim, not a verified identity linking separate purchases to one confirmed factory."
+    ]
+  },
+  {
+    "family_id": "bag-family-dior-saddle",
+    "source_count": 11,
+    "summary": "11 evidence records from 11 distinct authors, so no author corroborates another -- each post stands alone. Colorways span plum, burgundy, black, white, and matte black, and source-reported factory attributions are scattered across God (3), Angel (1), Vivi (1), and non-catalogued labels like 'LiLi,' 'DMZ,' 'GF,' and 'XT' that the source text uses but this catalog does not otherwise track. Coverage is thin: about half the posts are pre-purchase PSP/QC threads with unresolved concerns (bulging, hardware color, a possible white spot) rather than confirmed in-hand outcomes.",
+    "watchouts": [
+      "No factory or seller in this family has more than 3 corroborating posts, and several factory labels used by sources ('LiLi', 'DMZ', 'GF', 'XT') don't map to catalogued factory entities, so cross-post factory comparisons are not reliable.",
+      "Several records are open PSP/QC questions (bulging, hardware-color, a white spot) with no follow-up resolution captured -- these describe concerns raised, not confirmed defects or confirmed-acceptable outcomes.",
+      "One record's title (ev-crawl-rt-dior-saddle-1o4u1l8) references a companion 'Dior Embossed Crossbody' that is explicitly excluded from this record -- don't conflate the two models when reading that source."
+    ]
+  },
+  {
+    "family_id": "bag-family-dior-toujours",
+    "source_count": 5,
+    "summary": "Sparse corpus (5 records, only 3 distinct authors — one author contributes 3 of the 5 records) covering the Toujours Vertical in Medium and Large (24cm) sizes. God Factory is the only source-reported factory named, in two records, including one where a first-time poster explicitly compares this purchase against an earlier disappointing Dior purchase from a different, unnamed seller. One in-hand record makes a detailed comparison against an authentic reference (macrocannage texture, hardware tone, stitching, strap font). This is a shallow, author-concentrated corpus rather than broad independent coverage.",
+    "watchouts": [
+      "One author (AliceOyster) contributes 3 of the family's 5 evidence records — this is a same-author concentration issue, not independent corroboration from 3 separate sources.",
+      "'Toujours' is an ordinary French word ('always') and is prone to false-positive matching in text search; all 5 reviewed evidence records clearly reference the Dior Toujours bag by name/model, with no ambiguous record found, but this remains a standing model-boundary risk for any future evidence added to this family.",
+      "Only 2 of 5 records name a factory (God Factory); the other 3 have no factory attribution, so factory-level claims should not be generalized across the whole family."
+    ]
+  },
+  {
+    "family_id": "bag-family-ferragamo-hug",
+    "source_count": 4,
+    "summary": "Only 4 evidence records from 4 distinct authors -- sparse coverage; a few posts exist and don't support strong cross-source generalization. One detailed in-hand review (Large, black/oxblood, seller reported as 'Vincent,' not in this catalog's seller roster) notes a logo-font discrepancy versus authentic; a separate post reports gold hardware from seller Mandy; a factory-comparison post flags possible hardware-spacing and handle-length issues but notes the rep and authentic references may be different sizes, so it isn't a clean comparison.",
+    "watchouts": [
+      "This is sparse coverage: a few posts exist across different sizes/sellers with no author or seller overlap -- treat any single post's construction claim (e.g. the logo-font difference) as a one-off observation, not a pattern.",
+      "The most detailed review names a seller ('Vincent') this catalog doesn't otherwise track, so it can't be cross-referenced against other seller-level evidence.",
+      "The factory-comparison post's own comments flag a likely size mismatch between the compared images, undermining that specific comparison's reliability."
+    ]
+  },
+  {
+    "family_id": "bag-family-goyard-saint-louis",
+    "source_count": 6,
+    "summary": "6 evidence records from 6 distinct authors -- thin coverage, no author overlap. Colors reported span burgundy, grey, green, navy, and powder pink, all GM size where stated; only one record names a factory with any confidence ('Lemon', source-reported and explicitly uncertain in that same post) and one names 'Afen White' as source-reported. Two posts are practical use-capacity reports with no seller/factory/size detail at all.",
+    "watchouts": [
+      "This is sparse coverage: a few posts exist across multiple colorways with essentially no author or factory corroboration -- do not read this as validating any specific factory or seller for the Saint Louis.",
+      "The one factory name given (Lemon) is flagged by its own source post as uncertain, so it should not be treated as a settled attribution.",
+      "One record contains an excluded detail; no private contact text is included here."
+    ]
+  },
+  {
+    "family_id": "bag-family-gucci-jackie",
+    "source_count": 3,
+    "summary": "Only 3 evidence records from 3 distinct authors -- sparse coverage, no corroboration between posts. One received-bag report (Medium) describes soft leather and neat stitching but also glue residue on the base and an initial chemical smell, with the author later saying the bag should have been red-lit (i.e., flagged as suspect) -- this is a source-reported negative signal, not a catalog conclusion. The other two are pre-receipt PSP posts, one for a Medium brown-canvas variant explicitly titled 'Jackie 1961,' one for a Jackie Mini with the author unsure whether that exact style is currently sold by Gucci.",
+    "watchouts": [
+      "This is sparse coverage: a few posts exist across three different variants (Medium unknown, Medium brown-canvas, Mini) with no author or size overlap -- do not generalize any one post's outcome to the family.",
+      "Matcher-confusion flag (as instructed): ev-catalog-jackie-1u6btjq's title explicitly says 'Jackie 1961,' which is a specific, differently-named Gucci line from a plain 'Jackie' -- this should be checked against family/bag_id mapping to confirm it truly belongs to this family and isn't a distinct model being merged in.",
+      "The Medium-unknown post reports glue residue and a chemical smell and the author's own later 'should have red-lit' comment -- a source-reported negative observation, included here only as reported, not as this catalog's judgment on the seller or factory (none were named in that post)."
+    ]
+  },
+  {
+    "family_id": "bag-family-hermes-birkin-25",
+    "source_count": 14,
+    "summary": "14 records span roughly 12 distinct authors (moderate depth), with Togo leather and a seller identified in source text as \"Jack\" (2 records, uncatalogued) as the clearest recurring threads; other recurring source-named sellers/factories include H Factory (2 records) and several one-off sellers (Mark, Minion, Peter, Maya, Frank, HMS Mode). Coverage spans Togo, Swift, and Chevre-lined variants in multiple colorways (Bleu Jean, Gris Misty, Gold, Etoupe, Biscuit). As reported, in-hand reviews describe stitching, hardware, stamp depth, and leather hand favorably overall, though several are pre-receipt PSP/QC posts with unresolved questions rather than confirmed in-hand outcomes.",
+    "watchouts": [
+      "At least 3 of the 14 records (ev-crawl-bottomup-1vdajq0, ev-crawl-bottomup-1hs83r7, ev-crawl-bottomup-1fvrpbt) actually describe a Birkin 30, not a Birkin 25 — they are attached to this family's evidence_ids but their own paraphrase text names B30; treat any size-specific claim (dimensions, capacity) drawn from this family's evidence with caution and verify against the specific record before citing.",
+      "Most named sellers in this family (Jack, Mark, Minion, Peter, Maya, Frank, HMS Mode) are explicitly uncatalogued/source-reported wording rather than mapped catalog seller entities, so seller-level reliability signal here is weak despite the record count.",
+      "No two records share the same author, so there is no single-author corroboration risk, but that also means most individual claims (e.g., a specific factory or hardware detail) rest on one source only."
+    ]
+  },
+  {
+    "family_id": "bag-family-hermes-evelyne",
+    "source_count": 4,
+    "summary": "Very sparse corpus: 4 records, 4 distinct authors, covering Evelyne 23 and 29 sizes with no seller or factory named in any record. Two of the four in-hand posts describe soft leather with a strong leather scent and generally positive first impressions; one post separately raises the author's own authenticity uncertainty (citing a cheap-looking dust bag and hardware still wrapped in plastic on arrival) rather than a construction defect. This is too thin a corpus to support claims beyond 'a few posts exist' about leather feel and general first impressions.",
+    "watchouts": [
+      "No seller or factory is named in any of the 4 records — this family currently has zero source-reported seller/factory attribution to draw on.",
+      "One record documents the original poster's own authenticity doubt about a gifted bag; this is a source's self-reported uncertainty, not a confirmed problem, and should not be generalized to the rest of the family.",
+      "With only 4 records and no repeat authors, this is sparse coverage — general leather/hardware impressions are noted but not corroborated at any depth."
+    ]
+  },
+  {
+    "family_id": "bag-family-hermes-kelly",
+    "source_count": 19,
+    "summary": "19 records from 19 distinct authors (moderate depth, no author overlap) cover a wide spread of Kelly sizes (Mini, 20, 25, 28, 32, 35) and constructions (Sellier, Elan) in Togo, Epsom, and Chevre leathers. Recurring sellers named in source text include Jim (2 records, catalogued), and Mark and Minion (multiple records each, both left source-reported/uncatalogued); H Factory is the only source-named factory appearing more than once. As reported, most reviews focus on leather grain, stitching, hardware finish, and stamp/blind-stamp placement, with two records (a Blue Nuit Kelly 25 and a Kelly hardware-tone concern) noting unresolved negative observations.",
+    "watchouts": [
+      "Most \"Mark\"- and \"Minion\"-attributed reviews (at least 6 records) use uncatalogued seller labels, so this family's seller-level signal is thinner than the record count suggests — only Jim (2 records) and Andy (1 record) map to catalogued sellers here.",
+      "One record (ev-crawl-rrl-hermes-kelly-1l39er9) reports a negative in-person quality assessment (poor quality, synthetic smell) for a Blue Nuit Kelly 25 with no seller/factory named — flag as a single unfavorable data point that should not be generalized to the whole family.",
+      "One record (ev-crawl-rrl-hermes-kelly-1gof7fh) is internally ambiguous between Kelly and Birkin in its own text; it was kept as Kelly-only per the source title, so treat its exact-model attribution with caution."
+    ]
+  },
+  {
+    "family_id": "bag-family-loewe-flamenco",
+    "source_count": 84,
+    "summary": "84 evidence records across 73 distinct authors (deep coverage) recur most heavily around two source-reported factories, Liusheng (21 records) and Jipin (17 records), and one seller, Mandy (18 records, with Aiden and Mia also recurring at 9 and 6). Evidence types are mostly in-hand reviews (41) and PSP/QC threads (26), spanning multiple sizes, colorways (Fever collection black/square/orange/green/futurist-cat variants), and materials including deerskin. As reported, reviewers most often discuss Liusheng- and Jipin-attributed leather grain, stitching, and hardware finish relative to authentic references, but this is source-reported factory framing, not a catalog conclusion.",
+    "watchouts": [
+      "One author, spiritatbay, supplies 8 of the 84 records (a same-day batch review of five different Fever-colorway bags on 2026-05-04, plus three more posts) — treat this cluster as one corroborating source, not eight independent ones, when judging author-count depth.",
+      "Mandy (18 records) and Liusheng/Jipin (38 records combined) dominate the corpus; absence of a given seller/factory pairing from this list does not mean it is unreported elsewhere, only that it is thin here.",
+      "A meaningful minority of records (about 15 of 84) have exact_product_match=false, meaning the bag details in those posts are approximate matches to the catalogued variant, not confirmed exact matches — treat those as weaker support.",
+      "Two records reference the separate Loewe Puzzle model (ev-crawl-rt-loewe-puzzle-1shhbyf, ev-crawl-rt-loewe-puzzle-1pexymm) alongside Flamenco vocabulary; watch for cross-family vocabulary bleed between Loewe Puzzle and Flamenco when reading source text."
+    ]
+  },
+  {
+    "family_id": "bag-family-loewe-puzzle",
+    "source_count": 126,
+    "summary": "This is the deepest corpus in the group (126 records, roughly 102 distinct authors, across RepTherapy, RealRepLadies, and RepLadiesWorld), with Jipin and Liusheng as the two source-reported factories named most often (35 and 32 mentions respectively) and Mandy, Aiden, Baobao, and Doris as the recurring named sellers. Multiple independent posts describe Small/Medium/Large Puzzle and Puzzle Edge variants in classic calfskin and grained calfskin, and several owners directly compare Jipin against Qiu or Liusheng leather feel (softer/more relaxed vs. stiffer, dry-out-of-the-box) in the same post. Coverage is deep enough that recurring PSP/QC themes (boxiness, engraving accuracy, dryness requiring conditioning) show up across multiple independent authors rather than a single source.",
+    "watchouts": [
+      "Coverage is broad across many small variant combinations (size x leather x factory), so no single seller/factory pairing has a large independent sample on its own — most factory attributions rest on a handful of source-reported posts each.",
+      "Several reviews explicitly disclose a seller relationship (asked to review, no incentive stated) — read as source-reported promotional context, not independent verification.",
+      "Factory/seller names throughout (Jipin, Liusheng, Qiu, Mandy, Aiden, etc.) are source-reported claims from posts, not independently verified attributions."
+    ]
+  },
+  {
+    "family_id": "bag-family-louis-vuitton-keepall",
+    "source_count": 4,
+    "summary": "Only 4 evidence records from 4 distinct authors (RepTherapy, RealRepLadies x2, RepLadiesWorld) — sparse coverage. No factory or seller name repeats across records, so there is no corroborated seller/factory signal; the most notable single record is an author directly comparing a received Keepall against their own owned authentic Keepall 45 and Toiletry Pouch 26, reporting matching smell, vachetta, and canvas. Sizes/variants mentioned include Bandouliere 25 (Monogram Midnight), 45 (Monogram Eclipse), and unspecified gradient-blue denim, so the four records don't cluster on one size either.",
+    "watchouts": [
+      "This is sparse coverage: four posts exist, each from a different author, with no repeated factory or seller name — there isn't enough here to describe a dominant recurring signal beyond 'four independent single-owner accounts.'",
+      "One record (puckering on a leather band, Keepall 45 Monogram Eclipse) is an unresolved pre-receipt PSP concern with no follow-up outcome recorded.",
+      "The strongest single data point (direct comparison to an owned authentic Keepall 45) is one author's account and has not been corroborated by any other source in this family."
+    ]
+  },
+  {
+    "family_id": "bag-family-louis-vuitton-neverfull",
+    "source_count": 66,
+    "summary": "Moderate-to-deep corpus (66 records, roughly 56 distinct authors, spread across RealRepLadies, RepTherapy, RepLadiesWorld, and RepCulture_Bags), concentrated on Monogram, Eden, and Damier Azur/Ebene canvas variants in GM and MM sizes. Hyper Peter and Old Cobbler are the most-named sellers, and Birdcage vs. Orange Sofa canvas tone is directly compared across multiple posts (Birdcage described as sharper/higher-contrast, Orange Sofa as softer/warmer), with several commenters stating a Birdcage preference. A meaningful minority of factory attributions are logged as unknown/unconfirmed rather than a named factory.",
+    "watchouts": [
+      "A notable share of records carry factory-unknown attribution, so factory-level conclusions should not be drawn evenly across the whole family.",
+      "Several posts bundle the Neverfull with other LV items (Speedy, Keepall, bumbag) in the same order/review — only the Neverfull-specific portions were used here, but readers skimming source threads may conflate seller/factory service quality across products.",
+      "Seller/factory names (Hyper Peter, Old Cobbler, Birdcage, Orange Sofa, Huahui, Royal) are source-reported from individual posts, not independently verified."
+    ]
+  },
+  {
+    "family_id": "bag-family-louis-vuitton-side-trunk",
+    "source_count": 4,
+    "summary": "Sparse coverage: 4 records from 4 distinct authors. Coverage spans East West, MM (black), and MM (sequins) variants, with two records giving concrete East West/MM dimension figures and one describing a post-vote factory comparison (comparing to an earlier community factory poll, unresolved which factory in this record). As reported, all four in-hand reviews describe stitching, hardware, and leather/canvas hand positively, with two records flagging minor negatives (a less-textured East West canvas, an MM opening described as awkward for larger items, and shallower-than-expected strap embossing on the factory-comparison bag).",
+    "watchouts": [
+      "Only 4 records with no author overlap, and no record names a catalogued seller or factory — this family has essentially no seller/factory-level signal, only bag-model and construction detail, so it does not yet support any seller/factory-specific claim.",
+      "The factory-comparison record (ev-crawl-rt-louis-vuitton-side-trunk-1ibpqkt) references an earlier community vote that is not itself captured in this evidence set, so its factory attribution cannot be independently verified from these 4 records alone.",
+      "Given only 4 total sources, any single negative observation (e.g., the awkward MM opening or shallow embossing) should be read as one author's account, not a pattern."
+    ]
+  },
+  {
+    "family_id": "bag-family-louis-vuitton-speedy",
+    "source_count": 196,
+    "summary": "This is the deepest corpus of the nine families: 196 evidence records from ~159 distinct authors (RepTherapy and RealRepLadies dominate, with smaller RepCulture_Bags/RepLadiesWorld contribution), spanning in-hand reviews, PSP/QC checks, and factory-vs-authentic comparisons. The most recurring source-reported signal is a 'Royal' factory attribution (dozens of mentions across sizes 25/30/40 Bandouliere and Soft/Boho variants), frequently paired with 'Mandy' or 'Doris' as the named seller, with 'God Factory' and 'MB' also recurring as source-reported alternatives. Coverage is deep by volume and author count, though most individual records are single-owner PSP/QC snapshots rather than long-term wear reports (only 3 long_term_wear records among 196).",
+    "watchouts": [
+      "'Royal' as a factory name is repeated by many different authors but each attribution is still a single source's report at the point of purchase; no independent lab-style verification exists, only cross-referenced buyer claims.",
+      "The high author count is a strength, but PSP/QC posts (59) and in-hand reviews (69) often end without confirmation of final acceptance/rejection, so 'deep coverage' does not mean 'deep resolution' on any single defect question.",
+      "Speedy shares vocabulary (sizes, 'Bandouliere', 'Boho', 'Soft') with other LV lines; some records are pulled from mixed hauls that also mention Chanel or other brands, so care is needed not to misattribute cross-item observations to the Speedy specifically.",
+      "Seller names (Mandy, Doris, Baobao, Reykay) recur across many posts but are source-reported by buyers, not verified identities — treat as 'sources say they bought from X,' not a confirmed roster."
+    ]
+  },
+  {
+    "family_id": "bag-family-miu-miu-arcadie",
+    "source_count": 5,
+    "summary": "Sparse-to-moderate coverage: 5 records from 5 distinct authors. Two records name factory Kata (one via seller Alina, one via seller Mandy) and one names factory Orange Sofa/Orange Coach (wording is ambiguous between the two in the source) via sellers Ariel and an unattributed name; one further record (a wear-and-tear post) names seller Doris with no factory. As reported, in-hand and auth-comparison posts describe leather feel and stitching as close to authentic references in the cognac, Briarwood, and matelassé colorways, while one record documents an early wear/color-rubbing concern at the back corner after fewer than five uses.",
+    "watchouts": [
+      "Only 5 records total and no author appears twice, so this is thin corroboration for any single seller or factory claim — Kata appears in 2 of 5 records, which is the strongest recurring signal available, and even that should be read as light, not established.",
+      "One record's factory wording (\"Orange Sofa\"/\"Orange Coach\"/\"Orange Couch\") is inconsistent across two different posts and left ambiguous/unattributed in the source itself — do not treat these as confirming the same factory.",
+      "The single wear-concern record (ev-crawl-rrl-miu-miu-arcadie-1sb6q18) has no resolution recorded and no material/color identified, so it cannot be generalized into a durability conclusion for the family."
+    ]
+  },
+  {
+    "family_id": "bag-family-the-row-margaux",
+    "source_count": 30,
+    "summary": "30 evidence records from ~25 distinct authors, mainly RealRepLadies and RepTherapy with a small RepCulture_Bags contribution. The clearest recurring signal is a source-reported 'Masoni'/'Massoni' factory attribution paired with a 'Kendall'/'Kyndal' seller name across multiple independent posts, with sizes clustering around 12/15/17 (the Margaux's petite/mini/shoulder size tiers) and 'Baobao' also recurring as a named seller. Coverage is moderate — enough repeat-author corroboration on the Masoni/Kendall pairing to call it the family's most useful signal, but total volume and long-term-wear depth (only 1 long_term_wear record) are well below the two LV/Dior families above.",
+    "watchouts": [
+      "The Masoni/Kendall pairing is source-reported by multiple buyers, which is stronger than a single post, but still relies on buyers' own naming of seller/factory rather than independent verification.",
+      "A few Margaux records reference Dior or Celine items in the same mixed-haul post — confirm size/color/material details are specifically about the Margaux before reuse.",
+      "Size vocabulary here (12/15/17) is Row-specific but visually similar numeric conventions appear in other bag lines in this catalog; don't conflate Margaux sizing with unrelated families' numeric sizes."
+    ]
+  },
+  {
+    "family_id": "bag-family-the-row-marlo",
+    "source_count": 6,
+    "summary": "Sparse corpus (6 records, 6 distinct authors, split between RealRepLadies and RepTherapy) covering Marlo 14 and Marlo 17 sizes, mostly pre-receipt PSP/QC threads plus two in-hand reports. Kendall is the only source-reported factory named, appearing in two records, and one in-hand post explicitly distinguishes an older no-zipper Marlo 17 from a newer zippered version, which the source itself treats as a real variant distinction rather than an inconsistency. This is a small, mostly-unresolved corpus: several PSP threads (stamping accuracy, embossing depth, stitch quality, hardware tone) end without a recorded outcome.",
+    "watchouts": [
+      "This corpus is thin (6 records, no repeat authors); treat any single claim as a single independent data point, not a corroborated pattern.",
+      "The-Row Marlo shares brand/vocabulary space with The Row's Margaux bag — reviewed evidence records here all name 'Marlo' explicitly and none showed cross-model ambiguity, but given the thinness of the corpus, cross-check any newly added record carefully for Margaux/Marlo conflation before treating it as Marlo evidence.",
+      "Most PSP-stage QC questions (stamping, embossing, stitch quality, hardware tone) in this corpus are left unresolved in the source, with no recorded delivery outcome."
+    ]
+  },
+  {
+    "family_id": "bag-family-ysl-loulou",
+    "source_count": 19,
+    "summary": "Moderate corpus (19 records, roughly 15 distinct authors, mainly RepTherapy and RealRepLadies) concentrated almost entirely on one source-reported factory, Black Frame, spanning Small, Medium, and Toy LouLou sizes and several colorways (red, black, burgundy, ivory/cream). Multiple independent posts describe Black Frame leather, hardware, and stitching favorably, but at least two independent QC threads report the same specific defect type (wobbly/uneven interior stitching), which the evidence records themselves flag as a genuine negative data point balancing the otherwise positive Black Frame reports. Felix and Doris are the most-named sellers.",
+    "watchouts": [
+      "Interior-stitching complaints appear in more than one independent post about Black Frame — worth reading as a recurring, source-reported QC theme rather than a one-off.",
+      "Almost all factory attribution in this corpus points to a single factory (Black Frame), so the family's evidence does not meaningfully compare Black Frame against alternative factories.",
+      "Colorway naming is inconsistent within individual threads (e.g., a bag described as both 'white' and 'violet', and an 'ivory/cream' post where the delivered color reads differently in photos), so color-specific claims should be treated cautiously."
+    ]
+  },
+  {
+    "family_id": "bag-family-ysl-niki",
+    "source_count": 3,
+    "summary": "Sparsest corpus in the group: only 3 records, 3 distinct authors, no seller or factory consistently named (one record source-reports 'BF' without further identification). Two in-hand reviews (Medium in Vintage Leather, Medium with gold hardware) describe soft/supple leather and a comfortable chain strap, one including a comparison to an owned authentic YSL item; the third is an unresolved pre-receipt PSP color/proportion question for a red-wine Niki. This is too thin to support any summary beyond a few posts existing — not enough independent coverage to identify a recurring seller, factory, or defect pattern.",
+    "watchouts": [
+      "Only 3 records total with no repeat authors and no consistently named seller/factory — this is sparse coverage; treat any single claim as one independent data point, not a pattern.",
+      "One record abbreviates a factory as 'BF' without full identification in the evidence fields reviewed — do not assume this equals the 'Black Frame' factory named in other families without checking the source directly.",
+      "The one PSP-stage record (color/proportion question) is unresolved in the source, with no recorded delivery outcome."
+    ]
+  }
+],
   "campaigns": [
     {
       "id": "campaign-neverfull-original",
