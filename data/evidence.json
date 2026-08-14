@@ -2122,7 +2122,9 @@
       "factory-liusheng",
       "factory-jipin"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-edge-large-33cm-grained-calfskin-black"
+    ],
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
@@ -2137,7 +2139,9 @@
       "The author says the leather is not as buttery as authentic.",
       "The 33 cm current version is contrasted with older 35 cm versions with metal feet; this is a variant warning, not a universal factory verdict."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-puzzle-edge-large-33cm-grained-calfskin-black-reddit"
+    ]
   },
   {
     "id": "ev-crawl-rll-flamenco-medium-dhg-2026",
@@ -9374,13 +9378,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-puzzle-featherlight-small-nd-pecan-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-featherlight-small-nd-pecan"
+    ],
     "seller_ids": [
       "seller-aiden"
     ],
@@ -13492,13 +13500,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Paid and received PSPs 2026-06-11; requested tracking 2026-06-18; received 2026-06-30, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-puzzle-mini-edge-soft-grained-calfskin-toffee-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-mini-edge-soft-grained-calfskin-toffee"
+    ],
     "seller_ids": [
       "seller-garmen"
     ],
@@ -13926,13 +13938,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Payment 2026-01-14; PSPs approved 2026-01-15; shipped 2026-01-27; delivered 2026-02-08, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-puzzle-tan-suede-33cm-nd-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-tan-suede-33cm-nd"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -13967,7 +13983,9 @@
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-featherlight-small-nd-pecan"
+    ],
     "seller_ids": [
       "seller-aiden"
     ],
@@ -14031,13 +14049,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "First contact 2026-02-17; PSPs 2026-02-26; tracking 2026-03-01; arrived in Switzerland 2026-03-10, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-puzzle-featherlight-large-lambskin-dark-chestnut-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-featherlight-large-lambskin-dark-chestnut"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -14268,13 +14290,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Paid 2026-03-02; first PSP round 2026-03-08 was declined for wrong leather; second PSP round 2026-03-10 was approved; shipped 2026-03-11; delivered 2026-03-20, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-puzzle-edge-small-black-smooth-calfskin-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-edge-small-black-smooth-calfskin"
+    ],
     "seller_ids": [
       "seller-aiden"
     ],
@@ -16038,13 +16064,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-puzzle-featherlight-mini-nappa-lambskin-dark-chestnut-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-featherlight-mini-nappa-lambskin-dark-chestnut"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-liusheng"
@@ -18148,13 +18178,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-puzzle-fold-horizontal-nd-grained-leather-black-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-fold-horizontal-nd-grained-leather-black"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -20043,13 +20077,17 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-13",
     "shipping_timeline": "Ordered March 2, PSPs received March 5, shipped March 7, and received March 19, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-panta-small-shiny-calfskin-vintage-brown-1r99og1-g2"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-panta-small-shiny-calfskin-vintage-brown"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -20111,13 +20149,17 @@
     "publication_date_precision": "exact",
     "access_date": "2026-08-13",
     "shipping_timeline": "First contact March 21, payment April 5, PSPs April 8, and delivery May 6, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-woven-small-nd-taupe-1t6gcbt-g16"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-woven-small-nd-taupe"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -20378,13 +20420,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Paid July 18, PSPs arrived July 24, the bag shipped July 25, and it was received August 4, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-puzzle-large-old-35cm-nd-black-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-large-old-35cm-nd-black"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -21427,7 +21473,9 @@
   {
     "access_date": "2026-08-13",
     "author": "marloux33",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-edge-medium-pebbled-leather-beige"
+    ],
     "evidence_type": "in_hand_review",
     "exact_product_match": true,
     "exact_variant_note": "Medium Puzzle Edge, approximately 30 x 12 x 19 cm, in a sand-toned beige imported pebbled leather; attributed to Liusheng and bought through Aiden.",
@@ -21438,7 +21486,9 @@
       "bag-family-loewe-puzzle"
     ],
     "id": "ev-crawl-rt-loewe-puzzle-1sdfbtd",
-    "media_ids": [],
+    "media_ids": [
+      "media-puzzle-edge-medium-pebbled-leather-beige-reddit"
+    ],
     "negative_observations": [
       "The report is one owner's early in-hand account and does not document a flaw, long-term wear result, or independent authentic comparison beyond the linked reference.",
       "The seller, group-buy, payment, contact, and unrelated source details are excluded from the public evidence record."
@@ -22601,7 +22651,9 @@
   {
     "access_date": "2026-08-13",
     "author": "Loverofnicetings",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-nd-grained-leather-black-current"
+    ],
     "evidence_type": "in_hand_review",
     "exact_product_match": true,
     "exact_variant_note": "Black Loewe Puzzle in the source-described current version with grained leather, attributed to Liusheng; exact size and seller are not normalized, and the source-reported seller XingXing is not in the public roster.",
@@ -22612,7 +22664,9 @@
       "bag-family-loewe-puzzle"
     ],
     "id": "ev-crawl-rrl-loewe-puzzle-1t8evnv",
-    "media_ids": [],
+    "media_ids": [
+      "media-puzzle-nd-grained-leather-black-current-reddit"
+    ],
     "negative_observations": [
       "The grained leather looked dry on arrival and needed a small amount of conditioner; the author does not own a grained Puzzle authentic and therefore leaves the accuracy assessment cautious.",
       "The exact size is not stated, and seller contact, payment, and service praise are excluded from the public evidence record."
@@ -24070,13 +24124,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "PSPs were received 2025-10-28, the bag shipped 2025-10-29, and it arrived 2025-11-11, as reported.",
-    "media_ids": [],
+    "media_ids": [
+      "media-puzzle-featherlight-mini-napa-leather-black-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-featherlight-mini-napa-leather-black"
+    ],
     "seller_ids": [
       "seller-aiden"
     ],
@@ -24297,13 +24355,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Inquired 1/21; PSPs arrived 1/22; bag arrived 2/18, as reported.",
-    "media_ids": [],
+    "media_ids": [
+      "media-woven-small-cowhide-sahara-1rtv736"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-woven-small-cowhide-sahara"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -24491,13 +24553,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "PSPs 2026-02-09; shipped 2026-02-10; arrived 2026-02-26 after a weather delay, as reported.",
-    "media_ids": [],
+    "media_ids": [
+      "media-puzzle-featherlight-small-nappa-lambskin-white-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "long_term_wear",
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-featherlight-small-nappa-lambskin-white"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -24559,13 +24625,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Delivered 12/12, as reported; payment and seller-contact details are excluded.",
-    "media_ids": [],
+    "media_ids": [
+      "media-puzzle-edge-small-grained-calfskin-dark-chestnut-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-loewe-puzzle"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-puzzle-edge-small-grained-calfskin-dark-chestnut"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-jipin"
