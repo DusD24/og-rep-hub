@@ -4373,5 +4373,24 @@
     "source_platform": "Reddit",
     "usage_scope": "variant_tile",
     "evidence_id": "ev-catalog-jackie-1ufacyb"
+  },
+  {
+    "id": "media-saddle-dior-saddle-matte-black-reddit",
+    "path": "media/evidence/saddle-dior-saddle-matte-black-reddit.jpg",
+    "attribution": "u/StretchEnough2845 via r/RealRepLadies",
+    "source_url": "https://i.redd.it/n9a2t63nes0e1.jpeg",
+    "post_url": "https://www.reddit.com/r/RealRepLadies/comments/1gqvspa/matte_black_dior_saddle_review/",
+    "author": "StretchEnough2845",
+    "subreddit": "RealRepLadies",
+    "capture_date": "2026-08-14",
+    "removal_checked_at": "2026-08-14",
+    "sha256": "7bf472829b957adb8258bdb29eb3a614a2b86a320df74c1529943de794b0b45c",
+    "width": 4284,
+    "height": 5712,
+    "research_purpose": "Receipt-linked community variant-tile image for the Dior Saddle Matte Black variant.",
+    "alt": "Dior Saddle Matte Black shown in a Reddit reviewer's photograph.",
+    "source_platform": "Reddit",
+    "usage_scope": "variant_tile",
+    "evidence_id": "ev-crawl-rrl-dior-saddle-1gqvspa"
   }
 ]
