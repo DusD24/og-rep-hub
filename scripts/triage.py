@@ -476,33 +476,6 @@ def digest_entry(candidate: dict[str, Any], scored: dict[str, Any], excerpt_char
     }
 
 
-def _compact_context_variant_name(row: dict[str, Any], families_by_id: dict[str, dict[str, Any]]) -> str | None:
-    """Keep the canonical bag id while dropping repeated family prose from context names."""
-    name = row.get("name")
-    if not name:
-        return name
-    family = families_by_id.get(row.get("family_id"), {})
-    prefixes = [
-        f"{family.get('brand', '')} {family.get('model', '')}".strip(),
-        str(family.get("brand") or "").strip(),
-        str(family.get("model") or "").strip(),
-    ]
-    compact = str(name)
-    changed = True
-    while changed:
-        changed = False
-        for prefix in sorted((value for value in prefixes if value), key=len, reverse=True):
-            if compact.casefold().startswith(prefix.casefold()):
-                compact = compact[len(prefix):].lstrip(" -:")
-                changed = True
-                break
-    # A few variant names carry long source qualifiers in parentheses. The
-    # canonical bag id remains complete, so drop only unusually long parenthetical
-    # qualifiers and cap the reviewer-context display label as the catalog grows.
-    compact = re.sub(r"\s*\(([^()]{40,})\)", "", compact).strip() or str(name)
-    return compact if len(compact) <= 96 else f"{compact[:93]}..."
-
-
 def build_context() -> dict[str, Any]:
     """The slim catalog reference a reviewer needs, instead of re-reading all of data/."""
     family_rows = load("bag_families")
@@ -510,23 +483,21 @@ def build_context() -> dict[str, Any]:
     # context needs. Keeping them as a flat list avoids repeating the ``id``
     # object key for every family as the catalog grows.
     families = [row["id"] for row in family_rows]
-    families_by_id = {row["id"]: row for row in family_rows}
     family_index = {family_id: index for index, family_id in enumerate(families)}
     return {
         "evidence_types": sorted({value for value in LANE_TO_EVIDENCE_TYPE.values() if value}),
         "source_types": ["reddit_review", "reddit_qc", "reddit_discussion", "catalog", "official_reference"],
         "publication_date_precision": ["exact", "month_estimate", "relative_day_estimate"],
         # Keep the legend as one compact scalar so the reviewer context stays
-        # bounded as variant rows are added: bag rows are id, name, and a
-        # family-list index.
-        "field_legend": "id,name,2->families",
+        # bounded as variant rows are added: bag rows are the canonical id and
+        # a family-list index. The id is already the unambiguous variant label.
+        "field_legend": "bag=[id,family_index]",
         "families": families,
         # Family ids repeat on every bag row. Referencing the already-small family
         # table by index keeps this private reviewer context bounded as variants
-        # are added. The canonical bag id remains complete; the display name is
-        # reduced to the variant-specific suffix because the family is adjacent.
+        # are added; the canonical bag id remains the complete variant label.
         "bags": [
-            [row["id"], _compact_context_variant_name(row, families_by_id), family_index[row["family_id"]]]
+            [row["id"], family_index[row["family_id"]]]
             for row in load("bags")
         ],
         "sellers": [{"id": row["id"], "name": row.get("display_name")} for row in load("sellers")],

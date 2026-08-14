@@ -127,7 +127,7 @@
   },
   {
     "id": "bag-speedy-30-unresolved",
-    "name": "Speedy 30",
+    "name": "Speedy 30 Bandouliere",
     "size": "30",
     "pattern": "not documented in current public sources",
     "colorway": "not documented in current public sources",
@@ -136,7 +136,7 @@
     "material": "not documented in current public sources",
     "hardware": "not documented in current public sources",
     "official_reference_url": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-25-monogram-nvprod2790047v/M46977",
-    "tile_media_id": "media-speedy-30-unresolved-reddit"
+    "tile_media_id": "media-rt-louis-vuitton-speedy-1szzsnq-g1"
   },
   {
     "id": "bag-speedy-20-unresolved",
@@ -319,6 +319,19 @@
     "hardware": "not documented in current public sources",
     "official_reference_url": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-25-monogram-nvprod2790047v/M46977",
     "tile_media_id": "media-speedy-soft-20-unresolved-reddit"
+  },
+  {
+    "id": "bag-speedy-p9-25-frozen-lime",
+    "name": "Speedy P9 25 Frozen Lime",
+    "size": "25",
+    "pattern": "Speedy P9",
+    "colorway": "Frozen Lime",
+    "priority": "secondary-priority",
+    "family_id": "bag-family-louis-vuitton-speedy",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
+    "official_reference_url": "https://us.louisvuitton.com/eng-us/products/speedy-bandouliere-25-monogram-nvprod2790047v/M46977",
+    "tile_media_id": "media-rt-louis-vuitton-speedy-1qn6rx5-g1"
   },
   {
     "id": "bag-keepall-gradient-blue-denim",
