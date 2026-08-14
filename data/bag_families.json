@@ -2546,5 +2546,162 @@
       "The hero-linked post includes authenticity uncertainty and thin text, so its image is used only as the family tile and its evidence remains narrowly described."
     ],
     "reference_url": "https://www.hermes.com/us/en/"
+  },
+  {
+    "id": "bag-family-the-row-marlo",
+    "slug": "the-row-marlo",
+    "brand": "The Row",
+    "model": "Marlo",
+    "aliases": [
+      "The Row Marlo",
+      "Marlo tote"
+    ],
+    "category": "tote",
+    "summary": "Community evidence file covering The Row Marlo sizes, leather feel, embossing, stitching, conditioning, wear, and authentic-comparison observations.",
+    "research_gaps": [
+      "Marlo 14 and Marlo 17 remain separate, with source-specific leather and color details preserved rather than generalized.",
+      "Kendall and other seller- or factory-reported labels are not normalized into public factory or seller records; the distinct Margaux model remains outside this family."
+    ],
+    "reference_url": "https://www.therow.com/",
+    "tile_media_id": "media-catalog-marlo-hero",
+    "publication_status": "published",
+    "documented_variant_ids": [
+      "bag-marlo-14-masoni-leather",
+      "bag-marlo-14-unknown",
+      "bag-marlo-17-chestnut-smooth-leather",
+      "bag-marlo-17-unknown"
+    ],
+    "evidence_ids": [
+      "ev-catalog-marlo-1txhutf",
+      "ev-catalog-marlo-1uf3533",
+      "ev-catalog-marlo-1ryp9wm",
+      "ev-catalog-marlo-1ro4jgb"
+    ],
+    "documented_materials": [
+      "imported masoni leather (source-reported)",
+      "smooth leather (source-reported)"
+    ],
+    "documented_hardware": [
+      "not consistently stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 4,
+      "independent_author_count": 4,
+      "primary_subreddit_coverage": [
+        "RealRepLadies",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "auth_comparison",
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
+    "last_updated": "2026-08-13"
+  },
+  {
+    "id": "bag-family-chanel-19",
+    "slug": "chanel-19",
+    "brand": "Chanel",
+    "model": "Chanel 19",
+    "aliases": [
+      "Chanel 19 flap",
+      "Chanel 19 bag"
+    ],
+    "category": "shoulder-flap",
+    "summary": "Community evidence file covering Chanel 19 leather, quilting, hardware, strap comfort, fit, lining, and PSP or authentic-comparison observations.",
+    "research_gaps": [
+      "Black goatskin, black lambskin, pink, and black upgraded leather remain separate variants; exact sizes are not consistently documented.",
+      "The selected source set is RealRepLadies-only because the candidate non-RealRepLadies diversity posts were empty, generic, or already rejected in the ledger; seller and factory labels remain source-reported and unnormalized."
+    ],
+    "reference_url": "https://www.chanel.com/us/fashion/handbags/",
+    "tile_media_id": "media-catalog-chanel19-hero",
+    "publication_status": "published",
+    "documented_variant_ids": [
+      "bag-chanel19-black-goatskin",
+      "bag-chanel19-black-lambskin",
+      "bag-chanel19-pink-unknown",
+      "bag-chanel19-black-upgraded-leather"
+    ],
+    "evidence_ids": [
+      "ev-catalog-chanel19-1lfz0zr",
+      "ev-catalog-chanel19-1mjv13t",
+      "ev-catalog-chanel19-1ru2ad3",
+      "ev-catalog-chanel19-1fpxm29"
+    ],
+    "documented_materials": [
+      "goatskin (source-reported)",
+      "lambskin (source-reported)",
+      "upgraded leather (source-reported)"
+    ],
+    "documented_hardware": [
+      "not consistently stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 4,
+      "independent_author_count": 4,
+      "primary_subreddit_coverage": [
+        "RealRepLadies"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "auth_comparison",
+        "in_hand_review",
+        "psp_qc"
+      ]
+    },
+    "last_updated": "2026-08-13"
+  },
+  {
+    "id": "bag-family-louis-vuitton-side-trunk",
+    "slug": "louis-vuitton-side-trunk",
+    "brand": "Louis Vuitton",
+    "model": "Side Trunk",
+    "aliases": [
+      "Louis Vuitton Side Trunk",
+      "Side Trunk MM",
+      "Side Trunk East West"
+    ],
+    "category": "shoulder-flap",
+    "summary": "Community evidence file covering Louis Vuitton Side Trunk sizes, openings, leather or canvas feel, hardware, straps, construction, and received-bag observations.",
+    "research_gaps": [
+      "MM, East West, and sequins sources remain separate; exact color, material, and SKU details are retained only where each source states them.",
+      "Seller- or factory-reported labels are not normalized into public seller or factory records, and the sequins source does not include an in-person authentic comparison."
+    ],
+    "reference_url": "https://us.louisvuitton.com/eng-us/homepage",
+    "tile_media_id": "media-catalog-sidetrunk-hero",
+    "publication_status": "published",
+    "documented_variant_ids": [
+      "bag-side-trunk-mm-black",
+      "bag-side-trunk-mm-sequins",
+      "bag-side-trunk-east-west"
+    ],
+    "evidence_ids": [
+      "ev-catalog-sidetrunk-1uuy1fi",
+      "ev-catalog-sidetrunk-1t144yv",
+      "ev-catalog-sidetrunk-1qzcqhl"
+    ],
+    "documented_materials": [
+      "canvas (source-reported)",
+      "leather (source-reported)"
+    ],
+    "documented_hardware": [
+      "not consistently stated in selected sources"
+    ],
+    "evidence_coverage": {
+      "source_count": 3,
+      "independent_author_count": 3,
+      "primary_subreddit_coverage": [
+        "RepCulture_Bags",
+        "RepLadiesWorld",
+        "RepTherapy"
+      ],
+      "image_ready": true,
+      "evidence_types": [
+        "in_hand_review"
+      ]
+    },
+    "last_updated": "2026-08-13"
   }
 ]

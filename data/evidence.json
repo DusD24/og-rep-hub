@@ -32701,5 +32701,355 @@
       "No product defect is reported, and the exact colorway and leather subtype are not documented in the post."
     ],
     "media_ids": []
+  },
+  {
+    "id": "ev-catalog-marlo-1txhutf",
+    "title": "The Row Marlo PSP",
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1txhutf/the_row_marlo_psp/",
+    "subreddit": "RealRepLadies",
+    "author": "Artistic_Tea_0987",
+    "publication_date": "2026-06-05",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-marlo-14-masoni-leather"
+    ],
+    "family_ids": [
+      "bag-family-the-row-marlo"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A first-time buyer's pre-receipt PSP for a The Row Marlo 14 in source-reported imported masoni leather asks whether the stitching and exterior stamp look right; the post distinguishes factory photos from the later PSP images.",
+    "positive_observations": [
+      "The source identifies the exact Marlo size and a source-reported leather description."
+    ],
+    "negative_observations": [
+      "Stitching and exterior-stamp accuracy are unresolved questions; no later receipt outcome is recorded."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-catalog-marlo-1uf3533",
+    "title": "QC on this Marlo 14 PSP",
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1uf3533/qc_on_this_marlo_14_psp/",
+    "subreddit": "RealRepLadies",
+    "author": "Rokupin",
+    "publication_date": "2026-06-25",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-marlo-14-unknown"
+    ],
+    "family_ids": [
+      "bag-family-the-row-marlo"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A pre-receipt PSP for a The Row Marlo 14 asks whether the stamping is acceptable, identifying the T/E/W and M/T/W lettering as the areas that look questionable against the Kendall factory photos.",
+    "positive_observations": [
+      "The post preserves exact model/size and points to specific stamped-letter areas for review."
+    ],
+    "negative_observations": [
+      "The author reports that the stamping looks questionable at a glance; delivery outcome is not recorded."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-catalog-marlo-1ryp9wm",
+    "title": "QC The Row Marlo 17",
+    "source_type": "reddit_qc",
+    "evidence_type": "auth_comparison",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1ryp9wm/qc_the_row_marlo_17/",
+    "subreddit": "RepTherapy",
+    "author": "Sailor_Scoutless6150",
+    "publication_date": "2026-03-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-marlo-17-chestnut-smooth-leather"
+    ],
+    "family_ids": [
+      "bag-family-the-row-marlo"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A pre-receipt PSP for a chestnut smooth-leather The Row Marlo 17 is compared with a linked authentic reference; the author finds the overall shape close while noting shallow logo embossing and more visible handle stitching.",
+    "positive_observations": [
+      "The source identifies the exact size, chestnut color, smooth leather, and an authentic reference used for comparison.",
+      "Overall shape is assessed as close to the reference photos."
+    ],
+    "negative_observations": [
+      "The author flags shallow or lightly weighted logo embossing and thicker, more visible handle stitching."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-catalog-marlo-1ro4jgb",
+    "title": "Marlo 17 from Baobao",
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ro4jgb/marlo_17_from_baobao/",
+    "subreddit": "RealRepLadies",
+    "author": "pizzaunlimited",
+    "publication_date": "2026-03-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-marlo-17-unknown"
+    ],
+    "family_ids": [
+      "bag-family-the-row-marlo"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "An owner reports a received The Row Marlo 17 with supple, buttery leather that felt lighter than expected; after conditioning, the bag darkened and was carried during weekend errands.",
+    "positive_observations": [
+      "The post gives received-bag observations about leather feel, weight, conditioning, and use outside the home."
+    ],
+    "negative_observations": [
+      "The author is unsure whether this leather scratches easily, and no longer-term wear result is documented."
+    ],
+    "media_ids": [
+      "media-catalog-marlo-hero"
+    ]
+  },
+  {
+    "id": "ev-catalog-chanel19-1lfz0zr",
+    "title": "QC Help - Chanel 19 w/Goatskin",
+    "source_type": "reddit_qc",
+    "evidence_type": "auth_comparison",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1lfz0zr/qc_help_chanel_19_wgoatskin/",
+    "subreddit": "RealRepLadies",
+    "author": "Capital_Tradition766",
+    "publication_date": "2025-06-20",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-chanel19-black-goatskin"
+    ],
+    "family_ids": [
+      "bag-family-chanel-19"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A pre-receipt PSP for a black Chanel 19 with source-reported upgraded goatskin is shown beside an authentic reference; the author asks readers to disregard lighting differences between the two photos.",
+    "positive_observations": [
+      "The source identifies the exact Chanel 19 model, black color, goatskin upgrade, and an authentic comparison reference."
+    ],
+    "negative_observations": [
+      "Lighting differences limit direct visual comparison, and no later receipt outcome is recorded."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-catalog-chanel19-1mjv13t",
+    "title": "Chanel 19 Black Lambskin - Help Please!",
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1mjv13t/chanel_19_black_lambskin_help_please/",
+    "subreddit": "RealRepLadies",
+    "author": "Bobobella28",
+    "publication_date": "2025-08-07",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-chanel19-black-lambskin"
+    ],
+    "family_ids": [
+      "bag-family-chanel-19"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A pre-receipt PSP for a black lambskin Chanel 19 asks about a wrinkle on the lower-right corner, quilting and puffiness, logo and hardware, and the chain and shape.",
+    "positive_observations": [
+      "The source preserves the exact black lambskin variant and identifies several concrete construction areas for review."
+    ],
+    "negative_observations": [
+      "The lower-right wrinkle and the quilting, puffiness, logo, hardware, chain, and shape questions remain unresolved in the post."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-catalog-chanel19-1ru2ad3",
+    "title": "Chanel 19 Flap (pink)",
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1ru2ad3/chanel_19_flap_pink/",
+    "subreddit": "RealRepLadies",
+    "author": "Important-Ad-4899",
+    "publication_date": "2026-03-15",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-chanel19-pink-unknown"
+    ],
+    "family_ids": [
+      "bag-family-chanel-19"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "An owner reports a received pink Chanel 19 with soft, plush-feeling leather, clean and even stitching, puffy quilting, solid-feeling hardware, and a well-finished overall appearance.",
+    "positive_observations": [
+      "The source supplies feature-level in-hand observations about leather, stitching, quilting, hardware, and finish."
+    ],
+    "negative_observations": [
+      "The post does not document the exact size or a longer-term wear result."
+    ],
+    "media_ids": [
+      "media-catalog-chanel19-hero"
+    ]
+  },
+  {
+    "id": "ev-catalog-chanel19-1fpxm29",
+    "title": "QC Chanel 19 Black Upgraded from Xiao C factory",
+    "source_type": "reddit_qc",
+    "evidence_type": "psp_qc",
+    "url": "https://www.reddit.com/r/RealRepLadies/comments/1fpxm29/qc_chanel_19_black_upgraded_from_xiao_c_factory/",
+    "subreddit": "RealRepLadies",
+    "author": "welovea",
+    "publication_date": "2024-09-26",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-chanel19-black-upgraded-leather"
+    ],
+    "family_ids": [
+      "bag-family-chanel-19"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A pre-receipt PSP for a black upgraded Chanel 19, with Xiao C named in the source title, asks whether the interior lining is the correct red shade after the author's prior bag had a burgundy lining.",
+    "positive_observations": [
+      "The source identifies the exact black upgraded-leather model and a source-reported factory label."
+    ],
+    "negative_observations": [
+      "The interior lining shade is an unresolved PSP verification question."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-catalog-sidetrunk-1uuy1fi",
+    "title": "Side Trunk Comparsion and Review",
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RepCulture_Bags/comments/1uuy1fi/side_trunk_comparsion_and_review/",
+    "subreddit": "RepCulture_Bags",
+    "author": "Salt_Razzmatazz4981",
+    "publication_date": "2026-07-13",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-side-trunk-east-west",
+      "bag-side-trunk-mm-black"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-side-trunk"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A comparison review covers two Side Trunk variants. The East West is reported at 11 x 5.9 x 2.8 inches with an 8-inch zipper opening, easy access, and less-textured canvas; the MM is reported at 9.3 x 6.3 x 3.3 inches with a 7-inch opening, soft slouching leather, an awkward opening, different strap length, and variant-specific engraving differences.",
+    "positive_observations": [
+      "The source preserves exact dimensions and opening measurements for both variants.",
+      "The author reports useful East West capacity, soft MM leather, and specific hardware and engraving observations."
+    ],
+    "negative_observations": [
+      "The East West canvas is described as less textured than another bag, and the MM opening is reported as inconvenient for larger items."
+    ],
+    "media_ids": []
+  },
+  {
+    "id": "ev-catalog-sidetrunk-1t144yv",
+    "title": "Review: LV Side Trunk MM in Black ✨",
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RepTherapy/comments/1t144yv/review_lv_side_trunk_mm_in_black/",
+    "subreddit": "RepTherapy",
+    "author": "escapeGray",
+    "publication_date": "2026-05-01",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-side-trunk-mm-black"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-side-trunk"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A received black Louis Vuitton Side Trunk MM is reported with smooth, supple leather, convincing sheen, strong stitching and hardware, substantial leather that holds its shape, and a close visual comparison to retail references and an in-person store example.",
+    "positive_observations": [
+      "The source supplies detailed in-hand observations across leather feel, sheen, hardware, stitching, thickness, shape retention, and comparison references."
+    ],
+    "negative_observations": [
+      "No material defect is reported; the author notes only that shipping took some time."
+    ],
+    "media_ids": [
+      "media-catalog-sidetrunk-hero"
+    ]
+  },
+  {
+    "id": "ev-catalog-sidetrunk-1qzcqhl",
+    "title": "Review: LV Side Trunk MM Sequins!",
+    "source_type": "reddit_review",
+    "evidence_type": "in_hand_review",
+    "url": "https://www.reddit.com/r/RepLadiesWorld/comments/1qzcqhl/review_lv_side_trunk_mm_sequins/",
+    "subreddit": "RepLadiesWorld",
+    "author": "InvestmentPresent611",
+    "publication_date": "2026-02-08",
+    "publication_date_precision": "exact",
+    "access_date": "2026-08-13",
+    "exact_product_match": true,
+    "seller_ids": [],
+    "factory_ids": [],
+    "bag_ids": [
+      "bag-side-trunk-mm-sequins"
+    ],
+    "family_ids": [
+      "bag-family-louis-vuitton-side-trunk"
+    ],
+    "price": null,
+    "shipping_timeline": null,
+    "paraphrase": "A received sequins Side Trunk MM review reports clean stitching, accurate design placement, strong hardware, soft leather on the handle and strap, and a slouchy soft canvas; the author says it exceeded expectations but did not compare it with an authentic bag in person.",
+    "positive_observations": [
+      "The source gives concrete received-bag observations about stitching, design placement, hardware, leather softness, and canvas behavior."
+    ],
+    "negative_observations": [
+      "The author has no in-person authentic comparison, so the positive assessment remains a single-owner account."
+    ],
+    "media_ids": []
   }
 ]
