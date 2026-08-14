@@ -4335,5 +4335,24 @@
     "source_platform": "Reddit",
     "usage_scope": "variant_tile",
     "evidence_id": "ev-crawl-rrl-louis-vuitton-speedy-1ta71ux"
+  },
+  {
+    "id": "media-niki-vintage-g10",
+    "path": "media/evidence/niki-vintage-g10.jpg",
+    "attribution": "u/cuttingmyfingerssoff via r/RealRepLadies",
+    "source_url": "https://preview.redd.it/lzjcr5792uch1.jpg?width=960&format=pjpg&auto=webp&s=a28ac95e88a88e02368230a4be77d06c7c5438a4",
+    "post_url": "https://www.reddit.com/r/RealRepLadies/comments/1uulmns/ysl_niki_review_my_new_everyday_luxury_bag/",
+    "author": "cuttingmyfingerssoff",
+    "subreddit": "RealRepLadies",
+    "capture_date": "2026-08-14",
+    "removal_checked_at": "2026-08-14",
+    "sha256": "bf49fc3a3314a268ae3b0b72994818c7e632b11ebe83fa913a8d73f6c177b804",
+    "width": 960,
+    "height": 1280,
+    "research_purpose": "Receipt-linked community variant-tile image for the YSL Niki Medium Vintage Leather variant.",
+    "alt": "YSL Niki Medium in Vintage Leather shown front-on in a Reddit reviewer's personal photograph.",
+    "source_platform": "Reddit",
+    "usage_scope": "variant_tile",
+    "evidence_id": "ev-catalog-niki-1uulmns"
   }
 ]
