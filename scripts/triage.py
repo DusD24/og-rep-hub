@@ -476,9 +476,34 @@ def digest_entry(candidate: dict[str, Any], scored: dict[str, Any], excerpt_char
     }
 
 
+def _compact_context_variant_name(row: dict[str, Any], families_by_id: dict[str, dict[str, Any]]) -> str | None:
+    """Keep the canonical bag id while dropping repeated family prose from context names."""
+    name = row.get("name")
+    if not name:
+        return name
+    family = families_by_id.get(row.get("family_id"), {})
+    prefixes = [
+        f"{family.get('brand', '')} {family.get('model', '')}".strip(),
+        str(family.get("brand") or "").strip(),
+        str(family.get("model") or "").strip(),
+    ]
+    compact = str(name)
+    changed = True
+    while changed:
+        changed = False
+        for prefix in sorted((value for value in prefixes if value), key=len, reverse=True):
+            if compact.casefold().startswith(prefix.casefold()):
+                compact = compact[len(prefix):].lstrip(" -:")
+                changed = True
+                break
+    return compact or str(name)
+
+
 def build_context() -> dict[str, Any]:
     """The slim catalog reference a reviewer needs, instead of re-reading all of data/."""
-    families = [{"id": row["id"]} for row in load("bag_families")]
+    family_rows = load("bag_families")
+    families = [{"id": row["id"]} for row in family_rows]
+    families_by_id = {row["id"]: row for row in family_rows}
     family_index = {row["id"]: index for index, row in enumerate(families)}
     return {
         "evidence_types": sorted({value for value in LANE_TO_EVIDENCE_TYPE.values() if value}),
@@ -491,9 +516,10 @@ def build_context() -> dict[str, Any]:
         "families": families,
         # Family ids repeat on every bag row. Referencing the already-small family
         # table by index keeps this private reviewer context bounded as variants
-        # are added, without hiding any id or display name from the reviewer.
+        # are added. The canonical bag id remains complete; the display name is
+        # reduced to the variant-specific suffix because the family is adjacent.
         "bags": [
-            [row["id"], row.get("name"), family_index[row["family_id"]]]
+            [row["id"], _compact_context_variant_name(row, families_by_id), family_index[row["family_id"]]]
             for row in load("bags")
         ],
         "sellers": [{"id": row["id"], "name": row.get("display_name")} for row in load("sellers")],

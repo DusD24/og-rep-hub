@@ -2333,7 +2333,9 @@
       "seller-garmen"
     ],
     "factory_ids": [],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-rodeo-medium-black-calfskin-aged-silver"
+    ],
     "family_ids": [
       "bag-family-balenciaga-rodeo"
     ],
@@ -3849,13 +3851,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-margaux-15-imported-leather-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-the-row-margaux"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-margaux-15-imported-leather"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -7921,7 +7927,9 @@
     "family_ids": [
       "bag-family-the-row-margaux"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-margaux-15-saddle-leather-black"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -8076,13 +8084,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-rodeo-medium-black-calfskin-aged-silver-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-balenciaga-rodeo"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-rodeo-medium-black-calfskin-aged-silver"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -8179,13 +8191,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-rodeo-mini-suede-not-documented-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-balenciaga-rodeo"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-rodeo-mini-suede-not-documented"
+    ],
     "seller_ids": [
       "seller-garmen"
     ],
@@ -8798,13 +8814,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-margaux-17-mocha-leather-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-the-row-margaux"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-margaux-17-mocha-leather"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -10479,13 +10499,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-margaux-17-black-masoni-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "long_term_wear",
     "family_ids": [
       "bag-family-the-row-margaux"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-margaux-17-black-masoni"
+    ],
     "seller_ids": [
       "seller-aiden"
     ],
@@ -11089,13 +11113,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-margaux-shoulder-12-black-smooth-masoni-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-the-row-margaux"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-margaux-shoulder-12-black-smooth-masoni"
+    ],
     "seller_ids": [
       "seller-alina"
     ],
@@ -11475,13 +11503,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-margaux-shoulder-12-brown-smooth-calfskin-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-the-row-margaux"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-margaux-shoulder-12-brown-smooth-calfskin"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -12129,7 +12161,9 @@
       "seller-mia"
     ],
     "factory_ids": [],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-rodeo-small-caqui-pebbled-leather-aged-silver"
+    ],
     "family_ids": [
       "bag-family-balenciaga-rodeo"
     ],
@@ -12144,7 +12178,9 @@
       "The small metal key piece leans slightly off center when the bag is closed, according to the author.",
       "No factory is disclosed, and the author's own uncertainty about Balenciaga expertise limits the scope of the comparison; private contact and payment details are excluded."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-rodeo-small-caqui-pebbled-leather-aged-silver-reddit"
+    ]
   },
   {
     "id": "ev-crawl-rrl-bottega-veneta-andiamos-1qdd0rh",
@@ -14600,13 +14636,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-margaux-15-chocolate-suede-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-the-row-margaux"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-margaux-15-chocolate-suede"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-kata"
@@ -16126,13 +16166,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "The Mini Rodeo was purchased November 25, PSPs were received November 27, and the order arrived December 11; payment and contact details are excluded.",
-    "media_ids": [],
+    "media_ids": [
+      "media-rodeo-mini-red-gold-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-balenciaga-rodeo"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-rodeo-mini-red-gold"
+    ],
     "seller_ids": [
       "seller-mike"
     ],
@@ -16158,13 +16202,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "The author reports first contact June 3, PSPs June 6, and delivery June 7; payment and contact details are excluded.",
-    "media_ids": [],
+    "media_ids": [
+      "media-margaux-15-saddle-leather-black-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-the-row-margaux"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-margaux-15-saddle-leather-black"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -16908,13 +16956,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "The author records inquiry on April 27, payment on May 8, PSPs on May 10, shipment on May 12, and arrival on May 20; the payment amount is excluded.",
-    "media_ids": [],
+    "media_ids": [
+      "media-margaux-12-croc-embossed-dusty-pink-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-the-row-margaux"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-margaux-12-croc-embossed-dusty-pink"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -17684,7 +17736,9 @@
     "family_ids": [
       "bag-family-balenciaga-rodeo"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-rodeo-medium-black-calfskin-aged-silver"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -18489,13 +18543,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-rodeo-large-black-smooth-calfskin-aged-silver-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-balenciaga-rodeo"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-rodeo-large-black-smooth-calfskin-aged-silver"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-kata"
@@ -19734,13 +19792,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "The Margaux was bought June 19, PSPs arrived June 23, tracking June 25, and delivery was July 6; the separate Marlo arrived July 11, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-margaux-12-emerald-masoni-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "factory_comparison",
     "family_ids": [
       "bag-family-the-row-margaux"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-margaux-12-emerald-masoni"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -20787,13 +20849,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Ordered March 18, PSPs were received March 23, the bag was approved and shipped March 24, and it arrived April 3, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-margaux-shoulder-12-coffee-smooth-calfskin-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-the-row-margaux"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-margaux-shoulder-12-coffee-smooth-calfskin"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-kendall",
@@ -29437,13 +29503,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-rodeo-small-brown-suede-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-balenciaga-rodeo"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-rodeo-small-brown-suede"
+    ],
     "seller_ids": [
       "seller-aiden"
     ],
@@ -29473,13 +29543,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-rodeo-small-black-leather-silver-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-balenciaga-rodeo"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-rodeo-small-black-leather-silver"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -29732,7 +29806,9 @@
     "family_ids": [
       "bag-family-balenciaga-rodeo"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-rodeo-medium-black-calfskin-aged-silver"
+    ],
     "seller_ids": [
       "seller-garmen"
     ],
@@ -30167,13 +30243,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-rodeo-medium-dark-grained-leather-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-balenciaga-rodeo"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-rodeo-medium-dark-grained-leather"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -30413,13 +30493,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-rodeo-medium-camel-suede-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-balenciaga-rodeo"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-rodeo-medium-camel-suede"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,

@@ -546,7 +546,18 @@
     "summary": "Community evidence file covering soft structure, leather, lining, and everyday wear.",
     "tile_media_id": "media-margaux-reddit",
     "publication_status": "published",
-    "documented_variant_ids": [],
+    "documented_variant_ids": [
+      "bag-margaux-shoulder-12-brown-smooth-calfskin",
+      "bag-margaux-shoulder-12-coffee-smooth-calfskin",
+      "bag-margaux-shoulder-12-black-smooth-masoni",
+      "bag-margaux-12-emerald-masoni",
+      "bag-margaux-12-croc-embossed-dusty-pink",
+      "bag-margaux-15-saddle-leather-black",
+      "bag-margaux-15-chocolate-suede",
+      "bag-margaux-15-imported-leather",
+      "bag-margaux-17-mocha-leather",
+      "bag-margaux-17-black-masoni"
+    ],
     "evidence_ids": [
       "ev-rll-margaux-17",
       "ev-rt-margaux-15",
@@ -1744,7 +1755,17 @@
     "summary": "Community evidence file covering a medium black Rodeo with auth-reference observations, work capacity, and hardware, plus a second independent in-hand review reporting leather feel, structure, and seller experience.",
     "tile_media_id": "media-balenciaga-rodeo-reddit",
     "publication_status": "published",
-    "documented_variant_ids": [],
+    "documented_variant_ids": [
+      "bag-rodeo-medium-black-calfskin-aged-silver",
+      "bag-rodeo-medium-camel-suede",
+      "bag-rodeo-medium-dark-grained-leather",
+      "bag-rodeo-large-black-smooth-calfskin-aged-silver",
+      "bag-rodeo-small-caqui-pebbled-leather-aged-silver",
+      "bag-rodeo-small-black-leather-silver",
+      "bag-rodeo-small-brown-suede",
+      "bag-rodeo-mini-red-gold",
+      "bag-rodeo-mini-suede-not-documented"
+    ],
     "evidence_ids": [
       "ev-crawl-rll-balenciaga-rodeo-medium-2026",
       "ev-rt-rodeo-mike-2026",
