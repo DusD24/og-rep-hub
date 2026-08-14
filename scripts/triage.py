@@ -502,17 +502,20 @@ def _compact_context_variant_name(row: dict[str, Any], families_by_id: dict[str,
 def build_context() -> dict[str, Any]:
     """The slim catalog reference a reviewer needs, instead of re-reading all of data/."""
     family_rows = load("bag_families")
-    families = [{"id": row["id"]} for row in family_rows]
+    # The family ids are already the only family fields this private reviewer
+    # context needs. Keeping them as a flat list avoids repeating the ``id``
+    # object key for every family as the catalog grows.
+    families = [row["id"] for row in family_rows]
     families_by_id = {row["id"]: row for row in family_rows}
-    family_index = {row["id"]: index for index, row in enumerate(families)}
+    family_index = {family_id: index for index, family_id in enumerate(families)}
     return {
         "evidence_types": sorted({value for value in LANE_TO_EVIDENCE_TYPE.values() if value}),
         "source_types": ["reddit_review", "reddit_qc", "reddit_discussion", "catalog", "official_reference"],
         "publication_date_precision": ["exact", "month_estimate", "relative_day_estimate"],
-        "field_legend": {
-            "bags": ["id", "name", "family_index"],
-            "bags.family_index": "index into families",
-        },
+        # Keep the legend as one compact scalar so the reviewer context stays
+        # bounded as variant rows are added: bag rows are id, name, and a
+        # family-list index.
+        "field_legend": "id,name,2->families",
         "families": families,
         # Family ids repeat on every bag row. Referencing the already-small family
         # table by index keeps this private reviewer context bounded as variants

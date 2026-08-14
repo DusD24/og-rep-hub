@@ -1157,7 +1157,9 @@
     "summary": "Community evidence file covering coated-canvas structure, handle finish, pouch, and everyday use.",
     "tile_media_id": "media-saint-louis-reddit",
     "publication_status": "published",
-    "documented_variant_ids": [],
+    "documented_variant_ids": [
+      "bag-saint-louis-gm-green"
+    ],
     "evidence_ids": [
       "ev-rll-goyard-gm",
       "ev-rt-goyard-gm",
@@ -1191,7 +1193,7 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-13",
+    "last_updated": "2026-08-14",
     "research_gaps": [
       "Keep grey and Burgundy GM reports separate.",
       "Treat the tentative Lemon name and absent Griffin factory as unresolved."
@@ -1287,7 +1289,10 @@
     "summary": "Community evidence file covering structured leather, handles, hardware, and long-term shape.",
     "tile_media_id": "media-arcadie-reddit",
     "publication_status": "published",
-    "documented_variant_ids": [],
+    "documented_variant_ids": [
+      "bag-arcadie-matelasse",
+      "bag-arcadie-largest-briarwood-leather"
+    ],
     "evidence_ids": [
       "ev-rll-arcadie",
       "ev-rt-arcadie",
@@ -1297,7 +1302,8 @@
     ],
     "documented_sizes": [
       "27 cm",
-      "regular / small"
+      "regular / small",
+      "largest size"
     ],
     "documented_materials": [
       "leather"
@@ -1320,7 +1326,7 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-13",
+    "last_updated": "2026-08-14",
     "research_gaps": [
       "Keep 27 cm cognac and matelassé reports separate.",
       "Resolve hardware details from exact-variant source material."
@@ -1457,7 +1463,11 @@
     "summary": "Community evidence file covering embroidery, structure, handles, size, and travel use.",
     "tile_media_id": "media-book-tote-reddit",
     "publication_status": "published",
-    "documented_variant_ids": [],
+    "documented_variant_ids": [
+      "bag-book-tote-small-canvas-embroidery",
+      "bag-book-tote-36-canvas-embroidery",
+      "bag-book-tote-large-canvas-embroidery"
+    ],
     "evidence_ids": [
       "ev-rll-book-tote-small",
       "ev-rt-book-tote",
@@ -1470,7 +1480,8 @@
     ],
     "documented_sizes": [
       "Small",
-      "36"
+      "36",
+      "Large"
     ],
     "documented_materials": [
       "canvas",
@@ -1494,7 +1505,7 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-13",
+    "last_updated": "2026-08-14",
     "research_gaps": [
       "Keep Small and size 36 reports separate.",
       "Do not infer hardware or a factory from comment-only claims."
@@ -1936,7 +1947,12 @@
     "summary": "A research-queue collection opened from two independent RealRepLadies reviews of the City Small in leather, covering finish, break-in, hardware fit, and seller experience across two different sellers.",
     "tile_media_id": "media-balenciaga-le-city-small-reddit",
     "publication_status": "published",
-    "documented_variant_ids": [],
+    "documented_variant_ids": [
+      "bag-le-city-small-espresso",
+      "bag-le-city-small-army-green-arena",
+      "bag-le-city-38cm-vintage-pink",
+      "bag-le-city-suede-brown"
+    ],
     "evidence_ids": [
       "ev-crawl-rll-balenciaga-le-city-1uu8vp2",
       "ev-crawl-rll-balenciaga-le-city-1o69i9j",
@@ -1949,13 +1965,18 @@
     ],
     "documented_sizes": [
       "Small",
-      "Mini"
+      "Mini",
+      "38 cm"
     ],
     "documented_materials": [
-      "leather"
+      "leather",
+      "suede",
+      "Arena lambskin"
     ],
     "documented_hardware": [
-      "not stated in selected sources"
+      "not stated in selected sources",
+      "brass",
+      "brushed finish"
     ],
     "evidence_coverage": {
       "source_count": 8,
@@ -1973,7 +1994,7 @@
         "psp_qc"
       ]
     },
-    "last_updated": "2026-08-13",
+    "last_updated": "2026-08-14",
     "research_gaps": [
       "Small and Mini sizes are documented from different sources with different sellers and colorways (Espresso/chocolate, vintage pink, and an unstated color); do not merge them into a single confirmed colorway.",
       "The tile photo is from the Espresso/Tiny Jenny source only; it has not been confirmed to match the other sources' bags.",

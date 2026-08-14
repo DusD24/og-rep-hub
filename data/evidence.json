@@ -1355,7 +1355,9 @@
     "factory_ids": [
       "factory-god"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-book-tote-small-canvas-embroidery"
+    ],
     "family_ids": [
       "bag-family-dior-book-tote"
     ],
@@ -1371,7 +1373,8 @@
       "Factory attribution remains source-reported."
     ],
     "media_ids": [
-      "media-book-tote-reddit"
+      "media-book-tote-reddit",
+      "media-book-small-alt-3"
     ]
   },
   {
@@ -1392,7 +1395,9 @@
     "factory_ids": [
       "factory-god"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-book-tote-36-canvas-embroidery"
+    ],
     "family_ids": [
       "bag-family-dior-book-tote"
     ],
@@ -1407,7 +1412,9 @@
       "Hardware is not stated.",
       "The size 36 source cannot establish the Small variant."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-book-tote-36-canvas-embroidery-reddit"
+    ]
   },
   {
     "id": "ev-crawl-rt-classic-flap-auth-2025",
@@ -1770,7 +1777,9 @@
       "seller-griffin"
     ],
     "factory_ids": [],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-saint-louis-gm-green"
+    ],
     "family_ids": [
       "bag-family-goyard-saint-louis"
     ],
@@ -1785,7 +1794,9 @@
       "Griffin does not disclose a factory in the source.",
       "The comparison is one owner’s observation and the rep/auth size pairing should be checked against the post."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-saint-louis-gm-green-reddit"
+    ]
   },
   {
     "id": "ev-crawl-rt-ladydior-reykey-2026",
@@ -2979,7 +2990,9 @@
       "seller-tiny-jenny"
     ],
     "factory_ids": [],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-le-city-small-espresso"
+    ],
     "family_ids": [
       "bag-family-balenciaga-le-city"
     ],
@@ -2997,7 +3010,8 @@
       "No price or shipping timeline is included in the redacted excerpt."
     ],
     "media_ids": [
-      "media-balenciaga-le-city-small-reddit"
+      "media-balenciaga-le-city-small-reddit",
+      "media-le-city-small-espresso-reddit"
     ]
   },
   {
@@ -4752,13 +4766,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-le-city-suede-brown-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-balenciaga-le-city"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-le-city-suede-brown"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-autumn"
@@ -6668,13 +6686,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-le-city-38cm-vintage-pink-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-balenciaga-le-city"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-le-city-38cm-vintage-pink"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -28773,13 +28795,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-book-tote-large-canvas-embroidery-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-dior-book-tote"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-book-tote-large-canvas-embroidery"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -29221,13 +29247,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-arcadie-matelasse-alt-5"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-miu-miu-arcadie"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-arcadie-matelasse"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -29258,13 +29288,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "The owner reports ordering and paying on February 20, PSPs on February 27, shipment on February 29, tracking on March 2, and arrival on March 6.",
-    "media_ids": [],
+    "media_ids": [
+      "media-le-city-small-army-green-arena-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-balenciaga-le-city"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-le-city-small-army-green-arena"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -29360,13 +29394,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-arcadie-largest-briarwood-leather-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-miu-miu-arcadie"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-arcadie-largest-briarwood-leather"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
