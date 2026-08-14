@@ -2764,5 +2764,18 @@
     "hardware": "not documented in current public sources",
     "official_reference_url": "https://www.miumiu.com/us/en/p/arcadie-leather-bag/5BA189_N88_F0002_V_OOO",
     "tile_media_id": "media-arcadie-largest-briarwood-leather-reddit"
+  },
+  {
+    "id": "bag-ferragamo-hug-soft-large-black-oxblood",
+    "name": "Ferragamo Hug Soft Large Black/Oxblood",
+    "size": "Large",
+    "pattern": "Hug Soft",
+    "colorway": "Black with oxblood interior",
+    "priority": "primary",
+    "family_id": "bag-family-ferragamo-hug",
+    "material": "Leather (source-reported)",
+    "hardware": "Gold-tone turnlock hardware",
+    "official_reference_url": "https://www.ferragamo.com/shop/us/en/women/handbags/hug",
+    "tile_media_id": "media-ferragamo-hug-soft-large-black-oxblood-reddit"
   }
 ]

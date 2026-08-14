@@ -1572,7 +1572,9 @@
     "summary": "A research-queue collection opened from public in-hand and PSP/QC posts covering the Ferragamo Hug Soft work-bag shape.",
     "tile_media_id": "media-ferragamo-hug-soft-reddit",
     "publication_status": "published",
-    "documented_variant_ids": [],
+    "documented_variant_ids": [
+      "bag-ferragamo-hug-soft-large-black-oxblood"
+    ],
     "evidence_ids": [
       "ev-crawl-rll-ferragamo-hug-2026",
       "ev-crawl-rrl-ferragamo-hug-1ublsv2",

@@ -4262,14 +4262,17 @@
     "price": null,
     "shipping_timeline": "Ordered 12 June; PSPs received 13 June; delivered 21 June, per the reviewer.",
     "media_ids": [
-      "media-ferragamo-hug-soft-reddit"
+      "media-ferragamo-hug-soft-reddit",
+      "media-ferragamo-hug-soft-large-black-oxblood-reddit"
     ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-ferragamo-hug"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ferragamo-hug-soft-large-black-oxblood"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,

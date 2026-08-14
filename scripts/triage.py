@@ -496,7 +496,11 @@ def _compact_context_variant_name(row: dict[str, Any], families_by_id: dict[str,
                 compact = compact[len(prefix):].lstrip(" -:")
                 changed = True
                 break
-    return compact or str(name)
+    # A few variant names carry long source qualifiers in parentheses. The
+    # canonical bag id remains complete, so drop only unusually long parenthetical
+    # qualifiers and cap the reviewer-context display label as the catalog grows.
+    compact = re.sub(r"\s*\(([^()]{40,})\)", "", compact).strip() or str(name)
+    return compact if len(compact) <= 96 else f"{compact[:93]}..."
 
 
 def build_context() -> dict[str, Any]:

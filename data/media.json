@@ -268,6 +268,25 @@
     "evidence_id": "ev-crawl-rrl-ferragamo-hug-1ublsv2"
   },
   {
+    "id": "media-ferragamo-hug-soft-large-black-oxblood-reddit",
+    "path": "media/evidence/ferragamo-hug-soft-large-black-oxblood-reddit.jpg",
+    "attribution": "u/soxsr via r/RealRepLadies",
+    "source_url": "https://preview.redd.it/byepaoquvl8h1.jpg?width=4284&format=pjpg&auto=webp&s=3ce3ae6786bd165a6cbe62b0dd6cd4a47fe27d0a",
+    "post_url": "https://www.reddit.com/r/RealRepLadies/comments/1ublsv2/ferragamo_large_soft_hug_bag/",
+    "author": "soxsr",
+    "subreddit": "RealRepLadies",
+    "capture_date": "2026-08-14",
+    "removal_checked_at": "2026-08-14",
+    "sha256": "7026e6ab8ba8c1de7d87adcfd29a72d98442b0a979583c24b2bae8a1173b24a5",
+    "width": 4284,
+    "height": 5712,
+    "research_purpose": "Receipt-linked community variant-tile image for the Ferragamo Hug Soft Large black/oxblood variant.",
+    "alt": "Black Ferragamo Hug Soft Large with an oxblood interior photographed from an angled front view in a Reddit review.",
+    "source_platform": "Reddit",
+    "usage_scope": "variant_tile",
+    "evidence_id": "ev-crawl-rrl-ferragamo-hug-1ublsv2"
+  },
+  {
     "id": "media-ysl-loulou-reddit",
     "path": "media/evidence/ysl-loulou-reddit.jpg",
     "attribution": "u/Possible-Chip-6557 via r/RealRepLadies",
