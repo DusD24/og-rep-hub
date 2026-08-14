@@ -32998,7 +32998,9 @@
     "negative_observations": [
       "The post contains a general accuracy question without a specific observed construction defect or delivery outcome."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-jackie-mini-g10"
+    ]
   },
   {
     "id": "ev-catalog-woc-1pfyhsm",

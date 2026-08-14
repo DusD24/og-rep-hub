@@ -4354,5 +4354,24 @@
     "source_platform": "Reddit",
     "usage_scope": "variant_tile",
     "evidence_id": "ev-catalog-niki-1uulmns"
+  },
+  {
+    "id": "media-jackie-mini-g10",
+    "path": "media/evidence/jackie-mini-g10.jpg",
+    "attribution": "u/iMen77 via r/RealRepLadies",
+    "source_url": "https://preview.redd.it/jrzypk2ymf9h1.jpg?width=1920&format=pjpg&auto=webp&s=ff1743fc967d7649e3b2c823e482af2442ad39a6",
+    "post_url": "https://www.reddit.com/r/RealRepLadies/comments/1ufacyb/jackie_mini_from_orange_couch_qc_help/",
+    "author": "iMen77",
+    "subreddit": "RealRepLadies",
+    "capture_date": "2026-08-14",
+    "removal_checked_at": "2026-08-14",
+    "sha256": "758abd3a1d8f0eb93c7dff6f09971e12a6e3dcb700c777840a0941ad807fb98f",
+    "width": 1920,
+    "height": 2560,
+    "research_purpose": "Receipt-linked community variant-tile image for the Gucci Jackie 1961 Mini variant.",
+    "alt": "Black Gucci Jackie 1961 Mini shown front-on in a Reddit reviewer's personal photograph.",
+    "source_platform": "Reddit",
+    "usage_scope": "variant_tile",
+    "evidence_id": "ev-catalog-jackie-1ufacyb"
   }
 ]
