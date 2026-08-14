@@ -478,16 +478,24 @@ def digest_entry(candidate: dict[str, Any], scored: dict[str, Any], excerpt_char
 
 def build_context() -> dict[str, Any]:
     """The slim catalog reference a reviewer needs, instead of re-reading all of data/."""
+    families = [{"id": row["id"]} for row in load("bag_families")]
+    family_index = {row["id"]: index for index, row in enumerate(families)}
     return {
         "evidence_types": sorted({value for value in LANE_TO_EVIDENCE_TYPE.values() if value}),
         "source_types": ["reddit_review", "reddit_qc", "reddit_discussion", "catalog", "official_reference"],
         "publication_date_precision": ["exact", "month_estimate", "relative_day_estimate"],
         "field_legend": {
-            "bags": ["id", "name", "family_id"],
-            "bags.f": "family_id (legacy key used in older context files)",
+            "bags": ["id", "name", "family_index"],
+            "bags.family_index": "index into families",
         },
-        "families": [{"id": row["id"]} for row in load("bag_families")],
-        "bags": [[row["id"], row.get("name"), row.get("family_id")] for row in load("bags")],
+        "families": families,
+        # Family ids repeat on every bag row. Referencing the already-small family
+        # table by index keeps this private reviewer context bounded as variants
+        # are added, without hiding any id or display name from the reviewer.
+        "bags": [
+            [row["id"], row.get("name"), family_index[row["family_id"]]]
+            for row in load("bags")
+        ],
         "sellers": [{"id": row["id"], "name": row.get("display_name")} for row in load("sellers")],
         "factories": [{"id": row["id"], "name": row.get("display_name")} for row in load("factories")],
     }

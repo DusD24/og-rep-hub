@@ -998,7 +998,9 @@
     "factory_ids": [
       "factory-jing"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-medium-not-documented-fondant"
+    ],
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
@@ -1033,7 +1035,9 @@
     "factory_ids": [
       "factory-top"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-east-west-not-documented-not-documented"
+    ],
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
@@ -1049,7 +1053,8 @@
       "This is a different format from the Medium source."
     ],
     "media_ids": [
-      "media-andiamo-reddit"
+      "media-andiamo-reddit",
+      "media-andiamo-east-west-not-documented-not-documented-reddit"
     ]
   },
   {
@@ -1932,7 +1937,9 @@
     "factory_ids": [
       "factory-jing"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-small-not-documented-barolo"
+    ],
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
@@ -1947,7 +1954,9 @@
       "The author also posted another Andiamo review, so repeated-author entries count once for independent corroboration.",
       "Factory attribution is source-reported."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-andiamo-small-not-documented-barolo-reddit-alt-1"
+    ]
   },
   {
     "id": "ev-crawl-repculture-andiamos-denim-2026",
@@ -1967,7 +1976,9 @@
     "factory_ids": [
       "factory-top"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-medium-embellished-leather-denim-not-documented"
+    ],
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
@@ -1982,7 +1993,9 @@
       "Same author as the small Andiamo review; it is not independent corroboration.",
       "Factory attribution and current availability are source-reported only."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-andiamo-medium-embellished-leather-denim-not-documented-reddit"
+    ]
   },
   {
     "id": "ev-crawl-repculture-balmain-anthem-2025",
@@ -3421,13 +3434,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-lady-dior-ladydior-mini-ultra-matte-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "factory_comparison",
     "family_ids": [
       "bag-family-dior-lady-dior"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ladydior-mini-ultra-matte"
+    ],
     "seller_ids": [
       "seller-reykay"
     ],
@@ -3762,13 +3779,17 @@
       "qualifier": "purchase price plus $39 shipping, per the reviewer; posted as a resale listing"
     },
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-medium-calfskin-black-shw-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-medium-calfskin-black-shw"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-jing"
@@ -4485,13 +4506,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-lady-dior-ladydior-mini-latte-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-dior-lady-dior"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ladydior-mini-latte"
+    ],
     "seller_ids": [
       "seller-heidi"
     ],
@@ -4767,13 +4792,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-small-not-documented-citrus-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-small-not-documented-citrus"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-jing"
@@ -5329,13 +5358,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-clutch-not-documented-deep-green-ghw-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-clutch-not-documented-deep-green-ghw"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -5360,13 +5393,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": "Inquired 7/17; paid 7/18; PSP 7/20; shipped 7/23; arrived 7/31, as reported by the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-clutch-not-documented-black-ghw-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-clutch-not-documented-black-ghw"
+    ],
     "seller_ids": [
       "seller-tiny-jenny"
     ],
@@ -5696,11 +5733,15 @@
     "publication_date": "2026-02-10",
     "publication_date_precision": "exact",
     "access_date": "2026-08-12",
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-small-not-documented-fondant-reddit"
+    ],
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-small-not-documented-fondant"
+    ],
     "seller_ids": [
       "seller-emily"
     ],
@@ -6151,7 +6192,9 @@
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-small-not-documented-fondant"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -6995,13 +7038,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-lady-dior-ladydior-mini-satin-pearl-beaded-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-dior-lady-dior"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ladydior-mini-satin-pearl-beaded"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -7446,13 +7493,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-lady-dior-ladydior-mini-lambskin-pink-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-dior-lady-dior"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ladydior-mini-lambskin-pink"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -7475,13 +7526,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-lady-dior-ladydior-cannage-pale-yellow-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-dior-lady-dior"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ladydior-cannage-pale-yellow"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -7594,13 +7649,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-messenger-not-documented-fondant-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-messenger-not-documented-fondant"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -7627,13 +7686,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-small-not-documented-travertine-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-small-not-documented-travertine"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -7656,13 +7719,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-parachute-not-documented-dark-brown-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-parachute-not-documented-dark-brown"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -7685,13 +7752,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-lady-dior-ladydior-mini-satin-metallic-rose-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-dior-lady-dior"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ladydior-mini-satin-metallic-rose"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -7807,13 +7878,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-medium-not-documented-fondant-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-medium-not-documented-fondant"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -8502,7 +8577,9 @@
     "family_ids": [
       "bag-family-dior-lady-dior"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ladydior-small-white"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -8686,13 +8763,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-clutch-not-documented-tomato-red-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-clutch-not-documented-tomato-red"
+    ],
     "seller_ids": [
       "seller-tiny-jenny"
     ],
@@ -8903,13 +8984,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-lady-dior-ladydior-mini-cannage-blush-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "factory_comparison",
     "family_ids": [
       "bag-family-dior-lady-dior"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ladydior-mini-cannage-blush"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-god"
@@ -9058,13 +9143,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-large-not-documented-not-documented-ghw-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-large-not-documented-not-documented-ghw"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -9091,13 +9180,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-pouch-metallic-woven-leather-not-documented-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-pouch-metallic-woven-leather-not-documented"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -11098,7 +11191,9 @@
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-small-not-documented-fondant"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -11802,7 +11897,9 @@
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-small-not-documented-fondant"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -12063,7 +12160,9 @@
     "exact_product_match": true,
     "seller_ids": [],
     "factory_ids": [],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-small-not-documented-fondant"
+    ],
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
@@ -12392,7 +12491,9 @@
     "exact_product_match": true,
     "seller_ids": [],
     "factory_ids": [],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-small-not-documented-pickle-shw"
+    ],
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
@@ -12406,7 +12507,9 @@
       "The apparent crookedness and wrinkling are unresolved, with no factory attribution, seller response, or in-hand result captured.",
       "The author's concern is explicitly tentative and may reflect uncertainty about realistic expectations."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-andiamo-small-not-documented-pickle-shw-reddit"
+    ]
   },
   {
     "id": "ev-crawl-rt-chanel-25-1pqa6s3",
@@ -13215,13 +13318,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-lady-dior-ladydior-mini-patent-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-dior-lady-dior"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ladydior-mini-patent"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -13352,13 +13459,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-large-deerskin-not-documented-bhw-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-large-deerskin-not-documented-bhw"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -13684,13 +13795,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "PSPs arrived after three days and the bag arrived within a week, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-small-not-documented-dark-green-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-small-not-documented-dark-green"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -14275,7 +14390,9 @@
     "family_ids": [
       "bag-family-dior-lady-dior"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ladydior-small-white"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -15057,7 +15174,9 @@
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-small-not-documented-fondant"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-jing"
@@ -15090,7 +15209,9 @@
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-mini-not-documented-fondant"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-jing"
@@ -15249,13 +15370,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-mini-not-documented-fondant-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-mini-not-documented-fondant"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-jing"
@@ -15448,13 +15573,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "PSP received June 30 and shipped July 2; the author opened the package later after being out of the country and says delivery took no more than about 10 days.",
-    "media_ids": [],
+    "media_ids": [
+      "media-lady-dior-ladydior-mini-iris-pink-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-dior-lady-dior"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ladydior-mini-iris-pink"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -15934,13 +16063,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "The author reports receiving the Small Lady Dior on March 28; payment details are excluded.",
-    "media_ids": [],
+    "media_ids": [
+      "media-lady-dior-ladydior-small-cannage-rouge-powder-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-dior-lady-dior"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ladydior-small-cannage-rouge-powder"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -16125,13 +16258,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Paid December 25, QC photos/video December 29, tracking December 30, and delivery January 5; payment details are excluded.",
-    "media_ids": [],
+    "media_ids": [
+      "media-lady-dior-ladydior-mini-sheepskin-burgundy-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-dior-lady-dior"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ladydior-mini-sheepskin-burgundy"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -17371,14 +17508,18 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-medium-suede-not-documented-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-loewe-flamenco",
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-medium-suede-not-documented"
+    ],
     "seller_ids": [
       "seller-baker"
     ],
@@ -18111,13 +18252,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-medium-denim-boucle-not-documented-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-medium-denim-boucle-not-documented"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -18308,13 +18453,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-small-not-documented-berry-wine-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-small-not-documented-berry-wine"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-jing"
@@ -18601,13 +18750,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-mini-not-documented-lava-red-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-mini-not-documented-lava-red"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-jing"
@@ -19247,7 +19400,9 @@
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-east-west-not-documented-not-documented"
+    ],
     "seller_ids": [
       "seller-emily"
     ],
@@ -19315,7 +19470,9 @@
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-small-not-documented-fondant"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -20733,13 +20890,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Paid September 30, PSP videos arrived October 7-8, tracking was provided October 13, and the order arrived October 20, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-andiamo-small-not-documented-sea-salt-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-bottega-veneta-andiamos"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-andiamo-small-not-documented-sea-salt"
+    ],
     "seller_ids": [
       "seller-garmen"
     ],
@@ -29201,13 +29362,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-lady-dior-ladydior-small-white-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-dior-lady-dior"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ladydior-small-white"
+    ],
     "seller_ids": [
       "seller-heidy"
     ],
@@ -30100,13 +30265,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-lady-dior-ladydior-mini-red-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-dior-lady-dior"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-ladydior-mini-red"
+    ],
     "seller_ids": [
       "seller-heidy"
     ],
