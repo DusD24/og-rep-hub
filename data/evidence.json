@@ -3131,13 +3131,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-small-crumpled-calfskin-black-1oqjerr"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "factory_comparison",
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-small-crumpled-calfskin-black"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-187"
@@ -3195,13 +3199,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-small-grained-calfskin-burgundy-ruthenium-hw-1s95ped"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-small-grained-calfskin-burgundy-ruthenium-hw"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -3229,13 +3237,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-medium-caviar-black-gold-hw-1t3sfuv"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-medium-caviar-black-gold-hw"
+    ],
     "seller_ids": [
       "seller-tiny-jenny"
     ],
@@ -4801,13 +4813,18 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": "Ordered 9 April (second bag added 11 April); PSPs 16 April; shipped 19 April; delivered 25 April -- 16 days start to finish, per the reviewer.",
-    "media_ids": [],
+    "media_ids": [
+      "media-mini-denim-not-documented-1swkkik"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-mini-denim-not-documented",
+      "bag-c25-small-caviar-black-gold-hw"
+    ],
     "seller_ids": [
       "seller-tiny-jenny"
     ],
@@ -10084,7 +10101,8 @@
       "bag-family-chanel-25"
     ],
     "bag_ids": [
-      "bag-speedy-20-monogram"
+      "bag-speedy-20-monogram",
+      "bag-c25-small-caviar-black-gold-hw"
     ],
     "seller_ids": [
       "seller-mike"
@@ -10723,7 +10741,9 @@
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-small-caviar-black-gold-hw"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-187"
@@ -13074,13 +13094,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-mini-caviar-white-muted-gold-hw-1roldpy"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-mini-caviar-white-muted-gold-hw"
+    ],
     "seller_ids": [
       "seller-mandy"
     ],
@@ -14108,13 +14132,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-mini-caviar-light-pink-aged-gold-hw-1ulac7j"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-mini-caviar-light-pink-aged-gold-hw"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -14715,7 +14743,9 @@
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-small-caviar-black-gold-hw"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -21327,7 +21357,9 @@
   {
     "access_date": "2026-08-13",
     "author": "Famous-Entry-6200",
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-small-caviar-black-gold-hw"
+    ],
     "evidence_type": "in_hand_review",
     "exact_product_match": true,
     "exact_variant_note": "Small black caviar Chanel 25 attributed by the source to 187; seller and exact hardware finish are not stated.",
@@ -23218,13 +23250,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-mini-caviar-black-silver-hw-1vdrecm"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-mini-caviar-black-silver-hw"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-187"
@@ -23383,13 +23419,18 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-medium-caviar-light-beige-not-documented-1pcgzrf"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "factory_comparison",
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-medium-caviar-black-gold-hw",
+      "bag-c25-medium-caviar-light-beige-not-documented"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -26079,7 +26120,9 @@
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-small-caviar-black-gold-hw"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -27714,13 +27757,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "The post reports contact on 2025-05-25, PSPs on 2025-06-05, shipment on 2025-06-08, and delivery on 2025-06-16.",
-    "media_ids": [],
+    "media_ids": [
+      "media-medium-denim-with-leather-trim-black-not-documented-1lrs5ik"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-medium-denim-with-leather-trim-black-not-documented"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-god"
@@ -29951,7 +29998,9 @@
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-medium-caviar-black-gold-hw"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-187"
@@ -31301,13 +31350,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "PSP received January 8; bag received January 21 after the January 6 order, as reported in the post.",
-    "media_ids": [],
+    "media_ids": [
+      "media-small-grained-calfskin-black-ruthenium-hw-1ql7061"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-small-grained-calfskin-black-ruthenium-hw"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -31432,13 +31485,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-small-caviar-black-gold-hw-1pid1n3"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-small-caviar-black-gold-hw"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-187"
@@ -33360,7 +33417,9 @@
     "family_ids": [
       "bag-family-chanel-25"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-c25-mini-caviar-light-pink-aged-gold-hw"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,

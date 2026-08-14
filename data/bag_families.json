@@ -1821,7 +1821,19 @@
     "summary": "Community evidence file covering the Chanel 25, opened from four independent RealRepLadies reviews spanning factory comparisons (187, OF, Rome, X-C, God) and in-hand quality reports across caviar and suede in multiple colourways.",
     "tile_media_id": "media-chanel-25-reddit",
     "publication_status": "published",
-    "documented_variant_ids": [],
+    "documented_variant_ids": [
+      "bag-c25-small-crumpled-calfskin-black",
+      "bag-c25-medium-caviar-black-gold-hw",
+      "bag-c25-small-grained-calfskin-burgundy-ruthenium-hw",
+      "bag-c25-mini-denim-not-documented",
+      "bag-c25-small-caviar-black-gold-hw",
+      "bag-c25-mini-caviar-white-muted-gold-hw",
+      "bag-c25-mini-caviar-light-pink-aged-gold-hw",
+      "bag-c25-mini-caviar-black-silver-hw",
+      "bag-c25-medium-caviar-light-beige-not-documented",
+      "bag-c25-medium-denim-with-leather-trim-black-not-documented",
+      "bag-c25-small-grained-calfskin-black-ruthenium-hw"
+    ],
     "evidence_ids": [
       "ev-crawl-rrl-chanel-25-1oqjerr",
       "ev-crawl-rrl-chanel-25-1u6wek0",
@@ -1972,11 +1984,18 @@
     "documented_materials": [
       "caviar",
       "grained calfskin",
-      "suede"
+      "suede",
+      "denim",
+      "washed denim",
+      "denim with leather trim",
+      "unresolved material (advertised suede / buyer-reported microfiber)"
     ],
     "documented_hardware": [
       "gold-tone hardware reported",
-      "ruthenium hardware reported"
+      "ruthenium hardware reported",
+      "silver hardware reported",
+      "muted or aged gold reported",
+      "matte champagne/light-gold reported"
     ],
     "evidence_coverage": {
       "source_count": 140,
@@ -1999,10 +2018,12 @@
     },
     "last_updated": "2026-08-13",
     "research_gaps": [
-      "reference_url intentionally left blank -- add the official Chanel product page if one exists.",
+      "Variant rows preserve source-reported material, color, and hardware language; do not merge the caviar, suede, denim, and washed-denim rows.",
       "Small, Medium, and Mini sizes are all documented under this one product line; read each record's own size before citing a specific variant.",
-      "Factory attributions (187, God, OF, Xiao C, and others) are source-reported per record; none has been independently verified beyond the individual posts."
-    ]
+      "Factory attributions (187, God, OF, Xiao C, and others) are source-reported per record; none has been independently verified beyond the individual posts.",
+      "Some family-level reports remain outside the public variant set until they have a distinct policy-compliant hero; this includes a Medium brown material discrepancy, a grey-suede PSP with an order tag, a beige Mini PSP with staged props, and a text-only washed-denim review."
+    ],
+    "reference_url": "https://www.chanel.com/us/fashion/handbags/"
   },
   {
     "id": "bag-family-hermes-kelly",
