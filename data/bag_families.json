@@ -141,7 +141,21 @@
     "summary": "Community evidence file covering flap construction, chain, leather, and size-specific comparisons.",
     "tile_media_id": "media-classic-flap-reddit",
     "publication_status": "published",
-    "documented_variant_ids": [],
+    "documented_variant_ids": [
+      "bag-cf-unspecified-caviar-black-gold",
+      "bag-cf-medium-caviar-black-gold",
+      "bag-cf-medium-caviar-black",
+      "bag-cf-medium-caviar-black-silver",
+      "bag-cf-medium-caviar-black-light-gold",
+      "bag-cf-small-beige-gold-material-nd",
+      "bag-cf-medium-caviar-light-gold",
+      "bag-cf-mini-pearl-crush-lambskin-antique-gold",
+      "bag-cf-medium-lambskin-burgundy",
+      "bag-cf-mini-lambskin-grey-gold",
+      "bag-cf-mini-lambskin-gold-top-handle",
+      "bag-cf-small-caviar-black-gold",
+      "bag-cf-25-5cm-caviar-black"
+    ],
     "evidence_ids": [
       "ev-rll-chanel-classic-flap-187",
       "ev-rt-chanel-classic-flap",

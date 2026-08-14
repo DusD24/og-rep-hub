@@ -661,7 +661,9 @@
     "factory_ids": [
       "factory-187"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-unspecified-caviar-black-gold"
+    ],
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
@@ -3063,13 +3065,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-classic-flap-cf-medium-caviar-black-gold-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-medium-caviar-black-gold"
+    ],
     "seller_ids": [
       "seller-andy"
     ],
@@ -3675,13 +3681,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-classic-flap-cf-medium-caviar-black-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-medium-caviar-black"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -3710,13 +3720,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-classic-flap-cf-medium-caviar-black-silver-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-medium-caviar-black-silver"
+    ],
     "seller_ids": [
       "seller-baobao"
     ],
@@ -4061,7 +4075,9 @@
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-unspecified-caviar-black-gold"
+    ],
     "seller_ids": [
       "seller-doris"
     ],
@@ -8185,13 +8201,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-classic-flap-cf-medium-caviar-black-light-gold-reddit"
+    ],
     "source_type": "reddit_qc",
     "evidence_type": "psp_qc",
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-medium-caviar-black-light-gold"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-god"
@@ -10848,13 +10868,17 @@
     "access_date": "2026-08-12",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-classic-flap-cf-small-beige-gold-material-nd-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-small-beige-gold-material-nd"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-god"
@@ -12764,7 +12788,9 @@
     "factory_ids": [
       "factory-187"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-medium-caviar-light-gold"
+    ],
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
@@ -12779,7 +12805,9 @@
       "The positive assessment is one owner's comparison and does not establish consistency across 187 batches or seasonal colors.",
       "Seller-service and shipping praise are not treated as separate quality evidence."
     ],
-    "media_ids": []
+    "media_ids": [
+      "media-classic-flap-cf-medium-caviar-light-gold-reddit"
+    ]
   },
   {
     "id": "ev-crawl-rt-chanel-vanity-slim-1un3exw",
@@ -23909,13 +23937,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "Six weeks to PSP photos because the item was out of stock; about 25 days from label creation to EU arrival, as reported.",
-    "media_ids": [],
+    "media_ids": [
+      "media-classic-flap-cf-mini-pearl-crush-lambskin-antique-gold-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-mini-pearl-crush-lambskin-antique-gold"
+    ],
     "seller_ids": [
       "seller-emily"
     ],
@@ -24043,13 +24075,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-classic-flap-cf-medium-lambskin-burgundy-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "auth_comparison",
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-medium-lambskin-burgundy"
+    ],
     "seller_ids": [
       "seller-emily"
     ],
@@ -24754,13 +24790,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": "12 days from label creation to receipt, as reported.",
-    "media_ids": [],
+    "media_ids": [
+      "media-classic-flap-cf-mini-lambskin-grey-gold-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-mini-lambskin-grey-gold"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-god"
@@ -26314,13 +26354,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-classic-flap-cf-mini-lambskin-gold-top-handle-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-mini-lambskin-gold-top-handle"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -28467,13 +28511,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-classic-flap-cf-unspecified-caviar-black-gold-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "in_hand_review",
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-unspecified-caviar-black-gold"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -29449,7 +29497,9 @@
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-small-caviar-black-gold"
+    ],
     "seller_ids": [],
     "factory_ids": [
       "factory-god"
@@ -30539,13 +30589,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-classic-flap-cf-25-5cm-caviar-black-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "long_term_wear",
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-25-5cm-caviar-black"
+    ],
     "seller_ids": [
       "seller-heidy"
     ],
@@ -30646,7 +30700,9 @@
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-medium-caviar-black-gold"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,
@@ -30738,13 +30794,17 @@
     "access_date": "2026-08-13",
     "price": null,
     "shipping_timeline": null,
-    "media_ids": [],
+    "media_ids": [
+      "media-classic-flap-cf-small-caviar-black-gold-reddit"
+    ],
     "source_type": "reddit_review",
     "evidence_type": "factory_comparison",
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-small-caviar-black-gold"
+    ],
     "seller_ids": [
       "seller-emily"
     ],
@@ -31422,7 +31482,9 @@
     "family_ids": [
       "bag-family-chanel-classic-flap"
     ],
-    "bag_ids": [],
+    "bag_ids": [
+      "bag-cf-unspecified-caviar-black-gold"
+    ],
     "seller_ids": [],
     "factory_ids": [],
     "exact_product_match": true,

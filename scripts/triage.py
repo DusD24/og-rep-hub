@@ -482,9 +482,12 @@ def build_context() -> dict[str, Any]:
         "evidence_types": sorted({value for value in LANE_TO_EVIDENCE_TYPE.values() if value}),
         "source_types": ["reddit_review", "reddit_qc", "reddit_discussion", "catalog", "official_reference"],
         "publication_date_precision": ["exact", "month_estimate", "relative_day_estimate"],
-        "field_legend": {"bags.f": "family_id"},
+        "field_legend": {
+            "bags": ["id", "name", "family_id"],
+            "bags.f": "family_id (legacy key used in older context files)",
+        },
         "families": [{"id": row["id"]} for row in load("bag_families")],
-        "bags": [{"id": row["id"], "name": row.get("name"), "f": row.get("family_id")} for row in load("bags")],
+        "bags": [[row["id"], row.get("name"), row.get("family_id")] for row in load("bags")],
         "sellers": [{"id": row["id"], "name": row.get("display_name")} for row in load("sellers")],
         "factories": [{"id": row["id"], "name": row.get("display_name")} for row in load("factories")],
     }
