@@ -4164,5 +4164,24 @@
     "source_platform": "Reddit",
     "usage_scope": "variant_tile",
     "evidence_id": "ev-catalog-evelyne-1qmoste"
+  },
+  {
+    "id": "media-neverfull-monogram-mm-brown-reddit",
+    "path": "media/evidence/neverfull-monogram-mm-brown-reddit.jpg",
+    "attribution": "u/constant_777 via r/RealRepLadies",
+    "source_url": "https://preview.redd.it/vr3xpxlft5bg1.jpg?width=3931&format=pjpg&auto=webp&s=baffe7a951c36e83bcc918927d1792a8c458b226",
+    "post_url": "https://www.reddit.com/r/RealRepLadies/comments/1q2yn0z/",
+    "author": "constant_777",
+    "subreddit": "RealRepLadies",
+    "capture_date": "2026-08-14",
+    "removal_checked_at": "2026-08-14",
+    "sha256": "29bd5952c3b22043eb145450e0a10e806f881d694927c021f9eb08f0d03d77d1",
+    "width": 3931,
+    "height": 5242,
+    "research_purpose": "Receipt-linked community variant-tile image for the Neverfull-style Monogram MM variant.",
+    "alt": "Brown Monogram Neverfull-style MM photographed by a Reddit reviewer in a casual home setting.",
+    "source_platform": "Reddit",
+    "usage_scope": "variant_tile",
+    "evidence_id": "ev-rll-neverfull-constant"
   }
 ]
