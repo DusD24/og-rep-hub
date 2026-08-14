@@ -942,6 +942,58 @@
     "tile_media_id": "media-small-grained-calfskin-black-ruthenium-hw-1ql7061"
   },
   {
+    "id": "bag-c25-mini-metallic-silver",
+    "name": "Chanel 25 Mini Metallic Silver",
+    "size": "Mini",
+    "pattern": "quilted metallic finish",
+    "colorway": "metallic silver",
+    "priority": "secondary-priority",
+    "family_id": "bag-family-chanel-25",
+    "material": "leather (source-reported)",
+    "hardware": "not documented in current public sources",
+    "official_reference_url": "https://www.chanel.com/us/fashion/handbags/",
+    "tile_media_id": "media-1qy3dlq-01"
+  },
+  {
+    "id": "bag-c25-mini-metallic-rose-gold",
+    "name": "Chanel 25 Mini Metallic Rose Gold",
+    "size": "Mini",
+    "pattern": "quilted metallic finish",
+    "colorway": "metallic rose gold",
+    "priority": "secondary-priority",
+    "family_id": "bag-family-chanel-25",
+    "material": "leather (source-reported)",
+    "hardware": "not documented in current public sources",
+    "official_reference_url": "https://www.chanel.com/us/fashion/handbags/",
+    "tile_media_id": "media-1san8tu-01"
+  },
+  {
+    "id": "bag-c25-small-caramel",
+    "name": "Chanel 25 Small Caramel",
+    "size": "Small",
+    "pattern": "quilted",
+    "colorway": "caramel",
+    "priority": "secondary-priority",
+    "family_id": "bag-family-chanel-25",
+    "material": "not documented in current public sources",
+    "hardware": "not documented in current public sources",
+    "official_reference_url": "https://www.chanel.com/us/fashion/handbags/",
+    "tile_media_id": "media-1v0vl8u-08"
+  },
+  {
+    "id": "bag-c25-mini-black-gunmetal",
+    "name": "Chanel 25 Mini Black Gunmetal Hardware",
+    "size": "Mini",
+    "pattern": "quilted",
+    "colorway": "black",
+    "priority": "secondary-priority",
+    "family_id": "bag-family-chanel-25",
+    "material": "not documented in current public sources",
+    "hardware": "gunmetal hardware (source-reported)",
+    "official_reference_url": "https://www.chanel.com/us/fashion/handbags/",
+    "tile_media_id": "media-1ud0mej-04"
+  },
+  {
     "id": "bag-puzzle-edge-large-33cm-grained-calfskin-black",
     "name": "Loewe Puzzle Edge Large 33 cm Grained Calfskin Black",
     "size": "Large (33cm, current version)",
